@@ -1,0 +1,49 @@
+{
+  "description": "Redaktionella bevakningsområden för IBATs morgonPOD",
+  "coverage": [
+    {
+      "topic": "Informationsförsörjning och dataplattformar",
+      "description": "Datadelning, integrationer, datakvalitet, interoperabilitet, metadata, kunskapslager, sökfunktioner och gemensamma lägesbilder."
+    },
+    {
+      "topic": "AI för informationsanalys",
+      "description": "AI-agenter, RAG, generativ AI, multimodal analys, automatisk taggning, entitetsidentifiering, mänsklig kontroll och konkret myndighetsnytta."
+    },
+    {
+      "topic": "OSINT och analysmetoder",
+      "description": "Öppna källor, grafanalys, nätverksanalys, geospatial analys, tidslinjer, samband, visualisering och nya analysverktyg."
+    },
+    {
+      "topic": "Digital utveckling i rättsväsende och offentlig sektor",
+      "description": "Konkreta digitala införanden, informationssystem, operativt stöd, forskning och erfarenheter från Sverige och internationellt."
+    },
+    {
+      "topic": "Palantir och jämförbara plattformar",
+      "description": "Gotham, Foundry, AIP, avtal, upphandlingar, integrationer, användning, risker, kritik och alternativa plattformar."
+    },
+    {
+      "topic": "Juridik, integritet och informationssäkerhet",
+      "description": "AI-förordningen, dataskydd, sekretess, informationsutbyte, rättspraxis, behörigheter, spårbarhet och cybersäkerhet."
+    },
+    {
+      "topic": "Myndighetssamverkan och totalförsvar",
+      "description": "Nationell och internationell samverkan, gemensamma system, digital säkerhet och informationsdelning."
+    },
+    {
+      "topic": "Hotbilder och brottslighetens utveckling",
+      "description": "Nya digitala tillvägagångssätt, organiserad brottslighet, internationella samband och konsekvenser för analysbehov."
+    },
+    {
+      "topic": "Forskning och teknisk innovation",
+      "description": "Studier, utvärderingar, pilotprojekt, öppna standarder och tekniska förmågor med praktisk verksamhetsnytta."
+    },
+    {
+      "topic": "Konferenser och kunskapsutbyte",
+      "description": "Externa konferenser, seminarier, webbinarier och mässor inom gruppens bevakningsområden. På söndagar även nya anmälningsmöjligheter längre fram i tiden."
+    },
+    {
+      "topic": "Viktiga omvärldshändelser",
+      "description": "Stora händelser i Sverige och världen med relevans för säkerhet, teknik, samhälle och myndigheternas uppdrag."
+    }
+  ]
+}
