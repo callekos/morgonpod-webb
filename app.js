@@ -19,3 +19,6 @@ document.querySelectorAll('[data-brief]').forEach(b=>b.onclick=()=>{const panel=
 document.querySelectorAll('[data-archive]').forEach(b=>b.onclick=()=>{const i=Number(b.dataset.archive),panel=$('archive-brief-'+i),opening=panel.hidden;b.textContent=opening?'Dölj':'Läs';b.setAttribute('aria-expanded',String(opening));showBrief(safePath(eps[i+1].brief),'archive-brief-'+i)});
 $('share').onclick=async()=>{try{if(navigator.share)await navigator.share({title:eps[0].title,url:location.href});else{await navigator.clipboard.writeText(location.href);$('share').textContent='Länk kopierad'}}catch{}};
 }catch(e){$('featured').textContent='Kunde inte hämta avsnitten.';console.error(e)}}load();
+
+async function loadCoverage(){const el=$('coverage-list');if(!el)return;try{const r=await fetch('coverage.json');if(!r.ok)throw Error('Bevakning saknas');const data=await r.json();if(!Array.isArray(data.coverage))throw Error('Fel format');el.innerHTML=data.coverage.map((item,i)=>'<article class="coverage-item"><span class="coverage-number">'+String(i+1).padStart(2,'0')+'</span><div><h3>'+esc(item.topic)+'</h3><p>'+esc(item.description)+'</p></div></article>').join('')}catch(e){el.textContent='Bevakningsområdena kunde inte hämtas just nu.'}}
+loadCoverage();
