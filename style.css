@@ -85,3 +85,12 @@
 .coverage-future p{max-width:680px;color:#c4d2ca;margin:0 0 14px}
 .coverage-planned{display:inline-block;border:1px solid #5a7462;border-radius:20px;color:#b5c7b9;padding:5px 12px;font-size:12px}
 @media(max-width:700px){.coverage-list{grid-template-columns:1fr}.coverage-item{padding:17px}.coverage-future{padding:19px}}
+
+.install-prompt{position:fixed;z-index:100;bottom:22px;right:22px;width:min(380px,calc(100vw - 32px));padding:24px;background:#1b2923;border:1px solid #597b60;border-radius:16px;box-shadow:0 20px 70px #0009}
+.install-prompt[hidden],.install-action[hidden]{display:none!important}
+.install-prompt h3{margin:6px 24px 8px 0;font-size:20px}
+.install-prompt p{font-size:14px;color:#d1ded5;line-height:1.65;margin:0 0 14px}
+.install-close{position:absolute;top:12px;right:14px;border:0;background:transparent;color:#d5e1d7;font-size:27px;cursor:pointer}
+.install-action{background:var(--green);color:#102018;border:0;border-radius:24px;padding:10px 17px;font-weight:800;cursor:pointer;margin-right:12px}
+.install-later{background:transparent;color:#c9d8cf;border:0;text-decoration:underline;text-underline-offset:3px;cursor:pointer;padding:8px}
+@media(max-width:560px){.install-prompt{bottom:12px;right:12px;left:12px;width:auto;padding:20px}}
