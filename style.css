@@ -94,3 +94,12 @@
 .install-action{background:var(--green);color:#102018;border:0;border-radius:24px;padding:10px 17px;font-weight:800;cursor:pointer;margin-right:12px}
 .install-later{background:transparent;color:#c9d8cf;border:0;text-decoration:underline;text-underline-offset:3px;cursor:pointer;padding:8px}
 @media(max-width:560px){.install-prompt{bottom:12px;right:12px;left:12px;width:auto;padding:20px}}
+
+/* Telegram subscription */
+.subscribe-section{margin:36px 0 52px;padding:30px 32px;border:1px solid #486b4e;border-radius:16px;background:linear-gradient(115deg,#20362a,#15231c)}
+.subscribe-section h2{margin:8px 0 12px;font-size:clamp(23px,3vw,31px);letter-spacing:-.5px}
+.subscribe-section>p{color:#cbd9cf;line-height:1.75;max-width:690px;margin:0 0 20px}
+.subscribe-telegram{display:inline-flex;align-items:center;justify-content:center;background:var(--green,#b8f57b);color:#122219!important;text-decoration:none;border-radius:999px;padding:13px 21px;font-weight:800;transition:transform .15s ease,filter .15s ease}
+.subscribe-telegram:hover{transform:translateY(-2px);filter:brightness(1.06)}
+.subscribe-section .subscribe-note{font-size:12px;color:#a9bcad;margin:12px 0 0}
+@media(max-width:560px){.subscribe-section{padding:23px 19px;margin:28px 0 40px}.subscribe-telegram{width:100%;text-align:center}}
