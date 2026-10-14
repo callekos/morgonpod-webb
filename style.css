@@ -103,3 +103,10 @@
 .subscribe-telegram:hover{transform:translateY(-2px);filter:brightness(1.06)}
 .subscribe-section .subscribe-note{font-size:12px;color:#a9bcad;margin:12px 0 0}
 @media(max-width:560px){.subscribe-section{padding:23px 19px;margin:28px 0 40px}.subscribe-telegram{width:100%;text-align:center}}
+
+/* Primary hero subscription action */
+.hero-actions{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:20px}
+.hero-actions .hero-button{margin:0}
+.hero-subscribe{display:inline-flex;align-items:center;justify-content:center;padding:12px 19px;border:1px solid #aef47d;border-radius:999px;color:#b9f77f!important;text-decoration:none;font-size:14px;font-weight:750;transition:background .15s ease}
+.hero-subscribe:hover{background:#284335}
+@media(max-width:560px){.hero-actions{align-items:stretch}.hero-subscribe{font-size:13px}}
