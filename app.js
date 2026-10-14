@@ -22,3 +22,27 @@ $('share').onclick=async()=>{try{if(navigator.share)await navigator.share({title
 
 async function loadCoverage(){const el=$('coverage-list');if(!el)return;try{const r=await fetch('coverage.json');if(!r.ok)throw Error('Bevakning saknas');const data=await r.json();if(!Array.isArray(data.coverage))throw Error('Fel format');el.innerHTML=data.coverage.map((item,i)=>'<article class="coverage-item"><span class="coverage-number">'+String(i+1).padStart(2,'0')+'</span><div><h3>'+esc(item.topic)+'</h3><p>'+esc(item.description)+'</p></div></article>').join('')}catch(e){el.textContent='Bevakningsområdena kunde inte hämtas just nu.'}}
 loadCoverage();
+
+let deferredInstallPrompt=null;
+window.addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredInstallPrompt=event;showInstallPrompt()});
+window.addEventListener('appinstalled',()=>{deferredInstallPrompt=null;const el=$('install-prompt');if(el)el.hidden=true});
+function showInstallPrompt(){
+ const panel=$('install-prompt'),message=$('install-instructions'),action=$('install-action');
+ if(!panel||!message||!action||window.matchMedia('(display-mode: standalone)').matches||navigator.standalone||sessionStorage.getItem('install-dismissed'))return;
+ const ua=navigator.userAgent;const ios=/iPhone|iPad|iPod/.test(ua);const android=/Android/.test(ua);const mac=/Macintosh/.test(ua);
+ const safari=/Safari/.test(ua)&&!/CriOS|Chrome|Edg|FxiOS/.test(ua);
+ if(ios){message.textContent=safari?'I Safari: tryck på Dela och välj Lägg till på hemskärmen.':'Öppna sidan i Safari, tryck på Dela och välj Lägg till på hemskärmen.'}
+ else if(android){message.textContent='Öppna webbläsarens meny och välj Installera app eller Lägg till på startskärmen.'}
+ else if(mac){message.textContent=safari?'I Safari: välj Arkiv och Lägg till i Dock.':'I Chrome eller Edge: använd installationssymbolen i adressfältet eller webbläsarens meny.'}
+ else {message.textContent='I Chrome eller Edge: klicka på installationssymbolen i adressfältet eller välj Installera app i menyn.'}
+ action.hidden=!deferredInstallPrompt;
+ panel.hidden=false;
+}
+document.addEventListener('DOMContentLoaded',()=>{
+ const close=()=>{const panel=$('install-prompt');if(panel)panel.hidden=true;sessionStorage.setItem('install-dismissed','1')};
+ $('install-close')?.addEventListener('click',close);
+ $('install-later')?.addEventListener('click',close);
+ $('install-action')?.addEventListener('click',async()=>{if(!deferredInstallPrompt)return;const prompt=deferredInstallPrompt;deferredInstallPrompt=null;await prompt.prompt();close()});
+ setTimeout(showInstallPrompt,2500);
+ if('serviceWorker' in navigator)navigator.serviceWorker.register('./sw.js').catch(err=>console.warn('Service worker kunde inte registreras',err));
+});
