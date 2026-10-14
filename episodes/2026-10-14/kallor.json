@@ -1,32 +1,32 @@
 [
   {
-    "source": "AI och informationsförsörjning",
-    "title": "Ingenjör åtalad för avlyssning på OpenAI:s huvudkontor",
-    "url": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/"
+    "source": "AI för informationsanalys",
+    "title": "OpenAI-anställd gripen av FBI för avlyssning",
+    "url": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_medium=RSS&at_campaign=rss"
   },
   {
-    "source": "Större nyheter i Sverige och världen",
-    "title": "Starlink-strypning försvårar ukrainska militäroperationer",
+    "source": "Myndighetssamverkan och totalförsvar",
+    "title": "Begränsningar i Starlink stör ukrainska militära operationer",
     "url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss"
   },
   {
-    "source": "Polis, rättsväsende och säkerhet",
-    "title": "Europol slår till mot digital beställningsvåld",
+    "source": "Hotbilder och brottslighetens utveckling",
+    "title": "Internationellt tillslag mot våldsnätverk på uppdrag",
     "url": "https://www.europol.europa.eu/media-press/newsroom/news/ordering-violence-abroad-five-suspects-arrested-in-spain-morocco-and-france"
   },
   {
-    "source": "Polis, rättsväsende och säkerhet",
-    "title": "Övervakningskamera fällde sprängdömd tonåring i Nykvarn",
+    "source": "Juridik, integritet och informationssäkerhet",
+    "title": "Säkerhetsmyndigheter stänger ransomware-gruppen KillSecs läckagesajt",
+    "url": "https://www.europol.europa.eu/media-press/newsroom/news/teenager-suspected-of-leading-killsec-ransomware-group-law-enforcement-seizes-servers-and-leak-site"
+  },
+  {
+    "source": "Forskning och teknisk innovation",
+    "title": "Anthropic varnar för själv-replikerande AI i IoT-enheter",
+    "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/"
+  },
+  {
+    "source": "Hotbilder och brottslighetens utveckling",
+    "title": "Fällande dom för sprängattentat i Nykvarn",
     "url": "https://www.svt.se/nyheter/lokalt/sodertalje/pojken-doms-for-dadet-i-nykvarn-han-fangas-pa-video-nar-bomben-placeras-ut"
-  },
-  {
-    "source": "AI och informationsförsörjning",
-    "title": "Europol varnar för digital brottslighet och kvantdatorhot",
-    "url": "https://www.europol.europa.eu/media-press/newsroom/news/europol-urges-early-action-to-protect-cryptocurrencies-and-sensitive-data-quantum-threats"
-  },
-  {
-    "source": "Polis, rättsväsende och säkerhet",
-    "title": "VD bemöter polisrazzia vid SSAB i Oxelösund",
-    "url": "https://www.svt.se/nyheter/lokalt/sormland/ssabs-vd-om-polisrazzian-arbetarna-har-ratt-att-jobba-har"
   }
 ]
