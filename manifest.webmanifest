@@ -1,0 +1,18 @@
+{
+  "name": "IBATs morgonPOD",
+  "short_name": "morgonPOD",
+  "description": "Din dagliga OSINTbrief med ljud och läsning",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#101414",
+  "theme_color": "#101414",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
