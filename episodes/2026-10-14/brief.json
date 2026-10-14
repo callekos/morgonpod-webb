@@ -1,49 +1,49 @@
 {
-  "title": "IBATs morgonPOD – 14 oktober 2026: Spioneri mot AI-jätte, Starlink-störningar och internationella polisslag",
-  "intro": "God morgon. Det här är IBATs morgonPOD för onsdagen den 14 oktober 2026. Vi går igenom morgonens viktigaste underrättelse- och säkerhetsnyheter: industrispionage mot OpenAI, Ukrainas problem med Starlink vid fronten, Europols tillslag mot beställningsvåld och utpressningstrojaner, samt den fällande domen efter villasprängningen i Nykvarn.",
-  "outlook": "Under de kommande dagarna riktas uppmärksamheten mot den rättsliga utvecklingen kring Nord Stream-rättegången i Tyskland och reaktionerna från internationella aktörer. På cybersidan följer vi efterdyningarna av KillSec-tillslaget och om fragment av nätverket återuppstår. Därtill kvarstår frågan kring stabiliteten i Starlink-nätet för Ukrainas försvarsmakt.",
+  "title": "IBATs morgonPOD: Spioneri mot OpenAI, digital brottslighet och drönarkrigets infrastruktur",
+  "intro": "Dagens brief fokuserar på industrispionage inom ledande AI-bolag, Ukrainas begränsningar via satellitsystemet Starlink samt internationella insatser mot organiserad brottslighet och våldsrekrytering.",
+  "outlook": "Fokus framåt ligger på rättsprocesserna kring industrispionage i AI-sektorn och förhandlingarna om stabila satellitlänkar vid frontlinjen.",
   "news": [
     {
       "category": "AI och informationsförsörjning",
-      "title": "Saudi employee charged with planting recording device in OpenAI office",
-      "summary": "En anställd vid OpenAI har gripits och åtalats för att ha placerat ut avlyssningsutrustning i ett av företagets mötesrum. Enligt åklagare hittades avlyssningsenheten invirad i toalettpapper och ansluten till en USB-port bakom en tv i ett chefsrum. Mannen, som arbetat för företaget i över ett år, utreds av FBI och anklagas för utländskt spionage.",
-      "context": "Fallet belyser en eskalerande hotbild rörande insiderhot och industrispionage riktat mot spetsföretag inom artificiell intelligens, där modellarkitektur och strategiska beslut utgör kritiska tillgångar för främmande makter.",
-      "url": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_medium=RSS&at_campaign=rss"
+      "title": "Ingenjör åtalad för avlyssning på OpenAI:s huvudkontor",
+      "summary": "En anställd har gripits av FBI och åtalas för att ha placerat en avlyssningsapparat i ett ledningsmötesrum hos artificiell intelligens-bolaget OpenAI. Enligt åklagare hittades inspelningsenheten ansluten till en USB-port bakom en tv, inlindad i toalettpapper. Den misstänkte mannen hade arbetat på företaget i över ett år innan upptäckten gjordes.",
+      "context": "Händelsen visar på konkreta insiderhot mot strategiskt viktig AI-infrastruktur och belyser sårbarheter kring fysiskt skydd hos teknikjättarna.",
+      "url": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/"
     },
     {
-      "category": "AI och informationsförsörjning",
-      "title": "Musk says any limits on Ukraine's Starlink access down to US, not his firm",
-      "summary": "Ukrainska styrkor möter hastighetsbegränsningar och anslutningsstörningar på Starlinks satellitnätverk, vilket enligt militära källor stör pågående insatser vid fronten. Elon Musk uppger att eventuella begränsningar beror på amerikanska myndigheters direktiv och inte bolaget självt. Ukrainska företrädare noterar viss förbättring men understryker att systemets begränsningar skapar kritiska operativa problem.",
-      "context": "Satellitkommunikationen utgör ryggraden i Ukrainas taktiska ledningssystem, och incidenten visar på den strategiska sårbarheten i att vara beroende av kommersiella teknikinfrastrukturer i krigszoner.",
+      "category": "Större nyheter i Sverige och världen",
+      "title": "Starlink-strypning försvårar ukrainska militäroperationer",
+      "summary": "Ukrainska styrkor har drabbats av begränsningar och hastighetssänkningar i satellitnätverket Starlink, vilket enligt uppgifter stör uppdrag på slagfältet. Elon Musk uppger att restriktioner för Ukrainas uppkoppling styrs av amerikanska myndigheter och inte av bolaget självt. Nätverket utgör en central ryggrad för militär kommunikation och inhämtning vid fronten.",
+      "context": "Satellitkommunikationens stabilitet är helt avgörande för ukrainsk ledningsförmåga och drönaroperationer, vilket gör beroendet av civila leverantörer till en sårbar punkt.",
       "url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss"
     },
     {
       "category": "Polis, rättsväsende och säkerhet",
-      "title": "Ordering violence from abroad: five suspects arrested in Spain, Morocco, and France",
-      "summary": "Fem personer har gripits i Spanien, Marocko och Frankrike i en samordnad insats inom Europols operativa arbetsgrupp GRIMM. Gripandena riktar in sig mot toppskiktet inom nätverk som tillhandahåller grovt våld som en tjänst. De misstänkta anklagas för att ha beställt våldsdåd och rekryterat utförare över nationsgränserna.",
-      "context": "Arbetsmodellen 'violence-as-a-service' är en central utmaning för europeisk polis, då organisatörer sitter i tredjeland och styr lokala attentat via digitala kanaler.",
+      "title": "Europol slår till mot digital beställningsvåld",
+      "summary": "Fem personer har gripits i Spanien, Marocko och Frankrike inom ramen för den Europol-koordinerade insatsen Taskforce GRIMM. Utredningen riktar in sig mot ledarskiktet bakom våld som tjänst, där attentat beställs och utförs via internationella uppdragstagare. Gripandena genomfördes efter samordnade insatser i augusti och september.",
+      "context": "Insatsen belyser trenden där organiserad brottslighet outsourcar våldshandlingar över gränserna, vilket kräver djupare internationell underrättelsesamverkan.",
       "url": "https://www.europol.europa.eu/media-press/newsroom/news/ordering-violence-abroad-five-suspects-arrested-in-spain-morocco-and-france"
     },
     {
       "category": "Polis, rättsväsende och säkerhet",
-      "title": "Teenager suspected of leading KillSec ransomware group as law enforcement seizes servers and leak site",
-      "summary": "Polismyndigheter har tagit kontroll över servrar och dataläckagesajten tillhörande utpressningsgruppen KillSec. Samtidigt misstänks en tonåring för att ha lett gruppen, som pressat organisationer på lösensummor under hot om att publicera stulen information. Vid tillslaget säkrades minst 110 terabyte data mot otillbörlig åtkomst.",
-      "context": "Aktionen markerar ett viktigt framsteg mot organiserad cyberbrottslighet och visar hur unga individer i ledande roller kan orskaka massiva cyberhot med internationell räckvidd.",
-      "url": "https://www.europol.europa.eu/media-press/newsroom/news/teenager-suspected-of-leading-killsec-ransomware-group-law-enforcement-seizes-servers-and-leak-site"
-    },
-    {
-      "category": "Polis, rättsväsende och säkerhet",
-      "title": "Nu döms pojken för dådet i Nykvarn – fångas på video när bomben placeras ut",
-      "summary": "En 17-årig pojke har dömts till nio månaders sluten ungdomsvård för en sprängning mot en villa i Taxinge utanför Nykvarn i mars. Övervakningskameror på fastigheten fångade både händelseförloppet när sprängladdningen placerades ut och själva detonationen. Bildbevisningen utgjorde en central del av underlaget för tingsrättens fällande dom.",
-      "context": "Domen belyser det fortsatta mönstret med unga utförare i svenska gängrelaterade sprängdåd, samtidigt som teknisk bevisning via privata kamerasystem fortsätter vara avgörande för lagföring.",
+      "title": "Övervakningskamera fällde sprängdömd tonåring i Nykvarn",
+      "summary": "En 17-årig pojke har dömts till nio månaders sluten ungdomsvård efter en sprängning mot en villa utanför Nykvarn i mars. Detonationen och utplaceringen av laddningen fångades i sin helhet av fastighetens övervakningskameror. Bildmaterialet utgjorde en central del av bevisningen som ledde fram till den fällande domen.",
+      "context": "Fallet understryker den avgörande rollen teknisk bevisning och kamerasystem spelar för att binda unga utförare till grova våldsdåd i gängmiljön.",
       "url": "https://www.svt.se/nyheter/lokalt/sodertalje/pojken-doms-for-dadet-i-nykvarn-han-fangas-pa-video-nar-bomben-placeras-ut"
     },
     {
-      "category": "Större nyheter i Sverige och världen",
-      "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
-      "summary": "En rättegång har inletts i Tyskland mot den ukrainske medborgaren Serhii Kuznetsov, fyra år efter sabotaget mot Nord Stream-gasledningarna i Östersjön. Kuznetsov står åtalad för inblandning i konspirationen som ledde till sprängningen av rörledningarna mellan Ryssland och Tyskland. Processen är ett juridiskt kulmen på en av modern tids mest uppmärksammade sabotageutredningar.",
-      "context": "Rättsprocessen berör skyddet av kritisk undervattensinfrastruktur och får direkta säkerhetspolitiska följder för relationerna mellan Ukraina, Tyskland och övriga västländer.",
-      "url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss"
+      "category": "AI och informationsförsörjning",
+      "title": "Europol varnar för digital brottslighet och kvantdatorhot",
+      "summary": "Under ett möte för europeiska polischefer konstaterade Europols ledning att organiserad brottslighet i dag är helt digitaliserad i sin grundstruktur. Samtidigt varnar organisationen för att tidiga motåtgärder krävs för att skydda kryptovalutor och känsliga data från framtida kvantdatorattacker. Europol manar därför medlemsstaterna att bygga upp system med kryptografisk flexibilitet.",
+      "context": "Myndigheternas analys pekar på att teknikanpassning inte längre är ett stödverktyg utan kärnan i modern brottsbekämpning och informationssäkerhet.",
+      "url": "https://www.europol.europa.eu/media-press/newsroom/news/europol-urges-early-action-to-protect-cryptocurrencies-and-sensitive-data-quantum-threats"
+    },
+    {
+      "category": "Polis, rättsväsende och säkerhet",
+      "title": "VD bemöter polisrazzia vid SSAB i Oxelösund",
+      "summary": "Tjugo filippinska arbetare togs i förvar efter en polisrazzia mot SSAB:s anläggning i Oxelösund. Företagets verkställande direktör Johnny Sjöström avvisar medieuppgifterna och hävdar bestämt att personerna har full rätt att arbeta i landet. Polisens ingripande skedde inom ramen för kontroll av arbetskraft och tillstånd.",
+      "context": "Händelsen visar hur myndighetssamverkan mot misstänkt arbetslivskriminalitet drabbar även tung basindustri, där juridiska tvister om tillstånd ofta uppstår.",
+      "url": "https://www.svt.se/nyheter/lokalt/sormland/ssabs-vd-om-polisrazzian-arbetarna-har-ratt-att-jobba-har"
     }
   ]
 }
