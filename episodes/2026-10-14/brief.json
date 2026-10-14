@@ -1,0 +1,49 @@
+{
+  "title": "IBATs morgonPOD – 14 oktober 2026: Spioneri mot AI-jätte, Starlink-störningar och internationella polisslag",
+  "intro": "God morgon. Det här är IBATs morgonPOD för onsdagen den 14 oktober 2026. Vi går igenom morgonens viktigaste underrättelse- och säkerhetsnyheter: industrispionage mot OpenAI, Ukrainas problem med Starlink vid fronten, Europols tillslag mot beställningsvåld och utpressningstrojaner, samt den fällande domen efter villasprängningen i Nykvarn.",
+  "outlook": "Under de kommande dagarna riktas uppmärksamheten mot den rättsliga utvecklingen kring Nord Stream-rättegången i Tyskland och reaktionerna från internationella aktörer. På cybersidan följer vi efterdyningarna av KillSec-tillslaget och om fragment av nätverket återuppstår. Därtill kvarstår frågan kring stabiliteten i Starlink-nätet för Ukrainas försvarsmakt.",
+  "news": [
+    {
+      "category": "AI och informationsförsörjning",
+      "title": "Saudi employee charged with planting recording device in OpenAI office",
+      "summary": "En anställd vid OpenAI har gripits och åtalats för att ha placerat ut avlyssningsutrustning i ett av företagets mötesrum. Enligt åklagare hittades avlyssningsenheten invirad i toalettpapper och ansluten till en USB-port bakom en tv i ett chefsrum. Mannen, som arbetat för företaget i över ett år, utreds av FBI och anklagas för utländskt spionage.",
+      "context": "Fallet belyser en eskalerande hotbild rörande insiderhot och industrispionage riktat mot spetsföretag inom artificiell intelligens, där modellarkitektur och strategiska beslut utgör kritiska tillgångar för främmande makter.",
+      "url": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "category": "AI och informationsförsörjning",
+      "title": "Musk says any limits on Ukraine's Starlink access down to US, not his firm",
+      "summary": "Ukrainska styrkor möter hastighetsbegränsningar och anslutningsstörningar på Starlinks satellitnätverk, vilket enligt militära källor stör pågående insatser vid fronten. Elon Musk uppger att eventuella begränsningar beror på amerikanska myndigheters direktiv och inte bolaget självt. Ukrainska företrädare noterar viss förbättring men understryker att systemets begränsningar skapar kritiska operativa problem.",
+      "context": "Satellitkommunikationen utgör ryggraden i Ukrainas taktiska ledningssystem, och incidenten visar på den strategiska sårbarheten i att vara beroende av kommersiella teknikinfrastrukturer i krigszoner.",
+      "url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "category": "Polis, rättsväsende och säkerhet",
+      "title": "Ordering violence from abroad: five suspects arrested in Spain, Morocco, and France",
+      "summary": "Fem personer har gripits i Spanien, Marocko och Frankrike i en samordnad insats inom Europols operativa arbetsgrupp GRIMM. Gripandena riktar in sig mot toppskiktet inom nätverk som tillhandahåller grovt våld som en tjänst. De misstänkta anklagas för att ha beställt våldsdåd och rekryterat utförare över nationsgränserna.",
+      "context": "Arbetsmodellen 'violence-as-a-service' är en central utmaning för europeisk polis, då organisatörer sitter i tredjeland och styr lokala attentat via digitala kanaler.",
+      "url": "https://www.europol.europa.eu/media-press/newsroom/news/ordering-violence-abroad-five-suspects-arrested-in-spain-morocco-and-france"
+    },
+    {
+      "category": "Polis, rättsväsende och säkerhet",
+      "title": "Teenager suspected of leading KillSec ransomware group as law enforcement seizes servers and leak site",
+      "summary": "Polismyndigheter har tagit kontroll över servrar och dataläckagesajten tillhörande utpressningsgruppen KillSec. Samtidigt misstänks en tonåring för att ha lett gruppen, som pressat organisationer på lösensummor under hot om att publicera stulen information. Vid tillslaget säkrades minst 110 terabyte data mot otillbörlig åtkomst.",
+      "context": "Aktionen markerar ett viktigt framsteg mot organiserad cyberbrottslighet och visar hur unga individer i ledande roller kan orskaka massiva cyberhot med internationell räckvidd.",
+      "url": "https://www.europol.europa.eu/media-press/newsroom/news/teenager-suspected-of-leading-killsec-ransomware-group-law-enforcement-seizes-servers-and-leak-site"
+    },
+    {
+      "category": "Polis, rättsväsende och säkerhet",
+      "title": "Nu döms pojken för dådet i Nykvarn – fångas på video när bomben placeras ut",
+      "summary": "En 17-årig pojke har dömts till nio månaders sluten ungdomsvård för en sprängning mot en villa i Taxinge utanför Nykvarn i mars. Övervakningskameror på fastigheten fångade både händelseförloppet när sprängladdningen placerades ut och själva detonationen. Bildbevisningen utgjorde en central del av underlaget för tingsrättens fällande dom.",
+      "context": "Domen belyser det fortsatta mönstret med unga utförare i svenska gängrelaterade sprängdåd, samtidigt som teknisk bevisning via privata kamerasystem fortsätter vara avgörande för lagföring.",
+      "url": "https://www.svt.se/nyheter/lokalt/sodertalje/pojken-doms-for-dadet-i-nykvarn-han-fangas-pa-video-nar-bomben-placeras-ut"
+    },
+    {
+      "category": "Större nyheter i Sverige och världen",
+      "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
+      "summary": "En rättegång har inletts i Tyskland mot den ukrainske medborgaren Serhii Kuznetsov, fyra år efter sabotaget mot Nord Stream-gasledningarna i Östersjön. Kuznetsov står åtalad för inblandning i konspirationen som ledde till sprängningen av rörledningarna mellan Ryssland och Tyskland. Processen är ett juridiskt kulmen på en av modern tids mest uppmärksammade sabotageutredningar.",
+      "context": "Rättsprocessen berör skyddet av kritisk undervattensinfrastruktur och får direkta säkerhetspolitiska följder för relationerna mellan Ukraina, Tyskland och övriga västländer.",
+      "url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
