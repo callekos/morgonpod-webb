@@ -46,3 +46,27 @@
 .brief-panel[hidden],.archive-brief[hidden],.sources-panel[hidden]{display:none!important}
 .brief-button[aria-expanded="true"]{background:#304339}
 @media(max-width:560px){.sources-panel{padding:18px}.source-heading h3{font-size:22px}}
+
+/* Editorial headline overview, one expanded article at a time */
+.brief-overview{padding-bottom:18px}
+.brief-overview h3{margin:5px 0 10px;font-size:clamp(22px,3vw,28px);line-height:1.25}
+.brief-overview p{color:#c4d2ca;max-width:780px;margin:0}
+.brief-articles{border-top:1px solid var(--line)}
+.brief-story{border-bottom:1px solid var(--line);background:transparent}
+.brief-story summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 10px 20px 0;cursor:pointer;border-radius:8px}
+.brief-story summary::-webkit-details-marker{display:none}
+.brief-story summary:hover .brief-story-title{color:var(--green)}
+.brief-story summary:focus-visible{outline:2px solid var(--green);outline-offset:3px}
+.brief-story-heading{display:flex;flex-direction:column;gap:5px;min-width:0}
+.brief-story-title{font-size:clamp(16px,2vw,20px);font-weight:760;line-height:1.35;letter-spacing:-.25px;transition:color .15s ease}
+.brief-chevron{flex:0 0 32px;width:32px;height:32px;display:grid;place-items:center;border:1px solid #50685a;border-radius:50%;color:var(--green);font-size:25px;line-height:1;transition:transform .2s ease,background .2s ease}
+.brief-story[open] .brief-chevron{transform:rotate(180deg);background:#304339}
+.brief-story[open] .brief-story-title{color:var(--green)}
+.brief-story-body{padding:0 50px 24px 0;max-width:780px}
+.brief-story-body p{margin:0 0 12px;font-size:15px;line-height:1.8}
+.brief-story-body .brief-context{border-left:3px solid #628b66;padding-left:14px;margin:16px 0;color:#b6c5bc}
+.brief-story-body a{display:inline-block;margin-top:7px;color:var(--green);font-weight:750;font-size:13px;text-underline-offset:3px}
+.brief-outlook{margin-top:22px;padding:18px 20px;background:#1e3027;border:1px solid #3b5948;border-radius:11px}
+.brief-outlook h4{margin:0 0 8px;font-size:17px}
+.brief-outlook p{margin:0;color:#d3dfd5}
+@media(max-width:560px){.brief-story summary{padding:16px 0}.brief-story-body{padding-right:0}.brief-chevron{width:29px;height:29px;flex-basis:29px}.brief-panel,.archive-brief{padding:17px}}
