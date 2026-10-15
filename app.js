@@ -53,6 +53,6 @@ document.addEventListener('DOMContentLoaded',()=>{
  $('install-close')?.addEventListener('click',close);
  $('install-later')?.addEventListener('click',close);
  $('install-action')?.addEventListener('click',async()=>{if(!deferredInstallPrompt)return;const prompt=deferredInstallPrompt;deferredInstallPrompt=null;await prompt.prompt();close()});
- setTimeout(showInstallPrompt,2500);
- if('serviceWorker' in navigator)navigator.serviceWorker.register('./sw.js').catch(err=>console.warn('Service worker kunde inte registreras',err));
+ // PWA-installation is paused until explicitly re-enabled.
+ if('serviceWorker' in navigator)navigator.serviceWorker.getRegistrations().then(regs=>regs.forEach(reg=>reg.unregister())).catch(()=>{});
 });
