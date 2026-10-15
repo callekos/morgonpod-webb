@@ -3,6 +3,24 @@
     {
       "production_schema": 2,
       "kind": "introduction",
+      "duration_seconds": 1782.12,
+      "duration_status": "within_target",
+      "target_minutes": [
+        25,
+        35
+      ],
+      "channel": "kek",
+      "date": "2026-10-15",
+      "title": "Kriminell ekonomi: Uppstartsavsnitt",
+      "description": "Pedagogisk grundkurs och sammanhängande fördjupning.",
+      "audio": "episodes/kek/2026-10-15-intro/morgonpod.mp3",
+      "audio_version": "97c807198eabc8dc",
+      "sources": "episodes/kek/2026-10-15/kallor.json",
+      "brief": "episodes/kek/2026-10-15/brief.json"
+    },
+    {
+      "production_schema": 2,
+      "kind": "introduction",
       "duration_seconds": 1857.816,
       "duration_status": "within_target",
       "target_minutes": [
