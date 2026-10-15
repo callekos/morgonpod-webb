@@ -1,0 +1,28 @@
+{
+  "title": "Ibatt's morgonpodd 2026-10-15: AI-säkerhet, geopolitiska spänningar och digital infrastruktur",
+  "intro": "Idag fokuserar vi på säkerhetsrisker inom AI-sektorn efter ett uppmärksammat spioneriärende hos OpenAI, samt de växande utmaningarna för kritisk infrastruktur i form av Starlink-restriktioner och hot mot undervattenskablar. Vi belyser även Europols senaste framgångar mot internationella kriminella nätverk.",
+  "outlook": "Vi följer utvecklingen kring AI-säkerhet och hur myndigheter hanterar hot mot den digitala infrastrukturen. Imorgon fördjupar vi oss i de senaste rapporterna om sårbarheter i IoT-enheter.",
+  "news": [
+    {
+      "category": "AI för informationsanalys",
+      "title": "OpenAI-ingenjör gripen för spioneri",
+      "summary": "En ingenjör på OpenAI har gripits av FBI misstänkt för att ha placerat ut en avlyssningsutrustning i ett topphemligt mötesrum. Utrustningen ska ha varit gömd i en toalettrulle. Händelsen väcker frågor kring säkerhetsrutiner hos ledande AI-aktörer.",
+      "context": "Incidenten belyser de extrema säkerhetsutmaningar som företag inom AI-utveckling står inför när de hanterar känslig teknologi och företagshemligheter.",
+      "url": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/"
+    },
+    {
+      "category": "Informationsförsörjning och dataplattformar",
+      "title": "Starlink-begränsningar påverkar ukrainska operationer",
+      "summary": "Ukrainska styrkor rapporterar om fortsatta hastighetsbegränsningar i Starlink-nätverket, vilket stör militära uppdrag. Elon Musk har antytt att den amerikanska regeringen kan ligga bakom dessa restriktioner.",
+      "context": "Starlink utgör ryggraden i den ukrainska militära kommunikationen, och begränsningar i systemet får direkta konsekvenser för operativ förmåga på slagfältet.",
+      "url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "category": "Hotbilder och brottslighetens utveckling",
+      "title": "Europol slår till mot internationella nätverk",
+      "summary": "Europol har genomfört omfattande insatser mot kriminella nätverk involverade i narkotikahandel och våldsdåd. Bland annat har nästan 50 personer gripits i en operation riktad mot nätverk på västra Balkan med kopplingar till mord och kidnappningar.",
+      "context": "Internationell samverkan är avgörande för att bekämpa gränsöverskridande organiserad brottslighet som i allt högre grad utnyttjar digitala verktyg.",
+      "url": "https://www.europol.europa.eu/media-press/newsroom/news/almost-50-arrested-police-target-western-balkan-network-linked-to-killings"
+    }
+  ]
+}
