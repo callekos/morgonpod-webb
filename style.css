@@ -110,3 +110,16 @@
 .hero-subscribe{display:inline-flex;align-items:center;justify-content:center;padding:12px 19px;border:1px solid #aef47d;border-radius:999px;color:#b9f77f!important;text-decoration:none;font-size:14px;font-weight:750;transition:background .15s ease}
 .hero-subscribe:hover{background:#284335}
 @media(max-width:560px){.hero-actions{align-items:stretch}.hero-subscribe{font-size:13px}}
+
+/* Three-channel selection, retaining existing podcast player and PWA */
+.channel-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.channel-card{display:flex;align-items:flex-start;gap:12px;min-height:175px;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px 16px;text-align:left;color:var(--text);font:inherit;cursor:pointer}
+.channel-card:hover{background:var(--panel2)}
+.channel-card.selected{border-color:var(--green);box-shadow:inset 0 0 0 1px var(--green)}
+.channel-symbol{display:grid;place-items:center;width:36px;height:36px;border-radius:10px;background:#314537;color:var(--green);flex-shrink:0;font-size:23px}
+.channel-body{display:flex;flex-direction:column;gap:8px;min-width:0}
+.channel-body strong{font-size:19px;line-height:1.2}
+.channel-body small{color:var(--green);font-size:11px}
+.channel-body>span{color:var(--muted);font-size:13px;line-height:1.45}
+.channel-arrow{color:var(--green);margin-left:auto}
+@media(max-width:1100px){.channel-list{grid-template-columns:1fr}.channel-card{min-height:0}}
