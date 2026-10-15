@@ -3,12 +3,12 @@
     {
       "channel": "sjoomradet",
       "date": "2026-10-15",
-      "title": "Sjöområdet: Uppstartsavsnitt – grundläggande lägesförståelse",
-      "description": "Det här är Sjöområdets fördjupande uppstartsavsnitt. Vi går igenom geografi, sjöfart, säkerhetsläget, aktörer och viktiga samband för att skapa en gemensam grund. Kommande avsnitt är kortare och fokuserar på nya händelser, förändringar och vad de betyder för Sverige.",
+      "title": "Sjöområdet torsdag 15 oktober 2026",
+      "description": "Dagens nyheter, analyser och sammanhang från öppna källor",
       "audio": "episodes/sjoomradet/2026-10-15/morgonpod.mp3",
+      "audio_version": "ad3adb2e27cdbca4",
       "sources": "episodes/sjoomradet/2026-10-15/kallor.json",
-      "brief": "episodes/sjoomradet/2026-10-15/brief.json",
-      "audio_version": "e96a510cebbd"
+      "brief": "episodes/sjoomradet/2026-10-15/brief.json"
     },
     {
       "channel": "omvarld",

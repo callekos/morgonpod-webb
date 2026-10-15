@@ -5,50 +5,58 @@
   "news": [
     {
       "category": "Maritim säkerhet",
-      "title": "Tankfartyg utsatt för drönarattack i Svarta havet",
-      "summary": "Ett tankfartyg har utsatts för en drönarattack utanför Rumäniens kust i Svarta havet. Sju besättningsmän saknas och en omfattande räddningsinsats pågår i området. Händelsen understryker de ökade riskerna för handelsfartyg i en region präglad av konflikt.",
-      "context": "Svarta havet är en central ådra för globala energiflöden, och attacker mot sjöfarten får direkta konsekvenser för försörjningskedjor och försäkringskostnader, vilket även påverkar svensk industri.",
+      "title": "Drönarattack mot tankfartyg i Svarta havet",
+      "summary": "Ett tankfartyg har utsatts för en drönarattack utanför Rumäniens kust, vilket lett till brand ombord. En sök- och räddningsinsats pågår för sju saknade besättningsmedlemmar. Händelsen rapporterades den 15 oktober.",
+      "context": "Attacken understryker den ökade risken för civil sjöfart i Svarta havet och hur instabiliteten i regionen direkt påverkar den globala försörjningskedjan.",
       "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&at_campaign=rss",
       "publisher": "BBC News"
     },
     {
       "category": "Kritisk infrastruktur",
-      "title": "Ukrainska militära operationer störs av Starlink-begränsningar",
-      "summary": "Ukrainska styrkor upplever fortsatta hastighetsbegränsningar och störningar i satellitnätverket Starlink. Företrädare för företaget uppger att begränsningarna styrs av amerikanska riktlinjer, vilket skapar osäkerhet kring den militära ledningsförmågan.",
-      "context": "Beroendet av privata, civila satellitsystem i moderna konflikter belyser behovet av redundanta kommunikationsvägar för att säkerställa operativ förmåga vid kris.",
+      "title": "Sårbarhet i satellitkommunikation för militära operationer",
+      "summary": "Ukrainska styrkor upplever fortsatta störningar och hastighetsbegränsningar i Starlink-nätverket. Företaget uppger att begränsningarna styrs av amerikanska riktlinjer, vilket belyser beroendet av privata civila system i krigföring.",
+      "context": "Detta illustrerar den strategiska sårbarheten i att förlita sig på kommersiella satellitsystem för kritisk militär ledning och kommunikation.",
       "url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss",
       "publisher": "Tidigare publicerad morgonbrief"
     },
     {
-      "category": "Kritisk infrastruktur",
-      "title": "Sårbarheter i satellitkommunikation påverkar militära operationer",
-      "summary": "Ukrainska styrkor upplever fortsatta störningar och hastighetsbegränsningar i satellitnätverket Starlink. Enligt BBC News fungerar nätverket som en ryggrad för militär kommunikation, men beroendet av privata civila system skapar strategiska osäkerhetsfaktorer.",
-      "context": "Beroendet av kommersiella satellitsystem i moderna konflikter belyser behovet av redundans och säkerställda kommunikationsvägar för nationell beredskap.",
+      "category": "Teknisk säkerhet",
+      "title": "Anthropic varnar för själv-replikerande AI i IoT-enheter",
+      "summary": "AI-företaget Anthropic har varnat för att mindre, optimerade AI-modeller kan utvecklas till att reproducera sig själva över uppkopplade enheter. Detta skapar en risk för autonoma nätverksmaskar som kan utnyttja sårbarheter i IoT-system.",
+      "context": "För myndigheter innebär detta att hotbilden mot uppkopplade sensorer och kritisk infrastruktur blir betydligt mer komplex när maskininlärning kan exekveras lokalt utan central kontroll.",
+      "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
+      "publisher": "Tidigare publicerad morgonbrief"
+    },
+    {
+      "category": "Cyberhot och infrastruktur",
+      "title": "Rapport om cyberincidenter i Norden",
+      "summary": "En ny rapport från DNV visar att Sverige har drabbats av 60 rapporterade cyberincidenter under 2026, vilket är den högsta siffran i Norden. Rapporten belyser de växande utmaningarna för både offentlig sektor och näringsliv i en tid av ökad digital sårbarhet.",
+      "context": "Siffran understryker ett akut behov av stärkt motståndskraft och förbättrad informationsdelning mellan myndigheter för att skydda samhällskritisk infrastruktur.",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeTF3dEdIZWhzUXVsV2cwajh2aUtzZWJFbHN3RWdMcEpKVkVMak5LaTIwMzAtSVRSUTZtVk85Y09IWVRzU0lCUjRobFlOLUZ1RDNjTGw2N3p1NHpHclVtYzlsNGFEUHdUeVNaNm9TTGhDaXN4NHpPdGVYdGU5S1pzbGhuR1A?oc=5",
+      "publisher": "Tidigare publicerad morgonbrief"
+    },
+    {
+      "category": "Maritim säkerhet och kritisk infrastruktur",
+      "title": "Starlink-störningar påverkar ukrainska operationer",
+      "summary": "Ukrainska styrkor upplever fortsatta problem med hastighetsbegränsningar och avbrott i satellitnätverket Starlink. Enligt BBC News fungerar nätverket som en ryggrad för militär kommunikation, och begränsningarna uppges styras av amerikanska riktlinjer.",
+      "context": "Detta beroende av privata civila satellitsystem belyser en kritisk sårbarhet i modern krigföring och understryker behovet av redundanta kommunikationsvägar för att upprätthålla operativ förmåga.",
       "url": "https://www.bbc.co.uk/news/articles/cqkgk4zg54reo?at_medium=RSS&at_campaign=rss",
       "publisher": "BBC News"
     },
     {
-      "category": "Ukrainakrigets maritima dimension",
-      "title": "Eskalerande spänningar kring energiinfrastruktur",
-      "summary": "Ryssland har riktat anklagelser mot Ukraina för att ha attackerat ett oljeraffinaderi, detta efter att Ukrainas president meddelat att landets pauser i anfall mot ryska energianläggningar nu är över. Enligt BBC News markerar detta ett nytt skede i den maritima och energirelaterade krigföringen. Utvecklingen följer på en period av intensifierade anfall mot kritisk infrastruktur i regionen.",
-      "context": "Att anfall mot energianläggningar återupptas ökar risken för ytterligare incidenter till sjöss, då tankfartyg och terminaler utgör centrala måltavlor i den ekonomiska krigföringen.",
+      "category": "Konflikt och energi",
+      "title": "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume",
+      "summary": "Ryssland anklagar Ukraina för att ha genomfört angrepp mot en oljeraffinaderi, detta efter att president Zelensky meddelat att ukrainska anfall mot ryska energianläggningar återupptas. BBC News rapporterar den 15 oktober att detta sker i en tid av förnyad spänning kring kritisk energiinfrastruktur. Utvecklingen följer på en period av relativt lugn gällande direkta anfall mot oljeinfrastruktur.",
+      "context": "Att energianläggningar återigen blir föremål för direkta angrepp påverkar den regionala energimarknaden och ökar risken för följdverkningar i den maritima logistiken.",
       "url": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss",
       "publisher": "BBC News"
     },
     {
-      "category": "Brottsbekämpning",
-      "title": "Internationellt tillslag mot våldsnätverk",
-      "summary": "Fem personer har gripits i Spanien, Marocko och Frankrike inom ramen för Europol-insatsen Taskforce GRIMM. Nätverket misstänks ha organiserat och köpt grova våldsdåd genom en digitalt samordnad modell.",
-      "context": "Tillslaget belyser hur organiserad brottslighet i allt högre grad använder digitala plattformar för att förmedla beställningsvåld över landsgränser.",
+      "category": "Myndighetssamverkan",
+      "title": "Internationella tillslag mot gränsöverskridande våldsnätverk",
+      "summary": "Inom ramen för Europol-koordinerade insatser, såsom Taskforce GRIMM, har flera misstänkta gripits i Spanien, Marocko och Frankrike. Utredningarna fokuserar på nätverk som säljer våldstjänster och rekryterar utförare över landsgränserna. Detta visar på en ökad användning av digital samordning inom organiserad brottslighet.",
+      "context": "För svenska aktörer som Polismyndigheten och Kustbevakningen är denna typ av internationell underrättelsedelning avgörande för att motverka att liknande brottsliga strukturer får fäste i svenska sjöområden.",
       "url": "https://www.europol.europa.eu/media-press/newsroom/news/ordering-violence-abroad-five-suspects-arrested-in-spain-morocco-and-france",
-      "publisher": "Tidigare publicerad morgonbrief"
-    },
-    {
-      "category": "Kritisk infrastruktur",
-      "title": "Cyberincidenter mot svensk infrastruktur",
-      "summary": "Sverige har under 2026 rapporterat 60 cyberincidenter, vilket är den högsta siffran i Norden enligt en ny rapport från DNV. Utvecklingen visar på en växande digital sårbarhet för både offentlig sektor och näringsliv.",
-      "context": "Denna statistik understryker det kritiska behovet av stärkt motståndskraft och förbättrat informationsutbyte mellan myndigheter för att skydda samhällsviktiga funktioner.",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeTF3dEdIZWhzUXVsV2cwajh2aUtzZWJFbHN3RWdMcEpKVkVMak5LaTIwMzAtSVRSUTZtVk85Y09IWVRzU0lCUjRobFlOLUZ1RDNjTGw2N3p1NHpHclVtYzlsNGFEUHdUeVNaNm9TTGhDaXN4NHpPdGVYdGU5S1pzbGhuR1A?oc=5",
       "publisher": "Tidigare publicerad morgonbrief"
     }
   ]
