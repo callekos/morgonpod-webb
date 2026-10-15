@@ -1,0 +1,31 @@
+{
+  "title": "Kriminell ekonomi: Internationella tillslag mot nätverk och cyberbrottslighet",
+  "intro": "Idag fokuserar vi på omfattande internationella polisinsatser mot organiserad brottslighet och nya hot inom cybersektorn. Vi går igenom hur myndigheter slår mot narkotikanätverk på Balkan och hur Europol nu varnar för kvantdatorers framtida risker för kryptovalutor.",
+  "outlook": "Vi kommer framöver att följa hur myndigheter anpassar sina metoder för att möta den digitala brottslighetens snabba tekniska utveckling.",
+  "news": [
+    {
+      "category": "Internationell kriminell ekonomi",
+      "title": "Stora tillslag mot narkotikanätverk på Balkan",
+      "summary": "Europol rapporterar att närmare 50 personer har gripits i en internationell insats riktad mot ett narkotikanätverk med kopplingar till västra Balkan. Nätverket misstänks ligga bakom en rad grova våldsdåd, inklusive mord, kidnappningar och granatattacker runtom i Europa.",
+      "context": "Dessa insatser understryker den gränsöverskridande karaktären hos dagens organiserade brottslighet och behovet av samordnade polisiära aktioner för att bryta våldsspiraler.",
+      "url": "https://www.europol.europa.eu/media-press/newsroom/news/almost-50-arrested-police-target-western-balkan-network-linked-to-killings",
+      "publisher": "News"
+    },
+    {
+      "category": "Penningtvätt och brottsvinster",
+      "title": "Europol varnar för kvanthot mot kryptovalutor",
+      "summary": "Europol uppmanar nu till proaktiva säkerhetsåtgärder för att skydda kryptovalutor och känslig data mot framtida hot från kvantdatorer. Myndigheten betonar vikten av så kallad krypto-agilitet för att säkerställa att system kan motstå kommande teknologiska angrepp.",
+      "context": "Teknikutvecklingen driver i allt högre grad den kriminella ekonomin, och myndigheter ser ett behov av att ligga steget före för att skydda finansiella tillgångar.",
+      "url": "https://www.europol.europa.eu/media-press/newsroom/news/europol-urges-early-action-to-protect-cryptocurrencies-and-sensitive-data-quantum-threats",
+      "publisher": "News"
+    },
+    {
+      "category": "Internationell kriminell ekonomi",
+      "title": "Ledare för ransomware-grupp gripen",
+      "summary": "En tonåring misstänks ha lett ransomware-gruppen KillSec, som nyligen neutraliserades av brottsbekämpande myndigheter. Vid tillslaget säkrades minst 110 terabyte data som gruppen använt för att utpressa organisationer på lösensummor.",
+      "context": "Beslaget markerar en framgång i kampen mot digital utpressning där kriminella använder stulen data som hävstång för ekonomisk vinning.",
+      "url": "https://www.europol.europa.eu/media-press/newsroom/news/teenager-suspected-of-leading-killsec-ransomware-group-law-enforcement-seizes-servers-and-leak-site",
+      "publisher": "News"
+    }
+  ]
+}
