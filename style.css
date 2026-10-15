@@ -136,3 +136,7 @@ section[hidden]{display:none!important}
 .coverage-toggle-wrap button{width:100%;text-align:center;cursor:pointer;padding:15px;border-radius:12px}
 @media(max-width:700px){.hero{display:flex!important;min-height:0!important;padding:12px 0 6px!important;margin:0!important;justify-content:center!important}.hero-copy{display:none!important}.hero-cover{display:flex!important;justify-content:center!important;align-items:center!important;margin:0 auto!important;width:100%!important}.hero-cover img{width:92px!important;height:92px!important;max-width:92px!important;object-fit:contain!important}.channel-list{display:flex!important;overflow-x:auto;scroll-snap-type:x proximity;gap:8px;padding:3px 2px 10px;scrollbar-width:thin}.channel-card{flex:0 0 auto;min-width:112px;max-width:155px;scroll-snap-align:start;padding:12px 10px!important}.channel-body strong{font-size:13px!important}#channels .heading{margin-bottom:10px!important}.coverage-toggle-wrap{margin:12px 0 25px}}
 @media(min-width:701px){.channel-list{display:flex;flex-wrap:wrap;gap:10px}.channel-card{min-height:0;flex:0 1 190px;padding:15px}.hero-cover img{max-width:210px}}
+
+/* Final compact header: logo appears once, without oversized hero */
+@media(max-width:850px){.content header{height:78px!important}.mobilebrand img{width:54px!important;height:54px!important;object-fit:contain!important}.mobilebrand{font-size:19px!important}#channels .heading{margin-top:17px!important}}
+@media(min-width:851px){.content header{height:36px!important}#channels .heading{margin-top:18px!important}}
