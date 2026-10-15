@@ -1,0 +1,21 @@
+{
+  "description": "Bevakning för Kriminell ekonomi",
+  "coverage": [
+    {
+      "topic": "Penningtvätt och brottsvinster",
+      "description": "Penningtvättsupplägg, brottsvinster, tillgångar och ekonomiska flöden."
+    },
+    {
+      "topic": "Välfärdsbrott och bolagsupplägg",
+      "description": "Organiserade välfärdsbrott, ekonomisk brottslighet och bolagsstrukturer."
+    },
+    {
+      "topic": "Tillgångsinriktad brottsbekämpning",
+      "description": "Förverkande, återtagande av brottsvinster och myndighetssamverkan."
+    },
+    {
+      "topic": "Internationell kriminell ekonomi",
+      "description": "Gränsöverskridande ekonomiska flöden, internationella brottsupplägg och samarbete."
+    }
+  ]
+}
