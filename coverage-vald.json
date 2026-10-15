@@ -1,0 +1,21 @@
+{
+  "description": "Bevakning för Våld",
+  "coverage": [
+    {
+      "topic": "CAAS och VAAS",
+      "description": "Våld kopplat till kriminella aktörer och våldsaktörer i Sverige och internationellt."
+    },
+    {
+      "topic": "Skjutningar och sprängningar",
+      "description": "Verifierade händelser, trender och mönster i det grova våldet."
+    },
+    {
+      "topic": "Konflikter och kriminella nätverk",
+      "description": "Konfliktutveckling och samband som stöds av tillförlitliga öppna källor."
+    },
+    {
+      "topic": "Internationell våldsutveckling",
+      "description": "Gränsöverskridande kopplingar, internationella jämförelser och förändrade våldsmönster."
+    }
+  ]
+}
