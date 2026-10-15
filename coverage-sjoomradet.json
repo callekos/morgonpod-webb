@@ -1,0 +1,29 @@
+{
+  "description": "Fördjupad maritim lägesförståelse med svenska intressen i centrum.",
+  "coverage": [
+    {
+      "topic": "Östersjöns strategiska geografi",
+      "description": "Farleder, sund, hamnar, Gotland, Finska viken och svensk försörjning."
+    },
+    {
+      "topic": "Rysslands skuggflotta och sanktioner",
+      "description": "Oljeexport, tankfartyg, flaggning, ägarstrukturer, försäkringar och miljörisker."
+    },
+    {
+      "topic": "Kriget i Ukraina och Svarta havet",
+      "description": "Marin utveckling, handel, ryska intressen och konsekvenser för Östersjöområdet."
+    },
+    {
+      "topic": "Kritisk infrastruktur och hybridhot",
+      "description": "Kablar, energiförbindelser, GNSS-störningar och säkerhetsincidenter."
+    },
+    {
+      "topic": "Sverige, Ryssland, Nato och EU",
+      "description": "Svenska myndighetsintressen, internationell samverkan och säkerhetspolitik."
+    },
+    {
+      "topic": "Energi, sjöfart och försörjningsberedskap",
+      "description": "Maritima flöden och konsekvenser för svensk ekonomi och samhällssäkerhet."
+    }
+  ]
+}
