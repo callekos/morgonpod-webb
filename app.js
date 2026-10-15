@@ -5,7 +5,7 @@ if(!CHANNELS.some(c=>c.id===activeChannel))activeChannel='ibat';
 function renderChannels(){
  const target=$('channel-list');if(!target)return;
  target.innerHTML=CHANNELS.map(c=>'<button type="button" class="channel-card'+(c.id===activeChannel?' selected':'')+'" data-channel="'+c.id+'" aria-pressed="'+(c.id===activeChannel)+'"><span class="channel-symbol">◉</span><span class="channel-body"><strong>'+esc(c.name)+'</strong><small>'+esc(c.tag)+'</small><span>'+esc(c.description)+'</span></span><span class="channel-arrow">→</span></button>').join('');
- target.querySelectorAll('[data-channel]').forEach(b=>b.addEventListener('click',()=>{activeChannel=b.dataset.channel;try{localStorage.setItem('morgonpod-channel',activeChannel)}catch{}renderChannels();load();loadCoverage();setTab('latest')}));
+ target.querySelectorAll('[data-channel]').forEach(b=>b.addEventListener('click',()=>{activeChannel=b.dataset.channel;try{localStorage.setItem('morgonpod-channel',activeChannel)}catch{}renderChannels();load();loadCoverage();hideCoverage()}));
 
  const title=$('latest-title');if(title)title.textContent='Senaste avsnittet: '+CHANNELS.find(c=>c.id===activeChannel).name;
 }
@@ -58,5 +58,5 @@ document.addEventListener('DOMContentLoaded',()=>{
  if('serviceWorker' in navigator)navigator.serviceWorker.getRegistrations().then(regs=>regs.forEach(reg=>reg.unregister())).catch(()=>{});
 });
 
-function setTab(tab){for(const id of ['latest','archive','coverage']){const el=$(id);if(el)el.hidden=id!==tab;}document.querySelectorAll('[data-tab]').forEach(b=>{const selected=b.dataset.tab===tab;b.classList.toggle('active',selected);b.setAttribute('aria-selected',String(selected))})}
-document.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>setTab(b.dataset.tab)));
+function hideCoverage(){const panel=$('coverage'),button=$('coverage-toggle');if(panel)panel.hidden=true;if(button){button.textContent='Visa vad kanalen bevakar ↓';button.setAttribute('aria-expanded','false')}}
+$('coverage-toggle')?.addEventListener('click',()=>{const panel=$('coverage'),button=$('coverage-toggle');if(!panel)return;panel.hidden=!panel.hidden;button.textContent=panel.hidden?'Visa vad kanalen bevakar ↓':'Dölj bevakningsområden ↑';button.setAttribute('aria-expanded',String(!panel.hidden))});
