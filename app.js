@@ -5,7 +5,7 @@ if(!CHANNELS.some(c=>c.id===activeChannel))activeChannel='ibat';
 function renderChannels(){
  const target=$('channel-list');if(!target)return;
  target.innerHTML=CHANNELS.map(c=>'<button type="button" class="channel-card'+(c.id===activeChannel?' selected':'')+'" data-channel="'+c.id+'" aria-pressed="'+(c.id===activeChannel)+'"><span class="channel-symbol">◉</span><span class="channel-body"><strong>'+esc(c.name)+'</strong><small>'+esc(c.tag)+'</small><span>'+esc(c.description)+'</span></span><span class="channel-arrow">→</span></button>').join('');
- target.querySelectorAll('[data-channel]').forEach(b=>b.addEventListener('click',()=>{activeChannel=b.dataset.channel;try{localStorage.setItem('morgonpod-channel',activeChannel)}catch{}renderChannels();load();$('latest').scrollIntoView({behavior:'smooth',block:'start'})}));
+ target.querySelectorAll('[data-channel]').forEach(b=>b.addEventListener('click',()=>{activeChannel=b.dataset.channel;try{localStorage.setItem('morgonpod-channel',activeChannel)}catch{}renderChannels();load();loadCoverage();$('latest').scrollIntoView({behavior:'smooth',block:'start'})}));
  const title=$('latest-title');if(title)title.textContent='Senaste avsnittet: '+CHANNELS.find(c=>c.id===activeChannel).name;
 }
 const $=id=>document.getElementById(id);
@@ -30,11 +30,11 @@ document.querySelectorAll('[data-archive]').forEach(b=>b.onclick=()=>{const i=Nu
 $('share').onclick=async()=>{try{if(navigator.share)await navigator.share({title:eps[0].title,url:location.href});else{await navigator.clipboard.writeText(location.href);$('share').textContent='Länk kopierad'}}catch{}};
 }catch(e){$('featured').textContent='Kunde inte hämta avsnitten.';console.error(e)}}renderChannels();load();
 
-async function loadCoverage(){const el=$('coverage-list');if(!el)return;try{const r=await fetch('coverage.json');if(!r.ok)throw Error('Bevakning saknas');const data=await r.json();if(!Array.isArray(data.coverage))throw Error('Fel format');el.innerHTML=data.coverage.map((item,i)=>'<article class="coverage-item"><span class="coverage-number">'+String(i+1).padStart(2,'0')+'</span><div><h3>'+esc(item.topic)+'</h3><p>'+esc(item.description)+'</p></div></article>').join('')}catch(e){el.textContent='Bevakningsområdena kunde inte hämtas just nu.'}}
+async function loadCoverage(){const el=$('coverage-list');if(!el)return;const channel=CHANNELS.find(c=>c.id===activeChannel);const intro=document.querySelector('.coverage-intro');if(intro)intro.innerHTML='<p>'+esc(channel.description)+' Här visas de redaktionella ämnen som bevakas inom '+esc(channel.name)+'.</p><p>Alla områden behöver inte förekomma i varje avsnitt. Urvalet styrs av aktualitet, relevans och tillförlitliga öppna källor.</p>';el.textContent='Hämtar bevakningsområden…';const selected=activeChannel;try{const r=await fetch('coverage-'+selected+'.json',{cache:'no-store'});if(!r.ok)throw Error('Bevakning saknas');const data=await r.json();if(selected!==activeChannel)return;if(!Array.isArray(data.coverage))throw Error('Fel format');el.innerHTML=data.coverage.map((item,i)=>'<article class="coverage-item"><span class="coverage-number">'+String(i+1).padStart(2,'0')+'</span><div><h3>'+esc(item.topic)+'</h3><p>'+esc(item.description)+'</p></div></article>').join('')}catch(e){if(selected===activeChannel)el.textContent='Bevakningsområdena kunde inte hämtas just nu.'}}
 loadCoverage();
 
 let deferredInstallPrompt=null;
-window.addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredInstallPrompt=event;showInstallPrompt()});
+window.addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredInstallPrompt=event});
 window.addEventListener('appinstalled',()=>{deferredInstallPrompt=null;const el=$('install-prompt');if(el)el.hidden=true});
 function showInstallPrompt(){
  const panel=$('install-prompt'),message=$('install-instructions'),action=$('install-action');
