@@ -15,6 +15,15 @@
       "audio": "episodes/2026-10-14/morgonpod.mp3",
       "sources": "episodes/2026-10-14/kallor.json",
       "brief": "episodes/2026-10-14/brief.json"
+    },
+    {
+      "date": "2026-10-10",
+      "title": "Lördag 10 oktober 2026",
+      "description": "Retroaktivt producerad nyhetsbrief baserad på källor tillgängliga detta datum",
+      "audio": "episodes/2026-10-10/morgonpod.mp3",
+      "sources": "episodes/2026-10-10/kallor.json",
+      "brief": "episodes/2026-10-10/brief.json",
+      "retroactive": true
     }
   ]
 }
