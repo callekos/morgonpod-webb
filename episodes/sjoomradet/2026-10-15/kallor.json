@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "source": "BBC News",
+    "title": "Tankfartyg utsatt för drönarattack i Svarta havet",
+    "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "source": "Tidigare publicerad morgonbrief",
+    "title": "Ukrainska militära operationer störs av Starlink-begränsningar",
+    "url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "source": "BBC News",
+    "title": "Sårbarheter i satellitkommunikation påverkar militära operationer",
+    "url": "https://www.bbc.co.uk/news/articles/cqkgk4zg54reo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "source": "BBC News",
+    "title": "Eskalerande spänningar kring energiinfrastruktur",
+    "url": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "source": "Tidigare publicerad morgonbrief",
+    "title": "Internationellt tillslag mot våldsnätverk",
+    "url": "https://www.europol.europa.eu/media-press/newsroom/news/ordering-violence-abroad-five-suspects-arrested-in-spain-morocco-and-france"
+  },
+  {
+    "source": "Tidigare publicerad morgonbrief",
+    "title": "Cyberincidenter mot svensk infrastruktur",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeTF3dEdIZWhzUXVsV2cwajh2aUtzZWJFbHN3RWdMcEpKVkVMak5LaTIwMzAtSVRSUTZtVk85Y09IWVRzU0lCUjRobFlOLUZ1RDNjTGw2N3p1NHpHclVtYzlsNGFEUHdUeVNaNm9TTGhDaXN4NHpPdGVYdGU5S1pzbGhuR1A?oc=5"
+  }
+]
