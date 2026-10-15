@@ -140,3 +140,9 @@ section[hidden]{display:none!important}
 /* Final compact header: logo appears once, without oversized hero */
 @media(max-width:850px){.content header{height:78px!important}.mobilebrand img{width:54px!important;height:54px!important;object-fit:contain!important}.mobilebrand{font-size:19px!important}#channels .heading{margin-top:17px!important}}
 @media(min-width:851px){.content header{height:36px!important}#channels .heading{margin-top:18px!important}}
+
+/* Five-channel podcast layout: navigation lives in the content, not a duplicate sidebar. */
+.shell{display:block;min-height:100vh}
+.content{width:100%;max-width:1240px;margin:0 auto;padding:0 clamp(18px,4vw,56px)}
+@media(min-width:851px){.content header{height:24px!important}.channel-list{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}.channel-card{min-width:0;min-height:132px;padding:15px 12px}.channel-body strong{font-size:17px}.channel-body>span{font-size:12px}}
+@media(min-width:701px) and (max-width:1100px){.channel-list{grid-template-columns:repeat(3,minmax(0,1fr))}}
