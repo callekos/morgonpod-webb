@@ -1,0 +1,25 @@
+{
+  "description": "Internationella händelser och deras påverkan på Sverige",
+  "coverage": [
+    {
+      "topic": "Geopolitik och internationella konflikter",
+      "description": "Viktiga säkerhetspolitiska förändringar och möjliga konsekvenser för Sverige."
+    },
+    {
+      "topic": "Hormuzsundet och strategiska sjövägar",
+      "description": "Sjöfart, energitransporter och effekter på handel och svensk försörjning."
+    },
+    {
+      "topic": "Energi, råvaror och världsekonomi",
+      "description": "Oljepriser, inflation, energimarknader och påverkan på svensk ekonomi."
+    },
+    {
+      "topic": "Internationell säkerhet och totalförsvar",
+      "description": "Nato, EU och internationella skeenden med betydelse för Sveriges säkerhet."
+    },
+    {
+      "topic": "Handel, sanktioner och försörjningskedjor",
+      "description": "Globala störningar och konsekvenser för svenska företag och samhällsfunktioner."
+    }
+  ]
+}
