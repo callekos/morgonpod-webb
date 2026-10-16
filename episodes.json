@@ -6,8 +6,8 @@
       "duration_seconds": 1782.12,
       "duration_status": "within_target",
       "target_minutes": [
-        25,
-        35
+        20,
+        40
       ],
       "channel": "kek",
       "date": "2026-10-15",
@@ -15,8 +15,8 @@
       "description": "Pedagogisk grundkurs och sammanhängande fördjupning.",
       "audio": "episodes/kek/2026-10-15-intro/morgonpod.mp3",
       "audio_version": "97c807198eabc8dc",
-      "sources": "episodes/kek/2026-10-15/kallor.json",
-      "brief": "episodes/kek/2026-10-15/brief.json"
+      "sources": "episodes/kek/2026-10-15-intro/kallor.json",
+      "brief": "episodes/kek/2026-10-15-intro/brief.json"
     },
     {
       "production_schema": 2,
@@ -24,8 +24,8 @@
       "duration_seconds": 1857.816,
       "duration_status": "within_target",
       "target_minutes": [
-        25,
-        35
+        20,
+        40
       ],
       "channel": "ibat",
       "date": "2026-10-15",
@@ -33,8 +33,8 @@
       "description": "Pedagogisk grundkurs och sammanhängande fördjupning.",
       "audio": "episodes/2026-10-15-intro/morgonpod.mp3",
       "audio_version": "e3d29648490713f8",
-      "sources": "episodes/2026-10-15/kallor.json",
-      "brief": "episodes/2026-10-15/brief.json"
+      "sources": "episodes/2026-10-15-intro/kallor.json",
+      "brief": "episodes/2026-10-15-intro/brief.json"
     },
     {
       "production_schema": 2,
@@ -42,8 +42,8 @@
       "duration_seconds": 1830.072,
       "duration_status": "within_target",
       "target_minutes": [
-        25,
-        35
+        20,
+        40
       ],
       "channel": "vald",
       "date": "2026-10-15",
@@ -51,8 +51,8 @@
       "description": "Pedagogisk grundkurs och sammanhängande fördjupning.",
       "audio": "episodes/vald/2026-10-15-intro/morgonpod.mp3",
       "audio_version": "12185cc7831eced1",
-      "sources": "episodes/vald/2026-10-15/kallor.json",
-      "brief": "episodes/vald/2026-10-15/brief.json"
+      "sources": "episodes/vald/2026-10-15-intro/kallor.json",
+      "brief": "episodes/vald/2026-10-15-intro/brief.json"
     }
   ]
 }
