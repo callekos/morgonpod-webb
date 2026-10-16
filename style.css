@@ -160,3 +160,7 @@ section[hidden]{display:none!important}
 .header-subscribe{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;border-radius:999px;background:var(--green);color:#122219!important;text-decoration:none;font-weight:800;font-size:13px;padding:10px 16px;white-space:nowrap}
 @media(min-width:851px){.mobilebrand{display:flex!important}}
 @media(max-width:560px){.mobilebrand{min-width:0!important;font-size:clamp(13px,3.6vw,18px)!important;gap:7px!important}.mobilebrand img{width:42px!important;height:42px!important}.header-subscribe{font-size:12px;padding:9px 11px}}
+
+/* Preserve multi-line channel titles such as IBAT / Informationsförsörjningen. */
+.channel-body strong{white-space:pre-line}
+@media(min-width:851px){.channel-list{grid-template-columns:repeat(auto-fit,minmax(160px,1fr))}}
