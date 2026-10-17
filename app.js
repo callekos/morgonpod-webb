@@ -79,7 +79,7 @@ if (typeof document !== 'undefined') (async () => {
     try {
       const e=await detail('episodes',node.dataset.id);
       if(!node.isConnected)return;
-      body.innerHTML='<button class="primary play">▶ Spela avsnittet</button><h3>Om avsnittet</h3><p>'+esc(e.description)+'</p><h3>Ämnen</h3><div class="tags">'+(tags(e)||'<span class="muted">Ämnen saknas för detta äldre avsnitt.</span>')+'</div><h3>Artiklar i avsnittet</h3>'+(e.articles.length?e.articles.map(articleCard).join(''):'<p class="muted">Detta avsnitt saknar separata redaktionella artiklar.</p>');
+      body.innerHTML='<button class="primary play">▶ Spela avsnittet</button><h3>Om avsnittet</h3><p>'+esc(e.description)+'</p><h3>Ämnen</h3><div class="tags">'+(tags(e)||'<span class="muted">Ämnen saknas för detta äldre avsnitt.</span>')+'</div><p class="channel-link"><a href="'+url('kanal',{id:e.channel})+'">Om kanalen '+esc(channel(e.channel))+' ↗</a></p><h3>Artiklar i avsnittet</h3>'+(e.articles.length?e.articles.map(articleCard).join(''):'<p class="muted">Detta avsnitt saknar separata redaktionella artiklar.</p>');
       body.querySelector('.play').onclick=()=>play(e);
       if(node.getBoundingClientRect().top<0||node.getBoundingClientRect().top>innerHeight*.5)node.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
     } catch {body.textContent='Avsnittet kunde inte laddas. Stäng och öppna för att försöka igen.';}
