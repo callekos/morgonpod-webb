@@ -28,3 +28,5 @@
 .nav-inner{gap:3px}
 .nav-inner a{white-space:nowrap}
 @media(max-width:650px){.nav-inner{justify-content:space-between;gap:0;padding-left:8px;padding-right:8px}.nav-inner a{font-size:12px;padding:10px 7px;min-width:0}.channel-directory-row{padding:15px 0}.channel-directory-row strong{font-size:16px}}
+
+.content-type-icon{display:inline-flex;align-items:center;justify-content:center;flex:0 0 34px;width:34px;height:34px;border:1px solid var(--accent);border-radius:9px;color:var(--accent);background:rgba(182,216,148,.08)}.content-type-icon svg{width:20px;height:20px}.content-card-heading{display:flex;align-items:flex-start;gap:12px}.content-card-heading>div{min-width:0;flex:1}.episode summary>.content-type-icon{margin-top:2px}@media(max-width:650px){.content-type-icon{flex-basis:30px;width:30px;height:30px}.content-type-icon svg{width:18px;height:18px}}
