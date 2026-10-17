@@ -19,6 +19,21 @@ if (typeof document !== 'undefined') (async () => {
   }
   const url = (page, params={}) => page+'.html'+(Object.keys(params).length?'?'+new URLSearchParams(params):'');
   const tags = e => (e.topic_labels || e.tags || []).map(t=>'<a class="tag" href="'+url('amne',{tag:t.toLocaleLowerCase('sv').replace(/[^a-z0-9åäö]+/g,'-')})+'">'+esc(t)+'</a>').join('');
+  // Channel is already displayed in metadata. Avoid repeating it in the episode title,
+  // including in older archived episodes that were published with prefixed titles.
+  const episodeTitle = e => {
+    let title=String(e.title||'').trim();
+    const full=channel(e.channel).replace(/\\s+/g,' ').trim();
+    const prefixes=[full,full.split('\\n')[0],{ibat:'IBAT',vald:'Våld',kek:'Kriminell ekonomi',sjoomradet:'Sjöområdet',lagstiftning:'Lagstiftning'}[e.channel]].filter(Boolean);
+    for(const prefix of prefixes.sort((a,b)=>b.length-a.length)){
+      if(title.toLocaleLowerCase('sv').startsWith(prefix.toLocaleLowerCase('sv')+':')){
+        title=title.slice(prefix.length+1).trim();break;
+      }
+    }
+    if(e.kind==='introduction' && (!title||/^(uppstart|introduktion)/i.test(title)))return 'Uppstartsavsnitt';
+    if(!title)return e.kind==='introduction'?'Uppstartsavsnitt':'Morgonbrief';
+    return title;
+  };
   const metadata = e => '<span class="channel-name">'+esc(channel(e.channel))+'</span><time class="episode-date" datetime="'+esc(e.date)+'">'+esc(e.date)+'</time>';
   const articleCard = a => '<a class="article-card" href="'+url('artikel',{id:a.id})+'"><small>'+metadata(a)+'</small><h3>'+esc(a.title)+'</h3><p>'+esc(a.summary)+'</p><span>Läs artikeln ↗</span></a>';
   const episodeRow = e => '<details class="episode" data-id="'+esc(e.id)+'"><summary><span class="row-title"><small class="item-meta">'+metadata(e)+'</small><strong>'+esc(e.title)+'</strong></span><span class="duration">'+(e.duration_seconds?Math.round(e.duration_seconds/60)+' min':'')+'</span><span aria-hidden="true">⌄</span></summary><div class="episode-body"><p>Laddar avsnitt…</p></div></details>';
@@ -51,7 +66,7 @@ if (typeof document !== 'undefined') (async () => {
   async function play(e) {
     if(!Core.safePath(e.audio))return;
     if(currentEpisode?.id!==e.id){currentEpisode=e;audio.src=e.audio;elapsed=0;previousTime=0;}
-    $('#player').hidden=false;$('#player-title').textContent=e.title;$('#player-status').textContent=channel(e.channel);
+    $('#player').hidden=false;$('#player-title').textContent=episodeTitle(e);$('#player-status').textContent=channel(e.channel);
     document.body.classList.add('has-player');
     if(!player.dataset.initialized){player.dataset.initialized='true';compactPlayer(matchMedia('(max-width: 650px)').matches);}
     try {await audio.play();} catch {$('#player-status').textContent='Tryck på spela i ljudspelaren.';}
