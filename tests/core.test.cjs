@@ -1,0 +1,7 @@
+const test=require('node:test');const assert=require('node:assert/strict');const core=require('../app.js');const fs=require('node:fs');
+test('reject unsafe content paths',()=>{for(const p of ['https://evil.test/a','episodes/../secret','javascript:alert(1)'])assert.equal(core.safePath(p),false);assert.equal(core.safePath('episodes/test/audio.mp3'),true);});
+test('escape all markup and attribute delimiters',()=>assert.equal(core.escape('<img "x" & \'y\'>'),'&lt;img &quot;x&quot; &amp; &#39;y&#39;&gt;'));
+test('seeking and pauses cannot create listens',()=>{assert.equal(core.listened(10,200,true),10);assert.equal(core.listened(10,1,false),10);assert.equal(core.listened(29,1,true),30);});
+test('ranking only uses actual positive numeric counts',()=>{assert.deepEqual(core.ranking([{id:'a',count:0},{id:'b',count:4},{id:'c',count:'9'}]),[{id:'b',count:4}]);});
+test('all pages share the canonical assets and shell',()=>{for(const p of ['index','idag','lyssna','artiklar','utforska','artikel','avsnitt','amne','statistik']){const s=fs.readFileSync(p+'.html','utf8');assert.match(s,/app.js\?v=/);assert.match(s,/viewport-fit=cover/);assert.match(s,/id="audio"/);assert.doesNotMatch(s,/morgonpod-ui/);}});
+test('static catalog details and list files exist',()=>{const m=JSON.parse(fs.readFileSync('catalog/manifest.json'));for(const c of Object.values(m.collections))for(const p of c.pages){const data=JSON.parse(fs.readFileSync(p));assert.ok(data.items.length<=24);for(const item of data.items)assert.ok(fs.existsSync(item.detail));}});

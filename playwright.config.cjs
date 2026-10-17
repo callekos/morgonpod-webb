@@ -1,0 +1,2 @@
+const {defineConfig,devices}=require('@playwright/test');
+module.exports=defineConfig({testDir:'./tests/browser',use:{baseURL:'http://127.0.0.1:8000'},webServer:{command:'python3 -m http.server 8000 --bind 127.0.0.1',port:8000,reuseExistingServer:true},projects:[{name:'iphone-webkit',use:{...devices['iPhone 13'],browserName:'webkit'}},{name:'android-chromium',use:{...devices['Pixel 5'],browserName:'chromium'}},{name:'desktop',use:{...devices['Desktop Chrome']}}],reporter:[['list'],['html',{open:'never'}]]});
