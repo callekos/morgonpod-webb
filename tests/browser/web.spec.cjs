@@ -32,3 +32,32 @@ test('article detail keeps sources, assessment and open questions separate',asyn
  await page.route('**/catalog/articles/*.json',r=>r.fulfill({json:{id:'test-only',channel:'kek',date:'2026-10-17',title:'Syntetisk testartikel',summary:'Enbart testunderlag',body:'Första stycket.\nAndra stycket.',assessment:'Syntetisk bedömning',open_questions:['Syntetisk fråga?'],sources:[{url:'https://example.org/source',title:'Testkälla'}],episode_id:'e',episode_title:'Testavsnitt',topic_labels:['Test'],previous_reporting:[]}}));
  await page.goto('/artikel.html?id=test-only');await expect(page.getByRole('heading',{name:'Syntetisk testartikel'})).toBeVisible();await expect(page.getByRole('heading',{name:'Öppna frågor'})).toBeVisible();await expect(page.getByRole('link',{name:'Testkälla'})).toHaveAttribute('href','https://example.org/source');await expect(page.locator('.prose p')).toHaveCount(2);
 });
+
+test('homepage picks one latest episode per channel and can expand',async({page})=>{
+ const channels=Array.from({length:10},(_,i)=>({id:'c'+i,name:'Kanal '+i}));
+ const collections={};
+ for(let i=0;i<10;i++)collections['episodes/channel/c'+i]={count:3,pages:['catalog/lists/episodes/channel/c'+i+'/0.json']};
+ const manifest={channels,topics:[],search_buckets:[],collections};
+ await page.route('**/catalog/manifest.json',route=>route.fulfill({json:manifest}));
+ await page.route('**/catalog/lists/episodes/channel/**',route=>{
+  const i=Number(route.request().url().match(/channel\\/c(\\d+)\\//)[1]);
+  route.fulfill({json:{items:[{id:'latest-'+i,channel:'c'+i,date:'2026-10-17',title:'Senast i kanal '+i},{id:'older-'+i,channel:'c'+i,date:'2026-10-16',title:'Äldre'}]}});
+ });
+ await page.goto('/idag.html');
+ await expect(page.locator('details.episode')).toHaveCount(8);
+ await expect(page.getByText('Äldre',{exact:true})).toHaveCount(0);
+ await page.getByRole('button',{name:/Visa fler kanaler/}).first().click();
+ await expect(page.locator('details.episode')).toHaveCount(10);
+});
+test('player can minimize and restore without stopping audio',async({page})=>{
+ await page.goto('/lyssna.html');
+ await page.locator('summary').first().click();
+ await page.getByRole('button',{name:'Spela avsnittet'}).click();
+ await expect(page.locator('#player')).toBeVisible();
+ const source=await page.locator('#audio').getAttribute('src');
+ await page.locator('#player-toggle').click();
+ await expect(page.locator('#player')).toHaveClass(/compact/);
+ await expect(page.locator('#audio')).toHaveAttribute('src',source);
+ await page.locator('#player-toggle').click();
+ await expect(page.locator('#player')).not.toHaveClass(/compact/);
+});
