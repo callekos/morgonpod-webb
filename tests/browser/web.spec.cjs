@@ -17,3 +17,18 @@ test('search, channel filtering, empty articles and statistics are honest',async
  await page.goto('/lyssna.html');await page.getByRole('combobox').selectOption('sjoomradet');await page.getByRole('button',{name:'Visa',exact:true}).click();await expect(page.getByText('Inget publicerat innehåll i detta urval ännu.')).toBeVisible();
  await page.goto('/statistik.html');await expect(page.getByText('Ingen insamlad statistik ännu.',{exact:false})).toBeVisible();
 });
+test('large archive loads one page, then the next page without full archive fetch',async({page})=>{
+ const channels=Array.from({length:30},(_,i)=>({id:'c'+i,name:'Testkanal '+i}));
+ const manifest={channels,topics:[],search_buckets:[],collections:{episodes:{count:6000,pages:Array.from({length:250},(_,i)=>'catalog/lists/episodes/'+i+'.json')},articles:{count:24000,pages:Array.from({length:1000},(_,i)=>'catalog/lists/articles/'+i+'.json')}}};
+ const loaded=[];
+ await page.route('**/catalog/manifest.json',r=>r.fulfill({json:manifest}));
+ await page.route('**/catalog/lists/**',r=>{loaded.push(r.request().url());const article=r.request().url().includes('/articles/');const n=Number(r.request().url().split('/').pop().replace('.json',''));r.fulfill({json:{items:Array.from({length:24},(_,i)=>({id:'synthetic-'+(n*24+i),channel:'c'+i%30,date:'2026-10-17',title:'Syntetiskt test '+(n*24+i),summary:'Endast testdata',duration_seconds:600}))}});});
+ await page.goto('/lyssna.html');await expect(page.locator('summary')).toHaveCount(24);await expect(page.locator('option')).toHaveCount(31);expect(loaded.length).toBe(1);
+ await page.getByRole('button',{name:'Visa fler',exact:true}).click();await expect(page.locator('summary')).toHaveCount(48);expect(loaded.length).toBe(2);
+ await page.getByRole('link',{name:'Artiklar',exact:true}).click();await expect(page.locator('.article-card')).toHaveCount(24);expect(loaded.length).toBe(3);
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
+});
+test('article detail keeps sources, assessment and open questions separate',async({page})=>{
+ await page.route('**/catalog/articles/*.json',r=>r.fulfill({json:{id:'test-only',channel:'kek',date:'2026-10-17',title:'Syntetisk testartikel',summary:'Enbart testunderlag',body:'Första stycket.\nAndra stycket.',assessment:'Syntetisk bedömning',open_questions:['Syntetisk fråga?'],sources:[{url:'https://example.org/source',title:'Testkälla'}],episode_id:'e',episode_title:'Testavsnitt',topic_labels:['Test'],previous_reporting:[]}}));
+ await page.goto('/artikel.html?id=test-only');await expect(page.getByRole('heading',{name:'Syntetisk testartikel'})).toBeVisible();await expect(page.getByRole('heading',{name:'Öppna frågor'})).toBeVisible();await expect(page.getByRole('link',{name:'Testkälla'})).toHaveAttribute('href','https://example.org/source');await expect(page.locator('.prose p')).toHaveCount(2);
+});
