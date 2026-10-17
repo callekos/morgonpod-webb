@@ -23,8 +23,8 @@ if (typeof document !== 'undefined') (async () => {
   // including in older archived episodes that were published with prefixed titles.
   const episodeTitle = e => {
     let title=String(e.title||'').trim();
-    const full=channel(e.channel).replace(/\\s+/g,' ').trim();
-    const prefixes=[full,full.split('\\n')[0],{ibat:'IBAT',vald:'Våld',kek:'Kriminell ekonomi',sjoomradet:'Sjöområdet',lagstiftning:'Lagstiftning'}[e.channel]].filter(Boolean);
+    const full=channel(e.channel).replace(/\s+/g,' ').trim();
+    const prefixes=[full,full.split('\n')[0],{ibat:'IBAT',vald:'Våld',kek:'Kriminell ekonomi',sjoomradet:'Sjöområdet',lagstiftning:'Lagstiftning'}[e.channel]].filter(Boolean);
     for(const prefix of prefixes.sort((a,b)=>b.length-a.length)){
       if(title.toLocaleLowerCase('sv').startsWith(prefix.toLocaleLowerCase('sv')+':')){
         title=title.slice(prefix.length+1).trim();break;
