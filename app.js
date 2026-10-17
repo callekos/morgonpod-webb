@@ -69,6 +69,38 @@ if (typeof document !== 'undefined') (async () => {
     async function next(){button.disabled=true;try{const chunk=await json(data.pages[page]);if(token!==routeToken)return;list.insertAdjacentHTML('beforeend',chunk.items.slice(0,maximum).map(key.startsWith('articles')?articleCard:episodeRow).join(''));page++;button.hidden=page>=data.pages.length||page*24>=maximum;}catch{button.textContent='Kunde inte ladda. Försök igen';}button.disabled=false;}
     button.onclick=next;await next();
   }
+  // Homepage shows the newest item per channel, not an arbitrary first item in a global feed.
+  // Fetch one small page per visible channel; reveal further channels on demand.
+  async function homeLatest(kind, target, token, initial=8) {
+    const eligible=manifest.channels.filter(c=>(manifest.collections[kind+'/channel/'+c.id]?.count||0)>0);
+    if(!eligible.length){target.innerHTML='<p class="empty">Inget publicerat innehåll ännu.</p>';return;}
+    const list=document.createElement('div');list.className=kind==='articles'?'article-grid':'episode-list';
+    const more=document.createElement('button');more.className='more';more.type='button';
+    target.append(list,more);
+    let shown=0;
+    async function reveal(){
+      more.disabled=true;
+      const next=eligible.slice(shown,shown+initial);
+      const results=await Promise.allSettled(next.map(async c=>{
+        const path=manifest.collections[kind+'/channel/'+c.id].pages[0];
+        const page=await json(path);
+        return page.items?.[0]||null;
+      }));
+      if(token!==routeToken)return;
+      const rows=results.filter(r=>r.status==='fulfilled'&&r.value).map(r=>r.value)
+        .sort((a,b)=>String(b.date||'').localeCompare(String(a.date||''))||String(a.channel).localeCompare(String(b.channel)));
+      list.insertAdjacentHTML('beforeend',rows.map(kind==='articles'?articleCard:episodeRow).join(''));
+      shown+=next.length;
+      more.hidden=shown>=eligible.length;
+      more.textContent='Visa fler kanaler ('+shown+' av '+eligible.length+')';
+      more.disabled=false;
+      if(results.some(r=>r.status==='rejected')){
+        const note=document.createElement('p');note.className='muted';note.textContent='Vissa kanaler kunde inte hämtas just nu.';target.append(note);
+      }
+    }
+    more.onclick=reveal;
+    await reveal();
+  }
   function filters(kind,p) {
     return '<form id="filters"><label>Kanal<select name="channel"><option value="">Alla kanaler</option>'+manifest.channels.map(c=>'<option value="'+esc(c.id)+'" '+(p.get('channel')===c.id?'selected':'')+'>'+esc(c.name)+'</option>').join('')+'</select></label><button type="submit">Visa</button></form>';
   }
@@ -94,10 +126,12 @@ if (typeof document !== 'undefined') (async () => {
       }
       if(page==='amne') {main.innerHTML='<h1>'+esc(p.get('tag')||'Ämne')+'</h1><h2>Poddavsnitt</h2><div id="episodes"></div><h2>Artiklar</h2><div id="articles"></div>';await collection('episodes/topic/'+p.get('tag'),$('#episodes'),token);await collection('articles/topic/'+p.get('tag'),$('#articles'),token);return;}
       if(page==='idag'||page==='index') {
-        main.innerHTML='<div class="page-heading"><small>DIN DAGLIGA OMVÄRLDSBEVAKNING</small><h1>God morgon.</h1><p>Nyheter att lyssna på. Sammanhang att ta med sig.</p></div><section id="feature"></section><div class="section-heading"><h2>Senaste poddavsnitten</h2><a href="lyssna.html">Alla avsnitt ↗</a></div><div id="episodes"></div><div class="section-heading"><h2>Senaste artiklarna</h2><a href="artiklar.html">Alla artiklar ↗</a></div><div id="articles"></div>';
-        const first=manifest.collections.episodes?.pages[0];
-        if(first){const {items}=await json(first);if(token!==routeToken)return;const e=items[0];const today=new Intl.DateTimeFormat('sv-SE',{timeZone:'Europe/Stockholm'}).format(new Date());$('#feature').innerHTML='<div class="feature"><small>'+(e.date===today?'IDAG':'SENAST PUBLICERAT · '+esc(e.date))+'</small><h2>'+esc(e.title)+'</h2><p>'+esc(e.description)+'</p><button class="primary" id="latest">▶ Lyssna på avsnittet</button></div>'+(e.date!==today?'<p class="muted">Inga nya poddavsnitt har publicerats idag.</p>':'');$('#latest').onclick=()=>play(e);}
-        await collection('episodes',$('#episodes'),token,6);if(token!==routeToken)return;await collection('articles',$('#articles'),token,6);return;
+        document.title='Idag | Morgonpod';
+        main.innerHTML='<div class="section-heading home-first"><h1>Senaste poddavsnitten</h1><a href="lyssna.html">Alla avsnitt ↗</a></div><p class="muted">Det senaste avsnittet från varje kanal.</p><div id="episodes"></div><div class="section-heading"><h2>Senaste artiklarna</h2><a href="artiklar.html">Alla artiklar ↗</a></div><p class="muted">Den senaste artikeln från varje kanal.</p><div id="articles"></div>';
+        await homeLatest('episodes',$('#episodes'),token,8);
+        if(token!==routeToken)return;
+        await homeLatest('articles',$('#articles'),token,8);
+        return;
       }
       const title=kind==='articles'?'Artiklar':'Lyssna';document.title=title+' | Morgonpod';
       main.innerHTML='<div class="page-heading"><small>'+(kind==='articles'?'NYHETER OCH SAMMANHANG':'DITT PODDBIBLIOTEK')+'</small><h1>'+title+'</h1><p>'+(kind==='articles'?'Självständiga nyhetstexter med källor och tidigare rapportering.':'Välj kanal eller hitta ditt nästa poddavsnitt.')+'</p></div>'+filters(kind,p)+'<p><a href="utforska.html">Sök i hela arkivet ↗</a></p><div id="listing"></div><section id="ranking"></section>';
