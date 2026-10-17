@@ -32,6 +32,13 @@ if (typeof document !== 'undefined') (async () => {
     // No user ID, referrer, query string or personal information is supplied.
     if (window.goatcounter?.count) window.goatcounter.count({path:'morgonpod/'+type+'/'+encodeURIComponent(id),title:type,event:true,referrer:''});
   }
+  const player=$('#player'), toggle=$('#player-toggle');
+  function compactPlayer(compact){
+    player.classList.toggle('compact',compact);
+    if(toggle){toggle.textContent=compact?'Visa spelaren':'Minimera';toggle.setAttribute('aria-expanded',String(!compact));toggle.setAttribute('aria-label',compact?'Visa hela spelaren':'Minimera spelaren');}
+    document.body.classList.toggle('player-compact',compact);
+  }
+  if(toggle)toggle.addEventListener('click',()=>compactPlayer(!player.classList.contains('compact')));
   audio.addEventListener('timeupdate',()=>{
     const delta = audio.currentTime-previousTime, now=performance.now(), wall=(now-previousWall)/1000; previousTime=audio.currentTime;previousWall=now;
     elapsed=Core.listened(elapsed,wall,!audio.paused&&!audio.seeking&&delta>0&&delta<4);
@@ -44,6 +51,7 @@ if (typeof document !== 'undefined') (async () => {
     if(currentEpisode?.id!==e.id){currentEpisode=e;audio.src=e.audio;elapsed=0;previousTime=0;}
     $('#player').hidden=false;$('#player-title').textContent=e.title;$('#player-status').textContent=channel(e.channel);
     document.body.classList.add('has-player');
+    if(!player.dataset.initialized){player.dataset.initialized='true';compactPlayer(matchMedia('(max-width: 650px)').matches);}
     try {await audio.play();} catch {$('#player-status').textContent='Tryck på spela i ljudspelaren.';}
   }
   main.addEventListener('toggle',async event=>{
