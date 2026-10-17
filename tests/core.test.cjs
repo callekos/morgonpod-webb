@@ -26,14 +26,14 @@ test('IBATs Morgonpod branding and clean episode hierarchy',()=>{for(const p of 
 
 test('channel directory and profile navigation are wired on all primary pages',()=>{
   const app=fs.readFileSync('app.js','utf8');
-  assert.match(app,/page==='kanaler'/);
-  assert.match(app,/page==='kanal'/);
-  assert.match(app,/Om kanalen/);
-  assert.match(app,/episodes\\/channel\\//);
-  assert.match(app,/articles\\/channel\\//);
+  assert.ok(app.includes("page==='kanaler'"));
+  assert.ok(app.includes("page==='kanal'"));
+  assert.ok(app.includes('Om kanalen'));
+  assert.ok(app.includes("'episodes/channel/'"));
+  assert.ok(app.includes("'articles/channel/'"));
   for(const page of ['idag','lyssna','artiklar','utforska','kanaler','kanal']){
     const html=fs.readFileSync(page+'.html','utf8');
-    assert.match(html,/href="kanaler\\.html">Kanaler<\\/a>/);
-    assert.match(html,/20261017-channels8/);
+    assert.ok(html.includes('href="kanaler.html">Kanaler</a>'));
+    assert.ok(html.includes('20261017-channels8'));
   }
 });
