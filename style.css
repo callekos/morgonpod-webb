@@ -5,3 +5,5 @@
 .player-controls{display:flex;align-items:center;gap:10px;min-width:0}.player-controls audio{flex:1;min-width:0}.player-toggle{font-size:12px;white-space:nowrap;padding:8px;min-height:38px}.player.compact{padding-top:5px;padding-bottom:5px}.player.compact .player-controls{width:100%}
 
 .home-first{margin-top:0}.home-first h1{font-size:30px;margin:0}.player-compact.has-player main{padding-bottom:145px}
+
+@media(max-width:650px){.home-first h1{font-size:24px}.player-controls{width:100%}.player.compact{padding:4px 12px}.player.compact audio{height:32px}.player-compact.has-player main{padding-bottom:155px}}
