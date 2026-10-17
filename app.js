@@ -170,7 +170,7 @@ if (typeof document !== 'undefined') (async () => {
       if(page==='amne') {main.innerHTML='<h1>'+esc(p.get('tag')||'Ämne')+'</h1><h2>Poddavsnitt</h2><div id="episodes"></div><h2>Artiklar</h2><div id="articles"></div>';await collection('episodes/topic/'+p.get('tag'),$('#episodes'),token);await collection('articles/topic/'+p.get('tag'),$('#articles'),token);return;}
       if(page==='idag'||page==='index') {
         document.title='Idag | Morgonpod';
-        main.innerHTML='<div class="section-heading home-first"><h1>Senaste poddavsnitten</h1><a href="lyssna.html">Alla avsnitt ↗</a></div><p class="muted">Det senaste avsnittet från varje kanal.</p><div id="episodes"></div><div class="section-heading"><h2>Senaste artiklarna</h2><a href="artiklar.html">Alla artiklar ↗</a></div><p class="muted">Den senaste artikeln från varje kanal.</p><div id="articles"></div>';
+        main.innerHTML='<div class="section-heading home-first"><h1>Senaste poddavsnitten</h1><a href="lyssna.html">Alla avsnitt ↗</a></div><div id="episodes"></div><div class="section-heading"><h2>Senaste artiklarna</h2><a href="artiklar.html">Alla artiklar ↗</a></div><div id="articles"></div>';
         await homeLatest('episodes',$('#episodes'),token,8);
         if(token!==routeToken)return;
         await homeLatest('articles',$('#articles'),token,8);
