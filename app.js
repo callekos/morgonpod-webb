@@ -132,7 +132,7 @@ if (typeof document !== 'undefined') (async () => {
   async function render() {
     const token=++routeToken,p=new URLSearchParams(location.search),page=location.pathname.split('/').pop().replace('.html','')||'idag';
     const kind=page==='artiklar'?'articles':'episodes';
-    $('#nav').querySelectorAll('a').forEach(a=>{if(a.getAttribute('href')===page+'.html')a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
+    $('#nav').querySelectorAll('a').forEach(a=>{if(a.getAttribute('href')===(page==='kanal'?'kanaler.html':page+'.html'))a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
     main.innerHTML='<p role="status">Hämtar innehåll…</p>';
     try {
       if(page==='artikel') {
