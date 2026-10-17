@@ -40,7 +40,7 @@ test('homepage picks one latest episode per channel and can expand',async({page}
  const manifest={channels,topics:[],search_buckets:[],collections};
  await page.route('**/catalog/manifest.json',route=>route.fulfill({json:manifest}));
  await page.route('**/catalog/lists/episodes/channel/**',route=>{
-  const i=Number(route.request().url().match(/channel\\/c(\\d+)\\//)[1]);
+  const i=Number(route.request().url().match(/channel\/c(\d+)\//)[1]);
   route.fulfill({json:{items:[{id:'latest-'+i,channel:'c'+i,date:'2026-10-17',title:'Senast i kanal '+i},{id:'older-'+i,channel:'c'+i,date:'2026-10-16',title:'Äldre'}]}});
  });
  await page.goto('/idag.html');
