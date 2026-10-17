@@ -1,7 +1,7 @@
 const {test,expect}=require('@playwright/test');
 test('navigation, expandable episodes, bounded requests and persistent player',async({page})=>{
  const requests=[];page.on('request',r=>requests.push(r.url()));
- await page.goto('/idag.html');await expect(page.getByRole('heading',{name:'God morgon.'})).toBeVisible();
+ await page.goto('/idag.html');await expect(page.getByRole('heading',{name:'Senaste poddavsnitten'})).toBeVisible();
  await page.getByRole('link',{name:'Lyssna',exact:true}).click();
  await expect(page.getByRole('heading',{name:'Lyssna',exact:true})).toBeVisible();
  await page.locator('summary').first().click();await expect(page.getByRole('heading',{name:'Om avsnittet'})).toBeVisible();
