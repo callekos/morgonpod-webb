@@ -21,3 +21,5 @@ test('all public routes omit legacy footer and share current cache-busted assets
  }
  assert.equal(versions.size,1);
 });
+
+test('IBATs Morgonpod branding and clean episode hierarchy',()=>{for(const p of ['index','idag','lyssna','artiklar','utforska','artikel','avsnitt','amne','statistik','kanaler']){const html=fs.readFileSync(p+'.html','utf8');assert.match(html,/>IBATs Morgonpod<\/a>/);}const js=fs.readFileSync('app.js','utf8');assert.doesNotMatch(js,/channel-mark/);assert.doesNotMatch(js,/body\.innerHTML='<small>'\+metadata\(e\)/);assert.match(js,/const episodeRow/);});
