@@ -32,7 +32,9 @@ if (typeof document !== 'undefined') (async () => {
     // No user ID, referrer, query string or personal information is supplied.
     if (window.goatcounter?.count) window.goatcounter.count({path:'morgonpod/'+type+'/'+encodeURIComponent(id),title:type,event:true,referrer:''});
   }
-  const player=$('#player'), toggle=$('#player-toggle');
+  const player=$('#player');
+  let toggle=$('#player-toggle');
+  if(!toggle){toggle=document.createElement('button');toggle.id='player-toggle';toggle.textContent='Minimera';player.append(toggle);}
   function compactPlayer(compact){
     player.classList.toggle('compact',compact);
     if(toggle){toggle.textContent=compact?'Visa spelaren':'Minimera';toggle.setAttribute('aria-expanded',String(!compact));toggle.setAttribute('aria-label',compact?'Visa hela spelaren':'Minimera spelaren');}
