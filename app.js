@@ -34,9 +34,10 @@ if (typeof document !== 'undefined') (async () => {
     if(!title)return e.kind==='introduction'?'Uppstartsavsnitt':'Morgonbrief';
     return title;
   };
+  const typeIcon = type => '<span class="content-type-icon" aria-hidden="true">'+(type==='audio'?'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 14v-3a9 9 0 0 1 18 0v3"/><rect x="2" y="13" width="4" height="8" rx="2"/><rect x="18" y="13" width="4" height="8" rx="2"/></svg>':'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h8"/></svg>')+'</span>';
   const metadata = e => '<span class="channel-name">'+esc(channel(e.channel))+'</span><time class="episode-date" datetime="'+esc(e.date)+'">'+esc(e.date)+'</time>';
-  const articleCard = a => '<a class="article-card" href="'+url('artikel',{id:a.id})+'"><small>'+metadata(a)+'</small><h3>'+esc(a.title)+'</h3><p>'+esc(a.summary)+'</p><span>Läs artikeln ↗</span></a>';
-  const episodeRow = e => '<details class="episode" data-id="'+esc(e.id)+'"><summary><span class="row-title"><small class="item-meta">'+metadata(e)+'</small><strong>'+esc(episodeTitle(e))+'</strong></span><span class="duration">'+(e.duration_seconds?Math.round(e.duration_seconds/60)+' min':'')+'</span><span aria-hidden="true">⌄</span></summary><div class="episode-body"><p>Laddar avsnitt…</p></div></details>';
+  const articleCard = a => '<a class="article-card" href="'+url('artikel',{id:a.id})+'"><div class="content-card-heading">'+typeIcon('article')+'<div><small>'+metadata(a)+'</small><h3>'+esc(a.title)+'</h3></div></div><p>'+esc(a.summary)+'</p><span>Läs artikeln ↗</span></a>';
+  const episodeRow = e => '<details class="episode" data-id="'+esc(e.id)+'"><summary>'+typeIcon('audio')+'<span class="row-title"><small class="item-meta">'+metadata(e)+'</small><strong>'+esc(episodeTitle(e))+'</strong></span><span class="duration">'+(e.duration_seconds?Math.round(e.duration_seconds/60)+' min':'')+'</span><span aria-hidden="true">⌄</span></summary><div class="episode-body"><p>Laddar avsnitt…</p></div></details>';
   async function detail(kind,id) { return json('catalog/'+kind+'/'+(await hash(id)).slice(0,24)+'.json'); }
   async function track(type,id) {
     if (!config.goatcounter || navigator.doNotTrack === '1' || !window.goatcounter?.count) return;
