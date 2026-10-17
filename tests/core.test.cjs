@@ -5,3 +5,19 @@ test('seeking and pauses cannot create listens',()=>{assert.equal(core.listened(
 test('ranking only uses actual positive numeric counts',()=>{assert.deepEqual(core.ranking([{id:'a',count:0},{id:'b',count:4},{id:'c',count:'9'}]),[{id:'b',count:4}]);});
 test('all pages share the canonical assets and shell',()=>{for(const p of ['index','idag','lyssna','artiklar','utforska','artikel','avsnitt','amne','statistik']){const s=fs.readFileSync(p+'.html','utf8');assert.match(s,/app.js\?v=/);assert.match(s,/viewport-fit=cover/);assert.match(s,/id="audio"/);assert.doesNotMatch(s,/morgonpod-ui/);}});
 test('static catalog details and list files exist',()=>{const m=JSON.parse(fs.readFileSync('catalog/manifest.json'));for(const c of Object.values(m.collections))for(const p of c.pages){const data=JSON.parse(fs.readFileSync(p));assert.ok(data.items.length<=24);for(const item of data.items)assert.ok(fs.existsSync(item.detail));}});
+
+test('all public routes omit legacy footer and share current cache-busted assets',()=>{
+ const routes=['index','idag','lyssna','artiklar','utforska','artikel','avsnitt','amne','statistik','kanaler'];
+ const versions=new Set();
+ for(const route of routes){
+  const html=fs.readFileSync(route+'.html','utf8');
+  assert.doesNotMatch(html,/<footer\\b|Morgonpod · Nyheter från öppna källor|Version 20261017-archive2/);
+  const script=html.match(/app\\.js\\?v=([a-zA-Z0-9-]+)/);
+  const css=html.match(/style\\.css\\?v=([a-zA-Z0-9-]+)/);
+  assert.ok(script,route+' must load the canonical app');
+  assert.ok(css,route+' must load the canonical stylesheet');
+  assert.equal(script[1],css[1]);
+  versions.add(script[1]);
+ }
+ assert.equal(versions.size,1);
+});
