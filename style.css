@@ -12,3 +12,19 @@
 
 /* Episode hierarchy: one channel/title/date heading, no decorative initials. */
 .item-meta{display:flex!important;align-items:baseline;gap:9px;flex-wrap:wrap}.channel-name{font-weight:700;color:var(--accent)}.episode-date{font-size:11px;font-weight:400;color:var(--muted)}.episode summary{gap:12px}.episode .row-title{flex:1}.episode-body{padding-top:4px}.episode-body>.play{margin-top:8px}.episode[open] summary{padding-bottom:8px}.episode[open] .row-title strong{font-size:17px}.header .brand{letter-spacing:-.7px;font-size:22px}
+
+
+/* Channel directory and profile: compact enough for dozens of channels. */
+.channel-directory{display:grid;gap:0;border-top:1px solid var(--line)}
+.channel-directory-row{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:17px 4px;border-bottom:1px solid var(--line);text-decoration:none;color:var(--text)}
+.channel-directory-row strong{display:block;font-size:17px;line-height:1.35}
+.channel-directory-row small{display:block;color:var(--muted);font-size:13px;margin-top:4px;line-height:1.45}
+.channel-directory-row>span:last-child{color:var(--accent);font-size:20px;flex-shrink:0}
+.channel-about{margin:18px 0 36px;max-width:760px}
+.channel-about h2{margin:22px 0 6px;font-size:19px}
+.channel-about p{color:var(--muted);margin:0}
+.channel-link{margin:20px 0}
+.channel-link a{display:inline-block;border:1px solid var(--line);border-radius:12px;padding:10px 14px;text-decoration:none;font-size:14px;font-weight:650}
+.nav-inner{gap:3px}
+.nav-inner a{white-space:nowrap}
+@media(max-width:650px){.nav-inner{justify-content:space-between;gap:0;padding-left:8px;padding-right:8px}.nav-inner a{font-size:12px;padding:10px 7px;min-width:0}.channel-directory-row{padding:15px 0}.channel-directory-row strong{font-size:16px}}
