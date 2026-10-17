@@ -11,9 +11,9 @@ test('all public routes omit legacy footer and share current cache-busted assets
  const versions=new Set();
  for(const route of routes){
   const html=fs.readFileSync(route+'.html','utf8');
-  assert.doesNotMatch(html,/<footer\\b|Morgonpod · Nyheter från öppna källor|Version 20261017-archive2/);
-  const script=html.match(/app\\.js\\?v=([a-zA-Z0-9-]+)/);
-  const css=html.match(/style\\.css\\?v=([a-zA-Z0-9-]+)/);
+  assert.doesNotMatch(html,/<footer\b|Morgonpod · Nyheter från öppna källor|Version 20261017-archive2/);
+  const script=html.match(/app\.js\?v=([a-zA-Z0-9-]+)/);
+  const css=html.match(/style\.css\?v=([a-zA-Z0-9-]+)/);
   assert.ok(script,route+' must load the canonical app');
   assert.ok(css,route+' must load the canonical stylesheet');
   assert.equal(script[1],css[1]);
