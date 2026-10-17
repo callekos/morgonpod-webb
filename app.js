@@ -19,9 +19,9 @@ if (typeof document !== 'undefined') (async () => {
   }
   const url = (page, params={}) => page+'.html'+(Object.keys(params).length?'?'+new URLSearchParams(params):'');
   const tags = e => (e.topic_labels || e.tags || []).map(t=>'<a class="tag" href="'+url('amne',{tag:t.toLocaleLowerCase('sv').replace(/[^a-z0-9åäö]+/g,'-')})+'">'+esc(t)+'</a>').join('');
-  const metadata = e => esc(channel(e.channel))+' · '+esc(e.date);
+  const metadata = e => '<span class="channel-name">'+esc(channel(e.channel))+'</span><time class="episode-date" datetime="'+esc(e.date)+'">'+esc(e.date)+'</time>';
   const articleCard = a => '<a class="article-card" href="'+url('artikel',{id:a.id})+'"><small>'+metadata(a)+'</small><h3>'+esc(a.title)+'</h3><p>'+esc(a.summary)+'</p><span>Läs artikeln ↗</span></a>';
-  const episodeRow = e => '<details class="episode" data-id="'+esc(e.id)+'"><summary><span class="channel-mark" aria-hidden="true">'+esc(channel(e.channel).slice(0,2).toUpperCase())+'</span><span class="row-title"><small>'+metadata(e)+'</small><strong>'+esc(e.title)+'</strong></span><span class="duration">'+(e.duration_seconds?Math.round(e.duration_seconds/60)+' min':'')+'</span><span aria-hidden="true">⌄</span></summary><div class="episode-body"><p>Laddar avsnitt…</p></div></details>';
+  const episodeRow = e => '<details class="episode" data-id="'+esc(e.id)+'"><summary><span class="row-title"><small class="item-meta">'+metadata(e)+'</small><strong>'+esc(e.title)+'</strong></span><span class="duration">'+(e.duration_seconds?Math.round(e.duration_seconds/60)+' min':'')+'</span><span aria-hidden="true">⌄</span></summary><div class="episode-body"><p>Laddar avsnitt…</p></div></details>';
   async function detail(kind,id) { return json('catalog/'+kind+'/'+(await hash(id)).slice(0,24)+'.json'); }
   async function track(type,id) {
     if (!config.goatcounter || navigator.doNotTrack === '1' || !window.goatcounter?.count) return;
@@ -64,7 +64,7 @@ if (typeof document !== 'undefined') (async () => {
     try {
       const e=await detail('episodes',node.dataset.id);
       if(!node.isConnected)return;
-      body.innerHTML='<small>'+metadata(e)+'</small><h2>'+esc(e.title)+'</h2><button class="primary play">▶ Spela avsnittet</button><h3>Om avsnittet</h3><p>'+esc(e.description)+'</p><h3>Ämnen</h3><div class="tags">'+(tags(e)||'<span class="muted">Ämnen saknas för detta äldre avsnitt.</span>')+'</div><h3>Artiklar i avsnittet</h3>'+(e.articles.length?e.articles.map(articleCard).join(''):'<p class="muted">Detta avsnitt saknar separata redaktionella artiklar.</p>');
+      body.innerHTML='<button class="primary play">▶ Spela avsnittet</button><h3>Om avsnittet</h3><p>'+esc(e.description)+'</p><h3>Ämnen</h3><div class="tags">'+(tags(e)||'<span class="muted">Ämnen saknas för detta äldre avsnitt.</span>')+'</div><h3>Artiklar i avsnittet</h3>'+(e.articles.length?e.articles.map(articleCard).join(''):'<p class="muted">Detta avsnitt saknar separata redaktionella artiklar.</p>');
       body.querySelector('.play').onclick=()=>play(e);
       if(node.getBoundingClientRect().top<0||node.getBoundingClientRect().top>innerHeight*.5)node.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
     } catch {body.textContent='Avsnittet kunde inte laddas. Stäng och öppna för att försöka igen.';}
