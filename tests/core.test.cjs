@@ -23,3 +23,17 @@ test('all public routes omit legacy footer and share current cache-busted assets
 });
 
 test('IBATs Morgonpod branding and clean episode hierarchy',()=>{for(const p of ['index','idag','lyssna','artiklar','utforska','artikel','avsnitt','amne','statistik','kanaler']){const html=fs.readFileSync(p+'.html','utf8');assert.match(html,/>IBATs Morgonpod<\/a>/);}const js=fs.readFileSync('app.js','utf8');assert.doesNotMatch(js,/channel-mark/);assert.doesNotMatch(js,/body\.innerHTML='<small>'\+metadata\(e\)/);assert.match(js,/const episodeRow/);});
+
+test('channel directory and profile navigation are wired on all primary pages',()=>{
+  const app=fs.readFileSync('app.js','utf8');
+  assert.match(app,/page==='kanaler'/);
+  assert.match(app,/page==='kanal'/);
+  assert.match(app,/Om kanalen/);
+  assert.match(app,/episodes\\/channel\\//);
+  assert.match(app,/articles\\/channel\\//);
+  for(const page of ['idag','lyssna','artiklar','utforska','kanaler','kanal']){
+    const html=fs.readFileSync(page+'.html','utf8');
+    assert.match(html,/href="kanaler\\.html">Kanaler<\\/a>/);
+    assert.match(html,/20261017-channels8/);
+  }
+});
