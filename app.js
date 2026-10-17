@@ -142,6 +142,24 @@ if (typeof document !== 'undefined') (async () => {
         track('article',a.id);return;
       }
       if(page==='avsnitt') {const e=await detail('episodes',p.get('id')||'');if(token!==routeToken)return;main.innerHTML='<h1>Poddavsnitt</h1>'+episodeRow(e);main.querySelector('details').open=true;return;}
+      if(page==='kanaler') {
+        document.title='Kanaler | IBATs Morgonpod';
+        main.innerHTML='<div class="page-heading"><small>HITTA DIN BEVAKNING</small><h1>Kanaler</h1><p>Utforska våra bevakningsområden. Varje kanal samlar sina egna poddavsnitt och artiklar.</p></div><div class="channel-directory">'+manifest.channels.map(c=>'<a class="channel-directory-row" href="'+url('kanal',{id:c.id})+'"><span><strong>'+esc(c.name)+'</strong><small>'+esc(c.description||'')+'</small></span><span aria-hidden="true">→</span></a>').join('')+'</div>';
+        return;
+      }
+      if(page==='kanal') {
+        const id=p.get('id')||'';
+        const c=manifest.channels.find(c=>c.id===id);
+        if(!c){main.innerHTML='<h1>Kanalen finns inte</h1><p><a href="kanaler.html">Visa alla kanaler</a></p>';return;}
+        document.title=c.name+' | IBATs Morgonpod';
+        const ep=manifest.collections['episodes/channel/'+id]?.count||0;
+        const ar=manifest.collections['articles/channel/'+id]?.count||0;
+        main.innerHTML='<p><a href="kanaler.html">← Alla kanaler</a></p><div class="page-heading"><small>KANAL</small><h1>'+esc(c.name)+'</h1><p>'+esc(c.description||'')+'</p></div><section class="channel-about"><h2>Vad bevakas?</h2><p>'+esc(c.description||'Information om bevakningsområdet uppdateras löpande.')+'</p><h2>Publicering</h2><p>Ordinarie ambition är morgonbrief måndag till fredag, veckofördjupning på lördag och morgonbrief med kommande vecka på söndag. Artiklar publiceras i anslutning till avsnitten. Publicering kan variera under pilotperioden.</p></section><div class="section-heading"><h2>Poddavsnitt</h2><span class="muted">'+ep+' publicerade</span></div><div id="channel-episodes"></div><div class="section-heading"><h2>Artiklar</h2><span class="muted">'+ar+' publicerade</span></div><div id="channel-articles"></div>';
+        await collection('episodes/channel/'+id,$('#channel-episodes'),token);
+        if(token!==routeToken)return;
+        await collection('articles/channel/'+id,$('#channel-articles'),token);
+        return;
+      }
       if(page==='statistik') {await statistics(token);return;}
       if(page==='utforska') {
         main.innerHTML='<div class="page-heading"><small>ARKIV OCH FÖRDJUPNING</small><h1>Utforska</h1><p>Hitta poddavsnitt, artiklar och ämnen.</p></div><form id="search"><label for="query">Sök i rubriker och sammanfattningar</label><div class="search-row"><input type="search" id="query" minlength="2" required placeholder="Till exempel Östersjön"><button>Sök</button></div></form><div class="tags">'+manifest.topics.map(t=>'<a class="tag" href="'+url('amne',{tag:t})+'">'+esc(t)+'</a>').join('')+'</div><section id="results" aria-live="polite"></section>';
