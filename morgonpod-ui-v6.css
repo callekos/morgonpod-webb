@@ -237,3 +237,5 @@ section[hidden]{display:none!important}
 .editorial-feature p{font-size:13px}
 }
 @media(prefers-reduced-motion:reduce){.news-nav a{transition:none}}
+
+.ranking-section{margin:28px 0}.ranking-list{display:grid;gap:8px}.ranking-entry{display:grid;grid-template-columns:24px minmax(0,1fr);gap:8px;align-items:start}.ranking-position{color:#b7d79d;font-size:15px;font-weight:800;padding-top:25px}.ranking-entry .news-episode{margin:0}.stat-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.stat-cards>div{display:flex;flex-direction:column;gap:8px;padding:18px;background:#1c2a23;border:1px solid #344b3b;border-radius:14px}.stat-cards strong{font-size:26px}.stat-cards span{font-size:12px;color:#b6c6b7}
