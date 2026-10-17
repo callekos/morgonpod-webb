@@ -36,7 +36,7 @@ if (typeof document !== 'undefined') (async () => {
   };
   const metadata = e => '<span class="channel-name">'+esc(channel(e.channel))+'</span><time class="episode-date" datetime="'+esc(e.date)+'">'+esc(e.date)+'</time>';
   const articleCard = a => '<a class="article-card" href="'+url('artikel',{id:a.id})+'"><small>'+metadata(a)+'</small><h3>'+esc(a.title)+'</h3><p>'+esc(a.summary)+'</p><span>Läs artikeln ↗</span></a>';
-  const episodeRow = e => '<details class="episode" data-id="'+esc(e.id)+'"><summary><span class="row-title"><small class="item-meta">'+metadata(e)+'</small><strong>'+esc(e.title)+'</strong></span><span class="duration">'+(e.duration_seconds?Math.round(e.duration_seconds/60)+' min':'')+'</span><span aria-hidden="true">⌄</span></summary><div class="episode-body"><p>Laddar avsnitt…</p></div></details>';
+  const episodeRow = e => '<details class="episode" data-id="'+esc(e.id)+'"><summary><span class="row-title"><small class="item-meta">'+metadata(e)+'</small><strong>'+esc(episodeTitle(e))+'</strong></span><span class="duration">'+(e.duration_seconds?Math.round(e.duration_seconds/60)+' min':'')+'</span><span aria-hidden="true">⌄</span></summary><div class="episode-body"><p>Laddar avsnitt…</p></div></details>';
   async function detail(kind,id) { return json('catalog/'+kind+'/'+(await hash(id)).slice(0,24)+'.json'); }
   async function track(type,id) {
     if (!config.goatcounter || navigator.doNotTrack === '1' || !window.goatcounter?.count) return;
