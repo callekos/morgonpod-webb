@@ -1,0 +1,29 @@
+{
+  "description": "Lagstiftning (straffrättsområdet)",
+  "coverage": [
+    {
+      "topic": "Lagstiftningskedjan och ikraftträdanden",
+      "description": "SOU, Ds, remiss, lagrådsremiss, proposition, utskottsbetänkande, riksdagsbeslut, SFS och övergångsbestämmelser."
+    },
+    {
+      "topic": "Straffrätt och påföljder",
+      "description": "Brottsbalken, straffskalor, kriminaliseringar, förverkande, organiserad brottslighet, ungdomspåföljder."
+    },
+    {
+      "topic": "Straffprocess och bevisning",
+      "description": "Rättegångsbalken, anonyma vittnen, hemliga tvångsmedel, förundersökning och processuella rättigheter."
+    },
+    {
+      "topic": "Polisiära befogenheter och preventiva verktyg",
+      "description": "Preventiva vistelseförbud, säkerhetszoner, kamerabevakning, databehandling, proportionalitet och rättssäkerhet."
+    },
+    {
+      "topic": "Praktisk tillämpning och rättspraxis",
+      "description": "Polismyndighetens och Åklagarmyndighetens tillämpning, vägledning, domstolsavgöranden och offentliga erfarenhetsrapporter."
+    },
+    {
+      "topic": "Uppföljning, kritik och samhällseffekter",
+      "description": "Brå, forskning, JO, JK, IMY, remissinstanser, Advokatsamfundet, medier och politisk debatt; skilj observation och effektutvärdering."
+    }
+  ]
+}
