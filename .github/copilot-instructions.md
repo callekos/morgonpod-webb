@@ -1,0 +1,2 @@
+# Instruktioner för AI-utveckling av Morgonpod webb
+Läs alltid [AGENTS.md](../AGENTS.md). Om uppgiften berör research, AI-modeller, automatisering eller poddproduktion, läs även den centrala policyn i `callekos/nyhetspodden/config/model_policy.json` och `callekos/nyhetspodden/AGENTS.md`. Webbprojektet får inte förbruka kvoter oberoende av produktionsprojektets kvotbudget. Bygg och testa som regel utan generativa AI-anrop. Publicera inte påhittade källor, tillåt inga automatiska betalningar och gör inte icke verifierade produktionspåståenden.
