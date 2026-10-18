@@ -10,9 +10,13 @@ Alla publika HTML-ingångar får samma cacheversion för befintlig app och CSS.
 De laddade tidigare två olika versionsnycklar. Service worker får samma
 versionsbyte, utan att arkivdata eller ljud börjar cachas.
 
-Hover-effekten begränsas till muspekare med faktisk hover-förmåga. Touchknappar
-ska aktiveras direkt, även på iOS. Arkivpagineringens och startsidans befintliga
-browsertester behåller sina krav på 48 respektive 10 poster och begränsade anrop.
+WebKit-loggen visade att service worker tog över sidan efter första laddningen.
+De syntetiska page.route-anropen för nästa sida gick då till den verkliga
+testservern och gav 404. Fixturgruppen blockerar nu service worker enligt
+Playwrights routingkontrakt. Övriga browserfall behåller riktig service worker.
+Arkivpagineringens och startsidans tester behåller kraven på 48 respektive 10
+poster och begränsade anrop. Ingen touch- eller pagineringskod behöver ändras.
+Se https://playwright.dev/docs/api/class-page#page-route.
 
 Mobilspelaren startar redan i kompakt läge. Dess tidigare test antog utvidgat
 läge och förväntade därför motsatt resultat efter första trycket. Testet öppnar

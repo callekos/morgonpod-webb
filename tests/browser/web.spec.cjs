@@ -17,6 +17,10 @@ test('search, channel filtering, empty articles and statistics are honest',async
  await page.goto('/lyssna.html');await page.getByRole('combobox').selectOption('sjoomradet');await page.getByRole('button',{name:'Visa',exact:true}).click();await expect(page.getByText('Inget publicerat innehåll i detta urval ännu.')).toBeVisible();
  await page.goto('/statistik.html');await expect(page.getByText('Ingen insamlad statistik ännu.',{exact:false})).toBeVisible();
 });
+// Service workers can bypass page.route after claiming a WebKit page.
+// Block only in fixture tests so all requests stay synthetic and intercepted.
+test.describe('synthetic archive fixtures',()=>{
+ test.use({serviceWorkers:'block'});
 test('large archive loads one page, then the next page without full archive fetch',async({page})=>{
  const channels=Array.from({length:30},(_,i)=>({id:'c'+i,name:'Testkanal '+i}));
  const manifest={channels,topics:[],search_buckets:[],collections:{episodes:{count:6000,pages:Array.from({length:250},(_,i)=>'catalog/lists/episodes/'+i+'.json')},articles:{count:24000,pages:Array.from({length:1000},(_,i)=>'catalog/lists/articles/'+i+'.json')}}};
@@ -49,6 +53,8 @@ test('homepage picks one latest episode per channel and can expand',async({page}
  await page.getByRole('button',{name:/Visa fler kanaler/}).first().click();
  await expect(page.locator('details.episode')).toHaveCount(10);
 });
+});
+
 test('player can minimize and restore without stopping audio',async({page})=>{
  await page.goto('/lyssna.html');
  await page.locator('summary').first().click();
