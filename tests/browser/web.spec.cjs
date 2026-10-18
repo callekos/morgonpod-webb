@@ -55,9 +55,17 @@ test('player can minimize and restore without stopping audio',async({page})=>{
  await page.getByRole('button',{name:'Spela avsnittet'}).click();
  await expect(page.locator('#player')).toBeVisible();
  const source=await page.locator('#audio').getAttribute('src');
+ // Mobile deliberately starts compact. Expand first, then test both transitions.
+ const expand=page.getByRole('button',{name:'Visa hela spelaren',exact:true});
+ if(await expand.isVisible())await expand.click();
+ await expect(page.locator('#player')).not.toHaveClass(/compact/);
+ await expect(page.locator('#player-toggle')).toHaveAttribute('aria-expanded','true');
  await page.locator('#player-toggle').click();
  await expect(page.locator('#player')).toHaveClass(/compact/);
+ await expect(page.locator('#player-toggle')).toHaveAttribute('aria-expanded','false');
  await expect(page.locator('#audio')).toHaveAttribute('src',source);
  await page.locator('#player-toggle').click();
  await expect(page.locator('#player')).not.toHaveClass(/compact/);
+ await expect(page.locator('#player-toggle')).toHaveAttribute('aria-expanded','true');
+ await expect(page.locator('#audio')).toHaveAttribute('src',source);
 });
