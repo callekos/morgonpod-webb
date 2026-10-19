@@ -1,0 +1,16 @@
+{
+  "kind": "introduction",
+  "duration_seconds": 2148.672,
+  "target_minutes": [
+    20,
+    40
+  ],
+  "duration_status": "within_target",
+  "channel": "sjoomradet",
+  "date": "2026-10-19",
+  "audio_sha256": "6b88257ac67bde0a6c97071c4191717ddbca668ee69956bcc880aa685073f7ce",
+  "audio_bytes": 16441149,
+  "decoded": true,
+  "checked_at": "2026-10-19T18:45:04.101063+00:00",
+  "editorial_approval": "not_established_by_audio_check"
+}
