@@ -1,0 +1,38 @@
+{
+  "approved": true,
+  "issues": [],
+  "source_coverage": [
+    {
+      "claim": "Lagar och lagändringar publiceras i Svensk författningssamling (SFS), elektroniskt sedan april 2018.",
+      "source_url": "https://www.regeringen.se/sa-styrs-sverige/lagstiftningsprocessen/lagar-i-svensk-forfattningssamling-sfs/"
+    },
+    {
+      "claim": "Riksdagen beslutar om nya lagar och lagändringar, ofta inlett med en statlig utredning (SOU eller Ds) som skickas på remiss.",
+      "source_url": "https://www.riksdagen.se/sv/sa-fungerar-riksdagen/riksdagens-uppgifter/beslutar-om-lagar/fran-forslag-till-lag/"
+    },
+    {
+      "claim": "Lagstiftningsprocessen omfattar utredning, remiss, beredning, Lagrådets granskning, proposition till riksdagen, beslut, riksdagsskrivelse och utfärdande av regeringen i SFS.",
+      "source_url": "https://www.regeringen.se/sa-styrs-sverige/lagstiftningsprocessen/"
+    },
+    {
+      "claim": "De allmänna domstolarna är uppdelade i tingsrätter, hovrätter och Högsta domstolen.",
+      "source_url": "https://www.domstol.se/om-sveriges-domstolar/det-har-ar-sveriges-domstolar/sa-ar-domstolarna-organiserade/allmanna-domstolar/"
+    },
+    {
+      "claim": "Den tilltalade har rätt till försvar, och vid allvarliga brott kan domstolen utse en offentlig försvarare vars kostnader inledningsvis bärs av staten.",
+      "source_url": "https://www.domstol.se/amnen/brott-och-straff/for-dig-som-ar-kallad-till-brottmalsrattegang/tilltalad/"
+    },
+    {
+      "claim": "Högsta domstolens huvudsakliga uppgift är att skapa prejudikat för att ge vägledning åt rättstillämpningen.",
+      "source_url": "https://www.domstol.se/hogsta-domstolen/om-hogsta-domstolen/om-oss/roll-och-uppgift/"
+    },
+    {
+      "claim": "Prövningstillstånd i Högsta domstolen meddelas endast i ett fåtal procent av fallen (cirka två procent).",
+      "source_url": "https://www.domstol.se/hogsta-domstolen/om-handlaggningen/fragor--svar/"
+    }
+  ],
+  "short_episode_reason": "",
+  "package_sha256": "9188769e882cfa428d8002f6d06e30aae1b6560b6b25c3a599e2698142290e8c",
+  "channel": "lagstiftning",
+  "date": "2026-10-19"
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "source": "Högsta domstolen",
+    "title": "Roll och uppgift: prejudikat",
+    "url": "https://www.domstol.se/hogsta-domstolen/om-hogsta-domstolen/om-oss/roll-och-uppgift/",
+    "evidence": {
+      "date": "unknown",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T17:39:37.306878+00:00",
+      "page_sha256": "5f71ff52f6c18745470a5393233775d10907aacfa47ebec85e62db8aae7f563d"
+    }
+  },
+  {
+    "source": "Sveriges Domstolar",
+    "title": "Allmänna domstolar",
+    "url": "https://www.domstol.se/om-sveriges-domstolar/det-har-ar-sveriges-domstolar/sa-ar-domstolarna-organiserade/allmanna-domstolar/",
+    "evidence": {
+      "date": "unknown",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T17:39:36.291805+00:00",
+      "page_sha256": "57b44a7734a0e51074455defcd25723b4756245a333aa6e858ef9c8d9bf85579"
+    }
+  },
+  {
+    "source": "Regeringskansliet",
+    "title": "Lagstiftningsprocessen",
+    "url": "https://www.regeringen.se/sa-styrs-sverige/lagstiftningsprocessen/",
+    "evidence": {
+      "date": "unknown",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T17:39:36.291462+00:00",
+      "page_sha256": "fe68e098b7ef86b7b35bf2894aba573127e21b52d61a366ea577d0642b091dbc"
+    }
+  },
+  {
+    "source": "Regeringskansliet",
+    "title": "Lagar i Svensk författningssamling",
+    "url": "https://www.regeringen.se/sa-styrs-sverige/lagstiftningsprocessen/lagar-i-svensk-forfattningssamling-sfs/",
+    "evidence": {
+      "date": "unknown",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T17:39:36.290875+00:00",
+      "page_sha256": "bfb143a74547ca953cd8fb8af8d052408046d25c27b3f9956db0ddce93021e43"
+    }
+  },
+  {
+    "source": "Sveriges riksdag",
+    "title": "Från förslag till lag",
+    "url": "https://www.riksdagen.se/sv/sa-fungerar-riksdagen/riksdagens-uppgifter/beslutar-om-lagar/fran-forslag-till-lag/",
+    "evidence": {
+      "date": "unknown",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T17:39:36.291153+00:00",
+      "page_sha256": "c555e2718ff66e959a1a2779d15a470e7ca9885c4d25034e819881faef319a9f"
+    }
+  }
+]
