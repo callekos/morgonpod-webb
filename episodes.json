@@ -3,6 +3,33 @@
     {
       "production_schema": 2,
       "kind": "daily",
+      "duration_seconds": 243.456,
+      "duration_status": "short",
+      "target_minutes": [
+        6,
+        10
+      ],
+      "channel": "sjoomradet",
+      "date": "2026-10-19",
+      "title": "Morgonbrief",
+      "description": "Det här är en vardagsbrief från Sjöområdet med datumet den 19 oktober 2026. I dag fokuserar vi på hur Finland systematiskt stoppar fastighetsaffärer nära kritisk infrastruktur, samtidigt som den svenska lagstiftningen alltjämt saknar motsvarande generella verktyg.",
+      "audio": "episodes/sjoomradet/2026-10-19/morgonpod.mp3",
+      "audio_version": "eb0f06075a83b1c2",
+      "sources": "episodes/sjoomradet/2026-10-19/kallor.json",
+      "tags": [
+        "Maritim säkerhet och kritisk infrastruktur"
+      ],
+      "topics": [
+        {
+          "id": "maritim-säkerhet-och-kritisk-infrastruktur",
+          "name": "Maritim säkerhet och kritisk infrastruktur"
+        }
+      ],
+      "brief": "episodes/sjoomradet/2026-10-19/brief.json"
+    },
+    {
+      "production_schema": 2,
+      "kind": "daily",
       "duration_seconds": 421.896,
       "duration_status": "within_target",
       "target_minutes": [

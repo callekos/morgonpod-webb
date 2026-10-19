@@ -1,0 +1,31 @@
+{
+  "title": "Sjöområdet daglig lägesbrief: Finska fastighetsstopp och svenska lagskillnader",
+  "intro": "Det här är en vardagsbrief från Sjöområdet med datumet den 19 oktober 2026. I dag fokuserar vi på hur Finland systematiskt stoppar fastighetsaffärer nära kritisk infrastruktur, samtidigt som den svenska lagstiftningen alltjämt saknar motsvarande generella verktyg.",
+  "outlook": "Under den kommande perioden är det väsentligt att följa om regeringen lägger fram nya lagförslag för att skydda fastigheter nära svenska marinbaser och kritisk infrastruktur, samt hur myndigheter samverkar kring upptäckten av potentiella bulvanaffärer.",
+  "news": [
+    {
+      "category": "Maritim säkerhet och kritisk infrastruktur",
+      "title": "Finländska fastighetsstopp belyser svensk lagstiftningslucka vid skyddsobjekt",
+      "summary": "Finland har sedan år 2022 stoppat 68 fastighetsaffärer med hänvisning till nationella säkerhetsrisker och infört ett principellt förbud för ryska och belarusiska medborgare att köpa egendom. Enligt SVT Nyheter saknar svenska myndigheter motsvarande generella lagstöd för att stoppa liknande utländska fastighetsköp nära känslig infrastruktur, trots mångåriga utredningar. Frågan har aktualiserats i Sverige efter att Försvarsmakten uttryckt behov av att ta över en fritidsfastighet nära en marinbas.",
+      "context": "Skillnaden i lagstiftning mellan Sverige och Finland är central för förståelsen av det maritima skyddet runt Östersjön, där fastighetsinnehav nära örlogsbaser och farleder utgör en strategisk sårbarhet.",
+      "url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag",
+      "publisher": "SVT Nyheter",
+      "assessment": "Bedömningen från finländska experter, däribland professor Kari Liuhto, är att lagstiftningen har en viktig avskräckande effekt men att rysk underrättelsetjänst kan försöka använda bulvaner eller mellanhänder för att komma över strategisk mark.",
+      "open_questions": [
+        "Hur hanterar svenska myndigheter risken för bulvanägande av fastigheter i skärgårdsmiljö i avsaknad av en generell förvärvslag?",
+        "Vilka konkreta lagförslag bereds för att ge Sverige samma möjligheter som Finland att förhindra säkerhetskänsliga fastighetsaffärer?"
+      ],
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag",
+          "title": "SVT Nyheter"
+        }
+      ]
+    }
+  ],
+  "description": "Det här är en vardagsbrief från Sjöområdet med datumet den 19 oktober 2026. I dag fokuserar vi på hur Finland systematiskt stoppar fastighetsaffärer nära kritisk infrastruktur, samtidigt som den svenska lagstiftningen alltjämt saknar motsvarande generella verktyg.",
+  "tags": [
+    "Maritim säkerhet och kritisk infrastruktur"
+  ],
+  "text_format": "editorial_articles"
+}

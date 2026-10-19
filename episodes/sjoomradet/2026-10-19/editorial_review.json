@@ -1,0 +1,20 @@
+{
+  "approved": true,
+  "issues": [],
+  "source_coverage": [
+    {
+      "claim": "Finland har sedan 2022 stoppat totalt 68 fastighetsaffärer med hänvisning till nationella säkerhetsrisker fram till den första september i år, och sedan juli 2025 råder i princip ett förbud för ryska och belarusiska medborgare att köpa fastigheter.",
+      "source_url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag"
+    },
+    {
+      "claim": "Svenska myndigheter saknar en generell möjlighet att stoppa utländska fastighetsköp med hänvisning till nationell säkerhet, trots varningar från Säkerhetspolisen och nästan tio års utredning, vilket aktualiserats efter att Försvarsmakten velat ta över en ryskägd fritidsfastighet nära en marinbas.",
+      "source_url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag"
+    },
+    {
+      "claim": "Kari Liuhto, professor i underrättelseforskning vid Finlands försvarshögskola, samt Rickard Lindholm, sakkunnig vid försvarsministeriet, uttalar sig om lagstiftningens effekter och risken för bulvanaffärer.",
+      "source_url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag"
+    }
+  ],
+  "short_episode_reason": "",
+  "reviewed_script_sha256": "e3565e280f6283dddb2f375225fea3a7c9b50628255fc3faea27d3024f67747a"
+}

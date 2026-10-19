@@ -1,0 +1,14 @@
+[
+  {
+    "source": "SVT Nyheter",
+    "title": "Finländska fastighetsstopp belyser svensk lagstiftningslucka vid skyddsobjekt",
+    "url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag",
+    "evidence": {
+      "date": "2026-10-19T03:44:07+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T04:58:07.288963+00:00",
+      "page_sha256": "abab86ca5cef9987b4bf6d3e0dfe3d35521f34b79e7efb3d77783c7d84ab3a95",
+      "retrieval_limit": null
+    }
+  }
+]

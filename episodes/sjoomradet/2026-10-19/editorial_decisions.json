@@ -1,0 +1,1029 @@
+{
+  "channel": "sjoomradet",
+  "date": "2026-10-19",
+  "schema": 2,
+  "corroboration_method": "distinct_hosts_not_proof_of_independence",
+  "received": 46,
+  "unique_urls": 46,
+  "identified_events": 46,
+  "selected_articles": 40,
+  "selected_events": 40,
+  "unique_domains": 3,
+  "max_items": 40,
+  "gemini_calls": 0,
+  "decisions": [
+    {
+      "event_id": "b50f77da0ac9d13c",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Gunnar Strömmer (M) om skjutningen i Älvsjö: ”Väldigt obehagligt”",
+          "url": "https://www.svt.se/nyheter/inrikes/gunnar-strommer-m-om-skjutningen-i-alvsjo-valdigt-obehagligt"
+        }
+      ]
+    },
+    {
+      "event_id": "49d165d29e78d2b5",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Här är fastighetsköpen som Finland stoppat – Sverige saknar liknande lag",
+          "url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag"
+        }
+      ]
+    },
+    {
+      "event_id": "fc17498165958b84",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Samiska på recept? Forskare kopplar samman språk och psykisk hälsa",
+          "url": "https://www.svt.se/nyheter/sapmi/samiska-pa-recept-forskare-kopplar-samman-sprak-och-psykisk-halsa"
+        }
+      ]
+    },
+    {
+      "event_id": "05c240e8da7a2758",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Maten snabbt slut vid strypt import – olönsamt att producera mera",
+          "url": "https://www.svt.se/nyheter/lokalt/vasternorrland/maten-snabbt-slut-vid-strypt-import-olonsamt-att-producera-mera"
+        }
+      ]
+    },
+    {
+      "event_id": "6063b41347b9133d",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Så lyckades nya fritidsgården i Ronna locka fler tjejer",
+          "url": "https://www.svt.se/nyheter/lokalt/sodertalje/sa-lyckades-nya-fritidsgarden-i-ronna-locka-fler-tjejer"
+        }
+      ]
+    },
+    {
+      "event_id": "3d69f5b8002ee106",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Trenden: Elevers engelska förbättras – lärare i Malå: ”Blivit engelsktalande”",
+          "url": "https://www.svt.se/nyheter/lokalt/vasterbotten/trenden-elevers-engelska-forbattras-larare-i-mala-blivit-engelsktalande"
+        }
+      ]
+    },
+    {
+      "event_id": "5ad9f2ae14fb0049",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Jättesolkraftverk kan minska Kinas klimatutsläpp – med hjälp av speglar",
+          "url": "https://www.svt.se/nyheter/utrikes/jattesolkraftverk-kan-minska-kinas-klimatutslapp-med-hjalp-av-speglar"
+        }
+      ]
+    },
+    {
+      "event_id": "ac39e6eb2c12ccaf",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Bläckfisken ökar i Nordsjön: ”Sugkopparna gör ingenting – det är jättegott”",
+          "url": "https://www.svt.se/nyheter/utrikes/blackfisken-okar-i-nordsjon-sugkopparna-gor-ingenting-det-ar-jattegott"
+        }
+      ]
+    },
+    {
+      "event_id": "caca54d44fe882c8",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Anton Källberg förlorade EM-finalen efter jätterysare",
+          "url": "https://www.svt.se/sport/bordtennis/anton-kallberg-forlorade-em-finalen-efter-jatterysare"
+        }
+      ]
+    },
+    {
+      "event_id": "5bbeebdd5c6b27bc",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Martin Ponsiluoma med ny seger i Tyskland: ”Vilken king han är”",
+          "url": "https://www.svt.se/sport/rullskidor/ponsiluoma-med-ny-seger-i-tyskland-vilken-king-han-ar"
+        }
+      ]
+    },
+    {
+      "event_id": "e87a80b1ac2af13f",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Joakim Persson med dubbla fullträffar när Sirius tappade poäng sent",
+          "url": "https://www.svt.se/sport/fotboll/joakim-persson-med-dubbla-fulltraffar-nar-sirius-tappade-poang-sent"
+        }
+      ]
+    },
+    {
+      "event_id": "2cbb3ec567b9cda3",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Anton Källberg klar för EM-final efter skrällseger",
+          "url": "https://www.svt.se/sport/bordtennis/anton-kallberg-klar-for-em-final-efter-skrallseger"
+        }
+      ]
+    },
+    {
+      "event_id": "c82562038a191c6f",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Häcken stormar mot guldet – efter Tindells show: ”Stänger ligan”",
+          "url": "https://www.svt.se/sport/fotboll/hacken-stormar-mot-guldet-efter-tindells-show-stanger-ligan"
+        }
+      ]
+    },
+    {
+      "event_id": "6cde94fdff1c9656",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Boende efter dödsskjutningen i Älvsjö: ”Sorg och förtvivlan”",
+          "url": "https://www.svt.se/nyheter/lokalt/stockholm/boende-efter-dodsskjutningen-i-alvsjo-oro-och-chock"
+        }
+      ]
+    },
+    {
+      "event_id": "fc904bc309afcb23",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Förödelsen stor efter protesterna i Frankrike",
+          "url": "https://www.svt.se/nyheter/utrikes/forodelsen-stor-efter-protesterna-i-frankrike"
+        }
+      ]
+    },
+    {
+      "event_id": "ac6f1a244c8b724e",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Dejan Kulusevski med i Tottenhams trupp – första gången på över ett år",
+          "url": "https://www.svt.se/sport/fotboll/dejan-kulusevski-med-i-tottenhams-trupp-forsta-gangen-pa-over-ett-ar"
+        }
+      ]
+    },
+    {
+      "event_id": "bfdc092d53459060",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Lionel Messi förlängde sin poängsvit efter två nya mål",
+          "url": "https://www.svt.se/sport/fotboll/lionel-messi-forlangde-sin-poangsvit-efter-tva-nya-mal"
+        }
+      ]
+    },
+    {
+      "event_id": "fd7fe4feef7d1c5b",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Svenska landslagsåkarna om Victoria Carls comeback",
+          "url": "https://www.svt.se/sport/langdskidor/svenska-landslagsakarna-om-victoria-carls-comeback"
+        }
+      ]
+    },
+    {
+      "event_id": "f54149e053fc0fe4",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 42,
+      "score_components": {
+        "relevance": 6,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Inside the shadowy world of anti-Putin sabotage from within Russia",
+          "url": "https://www.bbc.co.uk/news/articles/c6pwgzkj8zzgo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "fd1b55ae0a0c1df3",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 42,
+      "score_components": {
+        "relevance": 6,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
+          "url": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "5580c974bba44c9d",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 39,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Kenya pastor accused of ordering parents to starve their children to death faces verdict",
+          "url": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "cf5ce6b350376819",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 39,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "EU tariffs aimed at China hitting Ukraine, steel boss says",
+          "url": "https://www.bbc.co.uk/news/articles/cwdd8z6gyy96o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "64bb31cafb4d0e77",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 39,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
+          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "ee59d5eb90b4b823",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Australian Greens senator denies claims of misconduct towards women",
+          "url": "https://www.bbc.co.uk/news/articles/cmpdgj8z8v2do?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "6f54551e436f87c8",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Anthropic says it will commit 5% of its shares to 'public benefit fund'",
+          "url": "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "f4677cc73c771a84",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "France's government under pressure after weekend of widespread violence",
+          "url": "https://www.bbc.co.uk/news/articles/crwyd02yz22vo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "5bb14a97932dff63",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Threat forces Israel to Austria flight into emergency landing",
+          "url": "https://www.bbc.co.uk/news/articles/c680zdmn100lo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "23f08367ba115c88",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Bollywood actor Tiger Shroff survives shooting in Mumbai",
+          "url": "https://www.bbc.co.uk/news/articles/c6jdmy872r7vo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "0dd8b055cdc527f7",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Major fire at Canada military base leaves four dead, dozens injured",
+          "url": "https://www.bbc.co.uk/news/articles/cxj0ly1m3q81o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "ef1c8df95bf6a25f",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "'Very upsetting': Residents in shock after historic French town hall set alight",
+          "url": "https://www.bbc.co.uk/news/videos/c9dr8kem27zeo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "60cfb738cc120508",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Macron calls for 'calm and order' after riots across France",
+          "url": "https://www.bbc.co.uk/news/articles/cw240zl08dm5o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "b673565b18dc3c1e",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Cindy Crawford 'beyond heartbroken' after death of son Presley at 27",
+          "url": "https://www.bbc.co.uk/news/articles/cwzrd6123jyyo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "b790527ea8c4cf4a",
+      "selected": false,
+      "reason": "domain_balance",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Search for Amelia Earhart's plane resumes after stormy weather",
+          "url": "https://www.bbc.co.uk/news/articles/cv70pxe5j90eo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "a1bb8090538ff776",
+      "selected": false,
+      "reason": "domain_balance",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "European diplomats attacked by Israeli settlers in West Bank",
+          "url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "4510a577acaa5bf1",
+      "selected": false,
+      "reason": "domain_balance",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "A wave of homemade, synthetic drugs sweeps US and deepens crisis",
+          "url": "https://www.bbc.co.uk/news/articles/cmx2wvyv5j17o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "373d1ddcd2461c72",
+      "selected": false,
+      "reason": "domain_balance",
+      "score": 24,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 14,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Anti-government protesters battle with police in Albania",
+          "url": "https://www.bbc.co.uk/news/articles/crwydey50xeno?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "cd4eae350cdf6a32",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 16,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 3,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "europol.europa.eu"
+      ],
+      "articles": [
+        {
+          "title": "Keeping pace with e-evidence: New report examines Europe’s digital forensic capabilities",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/keeping-pace-e-evidence-new-report-examines-europes-digital-forensic-capabilities"
+        }
+      ]
+    },
+    {
+      "event_id": "5ca92a832c2657f4",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 16,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 3,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "europol.europa.eu"
+      ],
+      "articles": [
+        {
+          "title": "European and Ecuadorian cooperation leads to 20 arrests in major hit against drug trafficking",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/european-and-ecuadorian-cooperation-leads-to-20-arrests-in-major-hit-against-drug-trafficking"
+        }
+      ]
+    },
+    {
+      "event_id": "968f0ddb587f8e9b",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 16,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 3,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "europol.europa.eu"
+      ],
+      "articles": [
+        {
+          "title": "Europol urges early action to protect cryptocurrencies and sensitive data from quantum threats",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/europol-urges-early-action-to-protect-cryptocurrencies-and-sensitive-data-quantum-threats"
+        }
+      ]
+    },
+    {
+      "event_id": "3c7296776f2f9405",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 16,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 3,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "europol.europa.eu"
+      ],
+      "articles": [
+        {
+          "title": "Ordering violence from abroad: five suspects arrested in Spain, Morocco, and France",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/ordering-violence-abroad-five-suspects-arrested-in-spain-morocco-and-france"
+        }
+      ]
+    },
+    {
+      "event_id": "47a7db6b9dae943a",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 16,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 3,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "europol.europa.eu"
+      ],
+      "articles": [
+        {
+          "title": "Teenager suspected of leading KillSec ransomware group as law enforcement seizes servers and leak site",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/teenager-suspected-of-leading-killsec-ransomware-group-law-enforcement-seizes-servers-and-leak-site"
+        }
+      ]
+    },
+    {
+      "event_id": "b91a9eb3a2571423",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 16,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 3,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "europol.europa.eu"
+      ],
+      "articles": [
+        {
+          "title": "EU law enforcement chiefs gather to discuss new challenges in EU security",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/eu-law-enforcement-chiefs-gather-to-discuss-new-challenges-in-eu-security"
+        }
+      ]
+    },
+    {
+      "event_id": "2c350c1680208c15",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 13,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 3,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "europol.europa.eu"
+      ],
+      "articles": [
+        {
+          "title": "Almost 50 arrested as police target Western Balkan network linked to killings",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/almost-50-arrested-police-target-western-balkan-network-linked-to-killings"
+        }
+      ]
+    },
+    {
+      "event_id": "f130ebdaeb961c7f",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 13,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 3,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "europol.europa.eu"
+      ],
+      "articles": [
+        {
+          "title": "Cannabis smuggling from North America and Thailand into Europe: Europol highlights growing threat",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/cannabis-smuggling-north-america-and-thailand-europe-europol-highlights-growing-threat"
+        }
+      ]
+    },
+    {
+      "event_id": "6265918f53848cdd",
+      "selected": false,
+      "reason": "domain_balance",
+      "score": 13,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 3,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "europol.europa.eu"
+      ],
+      "articles": [
+        {
+          "title": "Spain, Denmark and the Netherlands win Europol 2026 Excellence Awards in Innovation",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/spain-denmark-and-netherlands-win-europol-2026-excellence-awards-in-innovation"
+        }
+      ]
+    },
+    {
+      "event_id": "34384522d57615d5",
+      "selected": false,
+      "reason": "domain_balance",
+      "score": 13,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 3,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "europol.europa.eu"
+      ],
+      "articles": [
+        {
+          "title": "Protecting citizens, preserving rights",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/protecting-citizens-preserving-rights"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}
