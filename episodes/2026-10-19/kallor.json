@@ -1,0 +1,38 @@
+[
+  {
+    "source": "SVT Nyheter",
+    "title": "Finland stoppar strategiska fastighetsköp medan Sverige saknar motsvarande skydd",
+    "url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag",
+    "evidence": {
+      "date": "2026-10-19T03:44:07+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T04:46:17.566985+00:00",
+      "page_sha256": "f425472771e0b6d42dad51d1dceb5defd32713491ab8c9a2650bbf61710e4f27",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Ars Technica - All content",
+    "title": "Anthropic ger externa granskare direkttillgång till system för riskbedömning",
+    "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+    "evidence": {
+      "date": "2026-10-18T16:25:19+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T04:46:18.709200+00:00",
+      "page_sha256": "04aca8b37ff967baa09ca3abd3ba2816b971c0e89447cd792a84e03206abddf0",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "SVT Nyheter",
+    "title": "Beräkningar visar hög sårbarhet i svensk livsmedelsförsörjning vid importstopp",
+    "url": "https://www.svt.se/nyheter/lokalt/vasternorrland/maten-snabbt-slut-vid-strypt-import-olonsamt-att-producera-mera",
+    "evidence": {
+      "date": "2026-10-19T03:30:00+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T04:46:17.575484+00:00",
+      "page_sha256": "9f33f1d4bef4fea15431f6a5f5e539257c96ff0b440aa50e158c8df0d9db16b8",
+      "retrieval_limit": null
+    }
+  }
+]

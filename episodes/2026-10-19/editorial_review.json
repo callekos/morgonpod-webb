@@ -1,0 +1,50 @@
+{
+  "approved": true,
+  "issues": [],
+  "source_coverage": [
+    {
+      "claim": "Finland har fram till den 1 september 2026 stoppat 68 fastighetsaffärer nära kritisk infrastruktur och har sedan juli 2025 ett principiellt förbud för ryska och belarusiska medborgare att köpa fastigheter.",
+      "source_url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag"
+    },
+    {
+      "claim": "Sverige saknar motsvarande generell lagstiftning för att stoppa utländska fastighetsköp som hotar den nationella säkerheten.",
+      "source_url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag"
+    },
+    {
+      "claim": "Anthropic har gett den oberoende organisationen METR direkt tillgång till interna system och hårdvara för riskbedömning, med rätt för METR att publicera resultat utan veto från Anthropic.",
+      "source_url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/"
+    },
+    {
+      "claim": "Enligt beräkningar från LRF skulle tomater ta slut efter två månader och ost efter fem månader vid ett fingerat importstopp för livsmedel i Sverige.",
+      "source_url": "https://www.svt.se/nyheter/lokalt/vasternorrland/maten-snabbt-slut-vid-strypt-import-olonsamt-att-producera-mera"
+    }
+  ],
+  "short_episode_reason": "",
+  "source_audit_correction": {
+    "id": "ibat-20261019-source-audit",
+    "method": "reviewed_deletions_only",
+    "reviewer": "Codex source audit",
+    "before_sha256": {
+      "brief.json": "e60eb0aeb012cee679587ab2d3d2ea318cbf5faee16bb5e8f4e1f158ca046bf3",
+      "manus.txt": "c40e30345c40a9b483a1fae410c4349087db75ca5676a3ddefdb5640896de7b8",
+      "editorial_review.json": "fdcc08c650c1ba2c76d35e8fe49e11031c09d68969f7ff1bdb0443e2c599fee3",
+      "kallor.json": "1230e3c4aba3099d37a95d1f36621d069cd0968c2a65c13c8456b3449024e4ed"
+    },
+    "corrected_brief_sha256": "31cec6029f7ef2ed8920364a7ce861fa2c76f3cf8ee5521d8187cfb2904a4ff4",
+    "edits": [
+      {
+        "news_index": 1,
+        "field": "summary",
+        "remove": " och intäkterna rapporteras ha ökat kraftigt under det senaste kvartalet",
+        "reason": "Intäktsökningen saknar stöd i hämtad Ars Technica-text."
+      },
+      {
+        "news_index": 2,
+        "field": "assessment",
+        "remove": "Modelleringen belyser det starka beroendet av internationella försörjningskedjor, men bortser från potentiella rationeringsåtgärder och storskalig omställning av befintlig jordbruksmark vid en skärpt kris.",
+        "reason": "Underlaget anger inte vilka krisåtgärder LRF:s modell beaktar; bedömningen om utelämnade åtgärder är obelagd."
+      }
+    ],
+    "new_model_review": false
+  }
+}

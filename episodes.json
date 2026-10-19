@@ -2,6 +2,43 @@
   "episodes": [
     {
       "production_schema": 2,
+      "kind": "daily",
+      "duration_seconds": 246.024,
+      "duration_status": "short",
+      "target_minutes": [
+        6,
+        10
+      ],
+      "channel": "ibat",
+      "date": "2026-10-19",
+      "title": "Morgonbrief",
+      "description": "Morgonbriefing den 19 oktober 2026. Vi rapporterar i dag om Finlands förebyggande lagstiftning mot utländska fastighetsköp nära infrastrukturobjekt, AI-bolaget Anthropics beslut att släppa in externa granskare på systemnivå, samt den svenska livsmedelsförsörjningens känslighet vid ett eventuellt importstopp.",
+      "audio": "episodes/2026-10-19/morgonpod.mp3",
+      "audio_version": "100e3f3503419a7d",
+      "sources": "episodes/2026-10-19/kallor.json",
+      "tags": [
+        "Juridik, integritet och informationssäkerhet",
+        "AI för informationsanalys",
+        "Informationsförsörjning och dataplattformar"
+      ],
+      "topics": [
+        {
+          "id": "juridik,-integritet-och-informationssäkerhet",
+          "name": "Juridik, integritet och informationssäkerhet"
+        },
+        {
+          "id": "ai-för-informationsanalys",
+          "name": "AI för informationsanalys"
+        },
+        {
+          "id": "informationsförsörjning-och-dataplattformar",
+          "name": "Informationsförsörjning och dataplattformar"
+        }
+      ],
+      "brief": "episodes/2026-10-19/brief.json"
+    },
+    {
+      "production_schema": 2,
       "kind": "introduction",
       "duration_seconds": 1782.12,
       "duration_status": "within_target",

@@ -1,0 +1,18 @@
+Det här avsnittet av IBAT
+Informationsförsörjningen avser 19 oktober 2026.
+
+God morgon. Det här är IBATs morgonPOD den 19 oktober 2026. Dagens avsnitt belyser hur Finland stoppar utländska fastighetsköp vid kritisk infrastruktur medan Sverige saknar motsvarande lagstiftning, hur AI-bolaget Anthropic öppnar sina system för externa riskgranskare, samt nya beräkningar av sårbarheten i den svenska livsmedelsförsörjningen.
+
+Vi börjar i säkerhetspolitikens och infrastrukturens område. SVT Nyheter rapporterar i dag, den 19 oktober, om hur Finland fram till den 1 september i år har stoppat 68 fastighetsaffärer med hänvisning till nationella säkerhetsrisker. Det handlar om fastigheter som ligger nära kritisk infrastruktur, köp med osannolika affärsplaner eller köpare med kopplingar till utländsk makt. Sedan juli 2025 råder det dessutom ett principiellt förbud för ryska och belarusiska medborgare att köpa fastigheter i Finland.
+
+SVT noterar att motsvarande förvärv i Sverige sannolikt hade kunnat genomföras. Svenska myndigheter saknar nämligen en generell möjlighet att stoppa utländska fastighetsköp av säkerhetsskäl, vilket uppmärksammats i samband med strategiskt belägna fastigheter i svenska skärgårdsområden. Finska experter framhåller att en förhandstillsyn ger en viktig avskräckande effekt. Samtidigt påtalas att fokus på medborgarskap inte räcker helt, eftersom fientlig underrättelsetjänst ofta nyttjar bulvaner eller komplicerade bolagsstrukturer. För svenska analysfunktioner innebär detta att uppmärksamheten i öppna källor i högre grad måste riktas mot ägarkedjor, bulvanförhållanden och transaktionsmönster runt känsliga anläggningar.
+
+Vi går vidare till utvecklingen inom AI och informationsanalys. Teknologisajten Ars Technica rapporterade den 18 oktober att AI-bolaget Anthropic har släppt in utvärderare från den oberoende organisationen METR i sin verksamhet. Utvärderarna har fått direkt tillgång till bolagets interna system, verktyg och maskinvara – i nivå med vad bolagets egna riskteam har.
+
+Detta görs för att oberoende analytiker ska kunna testa och utvärdera säkerhetsrisker kopplade till avancerade modeller, exempelvis risker rörande cybersäkerhet och förlust av mänsklig kontroll. En viktig aspekt i avtalet är att den externa granskaren har rätt att publicera sina resultat utan godkännande eller veto från Anthropic. Detta är ett av de första konkreta stegen där ett ledande AI-bolag ger utomstående analytiker insyn på systemnivå. För organisationer som utvärderar tillförlitligheten i automatiska analysverktyg ger denna typ av oberoende granskning en viktig indikation på modellernas faktiska säkerhetsmarginaler.
+
+Slutligen ser vi på den nationella försörjningsberedskapen. SVT Nyheter rapporterar den 19 oktober om nya beräkningar från Lantbrukarnas Riksförbund som visar hur snabbt vanliga livsmedel skulle ta slut i Sverige om importflödena ströps. Sverige importerar i dag cirka 50 procent av sina livsmedel. Enligt modelleringen skulle lagren av tomater ta slut efter två månader, medan ost och rapsolja räcker i cirka fem månader.
+
+Forskare vid Mittuniversitetet bekräftar att det rådande importberoendet skapar en stark sårbarhet i samhällsfunktionen om de globala logistikkedjorna störs. Samtidigt uppger norrländska odlare att höga el- och bränslekostnader gör det svårt att få lönsamhet i en utökad lokal produktion, trots goda förutsättningar under sommarhalvåret. Frågan sätter ljuset på behovet av kontinuerlig flödesanalys och datadelning för att identifiera kritiska beroenden i den nationella försörjningskedjan.
+
+Vi ser framåt mot en vecka där frågor om strukturella säkerhetskontroller, oberoende AI-granskning och försörjningsanalys står i fokus. Vi återkommer med ny uppdatering i morgon.
