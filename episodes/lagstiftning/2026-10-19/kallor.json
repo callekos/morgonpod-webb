@@ -1,0 +1,26 @@
+[
+  {
+    "source": "Sveriges riksdag",
+    "title": "Hörande och tillfälligt överförande vid handläggning av en arresteringsorder",
+    "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/horande-och-tillfalligt-overforande-vid_he01juu2/",
+    "evidence": {
+      "date": "2026-10-06",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T08:55:33.504141+00:00",
+      "page_sha256": "146be507382005b38e9b2dd1c471c3fe51d070fb39ebc51dcf054ab7ee82953a",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Sveriges riksdag",
+    "title": "Ett nytt brott och andra åtgärder mot människohandel",
+    "url": "https://data.riksdagen.se/dokument/HD03313.html",
+    "evidence": {
+      "date": "2026-09-24",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T08:55:33.503790+00:00",
+      "page_sha256": "28ae335350d1ebe258eccb6e39f9ba1417de20266e319e457d2935557bc3f57a",
+      "retrieval_limit": null
+    }
+  }
+]

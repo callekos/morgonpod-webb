@@ -1,0 +1,54 @@
+{
+  "approved": true,
+  "issues": [],
+  "source_coverage": [
+    {
+      "claim": "Sveriges riksdag rapporterar i betänkande 2026/27:JuU2 om proposition 2025/26:285 gällande ändringar i lagstiftningen om europeisk och nordisk arresteringsorder.",
+      "source_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/horande-och-tillfalligt-overforande-vid_he01juu2/"
+    },
+    {
+      "claim": "Sveriges riksdag rapporterar i proposition 2025/26:313 om förslag för att genomföra Europaparlamentets och rådets direktiv (EU) 2024/1712 om förebyggande och bekämpande av människohandel.",
+      "source_url": "https://data.riksdagen.se/dokument/HD03313.html"
+    }
+  ],
+  "short_episode_reason": "",
+  "source_audit_correction": {
+    "id": "lagstiftning-20261019-consent-deletion",
+    "method": "reviewed_deletions_only",
+    "reviewer": "Codex source audit, complete remaining manuscript checked against Riksdagen primary pages",
+    "before_sha256": {
+      "brief.json": "c03ce88f6daacbb01be23dfe2559621e12aae74dfbe58795ab4e45d44921fe71",
+      "manus.txt": "3c52d4721ce087ac6ecba6d35c96e86a1eca98cee7d5e4e637db8dcd543060a5",
+      "editorial_review.json": "42970a9b6ce3a76f36b01a4d54dc23c26344ee86a36c1a4d0eb5ad2527bc412c",
+      "kallor.json": "8bd505e9e4b2fddd0dcb4380e5665e75a78b9a0686f2376b245e3aee90d50294"
+    },
+    "corrected_brief_sha256": "d106fe733c8947b70ceac12dda98cad05a08b4ae07c62970e21dd41f51cdc129",
+    "edits": [
+      {
+        "news_index": 0,
+        "field": "summary",
+        "remove": ", samt krav på samtycke från den utfärdande staten för att vägra verkställighet av en frihetsberövande påföljd i Sverige",
+        "reason": "Propositionen gäller samtycke för att vägra överlämnande och i stället verkställa påföljden i Sverige, inte för att vägra verkställighet i Sverige. Den felaktiga meningen tas bort utan ersättningspåståenden. Primärkälla: prop2025/26:285, huvudsakligt innehåll."
+      },
+      {
+        "news_index": 0,
+        "field": "summary",
+        "remove": "i betänkande 2026/27:JuU2 ",
+        "reason": "Ärendesidan visar att betänkandet inte är publicerat. Riksdagens ärendesida och regeringens proposition används; hänvisningen till ett läst betänkande tas bort."
+      }
+    ],
+    "corrected_manus_sha256": "bbd56109e734daa65b1013fe29e2c9cef44a35e14ac056753ae355dfb8f669ea",
+    "script_removals": [
+      {
+        "remove": "Därtill ställs krav på samtycke från den utfärdande staten för att vägra verkställighet av en frihetsberövande påföljd i Sverige. ",
+        "reason": "Propositionen gäller samtycke för att vägra överlämnande och i stället verkställa påföljden i Sverige, inte för att vägra verkställighet i Sverige. Den felaktiga meningen tas bort utan ersättningspåståenden. Primärkälla: prop2025/26:285, huvudsakligt innehåll."
+      },
+      {
+        "remove": "i betänkande 2026/27:JuU2 ",
+        "reason": "Ärendesidan visar att betänkandet inte är publicerat. Riksdagens ärendesida och regeringens proposition används; hänvisningen till ett läst betänkande tas bort."
+      }
+    ],
+    "new_model_review": false
+  },
+  "reviewed_script_sha256": "bbd56109e734daa65b1013fe29e2c9cef44a35e14ac056753ae355dfb8f669ea"
+}

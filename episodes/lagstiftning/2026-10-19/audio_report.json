@@ -1,0 +1,16 @@
+{
+  "kind": "weekly",
+  "duration_seconds": 189.888,
+  "target_minutes": [
+    5,
+    10
+  ],
+  "duration_status": "short",
+  "channel": "lagstiftning",
+  "date": "2026-10-19",
+  "audio_sha256": "75ea052ca0f9094969733202d444792ab356cdb4895f4233e959388eaa2f5150",
+  "audio_bytes": 1452525,
+  "decoded": true,
+  "checked_at": "2026-10-19T09:26:23.552435+00:00",
+  "editorial_approval": "not_established_by_audio_check"
+}

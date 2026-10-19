@@ -1,0 +1,105 @@
+{
+  "channel": "lagstiftning",
+  "date": "2026-10-19",
+  "schema": 2,
+  "corroboration_method": "distinct_hosts_not_proof_of_independence",
+  "received": 4,
+  "unique_urls": 4,
+  "identified_events": 4,
+  "selected_articles": 4,
+  "selected_events": 4,
+  "unique_domains": 2,
+  "max_items": 60,
+  "gemini_calls": 0,
+  "decisions": [
+    {
+      "event_id": "d96b63c438799ffa",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 33,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 2,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "riksdagen.se"
+      ],
+      "articles": [
+        {
+          "title": "Hörande och tillfälligt överförande vid handläggning av en arresteringsorder, proposition 2025/26:285",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/proposition/horande-och-tillfalligt-overforande-vid_hd03285/html/"
+        }
+      ]
+    },
+    {
+      "event_id": "65493e9a680c2f95",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 2,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "riksdagen.se"
+      ],
+      "articles": [
+        {
+          "title": "Arresteringsorder: pågående ärende 2026/27:JuU2",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/horande-och-tillfalligt-overforande-vid_he01juu2/"
+        }
+      ]
+    },
+    {
+      "event_id": "670c9d49fdbb928e",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 2,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "riksdagen.se"
+      ],
+      "articles": [
+        {
+          "title": "Människohandel: pågående ärende 2026/27:JuU9",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/ett-nytt-brott-och-andra-atgarder-mot_he01juu9/"
+        }
+      ]
+    },
+    {
+      "event_id": "280783b99f0e9129",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 24,
+      "score_components": {
+        "relevance": 6,
+        "freshness": 2,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "data.riksdagen.se"
+      ],
+      "articles": [
+        {
+          "title": "Ett nytt brott och andra åtgärder mot människohandel, proposition 2025/26:313",
+          "url": "https://data.riksdagen.se/dokument/HD03313.html"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}
