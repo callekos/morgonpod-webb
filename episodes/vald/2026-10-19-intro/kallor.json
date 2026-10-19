@@ -1,0 +1,57 @@
+[
+  {
+    "source": "WHO",
+    "title": "Youth violence",
+    "url": "https://www.who.int/en/news-room/fact-sheets/detail/youth-violence",
+    "evidence": {
+      "date": "unknown",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T17:41:56.461969+00:00",
+      "page_sha256": "51a357aa657631e0a420fce01e4be5d083d91b9c62305338054edbc8b9b3856d"
+    }
+  },
+  {
+    "source": "WHO",
+    "title": "Violence against children",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/violence-against-children",
+    "evidence": {
+      "date": "unknown",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T17:41:56.462270+00:00",
+      "page_sha256": "170bcdb9d401a8a0661ec0b81890b4be9b0bf40b9f4c7e83896efa30abf3fb7a"
+    }
+  },
+  {
+    "source": "WHO",
+    "title": "Violence against women",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/violence-against-women",
+    "evidence": {
+      "date": "unknown",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T17:41:56.462545+00:00",
+      "page_sha256": "be8e7b5cd8060fba14af5bdb9df36f6728aa594d6cc3581a5fe5d7bbf3609cb5"
+    }
+  },
+  {
+    "source": "WHO",
+    "title": "Prevention of violence: public health approach",
+    "url": "https://www.who.int/teams/social-determinants-of-health/violence-prevention/",
+    "evidence": {
+      "date": "unknown",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T17:41:56.933249+00:00",
+      "page_sha256": "f9c49baf4efd99179450d03dcd664d976a450f86161144bbd459ad37c2b73810"
+    }
+  },
+  {
+    "source": "WHO",
+    "title": "INSPIRE: Seven strategies for ending violence against children",
+    "url": "https://www.who.int/teams/social-determinants-of-health/violence-prevention/inspire-technical-package/",
+    "evidence": {
+      "date": "unknown",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T17:41:56.463257+00:00",
+      "page_sha256": "42ea51812f7456474d74aa6e8c27eb0a1dfbaf8ae53efc8aa5aaa93e48d2850c"
+    }
+  }
+]

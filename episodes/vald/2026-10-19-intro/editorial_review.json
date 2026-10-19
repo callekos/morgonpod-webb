@@ -1,0 +1,30 @@
+{
+  "approved": true,
+  "issues": [],
+  "source_coverage": [
+    {
+      "claim": "Världshälsoorganisationen delar upp våld i bland annat misshandel, mobbning, ungdomsvåld, våld i nära relationer, sexuellt våld och psykiskt våld.",
+      "source_url": "https://www.who.int/en/news-room/fact-sheets/detail/youth-violence"
+    },
+    {
+      "claim": "Världshälsoorganisationens rapportering visar att våld är ett mångfacetterat problem som påverkas av faktorer på fyra nivåer: individnivå, relationsnivå, samhällsnivå och den vidare strukturella nivån.",
+      "source_url": "https://www.who.int/teams/social-determinants-of-health/violence-prevention/"
+    },
+    {
+      "claim": "Ungdomsvåldet globalt sett har minskat i de flesta länder mellan år 2000 och 2019, även om minskningen varit större i höginkomstländer än i låg- och medelinkomstländer, enligt Världshälsoorganisationen.",
+      "source_url": "https://www.who.int/en/news-room/fact-sheets/detail/youth-violence"
+    },
+    {
+      "claim": "Världshälsoorganisationens INSPIRE-paket lyfter fram sju strategier, inklusive lagstiftning, normförändring, trygga miljöer och föräldrastöd.",
+      "source_url": "https://www.who.int/teams/social-determinants-of-health/violence-prevention/inspire-technical-package/"
+    },
+    {
+      "claim": "Världshälsoorganisationen rapporterar att uppskattningsvis en på tre kvinnor globalt utsätts för fysiskt eller sexuellt våld, och att omkring 193 000 mord årligen sker bland unga.",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/youth-violence"
+    }
+  ],
+  "short_episode_reason": "",
+  "package_sha256": "6fdac1a61e39c10940ba87a407af7d73514339afc95e929b04f73d07d86911f0",
+  "channel": "vald",
+  "date": "2026-10-19"
+}

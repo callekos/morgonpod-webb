@@ -1,0 +1,16 @@
+{
+  "kind": "introduction",
+  "duration_seconds": 2025.672,
+  "target_minutes": [
+    20,
+    40
+  ],
+  "duration_status": "within_target",
+  "channel": "vald",
+  "date": "2026-10-19",
+  "audio_sha256": "c9382f837b35d96a0e65593f2eab864376351fc526608306ac791c501d2407b1",
+  "audio_bytes": 15380013,
+  "decoded": true,
+  "checked_at": "2026-10-19T19:00:29.124344+00:00",
+  "editorial_approval": "not_established_by_audio_check"
+}
