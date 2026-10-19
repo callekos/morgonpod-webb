@@ -1,0 +1,30 @@
+{
+  "approved": true,
+  "issues": [],
+  "source_coverage": [
+    {
+      "claim": "Digg beskriver i sin vägledning att öppenhet som standard är en central princip för att tillgängliggöra information och att roller som informationsägare och informationsförvaltare är avgörande.",
+      "source_url": "https://www.digg.se/kunskap-och-stod/oppna-och-delade-data/vagledning-for-att-tillgangliggora-information"
+    },
+    {
+      "claim": "IMY framhåller i sin vägledning att AI-utveckling och behandling av personuppgifter ställs inför utmaningar kring ändamålsbegränsning och uppgiftsminimering.",
+      "source_url": "https://www.imy.se/verksamhet/dataskydd/innovationsportalen/vagledning-om-gdpr-och-ai/gdpr-och-ai/ai-och-grundlaggande-principer/"
+    },
+    {
+      "claim": "W3C:s PROV-modell erbjuder spårbarhet och dokumenterat informationsursprung.",
+      "source_url": "https://www.w3.org/TR/prov-primer/"
+    },
+    {
+      "claim": "W3C:s Data Quality Vocabulary (DQV) ger ett ramverk för att mäta och beskriva datakvalitet.",
+      "source_url": "https://www.w3.org/TR/vocab-dqv/"
+    },
+    {
+      "claim": "Europeiska kommissionen förklarar att Data Act och Data Governance Act sätter regler för datadelning och ökar förtroendet inom unionen.",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/factpages/data-act-explained"
+    }
+  ],
+  "short_episode_reason": "",
+  "package_sha256": "90099bbe6658245c3575f225515e2bf7dbec87057a17cc7c81b81dee46b9ccf6",
+  "channel": "ibat",
+  "date": "2026-10-19"
+}

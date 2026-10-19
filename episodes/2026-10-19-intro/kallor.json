@@ -1,0 +1,79 @@
+[
+  {
+    "source": "Europeiska kommissionen",
+    "title": "Data Act explained",
+    "url": "https://digital-strategy.ec.europa.eu/en/factpages/data-act-explained",
+    "evidence": {
+      "date": "unknown",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T16:51:04.911048+00:00",
+      "page_sha256": "50e10fb21741cb5269beb0f78c7847a5554703f569b6da2e9d52264ae79475c1"
+    }
+  },
+  {
+    "source": "Europeiska kommissionen",
+    "title": "Data Governance Act explained",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/data-governance-act-explained",
+    "evidence": {
+      "date": "unknown",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T16:51:05.224469+00:00",
+      "page_sha256": "96cd509c8ca11aa8f8fc24333144901cae28d363ded5d079fefd21ad2f87907b"
+    }
+  },
+  {
+    "source": "Digg",
+    "title": "Vägledning för att tillgängliggöra information",
+    "url": "https://www.digg.se/kunskap-och-stod/oppna-och-delade-data/vagledning-for-att-tillgangliggora-information",
+    "evidence": {
+      "date": "unknown",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T16:51:04.909659+00:00",
+      "page_sha256": "2089f36a255b64b6e4a874dc775007c5164f141aee5ed8ed86c86c06f40c0992"
+    }
+  },
+  {
+    "source": "IMY",
+    "title": "Grundläggande principer enligt GDPR",
+    "url": "https://www.imy.se/verksamhet/dataskydd/det-har-galler-enligt-gdpr/grundlaggande-principer",
+    "evidence": {
+      "date": "unknown",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T16:51:04.910300+00:00",
+      "page_sha256": "c602696cf8f0b59d08fcf5cf0f1d6f16de8c899ebe5143445f539e92540ec61c"
+    }
+  },
+  {
+    "source": "IMY",
+    "title": "AI och grundläggande dataskyddsprinciper",
+    "url": "https://www.imy.se/verksamhet/dataskydd/innovationsportalen/vagledning-om-gdpr-och-ai/gdpr-och-ai/ai-och-grundlaggande-principer/",
+    "evidence": {
+      "date": "unknown",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T16:51:04.910568+00:00",
+      "page_sha256": "d90e9f06a17ef09ef18312912066f77eed2ab1d7895438e6482b0b9adb63aaec"
+    }
+  },
+  {
+    "source": "W3C",
+    "title": "PROV Model Primer: spårbarhet och informationsursprung",
+    "url": "https://www.w3.org/TR/prov-primer/",
+    "evidence": {
+      "date": "unknown",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T16:51:05.759427+00:00",
+      "page_sha256": "4db54135a6f06bbee1983e079c6d9bd3d54e5b45eb6ed0f5686e922c665b8c4a"
+    }
+  },
+  {
+    "source": "W3C",
+    "title": "Data Quality Vocabulary",
+    "url": "https://www.w3.org/TR/vocab-dqv/",
+    "evidence": {
+      "date": "unknown",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T16:51:05.847398+00:00",
+      "page_sha256": "271d3e820c681127131595d2c8bf8345e925149192f6cab821f101f09d372a63"
+    }
+  }
+]
