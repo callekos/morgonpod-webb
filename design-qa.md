@@ -55,3 +55,15 @@ Ny designstyrning: ägarens skärmbild och återkoppling i chatten 19 oktober kl
 Aktuella mobil- och desktopbilder fångas på nytt av samma browserprov. Den tidigare jämförelsebilden mot konceptet dokumenterar första iterationen; den nya bildriktningen bedöms mot ägarens senaste korrigering. Inga nya P0/P1/P2-fynd efter granskning av de nya kanalbilderna och vyerna. Faktisk Safari-release är fortsatt separat grind: första CI-körningen gav 23 godkända browserfall och en WebKit-processkrasch vid hård navigation. Motsvarande kontroll går nu via webbens riktiga kanalnavigation efter omladdningen, med alla tema- och lagringskrav bevarade.
 
 final result: passed
+
+## Iteration 3: behåll första seriens miljöer, förbättra motivseparation
+
+Styrande återkoppling: ägaren 19 oktober kl. 23.48. Seriens miljöer är åter utgångspunkt; de fristående symbolbilderna är ersatta. Full bedömning per kanal, beslutad motivbehandling och begränsningar finns i docs/channel-art-review.md. Före: docs/evidence/channel-art-before.png, fångad på nytt före denna ändring. Efter: aktuella iphone-chromium-channels.png, iphone-chromium-today.png och desktop-channel-dark.png. Original, breda efterbilder, kvadrater vid 128/64/48 pixlar och gråskaleprov har inspekterats; kontaktblad channel-art-final-crops.png visar slutliga utsnitt.
+
+Åtgärdat P2: motiv och bakgrund delade samma ton och bildens miljö blev för detaljrik i miniatyr. Efterbearbetning med varje original som bildreferens ger tydligare ljus-/formseparation och dämpad bakgrund utan att ersätta scenen med en ikon. Fem kanalmasters har egna motivanpassade kvadratiska exportbilder. Bred hero behåller miljön och får separat fokalpunkt. Föremålen och deras skärpa/luminans står för igenkänningen; kanalnamn ligger kvar som gränssnittstext.
+
+QA: 13 enhetstester och 16 browserprov godkända på slutlig lokal implementation. Ljust/mörkt/system, ljuduppspelning, hastighet, beständigt ljud, artiklar, kanaler, sök och stora arkiv återverifierade. Huvudmotiv och textöverlägg granskade i verkliga mobil-/desktopbilder. Typsnitt, layout, navigation och övriga design tokens är bevarade. Masterbilder exporterade upp till 1200 × 800, kvadrater 640 × 640; skärmbilder normaliserade till CSS-pixlar. Inget nytt font-, layout- eller innehållsfynd. Fysisk iPhone är inte omtestad av agenten. Befintlig GitHub CI på föregående head cc84e4d är nu helt grön inklusive WebKit; ny CI krävs på nya head före merge.
+
+Ingen kvarvarande P0/P1/P2 för granskade bildytor. P3: den breda fartygsheron beskär masten, men bog och överbyggnad är tydligt kvar; kvadrat och stor spelare visar fullare motiv. Detta är en accepterad redaktionell beskärning för den vida bildytan. Produktionsmetadata och feedintegration är fortfarande separata releasegrindar för hela V2.
+
+final result: passed
