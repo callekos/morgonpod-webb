@@ -1,0 +1,40 @@
+{
+  "approved": true,
+  "issues": [],
+  "source_coverage": [
+    {
+      "claim": "BBC News belyser en allvarlig strukturell förändring på den illegala drogmarknaden med syntetiska substanser som framställs i lokala källare och hemmiljöer.",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmx2wvyv5j17o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "claim": "Fentanyl blandas ut med xylazin och medetomidin som förlänger ruset men ger förödande biverkningar och där naloxon inte biter.",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmx2wvyv5j17o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "claim": "Scott Sanders vid stödorganisationen Hope Dealers konstaterar att 78 procent av dödliga överdoser i Franklin County involverat centralstimulantia spetsade med fentanyl eller syntetiska cocktails.",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmx2wvyv5j17o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "claim": "En distributör i Chicago uppger för BBC News att leveranskedjorna förblir intakta oavsett politiska initiativ och att syntetiska substanser möjliggör helt nya marginaler.",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmx2wvyv5j17o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "claim": "Sheriff Tom Dart i Cook County rapporterar om en förändring där droger dränks in i papper och brev som skickas till anstalter, vilket ledde till åtta dödsfall till följd av krampanfall under 2023.",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmx2wvyv5j17o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "claim": "Finland har stoppat 68 fastighetsaffärer nära kritisk infrastruktur sedan 2022 och infört ett totalförbud för ryska och belarusiska medborgare att köpa fastigheter.",
+      "source_url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag"
+    },
+    {
+      "claim": "SVT Nyheter belyser att svenska myndigheter saknar en generell laglig möjlighet att stoppa utländska fastighetsköp med hänvisning till nationell säkerhet.",
+      "source_url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag"
+    },
+    {
+      "claim": "Kari Liuhto, professor vid Finlands försvarshögskola, konstaterar för SVT att lagstiftningen fokuserar för snävt på medborgarskap och att främmande underrättelsetjänster ofta använder bulvaner.",
+      "source_url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag"
+    }
+  ],
+  "short_episode_reason": "",
+  "reviewed_script_sha256": "d0b912a331fb0a5a8124e400a93ad352f6d63da8a771833a2acfb4eff122e42f"
+}

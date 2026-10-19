@@ -2,6 +2,46 @@
   "schema": 2,
   "stories": [
     {
+      "id": "article-b961bb4d0dc4de3998074e5e",
+      "episode_id": "kek:2026-10-19:daily",
+      "date": "2026-10-19",
+      "channel": "kek",
+      "kind": "daily",
+      "episode_title": "Morgonbrief",
+      "episode_audio": "episodes/kek/2026-10-19/morgonpod.mp3",
+      "episode_brief": "episodes/kek/2026-10-19/brief.json",
+      "article_index": 1,
+      "title": "Finlands strikta fastighetsregler saknar svensk motsvarighet",
+      "summary": "SVT Nyheter rapporterar den 19 oktober 2026 att Finland har stoppat 68 fastighetsaffärer nära kritisk infrastruktur sedan 2022 med hänvisning till nationell säkerhet, och infört ett totalförbud för ryska och belarusiska medborgare att köpa fastigheter. Enligt granskningen saknar Sverige motsvarande generella lagar för att stoppa liknande utländska fastighetsköp.",
+      "body": "Skillnaden i lagstiftning mellan länderna aktualiserar sårbarheter kring strategiska tillgångar och hur kriminella upplägg eller främmande makt kan utnyttja formellt legala fastighetsförvärv för att bygga upp långsiktiga positioner.",
+      "context": "Skillnaden i lagstiftning mellan länderna aktualiserar sårbarheter kring strategiska tillgångar och hur kriminella upplägg eller främmande makt kan utnyttja formellt legala fastighetsförvärv för att bygga upp långsiktiga positioner.",
+      "source_url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "topics": [
+        "tillgångsinriktad-brottsbekämpning"
+      ],
+      "topic_labels": [
+        "Tillgångsinriktad brottsbekämpning"
+      ],
+      "assessment": "Finländska experter bedömer att även om lagstiftningen har en viktig avskräckande effekt, utgör köp via bulvaner en ständigt växande utmaning som är svår att upptäcka i ett tidigt skede.",
+      "open_questions": [
+        "Vilka indikatorer kan användas för att identifiera dolda bulvanupplägg vid fastighetsförvärv?",
+        "Hur påverkar bristen på generell kontroll den nationella säkerhetsanalysen i Sverige?"
+      ],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "legacy_context",
+      "recorded_at": "2026-10-19T05:47:31.476257+00:00",
+      "revision": 1,
+      "fingerprint": "f773ba2c8503c11c946e2839cd6115700a18a3e9de3ddc6953e72edb6af6edb3",
+      "history": []
+    },
+    {
       "id": "article-b3cda9389e22552a5dd99f7c",
       "episode_id": "ibat:2026-10-19:daily",
       "date": "2026-10-19",
@@ -39,6 +79,46 @@
       "recorded_at": "2026-10-19T05:45:53.853357+00:00",
       "revision": 1,
       "fingerprint": "963827160b12dc2f5a197528ce735920ff64fd8819f251cd3f2f1451cd5e021e",
+      "history": []
+    },
+    {
+      "id": "article-a3bc9d16104cd0534018ae3e",
+      "episode_id": "kek:2026-10-19:daily",
+      "date": "2026-10-19",
+      "channel": "kek",
+      "kind": "daily",
+      "episode_title": "Morgonbrief",
+      "episode_audio": "episodes/kek/2026-10-19/morgonpod.mp3",
+      "episode_brief": "episodes/kek/2026-10-19/brief.json",
+      "article_index": 0,
+      "title": "Strypt import och syntetiska droger i USA",
+      "summary": "Enligt en artikel publicerad av BBC News den 18 oktober 2026 pressas USA av en ny våg hemlagade syntetiska droger där traditionella ämnen blandas ut med kraftfulla animaliska lugnande medel som medetomidin och xylazin. Rapporten visar hur karteller och lokala tillverkare anpassar sina distributionskedjor, och hur fängelser drabbas av smugglingsmetoder där droger dränks in i papper.",
+      "body": "Den här utvecklingen belyser hur snabbt illegala marknader anpassar sig när traditionella gränskontroller skärps. För svensk och europeisk lägesförståelse understryker detta riskerna med kemisk diversifiering inom den organiserade brottsligheten och hur marknadens flöden ständigt söker nya vägar.",
+      "context": "Den här utvecklingen belyser hur snabbt illegala marknader anpassar sig när traditionella gränskontroller skärps. För svensk och europeisk lägesförståelse understryker detta riskerna med kemisk diversifiering inom den organiserade brottsligheten och hur marknadens flöden ständigt söker nya vägar.",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmx2wvyv5j17o?at_medium=RSS&at_campaign=rss",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cmx2wvyv5j17o?at_medium=RSS&at_campaign=rss",
+          "title": "BBC News"
+        }
+      ],
+      "topics": [
+        "penningtvätt-och-brottsvinster"
+      ],
+      "topic_labels": [
+        "Penningtvätt och brottsvinster"
+      ],
+      "assessment": "En bedömning från räddnings- och fängelsepersonal i BBC-reportaget är att syntetiska droger tillverkade i hemmamiljö har gjort narkotikamarknaden betydligt svårare att kontrollera enbart via traditionellt gränsarbete.",
+      "open_questions": [
+        "Hur sprids liknande syntetiska substanser till europeiska marknader?",
+        "Vilka nya detektionsmetoder krävs för att upptäcka pappersburen drogsmuggling?"
+      ],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "legacy_context",
+      "recorded_at": "2026-10-19T05:47:31.476190+00:00",
+      "revision": 1,
+      "fingerprint": "7791361f8d202bcff6acaca8a50617d141c162e4e1330e38138a1b40d28e8a47",
       "history": []
     },
     {

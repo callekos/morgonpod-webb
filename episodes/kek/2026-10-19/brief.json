@@ -1,0 +1,51 @@
+{
+  "title": "Kriminell ekonomi: Nya syntetiska droger och fastighetsskydd",
+  "intro": "Välkommen till dagens avsnitt av Kriminell ekonomi. I dag fokuserar vi på hur nya syntetiska drogvågor förändrar den globala narkotikamarknaden och hur andra länder skyddar strategiska fastigheter mot säkerhetshot.",
+  "outlook": "Framåt är det centralt att följa hur europeiska organ som Europol hanterar den ökande smugglingstrenden av syntetiska substanser och alternativa införselvägar. Analytiker bör särskilt rikta uppmärksamheten mot hur snabbt kriminella nätverk kan ställa om sina logistikkedjor när nationella myndigheter skärper sina regelverk.",
+  "news": [
+    {
+      "category": "Penningtvätt och brottsvinster",
+      "title": "Strypt import och syntetiska droger i USA",
+      "summary": "Enligt en artikel publicerad av BBC News den 18 oktober 2026 pressas USA av en ny våg hemlagade syntetiska droger där traditionella ämnen blandas ut med kraftfulla animaliska lugnande medel som medetomidin och xylazin. Rapporten visar hur karteller och lokala tillverkare anpassar sina distributionskedjor, och hur fängelser drabbas av smugglingsmetoder där droger dränks in i papper.",
+      "context": "Den här utvecklingen belyser hur snabbt illegala marknader anpassar sig när traditionella gränskontroller skärps. För svensk och europeisk lägesförståelse understryker detta riskerna med kemisk diversifiering inom den organiserade brottsligheten och hur marknadens flöden ständigt söker nya vägar.",
+      "url": "https://www.bbc.co.uk/news/articles/cmx2wvyv5j17o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC News",
+      "assessment": "En bedömning från räddnings- och fängelsepersonal i BBC-reportaget är att syntetiska droger tillverkade i hemmamiljö har gjort narkotikamarknaden betydligt svårare att kontrollera enbart via traditionellt gränsarbete.",
+      "open_questions": [
+        "Hur sprids liknande syntetiska substanser till europeiska marknader?",
+        "Vilka nya detektionsmetoder krävs för att upptäcka pappersburen drogsmuggling?"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cmx2wvyv5j17o?at_medium=RSS&at_campaign=rss",
+          "title": "BBC News"
+        }
+      ]
+    },
+    {
+      "category": "Tillgångsinriktad brottsbekämpning",
+      "title": "Finlands strikta fastighetsregler saknar svensk motsvarighet",
+      "summary": "SVT Nyheter rapporterar den 19 oktober 2026 att Finland har stoppat 68 fastighetsaffärer nära kritisk infrastruktur sedan 2022 med hänvisning till nationell säkerhet, och infört ett totalförbud för ryska och belarusiska medborgare att köpa fastigheter. Enligt granskningen saknar Sverige motsvarande generella lagar för att stoppa liknande utländska fastighetsköp.",
+      "context": "Skillnaden i lagstiftning mellan länderna aktualiserar sårbarheter kring strategiska tillgångar och hur kriminella upplägg eller främmande makt kan utnyttja formellt legala fastighetsförvärv för att bygga upp långsiktiga positioner.",
+      "url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag",
+      "publisher": "SVT Nyheter",
+      "assessment": "Finländska experter bedömer att även om lagstiftningen har en viktig avskräckande effekt, utgör köp via bulvaner en ständigt växande utmaning som är svår att upptäcka i ett tidigt skede.",
+      "open_questions": [
+        "Vilka indikatorer kan användas för att identifiera dolda bulvanupplägg vid fastighetsförvärv?",
+        "Hur påverkar bristen på generell kontroll den nationella säkerhetsanalysen i Sverige?"
+      ],
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag",
+          "title": "SVT Nyheter"
+        }
+      ]
+    }
+  ],
+  "description": "Välkommen till dagens avsnitt av Kriminell ekonomi. I dag fokuserar vi på hur nya syntetiska drogvågor förändrar den globala narkotikamarknaden och hur andra länder skyddar strategiska fastigheter mot säkerhetshot.",
+  "tags": [
+    "Penningtvätt och brottsvinster",
+    "Tillgångsinriktad brottsbekämpning"
+  ],
+  "text_format": "editorial_articles"
+}

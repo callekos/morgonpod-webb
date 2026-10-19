@@ -3,6 +3,38 @@
     {
       "production_schema": 2,
       "kind": "daily",
+      "duration_seconds": 421.896,
+      "duration_status": "within_target",
+      "target_minutes": [
+        6,
+        10
+      ],
+      "channel": "kek",
+      "date": "2026-10-19",
+      "title": "Morgonbrief",
+      "description": "Välkommen till dagens avsnitt av Kriminell ekonomi. I dag fokuserar vi på hur nya syntetiska drogvågor förändrar den globala narkotikamarknaden och hur andra länder skyddar strategiska fastigheter mot säkerhetshot.",
+      "audio": "episodes/kek/2026-10-19/morgonpod.mp3",
+      "audio_version": "5bb552915c1d8d1b",
+      "sources": "episodes/kek/2026-10-19/kallor.json",
+      "tags": [
+        "Penningtvätt och brottsvinster",
+        "Tillgångsinriktad brottsbekämpning"
+      ],
+      "topics": [
+        {
+          "id": "penningtvätt-och-brottsvinster",
+          "name": "Penningtvätt och brottsvinster"
+        },
+        {
+          "id": "tillgångsinriktad-brottsbekämpning",
+          "name": "Tillgångsinriktad brottsbekämpning"
+        }
+      ],
+      "brief": "episodes/kek/2026-10-19/brief.json"
+    },
+    {
+      "production_schema": 2,
+      "kind": "daily",
       "duration_seconds": 246.024,
       "duration_status": "short",
       "target_minutes": [

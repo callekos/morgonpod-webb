@@ -1,0 +1,26 @@
+[
+  {
+    "source": "BBC News",
+    "title": "Strypt import och syntetiska droger i USA",
+    "url": "https://www.bbc.co.uk/news/articles/cmx2wvyv5j17o?at_medium=RSS&at_campaign=rss",
+    "evidence": {
+      "date": "2026-10-18T05:04:31+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T05:03:25.455039+00:00",
+      "page_sha256": "804165453df829f70bb9525b651748f2597c89babbff00a6678b9c8b289937d4",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "SVT Nyheter",
+    "title": "Finlands strikta fastighetsregler saknar svensk motsvarighet",
+    "url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag",
+    "evidence": {
+      "date": "2026-10-19T03:44:07+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T05:03:24.673946+00:00",
+      "page_sha256": "a7fa777b72541d85d6d0c0d58ea5c90514ca7246a610f1cb968adafe71cfd37c",
+      "retrieval_limit": null
+    }
+  }
+]
