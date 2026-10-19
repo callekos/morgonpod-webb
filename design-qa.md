@@ -47,3 +47,11 @@ P3: Bildspråket följer referensen men motiven är egna kanalillustrationer. Fe
 Inga kvarvarande P0/P1/P2 visuella fynd för förhandsversionens granskade vyer. Produktionskraven ovan är uttryckligen inte godkända av denna visuella QA.
 
 final result: passed
+
+## Iteration 2: kanalbilder efter ägarens iPhoneprov
+
+Ny designstyrning: ägarens skärmbild och återkoppling i chatten 19 oktober kl. 22.36. De ursprungliga kanalbilderna bedömdes som för lika och detaljrika. Detta ersätter den tidigare gemensamma solnedgångspaletten som visuellt krav. P2-fyndet rättat genom fem nya separata masterbilder med distinkta stora motiv, luminans och paletter. Kontaktblad docs/evidence/channel-recognition-v2.png jämför 150 och 64 pixlars fyrkantiga utsnitt; alla fem går att skilja på färg och silhuett. Inga påhittade nyheter införda. Samma bildregister används fortfarande i kanal, avsnitt och artikel. Färgerna i registret följer de nya bilderna. Cacheversion och bild-URL-version har uppdaterats. Subtila tryck-/hoverlägen förstärker klickbarheten och respekterar reduced motion.
+
+Aktuella mobil- och desktopbilder fångas på nytt av samma browserprov. Den tidigare jämförelsebilden mot konceptet dokumenterar första iterationen; den nya bildriktningen bedöms mot ägarens senaste korrigering. Inga nya P0/P1/P2-fynd efter granskning av de nya kanalbilderna och vyerna. Faktisk Safari-release är fortsatt separat grind: första CI-körningen gav 23 godkända browserfall och en WebKit-processkrasch vid hård navigation. Motsvarande kontroll går nu via webbens riktiga kanalnavigation efter omladdningen, med alla tema- och lagringskrav bevarade.
+
+final result: passed

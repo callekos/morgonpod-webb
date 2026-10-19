@@ -17,10 +17,10 @@ if (typeof document !== 'undefined') (async () => {
   const latestRows=new Map();
   const cache = new Map(), seen = new Set();
   const channel = id => id==='ibat'?'IBAT - Informationsförsörjning':manifest.channels.find(c=>c.id===id)?.name || id;
-  const visuals={ibat:{image:'ibat',category:'Samhälle',color:'#2086ac',icon:'database'},vald:{image:'vald',category:'Säkerhet',color:'#bc5660',icon:'shield'},kek:{image:'kek',category:'Samhälle',color:'#b98236',icon:'briefcase'},sjoomradet:{image:'sjoomradet',category:'Säkerhet',color:'#247aab',icon:'anchor'},lagstiftning:{image:'lagstiftning',category:'Samhälle',color:'#ac7a36',icon:'book-open'}};
-  const visual=id=>visuals[id]||{image:'ibat',category:'Övrigt',color:'#2086ac',icon:'radio'};
+  const visuals={ibat:{image:'ibat',category:'Samhälle',color:'#19b8d0',icon:'database'},vald:{image:'vald',category:'Säkerhet',color:'#d54864',icon:'shield'},kek:{image:'kek',category:'Samhälle',color:'#208963',icon:'briefcase'},sjoomradet:{image:'sjoomradet',category:'Säkerhet',color:'#1b92a5',icon:'anchor'},lagstiftning:{image:'lagstiftning',category:'Samhälle',color:'#ba9a53',icon:'book-open'}};
+  const visual=id=>visuals[id]||{image:'ibat',category:'Övrigt',color:'#19b8d0',icon:'radio'};
   const icon=name=>'<i class="icon icon-'+name+'" aria-hidden="true"></i>';
-  const cover=(id,cls='',eager=false)=>'<img class="cover '+cls+'" src="assets/channels/'+visual(id).image+'.webp" width="900" height="600" alt="" loading="'+(eager?'eager':'lazy')+'" decoding="async">';
+  const cover=(id,cls='',eager=false)=>'<img class="cover '+cls+'" src="assets/channels/'+visual(id).image+'.webp?v=2" width="900" height="600" alt="" loading="'+(eager?'eager':'lazy')+'" decoding="async">';
   const duration=n=>{n=Math.max(0,Math.floor(n||0));return Math.floor(n/60)+':'+String(n%60).padStart(2,'0');};
   const prettyDate=e=>{const raw=e.published_at||e.date;if(!raw)return '';const d=new Date(raw);return Number.isNaN(d.getTime())?'':new Intl.DateTimeFormat('sv-SE',{day:'numeric',month:'short',timeZone:'Europe/Stockholm',...(e.published_at?{hour:'2-digit',minute:'2-digit'}:{})}).format(d);};
   const channelCard=c=>'<a class="channel-card" href="'+url('kanal',{id:c.id})+'" style="--channel-color:'+visual(c.id).color+'">'+cover(c.id)+'<span class="channel-card-label">'+icon(visual(c.id).icon)+'<strong>'+esc(channel(c.id))+'</strong></span><small>'+esc(visual(c.id).category)+'</small></a>';
@@ -89,7 +89,7 @@ if (typeof document !== 'undefined') (async () => {
   async function play(e) {
     if(!Core.safePath(e.audio))return;
     if(currentEpisode?.id!==e.id){currentEpisode=e;audio.src=e.audio;elapsed=0;previousTime=0;}
-    $('#player').hidden=false;$('#player-title').textContent=episodeTitle(e);$('#player-status').textContent=channel(e.channel);$('#player-image').src='assets/channels/'+visual(e.channel).image+'.webp';
+    $('#player').hidden=false;$('#player-title').textContent=episodeTitle(e);$('#player-status').textContent=channel(e.channel);$('#player-image').src='assets/channels/'+visual(e.channel).image+'.webp?v=2';
     document.body.classList.add('has-player');
     if(!player.dataset.initialized){player.dataset.initialized='true';compactPlayer(matchMedia('(max-width: 650px)').matches);}
     try {await audio.play();} catch {$('#player-status').textContent='Tryck på spela i ljudspelaren.';}
