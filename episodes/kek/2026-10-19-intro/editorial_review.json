@@ -1,0 +1,22 @@
+{
+  "approved": true,
+  "issues": [],
+  "source_coverage": [
+    {
+      "claim": "Den kriminella ekonomin i Sverige omsätter mellan 100 och 150 miljarder kronor årligen.",
+      "source_url": "https://www.ekobrottsmyndigheten.se/om-oss/press/aktuellt/nyheter/lagesbild-2025-fran-enskilda-brott-to-organiserade-systemhot/"
+    },
+    {
+      "claim": "Penningtvätt innebär att kriminellt förvärvade pengar integreras i den legala ekonomin.",
+      "source_url": "https://www.fi.se/sv/penningtvatt/"
+    },
+    {
+      "claim": "Det nya penningtvättspaketet från 2024 omfattar penningtvättsförordningen AMLR, sjätte penningtvättsdirektivet AMLD och Amla-förordningen.",
+      "source_url": "https://fi.se/sv/bank/penningtvatt/regler-mot-penningtvatt-och-finansiering-av-terrorism/"
+    }
+  ],
+  "short_episode_reason": "",
+  "package_sha256": "09862e8d73cba3adfd9bc847a07a4ab352977ad0a3da970e422e96b611f2524c",
+  "channel": "kek",
+  "date": "2026-10-19"
+}

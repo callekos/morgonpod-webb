@@ -1,0 +1,16 @@
+{
+  "kind": "introduction",
+  "duration_seconds": 1761.288,
+  "target_minutes": [
+    20,
+    40
+  ],
+  "duration_status": "within_target",
+  "channel": "kek",
+  "date": "2026-10-19",
+  "audio_sha256": "5c963353678e4ed1855a291a796b48819fca2100502c54345c803f514ef0f1c2",
+  "audio_bytes": 13457397,
+  "decoded": true,
+  "checked_at": "2026-10-19T20:42:19.310813+00:00",
+  "editorial_approval": "not_established_by_audio_check"
+}
