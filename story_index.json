@@ -39,6 +39,43 @@
       "history": []
     },
     {
+      "id": "article-c803bd1df43abd2c87421ab1",
+      "episode_id": "vald:2026-10-19:daily",
+      "date": "2026-10-19",
+      "channel": "vald",
+      "kind": "daily",
+      "episode_title": "Morgonbrief",
+      "episode_audio": "episodes/vald/2026-10-19/morgonpod.mp3",
+      "episode_brief": "episodes/vald/2026-10-19/brief.json",
+      "article_index": 0,
+      "title": "Dödsskjutning i idrottshall i Älvsjö",
+      "summary": "En 25-årig kvinna som arbetade inom kommunens ungdomsverksamhet sköts till döds i fredags på övervåningen av en idrottsanläggning i Älvsjö. Två minderåriga har gripits och anhållits misstänkta för mordet, men nekar till brott. Motivet är ännu oklart, men enligt uppgifter till SVT undersöks om det kan röra sig om ett hämndmotiv riktat mot en nära anhörig till kvinnan. Justitieminister Gunnar Strömmer uttalar sig om det allvarliga i att våldet drabbar platser där barn och unga vistas.",
+      "body": "Händelsen illustrerar hur dödligt våld drabbar samhällsfunktioner och miljöer där allmänheten och unga rör sig. Justitieminister Gunnar Strömmer framhåller att samhället måste kliva fram med närvaro och samspel mellan kommun, civilsamhälle och andra aktörer för att skapa trygghet i området.",
+      "context": "Händelsen illustrerar hur dödligt våld drabbar samhällsfunktioner och miljöer där allmänheten och unga rör sig. Justitieminister Gunnar Strömmer framhåller att samhället måste kliva fram med närvaro och samspel mellan kommun, civilsamhälle och andra aktörer för att skapa trygghet i området.",
+      "source_url": "https://www.svt.se/nyheter/inrikes/gunnar-strommer-m-om-skjutningen-i-alvsjo-valdigt-obehagligt",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/inrikes/gunnar-strommer-m-om-skjutningen-i-alvsjo-valdigt-obehagligt",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "topics": [
+        "inrikes"
+      ],
+      "topic_labels": [
+        "Inrikes"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "legacy_context",
+      "recorded_at": "2026-10-19T12:53:45.831319+00:00",
+      "revision": 1,
+      "fingerprint": "ac0d5b8f1d5fd40d9cd2a1448a78eb28f5971fe163b1e68317f9cbbf4f5cb53e",
+      "history": []
+    },
+    {
       "id": "article-c2b4e11990c7a5de9e1151f3",
       "episode_id": "lagstiftning:2026-10-19:weekly",
       "date": "2026-10-19",
@@ -193,6 +230,43 @@
       "recorded_at": "2026-10-19T05:47:31.476190+00:00",
       "revision": 1,
       "fingerprint": "7791361f8d202bcff6acaca8a50617d141c162e4e1330e38138a1b40d28e8a47",
+      "history": []
+    },
+    {
+      "id": "article-7ab52fa91e1cf60ad8113b67",
+      "episode_id": "vald:2026-10-19:daily",
+      "date": "2026-10-19",
+      "channel": "vald",
+      "kind": "daily",
+      "episode_title": "Morgonbrief",
+      "episode_audio": "episodes/vald/2026-10-19/morgonpod.mp3",
+      "episode_brief": "episodes/vald/2026-10-19/brief.json",
+      "article_index": 1,
+      "title": "Preliminär statistik över skjutningar och sprängningar januari till september 2026",
+      "summary": "Polismyndigheten redovisar preliminär statistik för perioden januari till september 2026. Under perioden har 61 skjutningar inträffat, jämfört med 136 under motsvarande period 2025. När det gäller sprängningar har 76 detonationer inträffats under årets första nio månader, jämfört med 158 under samma period 2025. I september månad inträffade 8 skjutningar och 1 detonation.",
+      "body": "Statistiken visar bakgrundssiffror över skjutningar, döda, skadade och sprängningar, vilka är skilda mått som sammanställs manuellt och är preliminära. En enskild händelse bevisar ingen nationell trend, och en minskning bevisar ingen viss orsaksförklaring. Sprängmedel som pyroteknik och handgranater används ofta i strategiska gärningar för att skrämmas.",
+      "context": "Statistiken visar bakgrundssiffror över skjutningar, döda, skadade och sprängningar, vilka är skilda mått som sammanställs manuellt och är preliminära. En enskild händelse bevisar ingen nationell trend, och en minskning bevisar ingen viss orsaksförklaring. Sprängmedel som pyroteknik och handgranater används ofta i strategiska gärningar för att skrämmas.",
+      "source_url": "https://polisen.se/om-polisen/polisens-arbete/sprangningar-och-skjutningar/",
+      "sources": [
+        {
+          "url": "https://polisen.se/om-polisen/polisens-arbete/sprangningar-och-skjutningar/",
+          "title": "Polismyndigheten"
+        }
+      ],
+      "topics": [
+        "statistik"
+      ],
+      "topic_labels": [
+        "Statistik"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "legacy_context",
+      "recorded_at": "2026-10-19T12:53:45.831388+00:00",
+      "revision": 1,
+      "fingerprint": "33503b973b3467b4720f1ce7997b6274abc48de57d0d42a1114f974806c869d7",
       "history": []
     },
     {

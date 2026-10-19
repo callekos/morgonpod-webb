@@ -1,0 +1,43 @@
+{
+  "title": "Våld – Måndag 19 oktober 2026",
+  "intro": "Välkomna till Våld. Det är måndagen den 19 oktober 2026. Idag fokuserar vi på det uppmärksammade dödsskjutningen på en idrottsanläggning i Älvsjö i södra Stockholm, och sätter det i kontext med Polismyndighetens preliminära statistik för årets första nio månader.",
+  "outlook": "Sammantaget visar veckans ingång på en spänning mellan lokala tragedier i miljöer där unga samlas och bredare nationella indikatorer. Bevakningsindikatorer framöver innefattar huruvida enskilda våldsdåd leder till bredare hämndaktioner eller eskaleringar, samt hur de preliminära trenderna för skjutningar och sprängningar utvecklar sig under årets sista kvartal.",
+  "news": [
+    {
+      "category": "Inrikes",
+      "title": "Dödsskjutning i idrottshall i Älvsjö",
+      "summary": "En 25-årig kvinna som arbetade inom kommunens ungdomsverksamhet sköts till döds i fredags på övervåningen av en idrottsanläggning i Älvsjö. Två minderåriga har gripits och anhållits misstänkta för mordet, men nekar till brott. Motivet är ännu oklart, men enligt uppgifter till SVT undersöks om det kan röra sig om ett hämndmotiv riktat mot en nära anhörig till kvinnan. Justitieminister Gunnar Strömmer uttalar sig om det allvarliga i att våldet drabbar platser där barn och unga vistas.",
+      "context": "Händelsen illustrerar hur dödligt våld drabbar samhällsfunktioner och miljöer där allmänheten och unga rör sig. Justitieminister Gunnar Strömmer framhåller att samhället måste kliva fram med närvaro och samspel mellan kommun, civilsamhälle och andra aktörer för att skapa trygghet i området.",
+      "url": "https://www.svt.se/nyheter/inrikes/gunnar-strommer-m-om-skjutningen-i-alvsjo-valdigt-obehagligt",
+      "publisher": "SVT Nyheter",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/inrikes/gunnar-strommer-m-om-skjutningen-i-alvsjo-valdigt-obehagligt",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "category": "Statistik",
+      "title": "Preliminär statistik över skjutningar och sprängningar januari till september 2026",
+      "summary": "Polismyndigheten redovisar preliminär statistik för perioden januari till september 2026. Under perioden har 61 skjutningar inträffat, jämfört med 136 under motsvarande period 2025. När det gäller sprängningar har 76 detonationer inträffats under årets första nio månader, jämfört med 158 under samma period 2025. I september månad inträffade 8 skjutningar och 1 detonation.",
+      "context": "Statistiken visar bakgrundssiffror över skjutningar, döda, skadade och sprängningar, vilka är skilda mått som sammanställs manuellt och är preliminära. En enskild händelse bevisar ingen nationell trend, och en minskning bevisar ingen viss orsaksförklaring. Sprängmedel som pyroteknik och handgranater används ofta i strategiska gärningar för att skrämmas.",
+      "url": "https://polisen.se/om-polisen/polisens-arbete/sprangningar-och-skjutningar/",
+      "publisher": "Polismyndigheten",
+      "sources": [
+        {
+          "url": "https://polisen.se/om-polisen/polisens-arbete/sprangningar-och-skjutningar/",
+          "title": "Polismyndigheten"
+        }
+      ],
+      "open_questions": []
+    }
+  ],
+  "description": "Välkomna till Våld. Det är måndagen den 19 oktober 2026. Idag fokuserar vi på det uppmärksammade dödsskjutningen på en idrottsanläggning i Älvsjö i södra Stockholm, och sätter det i kontext med Polismyndighetens preliminära statistik för årets första nio månader.",
+  "tags": [
+    "Inrikes",
+    "Statistik"
+  ],
+  "text_format": "editorial_articles"
+}

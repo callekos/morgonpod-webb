@@ -2,6 +2,38 @@
   "episodes": [
     {
       "production_schema": 2,
+      "kind": "daily",
+      "duration_seconds": 256.56,
+      "duration_status": "short",
+      "target_minutes": [
+        6,
+        10
+      ],
+      "channel": "vald",
+      "date": "2026-10-19",
+      "title": "Morgonbrief",
+      "description": "Välkomna till Våld. Det är måndagen den 19 oktober 2026. Idag fokuserar vi på det uppmärksammade dödsskjutningen på en idrottsanläggning i Älvsjö i södra Stockholm, och sätter det i kontext med Polismyndighetens preliminära statistik för årets första nio månader.",
+      "audio": "episodes/vald/2026-10-19/morgonpod.mp3",
+      "audio_version": "4731c96fa6775556",
+      "sources": "episodes/vald/2026-10-19/kallor.json",
+      "tags": [
+        "Inrikes",
+        "Statistik"
+      ],
+      "topics": [
+        {
+          "id": "inrikes",
+          "name": "Inrikes"
+        },
+        {
+          "id": "statistik",
+          "name": "Statistik"
+        }
+      ],
+      "brief": "episodes/vald/2026-10-19/brief.json"
+    },
+    {
+      "production_schema": 2,
       "kind": "weekly",
       "duration_seconds": 189.888,
       "duration_status": "short",

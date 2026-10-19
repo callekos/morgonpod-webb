@@ -1,0 +1,40 @@
+{
+  "approved": true,
+  "issues": [],
+  "source_coverage": [
+    {
+      "claim": "En 25-årig kvinna som arbetade inom ungdomsverksamhet sköts till döds på övervåningen av en idrottsanläggning i Älvsjö i fredags, rapporterar SVT Nyheter.",
+      "source_url": "https://www.svt.se/nyheter/inrikes/gunnar-strommer-m-om-skjutningen-i-alvsjo-valdigt-obehagligt"
+    },
+    {
+      "claim": "Två minderåriga personer har gripits och anhållits misstänkta för mordet och nekar till brott.",
+      "source_url": "https://www.svt.se/nyheter/inrikes/gunnar-strommer-m-om-skjutningen-i-alvsjo-valdigt-obehagligt"
+    },
+    {
+      "claim": "Enligt uppgifter till SVT undersöks en hypotes om att det kan röra sig om ett hämndmotiv riktat mot en nära anhörig.",
+      "source_url": "https://www.svt.se/nyheter/inrikes/gunnar-strommer-m-om-skjutningen-i-alvsjo-valdigt-obehagligt"
+    },
+    {
+      "claim": "Justitieminister Gunnar Strömmer kommenterar händelsen i SVT och framhåller brutaliteten som drabbar miljöer där barn och unga vistas.",
+      "source_url": "https://www.svt.se/nyheter/inrikes/gunnar-strommer-m-om-skjutningen-i-alvsjo-valdigt-obehagligt"
+    },
+    {
+      "claim": "Under perioden januari till september 2026 har 61 skjutningar inträffat, jämfört med 136 under motsvarande period 2025.",
+      "source_url": "https://polisen.se/om-polisen/polisens-arbete/sprangningar-och-skjutningar/"
+    },
+    {
+      "claim": "Under september månad registrerades åtta skjutningar, där sex personer skadades och en person avled. I augusti inträffade fyra skjutningar.",
+      "source_url": "https://polisen.se/om-polisen/polisens-arbete/sprangningar-och-skjutningar/"
+    },
+    {
+      "claim": "76 fullbordade sprängningar redovisas under årets första nio månader, jämfört med 158 under samma period föregående år.",
+      "source_url": "https://polisen.se/om-polisen/polisens-arbete/sprangningar-och-skjutningar/"
+    },
+    {
+      "claim": "I september inträffade en detonation, samtidigt som tio ärenden registrerades som förberedelse till allmänfarlig ödeläggelse.",
+      "source_url": "https://polisen.se/om-polisen/polisens-arbete/sprangningar-och-skjutningar/"
+    }
+  ],
+  "short_episode_reason": "",
+  "reviewed_script_sha256": "2b66747302dfe6583aba8d072ed030c6b63a71ec2b1a071c5ec281d47a3c1aae"
+}

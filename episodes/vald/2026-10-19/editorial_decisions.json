@@ -1,0 +1,61 @@
+{
+  "channel": "vald",
+  "date": "2026-10-19",
+  "schema": 2,
+  "corroboration_method": "distinct_hosts_not_proof_of_independence",
+  "received": 2,
+  "unique_urls": 2,
+  "identified_events": 2,
+  "selected_articles": 2,
+  "selected_events": 2,
+  "unique_domains": 2,
+  "max_items": 40,
+  "gemini_calls": 0,
+  "decisions": [
+    {
+      "event_id": "6f13258fe1287a9f",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Gunnar Strömmer om skjutningen i Älvsjö",
+          "url": "https://www.svt.se/nyheter/inrikes/gunnar-strommer-m-om-skjutningen-i-alvsjo-valdigt-obehagligt"
+        }
+      ]
+    },
+    {
+      "event_id": "7160dac3ec80d59c",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 39,
+      "score_components": {
+        "relevance": 9,
+        "freshness": 2,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "polisen.se"
+      ],
+      "articles": [
+        {
+          "title": "Statistik och lägesbild över skjutningar och sprängningar i Sverige",
+          "url": "https://polisen.se/om-polisen/polisens-arbete/sprangningar-och-skjutningar/"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "source": "SVT Nyheter",
+    "title": "Dödsskjutning i idrottshall i Älvsjö",
+    "url": "https://www.svt.se/nyheter/inrikes/gunnar-strommer-m-om-skjutningen-i-alvsjo-valdigt-obehagligt",
+    "evidence": {
+      "date": "2026-10-19",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T12:32:48.550509+00:00",
+      "page_sha256": "fb3aed810fbc22f437795727536926edcf410a01ea75aeb7635d33cdf2871dd3",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Polismyndigheten",
+    "title": "Preliminär statistik över skjutningar och sprängningar januari till september 2026",
+    "url": "https://polisen.se/om-polisen/polisens-arbete/sprangningar-och-skjutningar/",
+    "evidence": {
+      "date": "2026-10-05",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T12:32:48.550212+00:00",
+      "page_sha256": "a6ce5ab87a72e8af673d069b21d85c1fcb86a70917bb3044084e1a18c8b84149",
+      "retrieval_limit": null
+    }
+  }
+]
