@@ -18,7 +18,7 @@ To restore superseded records, remove selected mappings from catalog-policy.json
 
 ## Validation
 
-27 local unit tests passed. Existing desktop and Android Chromium browser flows passed, including real MP3 playback, natural queue advance, resume without autoplay, search, sources, themes and large paginated archives. Added V3 scenarios cover four-section order, eight image identities, morning queue, future four-channel arrival, special exclusion and old direct URLs. Full final local run and CI results must be recorded after completion.
+28 local unit tests passed. Existing desktop and Android Chromium browser flows passed, including real MP3 playback, natural queue advance, resume without autoplay, search, sources, themes and large paginated archives. Added V3 scenarios cover four-section order, eight image identities, morning queue, future four-channel arrival, special exclusion and old direct URLs. Full final local run and CI results must be recorded after completion.
 
 Local WebKit cannot launch because this host lacks its shared libraries; dependency installation was denied by filesystem permissions. The existing GitHub browser job installs WebKit dependencies on Ubuntu and is the release gate for iPhone/iPad WebKit. Do not claim physical iPhone hardware testing. The cloud-browser local preview call stalled and was interrupted; use the automated rendered browser evidence and report that limitation. No changes are published yet at this checkpoint.
 
