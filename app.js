@@ -40,7 +40,7 @@ if (typeof document !== 'undefined') (async () => {
   };
   const duration=n=>{n=Math.max(0,Math.floor(n||0));return Math.floor(n/60)+':'+String(n%60).padStart(2,'0');};
   const prettyDate=e=>{const raw=e.published_at||e.date;if(!raw)return '';const d=new Date(raw);return Number.isNaN(d.getTime())?'':new Intl.DateTimeFormat('sv-SE',{day:'numeric',month:'short',timeZone:'Europe/Stockholm',...(e.published_at?{hour:'2-digit',minute:'2-digit'}:{})}).format(d);};
-  const channelCard=c=>'<a class="channel-card" href="'+url('kanal',{id:c.id})+'" style="--channel-color:'+visual(c.id).color+'">'+cover(c.id)+'<span class="channel-card-label">'+icon(visual(c.id).icon)+'<strong>'+esc(channel(c.id))+'</strong></span></a>';
+  const channelCard=c=>'<a class="channel-card" href="'+url('kanal',{id:c.id})+'" style="--channel-color:'+visual(c.id).color+'">'+cover(c.id)+'<span class="channel-card-label">'+icon(visual(c.id).icon)+'<strong>'+(c.id==='ibat'?'IBAT - Informations<wbr>försörjning':esc(channel(c.id)))+'</strong></span></a>';
   const systemTheme=matchMedia('(prefers-color-scheme: dark)');
   function setTheme(value){document.documentElement.dataset.theme=value;try{localStorage.setItem('morgonpod-theme',value)}catch{}document.querySelector('meta[name="theme-color"]').content=(value==='dark'||value==='system'&&systemTheme.matches)?'#071720':'#faf9f6';}
   setTheme(document.documentElement.dataset.theme||'system');systemTheme.addEventListener('change',()=>setTheme(document.documentElement.dataset.theme));
@@ -149,7 +149,7 @@ if (typeof document !== 'undefined') (async () => {
     if(elapsed>=30&&currentEpisode) track('listen',currentEpisode.id);
   });
   audio.addEventListener('seeking',()=>{previousTime=audio.currentTime;previousWall=performance.now();});
-  audio.addEventListener('error',()=>{if(!audio.error)return;notice='Ljudfilen kunde inte spelas. Försök Spela igen eller välj Nästa.';updateQueue();});
+  audio.addEventListener('error',()=>{if(!audio.error)return;audio.pause();notice='Ljudfilen kunde inte spelas. Försök Spela igen eller välj Nästa.';updateQueue();});
   $('#play-pause').onclick=()=>{const target=queue.current||currentEpisode;if(audio.paused&&target)void play(target);else audio.pause();};
   document.querySelectorAll('[data-skip]').forEach(b=>b.onclick=()=>{audio.currentTime=Math.max(0,Math.min(audio.duration||Infinity,audio.currentTime+Number(b.dataset.skip)));});
   $('#seek').oninput=ev=>{if(Number.isFinite(audio.duration))audio.currentTime=Number(ev.target.value)/100*audio.duration;};
