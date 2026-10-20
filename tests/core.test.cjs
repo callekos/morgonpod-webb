@@ -34,7 +34,7 @@ test('channel directory and profile navigation are wired on all primary pages',(
   for(const page of ['idag','lyssna','artiklar','utforska','kanaler','kanal']){
     const html=fs.readFileSync(page+'.html','utf8');
     assert.ok(html.includes('href="kanaler.html">'));
-    assert.ok(html.includes('playback-queue.js?v=v2-queue-ux1'));
+    assert.ok(html.includes('playback-queue.js?v=v2-queue-ux2'));
   }
 });
 
