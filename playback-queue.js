@@ -3,7 +3,8 @@
   'use strict';
   const copy=x=>x==null?null:JSON.parse(JSON.stringify(x));
   const valid=x=>x&&typeof x.id==='string'&&x.id.length>0;
-  const unique=rows=>[...new Map((rows||[]).filter(valid).map(x=>[x.id,x])).values()];
+  const metadata=x=>Object.fromEntries(['id','title','channel','date','published_at','duration_seconds','audio','is_intro','kind','episode_order'].filter(k=>x[k]!==undefined).map(k=>[k,x[k]]));
+  const unique=rows=>[...new Map((rows||[]).filter(valid).map(x=>[x.id,metadata(x)])).values()];
   const latest=(a,b)=>(Date.parse(b.published_at||b.date)||0)-(Date.parse(a.published_at||a.date)||0)||a.id.localeCompare(b.id);
   // Serializable cursors let the queue continue after navigation and reload.
   async function read(source,fetchPage,compare=latest,limit=24){
@@ -38,7 +39,7 @@
     get hasNext(){return this.index+1<this.items.length||!!this.source;}
     start(rows,id,source=null,label='Avsnitt'){
       this.version++;this.pending=null;const list=unique(rows),at=list.findIndex(x=>x.id===id);
-      this.items=at<0?[]:list.slice(at);this.index=0;this.source=copy(source);this.excluded=list.slice(0,Math.max(0,at)).map(x=>x.id);this.label=label;
+      this.items=at<0?[]:list.slice(at);this.index=0;this.source=copy(source);if(this.source?.kind==='merge')this.source.streams.forEach(s=>s.buffer=unique(s.buffer));this.excluded=list.slice(0,Math.max(0,at)).map(x=>x.id);this.label=label;
       return this.current;
     }
     async more(){

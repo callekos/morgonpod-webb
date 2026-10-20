@@ -129,7 +129,8 @@ if (typeof document !== 'undefined') (async () => {
   }
   main.addEventListener('click',event=>{const b=event.target.closest('[data-play]');if(!b)return;event.preventDefault();event.stopPropagation();startFrom(b.dataset.play,b.closest('[data-context]')?.dataset.context);});
   audio.addEventListener('ended',()=>{void advance();});
-  audio.addEventListener('loadedmetadata',()=>{if(resumePosition>0&&Number.isFinite(audio.duration)){audio.currentTime=Math.min(resumePosition,Math.max(0,audio.duration-0.25));resumePosition=0;}});
+  function applyResume(){if(resumePosition>0&&Number.isFinite(audio.duration)&&audio.duration>0){try{audio.currentTime=Math.min(resumePosition,Math.max(0,audio.duration-0.25));resumePosition=0;}catch{}}}
+  for(const event of ['loadedmetadata','canplay','durationchange'])audio.addEventListener(event,applyResume);
   audio.addEventListener('pause',persist);audio.addEventListener('ratechange',persist);window.addEventListener('pagehide',persist);
   document.addEventListener('visibilitychange',()=>{if(document.hidden)persist();});
   audio.addEventListener('timeupdate',()=>{if(Date.now()-savedAt>5000){savedAt=Date.now();persist();}});
