@@ -1,8 +1,8 @@
 const {test,expect}=require('@playwright/test');
 test.use({serviceWorkers:'block'});
 // Short PCM fixture verifies real media transitions without fetching production audio.
-function wav(){const n=8000*3,b=Buffer.alloc(44+n*2);b.write('RIFF');b.writeUInt32LE(36+n*2,4);b.write('WAVEfmt ',8);b.writeUInt32LE(16,16);b.writeUInt16LE(1,20);b.writeUInt16LE(1,22);b.writeUInt32LE(8000,24);b.writeUInt32LE(16000,28);b.writeUInt16LE(2,32);b.writeUInt16LE(16,34);b.write('data',36);b.writeUInt32LE(n*2,40);return b;}
-const rows=Array.from({length:50},(_,i)=>({id:'e'+i,channel:i%2?'vald':'ibat',title:'Avsnitt '+i,date:'2026-10-20',published_at:new Date(Date.UTC(2026,9,20,10)-i*1000).toISOString(),audio:'episodes/fixture/e'+i+'.wav',duration_seconds:3,tags:['Testämne'],type:'episodes'}));
+function wav(){const n=8000*20,b=Buffer.alloc(44+n*2);b.write('RIFF');b.writeUInt32LE(36+n*2,4);b.write('WAVEfmt ',8);b.writeUInt32LE(16,16);b.writeUInt16LE(1,20);b.writeUInt16LE(1,22);b.writeUInt32LE(8000,24);b.writeUInt32LE(16000,28);b.writeUInt16LE(2,32);b.writeUInt16LE(16,34);b.write('data',36);b.writeUInt32LE(n*2,40);return b;}
+const rows=Array.from({length:50},(_,i)=>({id:'e'+i,channel:i%2?'vald':'ibat',title:'Avsnitt '+i,date:'2026-10-20',published_at:new Date(Date.UTC(2026,9,20,10)-i*1000).toISOString(),audio:'episodes/fixture/e'+i+'.wav',duration_seconds:20,tags:['Testämne'],type:'episodes'}));
 async function fixture(page){
  const loaded=[];const collections={episodes:{count:50,pages:[0,1,2].map(n=>'catalog/lists/episodes/'+n+'.json')},'episodes/channel/ibat':{count:25,pages:[0,1].map(n=>'catalog/lists/episodes/channel/ibat/'+n+'.json')}};
  await page.route('**/catalog/manifest.json',r=>r.fulfill({json:{channels:[{id:'ibat',name:'IBAT - Informationsförsörjning'},{id:'vald',name:'Våld'}],topics:[],search_buckets:[],collections}}));
@@ -24,9 +24,9 @@ test('context, edits, single audio, navigation and local resume',async({page})=>
  await page.locator('#queue-toggle').click();await expect(page.locator('.queue-title').first()).toContainText('Avsnitt 2');expect(errors).toEqual([]);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
 });
 test('natural ended advances once, final item stops, unavailable audio does not loop',async({page})=>{
- await fixture(page);await page.goto('/lyssna.html');await page.locator('[data-play="e0"]').click();await expect(page.locator('#audio')).toHaveJSProperty('paused',false);
+ await fixture(page);await page.goto('/lyssna.html');await page.locator('[data-play="e0"]').click();await expect(page.locator('#audio')).toHaveJSProperty('paused',false);await page.locator('#audio').evaluate(a=>{a.currentTime=a.duration-0.35;});
  await expect.poll(()=>page.locator('#audio').getAttribute('src'),{timeout:8000}).toContain('e1.wav');await page.locator('#play-pause').click();
- await page.locator('#queue-toggle').click();await page.getByRole('button',{name:'Töm kommande kö'}).click();await page.getByRole('button',{name:'Stäng kön'}).click();await page.locator('#play-pause').click();await expect.poll(()=>page.locator('#player-status').textContent(),{timeout:8000}).toContain('avslutad');await expect(page.locator('#audio')).toHaveJSProperty('paused',true);
+ await page.locator('#queue-toggle').click();await page.getByRole('button',{name:'Töm kommande kö'}).click();await page.getByRole('button',{name:'Stäng kön'}).click();await page.locator('#play-pause').click();await page.locator('#audio').evaluate(a=>{a.currentTime=a.duration-0.35;});await expect.poll(()=>page.locator('#player-status').textContent(),{timeout:8000}).toContain('avslutad');await expect(page.locator('#audio')).toHaveJSProperty('paused',true);
  await page.route('**/episodes/fixture/e0.wav',r=>r.fulfill({status:404}));await page.locator('[data-play="e0"]').click();await expect(page.locator('#player-status')).toContainText('kunde inte spelas');await expect(page.locator('#audio')).toHaveAttribute('src','episodes/fixture/e0.wav');
  await page.locator('#queue-toggle').click();await expect(page.locator('.queue-title').first()).toContainText('Avsnitt 1');
 });
