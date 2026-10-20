@@ -13,3 +13,6 @@ A visual fidelity comparison with the exact V3 concept image cannot be completed
 final result: blocked
 
 This result refers to exact concept-image fidelity. Functional release acceptance is separately gated on the approved written direction, rendered desktop/mobile review, CI browser coverage and byte verification. Do not report pixel-perfect reproduction or the Product Design prototype workflow as fully passed.
+
+
+Iteration 2: CI WebKit found [P2] tablet overflow and invisible titles from inherited V2 order/nested grids/line-clamp. Scoped CSS removes those inherited rules. Added five intermediate viewport checks. Desktop/mobile V3 tests pass after the fix. Awaiting full CI WebKit evidence before functional release acceptance.

@@ -28,3 +28,9 @@ test('V3 retired episode and article deep links explain successor',async({page})
  await page.goto('/avsnitt.html?id='+encodeURIComponent(id));await expect(page.getByRole('heading',{name:'Avsnittet har ersatts'})).toBeVisible();await expect(page.getByRole('link',{name:'Öppna den nya utgåvan'})).toHaveAttribute('href','avsnitt.html?id='+encodeURIComponent(m.superseded[id]));
  const hash=crypto.createHash('sha256').update('retired-test').digest('hex').slice(0,24);await page.route('**/catalog/articles/'+hash+'.json',r=>r.fulfill({json:{id:'retired-test',episode_id:id,catalog_status:'superseded',replacement_id:m.superseded[id]}}));await page.goto('/artikel.html?id=retired-test');await expect(page.getByRole('heading',{name:'Artikeln hör till ett ersatt avsnitt'})).toBeVisible();
 });
+test('V3 homepage intermediate widths keep titles visible and avoid nested card grids',async({page})=>{
+ for(const width of [320,768,820,1024,1450]){
+  await page.setViewportSize({width,height:1024});await page.goto('/idag.html');await expect(page.locator('.home-episodes .row-title strong').first()).toBeVisible();
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();await expect(page.locator('.home-episodes .episode-list')).toHaveCSS('display','block');
+ }
+});

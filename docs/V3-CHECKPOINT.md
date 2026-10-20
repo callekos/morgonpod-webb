@@ -25,3 +25,8 @@ Local WebKit cannot launch because this host lacks its shared libraries; depende
 ## Next steps
 
 Upload final code, generated catalog projection and test/evidence changes to design/kanalernas-morgon-v3. Open one release PR, inspect all checks and review the diff. Merge only after the full browser suite passes in CI, including WebKit. Then verify exact frontend and all eight image bytes live, active counts, direct-link replacement handling and audio. Recheck issue #114 for actual published specials. Report exact outcome, without treating future content or future morning production as already verified. Private Telegram status is optional only through an existing approved transport; do not create a new bot or leak credentials.
+
+
+## WebKit intermediate-width correction
+
+First CI browser run: 78/80 passed. The two failures were tablet-only: inherited V2 order moved recent episodes after the article aside, and nested two-column grids plus old WebKit line clamping collapsed episode title boxes. Replaced this inheritance explicitly within morning-home, made aside article lists one column, reset old line clamp, wrapped knowledge headings and used three channel columns at tablet widths. Added a test at 320, 768, 820, 1024 and 1450 pixels. Eight affected desktop/mobile V3 cases pass locally. Full 84-case CI run is required for release. No tests were relaxed.

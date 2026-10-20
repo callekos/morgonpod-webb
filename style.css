@@ -101,3 +101,6 @@ button,a,summary{-webkit-tap-highlight-color:transparent}button:active,.morning-
 @media(max-width:649px){.morning-strip{display:flex;overflow-x:auto;scroll-snap-type:x proximity;padding-bottom:5px;scrollbar-width:thin}.morning-strip>a{flex:0 0 155px;min-height:50px;scroll-snap-align:start}.morning-strip span{font-size:11px}.morning-strip small{font-size:10px}.morning-heading h1{font-size:28px}.morning-brief{padding:17px 15px}.morning-heading .eyebrow{font-size:9px}#brief-action{margin-top:14px}.edition-status{font-size:11px}}
 @media(max-width:649px){#brief-action{flex-wrap:wrap}}
 @media(prefers-reduced-transparency:reduce){#nav{background:var(--nav)}.player{background:#091c28;color:#f4f8fa}}
+/* Remove inherited V2 card ordering and nested grids on intermediate widths. */
+.morning-home .home-episodes{order:0;min-width:0}.morning-home .home-episodes .episode-list{display:block}.recent-layout>aside{min-width:0}.recent-layout aside .article-grid{display:block}.knowledge-card h3{overflow-wrap:anywhere;hyphens:auto}.recent-layout .row-title strong{-webkit-line-clamp:unset;-webkit-box-orient:initial;overflow:visible}
+@media(min-width:650px) and (max-width:1023px){.morning-home .home-channels{grid-template-columns:repeat(3,minmax(0,1fr))}}
