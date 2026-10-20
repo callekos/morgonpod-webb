@@ -5,6 +5,49 @@
       "articles_required": true,
       "article_count": 3,
       "kind": "daily",
+      "duration_seconds": 251.352,
+      "duration_status": "short",
+      "target_minutes": [
+        6,
+        10
+      ],
+      "channel": "kek",
+      "date": "2026-10-20",
+      "title": "Tisdag V.43",
+      "description": "I detta avsnitt granskas de ekonomiska strukturerna bakom internationell utpressningsprogramvara, snabb avyttring av stöldgods via digitala handelsplattformar efter kravaller i Europa, samt hur fysiska värdeföremål som guld omsätts i kriminella kretsar.",
+      "audio": "episodes/kek/2026-10-20/morgonpod.mp3",
+      "audio_version": "ace73d1243b904da",
+      "sources": "episodes/kek/2026-10-20/kallor.json",
+      "is_intro": false,
+      "episode_order": 739910,
+      "published_at": "2026-10-20T05:59:56.478464+00:00",
+      "published_at_source": "publication_transaction",
+      "tags": [
+        "Internationell kriminell ekonomi",
+        "Penningtvätt och brottsvinster",
+        "Tillgångsinriktad brottsbekämpning"
+      ],
+      "topics": [
+        {
+          "id": "internationell-kriminell-ekonomi",
+          "name": "Internationell kriminell ekonomi"
+        },
+        {
+          "id": "penningtvätt-och-brottsvinster",
+          "name": "Penningtvätt och brottsvinster"
+        },
+        {
+          "id": "tillgångsinriktad-brottsbekämpning",
+          "name": "Tillgångsinriktad brottsbekämpning"
+        }
+      ],
+      "brief": "episodes/kek/2026-10-20/brief.json"
+    },
+    {
+      "production_schema": 2,
+      "articles_required": true,
+      "article_count": 3,
+      "kind": "daily",
       "duration_seconds": 427.8,
       "duration_status": "within_target",
       "target_minutes": [

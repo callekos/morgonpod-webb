@@ -1,0 +1,38 @@
+[
+  {
+    "source": "News",
+    "title": "Europol slår till mot utpressningsgruppen Killsec",
+    "url": "https://www.europol.europa.eu/media-press/newsroom/news/teenager-suspected-of-leading-killsec-ransomware-group-law-enforcement-seizes-servers-and-leak-site",
+    "evidence": {
+      "date": "unknown",
+      "evidence_level": "index_or_feed_excerpt",
+      "retrieved_at": "2026-10-20T03:16:15.839943+00:00",
+      "page_sha256": null,
+      "retrieval_limit": "Page could not be read; claims must stay within the supplied excerpt"
+    }
+  },
+  {
+    "source": "BBC News",
+    "title": "Plundrat gods omsätts på digitala marknadsplatser efter upplopp i Frankrike",
+    "url": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss",
+    "evidence": {
+      "date": "2026-10-19T21:14:53+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:16:12.666750+00:00",
+      "page_sha256": "b711157f09456d56d0143d7b9063a18e3394d7d428f1b2c830459b41ac41ac6b",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "SVT Nyheter",
+    "title": "Tonåring häktad efter rån mot guldhandlare i Kalmar",
+    "url": "https://www.svt.se/nyheter/lokalt/smaland/tonaring-haktad-for-ran-i-kalmar-en-jagas-fortfarande",
+    "evidence": {
+      "date": "2026-10-19T11:17:02+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:16:15.709558+00:00",
+      "page_sha256": "af400184196dcda9f89dad4d4052552e85a952ef18653fad37fe485a77519d07",
+      "retrieval_limit": null
+    }
+  }
+]

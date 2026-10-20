@@ -1,0 +1,19 @@
+{
+  "approved": true,
+  "issues": [],
+  "source_coverage": [
+    {
+      "claim": "Brottsbekämpande myndigheter har tagit kontroll över läcksajten och servrarna tillhörande utpressningsgruppen Killsec, och säkrat minst 110 terabyte data.",
+      "source_url": "https://www.europol.europa.eu/media-press/newsroom/news/teenager-suspected-of-leading-killsec-ransomware-group-law-enforcement-seizes-servers-and-leak-site"
+    },
+    {
+      "claim": "Skadorna på över tvåtusen butiker uppskattas till hundratals miljoner euro efter omfattande plundring i Frankrike, samt att stöldgods bjudits ut på plattformen Vinted.",
+      "source_url": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "claim": "En 19-årig man har häktats på sannolika skäl misstänkt för ett grovt rån mot ett företag som handlar med guld i Kalmar den 15 oktober 2026.",
+      "source_url": "https://www.svt.se/nyheter/lokalt/smaland/tonaring-haktad-for-ran-i-kalmar-en-jagas-fortfarande"
+    }
+  ],
+  "short_episode_reason": ""
+}
