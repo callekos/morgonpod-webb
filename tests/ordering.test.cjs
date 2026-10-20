@@ -24,3 +24,5 @@ test('global ordering spans page boundaries at build time',()=>{
  fs.writeFileSync(path.join(root,'catalog/manifest.json'),JSON.stringify({channels:[{id:'c'}],collections:{episodes:{count:201,pages}}}));
  const m=orderedCollections(root,out),read=p=>JSON.parse(fs.readFileSync(path.join(out,p))).items;assert.equal(read(m.collections.episodes.pages[0])[0].id,'e200');assert.equal(read(m.collections.episodes.history_pages[0])[0].id,'e200');assert.equal(read(m.collections.episodes.history_pages[0])[1].id,'e0');assert.equal(m.collections.episodes.pages.length,9);fs.rmSync(root,{recursive:true});
 });
+
+test('publication ties follow producer registry order across paginated catalog boundaries',()=>{const old=Core.catalogOrder;Core.catalogOrder=['kek','sjoomradet'];const rows=[{id:'s',channel:'sjoomradet',published_at:'2026-10-20T20:49:08Z'},{id:'k',channel:'kek',published_at:'2026-10-20T20:49:08Z'}];assert.deepEqual(rows.toSorted(Core.compareLatest).map(e=>e.id),['k','s']);Core.catalogOrder=old;});
