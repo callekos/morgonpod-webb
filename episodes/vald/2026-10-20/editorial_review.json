@@ -1,0 +1,41 @@
+{
+  "approved": true,
+  "issues": [],
+  "source_coverage": [
+    {
+      "claim": "SVT Nyheter rapporterar om ett åtal gällande ett av de mest omfattande vapenbeslagen i Sverige i modern tid. I Vimmerby kommun har en man i 35-årsåldern åtalats efter att myndigheter påträffat 31 vapen i hans bostad och i en lagerlokal.",
+      "source_url": "https://www.svt.se/nyheter/lokalt/smaland/stort-vapentillslag-hittade-31-vapen-hos-man"
+    },
+    {
+      "claim": "BBC News rapporterar om omfattande våldsamheter under helgen. Protester mot ökande levnadskostnader urartade i våldsamma sammandrabbningar i städer som Milano och Turin.",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6j9kwxxmxydo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "claim": "SVT Nyheter rapporterar, med hänvisning till nyhetsbyrån AP, om en kraftig militär eskalering i Jemen där huthirebellerna avfyrat tre ballistiska robotar mot ett militärläger för regeringsstyrkor i södra delen av landet.",
+      "source_url": "https://www.svt.se/nyheter/utrikes/huthiattack-mot-militarlager-i-jemen-minst-53-dodades"
+    }
+  ],
+  "short_episode_reason": "",
+  "reviewed_script_sha256": "7c4cb8d4c7a49020b5dad007a1187f4c63571e4a50e88754ee8975e19e7da8b1",
+  "source_audit_correction": {
+    "id": "vald-20261020-opening-date",
+    "method": "reviewed_deletions_only",
+    "reviewer": "Codex exact opening audit, deterministic date header preserved",
+    "before_sha256": {
+      "brief.json": "8b51168633feba8d4cfea53aa6a446837e3f22dcdb48987330f217731ab456d8",
+      "manus.txt": "622bf8942b94578548eb4350f035d43ec93d1a324460b1f61439d783150f520b",
+      "editorial_review.json": "f5eb258d715a3930bba7a01b73a8a33ca2e2826d286b822d3b9696f834191524",
+      "kallor.json": "f65630fbfc5ae625100104ec7c38fd8faf195af8d12bc8d6982dc00b20c86702"
+    },
+    "corrected_brief_sha256": "8b51168633feba8d4cfea53aa6a446837e3f22dcdb48987330f217731ab456d8",
+    "edits": [],
+    "corrected_manus_sha256": "7c4cb8d4c7a49020b5dad007a1187f4c63571e4a50e88754ee8975e19e7da8b1",
+    "script_removals": [
+      {
+        "remove": "Det är den 20 oktober 2026. ",
+        "reason": "Remove only the duplicate identification date; the deterministic opening already identifies this edition. No news facts change."
+      }
+    ],
+    "new_model_review": false
+  }
+}

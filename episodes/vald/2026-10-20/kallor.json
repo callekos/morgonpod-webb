@@ -1,0 +1,38 @@
+[
+  {
+    "source": "SVT Nyheter",
+    "title": "Stort vapentillslag – hittade 31 vapen hos man i Vimmerby",
+    "url": "https://www.svt.se/nyheter/lokalt/smaland/stort-vapentillslag-hittade-31-vapen-hos-man",
+    "evidence": {
+      "date": "2026-10-19T16:09:02+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:26:40.271729+00:00",
+      "page_sha256": "cf7358700e0d9d5baf3561b45f8e5daff4372ec45a77badb8c03f0a39263e8e3",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "SVT Nyheter",
+    "title": "Huthiattack mot militärläger i Jemen – minst 53 dödades",
+    "url": "https://www.svt.se/nyheter/utrikes/huthiattack-mot-militarlager-i-jemen-minst-53-dodades",
+    "evidence": {
+      "date": "2026-10-19T15:04:54+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:26:42.521843+00:00",
+      "page_sha256": "9152cd322a08a5f183a7f8211de405bb8469667319617f16216716e78f73e4e8",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "BBC News",
+    "title": "Italy plans tougher security measures after violent protests",
+    "url": "https://www.bbc.co.uk/news/articles/c6j9kwxxmxydo?at_medium=RSS&at_campaign=rss",
+    "evidence": {
+      "date": "2026-10-19T11:23:36+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:26:40.282042+00:00",
+      "page_sha256": "0bb1799f682926d08ec65b3c0595597098c1214d52a3a77da2d3323e03c631d9",
+      "retrieval_limit": null
+    }
+  }
+]

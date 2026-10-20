@@ -140,6 +140,53 @@
       "history": []
     },
     {
+      "id": "article-ca53120dad99bec9621a6289",
+      "episode_id": "vald:2026-10-20:daily",
+      "date": "2026-10-20",
+      "channel": "vald",
+      "published_at": "2026-10-20T06:00:25.371173+00:00",
+      "is_intro": false,
+      "episode_order": 739910,
+      "kind": "daily",
+      "episode_title": "Tisdag V.43",
+      "episode_audio": "episodes/vald/2026-10-20/morgonpod.mp3",
+      "episode_brief": "episodes/vald/2026-10-20/brief.json",
+      "article_index": 1,
+      "title": "Huthiattack mot militärläger i Jemen – minst 53 dödades",
+      "summary": "Minst 53 personer dödades och 200 skadades när huthirebellerna avfyrade tre ballistiska robotar mot ett militärläger för regeringsstyrkor i södra Jemen. Attacken är en av de dödligaste under den senaste tidens upptrappning av konflikten i landet. Jemens president har lovat ett kraftfullt svar på attacken.",
+      "body": "SVT Nyheter rapporterar att huthirebellerna har genomfört en omfattande attack med tre ballistiska robotar mot ett militärläger tillhörande regeringsstyrkorna i Jemen. Minst 53 personer dödades och ett par hundra skadades i händelsen. Attacken sker under en period av förnyad upptrappning i inbördeskriget, som har sett ökade stridigheter i samband med bredare spänningar i regionen. Den internationellt erkända regeringen i Jemen har lovat motåtgärder mot rebellerna.",
+      "context": "Händelsen visar hur regionala konflikter och spänningar i Mellanöstern fortsätter att driva på dödliga attacker mot militära mål. Den förnyade eskaleringen efter 2022 års vapenvila påverkar den geopolitiska stabiliteten i regionen.",
+      "source_url": "https://www.svt.se/nyheter/utrikes/huthiattack-mot-militarlager-i-jemen-minst-53-dodades",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/utrikes/huthiattack-mot-militarlager-i-jemen-minst-53-dodades",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "topics": [
+        "konflikt",
+        "jemen",
+        "huthirebeller"
+      ],
+      "topic_labels": [
+        "konflikt",
+        "Jemen",
+        "huthirebeller"
+      ],
+      "assessment": "Den förnyade våldsvågen i Jemen riskerar att fördjupa den humanitära krisen och destabilisera regionen ytterligare, vilket kräver noggrann internationell omvärldsbevakning.",
+      "open_questions": [
+        "Vilka långsiktiga konsekvenser får attacken för den sköra vapenvilan och regeringssidans militära kapacitet?",
+        "Hur kommer den saudiledda koalitionen att svara på den nya offensiven från huthierna?"
+      ],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T06:00:25.375205+00:00",
+      "revision": 1,
+      "fingerprint": "0ac94eed7f87af7fce41e6018e3c66b3220ed6830011f209b3815b260470ea25",
+      "history": []
+    },
+    {
       "id": "article-a49e2363fa8695de707e77b6",
       "episode_id": "sjoomradet:2026-10-20:daily",
       "date": "2026-10-20",
@@ -225,6 +272,100 @@
       "recorded_at": "2026-10-20T05:57:21.344733+00:00",
       "revision": 1,
       "fingerprint": "611259b078bb8350ba83ca31427ccb1ec2789ed30a422c0ae77947e11592a709",
+      "history": []
+    },
+    {
+      "id": "article-88a4b0365da17cc142f0cf61",
+      "episode_id": "vald:2026-10-20:daily",
+      "date": "2026-10-20",
+      "channel": "vald",
+      "published_at": "2026-10-20T06:00:25.371173+00:00",
+      "is_intro": false,
+      "episode_order": 739910,
+      "kind": "daily",
+      "episode_title": "Tisdag V.43",
+      "episode_audio": "episodes/vald/2026-10-20/morgonpod.mp3",
+      "episode_brief": "episodes/vald/2026-10-20/brief.json",
+      "article_index": 2,
+      "title": "Italy plans tougher security measures after violent protests",
+      "summary": "Italienska myndigheter planerar nya akuta säkerhetsåtgärder efter att protester mot stigande levnadskostnader urartade i våldsamma sammandrabbningar i bland annat Milano. Över 250 personer har frihetsberövats, och regeringen överväger hårdare tag mot bland annat minderåriga i kriminella gäng och begränsningar av gruppsammankomster.",
+      "body": "BBC News rapporterar att premiärminister Giorgia Meloni förbereder nya säkerhetsåtgärder efter att helgens demonstrationer i Milano och andra norditalienska städer övergick i omfattande skadegörelse och våld mot polis. Polisen använde tårgas och vattenkanoner för att mota bort maskerade demonstranter som kastade gatsten och föremål. Bland de gripna utgörs en stor del av minderåriga, vilket har föranlett politiska krav på skärpta lagar och förebyggande insatser mot ungdomsgäng.",
+      "context": "Orons spridning i europeiska städer belyser utmaningarna med att hantera våldsamma upplopp i samband med samhällsprotester. Det visar också hur sociala medier kan användas för att snabbt mobilisera till sammandrabbningar.",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6j9kwxxmxydo?at_medium=RSS&at_campaign=rss",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c6j9kwxxmxydo?at_medium=RSS&at_campaign=rss",
+          "title": "BBC News"
+        }
+      ],
+      "topics": [
+        "protester",
+        "italien",
+        "säkerhet"
+      ],
+      "topic_labels": [
+        "protester",
+        "Italien",
+        "säkerhet"
+      ],
+      "assessment": "Händelserna i Italien speglar en bredare europeisk trend där sociala oroligheter lätt kan utnyttjas av våldsamma element för att skapa ordningsstörningar och skadegörelse.",
+      "open_questions": [
+        "Kommer de föreslagna lagändringarna att få avsedd effekt på att dämpa framtida upplopp?",
+        "Hur sprids mobiliseringen via digitala plattformar i denna typ av oroligheter?"
+      ],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T06:00:25.375261+00:00",
+      "revision": 1,
+      "fingerprint": "09bcda9fa7b3bbcf1d527f6ccf3227c0989d0c72137f61c8a27452820165f4ee",
+      "history": []
+    },
+    {
+      "id": "article-6dc84f2823552b4a664e6831",
+      "episode_id": "vald:2026-10-20:daily",
+      "date": "2026-10-20",
+      "channel": "vald",
+      "published_at": "2026-10-20T06:00:25.371173+00:00",
+      "is_intro": false,
+      "episode_order": 739910,
+      "kind": "daily",
+      "episode_title": "Tisdag V.43",
+      "episode_audio": "episodes/vald/2026-10-20/morgonpod.mp3",
+      "episode_brief": "episodes/vald/2026-10-20/brief.json",
+      "article_index": 0,
+      "title": "Stort vapentillslag – hittade 31 vapen hos man i Vimmerby",
+      "summary": "En man i 35-årsåldern utan vapenlicens i Vimmerby kommun har åtalats sedan polisen hittat 31 fungerande vapen, inklusive en kulspruta, samt över 11 500 patroner i hans hem och en lagerlokal. Det rör sig enligt åklagaren om ett av de större vapenbeslagen som gjorts i Sverige. Mannen åtalas för synnerligen grovt vapenbrott samt brott mot lagen om brandfarliga och explosiva varor, men nekar till brott.",
+      "body": "SVT Nyheter rapporterar om ett omfattande vapenbeslag i Vimmerby kommun där en man i 35-årsåldern har åtalats för synnerligen grovt vapenbrott och andra brott. Vid en husrannsakan hittades trettioett vapen, däribland gevär, pistoler och en kulspruta, tillsammans med en stor mängd ammunition. Åklagaren betecknar beslaget som ett av de större i landet. Mannen, som saknar vapenlicens, greps i slutet av december 2025 och har suttit häktad sedan dess. Utredningen har även noterat förekomsten av nazistiska föremål i bostaden, men utan att kunna fastställa någon tydlig koppling till kriminella nätverk. Mannen nekar till anklagelserna.",
+      "context": "Tillslaget belyser problematiken kring olaglig vapenhantering och förekomsten av stora vapenarsenaler hos privatpersoner utan licens. Sådana beslag är centrala för att förstå tillgången på illegala vapen som potentiellt kan nå den kriminella miljön.",
+      "source_url": "https://www.svt.se/nyheter/lokalt/smaland/stort-vapentillslag-hittade-31-vapen-hos-man",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/smaland/stort-vapentillslag-hittade-31-vapen-hos-man",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "topics": [
+        "vapenbrott",
+        "brottslighet",
+        "sverige"
+      ],
+      "topic_labels": [
+        "vapenbrott",
+        "brottslighet",
+        "Sverige"
+      ],
+      "assessment": "Ett beslag av denna storleksordning indikerar en betydande risk för att stora vapenmängder kan cirkulera utanför samhällets kontroll, vilket understryker vikten av tidiga underrättelser kring okontrollerade tillgångar.",
+      "open_questions": [
+        "Hur har mannen anskaffat den stora mängden vapen och ammunition utan att det upptäckts tidigare?",
+        "Finns det några verifierade kopplingar till organiserad brottslighet eller extremistmiljöer?"
+      ],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T06:00:25.375150+00:00",
+      "revision": 1,
+      "fingerprint": "4016e3fff00b40fb14980ff2e430ceb055c111c5a4c770b23f89b7e4683b9ac1",
       "history": []
     },
     {

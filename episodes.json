@@ -5,6 +5,49 @@
       "articles_required": true,
       "article_count": 3,
       "kind": "daily",
+      "duration_seconds": 359.52,
+      "duration_status": "short",
+      "target_minutes": [
+        6,
+        10
+      ],
+      "channel": "vald",
+      "date": "2026-10-20",
+      "title": "Tisdag V.43",
+      "description": "Det här är Våld, en podd från den professionella omvärldsbevakningen. I dagens avsnitt den 20 oktober 2026 uppmärksammar vi ett av de största vapenbeslagen i svensk historia i Vimmerby, dödliga robotattacker i Jemen samt den omfattande oron med utbredda kravall- och säkerhetslägen i flera europeiska länder.",
+      "audio": "episodes/vald/2026-10-20/morgonpod.mp3",
+      "audio_version": "0366376a2f05d1b9",
+      "sources": "episodes/vald/2026-10-20/kallor.json",
+      "is_intro": false,
+      "episode_order": 739910,
+      "published_at": "2026-10-20T06:00:25.371173+00:00",
+      "published_at_source": "publication_transaction",
+      "tags": [
+        "Vapenbrott",
+        "Internationell konflikt",
+        "Inrikes säkerhet och ordningsstörningar"
+      ],
+      "topics": [
+        {
+          "id": "vapenbrott",
+          "name": "Vapenbrott"
+        },
+        {
+          "id": "internationell-konflikt",
+          "name": "Internationell konflikt"
+        },
+        {
+          "id": "inrikes-säkerhet-och-ordningsstörningar",
+          "name": "Inrikes säkerhet och ordningsstörningar"
+        }
+      ],
+      "brief": "episodes/vald/2026-10-20/brief.json"
+    },
+    {
+      "production_schema": 2,
+      "articles_required": true,
+      "article_count": 3,
+      "kind": "daily",
       "duration_seconds": 251.352,
       "duration_status": "short",
       "target_minutes": [
