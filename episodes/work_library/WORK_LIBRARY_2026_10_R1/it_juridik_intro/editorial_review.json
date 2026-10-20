@@ -1,0 +1,114 @@
+{
+  "approved": true,
+  "reviewer": "ChatGPT Work, separat andra genomläsning av egen produktion",
+  "independent_human_review": false,
+  "reviewed_at": "2026-10-20T05:40:40.199460+00:00",
+  "package_sha256": "e349949ba0e1c39b515366a118c4aab4e1ddf65d1f524456fc7e403f35d602d5",
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Två europeiska dataskyddsspår; tillämplighet bedöms för behandlingen.",
+      "source_ids": [
+        "imy_lagar"
+      ],
+      "locator": "IMY: Dataskyddsreformen och Dataskyddsdirektivet, brottsdatalagen och registerförfattningar",
+      "status": "verified"
+    },
+    {
+      "id": "C02",
+      "claim": "Nödvändighet, rättsligt stöd, angivna ändamål och nya ändamål.",
+      "source_ids": [
+        "bdl"
+      ],
+      "locator": "2 kap. 1, 3 och 4 §§; undantaget i 4 § andra stycket bevaras i underlaget",
+      "status": "verified"
+    },
+    {
+      "id": "C03",
+      "claim": "Kvalitet, personkategorier och fakta respektive bedömningar.",
+      "source_ids": [
+        "bdl"
+      ],
+      "locator": "2 kap. 7 till 10 §§; formuleringar enligt närmare förutsättningar, inte absoluta skärmkrav",
+      "status": "verified"
+    },
+    {
+      "id": "C04",
+      "claim": "Sekretess mot andra myndigheter och självständiga verksamhetsgrenar.",
+      "source_ids": [
+        "osl"
+      ],
+      "locator": "8 kap. 1 och 2 §§; ingen generell sekretessgräns mellan alla organisationsdelar",
+      "status": "verified"
+    },
+    {
+      "id": "C05",
+      "claim": "Speciallag kompletterar BDL; gemensamt tillgängliga uppgifter och behandlingstid.",
+      "source_ids": [
+        "polisbdl"
+      ],
+      "locator": "1 kap. 7 §, 3 och 4 kap.; ingen detaljreglering eller framtida lydelse återges",
+      "status": "verified"
+    },
+    {
+      "id": "C06",
+      "claim": "Behörighetsrutiner och beaktande av utbildning och erfarenhet.",
+      "source_ids": [
+        "bdforordning"
+      ],
+      "locator": "3 kap. 5 och 6 §§",
+      "status": "verified"
+    },
+    {
+      "id": "C07",
+      "claim": "Loggningens kategorier preciseras i förordning.",
+      "source_ids": [
+        "bdforordning"
+      ],
+      "locator": "3 kap. 4 §",
+      "status": "verified"
+    },
+    {
+      "id": "C08",
+      "claim": "Inbyggt dataskydd, standard, konsekvensbedömning och samråd.",
+      "source_ids": [
+        "bdl"
+      ],
+      "locator": "3 kap. 3, 4 och 7 §§; inga generella krav på viss arkitektur påstås",
+      "status": "verified"
+    },
+    {
+      "id": "C09",
+      "claim": "IMY har särskild vägledning från december 2025, inklusive stöd för underlag.",
+      "source_ids": [
+        "imy_samrad"
+      ],
+      "locator": "Publikationssida, 16 december 2025",
+      "status": "verified"
+    },
+    {
+      "id": "C10",
+      "claim": "Dataskyddsombudet har rådgivande och självständigt kontrollerande uppgifter.",
+      "source_ids": [
+        "bdl"
+      ],
+      "locator": "3 kap. 14 §",
+      "status": "verified"
+    }
+  ],
+  "checks": {
+    "current_vs_future_law": "Endast nämnda grundregler och ikraftträdd vägledning används; kommande lydelser uteslutna.",
+    "examples": "Samtliga scenarier är uttryckligt fiktiva.",
+    "legal_advice": "Inga individuella tillåtlighetsbeslut.",
+    "editorial_analysis": "Designfrågor och arbetsförslag märkta som pedagogiska, inga föreskrivna gränssnitt.",
+    "sources": "Sex originalkällor hämtade och lokalt hashbundna.",
+    "script": "Sammanhängande berättelse, en öppning och ett avslut, inga internprojektnamn.",
+    "audio": "Återstår, denna granskning godkänner text och källor."
+  },
+  "remaining_gates": [
+    "Verkligt Sofieljud, 20 till 40 minuter och avkodning",
+    "Pilotimport till privat releaseunderlag",
+    "Fullständig release/rollback och senare ordinarie dygn",
+    "25 av 25 godkända innan synlighet"
+  ]
+}

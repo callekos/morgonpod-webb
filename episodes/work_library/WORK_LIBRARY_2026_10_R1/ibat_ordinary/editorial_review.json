@@ -1,0 +1,57 @@
+{
+  "approved": true,
+  "reviewer": "ChatGPT Work, separat andra genomläsning",
+  "independent_human_review": false,
+  "reviewed_at": "2026-10-20T06:14:47.543193+00:00",
+  "package_sha256": "74fc574c1f49e9595004c7f6a8dcf016db2adb2821ec1a5758a59e873260e753",
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Diggs vägledning omfattar roller, metadata och kvalitetsbeskrivning.",
+      "source_ids": [
+        "ibat_foundation_1"
+      ],
+      "locator": "Organisera arbetet och Exempel på roller och arbetsuppgifter",
+      "status": "verified"
+    },
+    {
+      "id": "C02",
+      "claim": "PROV beskriver informationsursprung genom entities, activities och agents.",
+      "source_ids": [
+        "ibat_foundation_6"
+      ],
+      "locator": "PROV Model Primer, introduktion och grundmodell",
+      "status": "verified"
+    },
+    {
+      "id": "C03",
+      "claim": "DQV beskriver mått och dimensioner för datakvalitet.",
+      "source_ids": [
+        "ibat_foundation_7"
+      ],
+      "locator": "Abstract och Vocabulary overview",
+      "status": "verified"
+    },
+    {
+      "id": "C04",
+      "claim": "Kvalitet, uppgiftskategorier och tillgång efter arbetsbehov.",
+      "source_ids": [
+        "bdl"
+      ],
+      "locator": "2 kap. 7 till 10 §§ och 3 kap. 6 §",
+      "status": "verified"
+    }
+  ],
+  "checks": {
+    "freshness": "Aktuell sjönyhet 15 oktober; övriga dagliga avsnitt uttrycklig saklig fördjupning utan fabricerad nyhetshändelse",
+    "law": "Motioner är motioner, inga straffskalor eller framtida steg upphöjs till gällande rätt",
+    "scope": "Europolrapporter har tydligt urval, ingen svensk prevalens från europeisk hotbild",
+    "examples": "Alla egna scenarier fiktiva",
+    "facts": "Påståenden kontrollerade mot lästa originalkällor",
+    "length": "Ämne och underlag styr, ingen automatisk utfyllnad"
+  },
+  "remaining_gates": [
+    "Verkligt godkänt ljud och staging",
+    "25-paketsrelease och liveverifiering"
+  ]
+}

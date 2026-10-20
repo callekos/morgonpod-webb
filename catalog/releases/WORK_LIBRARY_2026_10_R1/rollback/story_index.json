@@ -1,0 +1,1000 @@
+{
+  "schema": 2,
+  "stories": [
+    {
+      "id": "news-killsec-takedown",
+      "episode_id": "kek:2026-10-20:daily",
+      "date": "2026-10-20",
+      "channel": "kek",
+      "published_at": "2026-10-20T05:59:56.478464+00:00",
+      "is_intro": false,
+      "episode_order": 739910,
+      "kind": "daily",
+      "episode_title": "Tisdag V.43",
+      "episode_audio": "episodes/kek/2026-10-20/morgonpod.mp3",
+      "episode_brief": "episodes/kek/2026-10-20/brief.json",
+      "article_index": 0,
+      "title": "Europol slår till mot utpressningsgruppen Killsec",
+      "summary": "Rättsvårdande myndigheter har tagit kontroll över utpressningsgruppen Killsecs läcksajt och servrar, rapporterar Europol. Vid insatsen säkrades minst 110 terabyte data mot obehörig åtkomst. Gruppen har använt plattformen för att hota organisationer med publicering av stulna filer om inte lösensummor betalas, och en tonåring misstänks för att ha lett nätverket.",
+      "body": "Den internationella samverkan mot cyberbrottslighet har resulterat i ett betydande ingripande mot utpressningsnätverket Killsec. Enligt information från Europol har brottsbekämpande aktörer övertagit kontrollen över gruppens centrala infrastruktur, inklusive dess läcksajt och servrar. Vid tillslaget säkrades åtminstone 110 terabyte information som gruppen lagrat för utpressningsändamål. Nätverkets huvudsakliga tillvägagångssätt har varit att infiltrera företag och organisationer, stjäla känslig information och därefter hota med offentliggörande om inte en betydande lösensumma erläggs. Utredningsuppgifter pekar ut en tonåring som misstänkt ledare för organisationen. Cyberutpressning utgör i dag en central komponent i den internationella kriminella ekonomin, där intäkterna ofta slussas genom kryptotillgångar och komplexa tvättupplägg för att undgå finansiell övervakning. Beslaget av serverinfrastrukturen innebär att viktiga loggar, kommunikationsvägar och transaktionsspår kan analyseras av utredare. Detta skapar förutsättningar för att identifiera drabbade organisationer, stoppa pågående utpressningsförsök och kartlägga hur de ekonomiska medlen fördelats inom det kriminella nätverket.",
+      "context": "Ingripandet slår direkt mot affärsmodellen bakom digitala utpressningsprogram, där kriminella aktörer bygger intäktsflöden genom utpressning av stulen företagsdata. Fallet belyser behovet av att kartlägga cyberkriminella infrastrukturer och finansiella flöden kopplade till lösensummor.",
+      "source_url": "https://www.europol.europa.eu/media-press/newsroom/news/teenager-suspected-of-leading-killsec-ransomware-group-law-enforcement-seizes-servers-and-leak-site",
+      "sources": [
+        {
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/teenager-suspected-of-leading-killsec-ransomware-group-law-enforcement-seizes-servers-and-leak-site",
+          "title": "News"
+        }
+      ],
+      "topics": [
+        "internationell-kriminell-ekonomi",
+        "penningtvätt-och-brottsvinster"
+      ],
+      "topic_labels": [
+        "Internationell kriminell ekonomi",
+        "Penningtvätt och brottsvinster"
+      ],
+      "assessment": "Europols uppgifter visar att beslaget avbryter gruppens omedelbara förmåga att pressa offer på pengar, men det är en bedömning att infrastrukturen kan återskapas under andra varumärken om inte de finansiella tillgångarna spåras och säkras fullt ut.",
+      "open_questions": [
+        "Vilka betalningssystem och kryptovalutor användes för att ta emot lösensummorna från Killsecs offer?",
+        "I vilken omfattning kan den beslagtagna datamängden på 110 terabyte leda till identifiering av finansiella medhjälpare?",
+        "Hur påverkar insatsen andra aktörer inom samma ekosystem för utpressningsprogramvara?"
+      ],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T05:59:56.482838+00:00",
+      "revision": 1,
+      "fingerprint": "f33c0c604acf8eecc8f95b1185858d0deab17735636e396a2febc6660c3fcb3d",
+      "history": []
+    },
+    {
+      "id": "news-kalmar-gold-heist",
+      "episode_id": "kek:2026-10-20:daily",
+      "date": "2026-10-20",
+      "channel": "kek",
+      "published_at": "2026-10-20T05:59:56.478464+00:00",
+      "is_intro": false,
+      "episode_order": 739910,
+      "kind": "daily",
+      "episode_title": "Tisdag V.43",
+      "episode_audio": "episodes/kek/2026-10-20/morgonpod.mp3",
+      "episode_brief": "episodes/kek/2026-10-20/brief.json",
+      "article_index": 2,
+      "title": "Tonåring häktad efter rån mot guldhandlare i Kalmar",
+      "summary": "En 19-årig man har häktats på sannolika skäl misstänkt för grovt rån mot ett företag som handlar med guld i Kalmar, rapporterar SVT Nyheter. Vid rånet den 15 oktober 2026 tillgrep maskerade gärningspersoner smycken och guld till ett sexsiffrigt belopp under hot med ett pistolliknande föremål. Ytterligare en rånare jagas fortfarande av utredarna medan en tidigare anhållen person har försatts på fri fot.",
+      "body": "Ett väpnat rån mot ett guldhandelsföretag i Kalmar har lett till att en 19-årig man begärts och beviljats häktad på sannolika skäl misstänkt för grovt rån, enligt uppgifter från SVT Nyheter. Rånet inträffade vid lunchtid torsdagen den 15 oktober 2026 i affärslokaler i Kalmar. Flera maskerade personer trängde sig in och hotade personalen med ett pistolliknande föremål innan de lämnade platsen med guld och smycken till ett sammanlagt sexsiffrigt värde. Den häktade 19-åringen, som sedan tidigare är känd av rättsvårdande myndigheter, förnekar brott. En annan tonåring som inledningsvis greps misstänkt för medhjälp har släppts ur förvar, medan ytterligare en identifierad person som misstänks ha deltagit i rånet fortfarande söks av utredarna. Rån mot aktörer som hanterar ädelmetaller är tätt sammankopplade med kriminella logistik- och avsättningskedjor. Guld utgör ett attraktivt stöldgods på grund av sin höga värdetäthet och möjligheten att smälta om metallen för att utplåna serienummer och kännetecken. Utredningsarbetet mot denna typ av brottslighet kräver därför inte bara spaning på gärningspersonerna utan även noggrann kontroll av potentiella mottagare och uppköpare i den svarta ekonomin.",
+      "context": "Guld och ädelmetaller representerar hög likviditet inom den organiserade brottsligheten och omsätts ofta snabbt för att omvandlas till kontanter eller andra tillgångar. Fallet belyser sårbarheten hos handlare med värdeföremål och vikten av att följa upp varulager och hälarnätverk.",
+      "source_url": "https://www.svt.se/nyheter/lokalt/smaland/tonaring-haktad-for-ran-i-kalmar-en-jagas-fortfarande",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/smaland/tonaring-haktad-for-ran-i-kalmar-en-jagas-fortfarande",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "topics": [
+        "tillgångsinriktad-brottsbekämpning",
+        "penningtvätt-och-brottsvinster"
+      ],
+      "topic_labels": [
+        "Tillgångsinriktad brottsbekämpning",
+        "Penningtvätt och brottsvinster"
+      ],
+      "assessment": "Åklagarens uppgift om ett sexsiffrigt belopp bekräftar att tillgreppet varit ekonomiskt betydande, och utredarnas fokus på att spåra den andra gärningspersonen är avgörande för att förhindra att godset omsätts via etablerade hälarkanaler.",
+      "open_questions": [
+        "Vilka kanaler och uppköpare misstänks ha förberetts för att ta emot det tillgripna guldet?",
+        "Har det stulna godset kunnat spåras innan det smälts ner eller förts ut ur regionen?",
+        "Fanns det kopplingar mellan gärningspersonerna och bredare nätverk specialiserade på ädelmetallhandel?"
+      ],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T05:59:56.482972+00:00",
+      "revision": 1,
+      "fingerprint": "7c51464574d9f8da2c3b196e9b0608b839b5e0c077ea070bc06b20d1e0cc1c2d",
+      "history": []
+    },
+    {
+      "id": "news-france-looting-vinted",
+      "episode_id": "kek:2026-10-20:daily",
+      "date": "2026-10-20",
+      "channel": "kek",
+      "published_at": "2026-10-20T05:59:56.478464+00:00",
+      "is_intro": false,
+      "episode_order": 739910,
+      "kind": "daily",
+      "episode_title": "Tisdag V.43",
+      "episode_audio": "episodes/kek/2026-10-20/morgonpod.mp3",
+      "episode_brief": "episodes/kek/2026-10-20/brief.json",
+      "article_index": 1,
+      "title": "Plundrat gods omsätts på digitala marknadsplatser efter upplopp i Frankrike",
+      "summary": "Efter omfattande upplopp och plundring i flera franska städer uppskattas de materiella skadorna till hundratals miljoner euro på över tvåtusen butiker, rapporterar BBC News. Två ministrar uppger att plundrat gods har lagts ut till försäljning på digitala handelsplattformar som Vinted. Plattformen har vidtagit åtgärder för att identifiera och ta bort annonser kopplade till plundringen.",
+      "body": "De våldsamma oroligheterna i Frankrike har fått betydande ekonomiska efterverkningar för landets näringsliv. Enligt Alain Di Crescenzo vid Frankrikes handels- och industrikammare beräknas de ekonomiska skadorna uppgå till hundratals miljoner euro efter att fler än tvåtusen butiker drabbats direkt av vandalism och plundring, rapporterar BBC News. Oroligheterna har lett till att myndigheterna infört nattliga utegångsförbud i centrala delar av Paris samt städer som Marseille, Lyon, Nice och Bordeaux. Utöver de direkta förstörelsekostnaderna har franska myndigheter slagit larm om den snabba kommersialiseringen av stöldgodset. Franska regeringsföreträdare har bekräftat att varor som stulits från plundrade butiker snabbt bjudits ut på nätbaserade marknadsplatser för begagnade varor. Företaget Vinted uppger att man intensifierat sin övervakning och raderat misstänkta annonser, då försäljning av stöldgods bryter mot plattformens användarvillkor. Premiärminister Sébastien Lecornu har meddelat att ny lagstiftning ska tas fram för att hålla de ansvariga ekonomiskt ersättningsskyldiga för skadorna, samtidigt som särskilda stödpengar avsätts till drabbade verksamheter. För analytiker av kriminell ekonomi understryker händelseutvecklingen hur moderna digitala handelsplatser riskerar att utnyttjas som distributionskanaler för snabb avyttring av stöldgods och generering av svarta intäkter.",
+      "context": "Händelsen visar hur snabbt stöldgods kan integreras i den reguljära ekonomin via konsumentinriktade e-handelsplattformar. Att förhindra omsättning av plundrade varor kräver skärpt övervakning och samverkan mellan e-handelsbolag och rättsvårdande myndigheter.",
+      "source_url": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss",
+          "title": "BBC News"
+        }
+      ],
+      "topics": [
+        "penningtvätt-och-brottsvinster",
+        "tillgångsinriktad-brottsbekämpning"
+      ],
+      "topic_labels": [
+        "Penningtvätt och brottsvinster",
+        "Tillgångsinriktad brottsbekämpning"
+      ],
+      "assessment": "Handelskamrarnas bedömning att skadorna uppgår till hundratals miljoner euro understryker de systemiska ekonomiska konsekvenserna av samordnad plundring, samtidigt som regeringens planer på skadeståndslagar kan skapa nya rättsliga verktyg för tillgångsåtertagande.",
+      "open_questions": [
+        "Vilka tekniska spärrar kan implementeras på andrahandsplattformar för att i realtid flagga varor från plundrade lager?",
+        "Hur effektivt kommer den franska regeringens föreslagna lagstiftning att kunna driva in ersättning från enskilda gärningspersoner?",
+        "I vilken utsträckning rör sig det plundrade godset över landsgränser via internationella frakttjänster?"
+      ],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T05:59:56.482912+00:00",
+      "revision": 1,
+      "fingerprint": "1e991c624d525df21221c94cf1a0bf670476ac3ded07dd9949249260f9a25feb",
+      "history": []
+    },
+    {
+      "id": "article-d44feb83f13d3ea5db221f06",
+      "episode_id": "lagstiftning:2026-10-20:daily",
+      "date": "2026-10-20",
+      "channel": "lagstiftning",
+      "published_at": "2026-10-20T06:02:54.353062+00:00",
+      "is_intro": false,
+      "episode_order": 739910,
+      "kind": "daily",
+      "episode_title": "Tisdag V.43",
+      "episode_audio": "episodes/lagstiftning/2026-10-20/morgonpod.mp3",
+      "episode_brief": "episodes/lagstiftning/2026-10-20/brief.json",
+      "article_index": 1,
+      "title": "Stort vapentillslag: hittade 31 vapen hos man",
+      "summary": "En man i Vimmerby kommun åtalas för synnerligen grovt vapenbrott efter att trettioen vapen och stor mängd ammunition påträffats.",
+      "body": "En man i 35-årsåldern i Vimmerby kommun åtalas för synnerligen grovt vapenbrott, brott mot vapenlagen, brott mot lagen om brandfarliga och explosiva varor samt ringa narkotikabrott. Åklagaren Jacob Semark uppger att det är ett av de större vapenbeslagen i Sverige. Vid en husrannsakan hittades 31 vapen, däribland gevär, pistoler, revolvrar och en kulspruta, samt drygt 11 500 patroner i mannens bostad och lagerlokal. Mannen greps i slutet av december 2025 och har varit häktad sedan januari. I bostaden påträffades även nazistföremål. Mannen nekar till brott och uppger att vapnen kommit från släktingar, samt att de historiska föremålen utgör skämtjargong.",
+      "context": "SVT rapporterar om ett omfattande vapenbeslag där en man i 35-årsåldern åtalas efter tillslag i bostad och lagerlokal.",
+      "source_url": "https://www.svt.se/nyheter/lokalt/smaland/stort-vapentillslag-hittade-31-vapen-hos-man",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/smaland/stort-vapentillslag-hittade-31-vapen-hos-man",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "topics": [
+        "åtal"
+      ],
+      "topic_labels": [
+        "Åtal"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T06:02:54.357250+00:00",
+      "revision": 1,
+      "fingerprint": "19704aad37c5fe28f012aca359a27a58d1a94c5ea272813bf29f38b0124a9cc0",
+      "history": []
+    },
+    {
+      "id": "article-d31c208efb52dc908e8f48d6",
+      "episode_id": "lagstiftning:2026-10-20:daily",
+      "date": "2026-10-20",
+      "channel": "lagstiftning",
+      "published_at": "2026-10-20T06:02:54.353062+00:00",
+      "is_intro": false,
+      "episode_order": 739910,
+      "kind": "daily",
+      "episode_title": "Tisdag V.43",
+      "episode_audio": "episodes/lagstiftning/2026-10-20/morgonpod.mp3",
+      "episode_brief": "episodes/lagstiftning/2026-10-20/brief.json",
+      "article_index": 0,
+      "title": "Vårdare döms till ett års fängelse för sexuellt övergrepp i Vännäs",
+      "summary": "En vårdare i Vännäs döms till ett års fängelse för sexuellt övergrepp mot en äldre kvinna på ett äldreboende.",
+      "body": "En vårdare i Vännäs kommun döms till ett års fängelse för sexuellt övergrepp efter att ha rakat en äldre kvinnas underliv mot hennes vilja på ett äldreboende. Händelsen ägde rum dagen innan julafton föregående år. Kvinnan bedömdes vara i en särskilt utsatt situation på grund av sin höga ålder och sitt sjukdomstillstånd. Enligt SVT har mannen hela tiden nekat till brott och uppgett att det han gjorde ingick i hans arbetsuppgifter och var önskat av målsäganden. Umeå tingsrätt dömde mannen till ett års fängelse samt ett skadestånd om 73 200 kronor för kränkning, sveda och värk. Mannen har tidigare avskedats från sitt arbete.",
+      "context": "Rapportering från SVT om en fällande dom i Umeå tingsrätt gällande händelser på ett äldreboende.",
+      "source_url": "https://www.svt.se/nyheter/lokalt/vasterbotten/rakade-kvinnas-underliv-pa-aldreboende-i-vannas-vardare-doms-till-ett-ars-fangelse",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/vasterbotten/rakade-kvinnas-underliv-pa-aldreboende-i-vannas-vardare-doms-till-ett-ars-fangelse",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "topics": [
+        "domstolsavgörande"
+      ],
+      "topic_labels": [
+        "Domstolsavgörande"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T06:02:54.357191+00:00",
+      "revision": 1,
+      "fingerprint": "4b82a5fd344be693a41e221dab565c1a6e58792863ce2bdac0ac23fa97a9659c",
+      "history": []
+    },
+    {
+      "id": "article-ca53120dad99bec9621a6289",
+      "episode_id": "vald:2026-10-20:daily",
+      "date": "2026-10-20",
+      "channel": "vald",
+      "published_at": "2026-10-20T06:00:25.371173+00:00",
+      "is_intro": false,
+      "episode_order": 739910,
+      "kind": "daily",
+      "episode_title": "Tisdag V.43",
+      "episode_audio": "episodes/vald/2026-10-20/morgonpod.mp3",
+      "episode_brief": "episodes/vald/2026-10-20/brief.json",
+      "article_index": 1,
+      "title": "Huthiattack mot militärläger i Jemen – minst 53 dödades",
+      "summary": "Minst 53 personer dödades och 200 skadades när huthirebellerna avfyrade tre ballistiska robotar mot ett militärläger för regeringsstyrkor i södra Jemen. Attacken är en av de dödligaste under den senaste tidens upptrappning av konflikten i landet. Jemens president har lovat ett kraftfullt svar på attacken.",
+      "body": "SVT Nyheter rapporterar att huthirebellerna har genomfört en omfattande attack med tre ballistiska robotar mot ett militärläger tillhörande regeringsstyrkorna i Jemen. Minst 53 personer dödades och ett par hundra skadades i händelsen. Attacken sker under en period av förnyad upptrappning i inbördeskriget, som har sett ökade stridigheter i samband med bredare spänningar i regionen. Den internationellt erkända regeringen i Jemen har lovat motåtgärder mot rebellerna.",
+      "context": "Händelsen visar hur regionala konflikter och spänningar i Mellanöstern fortsätter att driva på dödliga attacker mot militära mål. Den förnyade eskaleringen efter 2022 års vapenvila påverkar den geopolitiska stabiliteten i regionen.",
+      "source_url": "https://www.svt.se/nyheter/utrikes/huthiattack-mot-militarlager-i-jemen-minst-53-dodades",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/utrikes/huthiattack-mot-militarlager-i-jemen-minst-53-dodades",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "topics": [
+        "konflikt",
+        "jemen",
+        "huthirebeller"
+      ],
+      "topic_labels": [
+        "konflikt",
+        "Jemen",
+        "huthirebeller"
+      ],
+      "assessment": "Den förnyade våldsvågen i Jemen riskerar att fördjupa den humanitära krisen och destabilisera regionen ytterligare, vilket kräver noggrann internationell omvärldsbevakning.",
+      "open_questions": [
+        "Vilka långsiktiga konsekvenser får attacken för den sköra vapenvilan och regeringssidans militära kapacitet?",
+        "Hur kommer den saudiledda koalitionen att svara på den nya offensiven från huthierna?"
+      ],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T06:00:25.375205+00:00",
+      "revision": 1,
+      "fingerprint": "0ac94eed7f87af7fce41e6018e3c66b3220ed6830011f209b3815b260470ea25",
+      "history": []
+    },
+    {
+      "id": "article-a49e2363fa8695de707e77b6",
+      "episode_id": "sjoomradet:2026-10-20:daily",
+      "date": "2026-10-20",
+      "channel": "sjoomradet",
+      "published_at": "2026-10-20T05:57:21.342562+00:00",
+      "is_intro": false,
+      "episode_order": 739910,
+      "kind": "daily",
+      "episode_title": "Tisdag V.43",
+      "episode_audio": "episodes/sjoomradet/2026-10-20/morgonpod.mp3",
+      "episode_brief": "episodes/sjoomradet/2026-10-20/brief.json",
+      "article_index": 0,
+      "title": "AI och slagsmål i Göteborg – inte upploppen i Frankrike",
+      "summary": "Falska och manipulerade klipp har spritts i sociala medier i samband med helgens protester. Bland annat har bilder felaktigt påståtts visa händelser från de omfattande oroligheterna i Frankrike.",
+      "body": "SVT Nyheter rapporterar att falska och manipulerade videor och bilder har spridits i sociala medier i samband med helgens omfattande protester och oroligheter. Bland exemplen som granskats finns material som felaktigt påståtts visa händelser från Frankrike eller andra platser. Det är en tydlig påminnelse om hur snabbt obekräftade eller fabricerade uppgifter kan cirkulera under pågående samhällsstörningar. För den allmänna lägesförståelsen innebär detta att visuellt material i öppna källor kräver noggrann verifiering innan slutsatser dras om faktiska händelseförlopp.",
+      "context": "Rapporteringen visar hur snabbt fabricerat material kan spridas under pågående samhällsstörningar, vilket ställer högre krav på källkritik och verifiering av information i öppna kanaler.",
+      "source_url": "https://www.svt.se/nyheter/utrikes/ai-och-slagsmal-i-goteborg-de-har-bilderna-visar-inte-upploppen-i-frankrike",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/utrikes/ai-och-slagsmal-i-goteborg-de-har-bilderna-visar-inte-upploppen-i-frankrike",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "topics": [
+        "maritim-säkerhet-och-kritisk-infrastruktur"
+      ],
+      "topic_labels": [
+        "maritim-säkerhet-och-kritisk-infrastruktur"
+      ],
+      "assessment": "Bedömningen är att spridningen av manipulerat material sker systematiskt i samband med större nyhetshändelser för att påverka den offentliga bilden.",
+      "open_questions": [
+        "Vilka metoder används för att effektivt spåra ursprunget till falska digitala bilder?",
+        "Hur kan informationspåverkan i öppna kanaler motverkas på ett tidigt stadium?"
+      ],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T05:57:21.344691+00:00",
+      "revision": 1,
+      "fingerprint": "6107fc2ba532a3b4fe1a8ed0923a08fa419134c92c828a4a3296cd664aef711e",
+      "history": []
+    },
+    {
+      "id": "article-930795aa182c34ae7b34f80c",
+      "episode_id": "sjoomradet:2026-10-20:daily",
+      "date": "2026-10-20",
+      "channel": "sjoomradet",
+      "published_at": "2026-10-20T05:57:21.342562+00:00",
+      "is_intro": false,
+      "episode_order": 739910,
+      "kind": "daily",
+      "episode_title": "Tisdag V.43",
+      "episode_audio": "episodes/sjoomradet/2026-10-20/morgonpod.mp3",
+      "episode_brief": "episodes/sjoomradet/2026-10-20/brief.json",
+      "article_index": 1,
+      "title": "Huthiattack mot militärläger i Jemen – minst 53 dödades",
+      "summary": "Minst 53 personer har dödats i en robotattack mot ett militärläger för regeringsstyrkor i Jemen. Attacken ses som en av de dödligaste under den senaste tidens upptrappning av konflikten.",
+      "body": "Enligt SVT Nyheter har minst 53 personer dödats och ett stort antal skadats i en robotattack mot ett militärläger för regeringsstyrkor i Jemen. De Iranstödda huthirebellerna har bekräftat att man avfyrat tre ballistiska robotar mot lägret i södra Jemen. Händelsen inträffar i anslutning till en bredare militäroffensiv i området och understryker hur bräcklig säkerhetssituationen är i regioner med pågående konflikter.",
+      "context": "Händelsen belyser de allvarliga säkerhetskonsekvenserna av den förnyade eskaleringen i regionen och dess påverkan på stabiliteten i viktiga maritima och geostrategiska områden.",
+      "source_url": "https://www.svt.se/nyheter/utrikes/huthiattack-mot-militarlager-i-jemen-minst-53-dodades",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/utrikes/huthiattack-mot-militarlager-i-jemen-minst-53-dodades",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "topics": [
+        "ukrainakrigets-maritima-dimension",
+        "försörjning-energi-och-ekonomiska-effekter"
+      ],
+      "topic_labels": [
+        "Ukrainakrigets maritima dimension",
+        "Försörjning, energi och ekonomiska effekter"
+      ],
+      "assessment": "Bedömningen är att konflikterna i regionen fortsätter att präglas av militära eskaleringar som direkt påverkar den regionala stabiliteten.",
+      "open_questions": [
+        "Vilka långsiktiga konsekvenser får den ökade militära aktiviteten för säkerheten i regionens farleder?",
+        "Hur kommer de inblandade parterna att svara på den senaste tidens dödliga attacker?"
+      ],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T05:57:21.344733+00:00",
+      "revision": 1,
+      "fingerprint": "611259b078bb8350ba83ca31427ccb1ec2789ed30a422c0ae77947e11592a709",
+      "history": []
+    },
+    {
+      "id": "article-88a4b0365da17cc142f0cf61",
+      "episode_id": "vald:2026-10-20:daily",
+      "date": "2026-10-20",
+      "channel": "vald",
+      "published_at": "2026-10-20T06:00:25.371173+00:00",
+      "is_intro": false,
+      "episode_order": 739910,
+      "kind": "daily",
+      "episode_title": "Tisdag V.43",
+      "episode_audio": "episodes/vald/2026-10-20/morgonpod.mp3",
+      "episode_brief": "episodes/vald/2026-10-20/brief.json",
+      "article_index": 2,
+      "title": "Italy plans tougher security measures after violent protests",
+      "summary": "Italienska myndigheter planerar nya akuta säkerhetsåtgärder efter att protester mot stigande levnadskostnader urartade i våldsamma sammandrabbningar i bland annat Milano. Över 250 personer har frihetsberövats, och regeringen överväger hårdare tag mot bland annat minderåriga i kriminella gäng och begränsningar av gruppsammankomster.",
+      "body": "BBC News rapporterar att premiärminister Giorgia Meloni förbereder nya säkerhetsåtgärder efter att helgens demonstrationer i Milano och andra norditalienska städer övergick i omfattande skadegörelse och våld mot polis. Polisen använde tårgas och vattenkanoner för att mota bort maskerade demonstranter som kastade gatsten och föremål. Bland de gripna utgörs en stor del av minderåriga, vilket har föranlett politiska krav på skärpta lagar och förebyggande insatser mot ungdomsgäng.",
+      "context": "Orons spridning i europeiska städer belyser utmaningarna med att hantera våldsamma upplopp i samband med samhällsprotester. Det visar också hur sociala medier kan användas för att snabbt mobilisera till sammandrabbningar.",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6j9kwxxmxydo?at_medium=RSS&at_campaign=rss",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c6j9kwxxmxydo?at_medium=RSS&at_campaign=rss",
+          "title": "BBC News"
+        }
+      ],
+      "topics": [
+        "protester",
+        "italien",
+        "säkerhet"
+      ],
+      "topic_labels": [
+        "protester",
+        "Italien",
+        "säkerhet"
+      ],
+      "assessment": "Händelserna i Italien speglar en bredare europeisk trend där sociala oroligheter lätt kan utnyttjas av våldsamma element för att skapa ordningsstörningar och skadegörelse.",
+      "open_questions": [
+        "Kommer de föreslagna lagändringarna att få avsedd effekt på att dämpa framtida upplopp?",
+        "Hur sprids mobiliseringen via digitala plattformar i denna typ av oroligheter?"
+      ],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T06:00:25.375261+00:00",
+      "revision": 1,
+      "fingerprint": "09bcda9fa7b3bbcf1d527f6ccf3227c0989d0c72137f61c8a27452820165f4ee",
+      "history": []
+    },
+    {
+      "id": "article-6dc84f2823552b4a664e6831",
+      "episode_id": "vald:2026-10-20:daily",
+      "date": "2026-10-20",
+      "channel": "vald",
+      "published_at": "2026-10-20T06:00:25.371173+00:00",
+      "is_intro": false,
+      "episode_order": 739910,
+      "kind": "daily",
+      "episode_title": "Tisdag V.43",
+      "episode_audio": "episodes/vald/2026-10-20/morgonpod.mp3",
+      "episode_brief": "episodes/vald/2026-10-20/brief.json",
+      "article_index": 0,
+      "title": "Stort vapentillslag – hittade 31 vapen hos man i Vimmerby",
+      "summary": "En man i 35-årsåldern utan vapenlicens i Vimmerby kommun har åtalats sedan polisen hittat 31 fungerande vapen, inklusive en kulspruta, samt över 11 500 patroner i hans hem och en lagerlokal. Det rör sig enligt åklagaren om ett av de större vapenbeslagen som gjorts i Sverige. Mannen åtalas för synnerligen grovt vapenbrott samt brott mot lagen om brandfarliga och explosiva varor, men nekar till brott.",
+      "body": "SVT Nyheter rapporterar om ett omfattande vapenbeslag i Vimmerby kommun där en man i 35-årsåldern har åtalats för synnerligen grovt vapenbrott och andra brott. Vid en husrannsakan hittades trettioett vapen, däribland gevär, pistoler och en kulspruta, tillsammans med en stor mängd ammunition. Åklagaren betecknar beslaget som ett av de större i landet. Mannen, som saknar vapenlicens, greps i slutet av december 2025 och har suttit häktad sedan dess. Utredningen har även noterat förekomsten av nazistiska föremål i bostaden, men utan att kunna fastställa någon tydlig koppling till kriminella nätverk. Mannen nekar till anklagelserna.",
+      "context": "Tillslaget belyser problematiken kring olaglig vapenhantering och förekomsten av stora vapenarsenaler hos privatpersoner utan licens. Sådana beslag är centrala för att förstå tillgången på illegala vapen som potentiellt kan nå den kriminella miljön.",
+      "source_url": "https://www.svt.se/nyheter/lokalt/smaland/stort-vapentillslag-hittade-31-vapen-hos-man",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/smaland/stort-vapentillslag-hittade-31-vapen-hos-man",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "topics": [
+        "vapenbrott",
+        "brottslighet",
+        "sverige"
+      ],
+      "topic_labels": [
+        "vapenbrott",
+        "brottslighet",
+        "Sverige"
+      ],
+      "assessment": "Ett beslag av denna storleksordning indikerar en betydande risk för att stora vapenmängder kan cirkulera utanför samhällets kontroll, vilket understryker vikten av tidiga underrättelser kring okontrollerade tillgångar.",
+      "open_questions": [
+        "Hur har mannen anskaffat den stora mängden vapen och ammunition utan att det upptäckts tidigare?",
+        "Finns det några verifierade kopplingar till organiserad brottslighet eller extremistmiljöer?"
+      ],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T06:00:25.375150+00:00",
+      "revision": 1,
+      "fingerprint": "4016e3fff00b40fb14980ff2e430ceb055c111c5a4c770b23f89b7e4683b9ac1",
+      "history": []
+    },
+    {
+      "id": "article-6db0cbbf16496410042118d3",
+      "episode_id": "ibat:2026-10-20:daily",
+      "date": "2026-10-20",
+      "channel": "ibat",
+      "published_at": "2026-10-20T05:57:42.908481+00:00",
+      "is_intro": false,
+      "episode_order": 739910,
+      "kind": "daily",
+      "episode_title": "Tisdag V.43",
+      "episode_audio": "episodes/2026-10-20/morgonpod.mp3",
+      "episode_brief": "episodes/2026-10-20/brief.json",
+      "article_index": 2,
+      "title": "Tidigare OpenAI-ingenjör häktad misstänkt för spioneri",
+      "summary": "FBI och amerikanska åklagare uppger att en f.d. OpenAI-ingenjör har häktats misstänkt för att ha planterat dolda inspelningsenheter i ett säkerhetsklassat konferensrum.",
+      "body": "En domstol har beviljat den amerikanska regeringens begäran om att hålla en före detta OpenAI-ingenjör häktad under tiden som anklagelserna om spioneri prövas. Enligt domstolshandlingar från Ars Technica ska mannen ha installerat dolda inspelningsenheter i ett konfidentiellt konferensrum där ledningen träffat statliga företrädare. Utredningen visar på kontakt med företrädare för den saudiska kungafamiljen samt att mannen undersökt möjligheterna att fly landet. Företrädare för USA:s rättsväsende framhåller att agerandet utgör en allvarlig risk för innovation och nationell säkerhet, vilket visar på behovet av stärkt skydd mot insiderhot inom högteknologiska verksamheter.",
+      "context": "Ärendet aktualiserar frågor om insiderhot, skydd av immateriella tillgångar och säkerhetsprövning inom ledande AI-laboratorier.",
+      "source_url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+      "sources": [
+        {
+          "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+          "title": "Ars Technica - All content"
+        }
+      ],
+      "topics": [
+        "ai-för-informationsanalys"
+      ],
+      "topic_labels": [
+        "AI för informationsanalys"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T05:57:42.911634+00:00",
+      "revision": 1,
+      "fingerprint": "2f975626e11ae33b942133164679d5c77f8ec2ab97aec169d28778079a116759",
+      "history": []
+    },
+    {
+      "id": "article-5b80419b72f2c97f228b5cd7",
+      "episode_id": "ibat:2026-10-20:daily",
+      "date": "2026-10-20",
+      "channel": "ibat",
+      "published_at": "2026-10-20T05:57:42.908481+00:00",
+      "is_intro": false,
+      "episode_order": 739910,
+      "kind": "daily",
+      "episode_title": "Tisdag V.43",
+      "episode_audio": "episodes/2026-10-20/morgonpod.mp3",
+      "episode_brief": "episodes/2026-10-20/brief.json",
+      "article_index": 1,
+      "title": "Omfattande dataläckage vid myndighet i Florida efter slarv med inloggningsuppgifter",
+      "summary": "Floridas motortrafikmyndighet har börjat meddela drabbade efter ett dataintrång som orsakats av att inloggningsuppgifter förvarats osäkert.",
+      "body": "The Florida Department of Highway Safety and Motor Vehicles har bekräftat att en skadlig aktör kom åt departementets register den 4 september 2026 via komprometterade inloggningsuppgifter. Enligt utredningen kom uppgifterna på avvägar efter att en anställd på en lokal enhet olämpligt nog lagrat inloggningsuppgifterna på en elektronisk enhet. Även om myndigheten uppger att det saknas bevis för att uppgifterna missbrukats, har information om körkort och motorfordon potentiellt påverkats. Händelsen har kopplats till den internationella cyberbrottsgruppen ShinyHunters och belyser vikten av strikta säkerhetsrutiner vid hantering av digitala behörigheter.",
+      "context": "Händelsen visar hur bristfällig intern informationssäkerhet och felaktigt sparade inloggningsuppgifter kan leda till omfattande dataläckage av känsliga personuppgifter.",
+      "source_url": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/",
+      "sources": [
+        {
+          "url": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/",
+          "title": "Ars Technica - All content"
+        }
+      ],
+      "topics": [
+        "juridik-integritet-och-informationssäkerhet"
+      ],
+      "topic_labels": [
+        "Juridik, integritet och informationssäkerhet"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T05:57:42.911590+00:00",
+      "revision": 1,
+      "fingerprint": "e75780db3dda47e8ef8c12297e32af5977838682c073286672d90bdc2bc7f5ba",
+      "history": []
+    },
+    {
+      "id": "article-3057e3720b3072a3d0886ef9",
+      "episode_id": "lagstiftning:2026-10-20:daily",
+      "date": "2026-10-20",
+      "channel": "lagstiftning",
+      "published_at": "2026-10-20T06:02:54.353062+00:00",
+      "is_intro": false,
+      "episode_order": 739910,
+      "kind": "daily",
+      "episode_title": "Tisdag V.43",
+      "episode_audio": "episodes/lagstiftning/2026-10-20/morgonpod.mp3",
+      "episode_brief": "episodes/lagstiftning/2026-10-20/brief.json",
+      "article_index": 2,
+      "title": "Åtal efter skoldådet i Fagersta dröjer",
+      "summary": "Åtalet efter skoldådet i Fagersta skjuts upp då åklagaren har beviljats förlängd åtalstid till den 16 november.",
+      "body": "Åtalet efter skoldådet på Brinellgymnasiet i Fagersta dröjer sedan åklagaren begärt och beviljats förlängd åtalstid till den 16 november. En 18-årig man är huvudmisstänkt och häktad för mord och tre fall av försök till mord, och en 16-åring är häktad för medhjälp. Omkring 760 förhör har hållits i ärendet. Senior åklagare Ann-Sofie Trossing uppger att mycket arbete återstår med att sammanställa och analysera det omfattande utredningsmaterialet.",
+      "context": "SVT rapporterar om läget i förundersökningen gällande svärdattacken på Brinellgymnasiet i Fagersta.",
+      "source_url": "https://www.svt.se/nyheter/lokalt/vastmanland/atal-efter-skoldadet-i-fagersta-drojer-aklagaren-mycket-arbete-aterstar",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/vastmanland/atal-efter-skoldadet-i-fagersta-drojer-aklagaren-mycket-arbete-aterstar",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "topics": [
+        "förundersökning"
+      ],
+      "topic_labels": [
+        "Förundersökning"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T06:02:54.357289+00:00",
+      "revision": 1,
+      "fingerprint": "1b164df2c0d4a336ff21004611763f0039432678f8f06212e3011f307daad714",
+      "history": []
+    },
+    {
+      "id": "article-2cdb1da704e7dd41a25af1e6",
+      "episode_id": "ibat:2026-10-20:daily",
+      "date": "2026-10-20",
+      "channel": "ibat",
+      "published_at": "2026-10-20T05:57:42.908481+00:00",
+      "is_intro": false,
+      "episode_order": 739910,
+      "kind": "daily",
+      "episode_title": "Tisdag V.43",
+      "episode_audio": "episodes/2026-10-20/morgonpod.mp3",
+      "episode_brief": "episodes/2026-10-20/brief.json",
+      "article_index": 0,
+      "title": "Ukrainska rådgivare larmar om bristande underrättelsevarningar",
+      "summary": "Zelenskys rådgivare uppger till BBC News att Ukraina drabbas av dödsfall på grund av uteblivna amerikanska robotvarningar, medan Vita huset förnekar förändringar i underrättelsebytet.",
+      "body": "Ukrainas presidentrådgivare Serhii Beskrestnov uppger till BBC News att ukrainska medborgare har dött på grund av att landet saknar tillförlitliga varningar om inkommande ryska robotattacker. Enligt uppgifterna har brister i underrättelseflödet lett till att det saknats tid att varna civilbefolkningen. Samtidigt uppges begränsningar i nätverket Starlink påverka kommunikationen och drönarverksamheten på fältet. Vita huset har tillbakavisat uppgifterna om att underrättelsedelningen har förändrats eller pausats, och uppger att det amerikanska stödet till Ukraina fortsätter. Analytiker bedömer att situationen kan vara ett led i att utöva påtryckningar för framtida förhandlingar, vilket understryker betydelsen av robusta och oberoende nationella system för lägesförståelse.",
+      "context": "Rapporteringen belyser sårbarheter i den internationella underrättelsedelningen och beroendet av externa system som Starlink under pågående konflikt.",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss",
+          "title": "BBC News"
+        }
+      ],
+      "topics": [
+        "hotbilder-och-brottslighetens-utveckling"
+      ],
+      "topic_labels": [
+        "Hotbilder och brottslighetens utveckling"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T05:57:42.911508+00:00",
+      "revision": 1,
+      "fingerprint": "06b90c2f3f23d2783d9f6712836206b669989373da880aa3255b149ae05139f0",
+      "history": []
+    },
+    {
+      "id": "article-f259d3ec44905875dcb313b1",
+      "episode_id": "lagstiftning:2026-10-19:weekly",
+      "date": "2026-10-19",
+      "channel": "lagstiftning",
+      "kind": "weekly",
+      "episode_title": "Veckans lagstiftningsöversikt",
+      "episode_audio": "episodes/lagstiftning/2026-10-19/morgonpod.mp3",
+      "episode_brief": "episodes/lagstiftning/2026-10-19/brief.json",
+      "article_index": 0,
+      "title": "Hörande och tillfälligt överförande vid handläggning av en arresteringsorder",
+      "summary": "Sveriges riksdag rapporterar om proposition 2025/26:285 gällande ändringar i lagstiftningen om europeisk och nordisk arresteringsorder. Förslaget syftar till att förtydliga det svenska genomförandet och anpassa det till EU-domstolens praxis. Bland annat föreslås att en eftersökt person på begäran av den utfärdande myndigheten antingen ska kunna höras i den verkställande staten eller överföras tillfälligt till den utfärdande staten vid lagföring. Vidare införs tydligare tidsfrister när den eftersökte skyddas av immunitet. Ändringarna föreslås träda i kraft den 1 december 2026.",
+      "body": "Enligt Sveriges riksdag bereds betänkandet 2026/27:JuU2 med planerad justering den 20 oktober 2026 och planerad debatt samt beslut i kammaren den 21 oktober 2026. En proposition eller ett planerat beslutsdatum innebär inte att lagen redan gäller.",
+      "context": "Enligt Sveriges riksdag bereds betänkandet 2026/27:JuU2 med planerad justering den 20 oktober 2026 och planerad debatt samt beslut i kammaren den 21 oktober 2026. En proposition eller ett planerat beslutsdatum innebär inte att lagen redan gäller.",
+      "source_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/horande-och-tillfalligt-overforande-vid_he01juu2/",
+      "sources": [
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/horande-och-tillfalligt-overforande-vid_he01juu2/",
+          "title": "Sveriges riksdag"
+        }
+      ],
+      "topics": [
+        "straffprocess-och-internationellt-samarbete"
+      ],
+      "topic_labels": [
+        "Straffprocess och internationellt samarbete"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "legacy_context",
+      "recorded_at": "2026-10-19T09:26:25.014884+00:00",
+      "revision": 1,
+      "fingerprint": "bee2044044daaf58cfb6d5278cc781074f63ee5dd6641fa4b6aa0d5752d4c991",
+      "history": []
+    },
+    {
+      "id": "article-c803bd1df43abd2c87421ab1",
+      "episode_id": "vald:2026-10-19:daily",
+      "date": "2026-10-19",
+      "channel": "vald",
+      "kind": "daily",
+      "episode_title": "Morgonbrief",
+      "episode_audio": "episodes/vald/2026-10-19/morgonpod.mp3",
+      "episode_brief": "episodes/vald/2026-10-19/brief.json",
+      "article_index": 0,
+      "title": "Dödsskjutning i idrottshall i Älvsjö",
+      "summary": "En 25-årig kvinna som arbetade inom kommunens ungdomsverksamhet sköts till döds i fredags på övervåningen av en idrottsanläggning i Älvsjö. Två minderåriga har gripits och anhållits misstänkta för mordet, men nekar till brott. Motivet är ännu oklart, men enligt uppgifter till SVT undersöks om det kan röra sig om ett hämndmotiv riktat mot en nära anhörig till kvinnan. Justitieminister Gunnar Strömmer uttalar sig om det allvarliga i att våldet drabbar platser där barn och unga vistas.",
+      "body": "Händelsen illustrerar hur dödligt våld drabbar samhällsfunktioner och miljöer där allmänheten och unga rör sig. Justitieminister Gunnar Strömmer framhåller att samhället måste kliva fram med närvaro och samspel mellan kommun, civilsamhälle och andra aktörer för att skapa trygghet i området.",
+      "context": "Händelsen illustrerar hur dödligt våld drabbar samhällsfunktioner och miljöer där allmänheten och unga rör sig. Justitieminister Gunnar Strömmer framhåller att samhället måste kliva fram med närvaro och samspel mellan kommun, civilsamhälle och andra aktörer för att skapa trygghet i området.",
+      "source_url": "https://www.svt.se/nyheter/inrikes/gunnar-strommer-m-om-skjutningen-i-alvsjo-valdigt-obehagligt",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/inrikes/gunnar-strommer-m-om-skjutningen-i-alvsjo-valdigt-obehagligt",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "topics": [
+        "inrikes"
+      ],
+      "topic_labels": [
+        "Inrikes"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "legacy_context",
+      "recorded_at": "2026-10-19T12:53:45.831319+00:00",
+      "revision": 1,
+      "fingerprint": "ac0d5b8f1d5fd40d9cd2a1448a78eb28f5971fe163b1e68317f9cbbf4f5cb53e",
+      "history": []
+    },
+    {
+      "id": "article-c2b4e11990c7a5de9e1151f3",
+      "episode_id": "lagstiftning:2026-10-19:weekly",
+      "date": "2026-10-19",
+      "channel": "lagstiftning",
+      "kind": "weekly",
+      "episode_title": "Veckans lagstiftningsöversikt",
+      "episode_audio": "episodes/lagstiftning/2026-10-19/morgonpod.mp3",
+      "episode_brief": "episodes/lagstiftning/2026-10-19/brief.json",
+      "article_index": 1,
+      "title": "Ett nytt brott och andra åtgärder mot människohandel",
+      "summary": "Sveriges riksdag rapporterar i proposition 2025/26:313 om förslag för att genomföra Europaparlamentets och rådets direktiv (EU) 2024/1712 om förebyggande och bekämpande av människohandel. Regeringen föreslår att ett nytt brott, olaga nyttjande av tjänst, införs i brottsbalken för att kriminalisera nyttjandet av tjänster utförda av personer som är utsatta för människohandel eller människoexploatering. Straffet föreslås till fängelse i högst fyra år, och försök ska vara straffbart. Dessutom föreslås att Jämställdhetsmyndigheten utses till nationell kontaktpunkt för gränsöverskridande vidareslussning av brottsoffer, kompletterat med nya regler om personuppgiftsbehandling och sekretess. Lagändringarna föreslås träda i kraft den 1 januari 2027.",
+      "body": "Enligt Sveriges riksdag i ärende 2026/27:JuU9 kommer betänkandet att beredas den 22 oktober 2026, med planerat riksdagsbeslut den 25 november 2026. Förslaget utgör för närvarande en proposition och är därmed inte gällande rätt.",
+      "context": "Enligt Sveriges riksdag i ärende 2026/27:JuU9 kommer betänkandet att beredas den 22 oktober 2026, med planerat riksdagsbeslut den 25 november 2026. Förslaget utgör för närvarande en proposition och är därmed inte gällande rätt.",
+      "source_url": "https://data.riksdagen.se/dokument/HD03313.html",
+      "sources": [
+        {
+          "url": "https://data.riksdagen.se/dokument/HD03313.html",
+          "title": "Sveriges riksdag"
+        }
+      ],
+      "topics": [
+        "organiserad-brottslighet-och-människohandel"
+      ],
+      "topic_labels": [
+        "Organiserad brottslighet och människohandel"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "legacy_context",
+      "recorded_at": "2026-10-19T09:26:25.014953+00:00",
+      "revision": 1,
+      "fingerprint": "6ab65f6fee862270f4791bdc2f3e602add973f47dd0504253a8f130d63f76f5d",
+      "history": []
+    },
+    {
+      "id": "article-b961bb4d0dc4de3998074e5e",
+      "episode_id": "kek:2026-10-19:daily",
+      "date": "2026-10-19",
+      "channel": "kek",
+      "kind": "daily",
+      "episode_title": "Morgonbrief",
+      "episode_audio": "episodes/kek/2026-10-19/morgonpod.mp3",
+      "episode_brief": "episodes/kek/2026-10-19/brief.json",
+      "article_index": 1,
+      "title": "Finlands strikta fastighetsregler saknar svensk motsvarighet",
+      "summary": "SVT Nyheter rapporterar den 19 oktober 2026 att Finland har stoppat 68 fastighetsaffärer nära kritisk infrastruktur sedan 2022 med hänvisning till nationell säkerhet, och infört ett totalförbud för ryska och belarusiska medborgare att köpa fastigheter. Enligt granskningen saknar Sverige motsvarande generella lagar för att stoppa liknande utländska fastighetsköp.",
+      "body": "Skillnaden i lagstiftning mellan länderna aktualiserar sårbarheter kring strategiska tillgångar och hur kriminella upplägg eller främmande makt kan utnyttja formellt legala fastighetsförvärv för att bygga upp långsiktiga positioner.",
+      "context": "Skillnaden i lagstiftning mellan länderna aktualiserar sårbarheter kring strategiska tillgångar och hur kriminella upplägg eller främmande makt kan utnyttja formellt legala fastighetsförvärv för att bygga upp långsiktiga positioner.",
+      "source_url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "topics": [
+        "tillgångsinriktad-brottsbekämpning"
+      ],
+      "topic_labels": [
+        "Tillgångsinriktad brottsbekämpning"
+      ],
+      "assessment": "Finländska experter bedömer att även om lagstiftningen har en viktig avskräckande effekt, utgör köp via bulvaner en ständigt växande utmaning som är svår att upptäcka i ett tidigt skede.",
+      "open_questions": [
+        "Vilka indikatorer kan användas för att identifiera dolda bulvanupplägg vid fastighetsförvärv?",
+        "Hur påverkar bristen på generell kontroll den nationella säkerhetsanalysen i Sverige?"
+      ],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "legacy_context",
+      "recorded_at": "2026-10-19T05:47:31.476257+00:00",
+      "revision": 1,
+      "fingerprint": "f773ba2c8503c11c946e2839cd6115700a18a3e9de3ddc6953e72edb6af6edb3",
+      "history": []
+    },
+    {
+      "id": "article-b3cda9389e22552a5dd99f7c",
+      "episode_id": "ibat:2026-10-19:daily",
+      "date": "2026-10-19",
+      "channel": "ibat",
+      "kind": "daily",
+      "episode_title": "Morgonbrief",
+      "episode_audio": "episodes/2026-10-19/morgonpod.mp3",
+      "episode_brief": "episodes/2026-10-19/brief.json",
+      "article_index": 1,
+      "title": "Anthropic ger externa granskare direkttillgång till system för riskbedömning",
+      "summary": "AI-företaget Anthropic har gett den oberoende organisationen METR direkt tillgång till sina interna system och maskinvara för att utvärdera säkerhetsrisker i sina avancerade modeller. Teknologisajten Ars Technica rapporterar den 18 oktober 2026 att utvärderarna kan publicera sina resultat utan att Anthropic har vetorätt. Åtgärden sker samtidigt som bolaget förbereder en börsintroduktion.",
+      "body": "I takt med att AI-modeller blir allt mer kapabla ökar kraven på oberoende säkerhetsgranskning. Enligt en artikel publicerad av Ars Technica den 18 oktober 2026 har AI-bolaget Anthropic släppt in personal från den oberoende organisationen METR direkt i sin verksamhet. Granskarna har tilldelats intern hårdvara och behörigheter som motsvarar de interna säkerhetsteamsens tillgång för att utvärdera risker rörande cybersäkerhet och kontrollförlust.\n\nEtt centralt inslag i uppgörelsen är att METR äger rätten att publicera sina granskningsresultat utan godkännande från Anthropic. Förbehåll finns enbart för sekretessbelagd kunddata och specifik modellarkitektur. Åtgärden kommer i ett läge där branschen står inför ökad granskning från myndigheter och investerare, och där transparens i modellernas inre funktioner blivit en central fråga för säkerhetsanalytiker.",
+      "context": "För organisationer som ska bedöma tillförlitlighet och säkerhetsrisker i stora AI-modeller utgör oberoende auditering en avgörande faktor. Genom insyn på systemnivå skapas bättre förutsättningar att identifiera sårbarheter innan modeller tas i bruk i känsliga miljöer.",
+      "source_url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+      "sources": [
+        {
+          "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+          "title": "Ars Technica - All content"
+        }
+      ],
+      "topics": [
+        "ai-för-informationsanalys"
+      ],
+      "topic_labels": [
+        "AI för informationsanalys"
+      ],
+      "assessment": "Garanterad publiceringsrätt för externa granskare är ett viktigt steg mot transparens, men gränsdragningen mot skyddsvärd företagsinformation och algoritmer förblir en utmaning vid granskning av avancerade AI-agenter.",
+      "open_questions": [
+        "Vilka metoder kommer METR att använda för att utvärdera risker rörande autonoma AI-agenter?",
+        "Kommer liknande granskningsmodeller att bli standardiserade krav under EU:s AI-förordning?"
+      ],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-19T05:45:53.853357+00:00",
+      "revision": 1,
+      "fingerprint": "963827160b12dc2f5a197528ce735920ff64fd8819f251cd3f2f1451cd5e021e",
+      "history": []
+    },
+    {
+      "id": "article-a3bc9d16104cd0534018ae3e",
+      "episode_id": "kek:2026-10-19:daily",
+      "date": "2026-10-19",
+      "channel": "kek",
+      "kind": "daily",
+      "episode_title": "Morgonbrief",
+      "episode_audio": "episodes/kek/2026-10-19/morgonpod.mp3",
+      "episode_brief": "episodes/kek/2026-10-19/brief.json",
+      "article_index": 0,
+      "title": "Strypt import och syntetiska droger i USA",
+      "summary": "Enligt en artikel publicerad av BBC News den 18 oktober 2026 pressas USA av en ny våg hemlagade syntetiska droger där traditionella ämnen blandas ut med kraftfulla animaliska lugnande medel som medetomidin och xylazin. Rapporten visar hur karteller och lokala tillverkare anpassar sina distributionskedjor, och hur fängelser drabbas av smugglingsmetoder där droger dränks in i papper.",
+      "body": "Den här utvecklingen belyser hur snabbt illegala marknader anpassar sig när traditionella gränskontroller skärps. För svensk och europeisk lägesförståelse understryker detta riskerna med kemisk diversifiering inom den organiserade brottsligheten och hur marknadens flöden ständigt söker nya vägar.",
+      "context": "Den här utvecklingen belyser hur snabbt illegala marknader anpassar sig när traditionella gränskontroller skärps. För svensk och europeisk lägesförståelse understryker detta riskerna med kemisk diversifiering inom den organiserade brottsligheten och hur marknadens flöden ständigt söker nya vägar.",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmx2wvyv5j17o?at_medium=RSS&at_campaign=rss",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cmx2wvyv5j17o?at_medium=RSS&at_campaign=rss",
+          "title": "BBC News"
+        }
+      ],
+      "topics": [
+        "penningtvätt-och-brottsvinster"
+      ],
+      "topic_labels": [
+        "Penningtvätt och brottsvinster"
+      ],
+      "assessment": "En bedömning från räddnings- och fängelsepersonal i BBC-reportaget är att syntetiska droger tillverkade i hemmamiljö har gjort narkotikamarknaden betydligt svårare att kontrollera enbart via traditionellt gränsarbete.",
+      "open_questions": [
+        "Hur sprids liknande syntetiska substanser till europeiska marknader?",
+        "Vilka nya detektionsmetoder krävs för att upptäcka pappersburen drogsmuggling?"
+      ],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "legacy_context",
+      "recorded_at": "2026-10-19T05:47:31.476190+00:00",
+      "revision": 1,
+      "fingerprint": "7791361f8d202bcff6acaca8a50617d141c162e4e1330e38138a1b40d28e8a47",
+      "history": []
+    },
+    {
+      "id": "article-7ab52fa91e1cf60ad8113b67",
+      "episode_id": "vald:2026-10-19:daily",
+      "date": "2026-10-19",
+      "channel": "vald",
+      "kind": "daily",
+      "episode_title": "Morgonbrief",
+      "episode_audio": "episodes/vald/2026-10-19/morgonpod.mp3",
+      "episode_brief": "episodes/vald/2026-10-19/brief.json",
+      "article_index": 1,
+      "title": "Preliminär statistik över skjutningar och sprängningar januari till september 2026",
+      "summary": "Polismyndigheten redovisar preliminär statistik för perioden januari till september 2026. Under perioden har 61 skjutningar inträffat, jämfört med 136 under motsvarande period 2025. När det gäller sprängningar har 76 detonationer inträffats under årets första nio månader, jämfört med 158 under samma period 2025. I september månad inträffade 8 skjutningar och 1 detonation.",
+      "body": "Statistiken visar bakgrundssiffror över skjutningar, döda, skadade och sprängningar, vilka är skilda mått som sammanställs manuellt och är preliminära. En enskild händelse bevisar ingen nationell trend, och en minskning bevisar ingen viss orsaksförklaring. Sprängmedel som pyroteknik och handgranater används ofta i strategiska gärningar för att skrämmas.",
+      "context": "Statistiken visar bakgrundssiffror över skjutningar, döda, skadade och sprängningar, vilka är skilda mått som sammanställs manuellt och är preliminära. En enskild händelse bevisar ingen nationell trend, och en minskning bevisar ingen viss orsaksförklaring. Sprängmedel som pyroteknik och handgranater används ofta i strategiska gärningar för att skrämmas.",
+      "source_url": "https://polisen.se/om-polisen/polisens-arbete/sprangningar-och-skjutningar/",
+      "sources": [
+        {
+          "url": "https://polisen.se/om-polisen/polisens-arbete/sprangningar-och-skjutningar/",
+          "title": "Polismyndigheten"
+        }
+      ],
+      "topics": [
+        "statistik"
+      ],
+      "topic_labels": [
+        "Statistik"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "legacy_context",
+      "recorded_at": "2026-10-19T12:53:45.831388+00:00",
+      "revision": 1,
+      "fingerprint": "33503b973b3467b4720f1ce7997b6274abc48de57d0d42a1114f974806c869d7",
+      "history": []
+    },
+    {
+      "id": "article-744a37e0bd928151e738f5a0",
+      "episode_id": "ibat:2026-10-19:daily",
+      "date": "2026-10-19",
+      "channel": "ibat",
+      "kind": "daily",
+      "episode_title": "Morgonbrief",
+      "episode_audio": "episodes/2026-10-19/morgonpod.mp3",
+      "episode_brief": "episodes/2026-10-19/brief.json",
+      "article_index": 0,
+      "title": "Finland stoppar strategiska fastighetsköp medan Sverige saknar motsvarande skydd",
+      "summary": "Finland har fram till den 1 september 2026 stoppat 68 fastighetsaffärer på grund av säkerhetsrisker nära kritisk infrastruktur. Sedan juli 2025 råder dessutom ett principiellt förbud för ryska och belarusiska medborgare att köpa fastigheter i landet. SVT Nyheter rapporterar den 19 oktober att Sverige fortfarande saknar en motsvarande generell lagstiftning för att stoppa utländska fastighetsköp som hotar den nationella säkerheten.",
+      "body": "Finlands konsekventa arbete med att spärra fastighetsköp kopplade till utländska säkerhetsrisker visar på markanta skillnader i det nordiska grannskapet. Enligt uppgifter publicerade av SVT Nyheter den 19 oktober 2026 har Finland spärrat totalt 68 fastighetsaffärer sedan 2022 med hänvisning till nationella säkerhetsintressen. Det handlar om objekt nära kritisk infrastruktur, orimliga affärsplaner eller köpare med kopplingar till utländsk elit. Vidare införde Finland i juli 2025 ett generellt förbud mot ryska och belarusiska medborgares fastighetsköp.\n\nI Sverige saknas i dagsläget en generell lagstiftning som gör det möjligt för staten att stoppa utländska fastighetsköp med hänvisning till nationell säkerhet, trots upprepade varningar från Säkerhetspolisen. Enligt expertis vid Finlands försvarshögskola ger en förhandstillsyn en avskräckande effekt och sparar resurser jämfört med utdragna expropriationsförfaranden. Samtidigt pekar analytiker på att bulvanförhållanden utgör en betydande lucka i lagstiftningen som kräver kvalificerade granskningsmetoder snarare än enbart kontroll av medborgarskap.",
+      "context": "Möjligheten att förvärva fastigheter vid strategiska platser utgör en sårbarhet som fientlig underrättelsetjänst kan utnyttja. Finlands erfarenheter visar på vikten av tidiga spärrmekanismer, men understryker samtidigt utmaningen med bulvaner och behovet av fördjupad nätverksanalys.",
+      "source_url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "topics": [
+        "juridik-integritet-och-informationssäkerhet"
+      ],
+      "topic_labels": [
+        "Juridik, integritet och informationssäkerhet"
+      ],
+      "assessment": "Att förlita sig enbart på medborgarskap som spärrmekanism ger en falsk trygghet. Professionella aktörer använder regelmässigt bulvaner eller komplexa bolagsstrukturer för att dölja det verkliga ägandet, vilket kräver djupare transaktionsanalys.",
+      "open_questions": [
+        "Hur påverkar de finska inskränkningarna ryska aktörers intresse för fastighetsförvärv i Sverige?",
+        "Vilka datakällor och analysverktyg krävs för att effektivt identifiera bulvanförhållanden vid Fastighetsinspektioner?"
+      ],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-19T05:45:53.853280+00:00",
+      "revision": 1,
+      "fingerprint": "62a06f5e853c0062b6cdb382d0e1d8d1f87ad6d7b6b92735af524210deff1f62",
+      "history": []
+    },
+    {
+      "id": "article-5263fa3dfc3f55b50682c1a1",
+      "episode_id": "ibat:2026-10-19:daily",
+      "date": "2026-10-19",
+      "channel": "ibat",
+      "kind": "daily",
+      "episode_title": "Morgonbrief",
+      "episode_audio": "episodes/2026-10-19/morgonpod.mp3",
+      "episode_brief": "episodes/2026-10-19/brief.json",
+      "article_index": 2,
+      "title": "Beräkningar visar hög sårbarhet i svensk livsmedelsförsörjning vid importstopp",
+      "summary": "En ny analys från Lantbrukarnas Riksförbund visar att flera grundläggande livsmedel snabbt skulle ta slut i Sverige vid ett strypt importflöde. SVT Nyheter rapporterar den 19 oktober 2026 att tomater beräknas ta slut efter två månader och ost efter fem månader på grund av ett 50-procentigt importberoende. Norrländska producenter pekar på höga energikostnader som ett hinder för att öka den inhemska odlingen.",
+      "body": "Det svenska importberoendet inom livsmedelssektorn skapar påtagliga sårbarheter i det nationella försörjningssystemet. SVT Nyheter rapporterar den 19 oktober 2026 om beräkningar gjorda av Lantbrukarnas Riksförbund, LRF, som visar att hälften av alla livsmedel som konsumeras i Sverige i dag importeras. Vid ett fingerat importstopp skulle lagren av färskvaror som tomater ta slut på två månader, medan varor som ost och rapsolja räcker i cirka fem månader.\n\nForskare vid Mittuniversitetet bekräftar bilden av ett känsligt system där avbrott i de globala värdekedjorna snabbt får konsekvenser för tillgången i butik. Samtidigt vittnar lokala producenter i norra Sverige om att höga el- och drivmedelspriser gör det olönsamt att bygga ut den lokala växthusodlingen, trots goda förutsättningar under sommarhalvåret. Analysen reser viktiga frågor kring stimulanser för ökad grundproduktion och övervakning av flödesdata i kris preparedness.",
+      "context": "Försörjningsberedskap kräver fungerande logistikkedjor och lokal produktionskapacitet. Rapporten understryker hur energipriser och regionala förutsättningar direkt påverkar totalförsvarets motståndskraft vid kriser eller logistiska avbrott.",
+      "source_url": "https://www.svt.se/nyheter/lokalt/vasternorrland/maten-snabbt-slut-vid-strypt-import-olonsamt-att-producera-mera",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/vasternorrland/maten-snabbt-slut-vid-strypt-import-olonsamt-att-producera-mera",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "topics": [
+        "informationsförsörjning-och-dataplattformar"
+      ],
+      "topic_labels": [
+        "Informationsförsörjning och dataplattformar"
+      ],
+      "assessment": "",
+      "open_questions": [
+        "Hur ser myndigheternas samlade lägesbild ut av den regionala lagringskapaciteten för insatsvaror i jordbruket?",
+        "Vilka digitala verktyg används för att övervaka och analysera sårbarheter i de nationella livsmedelsflödena?"
+      ],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-19T05:45:53.853439+00:00",
+      "revision": 1,
+      "fingerprint": "459930c7b8cb99c91f57cfa1494826d04ba0236d63565968ba33fc2c619be62d",
+      "history": []
+    },
+    {
+      "id": "article-2d0434214520bfb45b556243",
+      "episode_id": "sjoomradet:2026-10-19:daily",
+      "date": "2026-10-19",
+      "channel": "sjoomradet",
+      "kind": "daily",
+      "episode_title": "Morgonbrief",
+      "episode_audio": "episodes/sjoomradet/2026-10-19/morgonpod.mp3",
+      "episode_brief": "episodes/sjoomradet/2026-10-19/brief.json",
+      "article_index": 0,
+      "title": "Finländska fastighetsstopp belyser svensk lagstiftningslucka vid skyddsobjekt",
+      "summary": "Finland har sedan år 2022 stoppat 68 fastighetsaffärer med hänvisning till nationella säkerhetsrisker och infört ett principellt förbud för ryska och belarusiska medborgare att köpa egendom. Enligt SVT Nyheter saknar svenska myndigheter motsvarande generella lagstöd för att stoppa liknande utländska fastighetsköp nära känslig infrastruktur, trots mångåriga utredningar. Frågan har aktualiserats i Sverige efter att Försvarsmakten uttryckt behov av att ta över en fritidsfastighet nära en marinbas.",
+      "body": "Skillnaden i lagstiftning mellan Sverige och Finland är central för förståelsen av det maritima skyddet runt Östersjön, där fastighetsinnehav nära örlogsbaser och farleder utgör en strategisk sårbarhet.",
+      "context": "Skillnaden i lagstiftning mellan Sverige och Finland är central för förståelsen av det maritima skyddet runt Östersjön, där fastighetsinnehav nära örlogsbaser och farleder utgör en strategisk sårbarhet.",
+      "source_url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "topics": [
+        "maritim-säkerhet-och-kritisk-infrastruktur"
+      ],
+      "topic_labels": [
+        "Maritim säkerhet och kritisk infrastruktur"
+      ],
+      "assessment": "Bedömningen från finländska experter, däribland professor Kari Liuhto, är att lagstiftningen har en viktig avskräckande effekt men att rysk underrättelsetjänst kan försöka använda bulvaner eller mellanhänder för att komma över strategisk mark.",
+      "open_questions": [
+        "Hur hanterar svenska myndigheter risken för bulvanägande av fastigheter i skärgårdsmiljö i avsaknad av en generell förvärvslag?",
+        "Vilka konkreta lagförslag bereds för att ge Sverige samma möjligheter som Finland att förhindra säkerhetskänsliga fastighetsaffärer?"
+      ],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "legacy_context",
+      "recorded_at": "2026-10-19T08:08:34.075463+00:00",
+      "revision": 1,
+      "fingerprint": "1ada6913284111d0a3f5d58826036eb29061477353df72c135e830fbc6d9def5",
+      "history": []
+    }
+  ]
+}

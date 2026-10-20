@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "package_id": "WORK_LIBRARY_2026_10:verksamhetsutveckling:special:3",
+  "production_identity": "WORK_LIBRARY_2026_10",
+  "origin": "work_library",
+  "library_release_id": "WORK_LIBRARY_2026_10_R1",
+  "channel": "verksamhetsutveckling",
+  "edition_type": "special",
+  "editorial_date": "2026-10-20",
+  "is_intro": false,
+  "episode_order": 3,
+  "published_at": "2026-10-20T20:49:08.348898+00:00",
+  "notification_policy": "suppressed",
+  "gemini_text_calls": 0,
+  "work_origin_evidence": {
+    "author": "ChatGPT Work",
+    "newly_authored": true,
+    "prior_episode_relabelled": false,
+    "review": "editorial_review.json"
+  },
+  "files": {
+    "manus.txt": "c08a0bccce9da9af530044bfc6dc6bedeb985d07d0cc860782c6272440131473",
+    "brief.json": "1686a3dcfe2a0b8ae48988ab7489c23dd997541a26b3dd4012bf79ca0d330528",
+    "kallor.json": "273e16055f1ea0aaab2d5b8e88906a1f74eef12d44f83dd131f303a278b56c22",
+    "editorial_review.json": "3d72fd2cf1a21ddf8c4e6eb743471110b79f5afdf19e281bdebcef8ffcef079e"
+  }
+}

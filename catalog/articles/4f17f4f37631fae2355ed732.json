@@ -1,1 +1,40 @@
-{"id":"article-7ab52fa91e1cf60ad8113b67","episode_id":"vald:2026-10-19:daily","date":"2026-10-19","channel":"vald","kind":"daily","episode_title":"Morgonbrief","episode_audio":"episodes/vald/2026-10-19/morgonpod.mp3","episode_brief":"episodes/vald/2026-10-19/brief.json","article_index":1,"title":"Preliminär statistik över skjutningar och sprängningar januari till september 2026","summary":"Polismyndigheten redovisar preliminär statistik för perioden januari till september 2026. Under perioden har 61 skjutningar inträffat, jämfört med 136 under motsvarande period 2025. När det gäller sprängningar har 76 detonationer inträffats under årets första nio månader, jämfört med 158 under samma period 2025. I september månad inträffade 8 skjutningar och 1 detonation.","body":"Statistiken visar bakgrundssiffror över skjutningar, döda, skadade och sprängningar, vilka är skilda mått som sammanställs manuellt och är preliminära. En enskild händelse bevisar ingen nationell trend, och en minskning bevisar ingen viss orsaksförklaring. Sprängmedel som pyroteknik och handgranater används ofta i strategiska gärningar för att skrämmas.","context":"Statistiken visar bakgrundssiffror över skjutningar, döda, skadade och sprängningar, vilka är skilda mått som sammanställs manuellt och är preliminära. En enskild händelse bevisar ingen nationell trend, och en minskning bevisar ingen viss orsaksförklaring. Sprängmedel som pyroteknik och handgranater används ofta i strategiska gärningar för att skrämmas.","source_url":"https://polisen.se/om-polisen/polisens-arbete/sprangningar-och-skjutningar/","sources":[{"url":"https://polisen.se/om-polisen/polisens-arbete/sprangningar-och-skjutningar/","title":"Polismyndigheten"}],"topics":["statistik"],"topic_labels":["Statistik"],"assessment":"","open_questions":[],"previous_reporting":[],"event_links":[],"body_provenance":"legacy_context","recorded_at":"2026-10-19T12:53:45.831388+00:00","revision":1,"fingerprint":"33503b973b3467b4720f1ce7997b6274abc48de57d0d42a1114f974806c869d7","history":[]}
+{
+  "id": "article-7ab52fa91e1cf60ad8113b67",
+  "episode_id": "vald:2026-10-19:daily",
+  "date": "2026-10-19",
+  "channel": "vald",
+  "kind": "daily",
+  "episode_title": "Morgonbrief",
+  "episode_audio": "episodes/vald/2026-10-19/morgonpod.mp3",
+  "episode_brief": "episodes/vald/2026-10-19/brief.json",
+  "article_index": 1,
+  "title": "Preliminär statistik över skjutningar och sprängningar januari till september 2026",
+  "summary": "Polismyndigheten redovisar preliminär statistik för perioden januari till september 2026. Under perioden har 61 skjutningar inträffat, jämfört med 136 under motsvarande period 2025. När det gäller sprängningar har 76 detonationer inträffats under årets första nio månader, jämfört med 158 under samma period 2025. I september månad inträffade 8 skjutningar och 1 detonation.",
+  "body": "Arkiverat innehåll från det tidigare biblioteket. Nya avsnitt och artiklar finns i kanalens aktiva bibliotek.\n\nStatistiken visar bakgrundssiffror över skjutningar, döda, skadade och sprängningar, vilka är skilda mått som sammanställs manuellt och är preliminära. En enskild händelse bevisar ingen nationell trend, och en minskning bevisar ingen viss orsaksförklaring. Sprängmedel som pyroteknik och handgranater används ofta i strategiska gärningar för att skrämmas.",
+  "context": "Statistiken visar bakgrundssiffror över skjutningar, döda, skadade och sprängningar, vilka är skilda mått som sammanställs manuellt och är preliminära. En enskild händelse bevisar ingen nationell trend, och en minskning bevisar ingen viss orsaksförklaring. Sprängmedel som pyroteknik och handgranater används ofta i strategiska gärningar för att skrämmas.",
+  "source_url": "https://polisen.se/om-polisen/polisens-arbete/sprangningar-och-skjutningar/",
+  "sources": [
+    {
+      "url": "https://polisen.se/om-polisen/polisens-arbete/sprangningar-och-skjutningar/",
+      "title": "Polismyndigheten"
+    }
+  ],
+  "topics": [
+    "statistik"
+  ],
+  "topic_labels": [
+    "Statistik"
+  ],
+  "assessment": "",
+  "open_questions": [],
+  "previous_reporting": [],
+  "event_links": [],
+  "body_provenance": "legacy_context",
+  "recorded_at": "2026-10-19T12:53:45.831388+00:00",
+  "revision": 1,
+  "fingerprint": "33503b973b3467b4720f1ce7997b6274abc48de57d0d42a1114f974806c869d7",
+  "history": [],
+  "archive_status": "superseded",
+  "superseded_by_library_release": "WORK_LIBRARY_2026_10_R1",
+  "archived_original_body": "Statistiken visar bakgrundssiffror över skjutningar, döda, skadade och sprängningar, vilka är skilda mått som sammanställs manuellt och är preliminära. En enskild händelse bevisar ingen nationell trend, och en minskning bevisar ingen viss orsaksförklaring. Sprängmedel som pyroteknik och handgranater används ofta i strategiska gärningar för att skrämmas."
+}

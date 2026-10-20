@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "package_id": "WORK_LIBRARY_2026_10:lagstiftning:replacement_ordinary:2",
+  "production_identity": "WORK_LIBRARY_2026_10",
+  "origin": "work_library",
+  "library_release_id": "WORK_LIBRARY_2026_10_R1",
+  "channel": "lagstiftning",
+  "edition_type": "replacement_ordinary",
+  "editorial_date": "2026-10-20",
+  "is_intro": false,
+  "episode_order": 2,
+  "published_at": "2026-10-20T20:49:08.348898+00:00",
+  "notification_policy": "suppressed",
+  "gemini_text_calls": 0,
+  "work_origin_evidence": {
+    "author": "ChatGPT Work",
+    "newly_authored": true,
+    "prior_episode_relabelled": false,
+    "review": "editorial_review.json"
+  },
+  "files": {
+    "manus.txt": "4b70c3b5c48f8afc67fe042a5216c6d4d71ea2963adcdee8e20808024e7c8544",
+    "brief.json": "cb8efe5ce4677233ac07e5946c3f7b1516730215ff687f37992f260dab75e5b2",
+    "kallor.json": "d0b92a9d5d798f7b77f93439d0d17c50992aa202ba685bbdf8c4995274bfcecc",
+    "editorial_review.json": "18928c4a4f277625d734324a75ad183ca4c5aa00770f8695e2bc2f23638cfdc4"
+  }
+}

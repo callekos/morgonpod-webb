@@ -1,0 +1,50 @@
+[
+  {
+    "id": "socta",
+    "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/EU-SOCTA-2025.pdf",
+    "title": "European Union Serious and Organised Crime Organised Threat Assessment",
+    "retrieved_at": "2026-10-20T05:43:01.143526+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "904f1bd6e2a4bdaaa03da01bae9d5dd9cdbf1271cae6aed9d90d04f6b10e84dd",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "eb189711051611624fd48103ce74a510d9dd930fa28ae7b22f10726d55642dae",
+      "path": "socta.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 351671,
+    "reviewed": false
+  },
+  {
+    "id": "europol_blueprint",
+    "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/Blueprint-of-criminal-opportunism.pdf",
+    "title": "DECODING THE EU’S MOST THREATENING CRIMINAL NETWORKS",
+    "retrieved_at": "2026-10-20T05:53:01.184809+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "04842becb74cd5c51d644ba737721b7f2e7f9d7027019a9ef4e1511b232d951a",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "1c05eed56ecf2405b9a8f3044734423c798a690f1d50aed2f1c1824981c3de4c",
+      "path": "europol_blueprint.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 207873,
+    "reviewed": false
+  },
+  {
+    "id": "bra_violence",
+    "url": "https://bra.se/download/18.7d19346a191c757143634b6/1725889949825/2024_7_Okningen-av-skjutvapenvald-i-Sverige.pdf",
+    "title": "Rapport 2024:7",
+    "retrieved_at": "2026-10-20T05:52:57.063903+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "234ed28bfdf6edd48ac8869612d87fcccb5a334e27870337c1c7d22b6bcb0c4a",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "97ea6e613c6d76cc252a0b3c0ed4e6367ee63f29a48bde47e289ef902f7d5977",
+      "path": "bra_violence.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 263614,
+    "reviewed": false
+  }
+]

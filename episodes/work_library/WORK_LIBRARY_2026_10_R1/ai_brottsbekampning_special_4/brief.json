@@ -1,0 +1,51 @@
+{
+  "title": "AI-förordningen och dataskyddet: olika regelverk i samma system",
+  "editorial_date": "2026-10-20",
+  "channel": "ai_brottsbekampning",
+  "origin": "work_library",
+  "production_identity": "WORK_LIBRARY_2026_10",
+  "description": "Ett AI-system behöver beskrivas med uppgift, aktörer, roller och informationsflöde. Modellens namn räcker inte för att avgöra vilka rättsliga frågor som aktualiseras. Specialavsnittet skiljer AI-förordningens riskregler från den konkreta personuppgiftsbehandling och informationsdelning som sker.",
+  "tags": [
+    "AI",
+    "Brottsbekämpning",
+    "Införande"
+  ],
+  "news": [
+    {
+      "id": "work-ai_brottsbekampning_special_4-article-1",
+      "title": "AI-förordningen och dataskyddet: olika regelverk i samma system",
+      "summary": "Ett AI-system behöver beskrivas med uppgift, aktörer, roller och informationsflöde. Modellens namn räcker inte för att avgöra vilka rättsliga frågor som aktualiseras. Specialavsnittet skiljer AI-förordningens riskregler från den konkreta personuppgiftsbehandling och informationsdelning som sker.",
+      "body": "Ett AI-system behöver beskrivas med uppgift, aktörer, roller och informationsflöde. Modellens namn räcker inte för att avgöra vilka rättsliga frågor som aktualiseras. Specialavsnittet skiljer AI-förordningens riskregler från den konkreta personuppgiftsbehandling och informationsdelning som sker.\n\nRättslig information kontrollerades 20 oktober 2026. IMY:s uppdaterade information och kommissionens tillsynsöversikt anger 2 december 2027 för högrisksystemregler enligt bilaga III. Den ursprungliga tidsplanen har ändrats. Andra bestämmelser börjar gälla vid andra tidpunkter. IMY anger att reglerna om förbjudna användningar började tillämpas 2 februari 2025.\n\nKommissionens aktuella översikt beskriver bland annat individuella brottsprognoser som enbart bygger på profilering bland förbjudna användningar. Översikten återges som vägledning till rättsfrågan och är ingen fullständig genomgång av alla rekvisit eller undantag. Ingen individuell tjänst tillåts eller underkänns i artikeln. För sådan prövning behövs aktuell författning och konkreta fakta.\n\nDataskyddsregler behöver prövas parallellt. Beroende på behandlingens syfte och sammanhang kan brottsdatalagen och registerförfattningar eller GDPR vara centrala. Sekretess och utlämnande är ytterligare frågor i informationsflödet. En riskklassificering enligt AI-förordningen besvarar inte alla dessa frågor.\n\nIMY har enligt sin uppdaterade information fått uppdrag som marknadskontrollmyndighet för flera användningsområden, bland annat brottsbekämpning. Kommissionens översikt beskriver även ansvarsfördelning på EU-nivå. Äldre texter som talar om möjliga framtida uppdrag ska därför inte användas som aktuellt organisationsbesked.\n\nAvsnittets projekt är fiktivt. Arbetsförslaget är att beskriva uppgift, roller, underlag, mottagare och rättsliga tidpunkter före nästa införandebeslut. Det ger juridik, verksamhet och teknisk kompetens en gemensam fråga att pröva.",
+      "context": "Pedagogiskt specialmaterial. Fiktiva fall och beräkningar skiljs från källfakta. Rättsliga tidpunkter kontrollerade 20 oktober 2026.",
+      "category": "AI i brottsbekämpningen",
+      "url": "https://www.imy.se/verksamhet/ai/ai-forordningen/",
+      "publisher": "Morgonpodden, egen källbaserad artikel",
+      "sources": [
+        {
+          "url": "https://www.imy.se/verksamhet/ai/ai-forordningen/",
+          "title": "AI-förordningen | IMY"
+        },
+        {
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act",
+          "title": "The enforcement framework of the AI Act | Shaping Europe’s digital future"
+        },
+        {
+          "url": "https://www.imy.se/verksamhet/ai/ai-forordningen/imy-blir-marknadskontrollmyndighet-for-ai-forordningen/",
+          "title": "IMY blir marknadskontrollmyndighet för AI-förordningen  | IMY"
+        },
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+          "title": "Brottsdatalag (2018:1177) | Sveriges riksdag"
+        },
+        {
+          "url": "https://www.imy.se/verksamhet/dataskydd/sa-hanger-lagarna-ihop/",
+          "title": "Så hänger lagarna ihop | IMY"
+        },
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/offentlighets-och-sekretesslag-2009400_sfs-2009-400/",
+          "title": "Offentlighets- och sekretesslag (2009:400) | Sveriges riksdag"
+        }
+      ]
+    }
+  ]
+}

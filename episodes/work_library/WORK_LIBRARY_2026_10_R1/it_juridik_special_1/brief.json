@@ -1,0 +1,34 @@
+{
+  "title": "Personuppgifter och valet av regelverk",
+  "editorial_date": "2026-10-20",
+  "channel": "it_juridik",
+  "origin": "work_library",
+  "production_identity": "WORK_LIBRARY_2026_10",
+  "description": "Ett alias eller en intern kod är inte automatiskt anonym information. Brottsdatalagens definition omfattar upplysningar om en identifierad eller identifierbar fysisk person som är i livet. I en konkret arbetsyta behöver man därför beskriva om och hur uppgifterna kan hänföras till en person. En kolumnrubrik avgör inte detta.",
+  "tags": [
+    "IT-juridik",
+    "Dataskydd"
+  ],
+  "news": [
+    {
+      "id": "work-it-juridik-special-1-article-1",
+      "title": "Personuppgifter och valet av regelverk",
+      "summary": "Ett alias eller en intern kod är inte automatiskt anonym information. Brottsdatalagens definition omfattar upplysningar om en identifierad eller identifierbar fysisk person som är i livet. I en konkret arbetsyta behöver man därför beskriva om och hur uppgifterna kan hänföras till en person. En kolumnrubrik avgör inte detta.",
+      "context": "Kompetenshöjande special med fiktiva exempel. Rättsläget kontrollerat 20 oktober 2026.",
+      "body": "Ett alias eller en intern kod är inte automatiskt anonym information. Brottsdatalagens definition omfattar upplysningar om en identifierad eller identifierbar fysisk person som är i livet. I en konkret arbetsyta behöver man därför beskriva om och hur uppgifterna kan hänföras till en person. En kolumnrubrik avgör inte detta.\n\nAvsnittets första fiktiva exempel gäller ett användarnamn utan personnummer. Om arbetsgruppen kan koppla användarnamnet till en person behöver den möjligheten ingå i bedömningen. I nästa exempel hålls en kodnyckel separat. Det kan vara en relevant skyddsåtgärd, men behandlingen är inte automatiskt anonym bara för att kod används.\n\nBehandlingsbegreppet är också brett. Insamling, lagring, läsning och utlämnande är exempel på åtgärder som anges i lagen. Rättsfrågan uppstår därför inte först när materialet används för avancerad analys. Lagens tillämpningsområde behöver läsas tillsammans med beskrivningen av den faktiska behandlingen.\n\nIMY:s översikt skiljer mellan dataskyddsdirektivet, brottsdatalagen, registerförfattningar och GDPR. Vilket regelverk som gäller behöver undersökas för den konkreta behandlingen och dess syfte. Samma organisation kan utföra arbetsuppgifter som omfattas av olika regler. Uppgifternas ursprung löser inte ensamt frågan om alla senare användningar.\n\nRedaktionellt arbetsförslag: beskriv en uppgiftstyp med dess källa, identifieringsmöjligheter, användare, ändamål och planerade behandlingar. Lägg sedan till hur skydd och instruktioner ska fungera. Beskrivningen blir ett underlag för bedömning, inte ett tillstånd att börja behandla verkliga uppgifter.\n\nExemplen är konstruerade. Inga verkliga personuppgifter eller individuella tillåtlighetsbeslut ingår. Materialet kontrollerades mot öppna rättskällor den 20 oktober 2026.",
+      "category": "IT-juridik och dataskydd",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+      "publisher": "Morgonpodden, egen källbaserad artikel",
+      "sources": [
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+          "title": "Brottsdatalag (2018:1177) | Sveriges riksdag"
+        },
+        {
+          "url": "https://www.imy.se/verksamhet/dataskydd/sa-hanger-lagarna-ihop/",
+          "title": "Så hänger lagarna ihop | IMY"
+        }
+      ]
+    }
+  ]
+}

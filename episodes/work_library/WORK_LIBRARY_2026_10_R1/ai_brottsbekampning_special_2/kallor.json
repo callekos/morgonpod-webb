@@ -1,0 +1,34 @@
+[
+  {
+    "id": "nist_rmf",
+    "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+    "title": "NIST AI 100-1",
+    "retrieved_at": "2026-10-20T05:42:35.432469+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "b2eebd6b11d4beeb8ad4e4bf74789758439e5401930171d8f3c2182cab40ca2d",
+      "path": "nist_rmf.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 122706,
+    "reviewed": false
+  },
+  {
+    "id": "nist_genai",
+    "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+    "title": "NIST Trustworthy and Responsible AI",
+    "retrieved_at": "2026-10-20T05:42:35.502082+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "6e73620ab6b64e90ef2c04bf0e0d6246185a2f4b1b13cab0df494496cff89b6a",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "e2db91a3d2891cd6bc4395cd6cea107d191f6e976b174665bf027e2061900d68",
+      "path": "nist_genai.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 206681,
+    "reviewed": false
+  }
+]

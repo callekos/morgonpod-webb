@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "package_id": "WORK_LIBRARY_2026_10:ai_brottsbekampning:special:2",
+  "production_identity": "WORK_LIBRARY_2026_10",
+  "origin": "work_library",
+  "library_release_id": "WORK_LIBRARY_2026_10_R1",
+  "channel": "ai_brottsbekampning",
+  "edition_type": "special",
+  "editorial_date": "2026-10-20",
+  "is_intro": false,
+  "episode_order": 2,
+  "published_at": "2026-10-20T20:49:08.348898+00:00",
+  "notification_policy": "suppressed",
+  "gemini_text_calls": 0,
+  "work_origin_evidence": {
+    "author": "ChatGPT Work",
+    "newly_authored": true,
+    "prior_episode_relabelled": false,
+    "review": "editorial_review.json"
+  },
+  "files": {
+    "manus.txt": "9115ddfdb746edb229f7c7756775d401599f75849468e09027a2c366ad5abaf6",
+    "brief.json": "08ceb757cae67aeb66abfb2caa3cf1f49b6615c6b45000e47a34073257dd3b1b",
+    "kallor.json": "872d75fb3320a974b5efd43c59d9030ddbd7468851da644f604f9ec5fe924693",
+    "editorial_review.json": "6cd2f0733adbad8b436afd400f9d426010b9d3ffb70d673570d027446adb8a14"
+  }
+}

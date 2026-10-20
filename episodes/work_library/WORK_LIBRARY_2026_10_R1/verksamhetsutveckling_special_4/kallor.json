@@ -1,0 +1,50 @@
+[
+  {
+    "id": "digg_benefits",
+    "url": "https://www.digg.se/kunskap-och-stod/nyttorealisering/vagledning-i-nyttorealisering/1.-grundlaggande-begrepp",
+    "title": "1. Grundläggande begrepp \n \n |\n Digg",
+    "retrieved_at": "2026-10-20T05:52:51.303550+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "c1e37751ee88c7d3351f2c72ba8ad7fdc15e22daa9001abe38c154e5b2396275",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "1336e4168afd1a3c9ebe2a62172ec1326fa8976de41d1974f42c1f17ac82357a",
+      "path": "digg_benefits.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 5553,
+    "reviewed": false
+  },
+  {
+    "id": "rir_reform",
+    "url": "https://www.riksrevisionen.se/granskningar/granskningsrapporter/2025/polisreformen-2015---intentionerna-annu-inte-nadda.html",
+    "title": "Polisreformen 2015 – intentionerna ännu inte nådda | Riksrevisionen",
+    "retrieved_at": "2026-10-20T05:42:39.996011+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "cc8cc298eb57f900aeb749c90898cc27adf39b53a6bca8cedbbe3d4a688d03b5",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "c015dea33795869abf64237bed37cac5c844ee023b342ef7ff80d7322052c1cb",
+      "path": "rir_reform.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 167712,
+    "reviewed": false
+  },
+  {
+    "id": "bra_forensik",
+    "url": "https://bra.se/rapporter/arkiv/2023-01-24-polisens-forensiska-verksamhet",
+    "title": "Polisens forensiska verksamhet\n\n\t\t | Brå - Brottsförebyggande rådet",
+    "retrieved_at": "2026-10-20T05:42:44.684824+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "7bfa44cd077618e3d73a2867a899d9348cdbe3c02de73ac83a85a17e6c06776d",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "5660a4fc5e5863d4f113269559c6da55107df4762846791d49fed7abcf33c02a",
+      "path": "bra_forensik.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 19932,
+    "reviewed": false
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "approved": true,
+  "reviewer": "ChatGPT Work, separat andra genomläsning",
+  "independent_human_review": false,
+  "reviewed_at": "2026-10-20T05:59:06.142602+00:00",
+  "package_sha256": "e6f726c13d26f1528cb00857e8ef1e2b2af326606840ef317897508250ce5174",
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Diggs definitioner av effekt och effektkedja.",
+      "source_ids": [
+        "digg_benefits"
+      ],
+      "locator": "Begreppen Effekt, Effektkedja och Nytta",
+      "status": "verified"
+    },
+    {
+      "id": "C02",
+      "claim": "Nollmätning och specificering av nyttor i arbetsprocessen.",
+      "source_ids": [
+        "digg_process"
+      ],
+      "locator": "Steg 2, Kvantifiera och värdera",
+      "status": "verified"
+    },
+    {
+      "id": "C03",
+      "claim": "Ansvar för nyttorealisering och uppföljning.",
+      "source_ids": [
+        "digg_roles"
+      ],
+      "locator": "Ansvar för nyttorealisering och Ansvar för mätning, uppföljning och analys",
+      "status": "verified"
+    }
+  ],
+  "checks": {
+    "sources": "Lästa originalunderlag och specificerade belägg",
+    "causality": "Ingen experimentell kausalitet påstås för revision eller enkäter",
+    "statistics": "Inga generella projektmisslyckandesiffror; numeriska exempel är fiktiva",
+    "time": "Rapporternas publiceringsår och undersökta perioder skiljs åt",
+    "examples": "Alla egna fall uttryckligt konstruerade",
+    "legal": "Ingen generell rättslig tillåtlighet eller teknisk standard uppfinns"
+  },
+  "remaining_gates": [
+    "Verkligt godkänt ljud och staging",
+    "25-paketsrelease och liveverifiering"
+  ]
+}

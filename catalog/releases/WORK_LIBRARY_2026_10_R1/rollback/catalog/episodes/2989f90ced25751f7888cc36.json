@@ -1,0 +1,25 @@
+{
+  "production_schema": 2,
+  "kind": "introduction",
+  "duration_seconds": 1882.656,
+  "duration_status": "within_target",
+  "target_minutes": [
+    20,
+    40
+  ],
+  "channel": "lagstiftning",
+  "date": "2026-10-19",
+  "title": "Lagstiftning: Uppstartsavsnitt",
+  "description": "Pedagogisk grundkurs och sammanhängande fördjupning.",
+  "audio": "episodes/lagstiftning/2026-10-19-intro/morgonpod.mp3",
+  "audio_version": "97b15351ecdd00b4",
+  "sources": "episodes/lagstiftning/2026-10-19-intro/kallor.json",
+  "tags": [],
+  "topics": [],
+  "brief": "episodes/lagstiftning/2026-10-19-intro/brief.json",
+  "id": "lagstiftning:2026-10-19:introduction",
+  "is_intro": true,
+  "episode_order": 1,
+  "articles": [],
+  "article_status": "no_separate_articles"
+}

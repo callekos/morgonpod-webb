@@ -1,0 +1,78 @@
+[
+  {
+    "id": "weekly_registry",
+    "url": "https://data.riksdagen.se/dokumentlista/?utskott=JuU&from=2026-10-12&tom=2026-10-18&utformat=json&antal=100",
+    "title": "Riksdagens dokumentregister, JuU 12 till 18 oktober 2026",
+    "source_type": "official_document_registry",
+    "evidence": {
+      "evidence_level": "retrieved_public_registry",
+      "path": "weekly_riksdag_query.json",
+      "page_sha256": "7b4e7fb885055282e9e16d29e68f3dd16e8d0a5c4fcabd14523a18620e9b82b0"
+    }
+  },
+  {
+    "id": "weekly_motion_27_text",
+    "url": "https://data.riksdagen.se/dokument/HE0227.text",
+    "title": "weekly_motion_27_text",
+    "retrieved_at": "2026-10-20T06:09:55.697628+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "f7878c6f99a3c705cddcdbd93b6bf48f1c4e116c2096fba05e5f97791577374c",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "21992b7e5af390f92c3e5a37e05d04bd0f2a8e6d66953e82f3f1a5fc49c9dc4c",
+      "path": "weekly_motion_27_clean.txt",
+      "extraction": "Additional HTML-unescape and style removal from official document response"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 38299,
+    "reviewed": false
+  },
+  {
+    "id": "weekly_motion_22",
+    "url": "https://data.riksdagen.se/dokument/HE0222.html",
+    "title": "weekly_motion_22",
+    "retrieved_at": "2026-10-20T06:09:32.138598+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "55edbfe780169f6a9508344e913d80e5d05e1cc5fac68d906afb5936465a2cc1",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "93dec7e103784a7f45e9f1764541f640a02c9bdbf80996bd81a9b238b307a06f",
+      "path": "weekly_motion_22.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 2579,
+    "reviewed": false
+  },
+  {
+    "id": "weekly_motion_42",
+    "url": "https://data.riksdagen.se/dokument/HE0242.html",
+    "title": "weekly_motion_42",
+    "retrieved_at": "2026-10-20T06:09:26.205691+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "bde7a8dc089667ed2aa156c37fe8686f17eeb3620596db8aac235693454e0cdc",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "dddff817581ab349606324d0fee53644a48e0161452fa4d21ba07320937c9f1c",
+      "path": "weekly_motion_42.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 2118,
+    "reviewed": false
+  },
+  {
+    "id": "lagstiftning_foundation_1",
+    "url": "https://www.riksdagen.se/sv/sa-fungerar-riksdagen/riksdagens-uppgifter/beslutar-om-lagar/fran-forslag-till-lag/",
+    "title": "Från förslag till lag | Sveriges riksdag",
+    "retrieved_at": "2026-10-20T05:52:43.300643+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "2c82f5a7f3052c39151f0c78fb3ab18e6d99ff83aa651acb29254cf4a2cf38fd",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "5ae512fa3d61510c71226c992a6d8b3781b45b12f919525cb9462a183a2ac15d",
+      "path": "lagstiftning_foundation_1.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 5827,
+    "reviewed": false
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "lagstiftning_foundation_1",
+    "url": "https://www.riksdagen.se/sv/sa-fungerar-riksdagen/riksdagens-uppgifter/beslutar-om-lagar/fran-forslag-till-lag/",
+    "title": "Från förslag till lag | Sveriges riksdag",
+    "retrieved_at": "2026-10-20T05:52:43.300643+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "2c82f5a7f3052c39151f0c78fb3ab18e6d99ff83aa651acb29254cf4a2cf38fd",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "5ae512fa3d61510c71226c992a6d8b3781b45b12f919525cb9462a183a2ac15d",
+      "path": "lagstiftning_foundation_1.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 5827,
+    "reviewed": false
+  },
+  {
+    "id": "lagstiftning_foundation_2",
+    "url": "https://www.regeringen.se/sa-styrs-sverige/lagstiftningsprocessen/",
+    "title": "Lagstiftningsprocessen - Regeringen.se",
+    "retrieved_at": "2026-10-20T05:52:44.628184+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "4692a961424d264f524c13e4d1131ba69bc0d3fc068c032a9f8411c1272c680b",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "0dae93f88ce916a1a1dd7361b6a0ccb051c19e23e85e0643b4efd4459da570fe",
+      "path": "lagstiftning_foundation_2.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 5028,
+    "reviewed": false
+  },
+  {
+    "id": "lagstiftning_foundation_3",
+    "url": "https://www.regeringen.se/sa-styrs-sverige/lagstiftningsprocessen/lagar-i-svensk-forfattningssamling-sfs/",
+    "title": "Lagar i Svensk författningssamling - Regeringen.se",
+    "retrieved_at": "2026-10-20T05:52:44.612524+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "35304300ecde7facb2a88e3e4f52b7b6b4990f42bc0413ba9c1a3fd8184b4cfe",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "e4bf0816e1bf4ea7ff6093d206bc773e2398eafaf06524c6103d43b06842e3b4",
+      "path": "lagstiftning_foundation_3.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 1331,
+    "reviewed": false
+  },
+  {
+    "id": "lagstiftning_foundation_4",
+    "url": "https://www.domstol.se/om-sveriges-domstolar/det-har-ar-sveriges-domstolar/sa-ar-domstolarna-organiserade/allmanna-domstolar/",
+    "title": "Allmänna domstolar - Sveriges Domstolar",
+    "retrieved_at": "2026-10-20T05:52:47.389531+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "e4509dc3bd60de43dac134c1d0c610a43449f369fc19e68c1671f9a874c5a348",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "853ecc0ac4263aaed11723fb0e380f6dc78047af9a005acfe94e775b72cf8c9a",
+      "path": "lagstiftning_foundation_4.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 26319,
+    "reviewed": false
+  },
+  {
+    "id": "lagstiftning_foundation_5",
+    "url": "https://www.domstol.se/amnen/brott-och-straff/for-dig-som-ar-kallad-till-brottmalsrattegang/tilltalad/",
+    "title": "Tilltalad - Sveriges Domstolar",
+    "retrieved_at": "2026-10-20T05:52:47.252746+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "30278c80226a190983eaeadb6fe6ae6033761841cf60f922bee585530895c8de",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "6f98e11cb5e2aa7b8eb84b0d31d296efa7d472297befb91c64d2578a6548560d",
+      "path": "lagstiftning_foundation_5.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 6463,
+    "reviewed": false
+  },
+  {
+    "id": "lagstiftning_foundation_6",
+    "url": "https://www.domstol.se/hogsta-domstolen/om-hogsta-domstolen/om-oss/roll-och-uppgift/",
+    "title": "Roll och uppgift - Högsta domstolen",
+    "retrieved_at": "2026-10-20T05:52:47.148525+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "79cba00124d6af970ca8a7459233e7e6100c7329be4d3a06fd07576cb4c4cb4c",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "66c7885e8ad8288d80eeba9867e1e9a90091c321de2522e174c069f8a7e23103",
+      "path": "lagstiftning_foundation_6.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 1271,
+    "reviewed": false
+  },
+  {
+    "id": "lagstiftning_foundation_7",
+    "url": "https://www.domstol.se/hogsta-domstolen/om-handlaggningen/fragor--svar/",
+    "title": "Frågor & svar - Högsta domstolen",
+    "retrieved_at": "2026-10-20T05:52:53.256394+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "bda99ed40ee8f467148f45280fda7b70f1f748d10ba4829f05bd41e42f82103f",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "1037f494122890b3990138d5bba89216246994a02ddd9ba174b0c472300a2df5",
+      "path": "lagstiftning_foundation_7.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 3384,
+    "reviewed": false
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "package_id": "WORK_LIBRARY_2026_10:ibat:replacement_ordinary:2",
+  "production_identity": "WORK_LIBRARY_2026_10",
+  "origin": "work_library",
+  "library_release_id": "WORK_LIBRARY_2026_10_R1",
+  "channel": "ibat",
+  "edition_type": "replacement_ordinary",
+  "editorial_date": "2026-10-20",
+  "is_intro": false,
+  "episode_order": 2,
+  "published_at": "2026-10-20T20:49:08.348898+00:00",
+  "notification_policy": "suppressed",
+  "gemini_text_calls": 0,
+  "work_origin_evidence": {
+    "author": "ChatGPT Work",
+    "newly_authored": true,
+    "prior_episode_relabelled": false,
+    "review": "editorial_review.json"
+  },
+  "files": {
+    "manus.txt": "dffecf07b7136bf5d380ef45cb4a5c8b572a6dec971fa3fff1960fd5f50eb7d9",
+    "brief.json": "02255e304505cf5f7320b0f3b3e1ee8b2b12141f728fc24b8eb61c944f27b843",
+    "kallor.json": "c4241db364b41dae6ce85bbe232d72a4e11f3ca8deed5c5fd2adb2f1f0d47187",
+    "editorial_review.json": "15e5461e5a3640d6e9082952140fe7d951e4ea11e4b9325341eeb188e589d6cf"
+  }
+}

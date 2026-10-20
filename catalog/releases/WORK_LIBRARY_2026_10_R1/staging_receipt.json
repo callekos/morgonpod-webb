@@ -1,0 +1,143 @@
+{
+  "work_episodes": 25,
+  "active_episodes": 30,
+  "active_articles": 39,
+  "channels": 8,
+  "rollback_episode_ids": [
+    "ibat:2026-10-19:daily",
+    "ibat:2026-10-19:introduction",
+    "ibat:2026-10-20:daily",
+    "kek:2026-10-15:introduction",
+    "kek:2026-10-19:daily",
+    "kek:2026-10-19:introduction",
+    "kek:2026-10-20:daily",
+    "lagstiftning:2026-10-19:introduction",
+    "lagstiftning:2026-10-19:weekly",
+    "lagstiftning:2026-10-20:daily",
+    "sjoomradet:2026-10-19:daily",
+    "sjoomradet:2026-10-19:introduction",
+    "sjoomradet:2026-10-20:daily",
+    "vald:2026-10-15:introduction",
+    "vald:2026-10-19:daily",
+    "vald:2026-10-19:introduction",
+    "vald:2026-10-20:daily"
+  ],
+  "library_release_id": "WORK_LIBRARY_2026_10_R1",
+  "ordinary_episodes_preserved": 5,
+  "old_direct_links_archived": [
+    {
+      "path": "catalog/episodes/745e9cc8ea20afe36e6bc845.json",
+      "id": "kek:2026-10-19:introduction",
+      "kind": "episodes"
+    },
+    {
+      "path": "catalog/episodes/657b04bcf4bf738c5d176d28.json",
+      "id": "vald:2026-10-19:introduction",
+      "kind": "episodes"
+    },
+    {
+      "path": "catalog/episodes/5aa85813f2547150c6d47f0d.json",
+      "id": "sjoomradet:2026-10-19:introduction",
+      "kind": "episodes"
+    },
+    {
+      "path": "catalog/episodes/2989f90ced25751f7888cc36.json",
+      "id": "lagstiftning:2026-10-19:introduction",
+      "kind": "episodes"
+    },
+    {
+      "path": "catalog/episodes/0970f4c6cb4a5f8b6ea67184.json",
+      "id": "ibat:2026-10-19:introduction",
+      "kind": "episodes"
+    },
+    {
+      "path": "catalog/episodes/be344349f02bbe88da5d4600.json",
+      "id": "vald:2026-10-19:daily",
+      "kind": "episodes"
+    },
+    {
+      "path": "catalog/episodes/48dea8c1a2e4d942a1e88317.json",
+      "id": "lagstiftning:2026-10-19:weekly",
+      "kind": "episodes"
+    },
+    {
+      "path": "catalog/episodes/8d54cf8005dc29b606318c84.json",
+      "id": "sjoomradet:2026-10-19:daily",
+      "kind": "episodes"
+    },
+    {
+      "path": "catalog/episodes/99f18780bfebe21779358a19.json",
+      "id": "kek:2026-10-19:daily",
+      "kind": "episodes"
+    },
+    {
+      "path": "catalog/episodes/1fa5424621aff3cf10ca594e.json",
+      "id": "ibat:2026-10-19:daily",
+      "kind": "episodes"
+    },
+    {
+      "path": "catalog/episodes/da43bf74e5407e549f613b5b.json",
+      "id": "kek:2026-10-15:introduction",
+      "kind": "episodes"
+    },
+    {
+      "path": "catalog/episodes/1b77f89944c055e7f644eb98.json",
+      "id": "vald:2026-10-15:introduction",
+      "kind": "episodes"
+    },
+    {
+      "path": "catalog/articles/16becc25de4586927265db3e.json",
+      "id": "article-f259d3ec44905875dcb313b1",
+      "kind": "articles"
+    },
+    {
+      "path": "catalog/articles/f9f75883dae46159c7d19133.json",
+      "id": "article-c803bd1df43abd2c87421ab1",
+      "kind": "articles"
+    },
+    {
+      "path": "catalog/articles/826893bb4a4cb6507033bee2.json",
+      "id": "article-c2b4e11990c7a5de9e1151f3",
+      "kind": "articles"
+    },
+    {
+      "path": "catalog/articles/049bddc1211283ad87892321.json",
+      "id": "article-b961bb4d0dc4de3998074e5e",
+      "kind": "articles"
+    },
+    {
+      "path": "catalog/articles/5c5ad314dc46a1d4c15ac5c8.json",
+      "id": "article-b3cda9389e22552a5dd99f7c",
+      "kind": "articles"
+    },
+    {
+      "path": "catalog/articles/48def338f22080a630f4477b.json",
+      "id": "article-a3bc9d16104cd0534018ae3e",
+      "kind": "articles"
+    },
+    {
+      "path": "catalog/articles/4f17f4f37631fae2355ed732.json",
+      "id": "article-7ab52fa91e1cf60ad8113b67",
+      "kind": "articles"
+    },
+    {
+      "path": "catalog/articles/56fc820ae181be2d36521603.json",
+      "id": "article-744a37e0bd928151e738f5a0",
+      "kind": "articles"
+    },
+    {
+      "path": "catalog/articles/de50d7c51f9b1d3efb8a22d4.json",
+      "id": "article-5263fa3dfc3f55b50682c1a1",
+      "kind": "articles"
+    },
+    {
+      "path": "catalog/articles/44dcc3dc5398ec144ee5703b.json",
+      "id": "article-2d0434214520bfb45b556243",
+      "kind": "articles"
+    }
+  ],
+  "old_audio_deleted": false,
+  "frontend_files_modified": false,
+  "telegram_sent": false,
+  "live_write": false
+}

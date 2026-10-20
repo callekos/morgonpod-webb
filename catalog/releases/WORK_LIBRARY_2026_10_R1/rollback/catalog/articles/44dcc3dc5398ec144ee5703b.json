@@ -1,0 +1,40 @@
+{
+  "id": "article-2d0434214520bfb45b556243",
+  "episode_id": "sjoomradet:2026-10-19:daily",
+  "date": "2026-10-19",
+  "channel": "sjoomradet",
+  "kind": "daily",
+  "episode_title": "Morgonbrief",
+  "episode_audio": "episodes/sjoomradet/2026-10-19/morgonpod.mp3",
+  "episode_brief": "episodes/sjoomradet/2026-10-19/brief.json",
+  "article_index": 0,
+  "title": "Finländska fastighetsstopp belyser svensk lagstiftningslucka vid skyddsobjekt",
+  "summary": "Finland har sedan år 2022 stoppat 68 fastighetsaffärer med hänvisning till nationella säkerhetsrisker och infört ett principellt förbud för ryska och belarusiska medborgare att köpa egendom. Enligt SVT Nyheter saknar svenska myndigheter motsvarande generella lagstöd för att stoppa liknande utländska fastighetsköp nära känslig infrastruktur, trots mångåriga utredningar. Frågan har aktualiserats i Sverige efter att Försvarsmakten uttryckt behov av att ta över en fritidsfastighet nära en marinbas.",
+  "body": "Skillnaden i lagstiftning mellan Sverige och Finland är central för förståelsen av det maritima skyddet runt Östersjön, där fastighetsinnehav nära örlogsbaser och farleder utgör en strategisk sårbarhet.",
+  "context": "Skillnaden i lagstiftning mellan Sverige och Finland är central för förståelsen av det maritima skyddet runt Östersjön, där fastighetsinnehav nära örlogsbaser och farleder utgör en strategisk sårbarhet.",
+  "source_url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag",
+  "sources": [
+    {
+      "url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag",
+      "title": "SVT Nyheter"
+    }
+  ],
+  "topics": [
+    "maritim-säkerhet-och-kritisk-infrastruktur"
+  ],
+  "topic_labels": [
+    "Maritim säkerhet och kritisk infrastruktur"
+  ],
+  "assessment": "Bedömningen från finländska experter, däribland professor Kari Liuhto, är att lagstiftningen har en viktig avskräckande effekt men att rysk underrättelsetjänst kan försöka använda bulvaner eller mellanhänder för att komma över strategisk mark.",
+  "open_questions": [
+    "Hur hanterar svenska myndigheter risken för bulvanägande av fastigheter i skärgårdsmiljö i avsaknad av en generell förvärvslag?",
+    "Vilka konkreta lagförslag bereds för att ge Sverige samma möjligheter som Finland att förhindra säkerhetskänsliga fastighetsaffärer?"
+  ],
+  "previous_reporting": [],
+  "event_links": [],
+  "body_provenance": "legacy_context",
+  "recorded_at": "2026-10-19T08:08:34.075463+00:00",
+  "revision": 1,
+  "fingerprint": "1ada6913284111d0a3f5d58826036eb29061477353df72c135e830fbc6d9def5",
+  "history": []
+}

@@ -1,1 +1,53 @@
-{"production_schema":2,"kind":"daily","duration_seconds":243.456,"duration_status":"short","target_minutes":[6,10],"channel":"sjoomradet","date":"2026-10-19","title":"Morgonbrief","description":"Det här är en vardagsbrief från Sjöområdet med datumet den 19 oktober 2026. I dag fokuserar vi på hur Finland systematiskt stoppar fastighetsaffärer nära kritisk infrastruktur, samtidigt som den svenska lagstiftningen alltjämt saknar motsvarande generella verktyg.","audio":"episodes/sjoomradet/2026-10-19/morgonpod.mp3","audio_version":"eb0f06075a83b1c2","sources":"episodes/sjoomradet/2026-10-19/kallor.json","tags":["Maritim säkerhet och kritisk infrastruktur"],"topics":[{"id":"maritim-säkerhet-och-kritisk-infrastruktur","name":"Maritim säkerhet och kritisk infrastruktur"}],"brief":"episodes/sjoomradet/2026-10-19/brief.json","id":"sjoomradet:2026-10-19:daily","is_intro":false,"articles":[{"id":"article-2d0434214520bfb45b556243","title":"Finländska fastighetsstopp belyser svensk lagstiftningslucka vid skyddsobjekt","summary":"Finland har sedan år 2022 stoppat 68 fastighetsaffärer med hänvisning till nationella säkerhetsrisker och infört ett principellt förbud för ryska och belarusiska medborgare att köpa egendom. Enligt SVT Nyheter saknar svenska myndigheter motsvarande generella lagstöd för att stoppa liknande utländska fastighetsköp nära känslig infrastruktur, trots mångåriga utredningar. Frågan har aktualiserats i Sverige efter att Försvarsmakten uttryckt behov av att ta över en fritidsfastighet nära en marinbas.","date":"2026-10-19","channel":"sjoomradet","topics":["maritim-säkerhet-och-kritisk-infrastruktur"],"topic_labels":["Maritim säkerhet och kritisk infrastruktur"],"episode_id":"sjoomradet:2026-10-19:daily","published_at":null,"is_intro":null,"episode_order":null,"detail":"catalog/articles/44dcc3dc5398ec144ee5703b.json"}],"article_status":"available"}
+{
+  "production_schema": 2,
+  "kind": "daily",
+  "duration_seconds": 243.456,
+  "duration_status": "short",
+  "target_minutes": [
+    6,
+    10
+  ],
+  "channel": "sjoomradet",
+  "date": "2026-10-19",
+  "title": "Morgonbrief",
+  "description": "Arkiverat innehåll från det tidigare biblioteket. Nya avsnitt och artiklar finns i kanalens aktiva bibliotek.\n\nDet här är en vardagsbrief från Sjöområdet med datumet den 19 oktober 2026. I dag fokuserar vi på hur Finland systematiskt stoppar fastighetsaffärer nära kritisk infrastruktur, samtidigt som den svenska lagstiftningen alltjämt saknar motsvarande generella verktyg.",
+  "audio": "episodes/sjoomradet/2026-10-19/morgonpod.mp3",
+  "audio_version": "eb0f06075a83b1c2",
+  "sources": "episodes/sjoomradet/2026-10-19/kallor.json",
+  "tags": [
+    "Maritim säkerhet och kritisk infrastruktur"
+  ],
+  "topics": [
+    {
+      "id": "maritim-säkerhet-och-kritisk-infrastruktur",
+      "name": "Maritim säkerhet och kritisk infrastruktur"
+    }
+  ],
+  "brief": "episodes/sjoomradet/2026-10-19/brief.json",
+  "id": "sjoomradet:2026-10-19:daily",
+  "is_intro": false,
+  "articles": [
+    {
+      "id": "article-2d0434214520bfb45b556243",
+      "title": "Finländska fastighetsstopp belyser svensk lagstiftningslucka vid skyddsobjekt",
+      "summary": "Finland har sedan år 2022 stoppat 68 fastighetsaffärer med hänvisning till nationella säkerhetsrisker och infört ett principellt förbud för ryska och belarusiska medborgare att köpa egendom. Enligt SVT Nyheter saknar svenska myndigheter motsvarande generella lagstöd för att stoppa liknande utländska fastighetsköp nära känslig infrastruktur, trots mångåriga utredningar. Frågan har aktualiserats i Sverige efter att Försvarsmakten uttryckt behov av att ta över en fritidsfastighet nära en marinbas.",
+      "date": "2026-10-19",
+      "channel": "sjoomradet",
+      "topics": [
+        "maritim-säkerhet-och-kritisk-infrastruktur"
+      ],
+      "topic_labels": [
+        "Maritim säkerhet och kritisk infrastruktur"
+      ],
+      "episode_id": "sjoomradet:2026-10-19:daily",
+      "published_at": null,
+      "is_intro": null,
+      "episode_order": null,
+      "detail": "catalog/articles/44dcc3dc5398ec144ee5703b.json"
+    }
+  ],
+  "article_status": "available",
+  "archive_status": "superseded",
+  "superseded_by_library_release": "WORK_LIBRARY_2026_10_R1",
+  "archived_original_description": "Det här är en vardagsbrief från Sjöområdet med datumet den 19 oktober 2026. I dag fokuserar vi på hur Finland systematiskt stoppar fastighetsaffärer nära kritisk infrastruktur, samtidigt som den svenska lagstiftningen alltjämt saknar motsvarande generella verktyg."
+}

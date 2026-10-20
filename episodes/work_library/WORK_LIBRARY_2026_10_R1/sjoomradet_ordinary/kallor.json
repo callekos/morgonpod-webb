@@ -1,0 +1,50 @@
+[
+  {
+    "id": "sanctions_20261015",
+    "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/15/closing-loopholes-council-lists-individuals-and-entities-for-circumventing-eu-sanctions/",
+    "title": "Closing loopholes: Council lists individuals and entities for circumventing EU sanctions - Consilium",
+    "retrieved_at": "2026-10-20T05:42:59.911185+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "c1a4a7832a8a509ccedd705a9d8cc9bf98c3cc15a342f3c3b354e13c69a1809a",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "537c89d9b18fbe579afbcba8687077a7cd6e44acb31e6088e721ce1452541bf3",
+      "path": "sanctions_20261015.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 4492,
+    "reviewed": false
+  },
+  {
+    "id": "fac_20261012",
+    "url": "https://www.consilium.europa.eu/en/meetings/fac/2026/10/12/",
+    "title": "Foreign Affairs Council - Consilium",
+    "retrieved_at": "2026-10-20T05:43:08.905049+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "bec395d33a005586f57bc62defb08b44e757f7c3e981b71348517e57ddc64c08",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "3af913acb461830cc87b2880d8a48db45f3bafb40d48b5fa48e369792df284c8",
+      "path": "fac_20261012.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 13690,
+    "reviewed": false
+  },
+  {
+    "id": "sjoomradet_foundation_4",
+    "url": "https://www.consilium.europa.eu/en/policies/maritime-security/",
+    "title": "Maritime security - Consilium",
+    "retrieved_at": "2026-10-20T05:52:17.919532+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "a3441dd67ba52b224673aec6fbdedf207f33e89593167113408dd53a165ac2ec",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "bdac5f8fd470327de294e3055a44725a466aa0153d5fccdea3059f42b38e0a47",
+      "path": "sjoomradet_foundation_4.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 6692,
+    "reviewed": false
+  }
+]

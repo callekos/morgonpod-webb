@@ -1,0 +1,49 @@
+{
+  "approved": true,
+  "reviewer": "ChatGPT Work, separat andra genomläsning",
+  "independent_human_review": false,
+  "reviewed_at": "2026-10-20T06:14:47.545083+00:00",
+  "package_sha256": "a3a1a0c897f7c0cae3d7d58c27a6ebeaa4f21ca8ad6e182c8ced38714b268b58",
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "EBM:s daterade lägesbild och bolagsfunktioner.",
+      "source_ids": [
+        "kek_foundation_4",
+        "kek_foundation_3"
+      ],
+      "locator": "Lägesbildssida publicerad 5 maj 2025 och Organiserad brottslighet",
+      "status": "verified"
+    },
+    {
+      "id": "C02",
+      "claim": "Myndighetsinformation om penningtvättsbrott används utan individuella rättsliga slutsatser.",
+      "source_ids": [
+        "kek_foundation_2"
+      ],
+      "locator": "Brottsbeskrivningen, inga fullständiga rekvisit eller nya straffskalor påstås",
+      "status": "verified"
+    },
+    {
+      "id": "C03",
+      "claim": "Europols urval och specialiserade tjänster/legala strukturer.",
+      "source_ids": [
+        "europol_blueprint"
+      ],
+      "locator": "Who are todays MTCNs samt metod/avgränsning; inte alla europeiska nätverk",
+      "status": "verified"
+    }
+  ],
+  "checks": {
+    "freshness": "Aktuell sjönyhet 15 oktober; övriga dagliga avsnitt uttrycklig saklig fördjupning utan fabricerad nyhetshändelse",
+    "law": "Motioner är motioner, inga straffskalor eller framtida steg upphöjs till gällande rätt",
+    "scope": "Europolrapporter har tydligt urval, ingen svensk prevalens från europeisk hotbild",
+    "examples": "Alla egna scenarier fiktiva",
+    "facts": "Påståenden kontrollerade mot lästa originalkällor",
+    "length": "Ämne och underlag styr, ingen automatisk utfyllnad"
+  },
+  "remaining_gates": [
+    "Verkligt godkänt ljud och staging",
+    "25-paketsrelease och liveverifiering"
+  ]
+}

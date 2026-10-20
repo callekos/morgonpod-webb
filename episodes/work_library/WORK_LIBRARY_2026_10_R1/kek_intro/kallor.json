@@ -1,0 +1,82 @@
+[
+  {
+    "id": "kek_foundation_4",
+    "url": "https://www.ekobrottsmyndigheten.se/om-oss/press/aktuellt/nyheter/lagesbild-2025-fran-enskilda-brott-till-organiserade-systemhot/",
+    "title": "Från enskilda brott till organiserade systemhot | Ekobrottsmyndigheten",
+    "retrieved_at": "2026-10-20T05:52:38.131031+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "8bfc8710cc817f1ec3451f56d2e960d4910252c08e891eca96eef9a11fd27b7e",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "aec966d9742102aeba4e5af3e3a11e23e9ae29000715e75e641b533d72f5a183",
+      "path": "kek_foundation_4.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 3852,
+    "reviewed": false
+  },
+  {
+    "id": "kek_foundation_3",
+    "url": "https://www.ekobrottsmyndigheten.se/om-ekobrott/kriminell-ekonomi/organiserad-brottslighet/",
+    "title": "Organiserad brottslighet | Ekobrottsmyndigheten",
+    "retrieved_at": "2026-10-20T05:52:32.252497+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "b42a432301a322584c9a8880d2c56f5f680a6f84893cb008317a6cc75e2d6a57",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "1f1194b15f533e3141a4421d90f1845b790f5bd6cc957ad1c62e5b4b945afb9e",
+      "path": "kek_foundation_3.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 4860,
+    "reviewed": false
+  },
+  {
+    "id": "kek_foundation_2",
+    "url": "https://www.ekobrottsmyndigheten.se/om-ekobrott/brotten-vi-utreder/penningtvattsbrott/",
+    "title": "Penningtvättsbrott | Ekobrottsmyndigheten",
+    "retrieved_at": "2026-10-20T05:52:32.330986+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "5816756697ace19789d295c0ccc6584e29d41de2c9ede46e66f509d6c3fd0dcc",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "69f5497b6b62d706fd84df2884a5bff7230d955f72077e3b89989369ad7f18d6",
+      "path": "kek_foundation_2.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 7002,
+    "reviewed": false
+  },
+  {
+    "id": "kek_foundation_5",
+    "url": "https://www.fi.se/sv/penningtvatt/",
+    "title": "Penningtvätt och finansiering av terrorism | Finansinspektionen",
+    "retrieved_at": "2026-10-20T05:52:36.544429+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "c574d25f6aaa6e566cb4d2e35a3d941750929a870b31eb2e8424e4bcd30d165f",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "ab26b7c009ad8d7ee1f8c85009575185f007a70ee3a40c2408ef499f234f4f62",
+      "path": "kek_foundation_5.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 1803,
+    "reviewed": false
+  },
+  {
+    "id": "europol_blueprint",
+    "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/Blueprint-of-criminal-opportunism.pdf",
+    "title": "DECODING THE EU’S MOST THREATENING CRIMINAL NETWORKS",
+    "retrieved_at": "2026-10-20T05:53:01.184809+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "04842becb74cd5c51d644ba737721b7f2e7f9d7027019a9ef4e1511b232d951a",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "1c05eed56ecf2405b9a8f3044734423c798a690f1d50aed2f1c1824981c3de4c",
+      "path": "europol_blueprint.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 207873,
+    "reviewed": false
+  }
+]

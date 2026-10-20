@@ -1,0 +1,80 @@
+[
+  {
+    "id": "bdl",
+    "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+    "title": "Brottsdatalag (2018:1177) | Sveriges riksdag",
+    "retrieved_at": "2026-10-20T05:36:34.749410+00:00",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "c088bec19635b49d003aab91df04a55aa17680f33c7f1aa367713d668f2f0696",
+      "path": "bdl.txt"
+    },
+    "bytes": 48203,
+    "source_type": "statute"
+  },
+  {
+    "id": "polisbdl",
+    "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-20181693-om-polisens-behandling-av_sfs-2018-1693/",
+    "title": "Lag (2018:1693) om polisens behandling av personuppgifter inom brottsdatalagens område | Sveriges riksdag",
+    "retrieved_at": "2026-10-20T05:36:34.716650+00:00",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "830ab6312736ca1d94c9a3c4471b3ec5e42c45d30b35268d5ff2412a6170d030",
+      "path": "polisbdl.txt"
+    },
+    "bytes": 65055,
+    "source_type": "statute"
+  },
+  {
+    "id": "osl",
+    "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/offentlighets-och-sekretesslag-2009400_sfs-2009-400/",
+    "title": "Offentlighets- och sekretesslag (2009:400) | Sveriges riksdag",
+    "retrieved_at": "2026-10-20T05:36:34.977199+00:00",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "3f80bb85ad6a6af7f0c37346c8f24794f771e14ff1d317760e88fc607bcfc732",
+      "path": "osl.txt"
+    },
+    "bytes": 439294,
+    "source_type": "statute"
+  },
+  {
+    "id": "imy_lagar",
+    "url": "https://www.imy.se/verksamhet/dataskydd/sa-hanger-lagarna-ihop/",
+    "title": "Så hänger lagarna ihop | IMY",
+    "retrieved_at": "2026-10-20T05:36:41.988538+00:00",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "eec193eed95aa9236d34109a26067d09a08163d9674f9319ec104366e9abbd28",
+      "path": "imy_lagar.txt"
+    },
+    "bytes": 4780,
+    "source_type": "regulator_guidance"
+  },
+  {
+    "id": "imy_samrad",
+    "url": "https://www.imy.se/publikationer/vagledning-om-forhandssamrad-enligt-brottsdatalagen/",
+    "title": "Vägledning om förhandssamråd enligt brottsdatalagen | IMY",
+    "retrieved_at": "2026-10-20T05:36:42.213275+00:00",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "8b681b3dced9c217fbc8450dce66d890e2d8def1ce75fcad8997ec998b4f1286",
+      "path": "imy_samrad.txt"
+    },
+    "bytes": 1916,
+    "source_type": "regulator_guidance"
+  },
+  {
+    "id": "bdforordning",
+    "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdataforordning-20181202_sfs-2018-1202/",
+    "title": "Brottsdataförordning (2018:1202) | Sveriges riksdag",
+    "retrieved_at": "2026-10-20T05:36:38.628446+00:00",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "707272b34402730fa7c72b168fe30fe46a9889a4f2de7a5255907dbda1e2641a",
+      "path": "bdforordning.txt"
+    },
+    "bytes": 20756,
+    "source_type": "statute"
+  }
+]

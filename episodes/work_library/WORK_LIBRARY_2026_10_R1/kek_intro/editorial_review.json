@@ -1,0 +1,66 @@
+{
+  "approved": true,
+  "reviewer": "ChatGPT Work, separat andra genomläsning",
+  "independent_human_review": false,
+  "reviewed_at": "2026-10-20T06:33:13.293164+00:00",
+  "package_sha256": "f2c587825351a39ac43a88306bb9c5b182e9544aa8d921d8549e27abbafa74a0",
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "EBM:s lägesbild 2025 behandlar organiserade systemhot.",
+      "source_ids": [
+        "kek_foundation_4"
+      ],
+      "locator": "Publicerad 5 maj 2025, myndighetens uttryckliga bedömning",
+      "status": "verified"
+    },
+    {
+      "id": "C02",
+      "claim": "Bolag, samverkan och internationella ekonomiska samband.",
+      "source_ids": [
+        "kek_foundation_3"
+      ],
+      "locator": "Organiserad brottslighet, Så arbetar vi och Internationellt samarbete",
+      "status": "verified"
+    },
+    {
+      "id": "C03",
+      "claim": "Penningtvättens fenomen samt separata förverkandesteg.",
+      "source_ids": [
+        "kek_foundation_2"
+      ],
+      "locator": "Inledning och Förverkande; ingen individuell rättslig prövning eller straffskala",
+      "status": "verified"
+    },
+    {
+      "id": "C04",
+      "claim": "FI beskriver förebyggande regelperspektiv.",
+      "source_ids": [
+        "kek_foundation_5"
+      ],
+      "locator": "Penningtvätt och finansiering av terrorism",
+      "status": "verified"
+    },
+    {
+      "id": "C05",
+      "claim": "Europol beskriver företagsstrukturer och tjänster i särskilt MTCN-urval.",
+      "source_ids": [
+        "europol_blueprint"
+      ],
+      "locator": "Who are todays MTCNs och metodavgränsning",
+      "status": "verified"
+    }
+  ],
+  "checks": {
+    "figures": "Inga osäkra totalsiffror",
+    "legal": "Inga nya ingripandebefogenheter eller fullständiga rekvisit uppfinns",
+    "examples": "Fiktiva, ingen konkret individ misstänkliggörs",
+    "statistics": "MTCN-urvalet generaliseras inte",
+    "review": "Separat andra Workgenomläsning av manus och artikel",
+    "duration_revision": "Tillagt substantiellt avsnitt om alternativa förklaringar efter första ljudets 1192,416 sekunder. Inga källpåståenden ändrade. Separat andra genomläsning."
+  },
+  "remaining_gates": [
+    "Verkligt godkänt ljud och staging",
+    "25-paketsrelease och liveverifiering"
+  ]
+}

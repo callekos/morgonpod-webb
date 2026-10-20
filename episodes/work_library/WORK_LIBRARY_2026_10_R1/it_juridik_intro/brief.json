@@ -1,0 +1,51 @@
+{
+  "title": "IT-juridik och dataskydd: från verksamhetsbehov till rättsligt hållbar behandling",
+  "editorial_date": "2026-10-20",
+  "channel": "it_juridik",
+  "origin": "work_library",
+  "production_identity": "WORK_LIBRARY_2026_10",
+  "description": "En sammanhängande introduktion till dataskydd, sekretess, åtkomst och systemutformning för brottsbekämpande verksamhet.",
+  "tags": [
+    "IT-juridik",
+    "Dataskydd",
+    "Informationsdelning"
+  ],
+  "news": [
+    {
+      "id": "work-it-juridik-intro-article-1",
+      "category": "IT-juridik och dataskydd",
+      "title": "Börja med behandlingen, ändamålet och informationsflödet",
+      "summary": "Dataskydd, sekretess och behörighet besvarar olika frågor i samma informationsflöde. Introduktionen visar hur de kan beskrivas innan ett digitalt stöd tas i bruk.",
+      "context": "Pedagogisk grundkurs med fiktiva exempel, rättsläge kontrollerat 20 oktober 2026. Redaktionella designfrågor skiljs från rättsliga krav.",
+      "body": "En gemensam arbetsyta för brottsbekämpning är också en beskrivning av hur information ska behandlas. Vilka uppgifter ska samlas in, vilka personer ska kunna se dem och vad ska resultatet användas till? De frågorna behöver besvaras innan tekniska funktioner kan bedömas på ett meningsfullt sätt.\n\nDen europeiska dataskyddsreformen omfattar både GDPR och ett särskilt direktiv för behöriga myndigheters brottsbekämpande behandling. Brottsdatalagen genomför det senare i svensk rätt. Särskilda registerförfattningar kompletterar ramen för olika verksamheter. Det är behandlingens sammanhang och syfte som måste undersökas. Samma organisation kan hantera personuppgifter under olika regelverk.\n\nBrottsdatalagens grundläggande krav omfattar rättsligt stöd, nödvändighet och angivna ändamål. Uppgifternas kvalitet spelar också roll: en misstänkt, en dömd och ett vittne ska inte framstå som samma kategori. Fakta och personliga bedömningar behöver kunna särskiljas enligt lagens närmare förutsättningar. För en digital arbetsyta blir detta en fråga om hur sammanhang och osäkerhet följer informationen.\n\nSekretess och dataskydd behöver prövas tillsammans. Att en uppgift får behandlas innebär inte i sig att den får röjas för en annan aktör. Offentlighets- och sekretesslagen innehåller regler för sådant röjande. Bestämmelser om sekretess mellan myndigheter gäller även mellan verksamhetsgrenar som är självständiga i förhållande till varandra. Varje intern organisatorisk gräns är därmed inte automatiskt en sekretessgräns. Bedömningen måste göras utifrån den verkliga rättsliga situationen.\n\nEn särskild lag kompletterar brottsdatalagen för polisens behandling inom dess område. Där finns bland annat bestämmelser om gemensamt tillgängliga uppgifter och längsta behandlingstider. Liten omfattning innebär inte att en behandling kan undantas från de regler som gäller för den. Reglernas exakta tillämplighet måste prövas för den aktuella lösningen.\n\nBrottsdataförordningen preciserar krav på bland annat loggning och behörighetsrutiner. Tilldelning är bara en del av behörigheters livscykel. Förändring, borttagning och regelbunden uppföljning behöver också hanteras. Ett projekt bör därför beskriva hur lösningen ska förvaltas när användare och uppdrag förändras.\n\nIMY:s vägledning om förhandssamråd enligt brottsdatalagen publicerades i december 2025. Den hjälper berörda aktörer att bedöma behovet av samråd och vilket underlag som behövs. Vägledningen ersätter inte rättslig prövning av ett enskilt system. I avsnittets konstruerade exempel används den som anledning att fråga när nya funktioner eller ändrade behandlingar behöver en förnyad bedömning.\n\nRedaktionell tillämpning: börja med ett avgränsat användningsfall. Beskriv källa, personkategorier, arbetsuppgift, mottagare och informationsprodukt. Följ sedan vad som händer vid sökning, värdering, export, rättelse och avslut. Den beskrivningen kan användas gemensamt av verksamhet, juridik, säkerhet och utveckling. Den är ett arbetsunderlag, inte ett juridiskt tillstånd.\n\nAvsnittets exempel är fiktiva och innehåller inga verkliga personuppgifter. Innehållet är en introduktion för professionella som behöver känna igen rättsfrågorna. Det lämnar inget besked om tillåten behandling i ett individuellt ärende. Rättskällorna kontrollerades den 20 oktober 2026. Framtida ikraftträdandemarkeringar i konsoliderad lagtext ska inte läsas som redan gällande rätt.",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+      "publisher": "Morgonpodden, egen källbaserad artikel",
+      "sources": [
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+          "title": "Brottsdatalag (2018:1177) | Sveriges riksdag"
+        },
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-20181693-om-polisens-behandling-av_sfs-2018-1693/",
+          "title": "Lag (2018:1693) om polisens behandling av personuppgifter inom brottsdatalagens område | Sveriges riksdag"
+        },
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/offentlighets-och-sekretesslag-2009400_sfs-2009-400/",
+          "title": "Offentlighets- och sekretesslag (2009:400) | Sveriges riksdag"
+        },
+        {
+          "url": "https://www.imy.se/verksamhet/dataskydd/sa-hanger-lagarna-ihop/",
+          "title": "Så hänger lagarna ihop | IMY"
+        },
+        {
+          "url": "https://www.imy.se/publikationer/vagledning-om-forhandssamrad-enligt-brottsdatalagen/",
+          "title": "Vägledning om förhandssamråd enligt brottsdatalagen | IMY"
+        },
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdataforordning-20181202_sfs-2018-1202/",
+          "title": "Brottsdataförordning (2018:1202) | Sveriges riksdag"
+        }
+      ]
+    }
+  ]
+}

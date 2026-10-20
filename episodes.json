@@ -1,6 +1,655 @@
 {
   "episodes": [
     {
+      "id": "WORK_LIBRARY_2026_10:verksamhetsutveckling:special:5",
+      "channel": "verksamhetsutveckling",
+      "date": "2026-10-20",
+      "title": "Utvärdering utan myter om misslyckade projekt",
+      "description": "Uppföljning behöver skilja mellan genomförande, observerade resultat och effekter som kan tillskrivas en insats. I avsnittets fiktiva projekt är systemet levererat och tiden kortare, men kvalitetsmåttet oförändrat. Ett enkelt omdöme om framgång eller misslyckande fångar inte vad organisationen behöver lära.",
+      "kind": "historical",
+      "origin": "work_library",
+      "edition_type": "special",
+      "production_identity": "WORK_LIBRARY_2026_10",
+      "library_release_id": "WORK_LIBRARY_2026_10_R1",
+      "is_intro": false,
+      "episode_order": 5,
+      "published_at": "2026-10-20T20:49:08.348898+00:00",
+      "audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/verksamhetsutveckling_special_4/morgonpod.mp3",
+      "brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/verksamhetsutveckling_special_4/brief.json",
+      "sources": "episodes/work_library/WORK_LIBRARY_2026_10_R1/verksamhetsutveckling_special_4/kallor.json",
+      "duration_seconds": 390.144,
+      "article_count": 1,
+      "tags": [
+        "Verksamhetsutveckling",
+        "Förändringsarbete",
+        "Utvärdering"
+      ],
+      "published_at_source": "publication_transaction"
+    },
+    {
+      "id": "WORK_LIBRARY_2026_10:verksamhetsutveckling:special:4",
+      "channel": "verksamhetsutveckling",
+      "date": "2026-10-20",
+      "title": "Införande och förvaltning: vem äger nyttan efter projektet?",
+      "description": "Dagen efter projektavslutet återstår ofta arbete för att den tänkta nyttan ska uppstå. Det fiktiva införandet i avsnittet visar varför leveransansvar behöver skiljas från mandat att förändra verksamheten och följa resultatet.",
+      "kind": "historical",
+      "origin": "work_library",
+      "edition_type": "special",
+      "production_identity": "WORK_LIBRARY_2026_10",
+      "library_release_id": "WORK_LIBRARY_2026_10_R1",
+      "is_intro": false,
+      "episode_order": 4,
+      "published_at": "2026-10-20T20:49:08.348898+00:00",
+      "audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/verksamhetsutveckling_special_3/morgonpod.mp3",
+      "brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/verksamhetsutveckling_special_3/brief.json",
+      "sources": "episodes/work_library/WORK_LIBRARY_2026_10_R1/verksamhetsutveckling_special_3/kallor.json",
+      "duration_seconds": 345.6,
+      "article_count": 1,
+      "tags": [
+        "Verksamhetsutveckling",
+        "Förändringsarbete",
+        "Utvärdering"
+      ],
+      "published_at_source": "publication_transaction"
+    },
+    {
+      "id": "WORK_LIBRARY_2026_10:verksamhetsutveckling:special:3",
+      "channel": "verksamhetsutveckling",
+      "date": "2026-10-20",
+      "title": "Omorganisationer: vad går att lära av polisreformen?",
+      "description": "En genomförd omorganisation är inte samma sak som en verifierad verksamhetseffekt. Specialavsnittet använder Riksrevisionens granskning av polisreformen 2015 som fall för att diskutera struktur, arbetssätt och styrning.",
+      "kind": "historical",
+      "origin": "work_library",
+      "edition_type": "special",
+      "production_identity": "WORK_LIBRARY_2026_10",
+      "library_release_id": "WORK_LIBRARY_2026_10_R1",
+      "is_intro": false,
+      "episode_order": 3,
+      "published_at": "2026-10-20T20:49:08.348898+00:00",
+      "audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/verksamhetsutveckling_special_2/morgonpod.mp3",
+      "brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/verksamhetsutveckling_special_2/brief.json",
+      "sources": "episodes/work_library/WORK_LIBRARY_2026_10_R1/verksamhetsutveckling_special_2/kallor.json",
+      "duration_seconds": 394.512,
+      "article_count": 1,
+      "tags": [
+        "Verksamhetsutveckling",
+        "Förändringsarbete",
+        "Utvärdering"
+      ],
+      "published_at_source": "publication_transaction"
+    },
+    {
+      "id": "WORK_LIBRARY_2026_10:verksamhetsutveckling:special:2",
+      "channel": "verksamhetsutveckling",
+      "date": "2026-10-20",
+      "title": "Beskriv problemet före lösningen: insatslogik och mätning",
+      "description": "Ett projekt behöver kunna förklara vilket problem lösningen ska påverka. I avsnittets fiktiva myndighet upplevs ärendehanteringen som långsam. Gruppen skiljer därför aktiv arbetstid från väntan och undersöker vilket underlag som saknas i beställningarna. Det ändrar vilken hypotes som bör prövas.",
+      "kind": "historical",
+      "origin": "work_library",
+      "edition_type": "special",
+      "production_identity": "WORK_LIBRARY_2026_10",
+      "library_release_id": "WORK_LIBRARY_2026_10_R1",
+      "is_intro": false,
+      "episode_order": 2,
+      "published_at": "2026-10-20T20:49:08.348898+00:00",
+      "audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/verksamhetsutveckling_special_1/morgonpod.mp3",
+      "brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/verksamhetsutveckling_special_1/brief.json",
+      "sources": "episodes/work_library/WORK_LIBRARY_2026_10_R1/verksamhetsutveckling_special_1/kallor.json",
+      "duration_seconds": 398.16,
+      "article_count": 1,
+      "tags": [
+        "Verksamhetsutveckling",
+        "Förändringsarbete",
+        "Utvärdering"
+      ],
+      "published_at_source": "publication_transaction"
+    },
+    {
+      "id": "WORK_LIBRARY_2026_10:verksamhetsutveckling:intro:1",
+      "channel": "verksamhetsutveckling",
+      "date": "2026-10-20",
+      "title": "Från förändringsprojekt till faktisk förmåga",
+      "description": "Verksamhetsutveckling behöver följas från behov till faktiskt förändrat arbete. En teknisk leverans, en utbildning eller en ny organisationsstruktur kan vara genomförd samtidigt som den tänkta nyttan återstår. Introduktionen använder detta som utgångspunkt för en kanal om metod, teknik, organisation, införande och lärande i större myndigheter.",
+      "kind": "introduction",
+      "origin": "work_library",
+      "edition_type": "intro",
+      "production_identity": "WORK_LIBRARY_2026_10",
+      "library_release_id": "WORK_LIBRARY_2026_10_R1",
+      "is_intro": true,
+      "episode_order": 1,
+      "published_at": "2026-10-20T20:49:08.348898+00:00",
+      "audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/verksamhetsutveckling_intro/morgonpod.mp3",
+      "brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/verksamhetsutveckling_intro/brief.json",
+      "sources": "episodes/work_library/WORK_LIBRARY_2026_10_R1/verksamhetsutveckling_intro/kallor.json",
+      "duration_seconds": 1297.152,
+      "article_count": 1,
+      "tags": [
+        "Verksamhetsutveckling",
+        "Förändringsarbete",
+        "Utvärdering",
+        "Uppstartsavsnitt"
+      ],
+      "published_at_source": "publication_transaction"
+    },
+    {
+      "id": "WORK_LIBRARY_2026_10:vald:replacement_ordinary:2",
+      "channel": "vald",
+      "date": "2026-10-20",
+      "title": "Tisdag V.43: rekrytering och våld som tjänst",
+      "description": "Våld som tjänst behöver analyseras genom belagda roller och handlingar. Dagens fördjupning använder europeiska hotunderlag och svensk forskning för att diskutera digital rekrytering utan att tillskriva enskilda händelser obelagda kopplingar.",
+      "kind": "historical",
+      "origin": "work_library",
+      "edition_type": "replacement_ordinary",
+      "production_identity": "WORK_LIBRARY_2026_10",
+      "library_release_id": "WORK_LIBRARY_2026_10_R1",
+      "is_intro": false,
+      "episode_order": 2,
+      "published_at": "2026-10-20T20:49:08.348898+00:00",
+      "audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/vald_ordinary/morgonpod.mp3",
+      "brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/vald_ordinary/brief.json",
+      "sources": "episodes/work_library/WORK_LIBRARY_2026_10_R1/vald_ordinary/kallor.json",
+      "duration_seconds": 313.296,
+      "article_count": 1,
+      "tags": [
+        "vald",
+        "Fördjupning"
+      ],
+      "published_at_source": "publication_transaction"
+    },
+    {
+      "id": "WORK_LIBRARY_2026_10:vald:intro:1",
+      "channel": "vald",
+      "date": "2026-10-20",
+      "title": "Våld: förstå händelserna, relationerna och uppdragen",
+      "description": "Kanalen Våld ska ge en bred förståelse av grovt våld och ett särskilt analytiskt fokus på brottslighet och våld som tjänst, digital rekrytering och förändrade uppdragsrelationer. Uppstartsavsnittet riktar sig till professionella inom brottsbekämpning, rättsliga processer, analys och förebyggande verksamhet.",
+      "kind": "introduction",
+      "origin": "work_library",
+      "edition_type": "intro",
+      "production_identity": "WORK_LIBRARY_2026_10",
+      "library_release_id": "WORK_LIBRARY_2026_10_R1",
+      "is_intro": true,
+      "episode_order": 1,
+      "published_at": "2026-10-20T20:49:08.348898+00:00",
+      "audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/vald_intro/morgonpod.mp3",
+      "brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/vald_intro/brief.json",
+      "sources": "episodes/work_library/WORK_LIBRARY_2026_10_R1/vald_intro/kallor.json",
+      "duration_seconds": 1240.296,
+      "article_count": 1,
+      "tags": [
+        "Grovt våld",
+        "Digital rekrytering",
+        "Våld som tjänst",
+        "Uppstartsavsnitt"
+      ],
+      "published_at_source": "publication_transaction"
+    },
+    {
+      "id": "WORK_LIBRARY_2026_10:sjoomradet:replacement_ordinary:2",
+      "channel": "sjoomradet",
+      "date": "2026-10-20",
+      "title": "Tisdag V.43: skuggflottans ekonomi och maritim källkritik",
+      "description": "EU:s råd meddelade den 15 oktober 2026 nya restriktiva åtgärder mot tre personer och nio organisationer eller företag. Enligt pressmeddelandet gällde listningarna bland annat import av sanktionerade varor, oljerelaterat kringgående och finansiell förmedling. Flera företag beskrevs som delar av skuggflottans kringliggande miljö.",
+      "kind": "historical",
+      "origin": "work_library",
+      "edition_type": "replacement_ordinary",
+      "production_identity": "WORK_LIBRARY_2026_10",
+      "library_release_id": "WORK_LIBRARY_2026_10_R1",
+      "is_intro": false,
+      "episode_order": 2,
+      "published_at": "2026-10-20T20:49:08.348898+00:00",
+      "audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/sjoomradet_ordinary/morgonpod.mp3",
+      "brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/sjoomradet_ordinary/brief.json",
+      "sources": "episodes/work_library/WORK_LIBRARY_2026_10_R1/sjoomradet_ordinary/kallor.json",
+      "duration_seconds": 300.84,
+      "article_count": 1,
+      "tags": [
+        "sjoomradet",
+        "Fördjupning"
+      ],
+      "published_at_source": "publication_transaction"
+    },
+    {
+      "id": "WORK_LIBRARY_2026_10:sjoomradet:intro:1",
+      "channel": "sjoomradet",
+      "date": "2026-10-20",
+      "title": "Sjöområdet: Östersjön, säkerheten och den svenska lägesförståelsen",
+      "description": "Sjöområdet är Morgonpoddens kanal för kvalificerad lägesförståelse om Östersjön, maritim säkerhet, skuggflottan, Ukraina och svensk relevans. Uppstartsavsnittet riktar sig till professionella inom brottsbekämpning och närliggande myndigheter som behöver förstå maritima samband.",
+      "kind": "introduction",
+      "origin": "work_library",
+      "edition_type": "intro",
+      "production_identity": "WORK_LIBRARY_2026_10",
+      "library_release_id": "WORK_LIBRARY_2026_10_R1",
+      "is_intro": true,
+      "episode_order": 1,
+      "published_at": "2026-10-20T20:49:08.348898+00:00",
+      "audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/sjoomradet_intro/morgonpod.mp3",
+      "brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/sjoomradet_intro/brief.json",
+      "sources": "episodes/work_library/WORK_LIBRARY_2026_10_R1/sjoomradet_intro/kallor.json",
+      "duration_seconds": 1250.64,
+      "article_count": 1,
+      "tags": [
+        "Östersjön",
+        "Maritim säkerhet",
+        "Skuggflottan",
+        "Uppstartsavsnitt"
+      ],
+      "published_at_source": "publication_transaction"
+    },
+    {
+      "id": "WORK_LIBRARY_2026_10:lagstiftning:replacement_ordinary:2",
+      "channel": "lagstiftning",
+      "date": "2026-10-20",
+      "title": "Veckoöversikt 12 till 18 oktober 2026: motioner och rättslig status",
+      "description": "Veckoöversikten gäller uttryckligen 12 till 18 oktober 2026 och gör ett avgränsat urval ur riksdagsarbetet. Den påstår inte att inga andra rättsliga händelser inträffat. De kontrollerade handlingarna omfattar motioner, som återges med denna status.",
+      "kind": "historical",
+      "origin": "work_library",
+      "edition_type": "replacement_ordinary",
+      "production_identity": "WORK_LIBRARY_2026_10",
+      "library_release_id": "WORK_LIBRARY_2026_10_R1",
+      "is_intro": false,
+      "episode_order": 2,
+      "published_at": "2026-10-20T20:49:08.348898+00:00",
+      "audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/lagstiftning_ordinary/morgonpod.mp3",
+      "brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/lagstiftning_ordinary/brief.json",
+      "sources": "episodes/work_library/WORK_LIBRARY_2026_10_R1/lagstiftning_ordinary/kallor.json",
+      "duration_seconds": 346.536,
+      "article_count": 1,
+      "tags": [
+        "lagstiftning",
+        "Rättslig status"
+      ],
+      "published_at_source": "publication_transaction"
+    },
+    {
+      "id": "WORK_LIBRARY_2026_10:lagstiftning:intro:1",
+      "channel": "lagstiftning",
+      "date": "2026-10-20",
+      "title": "Lagstiftning: från förslag och beslut till tillämpning",
+      "description": "Kanalen Lagstiftning inom straffrätt ska ge spårbar orientering om straffrätt, straffprocess, reformer och rättspraxis. Målgruppen är professionella inom brottsbekämpning, åklagarverksamhet och närliggande myndigheter. Uppstartsavsnittet förklarar hur en rättslig nyhet behöver läsas innan den kan användas i verksamheten.",
+      "kind": "introduction",
+      "origin": "work_library",
+      "edition_type": "intro",
+      "production_identity": "WORK_LIBRARY_2026_10",
+      "library_release_id": "WORK_LIBRARY_2026_10_R1",
+      "is_intro": true,
+      "episode_order": 1,
+      "published_at": "2026-10-20T20:49:08.348898+00:00",
+      "audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/lagstiftning_intro/morgonpod.mp3",
+      "brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/lagstiftning_intro/brief.json",
+      "sources": "episodes/work_library/WORK_LIBRARY_2026_10_R1/lagstiftning_intro/kallor.json",
+      "duration_seconds": 1200.36,
+      "article_count": 1,
+      "tags": [
+        "Straffrätt",
+        "Straffprocess",
+        "Rättspraxis",
+        "Uppstartsavsnitt"
+      ],
+      "published_at_source": "publication_transaction"
+    },
+    {
+      "id": "WORK_LIBRARY_2026_10:kek:replacement_ordinary:2",
+      "channel": "kek",
+      "date": "2026-10-20",
+      "title": "Tisdag V.43: bolagets funktion i kriminell ekonomi",
+      "description": "Ett bolag kan vara relevant för att förstå avtal, betalningsflöden, kontroll och tjänster i ett misstänkt upplägg. Dagens fördjupning ställer frågor om ekonomiska funktioner och vilket underlag som stöder analysen.",
+      "kind": "historical",
+      "origin": "work_library",
+      "edition_type": "replacement_ordinary",
+      "production_identity": "WORK_LIBRARY_2026_10",
+      "library_release_id": "WORK_LIBRARY_2026_10_R1",
+      "is_intro": false,
+      "episode_order": 2,
+      "published_at": "2026-10-20T20:49:08.348898+00:00",
+      "audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/kek_ordinary/morgonpod.mp3",
+      "brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/kek_ordinary/brief.json",
+      "sources": "episodes/work_library/WORK_LIBRARY_2026_10_R1/kek_ordinary/kallor.json",
+      "duration_seconds": 319.608,
+      "article_count": 1,
+      "tags": [
+        "kek",
+        "Fördjupning"
+      ],
+      "published_at_source": "publication_transaction"
+    },
+    {
+      "id": "WORK_LIBRARY_2026_10:kek:intro:1",
+      "channel": "kek",
+      "date": "2026-10-20",
+      "title": "Kriminell ekonomi: följ pengarnas funktion i brottsligheten",
+      "description": "Kriminell ekonomi behandlas i kanalen som ekonomiska drivkrafter, funktioner och resurser i brottslighet. Begreppet ersätter inte prövning av en viss gärning. Introduktionen följer intäkter, bolag, penningtvätt, utnyttjade personer, tillgångar och motåtgärder.",
+      "kind": "introduction",
+      "origin": "work_library",
+      "edition_type": "intro",
+      "production_identity": "WORK_LIBRARY_2026_10",
+      "library_release_id": "WORK_LIBRARY_2026_10_R1",
+      "is_intro": true,
+      "episode_order": 1,
+      "published_at": "2026-10-20T20:49:08.348898+00:00",
+      "audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/kek_intro/morgonpod.mp3",
+      "brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/kek_intro/brief.json",
+      "sources": "episodes/work_library/WORK_LIBRARY_2026_10_R1/kek_intro/kallor.json",
+      "duration_seconds": 1236.264,
+      "article_count": 1,
+      "tags": [
+        "Kriminell ekonomi",
+        "Brottsvinster",
+        "Penningtvätt",
+        "Uppstartsavsnitt"
+      ],
+      "published_at_source": "publication_transaction"
+    },
+    {
+      "id": "WORK_LIBRARY_2026_10:it_juridik:special:5",
+      "channel": "it_juridik",
+      "date": "2026-10-20",
+      "title": "Från idé till system med inbyggt dataskydd",
+      "description": "Ett fungerande teknikprov besvarar en avgränsad fråga. Det visar inte ensamt att verkliga uppgifter får användas i en framtida tjänst. För bedömningen behöver verksamheten beskriva uppgifter, ändamål, användare, mottagare och planerade behandlingar.",
+      "kind": "historical",
+      "origin": "work_library",
+      "edition_type": "special",
+      "production_identity": "WORK_LIBRARY_2026_10",
+      "library_release_id": "WORK_LIBRARY_2026_10_R1",
+      "is_intro": false,
+      "episode_order": 5,
+      "published_at": "2026-10-20T20:49:08.348898+00:00",
+      "audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/it_juridik_special_4/morgonpod.mp3",
+      "brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/it_juridik_special_4/brief.json",
+      "sources": "episodes/work_library/WORK_LIBRARY_2026_10_R1/it_juridik_special_4/kallor.json",
+      "duration_seconds": 447.336,
+      "article_count": 1,
+      "tags": [
+        "IT-juridik",
+        "Dataskydd"
+      ],
+      "published_at_source": "publication_transaction"
+    },
+    {
+      "id": "WORK_LIBRARY_2026_10:it_juridik:special:4",
+      "channel": "it_juridik",
+      "date": "2026-10-20",
+      "title": "Behörigheter och loggning genom hela livscykeln",
+      "description": "Behörigheter behöver följa arbetsuppgifter över tid. Det räcker inte att en användare en gång fått rätt åtkomst. Brottsdataförordningen kräver rutiner för tilldelning, förändring, borttagning och regelbunden uppföljning. Vid tilldelning ska även utbildning och erfarenhet särskilt beaktas.",
+      "kind": "historical",
+      "origin": "work_library",
+      "edition_type": "special",
+      "production_identity": "WORK_LIBRARY_2026_10",
+      "library_release_id": "WORK_LIBRARY_2026_10_R1",
+      "is_intro": false,
+      "episode_order": 4,
+      "published_at": "2026-10-20T20:49:08.348898+00:00",
+      "audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/it_juridik_special_3/morgonpod.mp3",
+      "brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/it_juridik_special_3/brief.json",
+      "sources": "episodes/work_library/WORK_LIBRARY_2026_10_R1/it_juridik_special_3/kallor.json",
+      "duration_seconds": 453.36,
+      "article_count": 1,
+      "tags": [
+        "IT-juridik",
+        "Dataskydd"
+      ],
+      "published_at_source": "publication_transaction"
+    },
+    {
+      "id": "WORK_LIBRARY_2026_10:it_juridik:special:3",
+      "channel": "it_juridik",
+      "date": "2026-10-20",
+      "title": "Ändamål och informationsdelning: fyra prövningar i samma flöde",
+      "description": "Informationsdelning behöver beskrivas som en konkret behandling. Handlar det om att lämna ett dokument, vissa uppgifter, en sökmöjlighet eller en löpande anslutning? Skillnaden påverkar vilket underlag som behövs för bedömningen.",
+      "kind": "historical",
+      "origin": "work_library",
+      "edition_type": "special",
+      "production_identity": "WORK_LIBRARY_2026_10",
+      "library_release_id": "WORK_LIBRARY_2026_10_R1",
+      "is_intro": false,
+      "episode_order": 3,
+      "published_at": "2026-10-20T20:49:08.348898+00:00",
+      "audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/it_juridik_special_2/morgonpod.mp3",
+      "brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/it_juridik_special_2/brief.json",
+      "sources": "episodes/work_library/WORK_LIBRARY_2026_10_R1/it_juridik_special_2/kallor.json",
+      "duration_seconds": 428.592,
+      "article_count": 1,
+      "tags": [
+        "IT-juridik",
+        "Dataskydd"
+      ],
+      "published_at_source": "publication_transaction"
+    },
+    {
+      "id": "WORK_LIBRARY_2026_10:it_juridik:special:2",
+      "channel": "it_juridik",
+      "date": "2026-10-20",
+      "title": "Personuppgifter och valet av regelverk",
+      "description": "Ett alias eller en intern kod är inte automatiskt anonym information. Brottsdatalagens definition omfattar upplysningar om en identifierad eller identifierbar fysisk person som är i livet. I en konkret arbetsyta behöver man därför beskriva om och hur uppgifterna kan hänföras till en person. En kolumnrubrik avgör inte detta.",
+      "kind": "historical",
+      "origin": "work_library",
+      "edition_type": "special",
+      "production_identity": "WORK_LIBRARY_2026_10",
+      "library_release_id": "WORK_LIBRARY_2026_10_R1",
+      "is_intro": false,
+      "episode_order": 2,
+      "published_at": "2026-10-20T20:49:08.348898+00:00",
+      "audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/it_juridik_special_1/morgonpod.mp3",
+      "brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/it_juridik_special_1/brief.json",
+      "sources": "episodes/work_library/WORK_LIBRARY_2026_10_R1/it_juridik_special_1/kallor.json",
+      "duration_seconds": 452.688,
+      "article_count": 1,
+      "tags": [
+        "IT-juridik",
+        "Dataskydd"
+      ],
+      "published_at_source": "publication_transaction"
+    },
+    {
+      "id": "WORK_LIBRARY_2026_10:it_juridik:intro:1",
+      "channel": "it_juridik",
+      "date": "2026-10-20",
+      "title": "IT-juridik och dataskydd: från verksamhetsbehov till rättsligt hållbar behandling",
+      "description": "En sammanhängande introduktion till dataskydd, sekretess, åtkomst och systemutformning för brottsbekämpande verksamhet.",
+      "kind": "introduction",
+      "origin": "work_library",
+      "edition_type": "intro",
+      "production_identity": "WORK_LIBRARY_2026_10",
+      "library_release_id": "WORK_LIBRARY_2026_10_R1",
+      "is_intro": true,
+      "episode_order": 1,
+      "published_at": "2026-10-20T20:49:08.348898+00:00",
+      "audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/it_juridik_intro/morgonpod.mp3",
+      "brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/it_juridik_intro/brief.json",
+      "sources": "episodes/work_library/WORK_LIBRARY_2026_10_R1/it_juridik_intro/kallor.json",
+      "duration_seconds": 1394.688,
+      "article_count": 1,
+      "tags": [
+        "IT-juridik",
+        "Dataskydd",
+        "Informationsdelning",
+        "Uppstartsavsnitt"
+      ],
+      "published_at_source": "publication_transaction"
+    },
+    {
+      "id": "WORK_LIBRARY_2026_10:ibat:replacement_ordinary:2",
+      "channel": "ibat",
+      "date": "2026-10-20",
+      "title": "Tisdag V.43: källor, kvalitet och lägesförståelse",
+      "description": "Informationsförsörjning behöver bära mer än själva uppgiften. Dagens fördjupning handlar om ursprung, tid, betydelse, kvalitet och ansvar när information används för analys och lägesförståelse.",
+      "kind": "historical",
+      "origin": "work_library",
+      "edition_type": "replacement_ordinary",
+      "production_identity": "WORK_LIBRARY_2026_10",
+      "library_release_id": "WORK_LIBRARY_2026_10_R1",
+      "is_intro": false,
+      "episode_order": 2,
+      "published_at": "2026-10-20T20:49:08.348898+00:00",
+      "audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ibat_ordinary/morgonpod.mp3",
+      "brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ibat_ordinary/brief.json",
+      "sources": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ibat_ordinary/kallor.json",
+      "duration_seconds": 344.184,
+      "article_count": 1,
+      "tags": [
+        "ibat",
+        "Fördjupning"
+      ],
+      "published_at_source": "publication_transaction"
+    },
+    {
+      "id": "WORK_LIBRARY_2026_10:ibat:intro:1",
+      "channel": "ibat",
+      "date": "2026-10-20",
+      "title": "IBAT: från uppgift till lägesförståelse",
+      "description": "Informationsförsörjning är kanalens namn på förmågan att få ett begripligt och användbart underlag till en bestämd uppgift under rätt villkor. Introduktionen följer kedjan från behov och källa till analysprodukt och återkoppling.",
+      "kind": "introduction",
+      "origin": "work_library",
+      "edition_type": "intro",
+      "production_identity": "WORK_LIBRARY_2026_10",
+      "library_release_id": "WORK_LIBRARY_2026_10_R1",
+      "is_intro": true,
+      "episode_order": 1,
+      "published_at": "2026-10-20T20:49:08.348898+00:00",
+      "audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ibat_intro/morgonpod.mp3",
+      "brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ibat_intro/brief.json",
+      "sources": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ibat_intro/kallor.json",
+      "duration_seconds": 1238.544,
+      "article_count": 1,
+      "tags": [
+        "Informationsförsörjning",
+        "Datakvalitet",
+        "Lägesförståelse",
+        "Uppstartsavsnitt"
+      ],
+      "published_at_source": "publication_transaction"
+    },
+    {
+      "id": "WORK_LIBRARY_2026_10:ai_brottsbekampning:special:5",
+      "channel": "ai_brottsbekampning",
+      "date": "2026-10-20",
+      "title": "AI-förordningen och dataskyddet: olika regelverk i samma system",
+      "description": "Ett AI-system behöver beskrivas med uppgift, aktörer, roller och informationsflöde. Modellens namn räcker inte för att avgöra vilka rättsliga frågor som aktualiseras. Specialavsnittet skiljer AI-förordningens riskregler från den konkreta personuppgiftsbehandling och informationsdelning som sker.",
+      "kind": "historical",
+      "origin": "work_library",
+      "edition_type": "special",
+      "production_identity": "WORK_LIBRARY_2026_10",
+      "library_release_id": "WORK_LIBRARY_2026_10_R1",
+      "is_intro": false,
+      "episode_order": 5,
+      "published_at": "2026-10-20T20:49:08.348898+00:00",
+      "audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ai_brottsbekampning_special_4/morgonpod.mp3",
+      "brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ai_brottsbekampning_special_4/brief.json",
+      "sources": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ai_brottsbekampning_special_4/kallor.json",
+      "duration_seconds": 380.784,
+      "article_count": 1,
+      "tags": [
+        "AI",
+        "Brottsbekämpning",
+        "Införande"
+      ],
+      "published_at_source": "publication_transaction"
+    },
+    {
+      "id": "WORK_LIBRARY_2026_10:ai_brottsbekampning:special:4",
+      "channel": "ai_brottsbekampning",
+      "date": "2026-10-20",
+      "title": "Från pilot till drift: mänsklig kontroll som arbetsuppgift",
+      "description": "En pilot visar ett avgränsat resultat under vissa förutsättningar. Drift innebär ofta andra volymer, användare och tidsvillkor. Specialavsnittet följer ett fiktivt sammanfattningsstöd för att göra övergångens frågor konkreta.",
+      "kind": "historical",
+      "origin": "work_library",
+      "edition_type": "special",
+      "production_identity": "WORK_LIBRARY_2026_10",
+      "library_release_id": "WORK_LIBRARY_2026_10_R1",
+      "is_intro": false,
+      "episode_order": 4,
+      "published_at": "2026-10-20T20:49:08.348898+00:00",
+      "audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ai_brottsbekampning_special_3/morgonpod.mp3",
+      "brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ai_brottsbekampning_special_3/brief.json",
+      "sources": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ai_brottsbekampning_special_3/kallor.json",
+      "duration_seconds": 370.416,
+      "article_count": 1,
+      "tags": [
+        "AI",
+        "Brottsbekämpning",
+        "Införande"
+      ],
+      "published_at_source": "publication_transaction"
+    },
+    {
+      "id": "WORK_LIBRARY_2026_10:ai_brottsbekampning:special:3",
+      "channel": "ai_brottsbekampning",
+      "date": "2026-10-20",
+      "title": "Att mäta nytta: träffsäkerhet, fel och basfrekvens",
+      "description": "En träffprocent behöver en tydlig nämnare och en beskriven uppgift. Specialavsnittet använder ett konstruerat dokumentexempel för att visa skillnaden mellan att hitta många relevanta fall och att ha hög andel relevanta bland alla markeringar.",
+      "kind": "historical",
+      "origin": "work_library",
+      "edition_type": "special",
+      "production_identity": "WORK_LIBRARY_2026_10",
+      "library_release_id": "WORK_LIBRARY_2026_10_R1",
+      "is_intro": false,
+      "episode_order": 3,
+      "published_at": "2026-10-20T20:49:08.348898+00:00",
+      "audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ai_brottsbekampning_special_2/morgonpod.mp3",
+      "brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ai_brottsbekampning_special_2/brief.json",
+      "sources": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ai_brottsbekampning_special_2/kallor.json",
+      "duration_seconds": 369.024,
+      "article_count": 1,
+      "tags": [
+        "AI",
+        "Brottsbekämpning",
+        "Införande"
+      ],
+      "published_at_source": "publication_transaction"
+    },
+    {
+      "id": "WORK_LIBRARY_2026_10:ai_brottsbekampning:special:2",
+      "channel": "ai_brottsbekampning",
+      "date": "2026-10-20",
+      "title": "Språkmodeller och källstöd: varför flytande text kan vara fel",
+      "description": "Ett välskrivet AI-svar behöver kontrolleras mot det som faktiskt påstås. NIST:s riskprofil för generativ AI beskriver konfabulering: felaktigt innehåll som presenteras med säkerhet. Risken omfattar även källhänvisningar och resonemang som ser övertygande ut.",
+      "kind": "historical",
+      "origin": "work_library",
+      "edition_type": "special",
+      "production_identity": "WORK_LIBRARY_2026_10",
+      "library_release_id": "WORK_LIBRARY_2026_10_R1",
+      "is_intro": false,
+      "episode_order": 2,
+      "published_at": "2026-10-20T20:49:08.348898+00:00",
+      "audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ai_brottsbekampning_special_1/morgonpod.mp3",
+      "brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ai_brottsbekampning_special_1/brief.json",
+      "sources": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ai_brottsbekampning_special_1/kallor.json",
+      "duration_seconds": 315.768,
+      "article_count": 1,
+      "tags": [
+        "AI",
+        "Brottsbekämpning",
+        "Införande"
+      ],
+      "published_at_source": "publication_transaction"
+    },
+    {
+      "id": "WORK_LIBRARY_2026_10:ai_brottsbekampning:intro:1",
+      "channel": "ai_brottsbekampning",
+      "date": "2026-10-20",
+      "title": "AI i brottsbekämpningen: uppgift, evidens och ansvar",
+      "description": "AI behöver bedömas genom den arbetsuppgift som ska stödjas. Introduktionen går från ett fiktivt försök med öppna rapporter till frågor om källstöd, mätning, mänsklig kontroll, säkerhet, rättsliga villkor och förvaltning.",
+      "kind": "introduction",
+      "origin": "work_library",
+      "edition_type": "intro",
+      "production_identity": "WORK_LIBRARY_2026_10",
+      "library_release_id": "WORK_LIBRARY_2026_10_R1",
+      "is_intro": true,
+      "episode_order": 1,
+      "published_at": "2026-10-20T20:49:08.348898+00:00",
+      "audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ai_brottsbekampning_intro/morgonpod.mp3",
+      "brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ai_brottsbekampning_intro/brief.json",
+      "sources": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ai_brottsbekampning_intro/kallor.json",
+      "duration_seconds": 1266.12,
+      "article_count": 1,
+      "tags": [
+        "AI",
+        "Brottsbekämpning",
+        "Införande",
+        "Uppstartsavsnitt"
+      ],
+      "published_at_source": "publication_transaction"
+    },
+    {
       "production_schema": 2,
       "articles_required": true,
       "article_count": 3,
@@ -209,302 +858,6 @@
         }
       ],
       "brief": "episodes/sjoomradet/2026-10-20/brief.json"
-    },
-    {
-      "production_schema": 2,
-      "kind": "introduction",
-      "duration_seconds": 1761.288,
-      "duration_status": "within_target",
-      "target_minutes": [
-        20,
-        40
-      ],
-      "channel": "kek",
-      "date": "2026-10-19",
-      "title": "Kriminell ekonomi: Uppstartsavsnitt",
-      "description": "Pedagogisk grundkurs och sammanhängande fördjupning.",
-      "audio": "episodes/kek/2026-10-19-intro/morgonpod.mp3",
-      "audio_version": "5c963353678e4ed1",
-      "sources": "episodes/kek/2026-10-19-intro/kallor.json",
-      "tags": [],
-      "topics": [],
-      "brief": "episodes/kek/2026-10-19-intro/brief.json"
-    },
-    {
-      "production_schema": 2,
-      "kind": "introduction",
-      "duration_seconds": 2025.672,
-      "duration_status": "within_target",
-      "target_minutes": [
-        20,
-        40
-      ],
-      "channel": "vald",
-      "date": "2026-10-19",
-      "title": "Våld: Uppstartsavsnitt",
-      "description": "Pedagogisk grundkurs och sammanhängande fördjupning.",
-      "audio": "episodes/vald/2026-10-19-intro/morgonpod.mp3",
-      "audio_version": "c9382f837b35d96a",
-      "sources": "episodes/vald/2026-10-19-intro/kallor.json",
-      "tags": [],
-      "topics": [],
-      "brief": "episodes/vald/2026-10-19-intro/brief.json"
-    },
-    {
-      "production_schema": 2,
-      "kind": "introduction",
-      "duration_seconds": 2148.672,
-      "duration_status": "within_target",
-      "target_minutes": [
-        20,
-        40
-      ],
-      "channel": "sjoomradet",
-      "date": "2026-10-19",
-      "title": "Sjöområdet: Uppstartsavsnitt",
-      "description": "Pedagogisk grundkurs och sammanhängande fördjupning.",
-      "audio": "episodes/sjoomradet/2026-10-19-intro/morgonpod.mp3",
-      "audio_version": "6b88257ac67bde0a",
-      "sources": "episodes/sjoomradet/2026-10-19-intro/kallor.json",
-      "tags": [],
-      "topics": [],
-      "brief": "episodes/sjoomradet/2026-10-19-intro/brief.json"
-    },
-    {
-      "production_schema": 2,
-      "kind": "introduction",
-      "duration_seconds": 1882.656,
-      "duration_status": "within_target",
-      "target_minutes": [
-        20,
-        40
-      ],
-      "channel": "lagstiftning",
-      "date": "2026-10-19",
-      "title": "Lagstiftning: Uppstartsavsnitt",
-      "description": "Pedagogisk grundkurs och sammanhängande fördjupning.",
-      "audio": "episodes/lagstiftning/2026-10-19-intro/morgonpod.mp3",
-      "audio_version": "97b15351ecdd00b4",
-      "sources": "episodes/lagstiftning/2026-10-19-intro/kallor.json",
-      "tags": [],
-      "topics": [],
-      "brief": "episodes/lagstiftning/2026-10-19-intro/brief.json"
-    },
-    {
-      "production_schema": 2,
-      "kind": "introduction",
-      "duration_seconds": 1834.632,
-      "duration_status": "within_target",
-      "target_minutes": [
-        20,
-        40
-      ],
-      "channel": "ibat",
-      "date": "2026-10-19",
-      "title": "IBAT Informationsförsörjningen: Uppstartsavsnitt",
-      "description": "Pedagogisk grundkurs och sammanhängande fördjupning.",
-      "audio": "episodes/2026-10-19-intro/morgonpod.mp3",
-      "audio_version": "156bd1f4a998c62b",
-      "sources": "episodes/2026-10-19-intro/kallor.json",
-      "tags": [],
-      "topics": [],
-      "brief": "episodes/2026-10-19-intro/brief.json"
-    },
-    {
-      "production_schema": 2,
-      "kind": "daily",
-      "duration_seconds": 256.56,
-      "duration_status": "short",
-      "target_minutes": [
-        6,
-        10
-      ],
-      "channel": "vald",
-      "date": "2026-10-19",
-      "title": "Morgonbrief",
-      "description": "Välkomna till Våld. Det är måndagen den 19 oktober 2026. Idag fokuserar vi på det uppmärksammade dödsskjutningen på en idrottsanläggning i Älvsjö i södra Stockholm, och sätter det i kontext med Polismyndighetens preliminära statistik för årets första nio månader.",
-      "audio": "episodes/vald/2026-10-19/morgonpod.mp3",
-      "audio_version": "4731c96fa6775556",
-      "sources": "episodes/vald/2026-10-19/kallor.json",
-      "tags": [
-        "Inrikes",
-        "Statistik"
-      ],
-      "topics": [
-        {
-          "id": "inrikes",
-          "name": "Inrikes"
-        },
-        {
-          "id": "statistik",
-          "name": "Statistik"
-        }
-      ],
-      "brief": "episodes/vald/2026-10-19/brief.json"
-    },
-    {
-      "production_schema": 2,
-      "kind": "weekly",
-      "duration_seconds": 189.888,
-      "duration_status": "short",
-      "target_minutes": [
-        5,
-        10
-      ],
-      "channel": "lagstiftning",
-      "date": "2026-10-19",
-      "title": "Veckans lagstiftningsöversikt",
-      "description": "Välkommen till Lagstiftning. Idag är det måndag den 19 oktober 2026, och vi ger dig en professionell och pedagogisk omvärldsbevakning av svensk straffrätt och rättsliga befogenheter. I detta avsnitt fokuserar vi på två centrala lagstiftningsärenden i riksdagen: de planerade stegen kring den europeiska och nordiska arresteringsordern inför utskottsjusteringen den 20 oktober, samt det nya lagförslaget om människohandel inför utskottets planerade be",
-      "audio": "episodes/lagstiftning/2026-10-19/morgonpod.mp3",
-      "audio_version": "75ea052ca0f90949",
-      "sources": "episodes/lagstiftning/2026-10-19/kallor.json",
-      "tags": [
-        "Straffprocess och internationellt samarbete",
-        "Organiserad brottslighet och människohandel"
-      ],
-      "topics": [
-        {
-          "id": "straffprocess-och-internationellt-samarbete",
-          "name": "Straffprocess och internationellt samarbete"
-        },
-        {
-          "id": "organiserad-brottslighet-och-människohandel",
-          "name": "Organiserad brottslighet och människohandel"
-        }
-      ],
-      "brief": "episodes/lagstiftning/2026-10-19/brief.json"
-    },
-    {
-      "production_schema": 2,
-      "kind": "daily",
-      "duration_seconds": 243.456,
-      "duration_status": "short",
-      "target_minutes": [
-        6,
-        10
-      ],
-      "channel": "sjoomradet",
-      "date": "2026-10-19",
-      "title": "Morgonbrief",
-      "description": "Det här är en vardagsbrief från Sjöområdet med datumet den 19 oktober 2026. I dag fokuserar vi på hur Finland systematiskt stoppar fastighetsaffärer nära kritisk infrastruktur, samtidigt som den svenska lagstiftningen alltjämt saknar motsvarande generella verktyg.",
-      "audio": "episodes/sjoomradet/2026-10-19/morgonpod.mp3",
-      "audio_version": "eb0f06075a83b1c2",
-      "sources": "episodes/sjoomradet/2026-10-19/kallor.json",
-      "tags": [
-        "Maritim säkerhet och kritisk infrastruktur"
-      ],
-      "topics": [
-        {
-          "id": "maritim-säkerhet-och-kritisk-infrastruktur",
-          "name": "Maritim säkerhet och kritisk infrastruktur"
-        }
-      ],
-      "brief": "episodes/sjoomradet/2026-10-19/brief.json"
-    },
-    {
-      "production_schema": 2,
-      "kind": "daily",
-      "duration_seconds": 421.896,
-      "duration_status": "within_target",
-      "target_minutes": [
-        6,
-        10
-      ],
-      "channel": "kek",
-      "date": "2026-10-19",
-      "title": "Morgonbrief",
-      "description": "Välkommen till dagens avsnitt av Kriminell ekonomi. I dag fokuserar vi på hur nya syntetiska drogvågor förändrar den globala narkotikamarknaden och hur andra länder skyddar strategiska fastigheter mot säkerhetshot.",
-      "audio": "episodes/kek/2026-10-19/morgonpod.mp3",
-      "audio_version": "5bb552915c1d8d1b",
-      "sources": "episodes/kek/2026-10-19/kallor.json",
-      "tags": [
-        "Penningtvätt och brottsvinster",
-        "Tillgångsinriktad brottsbekämpning"
-      ],
-      "topics": [
-        {
-          "id": "penningtvätt-och-brottsvinster",
-          "name": "Penningtvätt och brottsvinster"
-        },
-        {
-          "id": "tillgångsinriktad-brottsbekämpning",
-          "name": "Tillgångsinriktad brottsbekämpning"
-        }
-      ],
-      "brief": "episodes/kek/2026-10-19/brief.json"
-    },
-    {
-      "production_schema": 2,
-      "kind": "daily",
-      "duration_seconds": 246.024,
-      "duration_status": "short",
-      "target_minutes": [
-        6,
-        10
-      ],
-      "channel": "ibat",
-      "date": "2026-10-19",
-      "title": "Morgonbrief",
-      "description": "Morgonbriefing den 19 oktober 2026. Vi rapporterar i dag om Finlands förebyggande lagstiftning mot utländska fastighetsköp nära infrastrukturobjekt, AI-bolaget Anthropics beslut att släppa in externa granskare på systemnivå, samt den svenska livsmedelsförsörjningens känslighet vid ett eventuellt importstopp.",
-      "audio": "episodes/2026-10-19/morgonpod.mp3",
-      "audio_version": "100e3f3503419a7d",
-      "sources": "episodes/2026-10-19/kallor.json",
-      "tags": [
-        "Juridik, integritet och informationssäkerhet",
-        "AI för informationsanalys",
-        "Informationsförsörjning och dataplattformar"
-      ],
-      "topics": [
-        {
-          "id": "juridik,-integritet-och-informationssäkerhet",
-          "name": "Juridik, integritet och informationssäkerhet"
-        },
-        {
-          "id": "ai-för-informationsanalys",
-          "name": "AI för informationsanalys"
-        },
-        {
-          "id": "informationsförsörjning-och-dataplattformar",
-          "name": "Informationsförsörjning och dataplattformar"
-        }
-      ],
-      "brief": "episodes/2026-10-19/brief.json"
-    },
-    {
-      "production_schema": 2,
-      "kind": "introduction",
-      "duration_seconds": 1782.12,
-      "duration_status": "within_target",
-      "target_minutes": [
-        20,
-        40
-      ],
-      "channel": "kek",
-      "date": "2026-10-15",
-      "title": "Kriminell ekonomi: Uppstartsavsnitt",
-      "description": "Pedagogisk grundkurs och sammanhängande fördjupning.",
-      "audio": "episodes/kek/2026-10-15-intro/morgonpod.mp3",
-      "audio_version": "97c807198eabc8dc",
-      "sources": "episodes/kek/2026-10-15-intro/kallor.json",
-      "brief": "episodes/kek/2026-10-15-intro/brief.json"
-    },
-    {
-      "production_schema": 2,
-      "kind": "introduction",
-      "duration_seconds": 1830.072,
-      "duration_status": "within_target",
-      "target_minutes": [
-        20,
-        40
-      ],
-      "channel": "vald",
-      "date": "2026-10-15",
-      "title": "Våld: Uppstartsavsnitt",
-      "description": "Pedagogisk grundkurs och sammanhängande fördjupning.",
-      "audio": "episodes/vald/2026-10-15-intro/morgonpod.mp3",
-      "audio_version": "12185cc7831eced1",
-      "sources": "episodes/vald/2026-10-15-intro/kallor.json",
-      "brief": "episodes/vald/2026-10-15-intro/brief.json"
     }
   ]
 }

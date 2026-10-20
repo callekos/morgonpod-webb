@@ -1,0 +1,40 @@
+{
+  "id": "article-a3bc9d16104cd0534018ae3e",
+  "episode_id": "kek:2026-10-19:daily",
+  "date": "2026-10-19",
+  "channel": "kek",
+  "kind": "daily",
+  "episode_title": "Morgonbrief",
+  "episode_audio": "episodes/kek/2026-10-19/morgonpod.mp3",
+  "episode_brief": "episodes/kek/2026-10-19/brief.json",
+  "article_index": 0,
+  "title": "Strypt import och syntetiska droger i USA",
+  "summary": "Enligt en artikel publicerad av BBC News den 18 oktober 2026 pressas USA av en ny våg hemlagade syntetiska droger där traditionella ämnen blandas ut med kraftfulla animaliska lugnande medel som medetomidin och xylazin. Rapporten visar hur karteller och lokala tillverkare anpassar sina distributionskedjor, och hur fängelser drabbas av smugglingsmetoder där droger dränks in i papper.",
+  "body": "Den här utvecklingen belyser hur snabbt illegala marknader anpassar sig när traditionella gränskontroller skärps. För svensk och europeisk lägesförståelse understryker detta riskerna med kemisk diversifiering inom den organiserade brottsligheten och hur marknadens flöden ständigt söker nya vägar.",
+  "context": "Den här utvecklingen belyser hur snabbt illegala marknader anpassar sig när traditionella gränskontroller skärps. För svensk och europeisk lägesförståelse understryker detta riskerna med kemisk diversifiering inom den organiserade brottsligheten och hur marknadens flöden ständigt söker nya vägar.",
+  "source_url": "https://www.bbc.co.uk/news/articles/cmx2wvyv5j17o?at_medium=RSS&at_campaign=rss",
+  "sources": [
+    {
+      "url": "https://www.bbc.co.uk/news/articles/cmx2wvyv5j17o?at_medium=RSS&at_campaign=rss",
+      "title": "BBC News"
+    }
+  ],
+  "topics": [
+    "penningtvätt-och-brottsvinster"
+  ],
+  "topic_labels": [
+    "Penningtvätt och brottsvinster"
+  ],
+  "assessment": "En bedömning från räddnings- och fängelsepersonal i BBC-reportaget är att syntetiska droger tillverkade i hemmamiljö har gjort narkotikamarknaden betydligt svårare att kontrollera enbart via traditionellt gränsarbete.",
+  "open_questions": [
+    "Hur sprids liknande syntetiska substanser till europeiska marknader?",
+    "Vilka nya detektionsmetoder krävs för att upptäcka pappersburen drogsmuggling?"
+  ],
+  "previous_reporting": [],
+  "event_links": [],
+  "body_provenance": "legacy_context",
+  "recorded_at": "2026-10-19T05:47:31.476190+00:00",
+  "revision": 1,
+  "fingerprint": "7791361f8d202bcff6acaca8a50617d141c162e4e1330e38138a1b40d28e8a47",
+  "history": []
+}

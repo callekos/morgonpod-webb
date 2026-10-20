@@ -1,0 +1,16 @@
+{
+  "kind": "historical",
+  "duration_seconds": 345.6,
+  "target_minutes": [
+    5,
+    10
+  ],
+  "duration_status": "within_target",
+  "channel": "verksamhetsutveckling",
+  "date": "2026-10-20",
+  "audio_sha256": "65f6d7c5003ebdfe0cce62ad84e71a4444f6a1d67770cd495c0671cc7c0cfa54",
+  "audio_bytes": 2476341,
+  "decoded": true,
+  "checked_at": "2026-10-20T19:10:17.532886+00:00",
+  "editorial_approval": "not_established_by_audio_check"
+}

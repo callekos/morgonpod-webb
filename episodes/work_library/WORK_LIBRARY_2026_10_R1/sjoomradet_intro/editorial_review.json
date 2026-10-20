@@ -1,0 +1,76 @@
+{
+  "approved": true,
+  "reviewer": "ChatGPT Work, separat andra genomläsning",
+  "independent_human_review": false,
+  "reviewed_at": "2026-10-20T18:50:27.293582+00:00",
+  "package_sha256": "875597d9e29410b686565d76877116d70f623b5f8d940079c8598009df1d0fba",
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "HELCOM beskriver Östersjöns brackvatten och begränsade vattenutbyte.",
+      "source_ids": [
+        "sjoomradet_foundation_1"
+      ],
+      "locator": "About the Baltic Sea, 2023 assessment",
+      "status": "verified"
+    },
+    {
+      "id": "C02",
+      "claim": "Sjötransporter omfattar transport och hamninfrastruktur.",
+      "source_ids": [
+        "sjoomradet_foundation_7"
+      ],
+      "locator": "Economic impacts, Marine transport",
+      "status": "verified"
+    },
+    {
+      "id": "C03",
+      "claim": "IMO är FN:s fackorgan med internationellt standarduppdrag.",
+      "source_ids": [
+        "sjoomradet_foundation_2"
+      ],
+      "locator": "Introduction to IMO, inledningen",
+      "status": "verified"
+    },
+    {
+      "id": "C04",
+      "claim": "EU:s strategi antogs 2014, uppdaterades 2023 och översikten behandlar kritisk infrastruktur, cyberhot och skuggflotta.",
+      "source_ids": [
+        "sjoomradet_foundation_4"
+      ],
+      "locator": "Maritime security, Safe and secure seas och Critical infrastructure",
+      "status": "verified"
+    },
+    {
+      "id": "C05",
+      "claim": "Rådet beslutade om fartygsåtgärder 18 december 2025.",
+      "source_ids": [
+        "sjoomradet_foundation_6"
+      ],
+      "locator": "Press release inledning",
+      "status": "verified"
+    },
+    {
+      "id": "C06",
+      "claim": "Rådets beslut 15 oktober 2026 gäller personer och företag, bland annat aktörer i skuggflottans ekosystem.",
+      "source_ids": [
+        "sanctions_20261015"
+      ],
+      "locator": "Closing loopholes, listningar och åtgärdstyp; inga nya fartyg påstås",
+      "status": "verified"
+    }
+  ],
+  "checks": {
+    "review": "Separat andra Workgenomläsning av manus och artikel",
+    "correction": "15 oktober gäller personer och företag, inte nya fartygslistningar. Korrigerat före ljud.",
+    "attribution": "Risk, skada, avsikt och ansvar hålls isär; ingen obelagd attribution",
+    "legal": "Officiell översikt skiljs från individuell tillämpning och befogenhet",
+    "examples": "Alla verksamhetsfall fiktiva",
+    "statistics": "Inga historiska transporttal eller globala andelar används som aktuell svensk statistik",
+    "restored_duration_revision": "Återställt exakt sakligt tillägg från föregående Worketapp efter rensad arbetsyta. Separat andra genomläsning. Inga nya externa faktapåståenden. Tidigare korta ljudgrindar sänks inte."
+  },
+  "remaining_gates": [
+    "Verkligt godkänt ljud och staging",
+    "25-paketsrelease och liveverifiering"
+  ]
+}

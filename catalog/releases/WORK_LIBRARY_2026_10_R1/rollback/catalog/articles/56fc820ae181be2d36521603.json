@@ -1,0 +1,40 @@
+{
+  "id": "article-744a37e0bd928151e738f5a0",
+  "episode_id": "ibat:2026-10-19:daily",
+  "date": "2026-10-19",
+  "channel": "ibat",
+  "kind": "daily",
+  "episode_title": "Morgonbrief",
+  "episode_audio": "episodes/2026-10-19/morgonpod.mp3",
+  "episode_brief": "episodes/2026-10-19/brief.json",
+  "article_index": 0,
+  "title": "Finland stoppar strategiska fastighetsköp medan Sverige saknar motsvarande skydd",
+  "summary": "Finland har fram till den 1 september 2026 stoppat 68 fastighetsaffärer på grund av säkerhetsrisker nära kritisk infrastruktur. Sedan juli 2025 råder dessutom ett principiellt förbud för ryska och belarusiska medborgare att köpa fastigheter i landet. SVT Nyheter rapporterar den 19 oktober att Sverige fortfarande saknar en motsvarande generell lagstiftning för att stoppa utländska fastighetsköp som hotar den nationella säkerheten.",
+  "body": "Finlands konsekventa arbete med att spärra fastighetsköp kopplade till utländska säkerhetsrisker visar på markanta skillnader i det nordiska grannskapet. Enligt uppgifter publicerade av SVT Nyheter den 19 oktober 2026 har Finland spärrat totalt 68 fastighetsaffärer sedan 2022 med hänvisning till nationella säkerhetsintressen. Det handlar om objekt nära kritisk infrastruktur, orimliga affärsplaner eller köpare med kopplingar till utländsk elit. Vidare införde Finland i juli 2025 ett generellt förbud mot ryska och belarusiska medborgares fastighetsköp.\n\nI Sverige saknas i dagsläget en generell lagstiftning som gör det möjligt för staten att stoppa utländska fastighetsköp med hänvisning till nationell säkerhet, trots upprepade varningar från Säkerhetspolisen. Enligt expertis vid Finlands försvarshögskola ger en förhandstillsyn en avskräckande effekt och sparar resurser jämfört med utdragna expropriationsförfaranden. Samtidigt pekar analytiker på att bulvanförhållanden utgör en betydande lucka i lagstiftningen som kräver kvalificerade granskningsmetoder snarare än enbart kontroll av medborgarskap.",
+  "context": "Möjligheten att förvärva fastigheter vid strategiska platser utgör en sårbarhet som fientlig underrättelsetjänst kan utnyttja. Finlands erfarenheter visar på vikten av tidiga spärrmekanismer, men understryker samtidigt utmaningen med bulvaner och behovet av fördjupad nätverksanalys.",
+  "source_url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag",
+  "sources": [
+    {
+      "url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag",
+      "title": "SVT Nyheter"
+    }
+  ],
+  "topics": [
+    "juridik-integritet-och-informationssäkerhet"
+  ],
+  "topic_labels": [
+    "Juridik, integritet och informationssäkerhet"
+  ],
+  "assessment": "Att förlita sig enbart på medborgarskap som spärrmekanism ger en falsk trygghet. Professionella aktörer använder regelmässigt bulvaner eller komplexa bolagsstrukturer för att dölja det verkliga ägandet, vilket kräver djupare transaktionsanalys.",
+  "open_questions": [
+    "Hur påverkar de finska inskränkningarna ryska aktörers intresse för fastighetsförvärv i Sverige?",
+    "Vilka datakällor och analysverktyg krävs för att effektivt identifiera bulvanförhållanden vid Fastighetsinspektioner?"
+  ],
+  "previous_reporting": [],
+  "event_links": [],
+  "body_provenance": "editorial_body",
+  "recorded_at": "2026-10-19T05:45:53.853280+00:00",
+  "revision": 1,
+  "fingerprint": "62a06f5e853c0062b6cdb382d0e1d8d1f87ad6d7b6b92735af524210deff1f62",
+  "history": []
+}

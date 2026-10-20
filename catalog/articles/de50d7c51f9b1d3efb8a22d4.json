@@ -1,1 +1,43 @@
-{"id":"article-5263fa3dfc3f55b50682c1a1","episode_id":"ibat:2026-10-19:daily","date":"2026-10-19","channel":"ibat","kind":"daily","episode_title":"Morgonbrief","episode_audio":"episodes/2026-10-19/morgonpod.mp3","episode_brief":"episodes/2026-10-19/brief.json","article_index":2,"title":"Beräkningar visar hög sårbarhet i svensk livsmedelsförsörjning vid importstopp","summary":"En ny analys från Lantbrukarnas Riksförbund visar att flera grundläggande livsmedel snabbt skulle ta slut i Sverige vid ett strypt importflöde. SVT Nyheter rapporterar den 19 oktober 2026 att tomater beräknas ta slut efter två månader och ost efter fem månader på grund av ett 50-procentigt importberoende. Norrländska producenter pekar på höga energikostnader som ett hinder för att öka den inhemska odlingen.","body":"Det svenska importberoendet inom livsmedelssektorn skapar påtagliga sårbarheter i det nationella försörjningssystemet. SVT Nyheter rapporterar den 19 oktober 2026 om beräkningar gjorda av Lantbrukarnas Riksförbund, LRF, som visar att hälften av alla livsmedel som konsumeras i Sverige i dag importeras. Vid ett fingerat importstopp skulle lagren av färskvaror som tomater ta slut på två månader, medan varor som ost och rapsolja räcker i cirka fem månader.\n\nForskare vid Mittuniversitetet bekräftar bilden av ett känsligt system där avbrott i de globala värdekedjorna snabbt får konsekvenser för tillgången i butik. Samtidigt vittnar lokala producenter i norra Sverige om att höga el- och drivmedelspriser gör det olönsamt att bygga ut den lokala växthusodlingen, trots goda förutsättningar under sommarhalvåret. Analysen reser viktiga frågor kring stimulanser för ökad grundproduktion och övervakning av flödesdata i kris preparedness.","context":"Försörjningsberedskap kräver fungerande logistikkedjor och lokal produktionskapacitet. Rapporten understryker hur energipriser och regionala förutsättningar direkt påverkar totalförsvarets motståndskraft vid kriser eller logistiska avbrott.","source_url":"https://www.svt.se/nyheter/lokalt/vasternorrland/maten-snabbt-slut-vid-strypt-import-olonsamt-att-producera-mera","sources":[{"url":"https://www.svt.se/nyheter/lokalt/vasternorrland/maten-snabbt-slut-vid-strypt-import-olonsamt-att-producera-mera","title":"SVT Nyheter"}],"topics":["informationsförsörjning-och-dataplattformar"],"topic_labels":["Informationsförsörjning och dataplattformar"],"assessment":"","open_questions":["Hur ser myndigheternas samlade lägesbild ut av den regionala lagringskapaciteten för insatsvaror i jordbruket?","Vilka digitala verktyg används för att övervaka och analysera sårbarheter i de nationella livsmedelsflödena?"],"previous_reporting":[],"event_links":[],"body_provenance":"editorial_body","recorded_at":"2026-10-19T05:45:53.853439+00:00","revision":1,"fingerprint":"459930c7b8cb99c91f57cfa1494826d04ba0236d63565968ba33fc2c619be62d","history":[]}
+{
+  "id": "article-5263fa3dfc3f55b50682c1a1",
+  "episode_id": "ibat:2026-10-19:daily",
+  "date": "2026-10-19",
+  "channel": "ibat",
+  "kind": "daily",
+  "episode_title": "Morgonbrief",
+  "episode_audio": "episodes/2026-10-19/morgonpod.mp3",
+  "episode_brief": "episodes/2026-10-19/brief.json",
+  "article_index": 2,
+  "title": "Beräkningar visar hög sårbarhet i svensk livsmedelsförsörjning vid importstopp",
+  "summary": "En ny analys från Lantbrukarnas Riksförbund visar att flera grundläggande livsmedel snabbt skulle ta slut i Sverige vid ett strypt importflöde. SVT Nyheter rapporterar den 19 oktober 2026 att tomater beräknas ta slut efter två månader och ost efter fem månader på grund av ett 50-procentigt importberoende. Norrländska producenter pekar på höga energikostnader som ett hinder för att öka den inhemska odlingen.",
+  "body": "Arkiverat innehåll från det tidigare biblioteket. Nya avsnitt och artiklar finns i kanalens aktiva bibliotek.\n\nDet svenska importberoendet inom livsmedelssektorn skapar påtagliga sårbarheter i det nationella försörjningssystemet. SVT Nyheter rapporterar den 19 oktober 2026 om beräkningar gjorda av Lantbrukarnas Riksförbund, LRF, som visar att hälften av alla livsmedel som konsumeras i Sverige i dag importeras. Vid ett fingerat importstopp skulle lagren av färskvaror som tomater ta slut på två månader, medan varor som ost och rapsolja räcker i cirka fem månader.\n\nForskare vid Mittuniversitetet bekräftar bilden av ett känsligt system där avbrott i de globala värdekedjorna snabbt får konsekvenser för tillgången i butik. Samtidigt vittnar lokala producenter i norra Sverige om att höga el- och drivmedelspriser gör det olönsamt att bygga ut den lokala växthusodlingen, trots goda förutsättningar under sommarhalvåret. Analysen reser viktiga frågor kring stimulanser för ökad grundproduktion och övervakning av flödesdata i kris preparedness.",
+  "context": "Försörjningsberedskap kräver fungerande logistikkedjor och lokal produktionskapacitet. Rapporten understryker hur energipriser och regionala förutsättningar direkt påverkar totalförsvarets motståndskraft vid kriser eller logistiska avbrott.",
+  "source_url": "https://www.svt.se/nyheter/lokalt/vasternorrland/maten-snabbt-slut-vid-strypt-import-olonsamt-att-producera-mera",
+  "sources": [
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/vasternorrland/maten-snabbt-slut-vid-strypt-import-olonsamt-att-producera-mera",
+      "title": "SVT Nyheter"
+    }
+  ],
+  "topics": [
+    "informationsförsörjning-och-dataplattformar"
+  ],
+  "topic_labels": [
+    "Informationsförsörjning och dataplattformar"
+  ],
+  "assessment": "",
+  "open_questions": [
+    "Hur ser myndigheternas samlade lägesbild ut av den regionala lagringskapaciteten för insatsvaror i jordbruket?",
+    "Vilka digitala verktyg används för att övervaka och analysera sårbarheter i de nationella livsmedelsflödena?"
+  ],
+  "previous_reporting": [],
+  "event_links": [],
+  "body_provenance": "editorial_body",
+  "recorded_at": "2026-10-19T05:45:53.853439+00:00",
+  "revision": 1,
+  "fingerprint": "459930c7b8cb99c91f57cfa1494826d04ba0236d63565968ba33fc2c619be62d",
+  "history": [],
+  "archive_status": "superseded",
+  "superseded_by_library_release": "WORK_LIBRARY_2026_10_R1",
+  "archived_original_body": "Det svenska importberoendet inom livsmedelssektorn skapar påtagliga sårbarheter i det nationella försörjningssystemet. SVT Nyheter rapporterar den 19 oktober 2026 om beräkningar gjorda av Lantbrukarnas Riksförbund, LRF, som visar att hälften av alla livsmedel som konsumeras i Sverige i dag importeras. Vid ett fingerat importstopp skulle lagren av färskvaror som tomater ta slut på två månader, medan varor som ost och rapsolja räcker i cirka fem månader.\n\nForskare vid Mittuniversitetet bekräftar bilden av ett känsligt system där avbrott i de globala värdekedjorna snabbt får konsekvenser för tillgången i butik. Samtidigt vittnar lokala producenter i norra Sverige om att höga el- och drivmedelspriser gör det olönsamt att bygga ut den lokala växthusodlingen, trots goda förutsättningar under sommarhalvåret. Analysen reser viktiga frågor kring stimulanser för ökad grundproduktion och övervakning av flödesdata i kris preparedness."
+}

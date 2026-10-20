@@ -1,0 +1,70 @@
+{
+  "approved": true,
+  "reviewer": "ChatGPT Work, separat andra genomläsning",
+  "independent_human_review": false,
+  "reviewed_at": "2026-10-20T06:06:36.340364+00:00",
+  "package_sha256": "a7756ce53d8e29fb55b31a1a55d8dd6bfceb6f06c7591a995c07a284514f8113",
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Riskbaserad reglering och stegvis tillämpning.",
+      "source_ids": [
+        "ai_imy",
+        "ai_enforcement"
+      ],
+      "locator": "IMY 20 augusti 2026 och kommissionen 6 oktober 2026",
+      "status": "verified"
+    },
+    {
+      "id": "C02",
+      "claim": "Bilaga III-högriskregler: 2 december 2027; förbjudna användningar från 2 februari 2025.",
+      "source_ids": [
+        "ai_imy",
+        "ai_enforcement"
+      ],
+      "locator": "Aktuella tidsavsnitt, ingen fullständig genomgång av övergångsregler påstås",
+      "status": "verified"
+    },
+    {
+      "id": "C03",
+      "claim": "Kommissionens översikt nämner individual predictive policing based solely on profiling.",
+      "source_ids": [
+        "ai_enforcement"
+      ],
+      "locator": "AI Acts enforcement timeline; uttryckligt sammanfattning, inga fullständiga rekvisit påstås",
+      "status": "verified"
+    },
+    {
+      "id": "C04",
+      "claim": "IMY har fått marknadskontrolluppdrag inklusive brottsbekämpande AI-användning.",
+      "source_ids": [
+        "ai_imy_role"
+      ],
+      "locator": "Uppdaterad 15 juni 2026",
+      "status": "verified"
+    },
+    {
+      "id": "C05",
+      "claim": "Dataskyddsregelverk väljs efter konkret behandling; sekretess prövas separat.",
+      "source_ids": [
+        "imy_lagar",
+        "bdl",
+        "osl"
+      ],
+      "locator": "IMY lagöversikt, BDL 1 kap. 2 § och OSL 8 kap. 1 §",
+      "status": "verified"
+    }
+  ],
+  "checks": {
+    "source_roles": "NIST frivilligt tekniskt riskstöd, Europol hotbedömning, IMY och kommissionen myndighetsinformation, BDL och OSL författningar",
+    "law_dates": "Uppdaterad tillämpning 2027 verifierad i två aktuella myndighetskällor; ursprunglig tidsplan inte använd",
+    "scope": "Inga individuella juridiska tillåtlighetsbeslut",
+    "examples": "Alla egna arbetsfall och numeriska exempel uttryckligt fiktiva",
+    "math": "90/(90+9900*0.05)=15.3846 procent kontrollerat",
+    "review": "Separat genomläsning av exakt manus och artikel, ingen oberoende mänsklig granskning"
+  },
+  "remaining_gates": [
+    "Verkligt godkänt ljud och staging",
+    "25-paketsrelease och liveverifiering"
+  ]
+}
