@@ -1,8 +1,9 @@
 const {test,expect}=require('@playwright/test');
+const channelCount=async page=>(await(await page.request.get('catalog/manifest.json')).json()).channels.length;
 async function capture(page,path){await page.waitForLoadState('networkidle');await page.evaluate(()=>window.scrollTo(0,0));await expect.poll(()=>page.locator('img.cover').evaluateAll(images=>images.filter(im=>{const r=im.getBoundingClientRect();return r.top<innerHeight&&r.bottom>0;}).every(im=>im.complete&&im.naturalWidth>0))).toBe(true);await page.locator('img.cover').evaluateAll(async images=>{await Promise.all(images.filter(im=>{const r=im.getBoundingClientRect();return r.top<innerHeight&&r.bottom>0;}).map(im=>im.decode()));});await page.screenshot({path,scale:'css'});}
 test('V2 channel identity, tabs and all appearance modes',async({page},info)=>{
  const errors=[];page.on('pageerror',e=>errors.push(e.message));
- await page.goto('/kanaler.html');await expect(page.locator('.channel-card')).toHaveCount(5);await expect(page.getByRole('heading',{name:'Kanaler',exact:true})).toBeVisible();
+ await page.goto('/kanaler.html');await expect(page.locator('.channel-card')).toHaveCount(await channelCount(page));await expect(page.getByRole('heading',{name:'Kanaler',exact:true})).toBeVisible();
  await page.getByRole('searchbox').fill('IBAT');await expect(page.locator('.channel-card')).toHaveCount(1);await page.locator('.channel-card').click();
  await expect(page.getByRole('heading',{name:'IBAT - Informationsförsörjning',exact:true})).toBeVisible();
  await page.getByRole('link',{name:'Om kanalen',exact:true}).click();await expect(page.getByRole('heading',{name:'Vad bevakas?'})).toBeVisible();
@@ -15,7 +16,7 @@ test('V2 channel identity, tabs and all appearance modes',async({page},info)=>{
 test('V2 six flows, real audio and responsive visual evidence',async({page},info)=>{
  const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('/idag.html');await expect(page.locator('.hero')).toBeVisible();
  await capture(page,'docs/evidence/'+info.project.name+'-today.png');
- await page.getByRole('link',{name:'Kanaler',exact:true}).click();await expect(page.locator('.channel-card')).toHaveCount(5);await capture(page,'docs/evidence/'+info.project.name+'-channels.png');
+ await page.getByRole('link',{name:'Kanaler',exact:true}).click();await expect(page.locator('.channel-card')).toHaveCount(await channelCount(page));await capture(page,'docs/evidence/'+info.project.name+'-channels.png');
  await page.locator('.channel-card').filter({hasText:'Sjöområdet'}).click();await expect(page.getByRole('heading',{name:'Sjöområdet',exact:true})).toBeVisible();await capture(page,'docs/evidence/'+info.project.name+'-channel-light.png');
  await page.locator('summary').first().click();await page.getByRole('link',{name:/Öppna stor spelare/}).click();await expect(page.locator('#big-play')).toBeVisible();await page.locator('#big-play').click();
  await expect(page.locator('#player')).toHaveJSProperty('hidden',false);await expect.poll(()=>page.locator('#audio').evaluate(e=>e.currentTime)).toBeGreaterThan(0).catch(async error=>{console.log('MEDIA_DIAG',await page.locator('#audio').evaluate(a=>({src:a.currentSrc,error:a.error&&{code:a.error.code,message:a.error.message},ready:a.readyState,network:a.networkState,paused:a.paused,duration:a.duration})));throw error;});const src=await page.locator('#audio').getAttribute('src');

@@ -1,4 +1,5 @@
 const {test,expect}=require('@playwright/test');
+const channelCount=async page=>(await(await page.request.get('catalog/manifest.json')).json()).channels.length;
 test.use({serviceWorkers:'block'});
 // Short PCM fixture verifies real media transitions without fetching production audio.
 function wav(){const n=8000*20,b=Buffer.alloc(44+n*2);b.write('RIFF');b.writeUInt32LE(36+n*2,4);b.write('WAVEfmt ',8);b.writeUInt32LE(16,16);b.writeUInt16LE(1,20);b.writeUInt16LE(1,22);b.writeUInt32LE(8000,24);b.writeUInt32LE(16000,28);b.writeUInt16LE(2,32);b.writeUInt16LE(16,34);b.write('data',36);b.writeUInt32LE(n*2,40);return b;}
@@ -38,7 +39,7 @@ test('queue continues beyond loaded page and autoplay block offers manual play',
  await page.locator('#queue-next').click();await expect(page.locator('#audio')).toHaveAttribute('src','episodes/fixture/e24.wav');await expect(page.locator('#player-status')).toContainText('Tryck på Spela');expect(loaded.filter(x=>x.endsWith('/1.json'))).toHaveLength(1);await expect(page.locator('#queue-previous')).toBeEnabled();
 });
 test('approved UX keeps titles, two mobile columns, categories off cards and article audio early',async({page},info)=>{
- await page.goto('/kanaler.html');await expect(page.locator('.channel-card').first().locator('small')).toHaveCount(0);await expect(page.locator('.channel-card')).toHaveCount(5);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
+ await page.goto('/kanaler.html');await expect(page.locator('.channel-card').first().locator('small')).toHaveCount(0);await expect(page.locator('.channel-card')).toHaveCount(await channelCount(page));expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
  if(info.project.name.includes('iphone'))await expect(page.locator('.channel-directory')).toHaveCSS('grid-template-columns',/\d+(\.\d+)?px \d+(\.\d+)?px$/);
  await page.goto('/idag.html');await expect(page.locator('.home-episodes .row-title strong').first()).toBeVisible();await expect(page.locator('.home-episodes .item-meta').first()).toBeVisible();
  await page.getByRole('link',{name:'Artiklar',exact:true}).click();await page.locator('.article-card').first().click();await expect(page.locator('.article-audio')).toBeVisible();await expect(page.getByText('Illustrativ kanalbild',{exact:true})).toBeVisible();await expect(page.locator('#nav a[aria-current]')).toHaveText('Artiklar');
@@ -50,4 +51,11 @@ test('search playback follows the current result order and type filter',async({p
  await page.route('**/catalog/search/*.json',r=>r.fulfill({json:{testord:[rows[8],rows[2],rows[5]]}}));
  await page.goto('/utforska.html');await page.getByRole('searchbox').fill('testord');await page.getByRole('button',{name:'Sök',exact:true}).click();await page.getByRole('button',{name:'Avsnitt',exact:true}).click();await expect(page.locator('.episode')).toHaveCount(3);await expect(page.locator('.episode').first()).toHaveAttribute('data-id','e2');
  await page.locator('[data-play="e2"]').click();await page.locator('#play-pause').click();await page.locator('#queue-toggle').click();await expect(page.locator('.queue-title')).toHaveCount(2);await expect(page.locator('.queue-title').first()).toContainText('Avsnitt 5');await expect(page.locator('.queue-title').last()).toContainText('Avsnitt 8');
+});
+test('empty exact-word search offers a bounded clickable complete-word suggestion',async({page})=>{
+ await fixture(page);const hash=x=>require('node:crypto').createHash('sha256').update(x).digest('hex').slice(0,2);
+ await page.route('**/catalog/manifest.json',r=>r.fulfill({json:{channels:[{id:'ibat',name:'IBAT - Informationsförsörjning'}],topics:[],search_buckets:[hash('fastighet'),hash('fastighetsstopp')],collections:{}}}));
+ await page.route('**/search-hints.json',r=>r.fulfill({json:{fastighet:['fastighetsstopp']}}));
+ await page.route('**/catalog/search/*.json',r=>r.fulfill({json:{fastighetsstopp:[rows[4]]}}));
+ await page.goto('/utforska.html');await page.getByRole('searchbox').fill('fastighet');await page.getByRole('button',{name:'Sök',exact:true}).click();await page.getByRole('button',{name:'fastighetsstopp',exact:true}).click();await expect(page.locator('.episode')).toHaveCount(1);await expect(page.locator('.episode')).toHaveAttribute('data-id','e4');
 });

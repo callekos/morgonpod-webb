@@ -1,10 +1,11 @@
 // Read-only checks of the deployed Pages site. No production or Telegram writes.
 const {test,expect}=require('@playwright/test');
+const channelCount=async page=>(await(await page.request.get('catalog/manifest.json')).json()).channels.length;
 test('published six flows, themes, real audio and canonical channel identity',async({page},info)=>{
  const errors=[];page.on('pageerror',error=>errors.push(error.message));
  await page.goto('idag.html');await expect(page.locator('.hero')).toBeVisible();
  await expect(page.locator('script[src*="app.js"]')).toHaveAttribute('src',/v2-queue-ux1/);
- await page.getByRole('link',{name:'Kanaler',exact:true}).click();await expect(page.locator('.channel-card')).toHaveCount(5);
+ await page.getByRole('link',{name:'Kanaler',exact:true}).click();await expect(page.locator('.channel-card')).toHaveCount(await channelCount(page));
  await page.locator('.channel-card').filter({hasText:'IBAT'}).click();await expect(page.getByRole('heading',{name:'IBAT - Informationsförsörjning',exact:true})).toBeVisible();
  await page.locator('#archive-sort').selectOption('oldest');await expect(page.locator('.episode').first()).toContainText('Avsnitt 1 / Uppstart');
  await page.locator('summary').first().click();await page.getByRole('link',{name:/Öppna stor spelare/}).click();await page.locator('#big-play').click();
