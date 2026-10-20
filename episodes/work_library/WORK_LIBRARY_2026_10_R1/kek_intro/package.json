@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "package_id": "WORK_LIBRARY_2026_10:kek:intro:1",
+  "production_identity": "WORK_LIBRARY_2026_10",
+  "origin": "work_library",
+  "library_release_id": "WORK_LIBRARY_2026_10_R1",
+  "channel": "kek",
+  "edition_type": "intro",
+  "editorial_date": "2026-10-20",
+  "is_intro": true,
+  "episode_order": 1,
+  "published_at": null,
+  "notification_policy": "suppressed",
+  "gemini_text_calls": 0,
+  "work_origin_evidence": {
+    "author": "ChatGPT Work",
+    "newly_authored": true,
+    "prior_episode_relabelled": false,
+    "review": "editorial_review.json"
+  },
+  "files": {
+    "manus.txt": "9a5d70dc075faef38443316f93abed929af9c214657909e0942e896939c86463",
+    "brief.json": "71d71f77e875fc0a2c5ca4257ea4bc5a72cab38a4bd264df0fa28a628121b53d",
+    "kallor.json": "3dbf59dc624de3edb043e7a85890f295fa7a22f9078ad7232adc10dfa24fdb0b",
+    "editorial_review.json": "c9b3b8ce2d6dc8ab450a79339f7554f6507fcfc965e20555274dd5f1e9530489"
+  }
+}

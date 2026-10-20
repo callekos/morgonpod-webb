@@ -2,6 +2,1302 @@
   "schema": 2,
   "stories": [
     {
+      "id": "work-verksamhetsutveckling_special_4-article-1",
+      "episode_id": "WORK_LIBRARY_2026_10:verksamhetsutveckling:special:5",
+      "date": "2026-10-20",
+      "channel": "verksamhetsutveckling",
+      "published_at": null,
+      "is_intro": false,
+      "episode_order": 5,
+      "kind": "historical",
+      "episode_title": "Utvärdering utan myter om misslyckade projekt",
+      "episode_audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/verksamhetsutveckling_special_4/morgonpod.mp3",
+      "episode_brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/verksamhetsutveckling_special_4/brief.json",
+      "article_index": 0,
+      "title": "Utvärdering utan myter om misslyckade projekt",
+      "summary": "Uppföljning behöver skilja mellan genomförande, observerade resultat och effekter som kan tillskrivas en insats. I avsnittets fiktiva projekt är systemet levererat och tiden kortare, men kvalitetsmåttet oförändrat. Ett enkelt omdöme om framgång eller misslyckande fångar inte vad organisationen behöver lära.",
+      "body": "Uppföljning behöver skilja mellan genomförande, observerade resultat och effekter som kan tillskrivas en insats. I avsnittets fiktiva projekt är systemet levererat och tiden kortare, men kvalitetsmåttet oförändrat. Ett enkelt omdöme om framgång eller misslyckande fångar inte vad organisationen behöver lära.\n\nDiggs definition av effekt knyter förändringen till en åtgärd och till vad som annars skulle ha inträffat. En jämförelse före och efter lämnar därför frågor om andra förändringar: inflöde, ärendetyper och bemanning kan påverka resultatet. Avsnittets numeriska exempel är konstruerat och är ingen verklig verksamhetsstatistik.\n\nRapporter behöver läsas utifrån sitt uppdrag, material, sin tidsperiod och sina egna slutsatser. Riksrevisionens reformgranskning och Brås forensikrapport använder olika frågor och underlag. De får inte kombineras som om de vore samma experiment med samma population.\n\nIngen generell siffra om hur många förändringsprojekt som misslyckas används. En sådan uppgift kräver åtminstone tydligt urval, projektdefinition, bedömningskriterier och datainsamling. Utan det blir procentsatsen ett osäkert argument för beslut.\n\nOm en tänkt förbättring uteblir behöver organisationen undersöka om arbetssättet genomfördes som planerat eller om hypotesen om nyttan var fel. Det kan leda till olika åtgärder. Uppföljningen bör också kunna upptäcka oönskade effekter och flyttad arbetsbörda.\n\nRedaktionens arbetsförslag är att återberätta både resultat och begränsning tillsammans. Vad såg vi i vilket underlag, och vad återstår om orsak och överförbarhet? Då kan en utvärdering bidra till ett avgränsat nästa beslut.",
+      "context": "Pedagogiskt kompetensavsnitt. Historiska granskningar tidsavgränsas och konstruerade exempel markeras.",
+      "source_url": "https://www.digg.se/kunskap-och-stod/nyttorealisering/vagledning-i-nyttorealisering/1.-grundlaggande-begrepp",
+      "sources": [
+        {
+          "url": "https://www.digg.se/kunskap-och-stod/nyttorealisering/vagledning-i-nyttorealisering/1.-grundlaggande-begrepp",
+          "title": "1. Grundläggande begrepp \n \n |\n Digg"
+        },
+        {
+          "url": "https://www.riksrevisionen.se/granskningar/granskningsrapporter/2025/polisreformen-2015---intentionerna-annu-inte-nadda.html",
+          "title": "Polisreformen 2015 – intentionerna ännu inte nådda | Riksrevisionen"
+        },
+        {
+          "url": "https://bra.se/rapporter/arkiv/2023-01-24-polisens-forensiska-verksamhet",
+          "title": "Polisens forensiska verksamhet\n\n\t\t | Brå - Brottsförebyggande rådet"
+        }
+      ],
+      "topics": [
+        "verksamhetsutveckling"
+      ],
+      "topic_labels": [
+        "Verksamhetsutveckling"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T19:18:02.636742+00:00",
+      "revision": 1,
+      "fingerprint": "858457408ee4b3e732cb295d21ce78fa80db28aa53a3e04a3407a4e867922d00",
+      "history": []
+    },
+    {
+      "id": "work-verksamhetsutveckling_special_3-article-1",
+      "episode_id": "WORK_LIBRARY_2026_10:verksamhetsutveckling:special:4",
+      "date": "2026-10-20",
+      "channel": "verksamhetsutveckling",
+      "published_at": null,
+      "is_intro": false,
+      "episode_order": 4,
+      "kind": "historical",
+      "episode_title": "Införande och förvaltning: vem äger nyttan efter projektet?",
+      "episode_audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/verksamhetsutveckling_special_3/morgonpod.mp3",
+      "episode_brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/verksamhetsutveckling_special_3/brief.json",
+      "article_index": 0,
+      "title": "Införande och förvaltning: vem äger nyttan efter projektet?",
+      "summary": "Dagen efter projektavslutet återstår ofta arbete för att den tänkta nyttan ska uppstå. Det fiktiva införandet i avsnittet visar varför leveransansvar behöver skiljas från mandat att förändra verksamheten och följa resultatet.",
+      "body": "Dagen efter projektavslutet återstår ofta arbete för att den tänkta nyttan ska uppstå. Det fiktiva införandet i avsnittet visar varför leveransansvar behöver skiljas från mandat att förändra verksamheten och följa resultatet.\n\nDiggs vägledning betonar tydligt, förankrat och accepterat ansvar. Den beskriver projektledningens utvecklingsansvar och verksamhetens ansvar för nyttorealisering. Rollnamnen kan variera. Den konkreta frågan är vem som kan fatta nästa beslut när det nya stödet används men den förväntade förbättringen uteblir.\n\nNyttan kan bero på utbildning, ändrade beställningar, avslutade äldre rutiner eller nya prioriteringar. Dessa beroenden behöver beskrivas och överlämnas tillsammans med leveransen. Enbart teknisk dokumentation gör det svårt för mottagande förvaltning att förstå kalkylens antaganden och kvarstående åtgärder.\n\nStatskontorets delrapport om digitala investeringar från 2020 behandlar även förvaltningsgemensamma insatser. I avsnittets konstruerade exempel tar en aktör kostnaden för bättre registrering medan en annan får snabbare handläggning. Det illustrerar en styrfråga, inte en statistisk uppgift om hur alla myndighetssamarbeten fungerar.\n\nEtt högt antal inloggningar kan visa användning utan att besvara frågan om väntetiden eller kvaliteten förbättrats. Om arbete bara flyttas mellan grupper behöver uppföljningen kunna upptäcka det. Beskriv därför för vem nyttan ska uppstå och vilket flöde som omfattas.\n\nArbetsförslaget inför överlämning är att ange kvarstående nyttor, ansvariga, mandat, uppföljningstidpunkter och vilka ändrade förutsättningar som kan kräva ett nytt beslut. Frågan att ta med till nästa projektavslut är vem som agerar om nyttan inte uppstår.",
+      "context": "Pedagogiskt kompetensavsnitt. Historiska granskningar tidsavgränsas och konstruerade exempel markeras.",
+      "source_url": "https://www.digg.se/kunskap-och-stod/nyttorealisering/vagledning-i-nyttorealisering/6.-ansvar-och-roller",
+      "sources": [
+        {
+          "url": "https://www.digg.se/kunskap-och-stod/nyttorealisering/vagledning-i-nyttorealisering/6.-ansvar-och-roller",
+          "title": "6. Ansvar och roller \n \n |\n Digg"
+        },
+        {
+          "url": "https://www.statskontoret.se/siteassets/rapporter-pdf/2020/2020-102.pdf",
+          "title": "Styrning av digitala investeringar"
+        },
+        {
+          "url": "https://www.digg.se/kunskap-och-stod/nyttorealisering/vagledning-i-nyttorealisering/10.-arbetsprocess-for-nyttorealisering",
+          "title": "10. Arbetsprocess för nyttorealisering \n \n |\n Digg"
+        }
+      ],
+      "topics": [
+        "verksamhetsutveckling"
+      ],
+      "topic_labels": [
+        "Verksamhetsutveckling"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T19:18:02.636016+00:00",
+      "revision": 1,
+      "fingerprint": "85736a08a84163033e09265849f22bfe323ee89621c7c151d32c89fb05944027",
+      "history": []
+    },
+    {
+      "id": "work-verksamhetsutveckling_special_2-article-1",
+      "episode_id": "WORK_LIBRARY_2026_10:verksamhetsutveckling:special:3",
+      "date": "2026-10-20",
+      "channel": "verksamhetsutveckling",
+      "published_at": null,
+      "is_intro": false,
+      "episode_order": 3,
+      "kind": "historical",
+      "episode_title": "Omorganisationer: vad går att lära av polisreformen?",
+      "episode_audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/verksamhetsutveckling_special_2/morgonpod.mp3",
+      "episode_brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/verksamhetsutveckling_special_2/brief.json",
+      "article_index": 0,
+      "title": "Omorganisationer: vad går att lära av polisreformen?",
+      "summary": "En genomförd omorganisation är inte samma sak som en verifierad verksamhetseffekt. Specialavsnittet använder Riksrevisionens granskning av polisreformen 2015 som fall för att diskutera struktur, arbetssätt och styrning.",
+      "body": "En genomförd omorganisation är inte samma sak som en verifierad verksamhetseffekt. Specialavsnittet använder Riksrevisionens granskning av polisreformen 2015 som fall för att diskutera struktur, arbetssätt och styrning.\n\nRiksrevisionens rapport publicerades 2025. Den bedömde att intentionerna inte hade nåtts och att arbetet för att nå dem inte varit tillräckligt effektivt. Granskningen pekade bland annat på intern styrning och förhållandet mellan lokal nivå och andra delar av organisationen. Detta återges som utgivarens bedömning, med den breda granskningens metodiska begränsningar.\n\nEn ny ansvarslinje visar inte automatiskt hur en beställning, prioritering eller återkoppling fungerar i praktiken. I det fiktiva exemplet skapas en gemensam specialistfunktion, men beställningarnas innehåll och prioritering är fortfarande otydliga. Strukturförändringen är genomförd medan en viktig mekanism för nyttan saknas.\n\nBrås forensikrapport från 2023 ger ett kompletterande historiskt perspektiv på kapacitet och efterfrågan under 2017 till 2021. Den använde verksamhetsstatistik och enkäter. Resultaten ska inte läsas som en aktuell mätning eller som ett oberoende experiment om samma effekt som reformgranskningen.\n\nRedaktionens arbetsförslag är att ange vilka mekanismer reformen behöver få att fungera. Hur blir specialiststöd tillgängligt? Hur ska lokal förmåga stärkas? Vilket underlag följer beslut mellan nivåer? Knyt sedan uppföljningen till dessa frågor.\n\nDet gör offentliga granskningar användbara för nästa steg. De behöver inte reduceras till ett argument för eller emot stora organisationer. De kan visa var förändringslogiken behöver bli konkret och möjlig att följa.",
+      "context": "Pedagogiskt kompetensavsnitt. Historiska granskningar tidsavgränsas och konstruerade exempel markeras.",
+      "source_url": "https://www.riksrevisionen.se/granskningar/granskningsrapporter/2025/polisreformen-2015---intentionerna-annu-inte-nadda.html",
+      "sources": [
+        {
+          "url": "https://www.riksrevisionen.se/granskningar/granskningsrapporter/2025/polisreformen-2015---intentionerna-annu-inte-nadda.html",
+          "title": "Polisreformen 2015 – intentionerna ännu inte nådda | Riksrevisionen"
+        },
+        {
+          "url": "https://bra.se/rapporter/arkiv/2023-01-24-polisens-forensiska-verksamhet",
+          "title": "Polisens forensiska verksamhet\n\n\t\t | Brå - Brottsförebyggande rådet"
+        }
+      ],
+      "topics": [
+        "verksamhetsutveckling"
+      ],
+      "topic_labels": [
+        "Verksamhetsutveckling"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T19:18:02.635316+00:00",
+      "revision": 1,
+      "fingerprint": "56f7bddc51e3df75625966999f21e7b7a570090a7e7d431867bf3f167a72e80e",
+      "history": []
+    },
+    {
+      "id": "work-verksamhetsutveckling_special_1-article-1",
+      "episode_id": "WORK_LIBRARY_2026_10:verksamhetsutveckling:special:2",
+      "date": "2026-10-20",
+      "channel": "verksamhetsutveckling",
+      "published_at": null,
+      "is_intro": false,
+      "episode_order": 2,
+      "kind": "historical",
+      "episode_title": "Beskriv problemet före lösningen: insatslogik och mätning",
+      "episode_audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/verksamhetsutveckling_special_1/morgonpod.mp3",
+      "episode_brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/verksamhetsutveckling_special_1/brief.json",
+      "article_index": 0,
+      "title": "Beskriv problemet före lösningen: insatslogik och mätning",
+      "summary": "Ett projekt behöver kunna förklara vilket problem lösningen ska påverka. I avsnittets fiktiva myndighet upplevs ärendehanteringen som långsam. Gruppen skiljer därför aktiv arbetstid från väntan och undersöker vilket underlag som saknas i beställningarna. Det ändrar vilken hypotes som bör prövas.",
+      "body": "Ett projekt behöver kunna förklara vilket problem lösningen ska påverka. I avsnittets fiktiva myndighet upplevs ärendehanteringen som långsam. Gruppen skiljer därför aktiv arbetstid från väntan och undersöker vilket underlag som saknas i beställningarna. Det ändrar vilken hypotes som bör prövas.\n\nDiggs vägledning skiljer mellan aktiviteter, effekter och nyttor. Effektkedjan beskrivs som ett verktyg för att synliggöra sambanden mellan mål och aktiviteter. Varje länk i avsnittets exempel är en hypotes: tydligare beställningar kan ge färre kompletteringar, kortare väntan och bättre planering. Sambanden behöver undersökas.\n\nEn nollmätning beskriver utgångsläget. Definitioner och urval behöver följa jämförelsen. Om fler enkla ärenden ingår efter införandet kan genomsnittstiden minska utan att det nya arbetssättet är orsaken. Avsnittets räknefall är helt konstruerat och uttrycker ingen verklig myndighetsstatistik.\n\nMätningen bör också kunna upptäcka om tid sparas på bekostnad av kvalitet eller om arbetsbördan flyttas till en annan del av kedjan. Det är redaktionella arbetsförslag som ska anpassas till förändringens syfte, inte en universell uppsättning nyckeltal.\n\nAnsvar och mandat behöver finnas för att agera på utfallet. Bestäm vilken observation som kan leda till att försöket fortsätter, justeras eller avslutas. Att ett mått samlas in betyder inte i sig att organisationen kan lära av det.\n\nEtt konkret första steg är att skriva tre meningar: detta är dagens problem, denna insats tros påverka det genom denna mekanism och detta behöver vi undersöka för att bedöma hypotesen. Beskrivningen kan användas innan organisationen väljer en större teknisk lösning.",
+      "context": "Pedagogiskt kompetensavsnitt. Historiska granskningar tidsavgränsas och konstruerade exempel markeras.",
+      "source_url": "https://www.digg.se/kunskap-och-stod/nyttorealisering/vagledning-i-nyttorealisering/1.-grundlaggande-begrepp",
+      "sources": [
+        {
+          "url": "https://www.digg.se/kunskap-och-stod/nyttorealisering/vagledning-i-nyttorealisering/1.-grundlaggande-begrepp",
+          "title": "1. Grundläggande begrepp \n \n |\n Digg"
+        },
+        {
+          "url": "https://www.digg.se/kunskap-och-stod/nyttorealisering/vagledning-i-nyttorealisering/10.-arbetsprocess-for-nyttorealisering",
+          "title": "10. Arbetsprocess för nyttorealisering \n \n |\n Digg"
+        },
+        {
+          "url": "https://www.digg.se/kunskap-och-stod/nyttorealisering/vagledning-i-nyttorealisering/6.-ansvar-och-roller",
+          "title": "6. Ansvar och roller \n \n |\n Digg"
+        }
+      ],
+      "topics": [
+        "verksamhetsutveckling"
+      ],
+      "topic_labels": [
+        "Verksamhetsutveckling"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T19:18:02.634580+00:00",
+      "revision": 1,
+      "fingerprint": "89c4cfccdb51a85fefcb3ad05214a9d8dd11fb9ebc9de06ed005848946bd10bb",
+      "history": []
+    },
+    {
+      "id": "work-verksamhetsutveckling_intro-article-1",
+      "episode_id": "WORK_LIBRARY_2026_10:verksamhetsutveckling:intro:1",
+      "date": "2026-10-20",
+      "channel": "verksamhetsutveckling",
+      "published_at": null,
+      "is_intro": true,
+      "episode_order": 1,
+      "kind": "introduction",
+      "episode_title": "Från förändringsprojekt till faktisk förmåga",
+      "episode_audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/verksamhetsutveckling_intro/morgonpod.mp3",
+      "episode_brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/verksamhetsutveckling_intro/brief.json",
+      "article_index": 0,
+      "title": "Från förändringsprojekt till faktisk förmåga",
+      "summary": "Verksamhetsutveckling behöver följas från behov till faktiskt förändrat arbete. En teknisk leverans, en utbildning eller en ny organisationsstruktur kan vara genomförd samtidigt som den tänkta nyttan återstår. Introduktionen använder detta som utgångspunkt för en kanal om metod, teknik, organisation, införande och lärande i större myndigheter.",
+      "body": "Verksamhetsutveckling behöver följas från behov till faktiskt förändrat arbete. En teknisk leverans, en utbildning eller en ny organisationsstruktur kan vara genomförd samtidigt som den tänkta nyttan återstår. Introduktionen använder detta som utgångspunkt för en kanal om metod, teknik, organisation, införande och lärande i större myndigheter.\n\nDiggs vägledning beskriver nyttorealisering som ett aktivt ledningsarbete och betonar tydligt ansvar. En effektkedja kan hjälpa verksamheten att beskriva sambanden mellan aktiviteter och det resultat som ska uppstå. Vägledningen ska anpassas till organisationens förutsättningar och är inte ett krav på en enda projektmodell.\n\nTre dokumenterade underlag ger historiska perspektiv. Riksrevisionens granskning från 2025 bedömde att intentionerna med polisreformen 2015 inte hade nåtts och pekade bland annat på intern styrning. Statskontorets delrapport från 2020 behandlade styrning av digitala investeringar och förutsättningar för nyttorealisering. Brås forensikrapport från 2023 studerade bland annat verksamhetsstatistik och enkäter med fokus på utvecklingen 2017 till 2021.\n\nRapporterna är olika undersökningar. De används för lärfrågor och får inte slås ihop till en enda mätning av vad som orsakar framgång eller misslyckande. Historiska observationer presenteras inte som aktuella kapacitetsmått. Inga generella procentsiffror om misslyckade projekt används.\n\nI avsnittets fiktiva myndighet behöver gruppen förstå om problemet gäller sökning, beställningar, prioritering eller ansvar. Ett mindre försök kan följa en tydlig hypotes: vad ändras, genom vilken mekanism och vilka observationer skulle stödja den? Uppföljningen behöver också fånga kvalitet, belastning och om arbete flyttats till andra delar.\n\nFörvaltning och verksamhet behöver kunna ta över kvarstående åtgärder när projektet avslutas. Vem agerar om nyttan uteblir? Vilka beroenden återstår? När behöver en hypotes ändras? Frågorna binder samman leveransen med fortsatt styrning.\n\nKanalen fortsätter med fyra specialer om problemförståelse och mätning, omorganisationer, ansvar efter införande samt utvärdering. Alla exempel som inte uttryckligen hänvisar till rapporterna är konstruerade undervisningsfall.",
+      "context": "Pedagogiskt kompetensavsnitt. Historiska granskningar tidsavgränsas och konstruerade exempel markeras.",
+      "source_url": "https://www.riksrevisionen.se/granskningar/granskningsrapporter/2025/polisreformen-2015---intentionerna-annu-inte-nadda.html",
+      "sources": [
+        {
+          "url": "https://www.riksrevisionen.se/granskningar/granskningsrapporter/2025/polisreformen-2015---intentionerna-annu-inte-nadda.html",
+          "title": "Polisreformen 2015 – intentionerna ännu inte nådda | Riksrevisionen"
+        },
+        {
+          "url": "https://www.statskontoret.se/siteassets/rapporter-pdf/2020/2020-102.pdf",
+          "title": "Styrning av digitala investeringar"
+        },
+        {
+          "url": "https://bra.se/rapporter/arkiv/2023-01-24-polisens-forensiska-verksamhet",
+          "title": "Polisens forensiska verksamhet\n\n\t\t | Brå - Brottsförebyggande rådet"
+        },
+        {
+          "url": "https://www.digg.se/kunskap-och-stod/nyttorealisering/vagledning-i-nyttorealisering/1.-grundlaggande-begrepp",
+          "title": "1. Grundläggande begrepp \n \n |\n Digg"
+        },
+        {
+          "url": "https://www.digg.se/kunskap-och-stod/nyttorealisering/vagledning-i-nyttorealisering/6.-ansvar-och-roller",
+          "title": "6. Ansvar och roller \n \n |\n Digg"
+        },
+        {
+          "url": "https://www.digg.se/kunskap-och-stod/nyttorealisering/vagledning-i-nyttorealisering/10.-arbetsprocess-for-nyttorealisering",
+          "title": "10. Arbetsprocess för nyttorealisering \n \n |\n Digg"
+        }
+      ],
+      "topics": [
+        "verksamhetsutveckling"
+      ],
+      "topic_labels": [
+        "Verksamhetsutveckling"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T19:18:02.633906+00:00",
+      "revision": 1,
+      "fingerprint": "b244a480270aafebcc5e11fb7d78a7fade9886a6a52c4f580d0fbc03feb69c00",
+      "history": []
+    },
+    {
+      "id": "work-vald_ordinary-article-1",
+      "episode_id": "WORK_LIBRARY_2026_10:vald:replacement_ordinary:2",
+      "date": "2026-10-20",
+      "channel": "vald",
+      "published_at": null,
+      "is_intro": false,
+      "episode_order": 2,
+      "kind": "historical",
+      "episode_title": "Tisdag V.43: rekrytering och våld som tjänst",
+      "episode_audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/vald_ordinary/morgonpod.mp3",
+      "episode_brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/vald_ordinary/brief.json",
+      "article_index": 0,
+      "title": "Tisdag V.43: rekrytering och våld som tjänst",
+      "summary": "Våld som tjänst behöver analyseras genom belagda roller och handlingar. Dagens fördjupning använder europeiska hotunderlag och svensk forskning för att diskutera digital rekrytering utan att tillskriva enskilda händelser obelagda kopplingar.",
+      "body": "Våld som tjänst behöver analyseras genom belagda roller och handlingar. Dagens fördjupning använder europeiska hotunderlag och svensk forskning för att diskutera digital rekrytering utan att tillskriva enskilda händelser obelagda kopplingar.\n\nEU-SOCTA 2025 beskriver åtskilda roller i planering och utförande av våld samt digitala kontakter och rekrytering. Det är en hotbedömning, inte statistik över vilken andel av allt svenskt våld som följer modellen. Europols rapport om de mest hotfulla nätverken gäller i sin tur ett särskilt identifierat urval.\n\nBrottslighet som tjänst är en bredare beskrivning av specialiserade funktioner som erbjuds andra aktörer. Våld som tjänst är mer specifikt. Förkortningar kan i olika källor även avse cyberbrottsliga tjänster. Därför behöver analysen skriva ut vad begreppen betyder i det aktuella underlaget.\n\nI det fiktiva exemplet förekommer digitala kontakter före ett våldsdåd. Kontakternas innehåll, tid och relation till andra omständigheter behöver undersökas. Att två personer kommunicerat visar inte automatiskt vem som beställt, förmedlat eller utfört något. Observation, rolltolkning och säkerhet ska hållas synliga.\n\nBrås rapport om ökningen av skjutvapenvåld ger ett annat slags underlag med egen metod och tidsperiod. Källorna kan belysa olika delar av problemet. De ska inte slås ihop till ett nytt säkert orsakssamband mellan en svensk observation och en europeisk trend.\n\nRedaktionens arbetsförslag är att i lägesbilder skilja den egna observationen, den externa rapporten, bedömningen av en möjlig koppling och kvarstående frågor åt. Kanalen bevakar grovt våld brett, med särskild fördjupning om digital rekrytering och tjänstelogik.",
+      "context": "Ordinarie redaktionellt ersättningsavsnitt 20 oktober 2026. Tydligt daterade bakgrundskällor. Avgränsad veckoöversikt 12 till 18 oktober för Lagstiftning.",
+      "source_url": "https://www.europol.europa.eu/cms/sites/default/files/documents/EU-SOCTA-2025.pdf",
+      "sources": [
+        {
+          "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/EU-SOCTA-2025.pdf",
+          "title": "European Union Serious and Organised Crime Organised Threat Assessment"
+        },
+        {
+          "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/Blueprint-of-criminal-opportunism.pdf",
+          "title": "DECODING THE EU’S MOST THREATENING CRIMINAL NETWORKS"
+        },
+        {
+          "url": "https://bra.se/download/18.7d19346a191c757143634b6/1725889949825/2024_7_Okningen-av-skjutvapenvald-i-Sverige.pdf",
+          "title": "Rapport 2024:7"
+        }
+      ],
+      "topics": [
+        "vald"
+      ],
+      "topic_labels": [
+        "vald"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T19:18:02.625499+00:00",
+      "revision": 1,
+      "fingerprint": "c3e5369257f2b43b5cf173fd619c13ae8aad3c445d24e3e4425e3fd01c8aae2a",
+      "history": []
+    },
+    {
+      "id": "work-vald_intro-article-1",
+      "episode_id": "WORK_LIBRARY_2026_10:vald:intro:1",
+      "date": "2026-10-20",
+      "channel": "vald",
+      "published_at": null,
+      "is_intro": true,
+      "episode_order": 1,
+      "kind": "introduction",
+      "episode_title": "Våld: förstå händelserna, relationerna och uppdragen",
+      "episode_audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/vald_intro/morgonpod.mp3",
+      "episode_brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/vald_intro/brief.json",
+      "article_index": 0,
+      "title": "Våld: förstå händelserna, relationerna och uppdragen",
+      "summary": "Kanalen Våld ska ge en bred förståelse av grovt våld och ett särskilt analytiskt fokus på brottslighet och våld som tjänst, digital rekrytering och förändrade uppdragsrelationer. Uppstartsavsnittet riktar sig till professionella inom brottsbekämpning, rättsliga processer, analys och förebyggande verksamhet.",
+      "body": "Kanalen Våld ska ge en bred förståelse av grovt våld och ett särskilt analytiskt fokus på brottslighet och våld som tjänst, digital rekrytering och förändrade uppdragsrelationer. Uppstartsavsnittet riktar sig till professionella inom brottsbekämpning, rättsliga processer, analys och förebyggande verksamhet.\n\nBrås rapport 2024:7 beskriver skjutvapenvåld i kriminell miljö sedan mitten av 00-talet. Underlaget kombinerar bland annat register, intervjuer, fokusgrupper och avkrypterade chattar. Rapporten analyserar förändringar i organisering, konfliktdynamik och ungas involvering. Den historiska analysen återges inte som en ny regional lägesbild för oktober 2026.\n\nEuropols hotbild från 2025 och nätverksrapport från 2026 ger ett europeiskt perspektiv på specialisering, samarbete och tjänster. Nätverksrapportens urval gäller särskilt hotfulla identifierade nätverk. Egenskaper eller andelar i urvalet kan inte utan vidare överföras till alla svenska kriminella grupperingar.\n\nCrime as a service och violence as a service används som analytiska begrepp. De hjälper till att undersöka relationer mellan efterfrågan, förmedling och utförande, men ersätter inte rättslig prövning av ansvar. Kanalen innehåller inga instruktioner för att genomföra våld.\n\nVärldshälsoorganisationens översikter om ungdomsvåld och våld mot kvinnor ger ett bredare perspektiv på utsatthet och konsekvenser. Globala förekomsttal används inte som svenska mått. Grovt våld i nära relationer och sexuellt våld ska också kunna behandlas med relevanta, särskilt valda underlag.\n\nEtt konstruerat analysfall visar varför gemensamma digitala miljöer, återanvända källor och oklara tidpunkter måste granskas innan en uppdragskedja beskrivs som belagd. Förekomst i ett material, misstanke och fällande dom hålls isär. Barns utsatthet ska inte försvinna bakom en förenklad rollbeskrivning.\n\nKommande avsnitt ska skilja observation, antaget samband och möjlig förklaring. Metoders genomförande och effekt granskas separat. Avsnittets verksamhetsexempel är fiktiva och ger inga nya rättsliga befogenheter.",
+      "context": "Ny uppstart med historiska och internationella underlag tydligt avgränsade. Källkontroll 20 oktober 2026.",
+      "source_url": "https://bra.se/download/18.7d19346a191c757143634b6/1725889949825/2024_7_Okningen-av-skjutvapenvald-i-Sverige.pdf",
+      "sources": [
+        {
+          "url": "https://bra.se/download/18.7d19346a191c757143634b6/1725889949825/2024_7_Okningen-av-skjutvapenvald-i-Sverige.pdf",
+          "title": "Rapport 2024:7"
+        },
+        {
+          "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/EU-SOCTA-2025.pdf",
+          "title": "European Union Serious and Organised Crime Organised Threat Assessment"
+        },
+        {
+          "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/Blueprint-of-criminal-opportunism.pdf",
+          "title": "DECODING THE EU’S MOST THREATENING CRIMINAL NETWORKS"
+        },
+        {
+          "url": "https://www.who.int/en/news-room/fact-sheets/detail/youth-violence",
+          "title": "\r\n\tYouth violence\r\n"
+        },
+        {
+          "url": "https://www.who.int/news-room/fact-sheets/detail/violence-against-women",
+          "title": "\r\n\tViolence against women\r\n"
+        }
+      ],
+      "topics": [
+        "våld"
+      ],
+      "topic_labels": [
+        "Våld"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T19:18:02.624990+00:00",
+      "revision": 1,
+      "fingerprint": "d91d36f0d5161febbbef2b7d2407134eb2e63de432a1be58660b5903a8c839fc",
+      "history": []
+    },
+    {
+      "id": "work-sjoomradet_ordinary-article-1",
+      "episode_id": "WORK_LIBRARY_2026_10:sjoomradet:replacement_ordinary:2",
+      "date": "2026-10-20",
+      "channel": "sjoomradet",
+      "published_at": null,
+      "is_intro": false,
+      "episode_order": 2,
+      "kind": "historical",
+      "episode_title": "Tisdag V.43: skuggflottans ekonomi och maritim källkritik",
+      "episode_audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/sjoomradet_ordinary/morgonpod.mp3",
+      "episode_brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/sjoomradet_ordinary/brief.json",
+      "article_index": 0,
+      "title": "Tisdag V.43: skuggflottans ekonomi och maritim källkritik",
+      "summary": "EU:s råd meddelade den 15 oktober 2026 nya restriktiva åtgärder mot tre personer och nio organisationer eller företag. Enligt pressmeddelandet gällde listningarna bland annat import av sanktionerade varor, oljerelaterat kringgående och finansiell förmedling. Flera företag beskrevs som delar av skuggflottans kringliggande miljö.",
+      "body": "EU:s råd meddelade den 15 oktober 2026 nya restriktiva åtgärder mot tre personer och nio organisationer eller företag. Enligt pressmeddelandet gällde listningarna bland annat import av sanktionerade varor, oljerelaterat kringgående och finansiell förmedling. Flera företag beskrevs som delar av skuggflottans kringliggande miljö.\n\nBeskedet visar att bevakningen behöver kunna följa fler funktioner än själva fartygen: logistik, handel, betalningsförmedling och transport. Det är rådets uppgifter om ett beslut. För tillämpning i ett enskilt fall behöver aktuella rättsakter och listningar kontrolleras.\n\nUtrikesrådets redovisning från 12 oktober beskriver även politiska diskussioner om fortsatt tryck på Ryssland, sanktioner, skuggflotta och informationsdelning. Politiska avsikter och kommande åtgärder ska hållas åtskilda från redan fattade beslut.\n\nÖstersjöns transporter och infrastruktur ger svensk relevans. En lägesbild behöver samtidigt skilja en sanktionerad aktör från en riskindikator och från attribution av en specifik incident. En lucka i ett fartygsspår visar inte ensam orsaken, avsikten eller om ett brott begåtts. Närvaro, teknisk skada och aktörsidentitet är olika uppgifter som behöver belägg för att kopplas samman.\n\nEU:s generella material om maritim säkerhet ger bakgrund om bland annat kritisk infrastruktur och samarbete. Sanktioner, sjösäkerhet, miljö, försvar och brottsbekämpning har olika uppgifter och rättsliga förutsättningar.\n\nRedaktionens arbetsförslag är att föra med händelsetid, utgivare, rättslig status och osäkerhet för varje påstående. Det gör öppna internationella besked användbara för svensk lägesförståelse utan att slutsatser görs starkare än materialet.",
+      "context": "Ordinarie redaktionellt ersättningsavsnitt 20 oktober 2026. Tydligt daterade bakgrundskällor. Avgränsad veckoöversikt 12 till 18 oktober för Lagstiftning.",
+      "source_url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/15/closing-loopholes-council-lists-individuals-and-entities-for-circumventing-eu-sanctions/",
+      "sources": [
+        {
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/15/closing-loopholes-council-lists-individuals-and-entities-for-circumventing-eu-sanctions/",
+          "title": "Closing loopholes: Council lists individuals and entities for circumventing EU sanctions - Consilium"
+        },
+        {
+          "url": "https://www.consilium.europa.eu/en/meetings/fac/2026/10/12/",
+          "title": "Foreign Affairs Council - Consilium"
+        },
+        {
+          "url": "https://www.consilium.europa.eu/en/policies/maritime-security/",
+          "title": "Maritime security - Consilium"
+        }
+      ],
+      "topics": [
+        "sjoomradet"
+      ],
+      "topic_labels": [
+        "sjoomradet"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T19:18:02.626419+00:00",
+      "revision": 1,
+      "fingerprint": "c3402630bc714fe0f9ad8cbb2fd633ed2ee126f4029952c2f37cb72d90816e68",
+      "history": []
+    },
+    {
+      "id": "work-sjoomradet_intro-article-1",
+      "episode_id": "WORK_LIBRARY_2026_10:sjoomradet:intro:1",
+      "date": "2026-10-20",
+      "channel": "sjoomradet",
+      "published_at": null,
+      "is_intro": true,
+      "episode_order": 1,
+      "kind": "introduction",
+      "episode_title": "Sjöområdet: Östersjön, säkerheten och den svenska lägesförståelsen",
+      "episode_audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/sjoomradet_intro/morgonpod.mp3",
+      "episode_brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/sjoomradet_intro/brief.json",
+      "article_index": 0,
+      "title": "Sjöområdet: Östersjön, säkerheten och den svenska lägesförståelsen",
+      "summary": "Sjöområdet är Morgonpoddens kanal för kvalificerad lägesförståelse om Östersjön, maritim säkerhet, skuggflottan, Ukraina och svensk relevans. Uppstartsavsnittet riktar sig till professionella inom brottsbekämpning och närliggande myndigheter som behöver förstå maritima samband.",
+      "body": "Sjöområdet är Morgonpoddens kanal för kvalificerad lägesförståelse om Östersjön, maritim säkerhet, skuggflottan, Ukraina och svensk relevans. Uppstartsavsnittet riktar sig till professionella inom brottsbekämpning och närliggande myndigheter som behöver förstå maritima samband.\n\nHELCOMs bedömning från 2023 ger miljömässig och samhällelig bakgrund. Östersjöns brackvatten och begränsade vattenutbyte är viktiga för förståelsen av havsområdet. Beskrivningen av sjötransporter omfattar också hamnar och tjänster. Äldre uppgifter presenteras inte som nulägesstatistik för oktober 2026.\n\nIMO:s introduktion beskriver FN-organets roll för internationell sjöfartssäkerhet, sjöfartsskydd och förebyggande av föroreningar. Det internationella standardarbetet skiljs från svenska myndigheters konkreta befogenheter. Introduktionen ger inga generella befogenheter att ingripa mot fartyg.\n\nEU-rådets maritima översikt beskriver kritisk undervattensinfrastruktur, cyberhot och risker från skuggflottan. Den maritima säkerhetsstrategin antogs 2014 och uppdaterades 2023. Ett sammanhållet perspektiv gör det möjligt att undersöka samband utan att varje avvikelse förklaras som ett avsiktligt angrepp.\n\nRådets beslut den 18 december 2025 omfattade ytterligare fartyg. Beslutet den 15 oktober 2026 gäller däremot personer och företag som medverkar till sanktionskringgående, inklusive aktörer i skuggflottans ekosystem. Uppgifterna återges med datum. Rådets kommunikation ersätter inte kontroll av den aktuella rättsakten vid en konkret tillämpning.\n\nEtt konstruerat lägesmöte visar varför störning, fartygsobservation och sanktionsstatus måste granskas var för sig. Risk är inte konstaterad skada, och skada är inte bevis för avsikt eller ansvar. Kartbilder, tidslinjer och upprepade medieuppgifter behöver källkritisk prövning.\n\nKommande avsnitt ska förklara vad som är bekräftat, preliminärt och redaktionell analys. Svensk relevans ska motiveras genom det aktuella informationsbehovet. Avsnittets exempel är fiktiva och gör inga påståenden om orsaken till en verklig incident.",
+      "context": "Ny uppstart, källkontroll 20 oktober 2026. Daterade beslut och miljöunderlag skiljs åt.",
+      "source_url": "https://stateofthebalticsea.helcom.fi/overview/about-the-baltic-sea/",
+      "sources": [
+        {
+          "url": "https://stateofthebalticsea.helcom.fi/overview/about-the-baltic-sea/",
+          "title": "About the Baltic Sea – State of the Baltic Sea –  Third HELCOM holistic assessment"
+        },
+        {
+          "url": "https://stateofthebalticsea.helcom.fi/findings/activities/economic-impacts/",
+          "title": "Economic impacts – State of the Baltic Sea –  Third HELCOM holistic assessment"
+        },
+        {
+          "url": "https://www.imo.org/en/about/pages/default.aspx",
+          "title": "\r\n        Introduction to IMO\r\n    "
+        },
+        {
+          "url": "https://www.consilium.europa.eu/en/policies/maritime-security/",
+          "title": "Maritime security - Consilium"
+        },
+        {
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2025/12/18/russia-s-war-of-aggression-against-ukraine-council-sanctions-41-vessels-of-the-russian-shadow-fleet/",
+          "title": "Russia's war of aggression against Ukraine: Council sanctions 41 vessels of the Russian shadow fleet  - Consilium"
+        },
+        {
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/15/closing-loopholes-council-lists-individuals-and-entities-for-circumventing-eu-sanctions/",
+          "title": "Closing loopholes: Council lists individuals and entities for circumventing EU sanctions - Consilium"
+        }
+      ],
+      "topics": [
+        "sjöområdet"
+      ],
+      "topic_labels": [
+        "Sjöområdet"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T19:18:02.625950+00:00",
+      "revision": 1,
+      "fingerprint": "4e4436636edaa29e49af6ede01919c2c01623d68bd27c8305be30dcf79c35613",
+      "history": []
+    },
+    {
+      "id": "work-lagstiftning_ordinary-article-1",
+      "episode_id": "WORK_LIBRARY_2026_10:lagstiftning:replacement_ordinary:2",
+      "date": "2026-10-20",
+      "channel": "lagstiftning",
+      "published_at": null,
+      "is_intro": false,
+      "episode_order": 2,
+      "kind": "historical",
+      "episode_title": "Veckoöversikt 12 till 18 oktober 2026: motioner och rättslig status",
+      "episode_audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/lagstiftning_ordinary/morgonpod.mp3",
+      "episode_brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/lagstiftning_ordinary/brief.json",
+      "article_index": 0,
+      "title": "Veckoöversikt 12 till 18 oktober 2026: motioner och rättslig status",
+      "summary": "Veckoöversikten gäller uttryckligen 12 till 18 oktober 2026 och gör ett avgränsat urval ur riksdagsarbetet. Den påstår inte att inga andra rättsliga händelser inträffat. De kontrollerade handlingarna omfattar motioner, som återges med denna status.",
+      "body": "Veckoöversikten gäller uttryckligen 12 till 18 oktober 2026 och gör ett avgränsat urval ur riksdagsarbetet. Den påstår inte att inga andra rättsliga händelser inträffat. De kontrollerade handlingarna omfattar motioner, som återges med denna status.\n\nMotion 2026/27:27 av Carina Örgård med flera (V), daterad 13 oktober, gäller propositionen om ett nytt brott och andra åtgärder mot människohandel. Motionärerna vill bland annat stärka brottsofferstöd och Jämställdhetsmyndighetens förutsättningar som nationell kontaktpunkt för gränsöverskridande vidareslussning.\n\nMotion 2026/27:22 av Alexander Christiansson med flera (SD), daterad 12 oktober, gäller samma proposition men vill att en annan myndighet än Jämställdhetsmyndigheten utses till kontaktpunkt. Det är olika politiska yrkanden om organisation och ansvar. Motionerna innebär inte i sig nya myndighetsuppdrag eller ändrade straffbestämmelser.\n\nMotion 2026/27:42 av Louise Meijer (M), daterad 14 oktober, föreslår skärpta straff för barnpornografibrott och grovt barnpornografibrott samt diskuterar gradindelningen. Brottsbeteckningarna återges eftersom det är de rättsliga beteckningar som handlingen avser. Befintliga straffskalor redovisas inte från motionens bakgrundstext.\n\nFormuleringen att riksdagen ställer sig bakom något kan förekomma under rubriken förslag till riksdagsbeslut. Där anger den vad motionären vill att riksdagen ska besluta, inte att beslutet redan fattats. En kallelse är heller inte ett beslutsprotokoll.\n\nRiksdagens vägledning om vägen från förslag till lag ger bakgrund till skillnaden mellan förslag, beredning, kammarbeslut och författning. Bevakningen behöver även följa ikraftträdande och övergångsbestämmelser. Framtida planerade steg ska inte flyttas bakåt till den vecka som sammanfattas.",
+      "context": "Ordinarie redaktionellt ersättningsavsnitt 20 oktober 2026. Tydligt daterade bakgrundskällor. Avgränsad veckoöversikt 12 till 18 oktober för Lagstiftning.",
+      "source_url": "https://data.riksdagen.se/dokumentlista/?utskott=JuU&from=2026-10-12&tom=2026-10-18&utformat=json&antal=100",
+      "sources": [
+        {
+          "url": "https://data.riksdagen.se/dokumentlista/?utskott=JuU&from=2026-10-12&tom=2026-10-18&utformat=json&antal=100",
+          "title": "Riksdagens dokumentregister, JuU 12 till 18 oktober 2026"
+        },
+        {
+          "url": "https://data.riksdagen.se/dokument/HE0227.text",
+          "title": "weekly_motion_27_text"
+        },
+        {
+          "url": "https://data.riksdagen.se/dokument/HE0222.html",
+          "title": "weekly_motion_22"
+        },
+        {
+          "url": "https://data.riksdagen.se/dokument/HE0242.html",
+          "title": "weekly_motion_42"
+        },
+        {
+          "url": "https://www.riksdagen.se/sv/sa-fungerar-riksdagen/riksdagens-uppgifter/beslutar-om-lagar/fran-forslag-till-lag/",
+          "title": "Från förslag till lag | Sveriges riksdag"
+        }
+      ],
+      "topics": [
+        "lagstiftning"
+      ],
+      "topic_labels": [
+        "lagstiftning"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T19:18:02.627549+00:00",
+      "revision": 1,
+      "fingerprint": "05ce8e18c2966a65d9d392578908f756d7b5f022d922bb8ea70d0a77431c789a",
+      "history": []
+    },
+    {
+      "id": "work-lagstiftning_intro-article-1",
+      "episode_id": "WORK_LIBRARY_2026_10:lagstiftning:intro:1",
+      "date": "2026-10-20",
+      "channel": "lagstiftning",
+      "published_at": null,
+      "is_intro": true,
+      "episode_order": 1,
+      "kind": "introduction",
+      "episode_title": "Lagstiftning: från förslag och beslut till tillämpning",
+      "episode_audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/lagstiftning_intro/morgonpod.mp3",
+      "episode_brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/lagstiftning_intro/brief.json",
+      "article_index": 0,
+      "title": "Lagstiftning: från förslag och beslut till tillämpning",
+      "summary": "Kanalen Lagstiftning inom straffrätt ska ge spårbar orientering om straffrätt, straffprocess, reformer och rättspraxis. Målgruppen är professionella inom brottsbekämpning, åklagarverksamhet och närliggande myndigheter. Uppstartsavsnittet förklarar hur en rättslig nyhet behöver läsas innan den kan användas i verksamheten.",
+      "body": "Kanalen Lagstiftning inom straffrätt ska ge spårbar orientering om straffrätt, straffprocess, reformer och rättspraxis. Målgruppen är professionella inom brottsbekämpning, åklagarverksamhet och närliggande myndigheter. Uppstartsavsnittet förklarar hur en rättslig nyhet behöver läsas innan den kan användas i verksamheten.\n\nRiksdagens och regeringens information visar hur utredning, remiss, lagrådsgranskning, proposition, utskottsberedning och beslut ingår i lagstiftningsprocessen. Dokumentens status ska styra språket. En utredning föreslår, en motion uttrycker ett förslag från ledamöter och ett riksdagsbeslut måste kontrolleras som beslut. Formuleringen att riksdagen ställer sig bakom något i en motion är inte bevis för att förslaget redan har antagits.\n\nSvensk författningssamling är en central hållpunkt för utfärdade författningar. Publiceringsdag, beslutsdag och ikraftträdande behöver hållas isär. En konkret reform kräver kontroll av aktuell lydelse och eventuella övergångsbestämmelser. Introduktionen ger inga slutsatser om en bestämd övergångsregel eller individuell befogenhet.\n\nDomstolarnas information förklarar de allmänna domstolarnas struktur och brottmålsprocessen. Högsta domstolen beskriver sin prejudikatbildande huvuduppgift. Alla överklaganden prövas inte. För ett avsnitt om rättspraxis behöver redaktionen läsa vad domstolen faktiskt har avgjort och vilken fråga som kan ge vägledning.\n\nTvå konstruerade verksamhetsfall visar riskerna med att förbereda rutiner som om ett utredningsförslag redan vore lag eller att beskriva en avgränsad dom som en total förändring. Förberedelse kan vara relevant, men antaganden och beslutspunkter behöver vara synliga.\n\nVeckobevakningen ska ange tidsperiod och urval. Att några frågor sammanfattas betyder inte att andra rättsliga händelser saknas. Verksamhetskonsekvenser ska delas upp i uttryckliga krav, dokumenterade bedömningar och redaktionella frågor. Alla avsnitt ska ge en väg tillbaka till de dokument som bär upp huvuduppgifterna. Misstanke, åtal och dom hålls isär, och enskilda personer identifieras inte utan sakligt behov.",
+      "context": "Ny uppstart med officiella processöversikter. Källkontroll 20 oktober 2026. Konkreta reformer kräver särskilt rättskällestöd.",
+      "source_url": "https://www.riksdagen.se/sv/sa-fungerar-riksdagen/riksdagens-uppgifter/beslutar-om-lagar/fran-forslag-till-lag/",
+      "sources": [
+        {
+          "url": "https://www.riksdagen.se/sv/sa-fungerar-riksdagen/riksdagens-uppgifter/beslutar-om-lagar/fran-forslag-till-lag/",
+          "title": "Från förslag till lag | Sveriges riksdag"
+        },
+        {
+          "url": "https://www.regeringen.se/sa-styrs-sverige/lagstiftningsprocessen/",
+          "title": "Lagstiftningsprocessen - Regeringen.se"
+        },
+        {
+          "url": "https://www.regeringen.se/sa-styrs-sverige/lagstiftningsprocessen/lagar-i-svensk-forfattningssamling-sfs/",
+          "title": "Lagar i Svensk författningssamling - Regeringen.se"
+        },
+        {
+          "url": "https://www.domstol.se/om-sveriges-domstolar/det-har-ar-sveriges-domstolar/sa-ar-domstolarna-organiserade/allmanna-domstolar/",
+          "title": "Allmänna domstolar - Sveriges Domstolar"
+        },
+        {
+          "url": "https://www.domstol.se/amnen/brott-och-straff/for-dig-som-ar-kallad-till-brottmalsrattegang/tilltalad/",
+          "title": "Tilltalad - Sveriges Domstolar"
+        },
+        {
+          "url": "https://www.domstol.se/hogsta-domstolen/om-hogsta-domstolen/om-oss/roll-och-uppgift/",
+          "title": "Roll och uppgift - Högsta domstolen"
+        },
+        {
+          "url": "https://www.domstol.se/hogsta-domstolen/om-handlaggningen/fragor--svar/",
+          "title": "Frågor & svar - Högsta domstolen"
+        }
+      ],
+      "topics": [
+        "lagstiftning"
+      ],
+      "topic_labels": [
+        "Lagstiftning"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T19:18:02.627017+00:00",
+      "revision": 1,
+      "fingerprint": "09730d0a7f172d05845f3a0561d874583fb799fb8a9662c205003597eae7d10f",
+      "history": []
+    },
+    {
+      "id": "work-kek_ordinary-article-1",
+      "episode_id": "WORK_LIBRARY_2026_10:kek:replacement_ordinary:2",
+      "date": "2026-10-20",
+      "channel": "kek",
+      "published_at": null,
+      "is_intro": false,
+      "episode_order": 2,
+      "kind": "historical",
+      "episode_title": "Tisdag V.43: bolagets funktion i kriminell ekonomi",
+      "episode_audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/kek_ordinary/morgonpod.mp3",
+      "episode_brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/kek_ordinary/brief.json",
+      "article_index": 0,
+      "title": "Tisdag V.43: bolagets funktion i kriminell ekonomi",
+      "summary": "Ett bolag kan vara relevant för att förstå avtal, betalningsflöden, kontroll och tjänster i ett misstänkt upplägg. Dagens fördjupning ställer frågor om ekonomiska funktioner och vilket underlag som stöder analysen.",
+      "body": "Ett bolag kan vara relevant för att förstå avtal, betalningsflöden, kontroll och tjänster i ett misstänkt upplägg. Dagens fördjupning ställer frågor om ekonomiska funktioner och vilket underlag som stöder analysen.\n\nEkobrottsmyndighetens lägesbild 2025 beskriver en utveckling från enskilda brott mot organiserade systemhot. Myndighetens beskrivningar av organiserad brottslighet och penningtvätt används som daterat underlag. Artikeln gör ingen ny uppskattning av den totala kriminella ekonomin och återger inte äldre rapportuppgifter som dagens händelser.\n\nEuropols rapport om de mest hotfulla nätverken behandlar legala affärsstrukturer och specialiserade tjänster. Underlaget gäller identifierade särskilt hotfulla nätverk. Det är ingen slumpmässig undersökning av alla bolag eller all europeisk brottslighet, och ger ingen direkt svensk frekvenssiffra.\n\nI det konstruerade exemplet har flera bolag olika roller i ett flöde. Analysen behöver beskriva faktiska handlingar och relationer. Gemensamma adresser eller företrädare är inte i sig bevis på ett brottsligt upplägg. Ett stort flöde innebär inte heller att hela beloppet är en fastställd brottsvinst.\n\nViktiga frågor är var intäkter uppstår, vem som kontrollerar tillgångar och vilken funktion som behöver påverkas. Identifierade, säkrade och slutligt hanterade tillgångar är olika led i ett arbete. Redaktionens analysfrågor ersätter inga rekvisit eller beslut om enskilda tvångsåtgärder.\n\nInformationsdelning behöver samtidigt ha konkret syfte och rättsligt stöd. Frågorna att ta med till nästa lägesbild är vilken ekonomisk funktion som beskrivs, vilket underlag som visar den och vilken förändring en åtgärd är tänkt att ge.",
+      "context": "Ordinarie redaktionellt ersättningsavsnitt 20 oktober 2026. Tydligt daterade bakgrundskällor. Avgränsad veckoöversikt 12 till 18 oktober för Lagstiftning.",
+      "source_url": "https://www.ekobrottsmyndigheten.se/om-oss/press/aktuellt/nyheter/lagesbild-2025-fran-enskilda-brott-till-organiserade-systemhot/",
+      "sources": [
+        {
+          "url": "https://www.ekobrottsmyndigheten.se/om-oss/press/aktuellt/nyheter/lagesbild-2025-fran-enskilda-brott-till-organiserade-systemhot/",
+          "title": "Från enskilda brott till organiserade systemhot | Ekobrottsmyndigheten"
+        },
+        {
+          "url": "https://www.ekobrottsmyndigheten.se/om-ekobrott/kriminell-ekonomi/organiserad-brottslighet/",
+          "title": "Organiserad brottslighet | Ekobrottsmyndigheten"
+        },
+        {
+          "url": "https://www.ekobrottsmyndigheten.se/om-ekobrott/brotten-vi-utreder/penningtvattsbrott/",
+          "title": "Penningtvättsbrott | Ekobrottsmyndigheten"
+        },
+        {
+          "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/Blueprint-of-criminal-opportunism.pdf",
+          "title": "DECODING THE EU’S MOST THREATENING CRIMINAL NETWORKS"
+        }
+      ],
+      "topics": [
+        "kek"
+      ],
+      "topic_labels": [
+        "kek"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T19:18:02.624599+00:00",
+      "revision": 1,
+      "fingerprint": "13007c22b41a631ca83af040db4f84711181b736dd4420f5f07ca10d0bb6a13d",
+      "history": []
+    },
+    {
+      "id": "work-kek_intro-article-1",
+      "episode_id": "WORK_LIBRARY_2026_10:kek:intro:1",
+      "date": "2026-10-20",
+      "channel": "kek",
+      "published_at": null,
+      "is_intro": true,
+      "episode_order": 1,
+      "kind": "introduction",
+      "episode_title": "Kriminell ekonomi: följ pengarnas funktion i brottsligheten",
+      "episode_audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/kek_intro/morgonpod.mp3",
+      "episode_brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/kek_intro/brief.json",
+      "article_index": 0,
+      "title": "Kriminell ekonomi: följ pengarnas funktion i brottsligheten",
+      "summary": "Kriminell ekonomi behandlas i kanalen som ekonomiska drivkrafter, funktioner och resurser i brottslighet. Begreppet ersätter inte prövning av en viss gärning. Introduktionen följer intäkter, bolag, penningtvätt, utnyttjade personer, tillgångar och motåtgärder.",
+      "body": "Kriminell ekonomi behandlas i kanalen som ekonomiska drivkrafter, funktioner och resurser i brottslighet. Begreppet ersätter inte prövning av en viss gärning. Introduktionen följer intäkter, bolag, penningtvätt, utnyttjade personer, tillgångar och motåtgärder.\n\nEkobrottsmyndighetens lägesbild 2025 beskriver organiserade systemhot. Myndighetens öppna information om organiserad brottslighet och penningtvätt ger bakgrund till bolagsfunktioner och ekonomiska samband. Underlagen är daterade källor, inte nya händelser den dag avsnittet produceras.\n\nEuropols rapport om särskilt hotfulla nätverk beskriver legala affärsstrukturer och specialiserade tjänster. Urvalet gäller identifierade nätverk som bedömts särskilt hotfulla. Det ger ingen direkt svensk frekvenssiffra och ska inte överföras till alla företag eller alla nätverk.\n\nFinansinspektionens information ger ett förebyggande perspektiv på penningtvätt och finansiering av terrorism. Förebyggande skyldigheter och riskbedömningar behöver skiljas från en brottsutrednings rättsliga påståenden. Kanalen återger inga fullständiga rekvisit från en kort fenomenbeskrivning.\n\nAvsnittets fiktiva grupp skiljer omsättning, vinst, observerat betalningsflöde och uppskattning. Den undersöker också kontroll, användning och tid. En registrering besvarar inte ensam alla frågor om en tillgång. Gemensam adress eller företrädare är heller inte i sig bevis för ett brottsligt upplägg.\n\nIdentifierad, säkrad och slutligt hanterad egendom är olika led som ska redovisas med rätt status. Uppföljning behöver även kunna undersöka vad som händer med den ekonomiska funktion som en insats var tänkt att påverka. Samverkan och internationella underlag kräver tydligt syfte, rättsliga förutsättningar och begriplig källkritik.\n\nInga totalsiffror för svensk kriminell ekonomi används i introduktionen. Alla egna verksamhetsfall är konstruerade. Kanalen fortsätter med fenomen, forskning, myndighetsbedömningar och dokumenterade motåtgärder, med beloppens betydelse och källornas avgränsningar synliga.",
+      "context": "Ny uppstart, källor kontrollerade 20 oktober 2026. Historiska rapporter och fiktiva exempel skiljs åt.",
+      "source_url": "https://www.ekobrottsmyndigheten.se/om-oss/press/aktuellt/nyheter/lagesbild-2025-fran-enskilda-brott-till-organiserade-systemhot/",
+      "sources": [
+        {
+          "url": "https://www.ekobrottsmyndigheten.se/om-oss/press/aktuellt/nyheter/lagesbild-2025-fran-enskilda-brott-till-organiserade-systemhot/",
+          "title": "Från enskilda brott till organiserade systemhot | Ekobrottsmyndigheten"
+        },
+        {
+          "url": "https://www.ekobrottsmyndigheten.se/om-ekobrott/kriminell-ekonomi/organiserad-brottslighet/",
+          "title": "Organiserad brottslighet | Ekobrottsmyndigheten"
+        },
+        {
+          "url": "https://www.ekobrottsmyndigheten.se/om-ekobrott/brotten-vi-utreder/penningtvattsbrott/",
+          "title": "Penningtvättsbrott | Ekobrottsmyndigheten"
+        },
+        {
+          "url": "https://www.fi.se/sv/penningtvatt/",
+          "title": "Penningtvätt och finansiering av terrorism | Finansinspektionen"
+        },
+        {
+          "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/Blueprint-of-criminal-opportunism.pdf",
+          "title": "DECODING THE EU’S MOST THREATENING CRIMINAL NETWORKS"
+        }
+      ],
+      "topics": [
+        "kriminell-ekonomi"
+      ],
+      "topic_labels": [
+        "Kriminell ekonomi"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T19:18:02.624213+00:00",
+      "revision": 1,
+      "fingerprint": "1e2a5afa86c9618256135ccc742744f0ba7c689d8e8197bffa426a82aaa53737",
+      "history": []
+    },
+    {
+      "id": "work-it-juridik-special-4-article-1",
+      "episode_id": "WORK_LIBRARY_2026_10:it_juridik:special:5",
+      "date": "2026-10-20",
+      "channel": "it_juridik",
+      "published_at": null,
+      "is_intro": false,
+      "episode_order": 5,
+      "kind": "historical",
+      "episode_title": "Från idé till system med inbyggt dataskydd",
+      "episode_audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/it_juridik_special_4/morgonpod.mp3",
+      "episode_brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/it_juridik_special_4/brief.json",
+      "article_index": 0,
+      "title": "Från idé till system med inbyggt dataskydd",
+      "summary": "Ett fungerande teknikprov besvarar en avgränsad fråga. Det visar inte ensamt att verkliga uppgifter får användas i en framtida tjänst. För bedömningen behöver verksamheten beskriva uppgifter, ändamål, användare, mottagare och planerade behandlingar.",
+      "body": "Ett fungerande teknikprov besvarar en avgränsad fråga. Det visar inte ensamt att verkliga uppgifter får användas i en framtida tjänst. För bedömningen behöver verksamheten beskriva uppgifter, ändamål, användare, mottagare och planerade behandlingar.\n\nBrottsdatalagens 3 kap. innehåller krav på inbyggt dataskydd och dataskydd som standard. Skyddsåtgärder ska integreras när medlen för behandlingen bestäms och vid behandlingen. Bestämmelsen om standard innebär att automatiserade system som regel inte ska möjliggöra behandling av andra personuppgifter än de som behövs för det angivna ändamålet.\n\nVid vissa nya eller betydligt förändrade behandlingar krävs konsekvensbedömning och förhandssamråd. Brottsdataförordningen anger innehållet i en dokumenterad konsekvensbedömning, bland annat behandlingsbeskrivning, integritetsrisker och planerade skyddsåtgärder. Vägledningen från IMY i december 2025 ger stöd för bedömningen av förhandssamråd och dess underlag. Den ersätter inte prövningen av den aktuella behandlingen.\n\nAvsnittet följer ett helt fiktivt projekt som vill förbättra sökningen i ett stort material. Projektet granskar sökning, presentation av osäkerhet, rättelse, standardinställningar och senare funktioner för sammanföring och export. Dessa händelseförlopp är redaktionella exempel på kravarbete, inte rättsligt föreskrivna tekniska lösningar.\n\nArbetsförslaget är att samla verksamhet, juridik, säkerhet, utveckling och förvaltning kring samma konkreta användningsfall. Tidiga funktioner kan undersökas med konstruerade uppgifter. När material, användare eller användning ändras behöver nästa steg beskrivas och bedömas. Ett projekt bör också visa vem som förvaltar skydd och rutiner efter införandet.\n\nInnehållet är en grundkurs och avgör inte om en individuell tjänst får tas i bruk. Rättskällorna kontrollerades 20 oktober 2026.",
+      "context": "Kompetenshöjande special med fiktiva exempel. Rättsläget kontrollerat 20 oktober 2026.",
+      "source_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+      "sources": [
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+          "title": "Brottsdatalag (2018:1177) | Sveriges riksdag"
+        },
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdataforordning-20181202_sfs-2018-1202/",
+          "title": "Brottsdataförordning (2018:1202) | Sveriges riksdag"
+        },
+        {
+          "url": "https://www.imy.se/publikationer/vagledning-om-forhandssamrad-enligt-brottsdatalagen/",
+          "title": "Vägledning om förhandssamråd enligt brottsdatalagen | IMY"
+        }
+      ],
+      "topics": [
+        "it-juridik-och-dataskydd"
+      ],
+      "topic_labels": [
+        "IT-juridik och dataskydd"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T19:18:02.633223+00:00",
+      "revision": 1,
+      "fingerprint": "25c8af01925728837e6191ef59a30a473c1e78eb6959c61cc069ccb078eecc03",
+      "history": []
+    },
+    {
+      "id": "work-it-juridik-special-3-article-1",
+      "episode_id": "WORK_LIBRARY_2026_10:it_juridik:special:4",
+      "date": "2026-10-20",
+      "channel": "it_juridik",
+      "published_at": null,
+      "is_intro": false,
+      "episode_order": 4,
+      "kind": "historical",
+      "episode_title": "Behörigheter och loggning genom hela livscykeln",
+      "episode_audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/it_juridik_special_3/morgonpod.mp3",
+      "episode_brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/it_juridik_special_3/brief.json",
+      "article_index": 0,
+      "title": "Behörigheter och loggning genom hela livscykeln",
+      "summary": "Behörigheter behöver följa arbetsuppgifter över tid. Det räcker inte att en användare en gång fått rätt åtkomst. Brottsdataförordningen kräver rutiner för tilldelning, förändring, borttagning och regelbunden uppföljning. Vid tilldelning ska även utbildning och erfarenhet särskilt beaktas.",
+      "body": "Behörigheter behöver följa arbetsuppgifter över tid. Det räcker inte att en användare en gång fått rätt åtkomst. Brottsdataförordningen kräver rutiner för tilldelning, förändring, borttagning och regelbunden uppföljning. Vid tilldelning ska även utbildning och erfarenhet särskilt beaktas.\n\nBrottsdatalagen anger att tillgången till personuppgifter ska begränsas till vad var och en behöver för att fullgöra sina arbetsuppgifter. I avsnittet skiljs därför identitetskontroll, teknisk behörighet och konkret arbetsbehov åt. En lyckad inloggning visar inte att varje möjlig användning är motiverad.\n\nDet fiktiva exemplet följer en medarbetare som får en tillfällig roll och sedan byter uppdrag. Organisationen behöver kunna förklara vem som omprövar åtkomsten och hur ändringen genomförs. Ett tekniskt slutdatum kan vara en hjälp, men ersätter inte hela förvaltningsrutinen.\n\nBrottsdataförordningen preciserar loggningens behandlingskategorier. Där finns bland annat läsning, ändring, utlämning, sammanföring och radering. Den exakta regleringen innehåller närmare villkor som behöver läsas i rättskällan. En aktivitetslista för användaren kan ha ett annat syfte än loggning för kontroll.\n\nLoggning gör inte en otillåten behandling tillåten. Den kan däremot ge underlag för att upptäcka och undersöka en händelse. Avsnittets redaktionella exempel skiljer därför mellan förebyggande åtkomstbegränsningar och efterföljande kontroll. Projektet föreslås prova både tekniska logghändelser och hur en kontrollfunktion kan förstå underlaget.\n\nInget särskilt gränssnitt eller viss teknisk arkitektur föreskrivs i artikeln. Arbetsfrågorna ska användas för att beskriva en konkret lösning som kan prövas mot tillämpliga krav. Rättskällorna kontrollerades 20 oktober 2026.",
+      "context": "Kompetenshöjande special med fiktiva exempel. Rättsläget kontrollerat 20 oktober 2026.",
+      "source_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+      "sources": [
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+          "title": "Brottsdatalag (2018:1177) | Sveriges riksdag"
+        },
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdataforordning-20181202_sfs-2018-1202/",
+          "title": "Brottsdataförordning (2018:1202) | Sveriges riksdag"
+        }
+      ],
+      "topics": [
+        "it-juridik-och-dataskydd"
+      ],
+      "topic_labels": [
+        "IT-juridik och dataskydd"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T19:18:02.632552+00:00",
+      "revision": 1,
+      "fingerprint": "8ff7312afc1d6f9d9c09553213160a9ffbee0c9ecaacc80ad1b4144ff1a5f8ee",
+      "history": []
+    },
+    {
+      "id": "work-it-juridik-special-2-article-1",
+      "episode_id": "WORK_LIBRARY_2026_10:it_juridik:special:3",
+      "date": "2026-10-20",
+      "channel": "it_juridik",
+      "published_at": null,
+      "is_intro": false,
+      "episode_order": 3,
+      "kind": "historical",
+      "episode_title": "Ändamål och informationsdelning: fyra prövningar i samma flöde",
+      "episode_audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/it_juridik_special_2/morgonpod.mp3",
+      "episode_brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/it_juridik_special_2/brief.json",
+      "article_index": 0,
+      "title": "Ändamål och informationsdelning: fyra prövningar i samma flöde",
+      "summary": "Informationsdelning behöver beskrivas som en konkret behandling. Handlar det om att lämna ett dokument, vissa uppgifter, en sökmöjlighet eller en löpande anslutning? Skillnaden påverkar vilket underlag som behövs för bedömningen.",
+      "body": "Informationsdelning behöver beskrivas som en konkret behandling. Handlar det om att lämna ett dokument, vissa uppgifter, en sökmöjlighet eller en löpande anslutning? Skillnaden påverkar vilket underlag som behövs för bedömningen.\n\nBrottsdatalagen innehåller krav på rättsligt stöd, nödvändighet och angivna ändamål. Nya ändamål inom lagens område regleras i 2 kap. 4 §. Behandling för ändamål utanför lagens tillämpningsområde behandlas i 2 kap. 22 §. Bestämmelserna har uttryckliga undantag vid uppgiftsskyldighet enligt lag eller förordning. En generell regel om att återanvändning alltid är tillåten eller alltid förbjuden blir därför missvisande.\n\nSekretessen är en annan del av prövningen. Att personuppgifter får behandlas innebär inte automatiskt stöd för att röja sekretessbelagda uppgifter. OSL reglerar röjande och undantag. I 8 kap. finns även regeln om självständiga verksamhetsgrenar inom samma myndighet. Varje intern arbetsgrupp är inte automatiskt en sådan verksamhetsgren.\n\nMottagarens användning behöver också vara beskriven. Brottsdataförordningen anger att mottagaren ska underrättas om vissa särskilda behandlingsvillkor. Det praktiska flödet måste kunna bära de villkor som gäller för uppgifterna.\n\nI avsnittets fiktiva exempel vill en ny grupp göra ett avgränsat analysmaterial till en generell kunskapsbank. Exemplet visar hur ändrad användarkrets och användning behöver bli synliga. Redaktionens arbetsförslag är att beskriva aktörer, uppgiftstyper, mottagare, ändamål och villkor innan tekniska anslutningar bestäms. Beskriv också hur rättelser och frågor ska hanteras.\n\nDetta är en pedagogisk beskrivning, inte ett besked om en viss myndighets rätt att lämna eller ta emot uppgifter. Rättsläget kontrollerades 20 oktober 2026.",
+      "context": "Kompetenshöjande special med fiktiva exempel. Rättsläget kontrollerat 20 oktober 2026.",
+      "source_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+      "sources": [
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+          "title": "Brottsdatalag (2018:1177) | Sveriges riksdag"
+        },
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/offentlighets-och-sekretesslag-2009400_sfs-2009-400/",
+          "title": "Offentlighets- och sekretesslag (2009:400) | Sveriges riksdag"
+        },
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdataforordning-20181202_sfs-2018-1202/",
+          "title": "Brottsdataförordning (2018:1202) | Sveriges riksdag"
+        }
+      ],
+      "topics": [
+        "it-juridik-och-dataskydd"
+      ],
+      "topic_labels": [
+        "IT-juridik och dataskydd"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T19:18:02.631832+00:00",
+      "revision": 1,
+      "fingerprint": "7e87027d49656814e445bc2d99f700faae5d6bff179113fb71321c8ab398140e",
+      "history": []
+    },
+    {
+      "id": "work-it-juridik-special-1-article-1",
+      "episode_id": "WORK_LIBRARY_2026_10:it_juridik:special:2",
+      "date": "2026-10-20",
+      "channel": "it_juridik",
+      "published_at": null,
+      "is_intro": false,
+      "episode_order": 2,
+      "kind": "historical",
+      "episode_title": "Personuppgifter och valet av regelverk",
+      "episode_audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/it_juridik_special_1/morgonpod.mp3",
+      "episode_brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/it_juridik_special_1/brief.json",
+      "article_index": 0,
+      "title": "Personuppgifter och valet av regelverk",
+      "summary": "Ett alias eller en intern kod är inte automatiskt anonym information. Brottsdatalagens definition omfattar upplysningar om en identifierad eller identifierbar fysisk person som är i livet. I en konkret arbetsyta behöver man därför beskriva om och hur uppgifterna kan hänföras till en person. En kolumnrubrik avgör inte detta.",
+      "body": "Ett alias eller en intern kod är inte automatiskt anonym information. Brottsdatalagens definition omfattar upplysningar om en identifierad eller identifierbar fysisk person som är i livet. I en konkret arbetsyta behöver man därför beskriva om och hur uppgifterna kan hänföras till en person. En kolumnrubrik avgör inte detta.\n\nAvsnittets första fiktiva exempel gäller ett användarnamn utan personnummer. Om arbetsgruppen kan koppla användarnamnet till en person behöver den möjligheten ingå i bedömningen. I nästa exempel hålls en kodnyckel separat. Det kan vara en relevant skyddsåtgärd, men behandlingen är inte automatiskt anonym bara för att kod används.\n\nBehandlingsbegreppet är också brett. Insamling, lagring, läsning och utlämnande är exempel på åtgärder som anges i lagen. Rättsfrågan uppstår därför inte först när materialet används för avancerad analys. Lagens tillämpningsområde behöver läsas tillsammans med beskrivningen av den faktiska behandlingen.\n\nIMY:s översikt skiljer mellan dataskyddsdirektivet, brottsdatalagen, registerförfattningar och GDPR. Vilket regelverk som gäller behöver undersökas för den konkreta behandlingen och dess syfte. Samma organisation kan utföra arbetsuppgifter som omfattas av olika regler. Uppgifternas ursprung löser inte ensamt frågan om alla senare användningar.\n\nRedaktionellt arbetsförslag: beskriv en uppgiftstyp med dess källa, identifieringsmöjligheter, användare, ändamål och planerade behandlingar. Lägg sedan till hur skydd och instruktioner ska fungera. Beskrivningen blir ett underlag för bedömning, inte ett tillstånd att börja behandla verkliga uppgifter.\n\nExemplen är konstruerade. Inga verkliga personuppgifter eller individuella tillåtlighetsbeslut ingår. Materialet kontrollerades mot öppna rättskällor den 20 oktober 2026.",
+      "context": "Kompetenshöjande special med fiktiva exempel. Rättsläget kontrollerat 20 oktober 2026.",
+      "source_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+      "sources": [
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+          "title": "Brottsdatalag (2018:1177) | Sveriges riksdag"
+        },
+        {
+          "url": "https://www.imy.se/verksamhet/dataskydd/sa-hanger-lagarna-ihop/",
+          "title": "Så hänger lagarna ihop | IMY"
+        }
+      ],
+      "topics": [
+        "it-juridik-och-dataskydd"
+      ],
+      "topic_labels": [
+        "IT-juridik och dataskydd"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T19:18:02.638232+00:00",
+      "revision": 1,
+      "fingerprint": "cff944f446b04fe482f49c37032e191f3be574a4cc9fb2dd157ca211668b0e5f",
+      "history": []
+    },
+    {
+      "id": "work-it-juridik-intro-article-1",
+      "episode_id": "WORK_LIBRARY_2026_10:it_juridik:intro:1",
+      "date": "2026-10-20",
+      "channel": "it_juridik",
+      "published_at": null,
+      "is_intro": true,
+      "episode_order": 1,
+      "kind": "introduction",
+      "episode_title": "IT-juridik och dataskydd: från verksamhetsbehov till rättsligt hållbar behandling",
+      "episode_audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/it_juridik_intro/morgonpod.mp3",
+      "episode_brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/it_juridik_intro/brief.json",
+      "article_index": 0,
+      "title": "Börja med behandlingen, ändamålet och informationsflödet",
+      "summary": "Dataskydd, sekretess och behörighet besvarar olika frågor i samma informationsflöde. Introduktionen visar hur de kan beskrivas innan ett digitalt stöd tas i bruk.",
+      "body": "En gemensam arbetsyta för brottsbekämpning är också en beskrivning av hur information ska behandlas. Vilka uppgifter ska samlas in, vilka personer ska kunna se dem och vad ska resultatet användas till? De frågorna behöver besvaras innan tekniska funktioner kan bedömas på ett meningsfullt sätt.\n\nDen europeiska dataskyddsreformen omfattar både GDPR och ett särskilt direktiv för behöriga myndigheters brottsbekämpande behandling. Brottsdatalagen genomför det senare i svensk rätt. Särskilda registerförfattningar kompletterar ramen för olika verksamheter. Det är behandlingens sammanhang och syfte som måste undersökas. Samma organisation kan hantera personuppgifter under olika regelverk.\n\nBrottsdatalagens grundläggande krav omfattar rättsligt stöd, nödvändighet och angivna ändamål. Uppgifternas kvalitet spelar också roll: en misstänkt, en dömd och ett vittne ska inte framstå som samma kategori. Fakta och personliga bedömningar behöver kunna särskiljas enligt lagens närmare förutsättningar. För en digital arbetsyta blir detta en fråga om hur sammanhang och osäkerhet följer informationen.\n\nSekretess och dataskydd behöver prövas tillsammans. Att en uppgift får behandlas innebär inte i sig att den får röjas för en annan aktör. Offentlighets- och sekretesslagen innehåller regler för sådant röjande. Bestämmelser om sekretess mellan myndigheter gäller även mellan verksamhetsgrenar som är självständiga i förhållande till varandra. Varje intern organisatorisk gräns är därmed inte automatiskt en sekretessgräns. Bedömningen måste göras utifrån den verkliga rättsliga situationen.\n\nEn särskild lag kompletterar brottsdatalagen för polisens behandling inom dess område. Där finns bland annat bestämmelser om gemensamt tillgängliga uppgifter och längsta behandlingstider. Liten omfattning innebär inte att en behandling kan undantas från de regler som gäller för den. Reglernas exakta tillämplighet måste prövas för den aktuella lösningen.\n\nBrottsdataförordningen preciserar krav på bland annat loggning och behörighetsrutiner. Tilldelning är bara en del av behörigheters livscykel. Förändring, borttagning och regelbunden uppföljning behöver också hanteras. Ett projekt bör därför beskriva hur lösningen ska förvaltas när användare och uppdrag förändras.\n\nIMY:s vägledning om förhandssamråd enligt brottsdatalagen publicerades i december 2025. Den hjälper berörda aktörer att bedöma behovet av samråd och vilket underlag som behövs. Vägledningen ersätter inte rättslig prövning av ett enskilt system. I avsnittets konstruerade exempel används den som anledning att fråga när nya funktioner eller ändrade behandlingar behöver en förnyad bedömning.\n\nRedaktionell tillämpning: börja med ett avgränsat användningsfall. Beskriv källa, personkategorier, arbetsuppgift, mottagare och informationsprodukt. Följ sedan vad som händer vid sökning, värdering, export, rättelse och avslut. Den beskrivningen kan användas gemensamt av verksamhet, juridik, säkerhet och utveckling. Den är ett arbetsunderlag, inte ett juridiskt tillstånd.\n\nAvsnittets exempel är fiktiva och innehåller inga verkliga personuppgifter. Innehållet är en introduktion för professionella som behöver känna igen rättsfrågorna. Det lämnar inget besked om tillåten behandling i ett individuellt ärende. Rättskällorna kontrollerades den 20 oktober 2026. Framtida ikraftträdandemarkeringar i konsoliderad lagtext ska inte läsas som redan gällande rätt.",
+      "context": "Pedagogisk grundkurs med fiktiva exempel, rättsläge kontrollerat 20 oktober 2026. Redaktionella designfrågor skiljs från rättsliga krav.",
+      "source_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+      "sources": [
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+          "title": "Brottsdatalag (2018:1177) | Sveriges riksdag"
+        },
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-20181693-om-polisens-behandling-av_sfs-2018-1693/",
+          "title": "Lag (2018:1693) om polisens behandling av personuppgifter inom brottsdatalagens område | Sveriges riksdag"
+        },
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/offentlighets-och-sekretesslag-2009400_sfs-2009-400/",
+          "title": "Offentlighets- och sekretesslag (2009:400) | Sveriges riksdag"
+        },
+        {
+          "url": "https://www.imy.se/verksamhet/dataskydd/sa-hanger-lagarna-ihop/",
+          "title": "Så hänger lagarna ihop | IMY"
+        },
+        {
+          "url": "https://www.imy.se/publikationer/vagledning-om-forhandssamrad-enligt-brottsdatalagen/",
+          "title": "Vägledning om förhandssamråd enligt brottsdatalagen | IMY"
+        },
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdataforordning-20181202_sfs-2018-1202/",
+          "title": "Brottsdataförordning (2018:1202) | Sveriges riksdag"
+        }
+      ],
+      "topics": [
+        "it-juridik-och-dataskydd"
+      ],
+      "topic_labels": [
+        "IT-juridik och dataskydd"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T19:18:02.631228+00:00",
+      "revision": 1,
+      "fingerprint": "2ac7091aa799b35f75b3e6a333900179de2cec1ccff2134055bc2ebe3c593149",
+      "history": []
+    },
+    {
+      "id": "work-ibat_ordinary-article-1",
+      "episode_id": "WORK_LIBRARY_2026_10:ibat:replacement_ordinary:2",
+      "date": "2026-10-20",
+      "channel": "ibat",
+      "published_at": null,
+      "is_intro": false,
+      "episode_order": 2,
+      "kind": "historical",
+      "episode_title": "Tisdag V.43: källor, kvalitet och lägesförståelse",
+      "episode_audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ibat_ordinary/morgonpod.mp3",
+      "episode_brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ibat_ordinary/brief.json",
+      "article_index": 0,
+      "title": "Tisdag V.43: källor, kvalitet och lägesförståelse",
+      "summary": "Informationsförsörjning behöver bära mer än själva uppgiften. Dagens fördjupning handlar om ursprung, tid, betydelse, kvalitet och ansvar när information används för analys och lägesförståelse.",
+      "body": "Informationsförsörjning behöver bära mer än själva uppgiften. Dagens fördjupning handlar om ursprung, tid, betydelse, kvalitet och ansvar när information används för analys och lägesförståelse.\n\nDiggs generella vägledning om öppna och delade data beskriver bland annat informationsägare, informationsförvaltare, teknikförvaltning, metadata och kvalitetsbeskrivningar. Den används här som organisatoriskt underlag. Den ger inget generellt rättsligt stöd för polisiär informationsdelning.\n\nW3C:s PROV-introduktion beskriver relationer mellan information, aktiviteter och aktörer. Den hjälper oss att formulera frågor om originalunderlag och senare bearbetningar. Datakvalitetsvokabulären DQV beskriver hur olika kvalitetsdimensioner och mått kan uttryckas. Ingen av standarderna presenteras som obligatorisk för alla system.\n\nI avsnittets fiktiva analysgrupp återkommer samma ursprungliga observation i flera rapporter. Antalet dokument är då inte detsamma som antalet oberoende belägg. Gruppen behöver också förstå skillnaden mellan händelsedatum, bedömningsdatum och teknisk uppdateringstid. En uppgift kan vara aktuell men osäker, eller korrekt återgiven men ofullständig för analysfrågan.\n\nBrottsdatalagens kvalitets- och åtkomstregler är en separat rättslig del av behandlingen. Varken ett gemensamt tekniskt lager eller en sökfunktion ger automatiskt samma tillgång eller användning för alla.\n\nRedaktionens arbetsförslag är att följa en uppgiftstyp från källa till färdig analysprodukt. Undersök var den kopieras och värderas, vilket sammanhang som försvinner och hur en rättelse når mottagarna. Avsnittet är en fördjupning den 20 oktober 2026, utan påstående om en ny standardlansering eller ett internt projekt.",
+      "context": "Ordinarie redaktionellt ersättningsavsnitt 20 oktober 2026. Tydligt daterade bakgrundskällor. Avgränsad veckoöversikt 12 till 18 oktober för Lagstiftning.",
+      "source_url": "https://www.digg.se/kunskap-och-stod/oppna-och-delade-data/vagledning-for-att-tillgangliggora-information",
+      "sources": [
+        {
+          "url": "https://www.digg.se/kunskap-och-stod/oppna-och-delade-data/vagledning-for-att-tillgangliggora-information",
+          "title": "Vägledning för att tillgängliggöra information \n \n |\n Digg"
+        },
+        {
+          "url": "https://www.w3.org/TR/prov-primer/",
+          "title": "PROV Model Primer"
+        },
+        {
+          "url": "https://www.w3.org/TR/vocab-dqv/",
+          "title": "Data on the Web Best Practices: Data Quality Vocabulary"
+        },
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+          "title": "Brottsdatalag (2018:1177) | Sveriges riksdag"
+        }
+      ],
+      "topics": [
+        "ibat"
+      ],
+      "topic_labels": [
+        "ibat"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T19:18:02.623782+00:00",
+      "revision": 1,
+      "fingerprint": "3f4ba92ce4c0bd4c23247f31d9dfb457321effa25ed433495417365c39ffbe7d",
+      "history": []
+    },
+    {
+      "id": "work-ibat_intro-article-1",
+      "episode_id": "WORK_LIBRARY_2026_10:ibat:intro:1",
+      "date": "2026-10-20",
+      "channel": "ibat",
+      "published_at": null,
+      "is_intro": true,
+      "episode_order": 1,
+      "kind": "introduction",
+      "episode_title": "IBAT: från uppgift till lägesförståelse",
+      "episode_audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ibat_intro/morgonpod.mp3",
+      "episode_brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ibat_intro/brief.json",
+      "article_index": 0,
+      "title": "IBAT: från uppgift till lägesförståelse",
+      "summary": "Informationsförsörjning är kanalens namn på förmågan att få ett begripligt och användbart underlag till en bestämd uppgift under rätt villkor. Introduktionen följer kedjan från behov och källa till analysprodukt och återkoppling.",
+      "body": "Informationsförsörjning är kanalens namn på förmågan att få ett begripligt och användbart underlag till en bestämd uppgift under rätt villkor. Introduktionen följer kedjan från behov och källa till analysprodukt och återkoppling.\n\nDiggs generella vägledning om öppna och delade data behandlar roller, metadata och kvalitetsbeskrivning. Den används för organisatoriska och tekniska frågor. Den innebär inget generellt stöd för att dela eller offentliggöra brottsbekämpande information.\n\nW3C:s PROV-introduktion beskriver informationsursprung genom relationer mellan information, aktiviteter och aktörer. DQV beskriver hur olika kvalitetsdimensioner och mått kan uttryckas. Underlagen är tekniska kunskapskällor, inte krav på en viss arkitektur i varje verksamhet.\n\nBrottsdatalagen behandlar bland annat kvalitet, olika slags uppgifter och tillgång efter arbetsbehov. OSL innehåller regler om sekretess, däribland mot andra myndigheter och mellan självständiga verksamhetsgrenar. Den konkreta behandlingen och delningen behöver bedömas enligt tillämpliga regler och eventuella kompletterande bestämmelser.\n\nI avsnittets fiktiva analysgrupp återkommer samma observation i flera rapporter. Antalet dokument behöver därför skiljas från antalet oberoende belägg. Gruppen undersöker också händelsedatum, bedömningsdatum, kopior, rättelser och hur osäkerhet förs vidare. Ett lyckat tekniskt informationsflöde är inte ensamt ett bevis för ett fullständigt eller aktuellt kunskapsunderlag.\n\nTabell, karta, tidslinje och graf kan stödja olika frågor, men uppgifternas innebörd behöver vara begriplig mellan vyerna. En relation kan vara en observation, ett påstående eller en hypotes. Presentationen ska inte få slutsatsen att se säkrare ut än underlaget.\n\nRedaktionens arbetsförslag är att följa en uppgiftstyp från källa till produkt och sedan pröva en rättelse och en överlämning. Det gör ansvar och beroenden synliga. Kanalen fortsätter med informationsdelning, dataplattformar, informationsöverflöd, analysstöd och dokumenterade införanden. Inga interna projekt eller verkliga skyddade uppgifter beskrivs.",
+      "context": "Ny uppstart, öppna källor kontrollerade 20 oktober 2026. Alla verksamhetsfall är konstruerade.",
+      "source_url": "https://www.digg.se/kunskap-och-stod/oppna-och-delade-data/vagledning-for-att-tillgangliggora-information",
+      "sources": [
+        {
+          "url": "https://www.digg.se/kunskap-och-stod/oppna-och-delade-data/vagledning-for-att-tillgangliggora-information",
+          "title": "Vägledning för att tillgängliggöra information \n \n |\n Digg"
+        },
+        {
+          "url": "https://www.w3.org/TR/prov-primer/",
+          "title": "PROV Model Primer"
+        },
+        {
+          "url": "https://www.w3.org/TR/vocab-dqv/",
+          "title": "Data on the Web Best Practices: Data Quality Vocabulary"
+        },
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+          "title": "Brottsdatalag (2018:1177) | Sveriges riksdag"
+        },
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/offentlighets-och-sekretesslag-2009400_sfs-2009-400/",
+          "title": "Offentlighets- och sekretesslag (2009:400) | Sveriges riksdag"
+        }
+      ],
+      "topics": [
+        "informationsförsörjning"
+      ],
+      "topic_labels": [
+        "Informationsförsörjning"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T19:18:02.623138+00:00",
+      "revision": 1,
+      "fingerprint": "e4b9c5adca9d92802ec1f5f283420fdd7d6b38517c05de0bac2fe2c25d485b2d",
+      "history": []
+    },
+    {
+      "id": "work-ai_brottsbekampning_special_4-article-1",
+      "episode_id": "WORK_LIBRARY_2026_10:ai_brottsbekampning:special:5",
+      "date": "2026-10-20",
+      "channel": "ai_brottsbekampning",
+      "published_at": null,
+      "is_intro": false,
+      "episode_order": 5,
+      "kind": "historical",
+      "episode_title": "AI-förordningen och dataskyddet: olika regelverk i samma system",
+      "episode_audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ai_brottsbekampning_special_4/morgonpod.mp3",
+      "episode_brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ai_brottsbekampning_special_4/brief.json",
+      "article_index": 0,
+      "title": "AI-förordningen och dataskyddet: olika regelverk i samma system",
+      "summary": "Ett AI-system behöver beskrivas med uppgift, aktörer, roller och informationsflöde. Modellens namn räcker inte för att avgöra vilka rättsliga frågor som aktualiseras. Specialavsnittet skiljer AI-förordningens riskregler från den konkreta personuppgiftsbehandling och informationsdelning som sker.",
+      "body": "Ett AI-system behöver beskrivas med uppgift, aktörer, roller och informationsflöde. Modellens namn räcker inte för att avgöra vilka rättsliga frågor som aktualiseras. Specialavsnittet skiljer AI-förordningens riskregler från den konkreta personuppgiftsbehandling och informationsdelning som sker.\n\nRättslig information kontrollerades 20 oktober 2026. IMY:s uppdaterade information och kommissionens tillsynsöversikt anger 2 december 2027 för högrisksystemregler enligt bilaga III. Den ursprungliga tidsplanen har ändrats. Andra bestämmelser börjar gälla vid andra tidpunkter. IMY anger att reglerna om förbjudna användningar började tillämpas 2 februari 2025.\n\nKommissionens aktuella översikt beskriver bland annat individuella brottsprognoser som enbart bygger på profilering bland förbjudna användningar. Översikten återges som vägledning till rättsfrågan och är ingen fullständig genomgång av alla rekvisit eller undantag. Ingen individuell tjänst tillåts eller underkänns i artikeln. För sådan prövning behövs aktuell författning och konkreta fakta.\n\nDataskyddsregler behöver prövas parallellt. Beroende på behandlingens syfte och sammanhang kan brottsdatalagen och registerförfattningar eller GDPR vara centrala. Sekretess och utlämnande är ytterligare frågor i informationsflödet. En riskklassificering enligt AI-förordningen besvarar inte alla dessa frågor.\n\nIMY har enligt sin uppdaterade information fått uppdrag som marknadskontrollmyndighet för flera användningsområden, bland annat brottsbekämpning. Kommissionens översikt beskriver även ansvarsfördelning på EU-nivå. Äldre texter som talar om möjliga framtida uppdrag ska därför inte användas som aktuellt organisationsbesked.\n\nAvsnittets projekt är fiktivt. Arbetsförslaget är att beskriva uppgift, roller, underlag, mottagare och rättsliga tidpunkter före nästa införandebeslut. Det ger juridik, verksamhet och teknisk kompetens en gemensam fråga att pröva.",
+      "context": "Pedagogiskt specialmaterial. Fiktiva fall och beräkningar skiljs från källfakta. Rättsliga tidpunkter kontrollerade 20 oktober 2026.",
+      "source_url": "https://www.imy.se/verksamhet/ai/ai-forordningen/",
+      "sources": [
+        {
+          "url": "https://www.imy.se/verksamhet/ai/ai-forordningen/",
+          "title": "AI-förordningen | IMY"
+        },
+        {
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act",
+          "title": "The enforcement framework of the AI Act | Shaping Europe’s digital future"
+        },
+        {
+          "url": "https://www.imy.se/verksamhet/ai/ai-forordningen/imy-blir-marknadskontrollmyndighet-for-ai-forordningen/",
+          "title": "IMY blir marknadskontrollmyndighet för AI-förordningen  | IMY"
+        },
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+          "title": "Brottsdatalag (2018:1177) | Sveriges riksdag"
+        },
+        {
+          "url": "https://www.imy.se/verksamhet/dataskydd/sa-hanger-lagarna-ihop/",
+          "title": "Så hänger lagarna ihop | IMY"
+        },
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/offentlighets-och-sekretesslag-2009400_sfs-2009-400/",
+          "title": "Offentlighets- och sekretesslag (2009:400) | Sveriges riksdag"
+        }
+      ],
+      "topics": [
+        "ai-i-brottsbekämpningen"
+      ],
+      "topic_labels": [
+        "AI i brottsbekämpningen"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T19:18:02.630491+00:00",
+      "revision": 1,
+      "fingerprint": "7873b3d3f4de33b800f01e573154387fde45f1dd9e57a402e633e0bd255d0d9d",
+      "history": []
+    },
+    {
+      "id": "work-ai_brottsbekampning_special_3-article-1",
+      "episode_id": "WORK_LIBRARY_2026_10:ai_brottsbekampning:special:4",
+      "date": "2026-10-20",
+      "channel": "ai_brottsbekampning",
+      "published_at": null,
+      "is_intro": false,
+      "episode_order": 4,
+      "kind": "historical",
+      "episode_title": "Från pilot till drift: mänsklig kontroll som arbetsuppgift",
+      "episode_audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ai_brottsbekampning_special_3/morgonpod.mp3",
+      "episode_brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ai_brottsbekampning_special_3/brief.json",
+      "article_index": 0,
+      "title": "Från pilot till drift: mänsklig kontroll som arbetsuppgift",
+      "summary": "En pilot visar ett avgränsat resultat under vissa förutsättningar. Drift innebär ofta andra volymer, användare och tidsvillkor. Specialavsnittet följer ett fiktivt sammanfattningsstöd för att göra övergångens frågor konkreta.",
+      "body": "En pilot visar ett avgränsat resultat under vissa förutsättningar. Drift innebär ofta andra volymer, användare och tidsvillkor. Specialavsnittet följer ett fiktivt sammanfattningsstöd för att göra övergångens frågor konkreta.\n\nNIST:s ramverk för AI-riskhantering beskriver styrning, kartläggning, mätning och hantering. Det frivilliga ramverket används här som stöd för ansvar och uppföljning, inte som svensk rättslig reglering. En tekniskt lyckad demonstration är en del av ett införandeunderlag.\n\nInstruktionen att granska svaret behöver översättas till arbete. Vilka påståenden ska användaren kontrollera och mot vilket underlag? Vilken kompetens, tid och möjlighet att korrigera krävs? NIST:s generativa riskprofil beskriver både risker för överdriven tillit och att användare undviker användbara stöd. Målet är en välgrundad tillit till den avgränsade funktionen.\n\nI det konstruerade scenariot går en liten pilot över till ett större vardagsinflöde. Volymerna är fiktiva. Exemplet visar varför granskningsarbetet måste prövas under de förutsättningar där stödet ska användas. Användaren behöver också veta hur fel rapporteras och vem som kan stoppa en funktion.\n\nFörvaltningen behöver följa förändringar i modell, material och användning. Ett tekniskt startprov visar inte ensamt om tidigare kvalitetsantaganden fortfarande gäller. Brottsdatalagens regler om inbyggt dataskydd och vissa konsekvensbedömningar behöver bedömas vid relevant behandling, även efter ett framgångsrikt teknikprov.\n\nEtt beslutsunderlag kan beskriva testmaterial, feltyper, nödvändig kontroll, begränsningar och ansvar för drift och förändringar. Det är ett redaktionellt arbetsförslag. Tillämplig juridik och säkerhet måste prövas för den konkreta tjänsten.",
+      "context": "Pedagogiskt specialmaterial. Fiktiva fall och beräkningar skiljs från källfakta. Rättsliga tidpunkter kontrollerade 20 oktober 2026.",
+      "source_url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "sources": [
+        {
+          "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+          "title": "NIST AI 100-1"
+        },
+        {
+          "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+          "title": "NIST Trustworthy and Responsible AI"
+        },
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+          "title": "Brottsdatalag (2018:1177) | Sveriges riksdag"
+        }
+      ],
+      "topics": [
+        "ai-i-brottsbekämpningen"
+      ],
+      "topic_labels": [
+        "AI i brottsbekämpningen"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T19:18:02.637479+00:00",
+      "revision": 1,
+      "fingerprint": "e86791404366ea4b84dd7bc8f41878880795cb2661bf127accc4d378bad00da2",
+      "history": []
+    },
+    {
+      "id": "work-ai_brottsbekampning_special_2-article-1",
+      "episode_id": "WORK_LIBRARY_2026_10:ai_brottsbekampning:special:3",
+      "date": "2026-10-20",
+      "channel": "ai_brottsbekampning",
+      "published_at": null,
+      "is_intro": false,
+      "episode_order": 3,
+      "kind": "historical",
+      "episode_title": "Att mäta nytta: träffsäkerhet, fel och basfrekvens",
+      "episode_audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ai_brottsbekampning_special_2/morgonpod.mp3",
+      "episode_brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ai_brottsbekampning_special_2/brief.json",
+      "article_index": 0,
+      "title": "Att mäta nytta: träffsäkerhet, fel och basfrekvens",
+      "summary": "En träffprocent behöver en tydlig nämnare och en beskriven uppgift. Specialavsnittet använder ett konstruerat dokumentexempel för att visa skillnaden mellan att hitta många relevanta fall och att ha hög andel relevanta bland alla markeringar.",
+      "body": "En träffprocent behöver en tydlig nämnare och en beskriven uppgift. Specialavsnittet använder ett konstruerat dokumentexempel för att visa skillnaden mellan att hitta många relevanta fall och att ha hög andel relevanta bland alla markeringar.\n\nExemplet innehåller 10 000 syntetiska dokument. Av dem är 100 relevanta. Verktyget hittar 90, vilket ger 90 procents känslighet. Samtidigt markeras 5 procent av de 9 900 irrelevanta dokumenten: 495 falska positiva. Listan innehåller därför 585 markeringar, varav 90 är relevanta. Precisionen blir cirka 15,38 procent.\n\nSiffrorna är ett pedagogiskt räknefall och säger ingenting om ett verkligt verktyg eller en faktisk population. De visar hur basfrekvens och olika nämnare påverkar tolkningen. Om varje markering ska granskas behöver verksamheten veta hur mycket följdarbete som uppstår och vilka relevanta dokument som missas.\n\nNIST:s riskramverk betonar sammanhang, mätning och livscykel. Testmaterialets språk, dokumenttyper och kvalitet behöver beskrivas. Det behöver också vara tydligt hur facit bestämts och hur oenighet mellan granskare hanteras. Ett genomsnitt kan dölja skillnader mellan delar av materialet.\n\nEtt ändrat tröskelvärde kan innebära avvägningar som måste mätas för det konkreta verktyget. Det finns inget generellt värde som är lämpligt för alla uppgifter. Dokumentexemplet ger heller inget tillstånd eller stöd för personbedömning, som väcker ytterligare rättsliga och professionella frågor.\n\nBe om uppgiften, nämnaren, de missade fallen och följdarbetet när ett nytt AI-resultat presenteras. Då blir det möjligt att bedöma nyttan i ett verkligt arbetsflöde.",
+      "context": "Pedagogiskt specialmaterial. Fiktiva fall och beräkningar skiljs från källfakta. Rättsliga tidpunkter kontrollerade 20 oktober 2026.",
+      "source_url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "sources": [
+        {
+          "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+          "title": "NIST AI 100-1"
+        },
+        {
+          "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+          "title": "NIST Trustworthy and Responsible AI"
+        }
+      ],
+      "topics": [
+        "ai-i-brottsbekämpningen"
+      ],
+      "topic_labels": [
+        "AI i brottsbekämpningen"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T19:18:02.629834+00:00",
+      "revision": 1,
+      "fingerprint": "8b0f33fc3197dbcbc117ff9f661e72767d34cb49c60b8c6ee4b978a1a35cd724",
+      "history": []
+    },
+    {
+      "id": "work-ai_brottsbekampning_special_1-article-1",
+      "episode_id": "WORK_LIBRARY_2026_10:ai_brottsbekampning:special:2",
+      "date": "2026-10-20",
+      "channel": "ai_brottsbekampning",
+      "published_at": null,
+      "is_intro": false,
+      "episode_order": 2,
+      "kind": "historical",
+      "episode_title": "Språkmodeller och källstöd: varför flytande text kan vara fel",
+      "episode_audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ai_brottsbekampning_special_1/morgonpod.mp3",
+      "episode_brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ai_brottsbekampning_special_1/brief.json",
+      "article_index": 0,
+      "title": "Språkmodeller och källstöd: varför flytande text kan vara fel",
+      "summary": "Ett välskrivet AI-svar behöver kontrolleras mot det som faktiskt påstås. NIST:s riskprofil för generativ AI beskriver konfabulering: felaktigt innehåll som presenteras med säkerhet. Risken omfattar även källhänvisningar och resonemang som ser övertygande ut.",
+      "body": "Ett välskrivet AI-svar behöver kontrolleras mot det som faktiskt påstås. NIST:s riskprofil för generativ AI beskriver konfabulering: felaktigt innehåll som presenteras med säkerhet. Risken omfattar även källhänvisningar och resonemang som ser övertygande ut.\n\nSökstödd generering kan hjälpa modellen att arbeta med relevanta dokument. Men det finns en kedja att granska: sökning, urval, hämtning, tolkning och återgivning. En fungerande länk visar inte ensam att en slutsats stöds av källan. En äldre rapport kan vara relevant bakgrund utan att vara en beskrivning av dagens läge.\n\nI det fiktiva exemplet granskar en analytiker en sammanfattning av öppna rapporter. Kontrollen går från det enskilda påståendet tillbaka till originalet. Tidsperiod, siffror, rättslig status, reservationer och orsakssamband behöver återges med rätt säkerhet. Flera länkar kan också vara flera återgivningar av samma ursprungliga uppgift.\n\nNIST beskriver indirekt promptinjektion som en informationssäkerhetsrisk när instruktioner förs in i material som systemet kan hämta. Avsnittet ger inga angreppsinstruktioner. Det använder risken för att ställa en försvarsinriktad fråga: hur hålls externt underlag skilt från systemets instruktioner och befogenheter?\n\nMänsklig kontroll behöver vara möjlig i arbetsflödet. Användaren behöver källstöd, tid och möjlighet att avstå från ett resultat. Fråga därför vilka påståenden svaret gör, vilket underlag som stöder dem och vilka osäkerheter som återstår.\n\nNIST-underlagen är frivilliga amerikanska stöd för riskhantering och återges inte som svensk rätt. Alla verksamhetsfall är konstruerade.",
+      "context": "Pedagogiskt specialmaterial. Fiktiva fall och beräkningar skiljs från källfakta. Rättsliga tidpunkter kontrollerade 20 oktober 2026.",
+      "source_url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "sources": [
+        {
+          "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+          "title": "NIST Trustworthy and Responsible AI"
+        },
+        {
+          "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+          "title": "NIST AI 100-1"
+        }
+      ],
+      "topics": [
+        "ai-i-brottsbekämpningen"
+      ],
+      "topic_labels": [
+        "AI i brottsbekämpningen"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T19:18:02.629287+00:00",
+      "revision": 1,
+      "fingerprint": "a020ca791c1d30ef80b9198cc1a11237f4ceea3de17a2b6daa4768e4edf5ab26",
+      "history": []
+    },
+    {
+      "id": "work-ai_brottsbekampning_intro-article-1",
+      "episode_id": "WORK_LIBRARY_2026_10:ai_brottsbekampning:intro:1",
+      "date": "2026-10-20",
+      "channel": "ai_brottsbekampning",
+      "published_at": null,
+      "is_intro": true,
+      "episode_order": 1,
+      "kind": "introduction",
+      "episode_title": "AI i brottsbekämpningen: uppgift, evidens och ansvar",
+      "episode_audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ai_brottsbekampning_intro/morgonpod.mp3",
+      "episode_brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/ai_brottsbekampning_intro/brief.json",
+      "article_index": 0,
+      "title": "AI i brottsbekämpningen: uppgift, evidens och ansvar",
+      "summary": "AI behöver bedömas genom den arbetsuppgift som ska stödjas. Introduktionen går från ett fiktivt försök med öppna rapporter till frågor om källstöd, mätning, mänsklig kontroll, säkerhet, rättsliga villkor och förvaltning.",
+      "body": "AI behöver bedömas genom den arbetsuppgift som ska stödjas. Introduktionen går från ett fiktivt försök med öppna rapporter till frågor om källstöd, mätning, mänsklig kontroll, säkerhet, rättsliga villkor och förvaltning.\n\nNIST:s riskprofil för generativ AI beskriver hur modeller kan skapa felaktigt innehåll med övertygande formuleringar, även felaktiga källhänvisningar och förklaringar. Källhämtning kan ge bättre underlag, men sökning, urval, tolkning och återgivning behöver fortfarande granskas. Rapportens publiceringsdatum och undersökta period ska hållas synliga.\n\nEU-SOCTA 2025 beskriver AI som en faktor som kan förstärka kriminella nätverks kapacitet. Detta är Europols hotbedömning, inte svensk statistik över AI-användning i brott. Kanalen följer både möjliga stöd för verksamheten och hur tekniken förändrar risker, exempelvis genom syntetiskt innehåll.\n\nNIST:s frivilliga ramverk för riskhantering används för att diskutera styrning, kartläggning, mätning och hantering genom livscykeln. Ramverken är tekniska och organisatoriska kunskapsunderlag, inga svenska rättsregler eller tillstånd.\n\nDen mänskliga granskningen behöver vara en genomförbar arbetsuppgift. Användaren behöver källor, kompetens, tid och möjlighet att korrigera eller avstå från ett resultat. Ett pilotförsök under goda förutsättningar ska inte förväxlas med verifierad vardagsdrift.\n\nRättsläget kontrollerades 20 oktober 2026. IMY:s uppdaterade information och kommissionens tillsynsöversikt anger 2 december 2027 för tillämpningen av högrisksystemreglerna enligt bilaga III. Andra delar av AI-förordningen gäller redan. Tillämpliga dataskyddsregler och rättslig behandling behöver bedömas parallellt. Äldre tidsplaner ska inte användas okritiskt.\n\nFyra specialer fördjupar språkmodeller och källstöd, mätning och basfrekvens, införande och mänsklig kontroll samt AI-förordningen och dataskyddet. Alla egna fall i introduktionen är konstruerade och beskriver ingen verklig införd tjänst.",
+      "context": "Pedagogiskt specialmaterial. Fiktiva fall och beräkningar skiljs från källfakta. Rättsliga tidpunkter kontrollerade 20 oktober 2026.",
+      "source_url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "sources": [
+        {
+          "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+          "title": "NIST Trustworthy and Responsible AI"
+        },
+        {
+          "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+          "title": "NIST AI 100-1"
+        },
+        {
+          "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/EU-SOCTA-2025.pdf",
+          "title": "European Union Serious and Organised Crime Organised Threat Assessment"
+        },
+        {
+          "url": "https://www.imy.se/verksamhet/ai/ai-forordningen/",
+          "title": "AI-förordningen | IMY"
+        },
+        {
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act",
+          "title": "The enforcement framework of the AI Act | Shaping Europe’s digital future"
+        },
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+          "title": "Brottsdatalag (2018:1177) | Sveriges riksdag"
+        }
+      ],
+      "topics": [
+        "ai-i-brottsbekämpningen"
+      ],
+      "topic_labels": [
+        "AI i brottsbekämpningen"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-20T19:18:02.628087+00:00",
+      "revision": 1,
+      "fingerprint": "f2a79a4472e0a12b42686ceeaaba18e01796a15c3bd27dffeda32b0a265fdde5",
+      "history": []
+    },
+    {
       "id": "news-killsec-takedown",
       "episode_id": "kek:2026-10-20:daily",
       "date": "2026-10-20",
@@ -606,394 +1902,6 @@
       "recorded_at": "2026-10-20T05:57:42.911508+00:00",
       "revision": 1,
       "fingerprint": "06b90c2f3f23d2783d9f6712836206b669989373da880aa3255b149ae05139f0",
-      "history": []
-    },
-    {
-      "id": "article-f259d3ec44905875dcb313b1",
-      "episode_id": "lagstiftning:2026-10-19:weekly",
-      "date": "2026-10-19",
-      "channel": "lagstiftning",
-      "kind": "weekly",
-      "episode_title": "Veckans lagstiftningsöversikt",
-      "episode_audio": "episodes/lagstiftning/2026-10-19/morgonpod.mp3",
-      "episode_brief": "episodes/lagstiftning/2026-10-19/brief.json",
-      "article_index": 0,
-      "title": "Hörande och tillfälligt överförande vid handläggning av en arresteringsorder",
-      "summary": "Sveriges riksdag rapporterar om proposition 2025/26:285 gällande ändringar i lagstiftningen om europeisk och nordisk arresteringsorder. Förslaget syftar till att förtydliga det svenska genomförandet och anpassa det till EU-domstolens praxis. Bland annat föreslås att en eftersökt person på begäran av den utfärdande myndigheten antingen ska kunna höras i den verkställande staten eller överföras tillfälligt till den utfärdande staten vid lagföring. Vidare införs tydligare tidsfrister när den eftersökte skyddas av immunitet. Ändringarna föreslås träda i kraft den 1 december 2026.",
-      "body": "Enligt Sveriges riksdag bereds betänkandet 2026/27:JuU2 med planerad justering den 20 oktober 2026 och planerad debatt samt beslut i kammaren den 21 oktober 2026. En proposition eller ett planerat beslutsdatum innebär inte att lagen redan gäller.",
-      "context": "Enligt Sveriges riksdag bereds betänkandet 2026/27:JuU2 med planerad justering den 20 oktober 2026 och planerad debatt samt beslut i kammaren den 21 oktober 2026. En proposition eller ett planerat beslutsdatum innebär inte att lagen redan gäller.",
-      "source_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/horande-och-tillfalligt-overforande-vid_he01juu2/",
-      "sources": [
-        {
-          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/horande-och-tillfalligt-overforande-vid_he01juu2/",
-          "title": "Sveriges riksdag"
-        }
-      ],
-      "topics": [
-        "straffprocess-och-internationellt-samarbete"
-      ],
-      "topic_labels": [
-        "Straffprocess och internationellt samarbete"
-      ],
-      "assessment": "",
-      "open_questions": [],
-      "previous_reporting": [],
-      "event_links": [],
-      "body_provenance": "legacy_context",
-      "recorded_at": "2026-10-19T09:26:25.014884+00:00",
-      "revision": 1,
-      "fingerprint": "bee2044044daaf58cfb6d5278cc781074f63ee5dd6641fa4b6aa0d5752d4c991",
-      "history": []
-    },
-    {
-      "id": "article-c803bd1df43abd2c87421ab1",
-      "episode_id": "vald:2026-10-19:daily",
-      "date": "2026-10-19",
-      "channel": "vald",
-      "kind": "daily",
-      "episode_title": "Morgonbrief",
-      "episode_audio": "episodes/vald/2026-10-19/morgonpod.mp3",
-      "episode_brief": "episodes/vald/2026-10-19/brief.json",
-      "article_index": 0,
-      "title": "Dödsskjutning i idrottshall i Älvsjö",
-      "summary": "En 25-årig kvinna som arbetade inom kommunens ungdomsverksamhet sköts till döds i fredags på övervåningen av en idrottsanläggning i Älvsjö. Två minderåriga har gripits och anhållits misstänkta för mordet, men nekar till brott. Motivet är ännu oklart, men enligt uppgifter till SVT undersöks om det kan röra sig om ett hämndmotiv riktat mot en nära anhörig till kvinnan. Justitieminister Gunnar Strömmer uttalar sig om det allvarliga i att våldet drabbar platser där barn och unga vistas.",
-      "body": "Händelsen illustrerar hur dödligt våld drabbar samhällsfunktioner och miljöer där allmänheten och unga rör sig. Justitieminister Gunnar Strömmer framhåller att samhället måste kliva fram med närvaro och samspel mellan kommun, civilsamhälle och andra aktörer för att skapa trygghet i området.",
-      "context": "Händelsen illustrerar hur dödligt våld drabbar samhällsfunktioner och miljöer där allmänheten och unga rör sig. Justitieminister Gunnar Strömmer framhåller att samhället måste kliva fram med närvaro och samspel mellan kommun, civilsamhälle och andra aktörer för att skapa trygghet i området.",
-      "source_url": "https://www.svt.se/nyheter/inrikes/gunnar-strommer-m-om-skjutningen-i-alvsjo-valdigt-obehagligt",
-      "sources": [
-        {
-          "url": "https://www.svt.se/nyheter/inrikes/gunnar-strommer-m-om-skjutningen-i-alvsjo-valdigt-obehagligt",
-          "title": "SVT Nyheter"
-        }
-      ],
-      "topics": [
-        "inrikes"
-      ],
-      "topic_labels": [
-        "Inrikes"
-      ],
-      "assessment": "",
-      "open_questions": [],
-      "previous_reporting": [],
-      "event_links": [],
-      "body_provenance": "legacy_context",
-      "recorded_at": "2026-10-19T12:53:45.831319+00:00",
-      "revision": 1,
-      "fingerprint": "ac0d5b8f1d5fd40d9cd2a1448a78eb28f5971fe163b1e68317f9cbbf4f5cb53e",
-      "history": []
-    },
-    {
-      "id": "article-c2b4e11990c7a5de9e1151f3",
-      "episode_id": "lagstiftning:2026-10-19:weekly",
-      "date": "2026-10-19",
-      "channel": "lagstiftning",
-      "kind": "weekly",
-      "episode_title": "Veckans lagstiftningsöversikt",
-      "episode_audio": "episodes/lagstiftning/2026-10-19/morgonpod.mp3",
-      "episode_brief": "episodes/lagstiftning/2026-10-19/brief.json",
-      "article_index": 1,
-      "title": "Ett nytt brott och andra åtgärder mot människohandel",
-      "summary": "Sveriges riksdag rapporterar i proposition 2025/26:313 om förslag för att genomföra Europaparlamentets och rådets direktiv (EU) 2024/1712 om förebyggande och bekämpande av människohandel. Regeringen föreslår att ett nytt brott, olaga nyttjande av tjänst, införs i brottsbalken för att kriminalisera nyttjandet av tjänster utförda av personer som är utsatta för människohandel eller människoexploatering. Straffet föreslås till fängelse i högst fyra år, och försök ska vara straffbart. Dessutom föreslås att Jämställdhetsmyndigheten utses till nationell kontaktpunkt för gränsöverskridande vidareslussning av brottsoffer, kompletterat med nya regler om personuppgiftsbehandling och sekretess. Lagändringarna föreslås träda i kraft den 1 januari 2027.",
-      "body": "Enligt Sveriges riksdag i ärende 2026/27:JuU9 kommer betänkandet att beredas den 22 oktober 2026, med planerat riksdagsbeslut den 25 november 2026. Förslaget utgör för närvarande en proposition och är därmed inte gällande rätt.",
-      "context": "Enligt Sveriges riksdag i ärende 2026/27:JuU9 kommer betänkandet att beredas den 22 oktober 2026, med planerat riksdagsbeslut den 25 november 2026. Förslaget utgör för närvarande en proposition och är därmed inte gällande rätt.",
-      "source_url": "https://data.riksdagen.se/dokument/HD03313.html",
-      "sources": [
-        {
-          "url": "https://data.riksdagen.se/dokument/HD03313.html",
-          "title": "Sveriges riksdag"
-        }
-      ],
-      "topics": [
-        "organiserad-brottslighet-och-människohandel"
-      ],
-      "topic_labels": [
-        "Organiserad brottslighet och människohandel"
-      ],
-      "assessment": "",
-      "open_questions": [],
-      "previous_reporting": [],
-      "event_links": [],
-      "body_provenance": "legacy_context",
-      "recorded_at": "2026-10-19T09:26:25.014953+00:00",
-      "revision": 1,
-      "fingerprint": "6ab65f6fee862270f4791bdc2f3e602add973f47dd0504253a8f130d63f76f5d",
-      "history": []
-    },
-    {
-      "id": "article-b961bb4d0dc4de3998074e5e",
-      "episode_id": "kek:2026-10-19:daily",
-      "date": "2026-10-19",
-      "channel": "kek",
-      "kind": "daily",
-      "episode_title": "Morgonbrief",
-      "episode_audio": "episodes/kek/2026-10-19/morgonpod.mp3",
-      "episode_brief": "episodes/kek/2026-10-19/brief.json",
-      "article_index": 1,
-      "title": "Finlands strikta fastighetsregler saknar svensk motsvarighet",
-      "summary": "SVT Nyheter rapporterar den 19 oktober 2026 att Finland har stoppat 68 fastighetsaffärer nära kritisk infrastruktur sedan 2022 med hänvisning till nationell säkerhet, och infört ett totalförbud för ryska och belarusiska medborgare att köpa fastigheter. Enligt granskningen saknar Sverige motsvarande generella lagar för att stoppa liknande utländska fastighetsköp.",
-      "body": "Skillnaden i lagstiftning mellan länderna aktualiserar sårbarheter kring strategiska tillgångar och hur kriminella upplägg eller främmande makt kan utnyttja formellt legala fastighetsförvärv för att bygga upp långsiktiga positioner.",
-      "context": "Skillnaden i lagstiftning mellan länderna aktualiserar sårbarheter kring strategiska tillgångar och hur kriminella upplägg eller främmande makt kan utnyttja formellt legala fastighetsförvärv för att bygga upp långsiktiga positioner.",
-      "source_url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag",
-      "sources": [
-        {
-          "url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag",
-          "title": "SVT Nyheter"
-        }
-      ],
-      "topics": [
-        "tillgångsinriktad-brottsbekämpning"
-      ],
-      "topic_labels": [
-        "Tillgångsinriktad brottsbekämpning"
-      ],
-      "assessment": "Finländska experter bedömer att även om lagstiftningen har en viktig avskräckande effekt, utgör köp via bulvaner en ständigt växande utmaning som är svår att upptäcka i ett tidigt skede.",
-      "open_questions": [
-        "Vilka indikatorer kan användas för att identifiera dolda bulvanupplägg vid fastighetsförvärv?",
-        "Hur påverkar bristen på generell kontroll den nationella säkerhetsanalysen i Sverige?"
-      ],
-      "previous_reporting": [],
-      "event_links": [],
-      "body_provenance": "legacy_context",
-      "recorded_at": "2026-10-19T05:47:31.476257+00:00",
-      "revision": 1,
-      "fingerprint": "f773ba2c8503c11c946e2839cd6115700a18a3e9de3ddc6953e72edb6af6edb3",
-      "history": []
-    },
-    {
-      "id": "article-b3cda9389e22552a5dd99f7c",
-      "episode_id": "ibat:2026-10-19:daily",
-      "date": "2026-10-19",
-      "channel": "ibat",
-      "kind": "daily",
-      "episode_title": "Morgonbrief",
-      "episode_audio": "episodes/2026-10-19/morgonpod.mp3",
-      "episode_brief": "episodes/2026-10-19/brief.json",
-      "article_index": 1,
-      "title": "Anthropic ger externa granskare direkttillgång till system för riskbedömning",
-      "summary": "AI-företaget Anthropic har gett den oberoende organisationen METR direkt tillgång till sina interna system och maskinvara för att utvärdera säkerhetsrisker i sina avancerade modeller. Teknologisajten Ars Technica rapporterar den 18 oktober 2026 att utvärderarna kan publicera sina resultat utan att Anthropic har vetorätt. Åtgärden sker samtidigt som bolaget förbereder en börsintroduktion.",
-      "body": "I takt med att AI-modeller blir allt mer kapabla ökar kraven på oberoende säkerhetsgranskning. Enligt en artikel publicerad av Ars Technica den 18 oktober 2026 har AI-bolaget Anthropic släppt in personal från den oberoende organisationen METR direkt i sin verksamhet. Granskarna har tilldelats intern hårdvara och behörigheter som motsvarar de interna säkerhetsteamsens tillgång för att utvärdera risker rörande cybersäkerhet och kontrollförlust.\n\nEtt centralt inslag i uppgörelsen är att METR äger rätten att publicera sina granskningsresultat utan godkännande från Anthropic. Förbehåll finns enbart för sekretessbelagd kunddata och specifik modellarkitektur. Åtgärden kommer i ett läge där branschen står inför ökad granskning från myndigheter och investerare, och där transparens i modellernas inre funktioner blivit en central fråga för säkerhetsanalytiker.",
-      "context": "För organisationer som ska bedöma tillförlitlighet och säkerhetsrisker i stora AI-modeller utgör oberoende auditering en avgörande faktor. Genom insyn på systemnivå skapas bättre förutsättningar att identifiera sårbarheter innan modeller tas i bruk i känsliga miljöer.",
-      "source_url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
-      "sources": [
-        {
-          "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
-          "title": "Ars Technica - All content"
-        }
-      ],
-      "topics": [
-        "ai-för-informationsanalys"
-      ],
-      "topic_labels": [
-        "AI för informationsanalys"
-      ],
-      "assessment": "Garanterad publiceringsrätt för externa granskare är ett viktigt steg mot transparens, men gränsdragningen mot skyddsvärd företagsinformation och algoritmer förblir en utmaning vid granskning av avancerade AI-agenter.",
-      "open_questions": [
-        "Vilka metoder kommer METR att använda för att utvärdera risker rörande autonoma AI-agenter?",
-        "Kommer liknande granskningsmodeller att bli standardiserade krav under EU:s AI-förordning?"
-      ],
-      "previous_reporting": [],
-      "event_links": [],
-      "body_provenance": "editorial_body",
-      "recorded_at": "2026-10-19T05:45:53.853357+00:00",
-      "revision": 1,
-      "fingerprint": "963827160b12dc2f5a197528ce735920ff64fd8819f251cd3f2f1451cd5e021e",
-      "history": []
-    },
-    {
-      "id": "article-a3bc9d16104cd0534018ae3e",
-      "episode_id": "kek:2026-10-19:daily",
-      "date": "2026-10-19",
-      "channel": "kek",
-      "kind": "daily",
-      "episode_title": "Morgonbrief",
-      "episode_audio": "episodes/kek/2026-10-19/morgonpod.mp3",
-      "episode_brief": "episodes/kek/2026-10-19/brief.json",
-      "article_index": 0,
-      "title": "Strypt import och syntetiska droger i USA",
-      "summary": "Enligt en artikel publicerad av BBC News den 18 oktober 2026 pressas USA av en ny våg hemlagade syntetiska droger där traditionella ämnen blandas ut med kraftfulla animaliska lugnande medel som medetomidin och xylazin. Rapporten visar hur karteller och lokala tillverkare anpassar sina distributionskedjor, och hur fängelser drabbas av smugglingsmetoder där droger dränks in i papper.",
-      "body": "Den här utvecklingen belyser hur snabbt illegala marknader anpassar sig när traditionella gränskontroller skärps. För svensk och europeisk lägesförståelse understryker detta riskerna med kemisk diversifiering inom den organiserade brottsligheten och hur marknadens flöden ständigt söker nya vägar.",
-      "context": "Den här utvecklingen belyser hur snabbt illegala marknader anpassar sig när traditionella gränskontroller skärps. För svensk och europeisk lägesförståelse understryker detta riskerna med kemisk diversifiering inom den organiserade brottsligheten och hur marknadens flöden ständigt söker nya vägar.",
-      "source_url": "https://www.bbc.co.uk/news/articles/cmx2wvyv5j17o?at_medium=RSS&at_campaign=rss",
-      "sources": [
-        {
-          "url": "https://www.bbc.co.uk/news/articles/cmx2wvyv5j17o?at_medium=RSS&at_campaign=rss",
-          "title": "BBC News"
-        }
-      ],
-      "topics": [
-        "penningtvätt-och-brottsvinster"
-      ],
-      "topic_labels": [
-        "Penningtvätt och brottsvinster"
-      ],
-      "assessment": "En bedömning från räddnings- och fängelsepersonal i BBC-reportaget är att syntetiska droger tillverkade i hemmamiljö har gjort narkotikamarknaden betydligt svårare att kontrollera enbart via traditionellt gränsarbete.",
-      "open_questions": [
-        "Hur sprids liknande syntetiska substanser till europeiska marknader?",
-        "Vilka nya detektionsmetoder krävs för att upptäcka pappersburen drogsmuggling?"
-      ],
-      "previous_reporting": [],
-      "event_links": [],
-      "body_provenance": "legacy_context",
-      "recorded_at": "2026-10-19T05:47:31.476190+00:00",
-      "revision": 1,
-      "fingerprint": "7791361f8d202bcff6acaca8a50617d141c162e4e1330e38138a1b40d28e8a47",
-      "history": []
-    },
-    {
-      "id": "article-7ab52fa91e1cf60ad8113b67",
-      "episode_id": "vald:2026-10-19:daily",
-      "date": "2026-10-19",
-      "channel": "vald",
-      "kind": "daily",
-      "episode_title": "Morgonbrief",
-      "episode_audio": "episodes/vald/2026-10-19/morgonpod.mp3",
-      "episode_brief": "episodes/vald/2026-10-19/brief.json",
-      "article_index": 1,
-      "title": "Preliminär statistik över skjutningar och sprängningar januari till september 2026",
-      "summary": "Polismyndigheten redovisar preliminär statistik för perioden januari till september 2026. Under perioden har 61 skjutningar inträffat, jämfört med 136 under motsvarande period 2025. När det gäller sprängningar har 76 detonationer inträffats under årets första nio månader, jämfört med 158 under samma period 2025. I september månad inträffade 8 skjutningar och 1 detonation.",
-      "body": "Statistiken visar bakgrundssiffror över skjutningar, döda, skadade och sprängningar, vilka är skilda mått som sammanställs manuellt och är preliminära. En enskild händelse bevisar ingen nationell trend, och en minskning bevisar ingen viss orsaksförklaring. Sprängmedel som pyroteknik och handgranater används ofta i strategiska gärningar för att skrämmas.",
-      "context": "Statistiken visar bakgrundssiffror över skjutningar, döda, skadade och sprängningar, vilka är skilda mått som sammanställs manuellt och är preliminära. En enskild händelse bevisar ingen nationell trend, och en minskning bevisar ingen viss orsaksförklaring. Sprängmedel som pyroteknik och handgranater används ofta i strategiska gärningar för att skrämmas.",
-      "source_url": "https://polisen.se/om-polisen/polisens-arbete/sprangningar-och-skjutningar/",
-      "sources": [
-        {
-          "url": "https://polisen.se/om-polisen/polisens-arbete/sprangningar-och-skjutningar/",
-          "title": "Polismyndigheten"
-        }
-      ],
-      "topics": [
-        "statistik"
-      ],
-      "topic_labels": [
-        "Statistik"
-      ],
-      "assessment": "",
-      "open_questions": [],
-      "previous_reporting": [],
-      "event_links": [],
-      "body_provenance": "legacy_context",
-      "recorded_at": "2026-10-19T12:53:45.831388+00:00",
-      "revision": 1,
-      "fingerprint": "33503b973b3467b4720f1ce7997b6274abc48de57d0d42a1114f974806c869d7",
-      "history": []
-    },
-    {
-      "id": "article-744a37e0bd928151e738f5a0",
-      "episode_id": "ibat:2026-10-19:daily",
-      "date": "2026-10-19",
-      "channel": "ibat",
-      "kind": "daily",
-      "episode_title": "Morgonbrief",
-      "episode_audio": "episodes/2026-10-19/morgonpod.mp3",
-      "episode_brief": "episodes/2026-10-19/brief.json",
-      "article_index": 0,
-      "title": "Finland stoppar strategiska fastighetsköp medan Sverige saknar motsvarande skydd",
-      "summary": "Finland har fram till den 1 september 2026 stoppat 68 fastighetsaffärer på grund av säkerhetsrisker nära kritisk infrastruktur. Sedan juli 2025 råder dessutom ett principiellt förbud för ryska och belarusiska medborgare att köpa fastigheter i landet. SVT Nyheter rapporterar den 19 oktober att Sverige fortfarande saknar en motsvarande generell lagstiftning för att stoppa utländska fastighetsköp som hotar den nationella säkerheten.",
-      "body": "Finlands konsekventa arbete med att spärra fastighetsköp kopplade till utländska säkerhetsrisker visar på markanta skillnader i det nordiska grannskapet. Enligt uppgifter publicerade av SVT Nyheter den 19 oktober 2026 har Finland spärrat totalt 68 fastighetsaffärer sedan 2022 med hänvisning till nationella säkerhetsintressen. Det handlar om objekt nära kritisk infrastruktur, orimliga affärsplaner eller köpare med kopplingar till utländsk elit. Vidare införde Finland i juli 2025 ett generellt förbud mot ryska och belarusiska medborgares fastighetsköp.\n\nI Sverige saknas i dagsläget en generell lagstiftning som gör det möjligt för staten att stoppa utländska fastighetsköp med hänvisning till nationell säkerhet, trots upprepade varningar från Säkerhetspolisen. Enligt expertis vid Finlands försvarshögskola ger en förhandstillsyn en avskräckande effekt och sparar resurser jämfört med utdragna expropriationsförfaranden. Samtidigt pekar analytiker på att bulvanförhållanden utgör en betydande lucka i lagstiftningen som kräver kvalificerade granskningsmetoder snarare än enbart kontroll av medborgarskap.",
-      "context": "Möjligheten att förvärva fastigheter vid strategiska platser utgör en sårbarhet som fientlig underrättelsetjänst kan utnyttja. Finlands erfarenheter visar på vikten av tidiga spärrmekanismer, men understryker samtidigt utmaningen med bulvaner och behovet av fördjupad nätverksanalys.",
-      "source_url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag",
-      "sources": [
-        {
-          "url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag",
-          "title": "SVT Nyheter"
-        }
-      ],
-      "topics": [
-        "juridik-integritet-och-informationssäkerhet"
-      ],
-      "topic_labels": [
-        "Juridik, integritet och informationssäkerhet"
-      ],
-      "assessment": "Att förlita sig enbart på medborgarskap som spärrmekanism ger en falsk trygghet. Professionella aktörer använder regelmässigt bulvaner eller komplexa bolagsstrukturer för att dölja det verkliga ägandet, vilket kräver djupare transaktionsanalys.",
-      "open_questions": [
-        "Hur påverkar de finska inskränkningarna ryska aktörers intresse för fastighetsförvärv i Sverige?",
-        "Vilka datakällor och analysverktyg krävs för att effektivt identifiera bulvanförhållanden vid Fastighetsinspektioner?"
-      ],
-      "previous_reporting": [],
-      "event_links": [],
-      "body_provenance": "editorial_body",
-      "recorded_at": "2026-10-19T05:45:53.853280+00:00",
-      "revision": 1,
-      "fingerprint": "62a06f5e853c0062b6cdb382d0e1d8d1f87ad6d7b6b92735af524210deff1f62",
-      "history": []
-    },
-    {
-      "id": "article-5263fa3dfc3f55b50682c1a1",
-      "episode_id": "ibat:2026-10-19:daily",
-      "date": "2026-10-19",
-      "channel": "ibat",
-      "kind": "daily",
-      "episode_title": "Morgonbrief",
-      "episode_audio": "episodes/2026-10-19/morgonpod.mp3",
-      "episode_brief": "episodes/2026-10-19/brief.json",
-      "article_index": 2,
-      "title": "Beräkningar visar hög sårbarhet i svensk livsmedelsförsörjning vid importstopp",
-      "summary": "En ny analys från Lantbrukarnas Riksförbund visar att flera grundläggande livsmedel snabbt skulle ta slut i Sverige vid ett strypt importflöde. SVT Nyheter rapporterar den 19 oktober 2026 att tomater beräknas ta slut efter två månader och ost efter fem månader på grund av ett 50-procentigt importberoende. Norrländska producenter pekar på höga energikostnader som ett hinder för att öka den inhemska odlingen.",
-      "body": "Det svenska importberoendet inom livsmedelssektorn skapar påtagliga sårbarheter i det nationella försörjningssystemet. SVT Nyheter rapporterar den 19 oktober 2026 om beräkningar gjorda av Lantbrukarnas Riksförbund, LRF, som visar att hälften av alla livsmedel som konsumeras i Sverige i dag importeras. Vid ett fingerat importstopp skulle lagren av färskvaror som tomater ta slut på två månader, medan varor som ost och rapsolja räcker i cirka fem månader.\n\nForskare vid Mittuniversitetet bekräftar bilden av ett känsligt system där avbrott i de globala värdekedjorna snabbt får konsekvenser för tillgången i butik. Samtidigt vittnar lokala producenter i norra Sverige om att höga el- och drivmedelspriser gör det olönsamt att bygga ut den lokala växthusodlingen, trots goda förutsättningar under sommarhalvåret. Analysen reser viktiga frågor kring stimulanser för ökad grundproduktion och övervakning av flödesdata i kris preparedness.",
-      "context": "Försörjningsberedskap kräver fungerande logistikkedjor och lokal produktionskapacitet. Rapporten understryker hur energipriser och regionala förutsättningar direkt påverkar totalförsvarets motståndskraft vid kriser eller logistiska avbrott.",
-      "source_url": "https://www.svt.se/nyheter/lokalt/vasternorrland/maten-snabbt-slut-vid-strypt-import-olonsamt-att-producera-mera",
-      "sources": [
-        {
-          "url": "https://www.svt.se/nyheter/lokalt/vasternorrland/maten-snabbt-slut-vid-strypt-import-olonsamt-att-producera-mera",
-          "title": "SVT Nyheter"
-        }
-      ],
-      "topics": [
-        "informationsförsörjning-och-dataplattformar"
-      ],
-      "topic_labels": [
-        "Informationsförsörjning och dataplattformar"
-      ],
-      "assessment": "",
-      "open_questions": [
-        "Hur ser myndigheternas samlade lägesbild ut av den regionala lagringskapaciteten för insatsvaror i jordbruket?",
-        "Vilka digitala verktyg används för att övervaka och analysera sårbarheter i de nationella livsmedelsflödena?"
-      ],
-      "previous_reporting": [],
-      "event_links": [],
-      "body_provenance": "editorial_body",
-      "recorded_at": "2026-10-19T05:45:53.853439+00:00",
-      "revision": 1,
-      "fingerprint": "459930c7b8cb99c91f57cfa1494826d04ba0236d63565968ba33fc2c619be62d",
-      "history": []
-    },
-    {
-      "id": "article-2d0434214520bfb45b556243",
-      "episode_id": "sjoomradet:2026-10-19:daily",
-      "date": "2026-10-19",
-      "channel": "sjoomradet",
-      "kind": "daily",
-      "episode_title": "Morgonbrief",
-      "episode_audio": "episodes/sjoomradet/2026-10-19/morgonpod.mp3",
-      "episode_brief": "episodes/sjoomradet/2026-10-19/brief.json",
-      "article_index": 0,
-      "title": "Finländska fastighetsstopp belyser svensk lagstiftningslucka vid skyddsobjekt",
-      "summary": "Finland har sedan år 2022 stoppat 68 fastighetsaffärer med hänvisning till nationella säkerhetsrisker och infört ett principellt förbud för ryska och belarusiska medborgare att köpa egendom. Enligt SVT Nyheter saknar svenska myndigheter motsvarande generella lagstöd för att stoppa liknande utländska fastighetsköp nära känslig infrastruktur, trots mångåriga utredningar. Frågan har aktualiserats i Sverige efter att Försvarsmakten uttryckt behov av att ta över en fritidsfastighet nära en marinbas.",
-      "body": "Skillnaden i lagstiftning mellan Sverige och Finland är central för förståelsen av det maritima skyddet runt Östersjön, där fastighetsinnehav nära örlogsbaser och farleder utgör en strategisk sårbarhet.",
-      "context": "Skillnaden i lagstiftning mellan Sverige och Finland är central för förståelsen av det maritima skyddet runt Östersjön, där fastighetsinnehav nära örlogsbaser och farleder utgör en strategisk sårbarhet.",
-      "source_url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag",
-      "sources": [
-        {
-          "url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag",
-          "title": "SVT Nyheter"
-        }
-      ],
-      "topics": [
-        "maritim-säkerhet-och-kritisk-infrastruktur"
-      ],
-      "topic_labels": [
-        "Maritim säkerhet och kritisk infrastruktur"
-      ],
-      "assessment": "Bedömningen från finländska experter, däribland professor Kari Liuhto, är att lagstiftningen har en viktig avskräckande effekt men att rysk underrättelsetjänst kan försöka använda bulvaner eller mellanhänder för att komma över strategisk mark.",
-      "open_questions": [
-        "Hur hanterar svenska myndigheter risken för bulvanägande av fastigheter i skärgårdsmiljö i avsaknad av en generell förvärvslag?",
-        "Vilka konkreta lagförslag bereds för att ge Sverige samma möjligheter som Finland att förhindra säkerhetskänsliga fastighetsaffärer?"
-      ],
-      "previous_reporting": [],
-      "event_links": [],
-      "body_provenance": "legacy_context",
-      "recorded_at": "2026-10-19T08:08:34.075463+00:00",
-      "revision": 1,
-      "fingerprint": "1ada6913284111d0a3f5d58826036eb29061477353df72c135e830fbc6d9def5",
       "history": []
     }
   ]

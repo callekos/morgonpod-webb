@@ -1,0 +1,63 @@
+[
+  {
+    "id": "ibat_foundation_1",
+    "url": "https://www.digg.se/kunskap-och-stod/oppna-och-delade-data/vagledning-for-att-tillgangliggora-information",
+    "title": "Vägledning för att tillgängliggöra information \n \n |\n Digg",
+    "retrieved_at": "2026-10-20T05:52:07.958170+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "4f6850b856f63dffe2b3c1b03c28c3b271a1bda33b3f4d19467e2ab152a379f8",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "265005ff4f9e5089aaea248bbec376f768dcc000bdc42354511e2930b4d30b61",
+      "path": "ibat_foundation_1.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 44603,
+    "reviewed": false
+  },
+  {
+    "id": "ibat_foundation_6",
+    "url": "https://www.w3.org/TR/prov-primer/",
+    "title": "PROV Model Primer",
+    "retrieved_at": "2026-10-20T05:52:13.758179+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "4db54135a6f06bbee1983e079c6d9bd3d54e5b45eb6ed0f5686e922c665b8c4a",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "27c60e7b90c3d3c5b09806245472ec42421a624505177e8a9e6087190b1a3d2c",
+      "path": "ibat_foundation_6.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 55856,
+    "reviewed": false
+  },
+  {
+    "id": "ibat_foundation_7",
+    "url": "https://www.w3.org/TR/vocab-dqv/",
+    "title": "Data on the Web Best Practices: Data Quality Vocabulary",
+    "retrieved_at": "2026-10-20T05:52:13.739625+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "271d3e820c681127131595d2c8bf8345e925149192f6cab821f101f09d372a63",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "d4b76e046857e6927626cbe687b1073451b5fe2580059a23a9f1474d94198ff1",
+      "path": "ibat_foundation_7.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 95566,
+    "reviewed": false
+  },
+  {
+    "id": "bdl",
+    "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+    "title": "Brottsdatalag (2018:1177) | Sveriges riksdag",
+    "retrieved_at": "2026-10-20T05:36:34.749410+00:00",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "c088bec19635b49d003aab91df04a55aa17680f33c7f1aa367713d668f2f0696",
+      "path": "bdl.txt"
+    },
+    "bytes": 48203,
+    "source_type": "statute"
+  }
+]

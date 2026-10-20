@@ -1,0 +1,51 @@
+{
+  "title": "AI i brottsbekämpningen: uppgift, evidens och ansvar",
+  "editorial_date": "2026-10-20",
+  "channel": "ai_brottsbekampning",
+  "origin": "work_library",
+  "production_identity": "WORK_LIBRARY_2026_10",
+  "description": "AI behöver bedömas genom den arbetsuppgift som ska stödjas. Introduktionen går från ett fiktivt försök med öppna rapporter till frågor om källstöd, mätning, mänsklig kontroll, säkerhet, rättsliga villkor och förvaltning.",
+  "tags": [
+    "AI",
+    "Brottsbekämpning",
+    "Införande"
+  ],
+  "news": [
+    {
+      "id": "work-ai_brottsbekampning_intro-article-1",
+      "title": "AI i brottsbekämpningen: uppgift, evidens och ansvar",
+      "summary": "AI behöver bedömas genom den arbetsuppgift som ska stödjas. Introduktionen går från ett fiktivt försök med öppna rapporter till frågor om källstöd, mätning, mänsklig kontroll, säkerhet, rättsliga villkor och förvaltning.",
+      "body": "AI behöver bedömas genom den arbetsuppgift som ska stödjas. Introduktionen går från ett fiktivt försök med öppna rapporter till frågor om källstöd, mätning, mänsklig kontroll, säkerhet, rättsliga villkor och förvaltning.\n\nNIST:s riskprofil för generativ AI beskriver hur modeller kan skapa felaktigt innehåll med övertygande formuleringar, även felaktiga källhänvisningar och förklaringar. Källhämtning kan ge bättre underlag, men sökning, urval, tolkning och återgivning behöver fortfarande granskas. Rapportens publiceringsdatum och undersökta period ska hållas synliga.\n\nEU-SOCTA 2025 beskriver AI som en faktor som kan förstärka kriminella nätverks kapacitet. Detta är Europols hotbedömning, inte svensk statistik över AI-användning i brott. Kanalen följer både möjliga stöd för verksamheten och hur tekniken förändrar risker, exempelvis genom syntetiskt innehåll.\n\nNIST:s frivilliga ramverk för riskhantering används för att diskutera styrning, kartläggning, mätning och hantering genom livscykeln. Ramverken är tekniska och organisatoriska kunskapsunderlag, inga svenska rättsregler eller tillstånd.\n\nDen mänskliga granskningen behöver vara en genomförbar arbetsuppgift. Användaren behöver källor, kompetens, tid och möjlighet att korrigera eller avstå från ett resultat. Ett pilotförsök under goda förutsättningar ska inte förväxlas med verifierad vardagsdrift.\n\nRättsläget kontrollerades 20 oktober 2026. IMY:s uppdaterade information och kommissionens tillsynsöversikt anger 2 december 2027 för tillämpningen av högrisksystemreglerna enligt bilaga III. Andra delar av AI-förordningen gäller redan. Tillämpliga dataskyddsregler och rättslig behandling behöver bedömas parallellt. Äldre tidsplaner ska inte användas okritiskt.\n\nFyra specialer fördjupar språkmodeller och källstöd, mätning och basfrekvens, införande och mänsklig kontroll samt AI-förordningen och dataskyddet. Alla egna fall i introduktionen är konstruerade och beskriver ingen verklig införd tjänst.",
+      "context": "Pedagogiskt specialmaterial. Fiktiva fall och beräkningar skiljs från källfakta. Rättsliga tidpunkter kontrollerade 20 oktober 2026.",
+      "category": "AI i brottsbekämpningen",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "publisher": "Morgonpodden, egen källbaserad artikel",
+      "sources": [
+        {
+          "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+          "title": "NIST Trustworthy and Responsible AI"
+        },
+        {
+          "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+          "title": "NIST AI 100-1"
+        },
+        {
+          "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/EU-SOCTA-2025.pdf",
+          "title": "European Union Serious and Organised Crime Organised Threat Assessment"
+        },
+        {
+          "url": "https://www.imy.se/verksamhet/ai/ai-forordningen/",
+          "title": "AI-förordningen | IMY"
+        },
+        {
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act",
+          "title": "The enforcement framework of the AI Act | Shaping Europe’s digital future"
+        },
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+          "title": "Brottsdatalag (2018:1177) | Sveriges riksdag"
+        }
+      ]
+    }
+  ]
+}

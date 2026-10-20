@@ -1,0 +1,48 @@
+{
+  "approved": true,
+  "reviewer": "ChatGPT Work, separat andra genomläsning",
+  "independent_human_review": false,
+  "reviewed_at": "2026-10-20T06:14:47.546921+00:00",
+  "package_sha256": "7f08e49b6482d7e27eb863da5d0f609e4cee8fc1668e84fead44f162c47e4448",
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Skilda våldsroller och digital rekrytering i europeisk hotbedömning.",
+      "source_ids": [
+        "socta"
+      ],
+      "locator": "Avsnitt Violence-as-a-service: who does what and how does it work?",
+      "status": "verified"
+    },
+    {
+      "id": "C02",
+      "claim": "Mest hotfulla nätverk är ett särskilt urval med tjänsteanvändning och ungdomsrekrytering.",
+      "source_ids": [
+        "europol_blueprint"
+      ],
+      "locator": "Who are todays MTCNs och Young perpetrators",
+      "status": "verified"
+    },
+    {
+      "id": "C03",
+      "claim": "Svensk rapport om skjutvapenvåld är historiskt och metodiskt avgränsad.",
+      "source_ids": [
+        "bra_violence"
+      ],
+      "locator": "Rapport 2024:7, sammanfattning och metod; ingen ny svensk prevalenssiffra används",
+      "status": "verified"
+    }
+  ],
+  "checks": {
+    "freshness": "Aktuell sjönyhet 15 oktober; övriga dagliga avsnitt uttrycklig saklig fördjupning utan fabricerad nyhetshändelse",
+    "law": "Motioner är motioner, inga straffskalor eller framtida steg upphöjs till gällande rätt",
+    "scope": "Europolrapporter har tydligt urval, ingen svensk prevalens från europeisk hotbild",
+    "examples": "Alla egna scenarier fiktiva",
+    "facts": "Påståenden kontrollerade mot lästa originalkällor",
+    "length": "Ämne och underlag styr, ingen automatisk utfyllnad"
+  },
+  "remaining_gates": [
+    "Verkligt godkänt ljud och staging",
+    "25-paketsrelease och liveverifiering"
+  ]
+}

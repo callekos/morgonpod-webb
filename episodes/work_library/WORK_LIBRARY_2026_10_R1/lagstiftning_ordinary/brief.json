@@ -1,0 +1,46 @@
+{
+  "title": "Veckoöversikt 12 till 18 oktober 2026: motioner och rättslig status",
+  "editorial_date": "2026-10-20",
+  "channel": "lagstiftning",
+  "origin": "work_library",
+  "production_identity": "WORK_LIBRARY_2026_10",
+  "description": "Veckoöversikten gäller uttryckligen 12 till 18 oktober 2026 och gör ett avgränsat urval ur riksdagsarbetet. Den påstår inte att inga andra rättsliga händelser inträffat. De kontrollerade handlingarna omfattar motioner, som återges med denna status.",
+  "tags": [
+    "lagstiftning",
+    "Rättslig status"
+  ],
+  "news": [
+    {
+      "id": "work-lagstiftning_ordinary-article-1",
+      "title": "Veckoöversikt 12 till 18 oktober 2026: motioner och rättslig status",
+      "summary": "Veckoöversikten gäller uttryckligen 12 till 18 oktober 2026 och gör ett avgränsat urval ur riksdagsarbetet. Den påstår inte att inga andra rättsliga händelser inträffat. De kontrollerade handlingarna omfattar motioner, som återges med denna status.",
+      "body": "Veckoöversikten gäller uttryckligen 12 till 18 oktober 2026 och gör ett avgränsat urval ur riksdagsarbetet. Den påstår inte att inga andra rättsliga händelser inträffat. De kontrollerade handlingarna omfattar motioner, som återges med denna status.\n\nMotion 2026/27:27 av Carina Örgård med flera (V), daterad 13 oktober, gäller propositionen om ett nytt brott och andra åtgärder mot människohandel. Motionärerna vill bland annat stärka brottsofferstöd och Jämställdhetsmyndighetens förutsättningar som nationell kontaktpunkt för gränsöverskridande vidareslussning.\n\nMotion 2026/27:22 av Alexander Christiansson med flera (SD), daterad 12 oktober, gäller samma proposition men vill att en annan myndighet än Jämställdhetsmyndigheten utses till kontaktpunkt. Det är olika politiska yrkanden om organisation och ansvar. Motionerna innebär inte i sig nya myndighetsuppdrag eller ändrade straffbestämmelser.\n\nMotion 2026/27:42 av Louise Meijer (M), daterad 14 oktober, föreslår skärpta straff för barnpornografibrott och grovt barnpornografibrott samt diskuterar gradindelningen. Brottsbeteckningarna återges eftersom det är de rättsliga beteckningar som handlingen avser. Befintliga straffskalor redovisas inte från motionens bakgrundstext.\n\nFormuleringen att riksdagen ställer sig bakom något kan förekomma under rubriken förslag till riksdagsbeslut. Där anger den vad motionären vill att riksdagen ska besluta, inte att beslutet redan fattats. En kallelse är heller inte ett beslutsprotokoll.\n\nRiksdagens vägledning om vägen från förslag till lag ger bakgrund till skillnaden mellan förslag, beredning, kammarbeslut och författning. Bevakningen behöver även följa ikraftträdande och övergångsbestämmelser. Framtida planerade steg ska inte flyttas bakåt till den vecka som sammanfattas.",
+      "context": "Ordinarie redaktionellt ersättningsavsnitt 20 oktober 2026. Tydligt daterade bakgrundskällor. Avgränsad veckoöversikt 12 till 18 oktober för Lagstiftning.",
+      "category": "lagstiftning",
+      "url": "https://data.riksdagen.se/dokumentlista/?utskott=JuU&from=2026-10-12&tom=2026-10-18&utformat=json&antal=100",
+      "publisher": "Morgonpodden, egen källbaserad artikel",
+      "sources": [
+        {
+          "url": "https://data.riksdagen.se/dokumentlista/?utskott=JuU&from=2026-10-12&tom=2026-10-18&utformat=json&antal=100",
+          "title": "Riksdagens dokumentregister, JuU 12 till 18 oktober 2026"
+        },
+        {
+          "url": "https://data.riksdagen.se/dokument/HE0227.text",
+          "title": "weekly_motion_27_text"
+        },
+        {
+          "url": "https://data.riksdagen.se/dokument/HE0222.html",
+          "title": "weekly_motion_22"
+        },
+        {
+          "url": "https://data.riksdagen.se/dokument/HE0242.html",
+          "title": "weekly_motion_42"
+        },
+        {
+          "url": "https://www.riksdagen.se/sv/sa-fungerar-riksdagen/riksdagens-uppgifter/beslutar-om-lagar/fran-forslag-till-lag/",
+          "title": "Från förslag till lag | Sveriges riksdag"
+        }
+      ]
+    }
+  ]
+}

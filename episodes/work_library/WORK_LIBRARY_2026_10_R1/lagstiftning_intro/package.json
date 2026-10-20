@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "package_id": "WORK_LIBRARY_2026_10:lagstiftning:intro:1",
+  "production_identity": "WORK_LIBRARY_2026_10",
+  "origin": "work_library",
+  "library_release_id": "WORK_LIBRARY_2026_10_R1",
+  "channel": "lagstiftning",
+  "edition_type": "intro",
+  "editorial_date": "2026-10-20",
+  "is_intro": true,
+  "episode_order": 1,
+  "published_at": null,
+  "notification_policy": "suppressed",
+  "gemini_text_calls": 0,
+  "work_origin_evidence": {
+    "author": "ChatGPT Work",
+    "newly_authored": true,
+    "prior_episode_relabelled": false,
+    "review": "editorial_review.json"
+  },
+  "files": {
+    "manus.txt": "6775ecb9722d13cc44c936aaf2168b5674ae0c2c015b799e6fe3caf10c116f69",
+    "brief.json": "b7a235a506d483d5c8f0792ac9ab403bb3e9dc1442526118bf2b9736786b4dba",
+    "kallor.json": "f42d9e733298135b9ac06319721018e3c515014acd3fd5eac80d953b0a786807",
+    "editorial_review.json": "4991f8f798c4a6424d2847d2048bcb4b7e2cfef6597cb162fb00bcf2cecc2deb"
+  }
+}

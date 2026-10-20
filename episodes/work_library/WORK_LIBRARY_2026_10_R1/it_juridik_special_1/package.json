@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "package_id": "WORK_LIBRARY_2026_10:it_juridik:special:2",
+  "production_identity": "WORK_LIBRARY_2026_10",
+  "origin": "work_library",
+  "library_release_id": "WORK_LIBRARY_2026_10_R1",
+  "channel": "it_juridik",
+  "edition_type": "special",
+  "editorial_date": "2026-10-20",
+  "is_intro": false,
+  "episode_order": 2,
+  "published_at": null,
+  "notification_policy": "suppressed",
+  "gemini_text_calls": 0,
+  "work_origin_evidence": {
+    "author": "ChatGPT Work",
+    "newly_authored": true,
+    "prior_episode_relabelled": false,
+    "review": "editorial_review.json"
+  },
+  "files": {
+    "manus.txt": "14abe2f99675f3714c8d2f95ea7b85b059fa02f5f67877fda621bb935d118deb",
+    "brief.json": "9970436c32657177ab0565856d258f22fd2e475d38e07abf68f91c00b1960386",
+    "kallor.json": "1d2d79e1f22fbe327bf8558f00c349cc084137ebedf68b6b2392a6b9c76599f7",
+    "editorial_review.json": "a82a4d245c7f699746291e01339b1ae32ee64a2aa5322f4e412f0414f367c70a"
+  }
+}

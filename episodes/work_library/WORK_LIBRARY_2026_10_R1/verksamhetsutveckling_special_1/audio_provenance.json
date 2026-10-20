@@ -1,0 +1,40 @@
+{
+  "package_id": "WORK_LIBRARY_2026_10:verksamhetsutveckling:special:2",
+  "manuscript_sha256": "8ffe193f7261be8e5e3a07403f7fd67f006124d62d937561f649ef17681a45f1",
+  "audio_sha256": "71532a6022fc3bb6ecdd2d962c7de292368e379989c0ce8358aa48cb90e91bdb",
+  "pronunciation_config_sha256": "0b49a0ebc9f27ea5052700fe9614070696784fa2632e86faafbb8fe660f0169e",
+  "voice": "sv-SE-SofieNeural",
+  "rate": "+0%",
+  "full_decode_passed": true,
+  "human_listening": false,
+  "network_calls": 0,
+  "method": "Deterministic reconstruction from current manuscript and approved Sofie cache",
+  "deterministic_reconstruction_matches": true,
+  "segments": [
+    {
+      "cache_key": "1740a63fb4d037b6ec08473c01b49afeecdb76828e09075f144939a611e547e6",
+      "audio_sha256": "2891139527b62f55bbc6fc98f8cc64243c4be9cc8fc617fb6ce1a328c54131e7",
+      "words": 259,
+      "duration_seconds": 115.896
+    },
+    {
+      "cache_key": "1e3462fcb79664b3077bb0b056ec5b68dbc1f30d8b212d912aad48a468472271",
+      "audio_sha256": "1a9b6f0872d7a7e89d2718bbf34aa0551e2211f586a516c198316123ba080026",
+      "words": 254,
+      "duration_seconds": 122.64
+    },
+    {
+      "cache_key": "1ddce0120b93f9902bca4f89d07b6bd15bbcbdd963cd1fe6bb0b51abb9ec691c",
+      "audio_sha256": "f973106ed1e131fd48e2201cad53640f9e75ea51dbabe9e893c4141361d00db3",
+      "words": 242,
+      "duration_seconds": 114.096
+    },
+    {
+      "cache_key": "0c621fce450edc4ebbbeaf1c3b0cb40c34696404234a4b6186f27fc3f70c6bfd",
+      "audio_sha256": "3c9f4cd09afeca81303b22d4d7fdb5176ccbb62f4e480485ee1fc7f883050366",
+      "words": 100,
+      "duration_seconds": 45.48
+    }
+  ],
+  "audio_profile": "Existing podcast.py, libmp3lame -q:a 3, same voice/rate and no added normalization. Existing renderer has no separate jingle component."
+}

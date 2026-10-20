@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "package_id": "WORK_LIBRARY_2026_10:kek:replacement_ordinary:2",
+  "production_identity": "WORK_LIBRARY_2026_10",
+  "origin": "work_library",
+  "library_release_id": "WORK_LIBRARY_2026_10_R1",
+  "channel": "kek",
+  "edition_type": "replacement_ordinary",
+  "editorial_date": "2026-10-20",
+  "is_intro": false,
+  "episode_order": 2,
+  "published_at": null,
+  "notification_policy": "suppressed",
+  "gemini_text_calls": 0,
+  "work_origin_evidence": {
+    "author": "ChatGPT Work",
+    "newly_authored": true,
+    "prior_episode_relabelled": false,
+    "review": "editorial_review.json"
+  },
+  "files": {
+    "manus.txt": "a38d39ede7302acf4de9681847282d4acfb40387dbd8a792011afa4195a63b85",
+    "brief.json": "e6cb8f6d581093fca50602ae13e03463bdf21be73f1e11034a9a57f35dcfd296",
+    "kallor.json": "34e3607e3a2ee2fc5273a1283255f424b9a5788cfd0e65b961f073053abe8114",
+    "editorial_review.json": "a8dad7d3424ee7bbc3b4cae07f127d38de97da24eb392d19c16e0d61df9f4960"
+  }
+}

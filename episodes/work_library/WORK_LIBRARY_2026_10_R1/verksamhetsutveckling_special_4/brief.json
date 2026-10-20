@@ -1,0 +1,39 @@
+{
+  "title": "Utvärdering utan myter om misslyckade projekt",
+  "editorial_date": "2026-10-20",
+  "channel": "verksamhetsutveckling",
+  "origin": "work_library",
+  "production_identity": "WORK_LIBRARY_2026_10",
+  "description": "Uppföljning behöver skilja mellan genomförande, observerade resultat och effekter som kan tillskrivas en insats. I avsnittets fiktiva projekt är systemet levererat och tiden kortare, men kvalitetsmåttet oförändrat. Ett enkelt omdöme om framgång eller misslyckande fångar inte vad organisationen behöver lära.",
+  "tags": [
+    "Verksamhetsutveckling",
+    "Förändringsarbete",
+    "Utvärdering"
+  ],
+  "news": [
+    {
+      "id": "work-verksamhetsutveckling_special_4-article-1",
+      "title": "Utvärdering utan myter om misslyckade projekt",
+      "summary": "Uppföljning behöver skilja mellan genomförande, observerade resultat och effekter som kan tillskrivas en insats. I avsnittets fiktiva projekt är systemet levererat och tiden kortare, men kvalitetsmåttet oförändrat. Ett enkelt omdöme om framgång eller misslyckande fångar inte vad organisationen behöver lära.",
+      "body": "Uppföljning behöver skilja mellan genomförande, observerade resultat och effekter som kan tillskrivas en insats. I avsnittets fiktiva projekt är systemet levererat och tiden kortare, men kvalitetsmåttet oförändrat. Ett enkelt omdöme om framgång eller misslyckande fångar inte vad organisationen behöver lära.\n\nDiggs definition av effekt knyter förändringen till en åtgärd och till vad som annars skulle ha inträffat. En jämförelse före och efter lämnar därför frågor om andra förändringar: inflöde, ärendetyper och bemanning kan påverka resultatet. Avsnittets numeriska exempel är konstruerat och är ingen verklig verksamhetsstatistik.\n\nRapporter behöver läsas utifrån sitt uppdrag, material, sin tidsperiod och sina egna slutsatser. Riksrevisionens reformgranskning och Brås forensikrapport använder olika frågor och underlag. De får inte kombineras som om de vore samma experiment med samma population.\n\nIngen generell siffra om hur många förändringsprojekt som misslyckas används. En sådan uppgift kräver åtminstone tydligt urval, projektdefinition, bedömningskriterier och datainsamling. Utan det blir procentsatsen ett osäkert argument för beslut.\n\nOm en tänkt förbättring uteblir behöver organisationen undersöka om arbetssättet genomfördes som planerat eller om hypotesen om nyttan var fel. Det kan leda till olika åtgärder. Uppföljningen bör också kunna upptäcka oönskade effekter och flyttad arbetsbörda.\n\nRedaktionens arbetsförslag är att återberätta både resultat och begränsning tillsammans. Vad såg vi i vilket underlag, och vad återstår om orsak och överförbarhet? Då kan en utvärdering bidra till ett avgränsat nästa beslut.",
+      "context": "Pedagogiskt kompetensavsnitt. Historiska granskningar tidsavgränsas och konstruerade exempel markeras.",
+      "category": "Verksamhetsutveckling",
+      "url": "https://www.digg.se/kunskap-och-stod/nyttorealisering/vagledning-i-nyttorealisering/1.-grundlaggande-begrepp",
+      "publisher": "Morgonpodden, egen källbaserad artikel",
+      "sources": [
+        {
+          "url": "https://www.digg.se/kunskap-och-stod/nyttorealisering/vagledning-i-nyttorealisering/1.-grundlaggande-begrepp",
+          "title": "1. Grundläggande begrepp \n \n |\n Digg"
+        },
+        {
+          "url": "https://www.riksrevisionen.se/granskningar/granskningsrapporter/2025/polisreformen-2015---intentionerna-annu-inte-nadda.html",
+          "title": "Polisreformen 2015 – intentionerna ännu inte nådda | Riksrevisionen"
+        },
+        {
+          "url": "https://bra.se/rapporter/arkiv/2023-01-24-polisens-forensiska-verksamhet",
+          "title": "Polisens forensiska verksamhet\n\n\t\t | Brå - Brottsförebyggande rådet"
+        }
+      ]
+    }
+  ]
+}

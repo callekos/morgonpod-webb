@@ -1,0 +1,16 @@
+{
+  "kind": "introduction",
+  "duration_seconds": 1200.36,
+  "target_minutes": [
+    20,
+    40
+  ],
+  "duration_status": "within_target",
+  "channel": "lagstiftning",
+  "date": "2026-10-20",
+  "audio_sha256": "5975ab4ffd65af2e4765178b5789a1f0c5bc34bbdeab6190892fd355a7e15052",
+  "audio_bytes": 8620101,
+  "decoded": true,
+  "checked_at": "2026-10-20T19:09:57.466098+00:00",
+  "editorial_approval": "not_established_by_audio_check"
+}

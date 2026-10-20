@@ -1,0 +1,28 @@
+[
+  {
+    "id": "bdl",
+    "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+    "title": "Brottsdatalag (2018:1177) | Sveriges riksdag",
+    "retrieved_at": "2026-10-20T05:36:34.749410+00:00",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "c088bec19635b49d003aab91df04a55aa17680f33c7f1aa367713d668f2f0696",
+      "path": "bdl.txt"
+    },
+    "bytes": 48203,
+    "source_type": "statute"
+  },
+  {
+    "id": "imy_lagar",
+    "url": "https://www.imy.se/verksamhet/dataskydd/sa-hanger-lagarna-ihop/",
+    "title": "Så hänger lagarna ihop | IMY",
+    "retrieved_at": "2026-10-20T05:36:41.988538+00:00",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "eec193eed95aa9236d34109a26067d09a08163d9674f9319ec104366e9abbd28",
+      "path": "imy_lagar.txt"
+    },
+    "bytes": 4780,
+    "source_type": "regulator_guidance"
+  }
+]

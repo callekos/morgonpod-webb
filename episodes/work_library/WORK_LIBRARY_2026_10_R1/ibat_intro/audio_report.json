@@ -1,0 +1,16 @@
+{
+  "kind": "introduction",
+  "duration_seconds": 1238.544,
+  "target_minutes": [
+    20,
+    40
+  ],
+  "duration_status": "within_target",
+  "channel": "ibat",
+  "date": "2026-10-20",
+  "audio_sha256": "9d5790b67b371c63c6f0e8b593e342ec999934a3b7be8b8e82047efdd33e3dfd",
+  "audio_bytes": 8785293,
+  "decoded": true,
+  "checked_at": "2026-10-20T19:09:43.306263+00:00",
+  "editorial_approval": "not_established_by_audio_check"
+}

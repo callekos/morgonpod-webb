@@ -1,0 +1,35 @@
+{
+  "title": "Att mäta nytta: träffsäkerhet, fel och basfrekvens",
+  "editorial_date": "2026-10-20",
+  "channel": "ai_brottsbekampning",
+  "origin": "work_library",
+  "production_identity": "WORK_LIBRARY_2026_10",
+  "description": "En träffprocent behöver en tydlig nämnare och en beskriven uppgift. Specialavsnittet använder ett konstruerat dokumentexempel för att visa skillnaden mellan att hitta många relevanta fall och att ha hög andel relevanta bland alla markeringar.",
+  "tags": [
+    "AI",
+    "Brottsbekämpning",
+    "Införande"
+  ],
+  "news": [
+    {
+      "id": "work-ai_brottsbekampning_special_2-article-1",
+      "title": "Att mäta nytta: träffsäkerhet, fel och basfrekvens",
+      "summary": "En träffprocent behöver en tydlig nämnare och en beskriven uppgift. Specialavsnittet använder ett konstruerat dokumentexempel för att visa skillnaden mellan att hitta många relevanta fall och att ha hög andel relevanta bland alla markeringar.",
+      "body": "En träffprocent behöver en tydlig nämnare och en beskriven uppgift. Specialavsnittet använder ett konstruerat dokumentexempel för att visa skillnaden mellan att hitta många relevanta fall och att ha hög andel relevanta bland alla markeringar.\n\nExemplet innehåller 10 000 syntetiska dokument. Av dem är 100 relevanta. Verktyget hittar 90, vilket ger 90 procents känslighet. Samtidigt markeras 5 procent av de 9 900 irrelevanta dokumenten: 495 falska positiva. Listan innehåller därför 585 markeringar, varav 90 är relevanta. Precisionen blir cirka 15,38 procent.\n\nSiffrorna är ett pedagogiskt räknefall och säger ingenting om ett verkligt verktyg eller en faktisk population. De visar hur basfrekvens och olika nämnare påverkar tolkningen. Om varje markering ska granskas behöver verksamheten veta hur mycket följdarbete som uppstår och vilka relevanta dokument som missas.\n\nNIST:s riskramverk betonar sammanhang, mätning och livscykel. Testmaterialets språk, dokumenttyper och kvalitet behöver beskrivas. Det behöver också vara tydligt hur facit bestämts och hur oenighet mellan granskare hanteras. Ett genomsnitt kan dölja skillnader mellan delar av materialet.\n\nEtt ändrat tröskelvärde kan innebära avvägningar som måste mätas för det konkreta verktyget. Det finns inget generellt värde som är lämpligt för alla uppgifter. Dokumentexemplet ger heller inget tillstånd eller stöd för personbedömning, som väcker ytterligare rättsliga och professionella frågor.\n\nBe om uppgiften, nämnaren, de missade fallen och följdarbetet när ett nytt AI-resultat presenteras. Då blir det möjligt att bedöma nyttan i ett verkligt arbetsflöde.",
+      "context": "Pedagogiskt specialmaterial. Fiktiva fall och beräkningar skiljs från källfakta. Rättsliga tidpunkter kontrollerade 20 oktober 2026.",
+      "category": "AI i brottsbekämpningen",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "publisher": "Morgonpodden, egen källbaserad artikel",
+      "sources": [
+        {
+          "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+          "title": "NIST AI 100-1"
+        },
+        {
+          "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+          "title": "NIST Trustworthy and Responsible AI"
+        }
+      ]
+    }
+  ]
+}

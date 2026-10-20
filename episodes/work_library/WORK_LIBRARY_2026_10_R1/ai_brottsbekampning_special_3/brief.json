@@ -1,0 +1,39 @@
+{
+  "title": "Från pilot till drift: mänsklig kontroll som arbetsuppgift",
+  "editorial_date": "2026-10-20",
+  "channel": "ai_brottsbekampning",
+  "origin": "work_library",
+  "production_identity": "WORK_LIBRARY_2026_10",
+  "description": "En pilot visar ett avgränsat resultat under vissa förutsättningar. Drift innebär ofta andra volymer, användare och tidsvillkor. Specialavsnittet följer ett fiktivt sammanfattningsstöd för att göra övergångens frågor konkreta.",
+  "tags": [
+    "AI",
+    "Brottsbekämpning",
+    "Införande"
+  ],
+  "news": [
+    {
+      "id": "work-ai_brottsbekampning_special_3-article-1",
+      "title": "Från pilot till drift: mänsklig kontroll som arbetsuppgift",
+      "summary": "En pilot visar ett avgränsat resultat under vissa förutsättningar. Drift innebär ofta andra volymer, användare och tidsvillkor. Specialavsnittet följer ett fiktivt sammanfattningsstöd för att göra övergångens frågor konkreta.",
+      "body": "En pilot visar ett avgränsat resultat under vissa förutsättningar. Drift innebär ofta andra volymer, användare och tidsvillkor. Specialavsnittet följer ett fiktivt sammanfattningsstöd för att göra övergångens frågor konkreta.\n\nNIST:s ramverk för AI-riskhantering beskriver styrning, kartläggning, mätning och hantering. Det frivilliga ramverket används här som stöd för ansvar och uppföljning, inte som svensk rättslig reglering. En tekniskt lyckad demonstration är en del av ett införandeunderlag.\n\nInstruktionen att granska svaret behöver översättas till arbete. Vilka påståenden ska användaren kontrollera och mot vilket underlag? Vilken kompetens, tid och möjlighet att korrigera krävs? NIST:s generativa riskprofil beskriver både risker för överdriven tillit och att användare undviker användbara stöd. Målet är en välgrundad tillit till den avgränsade funktionen.\n\nI det konstruerade scenariot går en liten pilot över till ett större vardagsinflöde. Volymerna är fiktiva. Exemplet visar varför granskningsarbetet måste prövas under de förutsättningar där stödet ska användas. Användaren behöver också veta hur fel rapporteras och vem som kan stoppa en funktion.\n\nFörvaltningen behöver följa förändringar i modell, material och användning. Ett tekniskt startprov visar inte ensamt om tidigare kvalitetsantaganden fortfarande gäller. Brottsdatalagens regler om inbyggt dataskydd och vissa konsekvensbedömningar behöver bedömas vid relevant behandling, även efter ett framgångsrikt teknikprov.\n\nEtt beslutsunderlag kan beskriva testmaterial, feltyper, nödvändig kontroll, begränsningar och ansvar för drift och förändringar. Det är ett redaktionellt arbetsförslag. Tillämplig juridik och säkerhet måste prövas för den konkreta tjänsten.",
+      "context": "Pedagogiskt specialmaterial. Fiktiva fall och beräkningar skiljs från källfakta. Rättsliga tidpunkter kontrollerade 20 oktober 2026.",
+      "category": "AI i brottsbekämpningen",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "publisher": "Morgonpodden, egen källbaserad artikel",
+      "sources": [
+        {
+          "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+          "title": "NIST AI 100-1"
+        },
+        {
+          "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+          "title": "NIST Trustworthy and Responsible AI"
+        },
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+          "title": "Brottsdatalag (2018:1177) | Sveriges riksdag"
+        }
+      ]
+    }
+  ]
+}

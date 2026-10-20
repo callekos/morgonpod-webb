@@ -1,0 +1,16 @@
+{
+  "kind": "historical",
+  "duration_seconds": 452.688,
+  "target_minutes": [
+    5,
+    10
+  ],
+  "duration_status": "within_target",
+  "channel": "it_juridik",
+  "date": "2026-10-20",
+  "audio_sha256": "d6452b5dfdfe10daad0272bada32598a673a66b797df92e74b52064cf395e01b",
+  "audio_bytes": 3165045,
+  "decoded": true,
+  "checked_at": "2026-10-20T19:17:12.170235+00:00",
+  "editorial_approval": "not_established_by_audio_check"
+}

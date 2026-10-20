@@ -1,0 +1,76 @@
+{
+  "approved": true,
+  "reviewer": "ChatGPT Work, separat andra genomläsning",
+  "independent_human_review": false,
+  "reviewed_at": "2026-10-20T06:06:36.331666+00:00",
+  "package_sha256": "52747707bf7ac1a368c442438406ea1ea917e700a5229430fe32c4c0f315c41a",
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Statistisk textgenerering och konfabulering, även citat och resonemang.",
+      "source_ids": [
+        "nist_genai"
+      ],
+      "locator": "Avsnitt 2.2 Confabulation",
+      "status": "verified"
+    },
+    {
+      "id": "C02",
+      "claim": "Risker i människa/AI-samspel och informationssäkerhet.",
+      "source_ids": [
+        "nist_genai"
+      ],
+      "locator": "Avsnitt 2.7 och 2.9",
+      "status": "verified"
+    },
+    {
+      "id": "C03",
+      "claim": "Riskramverket omfattar Govern, Map, Measure, Manage och är frivilligt.",
+      "source_ids": [
+        "nist_rmf"
+      ],
+      "locator": "Executive summary och AI RMF Core",
+      "status": "verified"
+    },
+    {
+      "id": "C04",
+      "claim": "Europol bedömer AI som förstärkare av brottslig kapacitet.",
+      "source_ids": [
+        "socta"
+      ],
+      "locator": "AI and other new technologies as a catalyst for crime; hotbedömning inte prevalensmått",
+      "status": "verified"
+    },
+    {
+      "id": "C05",
+      "claim": "Uppdaterad tillämpningstidpunkt för bilaga III är 2 december 2027.",
+      "source_ids": [
+        "ai_imy",
+        "ai_enforcement"
+      ],
+      "locator": "IMY uppdaterad 20 augusti 2026, kommissionen 6 oktober 2026; äldre tidsplan utesluten",
+      "status": "verified"
+    },
+    {
+      "id": "C06",
+      "claim": "BDL reglerar ändamål, åtkomst, inbyggt skydd och viss konsekvensbedömning.",
+      "source_ids": [
+        "bdl"
+      ],
+      "locator": "2 kap. 3 § samt 3 kap. 3, 6 och 7 §§",
+      "status": "verified"
+    }
+  ],
+  "checks": {
+    "source_roles": "NIST frivilligt tekniskt riskstöd, Europol hotbedömning, IMY och kommissionen myndighetsinformation, BDL och OSL författningar",
+    "law_dates": "Uppdaterad tillämpning 2027 verifierad i två aktuella myndighetskällor; ursprunglig tidsplan inte använd",
+    "scope": "Inga individuella juridiska tillåtlighetsbeslut",
+    "examples": "Alla egna arbetsfall och numeriska exempel uttryckligt fiktiva",
+    "math": "90/(90+9900*0.05)=15.3846 procent kontrollerat",
+    "review": "Separat genomläsning av exakt manus och artikel, ingen oberoende mänsklig granskning"
+  },
+  "remaining_gates": [
+    "Verkligt godkänt ljud och staging",
+    "25-paketsrelease och liveverifiering"
+  ]
+}

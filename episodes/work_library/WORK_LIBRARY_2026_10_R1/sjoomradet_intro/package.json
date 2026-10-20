@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "package_id": "WORK_LIBRARY_2026_10:sjoomradet:intro:1",
+  "production_identity": "WORK_LIBRARY_2026_10",
+  "origin": "work_library",
+  "library_release_id": "WORK_LIBRARY_2026_10_R1",
+  "channel": "sjoomradet",
+  "edition_type": "intro",
+  "editorial_date": "2026-10-20",
+  "is_intro": true,
+  "episode_order": 1,
+  "published_at": null,
+  "notification_policy": "suppressed",
+  "gemini_text_calls": 0,
+  "work_origin_evidence": {
+    "author": "ChatGPT Work",
+    "newly_authored": true,
+    "prior_episode_relabelled": false,
+    "review": "editorial_review.json"
+  },
+  "files": {
+    "manus.txt": "861b429273220b2a1b8033d9968551cbed2ba65687a66cb45af5dc9f6d4d63d3",
+    "brief.json": "fca83a3a371e82b99ebbc0778ff58ab55158aa8a0d180578a08e8fe4e6207cfc",
+    "kallor.json": "f35fe7298917bc6eb833edd4cf10afd29d7a4adbdaabed6e610ea7484ff4b4d9",
+    "editorial_review.json": "4d8b343b5c6ce23b0d668ae9903307083ff2b923010fda0a2eedd56ec6cd0af9"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Behörigheter och loggning genom hela livscykeln",
+  "editorial_date": "2026-10-20",
+  "channel": "it_juridik",
+  "origin": "work_library",
+  "production_identity": "WORK_LIBRARY_2026_10",
+  "description": "Behörigheter behöver följa arbetsuppgifter över tid. Det räcker inte att en användare en gång fått rätt åtkomst. Brottsdataförordningen kräver rutiner för tilldelning, förändring, borttagning och regelbunden uppföljning. Vid tilldelning ska även utbildning och erfarenhet särskilt beaktas.",
+  "tags": [
+    "IT-juridik",
+    "Dataskydd"
+  ],
+  "news": [
+    {
+      "id": "work-it-juridik-special-3-article-1",
+      "title": "Behörigheter och loggning genom hela livscykeln",
+      "summary": "Behörigheter behöver följa arbetsuppgifter över tid. Det räcker inte att en användare en gång fått rätt åtkomst. Brottsdataförordningen kräver rutiner för tilldelning, förändring, borttagning och regelbunden uppföljning. Vid tilldelning ska även utbildning och erfarenhet särskilt beaktas.",
+      "context": "Kompetenshöjande special med fiktiva exempel. Rättsläget kontrollerat 20 oktober 2026.",
+      "body": "Behörigheter behöver följa arbetsuppgifter över tid. Det räcker inte att en användare en gång fått rätt åtkomst. Brottsdataförordningen kräver rutiner för tilldelning, förändring, borttagning och regelbunden uppföljning. Vid tilldelning ska även utbildning och erfarenhet särskilt beaktas.\n\nBrottsdatalagen anger att tillgången till personuppgifter ska begränsas till vad var och en behöver för att fullgöra sina arbetsuppgifter. I avsnittet skiljs därför identitetskontroll, teknisk behörighet och konkret arbetsbehov åt. En lyckad inloggning visar inte att varje möjlig användning är motiverad.\n\nDet fiktiva exemplet följer en medarbetare som får en tillfällig roll och sedan byter uppdrag. Organisationen behöver kunna förklara vem som omprövar åtkomsten och hur ändringen genomförs. Ett tekniskt slutdatum kan vara en hjälp, men ersätter inte hela förvaltningsrutinen.\n\nBrottsdataförordningen preciserar loggningens behandlingskategorier. Där finns bland annat läsning, ändring, utlämning, sammanföring och radering. Den exakta regleringen innehåller närmare villkor som behöver läsas i rättskällan. En aktivitetslista för användaren kan ha ett annat syfte än loggning för kontroll.\n\nLoggning gör inte en otillåten behandling tillåten. Den kan däremot ge underlag för att upptäcka och undersöka en händelse. Avsnittets redaktionella exempel skiljer därför mellan förebyggande åtkomstbegränsningar och efterföljande kontroll. Projektet föreslås prova både tekniska logghändelser och hur en kontrollfunktion kan förstå underlaget.\n\nInget särskilt gränssnitt eller viss teknisk arkitektur föreskrivs i artikeln. Arbetsfrågorna ska användas för att beskriva en konkret lösning som kan prövas mot tillämpliga krav. Rättskällorna kontrollerades 20 oktober 2026.",
+      "category": "IT-juridik och dataskydd",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+      "publisher": "Morgonpodden, egen källbaserad artikel",
+      "sources": [
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/",
+          "title": "Brottsdatalag (2018:1177) | Sveriges riksdag"
+        },
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdataforordning-20181202_sfs-2018-1202/",
+          "title": "Brottsdataförordning (2018:1202) | Sveriges riksdag"
+        }
+      ]
+    }
+  ]
+}

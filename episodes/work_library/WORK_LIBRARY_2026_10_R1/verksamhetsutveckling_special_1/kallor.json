@@ -1,0 +1,50 @@
+[
+  {
+    "id": "digg_benefits",
+    "url": "https://www.digg.se/kunskap-och-stod/nyttorealisering/vagledning-i-nyttorealisering/1.-grundlaggande-begrepp",
+    "title": "1. Grundläggande begrepp \n \n |\n Digg",
+    "retrieved_at": "2026-10-20T05:52:51.303550+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "c1e37751ee88c7d3351f2c72ba8ad7fdc15e22daa9001abe38c154e5b2396275",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "1336e4168afd1a3c9ebe2a62172ec1326fa8976de41d1974f42c1f17ac82357a",
+      "path": "digg_benefits.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 5553,
+    "reviewed": false
+  },
+  {
+    "id": "digg_process",
+    "url": "https://www.digg.se/kunskap-och-stod/nyttorealisering/vagledning-i-nyttorealisering/10.-arbetsprocess-for-nyttorealisering",
+    "title": "10. Arbetsprocess för nyttorealisering \n \n |\n Digg",
+    "retrieved_at": "2026-10-20T05:52:54.404663+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "5da193dbff818f4586d842c6d78f6927850bc3fb9b02a979afe902c47833ee73",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "b5f30c1f895d7c86fa84f09dace6b1ec7864087552f3381e4abb1050181781a5",
+      "path": "digg_process.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 16214,
+    "reviewed": false
+  },
+  {
+    "id": "digg_roles",
+    "url": "https://www.digg.se/kunskap-och-stod/nyttorealisering/vagledning-i-nyttorealisering/6.-ansvar-och-roller",
+    "title": "6. Ansvar och roller \n \n |\n Digg",
+    "retrieved_at": "2026-10-20T05:52:51.593583+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "63b3625ffc2b93392fecb48dfb1a9e2dbb30b46565d67f1a0e9a9d5e830875e3",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "d3e61a6c2c8b3228377022a0a46ca84dc880e3b33c7401317e6f96d4a470c86e",
+      "path": "digg_roles.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 5761,
+    "reviewed": false
+  }
+]

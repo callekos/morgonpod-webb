@@ -1,0 +1,40 @@
+{
+  "package_id": "WORK_LIBRARY_2026_10:it_juridik:special:5",
+  "manuscript_sha256": "6ed2e06968b213c0a5b7b11cf4982725b3c2d165dd684b8238be33f19f0b34f2",
+  "audio_sha256": "345646d8c14051660a0e14a3b19fb591b493ed23c7d1ba9f09f9d9160c151554",
+  "pronunciation_config_sha256": "0b49a0ebc9f27ea5052700fe9614070696784fa2632e86faafbb8fe660f0169e",
+  "voice": "sv-SE-SofieNeural",
+  "rate": "+0%",
+  "full_decode_passed": true,
+  "human_listening": false,
+  "network_calls": 0,
+  "method": "Deterministic reconstruction from current manuscript and approved Sofie cache",
+  "deterministic_reconstruction_matches": true,
+  "segments": [
+    {
+      "cache_key": "dc3a0cb6c4dc8e6899b41008865d473c6703e43786c94642abedb8e14ae9801a",
+      "audio_sha256": "c8e09fc984cb9f1541e0bb44259c631ed42726f43fc7df892981b7e1a886eb77",
+      "words": 235,
+      "duration_seconds": 118.464
+    },
+    {
+      "cache_key": "5b2783714112e586b9428c70349eaef9dbe053a746bc14aa5120bbbafb5e7ff0",
+      "audio_sha256": "8d630dce8fbbf39f039263f266e202b0b7b1b3f5e027bdf7d688cc994fb322ce",
+      "words": 234,
+      "duration_seconds": 119.64
+    },
+    {
+      "cache_key": "4d16138580a586a7ac381766dd163770bb906f2805c2b7939ed2a3f73e0cf4b3",
+      "audio_sha256": "83688a555c7a2b5a7b4716c5acb765b78389141f6865384ad17148a5ff943e99",
+      "words": 224,
+      "duration_seconds": 112.464
+    },
+    {
+      "cache_key": "29d0045fc58bd0d7eb94d41dff321d3cf29381f4cc2575aeddeed5bd79150139",
+      "audio_sha256": "db357f7ce9ed6153559e5e9863fee3a8690f29121c0d3996cbaa5c15adeb5168",
+      "words": 190,
+      "duration_seconds": 96.72
+    }
+  ],
+  "audio_profile": "Existing podcast.py, libmp3lame -q:a 3, same voice/rate and no added normalization. Existing renderer has no separate jingle component."
+}

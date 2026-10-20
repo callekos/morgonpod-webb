@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "package_id": "WORK_LIBRARY_2026_10:vald:intro:1",
+  "production_identity": "WORK_LIBRARY_2026_10",
+  "origin": "work_library",
+  "library_release_id": "WORK_LIBRARY_2026_10_R1",
+  "channel": "vald",
+  "edition_type": "intro",
+  "editorial_date": "2026-10-20",
+  "is_intro": true,
+  "episode_order": 1,
+  "published_at": null,
+  "notification_policy": "suppressed",
+  "gemini_text_calls": 0,
+  "work_origin_evidence": {
+    "author": "ChatGPT Work",
+    "newly_authored": true,
+    "prior_episode_relabelled": false,
+    "review": "editorial_review.json"
+  },
+  "files": {
+    "manus.txt": "5d61fdac3094ba1e20c5c74bcf9bae60eabd163a73be767704baebbeea93fb40",
+    "brief.json": "9b0eb298a34e167634849ef1c6c66bb841dbd5dad8f9e091435bafa702cf73a3",
+    "kallor.json": "b3b5ac8c2cba47ac4f96836116d434469b33dcc96699faf0367bf422ba50e14e",
+    "editorial_review.json": "bab5372a02cf0c17346e8af32f9c2277bcdf189d606d0fd612d5535efaf94d54"
+  }
+}

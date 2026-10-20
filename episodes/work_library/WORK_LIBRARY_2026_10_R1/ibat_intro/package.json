@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "package_id": "WORK_LIBRARY_2026_10:ibat:intro:1",
+  "production_identity": "WORK_LIBRARY_2026_10",
+  "origin": "work_library",
+  "library_release_id": "WORK_LIBRARY_2026_10_R1",
+  "channel": "ibat",
+  "edition_type": "intro",
+  "editorial_date": "2026-10-20",
+  "is_intro": true,
+  "episode_order": 1,
+  "published_at": null,
+  "notification_policy": "suppressed",
+  "gemini_text_calls": 0,
+  "work_origin_evidence": {
+    "author": "ChatGPT Work",
+    "newly_authored": true,
+    "prior_episode_relabelled": false,
+    "review": "editorial_review.json"
+  },
+  "files": {
+    "manus.txt": "fcdf7c6ce20208f74f765496f19c8ef78b70bbe1b7be33d449d2a4781f87d61b",
+    "brief.json": "2cad983322343c996aacefad20521c41bb61d0a8eee8f755459108b3e4b1d4cd",
+    "kallor.json": "a08adb0b38a08b1867ef7c5323d53413ac47027cd1f9140f9cfc8936d85d29a2",
+    "editorial_review.json": "813f6ed93559f58eddc42c02f93ef918272ee5a5b77d250d0a3fbad0b0360c66"
+  }
+}

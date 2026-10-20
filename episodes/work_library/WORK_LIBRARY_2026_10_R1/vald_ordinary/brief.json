@@ -1,0 +1,38 @@
+{
+  "title": "Tisdag V.43: rekrytering och våld som tjänst",
+  "editorial_date": "2026-10-20",
+  "channel": "vald",
+  "origin": "work_library",
+  "production_identity": "WORK_LIBRARY_2026_10",
+  "description": "Våld som tjänst behöver analyseras genom belagda roller och handlingar. Dagens fördjupning använder europeiska hotunderlag och svensk forskning för att diskutera digital rekrytering utan att tillskriva enskilda händelser obelagda kopplingar.",
+  "tags": [
+    "vald",
+    "Fördjupning"
+  ],
+  "news": [
+    {
+      "id": "work-vald_ordinary-article-1",
+      "title": "Tisdag V.43: rekrytering och våld som tjänst",
+      "summary": "Våld som tjänst behöver analyseras genom belagda roller och handlingar. Dagens fördjupning använder europeiska hotunderlag och svensk forskning för att diskutera digital rekrytering utan att tillskriva enskilda händelser obelagda kopplingar.",
+      "body": "Våld som tjänst behöver analyseras genom belagda roller och handlingar. Dagens fördjupning använder europeiska hotunderlag och svensk forskning för att diskutera digital rekrytering utan att tillskriva enskilda händelser obelagda kopplingar.\n\nEU-SOCTA 2025 beskriver åtskilda roller i planering och utförande av våld samt digitala kontakter och rekrytering. Det är en hotbedömning, inte statistik över vilken andel av allt svenskt våld som följer modellen. Europols rapport om de mest hotfulla nätverken gäller i sin tur ett särskilt identifierat urval.\n\nBrottslighet som tjänst är en bredare beskrivning av specialiserade funktioner som erbjuds andra aktörer. Våld som tjänst är mer specifikt. Förkortningar kan i olika källor även avse cyberbrottsliga tjänster. Därför behöver analysen skriva ut vad begreppen betyder i det aktuella underlaget.\n\nI det fiktiva exemplet förekommer digitala kontakter före ett våldsdåd. Kontakternas innehåll, tid och relation till andra omständigheter behöver undersökas. Att två personer kommunicerat visar inte automatiskt vem som beställt, förmedlat eller utfört något. Observation, rolltolkning och säkerhet ska hållas synliga.\n\nBrås rapport om ökningen av skjutvapenvåld ger ett annat slags underlag med egen metod och tidsperiod. Källorna kan belysa olika delar av problemet. De ska inte slås ihop till ett nytt säkert orsakssamband mellan en svensk observation och en europeisk trend.\n\nRedaktionens arbetsförslag är att i lägesbilder skilja den egna observationen, den externa rapporten, bedömningen av en möjlig koppling och kvarstående frågor åt. Kanalen bevakar grovt våld brett, med särskild fördjupning om digital rekrytering och tjänstelogik.",
+      "context": "Ordinarie redaktionellt ersättningsavsnitt 20 oktober 2026. Tydligt daterade bakgrundskällor. Avgränsad veckoöversikt 12 till 18 oktober för Lagstiftning.",
+      "category": "vald",
+      "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/EU-SOCTA-2025.pdf",
+      "publisher": "Morgonpodden, egen källbaserad artikel",
+      "sources": [
+        {
+          "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/EU-SOCTA-2025.pdf",
+          "title": "European Union Serious and Organised Crime Organised Threat Assessment"
+        },
+        {
+          "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/Blueprint-of-criminal-opportunism.pdf",
+          "title": "DECODING THE EU’S MOST THREATENING CRIMINAL NETWORKS"
+        },
+        {
+          "url": "https://bra.se/download/18.7d19346a191c757143634b6/1725889949825/2024_7_Okningen-av-skjutvapenvald-i-Sverige.pdf",
+          "title": "Rapport 2024:7"
+        }
+      ]
+    }
+  ]
+}

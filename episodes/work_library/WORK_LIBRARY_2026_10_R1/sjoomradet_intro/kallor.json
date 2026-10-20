@@ -1,0 +1,98 @@
+[
+  {
+    "id": "sjoomradet_foundation_1",
+    "url": "https://stateofthebalticsea.helcom.fi/overview/about-the-baltic-sea/",
+    "title": "About the Baltic Sea – State of the Baltic Sea –  Third HELCOM holistic assessment",
+    "retrieved_at": "2026-10-20T05:52:14.688599+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "7ae3e3a28c679ddb3b5ecf92bc6f875531b2cde83de4d1b9274d5838da178ff0",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "fc63310d555d90355e57e14d519cac09211da31f945484d489badcd85cc8ec28",
+      "path": "sjoomradet_foundation_1.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 2416,
+    "reviewed": false
+  },
+  {
+    "id": "sjoomradet_foundation_7",
+    "url": "https://stateofthebalticsea.helcom.fi/findings/activities/economic-impacts/",
+    "title": "Economic impacts – State of the Baltic Sea –  Third HELCOM holistic assessment",
+    "retrieved_at": "2026-10-20T05:52:24.050147+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "a50f71e8e16306d897d4c8a027a7efed4151d9a7bdf75c763210ff5c69a1c8a8",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "aec66e1f6e563bbf4bfcc3f2ec375d1f919a21332f9fa01584017ba74e0d0169",
+      "path": "sjoomradet_foundation_7.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 3129,
+    "reviewed": false
+  },
+  {
+    "id": "sjoomradet_foundation_2",
+    "url": "https://www.imo.org/en/about/pages/default.aspx",
+    "title": "\r\n        Introduction to IMO\r\n    ",
+    "retrieved_at": "2026-10-20T05:52:19.970095+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "d62b972f0ce316965e38bb061921d52efa5d1fa9ba82aa7e3bd854eb4440f4f6",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "071aadcd5ff5af2f70dca008140270fd9373658c55122815db16a0d770e9f2dd",
+      "path": "sjoomradet_foundation_2.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 4001,
+    "reviewed": false
+  },
+  {
+    "id": "sjoomradet_foundation_4",
+    "url": "https://www.consilium.europa.eu/en/policies/maritime-security/",
+    "title": "Maritime security - Consilium",
+    "retrieved_at": "2026-10-20T05:52:17.919532+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "a3441dd67ba52b224673aec6fbdedf207f33e89593167113408dd53a165ac2ec",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "bdac5f8fd470327de294e3055a44725a466aa0153d5fccdea3059f42b38e0a47",
+      "path": "sjoomradet_foundation_4.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 6692,
+    "reviewed": false
+  },
+  {
+    "id": "sjoomradet_foundation_6",
+    "url": "https://www.consilium.europa.eu/en/press/press-releases/2025/12/18/russia-s-war-of-aggression-against-ukraine-council-sanctions-41-vessels-of-the-russian-shadow-fleet/",
+    "title": "Russia's war of aggression against Ukraine: Council sanctions 41 vessels of the Russian shadow fleet  - Consilium",
+    "retrieved_at": "2026-10-20T05:52:25.938228+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "3d15d7fd23c7c515c5f3fc45cecbdbf7637547b8c570b834bfe9485af50fa24f",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "641953f23ab25bb616ff68429e0349abbf29f225ff313680b816cc4132cce181",
+      "path": "sjoomradet_foundation_6.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 3891,
+    "reviewed": false
+  },
+  {
+    "id": "sanctions_20261015",
+    "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/15/closing-loopholes-council-lists-individuals-and-entities-for-circumventing-eu-sanctions/",
+    "title": "Closing loopholes: Council lists individuals and entities for circumventing EU sanctions - Consilium",
+    "retrieved_at": "2026-10-20T05:42:59.911185+00:00",
+    "http_status": 200,
+    "original_bytes_sha256": "c1a4a7832a8a509ccedd705a9d8cc9bf98c3cc15a342f3c3b354e13c69a1809a",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "page_sha256": "537c89d9b18fbe579afbcba8687077a7cd6e44acb31e6088e721ce1452541bf3",
+      "path": "sanctions_20261015.txt"
+    },
+    "source_type": "primary_report_or_issuer_statement",
+    "bytes": 4492,
+    "reviewed": false
+  }
+]

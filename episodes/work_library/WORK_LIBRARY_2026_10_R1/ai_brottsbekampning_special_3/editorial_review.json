@@ -1,0 +1,48 @@
+{
+  "approved": true,
+  "reviewer": "ChatGPT Work, separat andra genomläsning",
+  "independent_human_review": false,
+  "reviewed_at": "2026-10-20T06:06:36.338557+00:00",
+  "package_sha256": "7dd8fb9d2fb896390e7afd0c1ae8623e7685cd0d250d161c8e3a85f53ce2df4d",
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Ramverkets fyra funktioner och livscykel.",
+      "source_ids": [
+        "nist_rmf"
+      ],
+      "locator": "AI RMF Core",
+      "status": "verified"
+    },
+    {
+      "id": "C02",
+      "claim": "Risk för överdriven tillit respektive aversion i människa/AI-samspel.",
+      "source_ids": [
+        "nist_genai"
+      ],
+      "locator": "Avsnitt 2.7",
+      "status": "verified"
+    },
+    {
+      "id": "C03",
+      "claim": "Inbyggt dataskydd och konsekvensbedömning med riskrekvisit.",
+      "source_ids": [
+        "bdl"
+      ],
+      "locator": "3 kap. 3 och 7 §§; ingen generell provbefrielse",
+      "status": "verified"
+    }
+  ],
+  "checks": {
+    "source_roles": "NIST frivilligt tekniskt riskstöd, Europol hotbedömning, IMY och kommissionen myndighetsinformation, BDL och OSL författningar",
+    "law_dates": "Uppdaterad tillämpning 2027 verifierad i två aktuella myndighetskällor; ursprunglig tidsplan inte använd",
+    "scope": "Inga individuella juridiska tillåtlighetsbeslut",
+    "examples": "Alla egna arbetsfall och numeriska exempel uttryckligt fiktiva",
+    "math": "90/(90+9900*0.05)=15.3846 procent kontrollerat",
+    "review": "Separat genomläsning av exakt manus och artikel, ingen oberoende mänsklig granskning"
+  },
+  "remaining_gates": [
+    "Verkligt godkänt ljud och staging",
+    "25-paketsrelease och liveverifiering"
+  ]
+}

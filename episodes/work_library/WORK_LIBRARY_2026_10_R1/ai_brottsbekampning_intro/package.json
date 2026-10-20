@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "package_id": "WORK_LIBRARY_2026_10:ai_brottsbekampning:intro:1",
+  "production_identity": "WORK_LIBRARY_2026_10",
+  "origin": "work_library",
+  "library_release_id": "WORK_LIBRARY_2026_10_R1",
+  "channel": "ai_brottsbekampning",
+  "edition_type": "intro",
+  "editorial_date": "2026-10-20",
+  "is_intro": true,
+  "episode_order": 1,
+  "published_at": null,
+  "notification_policy": "suppressed",
+  "gemini_text_calls": 0,
+  "work_origin_evidence": {
+    "author": "ChatGPT Work",
+    "newly_authored": true,
+    "prior_episode_relabelled": false,
+    "review": "editorial_review.json"
+  },
+  "files": {
+    "manus.txt": "b38067c3d3269ab43497d7daf8c0a87bb1d352782dc330ee8834ba1e742360c4",
+    "brief.json": "2165f8ffc649249d68def3e4fb48ee1c7a4f86a88b76e560a2db8b5ecce48977",
+    "kallor.json": "2a7867e05a4ee5a46b937396f2d7fdce86b25009e6b6b11a4dc8ed7c7c33fb8f",
+    "editorial_review.json": "05446e105998f279cc3fdfaed5f74c83bf0d470b23f551e3c32c139482540484"
+  }
+}

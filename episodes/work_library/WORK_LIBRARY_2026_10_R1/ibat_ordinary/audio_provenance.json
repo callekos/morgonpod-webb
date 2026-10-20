@@ -1,0 +1,14 @@
+{
+  "package_id": "WORK_LIBRARY_2026_10:ibat:replacement_ordinary:2",
+  "manuscript_sha256": "dffecf07b7136bf5d380ef45cb4a5c8b572a6dec971fa3fff1960fd5f50eb7d9",
+  "audio_sha256": "495d09f85ff40e163e3002792b1282b661b464906505fda229208eea541a1491",
+  "pronunciation_config_sha256": "0b49a0ebc9f27ea5052700fe9614070696784fa2632e86faafbb8fe660f0169e",
+  "voice": "sv-SE-SofieNeural",
+  "rate": "+0%",
+  "full_decode_passed": true,
+  "human_listening": false,
+  "network_calls": 0,
+  "method": "Recovered original MP3 matches previously recorded production hash and exact unchanged reviewed manuscript; segment cache was not retained",
+  "library_file_id": "libfile_9da2cbff280c81919433f62cb773217f",
+  "audio_profile": "Existing podcast.py, libmp3lame -q:a 3, same voice/rate and no added normalization. Existing renderer has no separate jingle component."
+}

@@ -1,1 +1,43 @@
-{"id":"article-b961bb4d0dc4de3998074e5e","episode_id":"kek:2026-10-19:daily","date":"2026-10-19","channel":"kek","kind":"daily","episode_title":"Morgonbrief","episode_audio":"episodes/kek/2026-10-19/morgonpod.mp3","episode_brief":"episodes/kek/2026-10-19/brief.json","article_index":1,"title":"Finlands strikta fastighetsregler saknar svensk motsvarighet","summary":"SVT Nyheter rapporterar den 19 oktober 2026 att Finland har stoppat 68 fastighetsaffärer nära kritisk infrastruktur sedan 2022 med hänvisning till nationell säkerhet, och infört ett totalförbud för ryska och belarusiska medborgare att köpa fastigheter. Enligt granskningen saknar Sverige motsvarande generella lagar för att stoppa liknande utländska fastighetsköp.","body":"Skillnaden i lagstiftning mellan länderna aktualiserar sårbarheter kring strategiska tillgångar och hur kriminella upplägg eller främmande makt kan utnyttja formellt legala fastighetsförvärv för att bygga upp långsiktiga positioner.","context":"Skillnaden i lagstiftning mellan länderna aktualiserar sårbarheter kring strategiska tillgångar och hur kriminella upplägg eller främmande makt kan utnyttja formellt legala fastighetsförvärv för att bygga upp långsiktiga positioner.","source_url":"https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag","sources":[{"url":"https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag","title":"SVT Nyheter"}],"topics":["tillgångsinriktad-brottsbekämpning"],"topic_labels":["Tillgångsinriktad brottsbekämpning"],"assessment":"Finländska experter bedömer att även om lagstiftningen har en viktig avskräckande effekt, utgör köp via bulvaner en ständigt växande utmaning som är svår att upptäcka i ett tidigt skede.","open_questions":["Vilka indikatorer kan användas för att identifiera dolda bulvanupplägg vid fastighetsförvärv?","Hur påverkar bristen på generell kontroll den nationella säkerhetsanalysen i Sverige?"],"previous_reporting":[],"event_links":[],"body_provenance":"legacy_context","recorded_at":"2026-10-19T05:47:31.476257+00:00","revision":1,"fingerprint":"f773ba2c8503c11c946e2839cd6115700a18a3e9de3ddc6953e72edb6af6edb3","history":[]}
+{
+  "id": "article-b961bb4d0dc4de3998074e5e",
+  "episode_id": "kek:2026-10-19:daily",
+  "date": "2026-10-19",
+  "channel": "kek",
+  "kind": "daily",
+  "episode_title": "Morgonbrief",
+  "episode_audio": "episodes/kek/2026-10-19/morgonpod.mp3",
+  "episode_brief": "episodes/kek/2026-10-19/brief.json",
+  "article_index": 1,
+  "title": "Finlands strikta fastighetsregler saknar svensk motsvarighet",
+  "summary": "SVT Nyheter rapporterar den 19 oktober 2026 att Finland har stoppat 68 fastighetsaffärer nära kritisk infrastruktur sedan 2022 med hänvisning till nationell säkerhet, och infört ett totalförbud för ryska och belarusiska medborgare att köpa fastigheter. Enligt granskningen saknar Sverige motsvarande generella lagar för att stoppa liknande utländska fastighetsköp.",
+  "body": "Arkiverat innehåll från det tidigare biblioteket. Nya avsnitt och artiklar finns i kanalens aktiva bibliotek.\n\nSkillnaden i lagstiftning mellan länderna aktualiserar sårbarheter kring strategiska tillgångar och hur kriminella upplägg eller främmande makt kan utnyttja formellt legala fastighetsförvärv för att bygga upp långsiktiga positioner.",
+  "context": "Skillnaden i lagstiftning mellan länderna aktualiserar sårbarheter kring strategiska tillgångar och hur kriminella upplägg eller främmande makt kan utnyttja formellt legala fastighetsförvärv för att bygga upp långsiktiga positioner.",
+  "source_url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag",
+  "sources": [
+    {
+      "url": "https://www.svt.se/nyheter/utrikes/har-ar-fastighetskopen-som-finland-stoppat-sverige-saknar-liknande-lag",
+      "title": "SVT Nyheter"
+    }
+  ],
+  "topics": [
+    "tillgångsinriktad-brottsbekämpning"
+  ],
+  "topic_labels": [
+    "Tillgångsinriktad brottsbekämpning"
+  ],
+  "assessment": "Finländska experter bedömer att även om lagstiftningen har en viktig avskräckande effekt, utgör köp via bulvaner en ständigt växande utmaning som är svår att upptäcka i ett tidigt skede.",
+  "open_questions": [
+    "Vilka indikatorer kan användas för att identifiera dolda bulvanupplägg vid fastighetsförvärv?",
+    "Hur påverkar bristen på generell kontroll den nationella säkerhetsanalysen i Sverige?"
+  ],
+  "previous_reporting": [],
+  "event_links": [],
+  "body_provenance": "legacy_context",
+  "recorded_at": "2026-10-19T05:47:31.476257+00:00",
+  "revision": 1,
+  "fingerprint": "f773ba2c8503c11c946e2839cd6115700a18a3e9de3ddc6953e72edb6af6edb3",
+  "history": [],
+  "archive_status": "superseded",
+  "superseded_by_library_release": "WORK_LIBRARY_2026_10_R1",
+  "archived_original_body": "Skillnaden i lagstiftning mellan länderna aktualiserar sårbarheter kring strategiska tillgångar och hur kriminella upplägg eller främmande makt kan utnyttja formellt legala fastighetsförvärv för att bygga upp långsiktiga positioner."
+}

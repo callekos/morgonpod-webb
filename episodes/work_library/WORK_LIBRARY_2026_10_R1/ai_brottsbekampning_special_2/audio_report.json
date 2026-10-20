@@ -1,0 +1,16 @@
+{
+  "kind": "historical",
+  "duration_seconds": 369.024,
+  "target_minutes": [
+    5,
+    10
+  ],
+  "duration_status": "within_target",
+  "channel": "ai_brottsbekampning",
+  "date": "2026-10-20",
+  "audio_sha256": "2a42348fde74a624b5d7102eb50d891f32a225ded01a0b3877cd3513aaa590ff",
+  "audio_bytes": 2607573,
+  "decoded": true,
+  "checked_at": "2026-10-20T19:10:03.323049+00:00",
+  "editorial_approval": "not_established_by_audio_check"
+}

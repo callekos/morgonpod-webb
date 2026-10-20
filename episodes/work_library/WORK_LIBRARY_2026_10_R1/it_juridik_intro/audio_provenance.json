@@ -1,0 +1,14 @@
+{
+  "package_id": "WORK_LIBRARY_2026_10:it_juridik:intro:1",
+  "manuscript_sha256": "797ce464c8992b43466078b5d117caff818218d2c669b7bf300bace321ac6c0d",
+  "audio_sha256": "db33d3f7b2935213ba6ebb534b73389a21ae0f3ea27014e96d93b24646ebc06b",
+  "pronunciation_config_sha256": "0b49a0ebc9f27ea5052700fe9614070696784fa2632e86faafbb8fe660f0169e",
+  "voice": "sv-SE-SofieNeural",
+  "rate": "+0%",
+  "full_decode_passed": true,
+  "human_listening": false,
+  "network_calls": 0,
+  "method": "Recovered original MP3 matches previously recorded production hash and exact unchanged reviewed manuscript; segment cache was not retained",
+  "library_file_id": "libfile_6c6474b510b08191af6060654539320e",
+  "audio_profile": "Existing podcast.py, libmp3lame -q:a 3, same voice/rate and no added normalization. Existing renderer has no separate jingle component."
+}

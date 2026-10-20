@@ -1,0 +1,96 @@
+{
+  "production_schema": 2,
+  "kind": "daily",
+  "duration_seconds": 246.024,
+  "duration_status": "short",
+  "target_minutes": [
+    6,
+    10
+  ],
+  "channel": "ibat",
+  "date": "2026-10-19",
+  "title": "Morgonbrief",
+  "description": "Morgonbriefing den 19 oktober 2026. Vi rapporterar i dag om Finlands förebyggande lagstiftning mot utländska fastighetsköp nära infrastrukturobjekt, AI-bolaget Anthropics beslut att släppa in externa granskare på systemnivå, samt den svenska livsmedelsförsörjningens känslighet vid ett eventuellt importstopp.",
+  "audio": "episodes/2026-10-19/morgonpod.mp3",
+  "audio_version": "100e3f3503419a7d",
+  "sources": "episodes/2026-10-19/kallor.json",
+  "tags": [
+    "Juridik, integritet och informationssäkerhet",
+    "AI för informationsanalys",
+    "Informationsförsörjning och dataplattformar"
+  ],
+  "topics": [
+    {
+      "id": "juridik,-integritet-och-informationssäkerhet",
+      "name": "Juridik, integritet och informationssäkerhet"
+    },
+    {
+      "id": "ai-för-informationsanalys",
+      "name": "AI för informationsanalys"
+    },
+    {
+      "id": "informationsförsörjning-och-dataplattformar",
+      "name": "Informationsförsörjning och dataplattformar"
+    }
+  ],
+  "brief": "episodes/2026-10-19/brief.json",
+  "id": "ibat:2026-10-19:daily",
+  "is_intro": false,
+  "articles": [
+    {
+      "id": "article-b3cda9389e22552a5dd99f7c",
+      "title": "Anthropic ger externa granskare direkttillgång till system för riskbedömning",
+      "summary": "AI-företaget Anthropic har gett den oberoende organisationen METR direkt tillgång till sina interna system och maskinvara för att utvärdera säkerhetsrisker i sina avancerade modeller. Teknologisajten Ars Technica rapporterar den 18 oktober 2026 att utvärderarna kan publicera sina resultat utan att Anthropic har vetorätt. Åtgärden sker samtidigt som bolaget förbereder en börsintroduktion.",
+      "date": "2026-10-19",
+      "channel": "ibat",
+      "topics": [
+        "ai-för-informationsanalys"
+      ],
+      "topic_labels": [
+        "AI för informationsanalys"
+      ],
+      "episode_id": "ibat:2026-10-19:daily",
+      "published_at": null,
+      "is_intro": null,
+      "episode_order": null,
+      "detail": "catalog/articles/5c5ad314dc46a1d4c15ac5c8.json"
+    },
+    {
+      "id": "article-744a37e0bd928151e738f5a0",
+      "title": "Finland stoppar strategiska fastighetsköp medan Sverige saknar motsvarande skydd",
+      "summary": "Finland har fram till den 1 september 2026 stoppat 68 fastighetsaffärer på grund av säkerhetsrisker nära kritisk infrastruktur. Sedan juli 2025 råder dessutom ett principiellt förbud för ryska och belarusiska medborgare att köpa fastigheter i landet. SVT Nyheter rapporterar den 19 oktober att Sverige fortfarande saknar en motsvarande generell lagstiftning för att stoppa utländska fastighetsköp som hotar den nationella säkerheten.",
+      "date": "2026-10-19",
+      "channel": "ibat",
+      "topics": [
+        "juridik-integritet-och-informationssäkerhet"
+      ],
+      "topic_labels": [
+        "Juridik, integritet och informationssäkerhet"
+      ],
+      "episode_id": "ibat:2026-10-19:daily",
+      "published_at": null,
+      "is_intro": null,
+      "episode_order": null,
+      "detail": "catalog/articles/56fc820ae181be2d36521603.json"
+    },
+    {
+      "id": "article-5263fa3dfc3f55b50682c1a1",
+      "title": "Beräkningar visar hög sårbarhet i svensk livsmedelsförsörjning vid importstopp",
+      "summary": "En ny analys från Lantbrukarnas Riksförbund visar att flera grundläggande livsmedel snabbt skulle ta slut i Sverige vid ett strypt importflöde. SVT Nyheter rapporterar den 19 oktober 2026 att tomater beräknas ta slut efter två månader och ost efter fem månader på grund av ett 50-procentigt importberoende. Norrländska producenter pekar på höga energikostnader som ett hinder för att öka den inhemska odlingen.",
+      "date": "2026-10-19",
+      "channel": "ibat",
+      "topics": [
+        "informationsförsörjning-och-dataplattformar"
+      ],
+      "topic_labels": [
+        "Informationsförsörjning och dataplattformar"
+      ],
+      "episode_id": "ibat:2026-10-19:daily",
+      "published_at": null,
+      "is_intro": null,
+      "episode_order": null,
+      "detail": "catalog/articles/de50d7c51f9b1d3efb8a22d4.json"
+    }
+  ],
+  "article_status": "available"
+}
