@@ -22,18 +22,18 @@ test('all public routes omit legacy footer and share current cache-busted assets
  assert.equal(versions.size,1);
 });
 
-test('IBATs Morgonpod branding and clean episode hierarchy',()=>{for(const p of ['index','idag','lyssna','artiklar','utforska','artikel','avsnitt','amne','statistik','kanaler']){const html=fs.readFileSync(p+'.html','utf8');assert.match(html,/>IBATs Morgonpod<\/a>/);}const js=fs.readFileSync('app.js','utf8');assert.doesNotMatch(js,/channel-mark/);assert.doesNotMatch(js,/body\.innerHTML='<small>'\+metadata\(e\)/);assert.match(js,/const episodeRow/);});
+test('Morgonpodden branding and clean episode hierarchy',()=>{for(const p of ['index','idag','lyssna','artiklar','utforska','artikel','avsnitt','amne','statistik','kanaler']){const html=fs.readFileSync(p+'.html','utf8');assert.match(html,/>Morgonpodden<\/a>/);}const js=fs.readFileSync('app.js','utf8');assert.doesNotMatch(js,/channel-mark/);assert.doesNotMatch(js,/body\.innerHTML='<small>'\+metadata\(e\)/);assert.match(js,/const episodeRow/);});
 
 test('channel directory and profile navigation are wired on all primary pages',()=>{
   const app=fs.readFileSync('app.js','utf8');
   assert.ok(app.includes("page==='kanaler'"));
   assert.ok(app.includes("page==='kanal'"));
   assert.ok(app.includes('Om kanalen'));
-  assert.ok(app.includes("'episodes/channel/'"));
+  assert.ok(app.includes("kind+'/channel/'"));
   assert.ok(app.includes("'articles/channel/'"));
   for(const page of ['idag','lyssna','artiklar','utforska','kanaler','kanal']){
     const html=fs.readFileSync(page+'.html','utf8');
-    assert.ok(html.includes('href="kanaler.html">Kanaler</a>'));
-    assert.ok(html.includes('20261019-release1'));
+    assert.ok(html.includes('href="kanaler.html">'));
+    assert.ok(html.includes('v2-release4'));
   }
 });

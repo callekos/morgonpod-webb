@@ -3,6 +3,22 @@ const Core = {
   escape: value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),
   safePath: value => typeof value === 'string' && /^(catalog|episodes)\/[\w./-]+$/.test(value) && !value.includes('..'),
   listened: (elapsed, delta, playing) => elapsed + (playing && delta > 0 && delta < 2 ? delta : 0),
+  isIntro: e => e.is_intro === true || e.kind === 'introduction' || /:introduction$/.test(e.id || ''),
+  published: e => Date.parse(e.published_at || e.date || '') || 0,
+  compareLatest: (a,b) => Core.published(b)-Core.published(a) || String(a.id).localeCompare(String(b.id)),
+  compareHistory: (a,b) => Number(Core.isIntro(b))-Number(Core.isIntro(a)) || ((Number.isFinite(a.episode_order)&&Number.isFinite(b.episode_order)) ? a.episode_order-b.episode_order : (Date.parse(a.date)||Core.published(a))-(Date.parse(b.date)||Core.published(b))) || Core.published(a)-Core.published(b) || String(a.id).localeCompare(String(b.id)),
+  collectionPaths: (manifest,key,order) => {
+    const data=manifest.collections[key]||{pages:[]};
+    if(order!=='oldest')return data.pages;
+    // Producer contract since 20 October. The preview's older alias is retained.
+    const history=manifest.collections[key.replace(/^episodes\/channel\//,'episodes/history/channel/')];
+    if(key.startsWith('episodes/channel/')&&history?.pages)return history.pages;
+    if(data.history_pages)return data.history_pages;
+    // A single legacy page can be sorted completely. Never fake global episode
+    // chronology by sorting/reversing only one page of a large old archive.
+    if(key.startsWith('episodes')&&data.pages.length>1)return null;
+    return [...data.pages].reverse();
+  },
   ranking: rows => (Array.isArray(rows) ? rows : []).filter(x => Number.isFinite(x.count) && x.count > 0).sort((a,b)=>b.count-a.count).slice(0,10)
 };
 if (typeof module !== 'undefined') module.exports = Core;
@@ -10,10 +26,25 @@ if (typeof document !== 'undefined') (async () => {
   'use strict';
   const $ = s => document.querySelector(s), esc = Core.escape, main = $('#view'), audio = $('#audio');
   let manifest, currentEpisode, routeToken = 0, elapsed = 0, previousTime = 0, previousWall = performance.now(), config = {};
+  const latestRows=new Map();
   const cache = new Map(), seen = new Set();
-  const channel = id => manifest.channels.find(c=>c.id===id)?.name || id;
-  const hash = async text => Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(text)))).map(x=>x.toString(16).padStart(2,'0')).join('');
+  const channel = id => id==='ibat'?'IBAT - Informationsförsörjning':manifest.channels.find(c=>c.id===id)?.name || id;
+  const visuals={ibat:{image:'ibat',category:'Samhälle',color:'#19b8d0',icon:'database'},vald:{image:'vald',category:'Säkerhet',color:'#d54864',icon:'shield'},kek:{image:'kek',category:'Samhälle',color:'#ae8249',icon:'briefcase'},sjoomradet:{image:'sjoomradet',category:'Säkerhet',color:'#46758b',icon:'anchor'},lagstiftning:{image:'lagstiftning',category:'Samhälle',color:'#ba9a53',icon:'book-open'}};
+  const visual=id=>visuals[id]||{image:'ibat',category:'Övrigt',color:'#19b8d0',icon:'radio'};
+  const icon=name=>'<i class="icon icon-'+name+'" aria-hidden="true"></i>';
+  const cover=(id,cls='',eager=false)=>{
+    const square=!eager||cls==='large-cover',focus={ibat:'50% 64%',kek:'58% 64%',lagstiftning:'50% 52%',sjoomradet:'65% 50%',vald:'50% 53%'}[id]||'50% 50%';
+    return '<img class="cover '+cls+'" src="assets/channels/'+visual(id).image+(square?'-square':'')+'.webp?v=3" style="object-position:'+(square?'50% 50%':focus)+'" width="'+(square?'640':'1200')+'" height="'+(square?'640':'800')+'" alt="" loading="'+(eager?'eager':'lazy')+'" decoding="async">';
+  };
+  const duration=n=>{n=Math.max(0,Math.floor(n||0));return Math.floor(n/60)+':'+String(n%60).padStart(2,'0');};
+  const prettyDate=e=>{const raw=e.published_at||e.date;if(!raw)return '';const d=new Date(raw);return Number.isNaN(d.getTime())?'':new Intl.DateTimeFormat('sv-SE',{day:'numeric',month:'short',timeZone:'Europe/Stockholm',...(e.published_at?{hour:'2-digit',minute:'2-digit'}:{})}).format(d);};
+  const channelCard=c=>'<a class="channel-card" href="'+url('kanal',{id:c.id})+'" style="--channel-color:'+visual(c.id).color+'">'+cover(c.id)+'<span class="channel-card-label">'+icon(visual(c.id).icon)+'<strong>'+esc(channel(c.id))+'</strong></span><small>'+esc(visual(c.id).category)+'</small></a>';
+  const systemTheme=matchMedia('(prefers-color-scheme: dark)');
+  function setTheme(value){document.documentElement.dataset.theme=value;try{localStorage.setItem('morgonpod-theme',value)}catch{}document.querySelector('meta[name="theme-color"]').content=(value==='dark'||value==='system'&&systemTheme.matches)?'#071720':'#faf9f6';}
+  setTheme(document.documentElement.dataset.theme||'system');systemTheme.addEventListener('change',()=>setTheme(document.documentElement.dataset.theme));
+  const hash = async text => !crypto.subtle ? window.sha256(text) : Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(text)))).map(x=>x.toString(16).padStart(2,'0')).join('');
   async function json(path) {
+    if (!cache.has(path)&&cache.size>=80)cache.delete(cache.keys().next().value);
     if (!cache.has(path)) cache.set(path, fetch(path,{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error('Kunde inte hämta innehåll');return r.json();}).catch(e=>{cache.delete(path);throw e;}));
     return cache.get(path);
   }
@@ -24,20 +55,19 @@ if (typeof document !== 'undefined') (async () => {
   const episodeTitle = e => {
     let title=String(e.title||'').trim();
     const full=channel(e.channel).replace(/\s+/g,' ').trim();
-    const prefixes=[full,full.split('\n')[0],{ibat:'IBAT',vald:'Våld',kek:'Kriminell ekonomi',sjoomradet:'Sjöområdet',lagstiftning:'Lagstiftning'}[e.channel]].filter(Boolean);
+    const prefixes=[e.channel==='ibat'?'IBAT Informationsförsörjningen':'',full,full.split('\n')[0],{ibat:'IBAT',vald:'Våld',kek:'Kriminell ekonomi',sjoomradet:'Sjöområdet',lagstiftning:'Lagstiftning'}[e.channel]].filter(Boolean);
     for(const prefix of prefixes.sort((a,b)=>b.length-a.length)){
       if(title.toLocaleLowerCase('sv').startsWith(prefix.toLocaleLowerCase('sv')+':')){
         title=title.slice(prefix.length+1).trim();break;
       }
     }
-    if(e.kind==='introduction' && (!title||/^(uppstart|introduktion)/i.test(title)))return 'Uppstartsavsnitt';
-    if(!title)return e.kind==='introduction'?'Uppstartsavsnitt':'Morgonbrief';
+    if(Core.isIntro(e) && (!title||/^(uppstart|introduktion)/i.test(title)))return 'Uppstartsavsnitt';
+    if(!title)return Core.isIntro(e)?'Uppstartsavsnitt':'Morgonbrief';
     return title;
   };
-  const typeIcon = type => '<span class="content-type-icon" aria-hidden="true">'+(type==='audio'?'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 14v-3a9 9 0 0 1 18 0v3"/><rect x="2" y="13" width="4" height="8" rx="2"/><rect x="18" y="13" width="4" height="8" rx="2"/></svg>':'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h8"/></svg>')+'</span>';
-  const metadata = e => '<span class="channel-name">'+esc(channel(e.channel))+'</span><time class="episode-date" datetime="'+esc(e.date)+'">'+esc(e.date)+'</time>';
-  const articleCard = a => '<a class="article-card" href="'+url('artikel',{id:a.id})+'"><div class="content-card-heading">'+typeIcon('article')+'<div><small>'+metadata(a)+'</small><h3>'+esc(a.title)+'</h3></div></div><p>'+esc(a.summary)+'</p><span>Läs artikeln ↗</span></a>';
-  const episodeRow = e => '<details class="episode" data-id="'+esc(e.id)+'"><summary>'+typeIcon('audio')+'<span class="row-title"><small class="item-meta">'+metadata(e)+'</small><strong>'+esc(episodeTitle(e))+'</strong></span><span class="duration">'+(e.duration_seconds?Math.round(e.duration_seconds/60)+' min':'')+'</span><span aria-hidden="true">⌄</span></summary><div class="episode-body"><p>Laddar avsnitt…</p></div></details>';
+  const metadata = e => '<span class="channel-name">'+esc(channel(e.channel))+'</span><time class="episode-date" datetime="'+esc(e.published_at||e.date||'')+'">'+esc(prettyDate(e))+'</time>';
+  const articleCard = a => '<a class="article-card" href="'+url('artikel',{id:a.id})+'">'+cover(a.channel)+'<div><small>'+metadata(a)+'</small><h3>'+esc(a.title)+'</h3><p>'+esc(a.summary||'')+'</p><span class="read-time">'+(a.reading_minutes?esc(a.reading_minutes)+' min läsning':'Läs artikeln')+'</span></div>'+icon('chevron-right')+'</a>';
+  const episodeRow = e => '<details class="episode" data-id="'+esc(e.id)+'"><summary><span class="episode-art">'+cover(e.channel)+'<span class="play-symbol">'+icon('play')+'</span></span><span class="row-title" data-channel="'+esc(channel(e.channel))+'"><small class="item-meta">'+metadata(e)+'</small><strong>'+esc(episodeTitle(e))+'</strong>'+(Core.isIntro(e)?'<span class="intro-badge">Avsnitt 1 / Uppstart</span>':'')+'</span><span class="duration">'+(e.duration_seconds?duration(e.duration_seconds):'')+'</span>'+icon('chevron-down')+'</summary><div class="episode-body"><p role="status">Laddar avsnitt…</p></div></details>';
   async function detail(kind,id) { return json('catalog/'+kind+'/'+(await hash(id)).slice(0,24)+'.json'); }
   async function track(type,id) {
     if (!config.goatcounter || navigator.doNotTrack === '1' || !window.goatcounter?.count) return;
@@ -53,7 +83,7 @@ if (typeof document !== 'undefined') (async () => {
   if(!toggle){toggle=document.createElement('button');toggle.id='player-toggle';toggle.textContent='Minimera';player.append(toggle);}
   function compactPlayer(compact){
     player.classList.toggle('compact',compact);
-    if(toggle){toggle.textContent=compact?'Visa spelaren':'Minimera';toggle.setAttribute('aria-expanded',String(!compact));toggle.setAttribute('aria-label',compact?'Visa hela spelaren':'Minimera spelaren');}
+    if(toggle){toggle.innerHTML=icon(compact?'chevron-up':'chevron-down');toggle.setAttribute('aria-expanded',String(!compact));toggle.setAttribute('aria-label',compact?'Visa hela spelaren':'Minimera spelaren');}
     document.body.classList.toggle('player-compact',compact);
   }
   if(toggle)toggle.addEventListener('click',()=>compactPlayer(!player.classList.contains('compact')));
@@ -64,10 +94,17 @@ if (typeof document !== 'undefined') (async () => {
   });
   audio.addEventListener('seeking',()=>{previousTime=audio.currentTime;previousWall=performance.now();});
   audio.addEventListener('error',()=>{$('#player-status').textContent='Ljudfilen kunde inte spelas. Försök igen.';});
+  $('#play-pause').onclick=()=>audio.paused?audio.play().catch(()=>{}):audio.pause();
+  document.querySelectorAll('[data-skip]').forEach(b=>b.onclick=()=>{audio.currentTime=Math.max(0,Math.min(audio.duration||Infinity,audio.currentTime+Number(b.dataset.skip)));});
+  $('#seek').oninput=ev=>{if(Number.isFinite(audio.duration))audio.currentTime=Number(ev.target.value)/100*audio.duration;};
+  $('#speed').onclick=()=>{const rates=[1,1.25,1.5,1.75,2];audio.playbackRate=rates[(rates.indexOf(audio.playbackRate)+1)%rates.length];$('#speed').textContent=audio.playbackRate+'×';};
+  $('#player-open').onclick=()=>{if(currentEpisode)navigate(url('avsnitt',{id:currentEpisode.id}));};
+  function syncAudio(){const paused=audio.paused;$('#play-pause').innerHTML=icon(paused?'play':'pause');$('#play-pause').setAttribute('aria-label',paused?'Spela':'Pausa');$('#elapsed').textContent=duration(audio.currentTime);$('#total').textContent=duration(audio.duration);$('#seek').value=Number.isFinite(audio.duration)?audio.currentTime/audio.duration*100:0;const big=$('#big-play');if(big&&$('.full-player')?.dataset.episode===currentEpisode?.id){big.innerHTML=icon(paused?'play':'pause');big.setAttribute('aria-label',paused?'Spela avsnittet':'Pausa avsnittet');}const position=$('#big-seek');if(position&&$('.full-player')?.dataset.episode===currentEpisode?.id){position.value=$('#seek').value;$('#big-elapsed').textContent=duration(audio.currentTime);$('#big-total').textContent=duration(audio.duration);}}
+  for(const event of ['timeupdate','play','pause','loadedmetadata','ended'])audio.addEventListener(event,syncAudio);
   async function play(e) {
     if(!Core.safePath(e.audio))return;
     if(currentEpisode?.id!==e.id){currentEpisode=e;audio.src=e.audio;elapsed=0;previousTime=0;}
-    $('#player').hidden=false;$('#player-title').textContent=episodeTitle(e);$('#player-status').textContent=channel(e.channel);
+    $('#player').hidden=false;$('#player-title').textContent=episodeTitle(e);$('#player-status').textContent=channel(e.channel);$('#player-image').src='assets/channels/'+visual(e.channel).image+'-square.webp?v=3';
     document.body.classList.add('has-player');
     if(!player.dataset.initialized){player.dataset.initialized='true';compactPlayer(matchMedia('(max-width: 650px)').matches);}
     try {await audio.play();} catch {$('#player-status').textContent='Tryck på spela i ljudspelaren.';}
@@ -80,58 +117,61 @@ if (typeof document !== 'undefined') (async () => {
     try {
       const e=await detail('episodes',node.dataset.id);
       if(!node.isConnected)return;
-      body.innerHTML='<button class="primary play">▶ Spela avsnittet</button><h3>Om avsnittet</h3><p>'+esc(e.description)+'</p><h3>Ämnen</h3><div class="tags">'+(tags(e)||'<span class="muted">Ämnen saknas för detta äldre avsnitt.</span>')+'</div><p class="channel-link"><a href="'+url('kanal',{id:e.channel})+'">Om kanalen '+esc(channel(e.channel))+' ↗</a></p><h3>Artiklar i avsnittet</h3>'+(e.articles.length?e.articles.map(articleCard).join(''):'<p class="muted">Detta avsnitt saknar separata redaktionella artiklar.</p>');
-      body.querySelector('.play').onclick=()=>play(e);
-      if(node.getBoundingClientRect().top<0||node.getBoundingClientRect().top>innerHeight*.5)node.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+      body.innerHTML='<button class="primary play">▶ Spela avsnittet</button><h3>Om avsnittet</h3><p>'+esc(e.description)+'</p><h3>Ämnen</h3><div class="tags">'+(tags(e)||'<span class="muted">Ämnen saknas för detta äldre avsnitt.</span>')+'</div><p class="channel-link"><a href="'+url('kanal',{id:e.channel})+'">Om kanalen '+esc(channel(e.channel))+' ↗</a></p><h3>Artiklar i avsnittet</h3>'+(e.articles?.length?e.articles.map(articleCard).join(''):'<p class="muted">Detta avsnitt saknar separata redaktionella artiklar.</p>');
+      body.querySelector('.play').onclick=()=>play(e);body.insertAdjacentHTML('afterbegin','<a class="open-episode" href="'+url('avsnitt',{id:e.id})+'">Öppna stor spelare '+icon('arrow-up-right')+'</a>');
+      if(node.getBoundingClientRect().top<0||node.getBoundingClientRect().top>innerHeight*.5)node.scrollIntoView({block:'start',behavior:'instant'});
     } catch {body.textContent='Avsnittet kunde inte laddas. Stäng och öppna för att försöka igen.';}
   },true);
-  async function collection(key, target, token, maximum=Infinity) {
+  async function collection(key, target, token, maximum=Infinity, order='latest') {
     const data=manifest.collections[key]||{count:0,pages:[]};
     if(!data.count){target.innerHTML='<p class="empty">Inget publicerat innehåll i detta urval ännu.</p>';return;}
-    let page=0;
+    let page=0;const paths=Core.collectionPaths(manifest,key,order);
+    if(!paths){target.innerHTML='<p class="empty">Historisk ordning är ännu inte tillgänglig för detta äldre arkiv. Välj Senast publicerat.</p>';return;}
     const list=document.createElement('div');list.className=key.startsWith('articles')?'article-grid':'episode-list';
     const button=document.createElement('button');button.className='more';button.textContent='Visa fler';
     target.append(list,button);
-    async function next(){button.disabled=true;try{const chunk=await json(data.pages[page]);if(token!==routeToken)return;list.insertAdjacentHTML('beforeend',chunk.items.slice(0,maximum).map(key.startsWith('articles')?articleCard:episodeRow).join(''));page++;button.hidden=page>=data.pages.length||page*24>=maximum;}catch{button.textContent='Kunde inte ladda. Försök igen';}button.disabled=false;}
+    async function next(){button.disabled=true;try{const chunk=await json(paths[page]);if(token!==routeToken)return;list.insertAdjacentHTML('beforeend',[...chunk.items].sort(order==='oldest'?Core.compareHistory:Core.compareLatest).slice(0,maximum-page*24).map(key.startsWith('articles')?articleCard:episodeRow).join(''));page++;button.hidden=page>=paths.length||page*24>=maximum;}catch{button.textContent='Kunde inte ladda. Försök igen';}button.disabled=false;}
     button.onclick=next;await next();
   }
   // Homepage shows the newest item per channel, not an arbitrary first item in a global feed.
-  // Fetch one small page per visible channel; reveal further channels on demand.
+  // One bounded first page per channel establishes the correct global order,
+  // even if the producer manifest has no optional latest summary. Never fetch
+  // episode details or the complete archive just to order the homepage.
   async function homeLatest(kind, target, token, initial=8) {
     const eligible=manifest.channels.filter(c=>(manifest.collections[kind+'/channel/'+c.id]?.count||0)>0);
     if(!eligible.length){target.innerHTML='<p class="empty">Inget publicerat innehåll ännu.</p>';return;}
+    const results=await Promise.allSettled(eligible.map(async c=>{
+      const data=manifest.collections[kind+'/channel/'+c.id];
+      if(data.latest)return data.latest;
+      const page=await json(data.pages[0]);
+      return [...(page.items||[])].sort(Core.compareLatest)[0]||null;
+    }));
+    if(token!==routeToken)return;
+    const ordered=results.filter(r=>r.status==='fulfilled'&&r.value).map(r=>r.value).sort(Core.compareLatest);
+    if(!ordered.length){target.innerHTML='<p class="empty">Innehållet kunde inte hämtas. Försök ladda sidan igen.</p>';return;}
     const list=document.createElement('div');list.className=kind==='articles'?'article-grid':'episode-list';
     const more=document.createElement('button');more.className='more';more.type='button';
     target.append(list,more);
     let shown=0;
     async function reveal(){
       more.disabled=true;
-      const next=eligible.slice(shown,shown+initial);
-      const results=await Promise.allSettled(next.map(async c=>{
-        const path=manifest.collections[kind+'/channel/'+c.id].pages[0];
-        const page=await json(path);
-        return page.items?.[0]||null;
-      }));
-      if(token!==routeToken)return;
-      const rows=results.filter(r=>r.status==='fulfilled'&&r.value).map(r=>r.value)
-        .sort((a,b)=>String(b.date||'').localeCompare(String(a.date||''))||String(a.channel).localeCompare(String(b.channel)));
-      list.insertAdjacentHTML('beforeend',rows.map(kind==='articles'?articleCard:episodeRow).join(''));
-      shown+=next.length;
-      more.hidden=shown>=eligible.length;
-      more.textContent='Visa fler kanaler ('+shown+' av '+eligible.length+')';
+      const rows=ordered.slice(shown,shown+initial);
+      rows.forEach(e=>latestRows.set(e.id,e));list.insertAdjacentHTML('beforeend',rows.map(kind==='articles'?articleCard:episodeRow).join(''));
+      shown+=rows.length;
+      more.hidden=shown>=ordered.length;
+      more.textContent='Visa fler kanaler ('+shown+' av '+ordered.length+')';
       more.disabled=false;
-      if(results.some(r=>r.status==='rejected')){
-        const note=document.createElement('p');note.className='muted';note.textContent='Vissa kanaler kunde inte hämtas just nu.';target.append(note);
-      }
     }
     more.onclick=reveal;
     await reveal();
+    if(results.some(r=>r.status==='rejected')){const note=document.createElement('p');note.className='muted';note.textContent='Vissa kanaler kunde inte hämtas just nu.';target.append(note);}
   }
   function filters(kind,p) {
     return '<form id="filters"><label>Kanal<select name="channel"><option value="">Alla kanaler</option>'+manifest.channels.map(c=>'<option value="'+esc(c.id)+'" '+(p.get('channel')===c.id?'selected':'')+'>'+esc(c.name)+'</option>').join('')+'</select></label><button type="submit">Visa</button></form>';
   }
   async function render() {
     const token=++routeToken,p=new URLSearchParams(location.search),page=location.pathname.split('/').pop().replace('.html','')||'idag';
+    document.body.dataset.page=page;
     const kind=page==='artiklar'?'articles':'episodes';
     $('#nav').querySelectorAll('a').forEach(a=>{if(a.getAttribute('href')===(page==='kanal'?'kanaler.html':page+'.html'))a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
     main.innerHTML='<p role="status">Hämtar innehåll…</p>';
@@ -139,41 +179,43 @@ if (typeof document !== 'undefined') (async () => {
       if(page==='artikel') {
         const a=await detail('articles',p.get('id')||'');if(token!==routeToken)return;
         document.title=a.title+' | Morgonpod';
-        main.innerHTML='<article class="reading"><small>'+metadata(a)+'</small><h1>'+esc(a.title)+'</h1><p class="lead">'+esc(a.summary)+'</p><div class="prose">'+String(a.body||'').split(/\n+/).map(x=>'<p>'+esc(x)+'</p>').join('')+'</div>'+(a.assessment?'<h2>Redaktionens bedömning</h2><p>'+esc(a.assessment)+'</p>':'')+(a.open_questions?.length?'<h2>Öppna frågor</h2><ul>'+a.open_questions.map(q=>'<li>'+esc(q)+'</li>').join('')+'</ul>':'')+'<div class="tags">'+tags(a)+'</div><h2>Källor</h2><ul>'+a.sources.filter(s=>/^https?:\/\//.test(s.url||'')).map(s=>'<li><a href="'+esc(s.url)+'" target="_blank" rel="noopener noreferrer">'+esc(s.title||s.url)+'</a></li>').join('')+'</ul><h2>Lyssna på avsnittet</h2><a href="'+url('avsnitt',{id:a.episode_id})+'">'+esc(a.episode_title||'Öppna poddavsnittet')+'</a>'+(a.previous_reporting?.length?'<h2>Tidigare rapportering</h2>'+a.previous_reporting.filter(x=>typeof x==='string').map(id=>'<p><a href="'+url('artikel',{id})+'">Tidigare artikel</a></p>').join(''):'')+'</article>';
+        main.innerHTML='<article class="reading"><a class="back-link" href="artiklar.html">'+icon('arrow-left')+' Artiklar</a>'+cover(a.channel,'reading-cover',true)+'<small>'+metadata(a)+'</small><h1>'+esc(a.title)+'</h1><p class="lead">'+esc(a.summary)+'</p><div class="prose">'+String(a.body||'').split(/\n+/).map(x=>'<p>'+esc(x)+'</p>').join('')+'</div>'+(a.assessment?'<h2>Redaktionens bedömning</h2><p>'+esc(a.assessment)+'</p>':'')+(a.open_questions?.length?'<h2>Öppna frågor</h2><ul>'+a.open_questions.map(q=>'<li>'+esc(q)+'</li>').join('')+'</ul>':'')+'<div class="tags">'+tags(a)+'</div><h2>Källor</h2><ul>'+a.sources.filter(s=>/^https?:\/\//.test(s.url||'')).map(s=>'<li><a href="'+esc(s.url)+'" target="_blank" rel="noopener noreferrer">'+esc(s.title||s.url)+'</a></li>').join('')+'</ul><h2>Lyssna på avsnittet</h2><a href="'+url('avsnitt',{id:a.episode_id})+'">'+esc(a.episode_title||'Öppna poddavsnittet')+'</a>'+(a.previous_reporting?.length?'<h2>Tidigare rapportering</h2>'+a.previous_reporting.filter(x=>typeof x==='string').map(id=>'<p><a href="'+url('artikel',{id})+'">Tidigare artikel</a></p>').join(''):'')+'</article>';
         track('article',a.id);return;
       }
-      if(page==='avsnitt') {const e=await detail('episodes',p.get('id')||'');if(token!==routeToken)return;main.innerHTML='<h1>Poddavsnitt</h1>'+episodeRow(e);main.querySelector('details').open=true;return;}
+      if(page==='avsnitt') {const e=await detail('episodes',p.get('id')||'');if(token!==routeToken)return;document.title=episodeTitle(e)+' | Morgonpodden';main.innerHTML='<div class="episode-screen"><a class="back-link" href="'+url('kanal',{id:e.channel})+'">'+icon('chevron-down')+' '+esc(channel(e.channel))+'</a><div class="full-player" data-episode="'+esc(e.id)+'">'+cover(e.channel,'large-cover',true)+'<h1>'+esc(channel(e.channel))+'</h1><h2>'+esc(episodeTitle(e))+'</h2><p>'+esc(prettyDate(e))+(Core.isIntro(e)?' · Avsnitt 1 / Uppstart':'')+'</p><div class="big-timeline"><input type="range" id="big-seek" min="0" max="100" value="0" step="0.1" aria-label="Position i avsnittet"><div><span id="big-elapsed">0:00</span><span id="big-total">'+duration(e.duration_seconds)+'</span></div></div><div class="big-transport"><button id="back15" aria-label="Bakåt 15 sekunder">'+icon('rotate-ccw')+'<small>15</small></button><button id="big-play" aria-label="Spela avsnittet">'+icon('play')+'</button><button id="forward15" aria-label="Framåt 15 sekunder">'+icon('rotate-cw')+'<small>15</small></button></div><button id="big-speed" aria-label="Ändra hastighet">'+audio.playbackRate+'×</button></div><section class="episode-info"><h2>Om avsnittet</h2><p>'+esc(e.description||'')+'</p><div class="tags">'+tags(e)+'</div><h2>Artiklar i avsnittet</h2>'+(e.articles?.length?e.articles.map(articleCard).join(''):'<p>Inga separata artiklar till detta avsnitt.</p>')+'</section></div>';$('#big-play').onclick=()=>{if(currentEpisode?.id===e.id&&!audio.paused)audio.pause();else play(e);};$('#back15').onclick=()=>{if(currentEpisode?.id===e.id)audio.currentTime=Math.max(0,audio.currentTime-15);};$('#forward15').onclick=()=>{if(currentEpisode?.id===e.id)audio.currentTime=Math.min(audio.duration||Infinity,audio.currentTime+15);};$('#big-seek').oninput=ev=>{if(currentEpisode?.id===e.id&&Number.isFinite(audio.duration))audio.currentTime=Number(ev.target.value)/100*audio.duration;};$('#big-speed').onclick=()=>{$('#speed').click();$('#big-speed').textContent=audio.playbackRate+'×';};if(currentEpisode?.id===e.id)syncAudio();return;}
+      if(page==='mer') {
+        document.title='Utseende | Morgonpodden';main.innerHTML='<div class="page-heading"><h1>Mer</h1><p>Gör Morgonpodden bekväm att läsa.</p></div><section class="settings"><h2>Utseende</h2><p>Välj ett läge eller låt enhetens inställning styra.</p><fieldset><legend class="sr-only">Färgtema</legend>'+[['light','Ljust läge','sun'],['dark','Mörkt läge','moon'],['system','Följ systemet','monitor']].map(([v,t,i])=>'<label class="theme-option">'+icon(i)+'<span>'+t+'</span><input type="radio" name="theme" value="'+v+'" '+(document.documentElement.dataset.theme===v?'checked':'')+'></label>').join('')+'</fieldset></section><div class="more-links"><a href="lyssna.html">'+icon('headphones')+' Alla avsnitt '+icon('chevron-right')+'</a><a href="statistik.html">'+icon('bar-chart-2')+' Statistik '+icon('chevron-right')+'</a><a href="https://t.me/+jlPUjsmjlE03NDFk" target="_blank" rel="noopener noreferrer">Morgonpodden på Telegram '+icon('external-link')+'</a></div>';main.querySelectorAll('[name="theme"]').forEach(r=>r.onchange=()=>setTheme(r.value));return;
+      }
       if(page==='kanaler') {
-        document.title='Kanaler | IBATs Morgonpod';
-        main.innerHTML='<div class="page-heading"><small>HITTA DIN BEVAKNING</small><h1>Kanaler</h1><p>Utforska våra bevakningsområden. Varje kanal samlar sina egna poddavsnitt och artiklar.</p></div><div class="channel-directory">'+manifest.channels.map(c=>'<a class="channel-directory-row" href="'+url('kanal',{id:c.id})+'"><span><strong>'+esc(c.name)+'</strong><small>'+esc(c.description||'')+'</small></span><span aria-hidden="true">→</span></a>').join('')+'</div>';
-        return;
+        document.title='Kanaler | Morgonpodden';
+        main.innerHTML='<div class="page-heading"><h1>Kanaler</h1><p>Välj perspektiv. Lyssna och förstå mer.</p></div><label class="search-field">'+icon('search')+'<input id="channel-query" type="search" placeholder="Sök bland kanaler" aria-label="Sök bland kanaler"></label><div class="chips" id="categories">'+['Alla',...new Set(manifest.channels.map(c=>visual(c.id).category))].map((c,i)=>'<button type="button" class="chip '+(!i?'selected':'')+'" aria-pressed="'+!i+'">'+c+'</button>').join('')+'</div><div class="channel-directory"></div>';
+        let category='Alla';const draw=()=>{const q=$('#channel-query').value.toLocaleLowerCase('sv');const rows=manifest.channels.filter(c=>(category==='Alla'||visual(c.id).category===category)&&(channel(c.id)+' '+c.description).toLocaleLowerCase('sv').includes(q));$('.channel-directory').innerHTML=rows.map(channelCard).join('')||'<p class="empty">Inga kanaler matchar din sökning.</p>';};$('#channel-query').oninput=draw;$('#categories').onclick=e=>{const b=e.target.closest('button');if(!b)return;category=b.textContent;$('#categories').querySelectorAll('button').forEach(x=>{x.classList.toggle('selected',x===b);x.setAttribute('aria-pressed',x===b);});draw();};draw();return;
       }
       if(page==='kanal') {
-        const id=p.get('id')||'';
-        const c=manifest.channels.find(c=>c.id===id);
+        const id=p.get('id')||'',c=manifest.channels.find(c=>c.id===id);
         if(!c){main.innerHTML='<h1>Kanalen finns inte</h1><p><a href="kanaler.html">Visa alla kanaler</a></p>';return;}
-        document.title=c.name+' | IBATs Morgonpod';
-        const ep=manifest.collections['episodes/channel/'+id]?.count||0;
-        const ar=manifest.collections['articles/channel/'+id]?.count||0;
-        main.innerHTML='<p><a href="kanaler.html">← Alla kanaler</a></p><div class="page-heading"><small>KANAL</small><h1>'+esc(c.name)+'</h1><p>'+esc(c.description||'')+'</p></div><section class="channel-about"><h2>Vad bevakas?</h2><p>'+esc(c.description||'Information om bevakningsområdet uppdateras löpande.')+'</p><h2>Publicering</h2><p>Ordinarie ambition är morgonbrief måndag till fredag, veckofördjupning på lördag och morgonbrief med kommande vecka på söndag. Artiklar publiceras i anslutning till avsnitten. Publicering kan variera under pilotperioden.</p></section><div class="section-heading"><h2>Poddavsnitt</h2><span class="muted">'+ep+' publicerade</span></div><div id="channel-episodes"></div><div class="section-heading"><h2>Artiklar</h2><span class="muted">'+ar+' publicerade</span></div><div id="channel-articles"></div>';
-        await collection('episodes/channel/'+id,$('#channel-episodes'),token);
-        if(token!==routeToken)return;
-        await collection('articles/channel/'+id,$('#channel-articles'),token);
-        return;
+        document.title=channel(id)+' | Morgonpodden';const tab=p.get('tab')||'episodes';
+        main.innerHTML='<a class="back-link" href="kanaler.html">'+icon('arrow-left')+' Alla kanaler</a><header class="channel-hero">'+cover(id,'',true)+'<div><span class="eyebrow">'+esc(visual(id).category)+'</span><h1>'+esc(channel(id))+'</h1><p>'+esc(c.description||'')+'</p></div></header><div class="channel-layout"><section class="channel-main"><nav class="tabs" aria-label="Kanalinnehåll">'+[['episodes','Avsnitt'],['articles','Artiklar'],['about','Om kanalen']].map(([t,label])=>'<a href="'+url('kanal',{id,tab:t})+'" '+(t===tab?'aria-current="page"':'')+'>'+label+'</a>').join('')+'</nav><div id="channel-content"></div></section><aside class="secondary"><h2>Senaste artiklar</h2><div id="related"></div></aside></div>';
+        if(tab==='about')$('#channel-content').innerHTML='<section class="channel-about"><h2>Vad bevakas?</h2><p>'+esc(c.description||'')+'</p><h2>Publicering</h2><p>Här samlas kanalens publicerade avsnitt och artiklar. Utgivningen följer kanalens redaktionella schema.</p><p>Omslagsbilden är en illustrativ kanalbild, inte ett foto från en specifik nyhetshändelse.</p></section>';
+        else {const kind=tab==='articles'?'articles':'episodes',order=p.get('sort')||'latest';$('#channel-content').innerHTML='<div class="archive-tools"><p>'+Number(manifest.collections[kind+'/channel/'+id]?.count||0)+' '+(tab==='articles'?'artiklar':'avsnitt')+'</p><label>Sortera<select id="archive-sort"><option value="latest">Senast publicerat</option><option value="oldest">Första avsnittet först</option></select></label></div><div id="channel-list"></div>';$('#archive-sort').value=order;$('#archive-sort').onchange=e=>navigate(url('kanal',{id,tab,sort:e.target.value}));await collection(kind+'/channel/'+id,$('#channel-list'),token,Infinity,order);}
+        if(token!==routeToken)return;await collection('articles/channel/'+id,$('#related'),token,4);return;
       }
       if(page==='statistik') {await statistics(token);return;}
       if(page==='utforska') {
-        main.innerHTML='<div class="page-heading"><small>ARKIV OCH FÖRDJUPNING</small><h1>Utforska</h1><p>Hitta poddavsnitt, artiklar och ämnen.</p></div><form id="search"><label for="query">Sök i rubriker och sammanfattningar</label><div class="search-row"><input type="search" id="query" minlength="2" required placeholder="Till exempel Östersjön"><button>Sök</button></div></form><div class="tags">'+manifest.topics.map(t=>'<a class="tag" href="'+url('amne',{tag:t})+'">'+esc(t)+'</a>').join('')+'</div><section id="results" aria-live="polite"></section>';
-        let searchId=0;
-        $('#search').onsubmit=async event=>{event.preventDefault();const request=++searchId;const terms=$('#query').value.toLocaleLowerCase('sv').match(/[\wåäö]{2,}/g)||[];const results=$('#results');results.textContent='Söker…';try{let matches;for(const term of terms.slice(0,6)){const bucket=(await hash(term)).slice(0,2);const data=manifest.search_buckets.includes(bucket)?await json('catalog/search/'+bucket+'.json'):{};const rows=data[term]||[];matches=matches?matches.filter(x=>rows.some(y=>y.id===x.id)):rows;}if(token!==routeToken||request!==searchId)return;const rows=matches||[];let count=24;const draw=()=>{results.innerHTML='<p>'+rows.length+' träffar</p>'+rows.slice(0,count).map(x=>x.type==='articles'?articleCard(x):episodeRow(x)).join('')+(rows.length>count?'<button id="search-more">Visa fler</button>':'');$('#search-more')?.addEventListener('click',()=>{count+=24;draw();});};draw();}catch{results.textContent='Sökningen kunde inte slutföras. Försök igen.';}};
+        document.title='Sök | Morgonpodden';
+        main.innerHTML='<div class="page-heading"><h1>Sök</h1><p>Hitta avsnitt, artiklar och kanaler.</p></div><form id="search"><label for="query">Sök i hela arkivet</label><div class="search-row"><input type="search" id="query" minlength="2" required placeholder="Till exempel Östersjön"><button>Sök</button></div></form><div class="chips" id="search-types">'+[['all','Alla'],['episodes','Avsnitt'],['articles','Artiklar'],['channels','Kanaler']].map(([v,t],i)=>'<button class="chip '+(!i?'selected':'')+'" data-type="'+v+'" aria-pressed="'+!i+'">'+t+'</button>').join('')+'</div><section id="results" aria-live="polite"></section><div class="search-topics"><h2>Utforska ämnen</h2><div class="tags">'+manifest.topics.map(t=>'<a class="tag" href="'+url('amne',{tag:t})+'">'+esc(t.replace(/-/g,' '))+'</a>').join('')+'</div></div>';
+        let searchId=0,allRows=[],channelRows=[],filter='all',count=24;
+        function draw(){const rows=allRows.filter(x=>filter==='all'||x.type===filter);const channels=filter==='all'||filter==='channels'?channelRows:[];const results=$('#results');results.innerHTML='<p>'+Number(rows.length+channels.length)+' träffar</p>'+(channels.length?'<div class="channel-directory">'+channels.map(channelCard).join('')+'</div>':'')+rows.slice(0,count).map(x=>x.type==='articles'?articleCard(x):episodeRow(x)).join('')+(rows.length>count?'<button id="search-more" class="more">Visa fler</button>':'');$('#search-more')?.addEventListener('click',()=>{count+=24;draw();});}
+        $('#search-types').onclick=ev=>{const b=ev.target.closest('button');if(!b)return;filter=b.dataset.type;count=24;$('#search-types').querySelectorAll('button').forEach(x=>{x.classList.toggle('selected',x===b);x.setAttribute('aria-pressed',x===b);});draw();};
+        $('#search').onsubmit=async event=>{event.preventDefault();const request=++searchId;const query=$('#query').value.toLocaleLowerCase('sv'),terms=query.match(/[\wåäö]{2,}/g)||[];$('#results').textContent='Söker…';try{let matches;for(const term of terms.slice(0,6)){const bucket=(await hash(term)).slice(0,2);const data=manifest.search_buckets.includes(bucket)?await json('catalog/search/'+bucket+'.json'):{};const rows=data[term]||[];if(matches){const ids=new Set(rows.map(r=>r.id));matches=matches.filter(x=>ids.has(x.id));}else matches=rows;}if(token!==routeToken||request!==searchId)return;allRows=[...new Map((matches||[]).map(x=>[x.id,x])).values()].sort(Core.compareLatest);channelRows=manifest.channels.filter(c=>terms.every(t=>(channel(c.id)+' '+c.description).toLocaleLowerCase('sv').includes(t)));count=24;draw();}catch{$('#results').textContent='Sökningen kunde inte slutföras. Försök igen.';}};
         return;
       }
       if(page==='amne') {main.innerHTML='<h1>'+esc(p.get('tag')||'Ämne')+'</h1><h2>Poddavsnitt</h2><div id="episodes"></div><h2>Artiklar</h2><div id="articles"></div>';await collection('episodes/topic/'+p.get('tag'),$('#episodes'),token);await collection('articles/topic/'+p.get('tag'),$('#articles'),token);return;}
       if(page==='idag'||page==='index') {
         document.title='Idag | Morgonpod';
-        main.innerHTML='<div class="section-heading home-first"><h1>Senaste poddavsnitten</h1><a href="lyssna.html">Alla avsnitt ↗</a></div><div id="episodes"></div><div class="section-heading"><h2>Senaste artiklarna</h2><a href="artiklar.html">Alla artiklar ↗</a></div><div id="articles"></div>';
-        await homeLatest('episodes',$('#episodes'),token,8);
-        if(token!==routeToken)return;
+        main.innerHTML='<p class="today-date">'+esc(new Intl.DateTimeFormat('sv-SE',{weekday:'long',day:'numeric',month:'long',timeZone:'Europe/Stockholm'}).format(new Date()))+'</p><div class="home-layout"><section class="home-main"><div id="hero"></div><div class="section-heading home-first"><h1>Senaste poddavsnitten</h1><a href="lyssna.html">Visa alla '+icon('chevron-right')+'</a></div><div id="episodes" class="home-episodes"></div><div class="section-heading"><h2>Utforska kanalerna</h2><a href="kanaler.html">Alla kanaler '+icon('chevron-right')+'</a></div><div class="home-channels">'+manifest.channels.map(channelCard).join('')+'</div></section><aside class="home-aside"><div class="section-heading"><h2>Senaste artiklar</h2><a href="artiklar.html">Visa alla '+icon('chevron-right')+'</a></div><div id="articles"></div></aside></div>';
+        await homeLatest('episodes',$('#episodes'),token,8);if(token!==routeToken)return;
+        const first=$('#episodes details');if(first){const e=latestRows.get(first.dataset.id);if(token!==routeToken)return;$('#hero').innerHTML='<a class="hero" href="'+url('avsnitt',{id:e.id})+'">'+cover(e.channel,'',true)+'<div class="hero-copy"><span class="eyebrow">'+(e.published_at?'Senast publicerat':'Aktuell utgåva')+' · '+esc(prettyDate(e))+'</span><h2>'+esc(channel(e.channel))+'</h2><div class="hero-play"><span class="play-symbol">'+icon('play')+'</span><span><strong>'+esc(episodeTitle(e))+'</strong><small>'+duration(e.duration_seconds)+(Core.isIntro(e)?' · Avsnitt 1 / Uppstart':'')+'</small></span>'+icon('chevron-right')+'</div></div></a>';}
         await homeLatest('articles',$('#articles'),token,8);
         return;
       }
@@ -182,7 +224,7 @@ if (typeof document !== 'undefined') (async () => {
       $('#filters').onsubmit=ev=>{ev.preventDefault();navigate(url(page,{channel:new FormData(ev.target).get('channel')}));};
       await collection(kind+(p.get('channel')?'/channel/'+p.get('channel'):''),$('#listing'),token);
       if(kind==='episodes'){try{const stats=await json('stats.json');if(token!==routeToken)return;const rows=Core.ranking(stats.episodes);if(rows.length)$('#ranking').innerHTML='<h2>Mest lyssnade på webben</h2><ol>'+rows.map(x=>'<li><a href="'+url('avsnitt',{id:x.id})+'">'+esc(x.title||x.id)+'</a> · '+x.count+'</li>').join('')+'</ol>';}catch{}}
-    } catch {if(token===routeToken)main.innerHTML='<h1>Innehållet kunde inte hämtas</h1><p>Kontrollera anslutningen och försök igen.</p><button id="retry">Försök igen</button>';$('#retry')?.addEventListener('click',render);}
+    } catch (error) {console.error(error);if(token===routeToken)main.innerHTML='<h1>Innehållet kunde inte hämtas</h1><p>Kontrollera anslutningen och försök igen.</p><button id="retry">Försök igen</button>';$('#retry')?.addEventListener('click',render);}
   }
   async function statistics(token) {
     main.innerHTML='<h1>Statistik</h1><p>Webbplatsens lyssningar räknas efter 30 sekunders faktisk uppspelning. Telegram ingår inte.</p><div id="stats-content"></div>';
@@ -192,10 +234,10 @@ if (typeof document !== 'undefined') (async () => {
       const draw=()=>{const cutoff=new Date(Date.now()-Number($('#period').value)*86400000).toISOString().slice(0,10),ch=$('#stats-channel').value;const days=(s.daily||[]).filter(x=>x.date>=cutoff&&(!ch||x.channel===ch));$('#stats-rows').innerHTML='<table><thead><tr><th>Datum</th><th>Kanal</th><th>Lyssningar</th><th>Artikelvisningar</th></tr></thead><tbody>'+days.map(d=>'<tr><td>'+esc(d.date)+'</td><td>'+esc(channel(d.channel))+'</td><td>'+Number(d.listens||0)+'</td><td>'+Number(d.views||0)+'</td></tr>').join('')+'</tbody></table>';};$('#period').onchange=draw;$('#stats-channel').onchange=draw;draw();
     }catch{$('#stats-content').textContent='Statistik kunde inte hämtas.';}
   }
-  function navigate(href){history.pushState({},'',href);render();window.scrollTo(0,0);}
+  function navigate(href){history.pushState({},'',href);render();window.scrollTo(0,0);main.focus({preventScroll:true});}
   document.addEventListener('click',e=>{const a=e.target.closest('a');if(!a||e.ctrlKey||e.metaKey||e.shiftKey||e.altKey||e.button!==0||a.target)return;const u=new URL(a.href);if(u.origin===location.origin&&u.pathname.endsWith('.html')&&u.pathname.startsWith(location.pathname.slice(0,location.pathname.lastIndexOf('/')+1))){e.preventDefault();navigate(u.pathname+u.search);}});
   window.addEventListener('popstate',render);
   try{config=await json('analytics-config.json');if(config.goatcounter&&/^https:\/\/[a-z0-9-]+\.goatcounter\.com\/count$/.test(config.goatcounter)){window.goatcounter={no_onload:true};await new Promise(resolve=>{const s=document.createElement('script');s.src='https://gc.zgo.at/count.js';s.dataset.goatcounter=config.goatcounter;s.async=true;s.onload=resolve;s.onerror=resolve;document.head.append(s);setTimeout(resolve,2500);});}}catch{}
-  try{manifest=await json('catalog/manifest.json');await render();}catch{main.innerHTML='<h1>Arkivet är tillfälligt otillgängligt</h1><p>Försök ladda sidan igen.</p>';}
+  try{manifest=await json('catalog/manifest.json');manifest.channels=manifest.channels.map(c=>c.id==='ibat'?{...c,name:'IBAT - Informationsförsörjning'}:c);await render();}catch{main.innerHTML='<h1>Arkivet är tillfälligt otillgängligt</h1><p>Försök ladda sidan igen.</p>';}
   if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js').catch(()=>{});
 })();
