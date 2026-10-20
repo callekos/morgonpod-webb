@@ -38,3 +38,47 @@
 .home-episodes .row-title strong{display:none}.home-episodes .episode[open] .row-title strong{display:block}.home-episodes .intro-badge{display:none}.home-episodes .episode[open] .intro-badge{display:inline-block}
 @media(max-width:649px){body[data-page=avsnitt]{padding-bottom:90px}body[data-page=avsnitt]>.header{display:none}body[data-page=avsnitt] .player{display:none}body[data-page=avsnitt] #view{padding-top:12px}.full-player .large-cover{width:auto;height:clamp(170px,calc(100svh - 430px),330px);aspect-ratio:1;margin:0 auto 16px}.full-player h1{font-size:25px}.full-player h2{font-size:15px;margin-top:7px}.full-player>p{margin:6px 0 13px}.big-transport{margin:12px 0;gap:38px}.big-transport #big-play{width:62px;height:62px}#big-speed{min-height:32px}.full-player{padding:0 6px 12px}}
 .channel-card .cover,.episode-art .cover{transition:transform .16s ease,filter .16s ease}.channel-card:hover .cover,.channel-card:focus-visible .cover{transform:translateY(-2px);filter:brightness(1.06)}.episode summary:hover .cover{filter:brightness(1.08)}.channel-card:active .cover,.episode summary:active .cover{transform:scale(.98)}.channel-card .cover{border-bottom:3px solid var(--channel-color)}
+
+/* Approved UX refinement: content first, shared channel identity and readable controls. */
+:root{--muted:#566770}
+:root[data-theme=dark]{--muted:#a2b5bf}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--muted:#a2b5bf}}
+button:disabled{cursor:default}button:focus-visible,a:focus-visible,summary:focus-visible{scroll-margin:90px 0 230px}
+.channel-directory,.home-channels{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 16px}
+.channel-card strong,.channel-directory .channel-card strong{font-size:15px;line-height:1.35;overflow-wrap:normal;word-break:normal;hyphens:auto;display:block}
+.channel-card-label{gap:7px}.channel-card-label>.icon{margin-top:3px}.channel-card>small{display:none}
+.channel-hero h1,.hero-copy h2{overflow-wrap:normal;word-break:normal;font-size:clamp(25px,4vw,36px)}
+.channel-hero{min-height:225px}.channel-hero>div{padding:22px}.channel-hero p{max-width:60ch;font-size:14px}
+.intro-link{display:flex;align-items:center;gap:8px;padding:14px 0;color:var(--accent);font-size:14px}
+.home-episodes .episode-list{display:block}.home-episodes .episode{border-bottom:1px solid var(--line)}
+.home-episodes .episode summary,.home-episodes .episode[open] summary{display:flex;padding:14px 0;min-height:84px;gap:12px}
+.home-episodes .episode-art,.home-episodes .episode[open] .episode-art{width:62px;height:62px;aspect-ratio:1;margin:0;flex:none}
+.episode-art.direct-play{position:relative;padding:0;border:0;border-radius:8px;overflow:hidden;min-height:44px}
+.home-episodes .episode-art .cover{border-radius:8px}.home-episodes .episode-art .play-symbol{width:26px;height:26px;left:4px;bottom:4px}
+.home-episodes .row-title{display:block}.home-episodes .row-title:before{display:none}
+.home-episodes .row-title strong,.home-episodes .episode[open] .row-title strong,.row-title strong{display:block;color:var(--text);font-size:16px;font-weight:650;line-height:1.4}
+.home-episodes .row-title small,.item-meta{display:flex;flex-wrap:wrap;font-size:12px;gap:3px 9px}
+.home-episodes .duration,.duration{font-size:12px;margin:0;color:var(--muted)}
+.home-episodes summary>.icon{display:block;flex:none}.home-episodes .intro-badge,.intro-badge{display:inline-block;font-size:12px}
+.episode-topics{display:block;color:var(--muted);font-size:12px;line-height:1.45;margin-top:4px}
+.hero{min-height:225px}.hero-direct{border:0;border-radius:50%;width:48px;height:48px;display:flex;align-items:center;justify-content:center;background:#fff;color:#102530;flex:none;padding:12px}.hero-play>a{flex:1;min-width:0}.hero-play>a:hover{color:#fff;text-decoration:underline}.hero-play strong{font-size:17px}
+.home-channels .cover{max-height:130px;aspect-ratio:1.5}.home-channels .channel-card strong{font-size:13px}
+.article-card .channel-name,.home-aside .article-card .channel-name,.secondary .article-card .channel-name{display:inline;color:var(--accent);font-size:12px}
+.article-card small{font-size:12px;display:flex;gap:4px 8px;flex-wrap:wrap}.article-card h3{font-size:16px;line-height:1.45}.article-card .read-time{font-size:12px}
+.reading-illustration{margin:0 0 16px}.reading-illustration .reading-cover{height:140px;aspect-ratio:auto;width:100%;margin:0 0 5px;object-position:center 60%}
+.reading-illustration figcaption{font-size:12px;color:var(--muted)}.reading h1{font-size:30px;line-height:1.2}.reading>small{font-size:12px}
+.article-audio{display:flex;align-items:center;gap:10px;background:var(--soft);border:1px solid var(--line);border-radius:10px;padding:12px;margin:16px 0 24px;color:var(--accent);font-size:14px}.article-audio>.icon:last-child{margin-left:auto}
+#results .channel-directory{display:block}#results .channel-card{display:flex;gap:12px;align-items:center;border-bottom:1px solid var(--line);padding:12px 0}#results .channel-card .cover{width:54px;height:54px;margin:0;aspect-ratio:1}#results .channel-card-label{align-items:center}
+.nav-inner>a{font-size:12px}.nav-inner>a[aria-current]{background:var(--selected);border-radius:8px}
+.player-label strong{font-size:14px}.player-label small{font-size:12px;line-height:1.3}.player.compact{padding:7px 9px;gap:8px;border-radius:12px 12px 0 0;bottom:calc(62px + env(safe-area-inset-bottom))}
+.player.compact .player-label{max-width:none;flex:1}.player.compact .player-art{width:38px;height:38px}.player.compact .player-transport{margin-left:auto}
+.player.compact .player-timeline{display:flex;position:absolute;left:0;right:0;bottom:-2px;height:3px;width:100%;padding:0;gap:0;overflow:hidden}.player.compact .player-timeline span{display:none}.player.compact #seek{height:3px;min-height:3px;pointer-events:none}
+.player.compact .player-controls{gap:0}.player-controls button{min-width:40px;min-height:44px}.player.compact .queue-controls{display:flex}.queue-controls{display:flex;gap:4px;width:100%;justify-content:flex-end}.queue-controls button{font-size:12px;padding:6px 10px;min-height:44px}
+.player.compact .queue-controls{width:auto}.player.compact #queue-previous,.player.compact #queue-next{display:none}.player.compact #queue-toggle{min-width:48px;padding:4px;border:0;background:none}
+.queue-panel{position:fixed;z-index:60;inset:auto 10px calc(72px + env(safe-area-inset-bottom));max-height:72svh;overflow:auto;overscroll-behavior:contain;background:var(--surface);color:var(--text);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:14px;padding:18px}
+.queue-panel[hidden]{display:none!important}.queue-heading{display:flex;align-items:center;justify-content:space-between;gap:10px}.queue-panel h2{font-size:20px}.queue-panel h3{font-size:15px;margin:15px 0 8px}.queue-panel>p{font-size:14px}.queue-panel ol{padding:0;list-style:none;margin:12px 0}.queue-panel li{border-top:1px solid var(--line);padding:10px 0}.queue-title{text-align:left;width:100%;border:0;padding:6px 0;font-size:15px}.queue-title small{display:block;color:var(--muted);font-size:12px}.queue-edit{display:flex;gap:8px;justify-content:flex-end}.queue-edit button{font-size:12px}.queue-panel>button{margin:6px 8px 0 0}
+body[data-page=avsnitt] .player:not([hidden]):has(.queue-panel:not([hidden])){display:flex}.full-player #up-next{font-size:13px;color:var(--muted);line-height:1.5;margin-top:16px}.full-player #full-queue{font-size:14px}
+@media(min-width:650px){.channel-directory{grid-template-columns:repeat(3,minmax(0,1fr))}.home-channels{grid-template-columns:repeat(3,minmax(0,1fr))}.home-episodes .episode-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px}.home-episodes .episode[open]{grid-column:1/-1}.reading-illustration .reading-cover{height:210px}.reading h1{font-size:38px}.player.compact{bottom:calc(62px + env(safe-area-inset-bottom))}.queue-panel{left:auto;right:20px;width:min(520px,calc(100vw - 40px))}}
+@media(min-width:1024px){.home-layout{grid-template-columns:minmax(0,1fr) 320px;gap:28px}.home-aside{padding:0 0 20px 22px}.home-episodes .episode-list{display:block}.home-channels{grid-template-columns:repeat(3,minmax(0,1fr))}.home-channels .cover{height:90px}.channel-directory{grid-template-columns:repeat(4,minmax(0,1fr))}.channel-layout{grid-template-columns:minmax(0,1fr) 310px;gap:28px}.secondary{padding-left:22px}.channel-hero{min-height:250px}.player.compact{bottom:0;padding:10px 24px;border-radius:0}.player.compact .player-label{max-width:300px}.player.compact .queue-controls{width:auto}.player .queue-controls{width:auto;flex:none;order:5}.player.compact #queue-previous,.player.compact #queue-next{display:block}.player.compact .player-timeline{position:static;height:auto;overflow:visible;max-width:320px;flex:1;gap:7px}.player.compact .player-timeline span{display:block}.player.compact #seek{height:28px;min-height:28px;pointer-events:auto}.queue-panel{bottom:92px}.reading h1{font-size:40px}}
+@media(min-width:1450px){.home-episodes .episode-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.channel-directory{grid-template-columns:repeat(5,minmax(0,1fr))}.home-channels{grid-template-columns:repeat(5,minmax(0,1fr))}}
+@media(max-width:389px){.player.compact .player-art{display:none}.player.compact .player-label strong{font-size:13px}.home-episodes .duration{display:none}.episode summary{gap:9px}.episode-art,.home-episodes .episode-art{width:50px;height:50px}.player.compact .player-controls button{min-width:32px}}

@@ -1,6 +1,7 @@
 name: Web acceptance
 on:
   push:
+    branches: [main]
     paths-ignore: ['catalog/**', 'episodes/**', 'episodes.json', 'story_index.json', 'coverage*.json', 'stats.json']
   pull_request:
   workflow_dispatch:
@@ -30,7 +31,10 @@ jobs:
         if: always()
         with:
           name: browser-evidence
-          path: playwright-report/
+          retention-days: 7
+          path: |
+            playwright-report/
+            docs/evidence/
   published:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     needs: [unit, browsers]
@@ -51,4 +55,8 @@ jobs:
         if: always()
         with:
           name: published-browser-evidence
-          path: playwright-report/
+          retention-days: 7
+          path: |
+            playwright-report/
+            docs/evidence/
+
