@@ -131,7 +131,7 @@ if (typeof document !== 'undefined') (async () => {
   audio.addEventListener('ended',()=>{void advance();});
   function applyResume(){if(resumePosition>0&&Number.isFinite(audio.duration)&&audio.duration>0){try{audio.currentTime=Math.min(resumePosition,Math.max(0,audio.duration-0.25));resumePosition=0;}catch{}}}
   for(const event of ['loadedmetadata','canplay','durationchange'])audio.addEventListener(event,applyResume);
-  audio.addEventListener('pause',persist);audio.addEventListener('ratechange',persist);window.addEventListener('pagehide',persist);
+  audio.addEventListener('pause',persist);audio.addEventListener('ratechange',()=>{$('#speed').textContent=audio.playbackRate+'×';if($('#big-speed'))$('#big-speed').textContent=audio.playbackRate+'×';persist();});window.addEventListener('pagehide',persist);
   document.addEventListener('visibilitychange',()=>{if(document.hidden)persist();});
   audio.addEventListener('timeupdate',()=>{if(Date.now()-savedAt>5000){savedAt=Date.now();persist();}});
 
@@ -149,8 +149,8 @@ if (typeof document !== 'undefined') (async () => {
     if(elapsed>=30&&currentEpisode) track('listen',currentEpisode.id);
   });
   audio.addEventListener('seeking',()=>{previousTime=audio.currentTime;previousWall=performance.now();});
-  audio.addEventListener('error',()=>{notice='Ljudfilen kunde inte spelas. Försök Spela igen eller välj Nästa.';updateQueue();});
-  $('#play-pause').onclick=()=>{if(audio.paused&&currentEpisode)void play(currentEpisode);else audio.pause();};
+  audio.addEventListener('error',()=>{if(!audio.error)return;notice='Ljudfilen kunde inte spelas. Försök Spela igen eller välj Nästa.';updateQueue();});
+  $('#play-pause').onclick=()=>{const target=queue.current||currentEpisode;if(audio.paused&&target)void play(target);else audio.pause();};
   document.querySelectorAll('[data-skip]').forEach(b=>b.onclick=()=>{audio.currentTime=Math.max(0,Math.min(audio.duration||Infinity,audio.currentTime+Number(b.dataset.skip)));});
   $('#seek').oninput=ev=>{if(Number.isFinite(audio.duration))audio.currentTime=Number(ev.target.value)/100*audio.duration;};
   $('#speed').onclick=()=>{const rates=[1,1.25,1.5,1.75,2];audio.playbackRate=rates[(rates.indexOf(audio.playbackRate)+1)%rates.length];$('#speed').textContent=audio.playbackRate+'×';};
@@ -166,7 +166,7 @@ if (typeof document !== 'undefined') (async () => {
     if(!e.audio){try{e=await detail('episodes',e.id);}catch{if(request!==playbackRequest)return;notice='Avsnittet finns inte tillgängligt. Välj Nästa eller ett annat avsnitt.';updateQueue();return;}}
     if(request!==playbackRequest)return;
     if(!Core.safePath(e.audio)){notice='Ljudfilen finns inte tillgänglig. Välj Nästa.';updateQueue();return;}
-    const changed=currentEpisode?.id!==e.id||audio.getAttribute('src')!==e.audio;
+    const changed=currentEpisode?.id!==e.id||audio.getAttribute('src')!==e.audio||!!audio.error;
     if(changed){audio.preload='metadata';const rate=audio.playbackRate;audio.pause();currentEpisode=e;audio.src=e.audio;audio.playbackRate=rate;elapsed=0;previousTime=0;}
     currentEpisode=e;
     $('#player').hidden=false;$('#player-title').textContent=episodeTitle(e);$('#player-status').textContent=autoplay?channel(e.channel):'Sparad kö. Tryck på Spela för att fortsätta.';$('#player-image').src='assets/channels/'+visual(e.channel).image+'-square.webp?v=3';
@@ -176,7 +176,7 @@ if (typeof document !== 'undefined') (async () => {
     if(autoplay){try{await audio.play();if(request!==playbackRequest)return;notice='';}catch(error){if(request!==playbackRequest||error.name==='AbortError')return;notice=error.name==='NotAllowedError'?'Automatisk start blockerades. Tryck på Spela för att fortsätta.':'Ljudfilen kunde inte spelas. Försök Spela igen eller välj Nästa.';}}
     updateQueue();syncAudio();persist();
   }
-  if('mediaSession' in navigator){for(const [action,handler] of Object.entries({play:()=>currentEpisode&&play(currentEpisode),pause:()=>audio.pause(),nexttrack:()=>advance(),previoustrack:()=>advance(-1),seekbackward:()=>{audio.currentTime=Math.max(0,audio.currentTime-15);},seekforward:()=>{if(Number.isFinite(audio.duration))audio.currentTime=Math.min(audio.duration,audio.currentTime+15);}})){try{navigator.mediaSession.setActionHandler(action,handler);}catch{}}}
+  if('mediaSession' in navigator){for(const [action,handler] of Object.entries({play:()=>queue.current&&play(queue.current),pause:()=>audio.pause(),nexttrack:()=>advance(),previoustrack:()=>advance(-1),seekbackward:()=>{audio.currentTime=Math.max(0,audio.currentTime-15);},seekforward:()=>{if(Number.isFinite(audio.duration))audio.currentTime=Math.min(audio.duration,audio.currentTime+15);}})){try{navigator.mediaSession.setActionHandler(action,handler);}catch{}}}
   main.addEventListener('toggle',async event=>{
     const node=event.target;
     if(!node.matches?.('details.episode')||!node.open)return;
