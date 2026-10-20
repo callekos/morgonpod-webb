@@ -1,8 +1,9 @@
 const {test,expect}=require('@playwright/test');
-async function capture(page,path){await page.evaluate(()=>window.scrollTo(0,0));await expect.poll(()=>page.locator('img.cover').evaluateAll(images=>images.filter(im=>{const r=im.getBoundingClientRect();return r.top<innerHeight&&r.bottom>0;}).every(im=>im.complete&&im.naturalWidth>0))).toBe(true);await page.locator('img.cover').evaluateAll(async images=>{await Promise.all(images.filter(im=>{const r=im.getBoundingClientRect();return r.top<innerHeight&&r.bottom>0;}).map(im=>im.decode()));});await page.screenshot({path,scale:'css'});}
+const channelCount=async page=>(await(await page.request.get('catalog/manifest.json')).json()).channels.length;
+async function capture(page,path){await page.waitForLoadState('networkidle');await page.evaluate(()=>window.scrollTo(0,0));await expect.poll(()=>page.locator('img.cover').evaluateAll(images=>images.filter(im=>{const r=im.getBoundingClientRect();return r.top<innerHeight&&r.bottom>0;}).every(im=>im.complete&&im.naturalWidth>0))).toBe(true);await page.locator('img.cover').evaluateAll(async images=>{await Promise.all(images.filter(im=>{const r=im.getBoundingClientRect();return r.top<innerHeight&&r.bottom>0;}).map(im=>im.decode()));});await page.screenshot({path,scale:'css'});}
 test('V2 channel identity, tabs and all appearance modes',async({page},info)=>{
  const errors=[];page.on('pageerror',e=>errors.push(e.message));
- await page.goto('/kanaler.html');await expect(page.locator('.channel-card')).toHaveCount(5);await expect(page.getByRole('heading',{name:'Kanaler',exact:true})).toBeVisible();
+ await page.goto('/kanaler.html');await expect(page.locator('.channel-card')).toHaveCount(await channelCount(page));await expect(page.getByRole('heading',{name:'Kanaler',exact:true})).toBeVisible();
  await page.getByRole('searchbox').fill('IBAT');await expect(page.locator('.channel-card')).toHaveCount(1);await page.locator('.channel-card').click();
  await expect(page.getByRole('heading',{name:'IBAT - Informationsförsörjning',exact:true})).toBeVisible();
  await page.getByRole('link',{name:'Om kanalen',exact:true}).click();await expect(page.getByRole('heading',{name:'Vad bevakas?'})).toBeVisible();
@@ -15,13 +16,14 @@ test('V2 channel identity, tabs and all appearance modes',async({page},info)=>{
 test('V2 six flows, real audio and responsive visual evidence',async({page},info)=>{
  const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('/idag.html');await expect(page.locator('.hero')).toBeVisible();
  await capture(page,'docs/evidence/'+info.project.name+'-today.png');
- await page.getByRole('link',{name:'Kanaler',exact:true}).click();await expect(page.locator('.channel-card')).toHaveCount(5);await capture(page,'docs/evidence/'+info.project.name+'-channels.png');
+ await page.getByRole('link',{name:'Kanaler',exact:true}).click();await expect(page.locator('.channel-card')).toHaveCount(await channelCount(page));await capture(page,'docs/evidence/'+info.project.name+'-channels.png');
  await page.locator('.channel-card').filter({hasText:'Sjöområdet'}).click();await expect(page.getByRole('heading',{name:'Sjöområdet',exact:true})).toBeVisible();await capture(page,'docs/evidence/'+info.project.name+'-channel-light.png');
- await page.locator('summary').first().click();await page.getByRole('link',{name:/Öppna stor spelare/}).click();await expect(page.locator('#big-play')).toBeVisible();await page.locator('#big-play').click();
- await expect(page.locator('#player')).toHaveJSProperty('hidden',false);await expect.poll(()=>page.locator('#audio').evaluate(e=>e.currentTime)).toBeGreaterThan(0);const src=await page.locator('#audio').getAttribute('src');
+ await page.locator('summary').first().click();await page.getByRole('link',{name:/Öppna stor spelare/}).click();await expect(page.locator('#big-play')).toBeVisible();await expect(page.locator('#full-queue')).toBeDisabled();await page.locator('#big-play').click();await expect(page.locator('#full-queue')).toBeEnabled();
+ await expect(page.locator('#player')).toHaveJSProperty('hidden',false);await expect.poll(()=>page.locator('#audio').evaluate(e=>e.currentTime)).toBeGreaterThan(0).catch(async error=>{console.log('MEDIA_DIAG',await page.locator('#audio').evaluate(a=>({src:a.currentSrc,error:a.error&&{code:a.error.code,message:a.error.message},ready:a.readyState,network:a.networkState,paused:a.paused,duration:a.duration})));throw error;});const src=await page.locator('#audio').getAttribute('src');
  await page.getByRole('button',{name:'Ändra hastighet'}).click();await expect(page.locator('#big-speed')).toHaveText('1.25×');await expect(page.locator('#audio')).toHaveJSProperty('playbackRate',1.25);
  await capture(page,'docs/evidence/'+info.project.name+'-player.png');
  await page.getByRole('link',{name:'Artiklar',exact:true}).click();await expect(page.locator('#audio')).toHaveAttribute('src',src);await page.locator('.article-card').first().click();await expect(page.locator('.reading h1')).toBeVisible();await expect(page.locator('.reading-cover')).toBeVisible();await capture(page,'docs/evidence/'+info.project.name+'-article.png');
  await page.locator('#nav').getByRole('link',{name:'Sök',exact:true}).click();await page.getByRole('searchbox').fill('IBAT');await page.getByRole('button',{name:'Sök',exact:true}).click();await page.getByRole('button',{name:'Kanaler',exact:true}).click();await expect(page.locator('#results .channel-card')).toHaveCount(1);
  await capture(page,'docs/evidence/'+info.project.name+'-search.png');expect(errors).toEqual([]);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
 });
+

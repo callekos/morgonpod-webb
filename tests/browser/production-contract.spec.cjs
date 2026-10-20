@@ -1,4 +1,5 @@
 const {test,expect}=require('@playwright/test');
+const channelCount=async page=>(await(await page.request.get('catalog/manifest.json')).json()).channels.length;
 test.use({serviceWorkers:'block'});
 test('producer history is paginated independently and intro stays first',async({page})=>{
  const rows=Array.from({length:49},(_,i)=>({id:'daily-'+i,channel:'ibat',date:'2026-10-'+String(i%20+1).padStart(2,'0'),title:'Historiskt avsnitt '+i,episode_order:20261000+i}));
@@ -26,9 +27,10 @@ test('homepage finds newest publication across 20 producer channels without late
 });
 test('tablet and intermediate widths keep navigation and archives reachable',async({page})=>{
  for(const width of [650,820,1024]){
-  await page.setViewportSize({width,height:900});await page.goto('/kanaler.html');await expect(page.locator('.channel-card')).toHaveCount(5);
+  await page.setViewportSize({width,height:900});await page.goto('/kanaler.html');await expect(page.locator('.channel-card')).toHaveCount(await channelCount(page));
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
   await page.locator('.channel-card').filter({hasText:'Sjöområdet'}).click();await expect(page.locator('#archive-sort')).toBeVisible();await expect(page.locator('.episode').first()).toBeVisible();
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
  }
 });
+

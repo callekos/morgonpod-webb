@@ -24,8 +24,9 @@ function orderedCollections(root,out){
 }
 function build(root,out){
  if(path.resolve(root)===path.resolve(out))throw Error('Output must differ from source');fs.mkdirSync(out,{recursive:true});
- for(const name of fs.readdirSync(root))if(/\.html$/.test(name)||['app.js','style.css','sw.js','manifest.webmanifest','icon.svg','cover.svg','analytics-config.json','stats.json','assets','catalog','episodes'].includes(name))fs.cpSync(path.join(root,name),path.join(out,name),{recursive:true});
+ for(const name of fs.readdirSync(root))if(/\.html$/.test(name)||['app.js','playback-queue.js','search-hints.json','style.css','sw.js','manifest.webmanifest','icon.svg','cover.svg','analytics-config.json','stats.json','assets','catalog','episodes'].includes(name))fs.cpSync(path.join(root,name),path.join(out,name),{recursive:true});
  return orderedCollections(root,out);
 }
 module.exports={build,orderedCollections};
 if(require.main===module){const m=build(path.resolve(__dirname,'..'),path.resolve(process.argv[2]||'dist'));console.log('Static preview built, '+m.publication_metadata.missing_episode_timestamps+' episodes without publication timestamps.');}
+

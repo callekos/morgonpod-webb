@@ -6,7 +6,7 @@ const digest=value=>crypto.createHash('sha256').update(value).digest('hex');
  let last;
  for(let attempt=0;attempt<20;attempt++){
   try{
-   for(const path of ['app.js','style.css','sw.js','idag.html','kanal.html','assets/channels/ibat-square.webp']){
+   for(const path of ['playback-queue.js','app.js','style.css','sw.js','idag.html','kanal.html','assets/channels/ibat-square.webp']){
     const response=await fetch(base+path+'?verify='+Date.now(),{signal:AbortSignal.timeout(15000)});
     if(!response.ok)throw Error(path+': HTTP '+response.status);
     if(digest(Buffer.from(await response.arrayBuffer()))!==digest(fs.readFileSync(path)))throw Error(path+': previous deployment');
@@ -18,3 +18,4 @@ const digest=value=>crypto.createHash('sha256').update(value).digest('hex');
  }
  throw last;
 })().catch(error=>{console.error(error);process.exitCode=1;});
+
