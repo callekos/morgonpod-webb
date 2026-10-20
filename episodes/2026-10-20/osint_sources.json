@@ -1,0 +1,856 @@
+{
+  "channel": "ibat",
+  "date": "2026-10-20",
+  "sources": [
+    {
+      "id": 30,
+      "title": "Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss",
+      "summary": "Serhii Beskrestnov says there has not been enough time to warn people about incoming missile attacks. The White House said there had been no changes to intelligence sharing.",
+      "date": "2026-10-19T20:49:00+00:00",
+      "publisher": "BBC News",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:10:16.426043+00:00",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss",
+      "text": "Image source, Naomi-Scherbel Ball/BBC Image caption, Serhii Beskrestnov said \"people have already died\" due to lack of warnings about incoming missile attacks By Dan Johnson Ukraine correspondent in Kyiv Published 19 October 2026 Ukrainians have died because Kyiv is still not receiving reliable US warnings of incoming Russian attacks, according to a key adviser to President Volodymyr Zelensky. Serhii \"Flash\" Beskrestnov told the BBC that lives had been lost because there had not been time to warn citizens about ballistic missile strikes, saying: \"It's dangerous... I think it's really very bad... People [have] already died.\" The adviser also said restrictions to Ukraine's use of the Starlink internet network were ongoing. The White House said there had been no changes to intelligence sharing with Ukraine. Ukraine first reported an interruption to US intelligence sharing last week , as a row with the Trump administrations over its controversial deal to import Russian oil sent relations to new lows. Despite the denials from Washington, many in Kyiv suspect the issues are not a coincidence. On Monday morning, Zelensky wrote on social media: \"Overnight two ballistic missile attacks were reported on the capital, one without warning, the second with only minimal time to take shelter.\" Hours earlier, an interview the president did with NBC was published, in which he said intelligence sharing had been restored after a three-day pause. \"We are very thankful for this,\" he said. \"Only [the] United States has this unique intelligence to tell our side when Russia uses ballistic missiles.\" But Beskrestnov told the BBC that American intelligence continued to be incomplete and inconsistent, and that the US had failed to provide a clear explanation for the issue. \"This looks very strange,\" he said. \"Sometimes we receive this information before the attack, another time we [do] not.\" He continued: \"And for example, last night we received it, but... one minute before the attack.\" However, he said other collaboration with US continues, adding: \"Intelligence data keeps flowing, and the issue is solely with the air raid alert component.\" Beskrestnov also said the US had given no clarity about who was responsible for the ongoing restrictions to the Starlink internet network and its military service Starshield, which Kyiv uses to provide connectivity for drones, helicopters and military communications. Last week, Starshield restricted the speed at which mobile units could move while staying connected to the network to 100mph (160km/h). This has limited Ukraine's ability to shoot down incoming drones or to launch mid-range drone attacks into Russian-occupied areas. Starlink owner Elon Musk said last week that the US government ultimately controls access to Starshield, which was designed for the Pentagon, suggesting it may therefore be behind the restrictions. Trump has denied involvement. Beskrestnov said he thought both issues occurring at the same time was \"probably\" a deliberate move to put pressure on Ukraine. He told BBC News: \"It's probably the United States trying to say [to] us, 'let's have the conversation, negotiation with Russia, you should find the compromise'.\" Beskrestnov also said Ukraine had its own radar data to provide some limited warning of incoming attacks, but was urgently looking into using alternative communication systems. He added: \"Now we understand that something begins to happen with Starlink, and we're not sure what will be the next step. \"We understand that we should be prepared for some problems in future. And now we're thinking about an alternative for Starlink, not only for air defence, for communication between our forces, between our staff, for civilians also, because we don't know what we should expect in future regarding Starlink.\" On Monday, when asked about intelligence sharing, Trump said: \"We've given a lot to Ukraine. They've given us nothing.\" Figure caption, Watch: Moment Ukrainian soldier lifted to safety by drone Earlier, US Secretary of State Marco Rubio had said there had not been a \"pause\" to intelligence sharing. \"I don't know where [Zelensky is] getting these things or why he's saying these things to the press,\" he told reporters on Monday. Rubio said he could not comment on the incident, adding: \"I know a few nights ago there was a software problem involving their early warning system.\" The BBC has contacted Starlink for a response. A White House official said there were no changes to intelligence sharing operations between the US and Ukraine. The official spoke on background to discuss intelligence matters. Trump is focused on ending the war, the official said, and added that the US has provided more aid to Ukraine than any other country. Russian attacks continued late on Monday, with Ukrainian officials saying at least six people were killed - including a toddler in her pram and an 11-year-old girl - in a drone strike near a park cafÃ© in the north-eastern Kharkiv region. Zelensky described the attack in which another 14 people were injured as \"absolute atrocity\". Related topics Ukraine War in Ukraine Volodymyr Zelensky United States Donald Trump More on this story Why is Starlink internet so important on the battlefield in Ukraine? Published 4 days ago Inside the shadowy world of anti-Putin sabotage from within Russia Published 1 day ago",
+      "page_sha256": "efb6cb278e608727aa581f095f5b7eb08b96097d18f7046a7296a390e0e70d42",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "event_id": "d1e327b913f3a3dd",
+      "event_sources": [
+        {
+          "title": "Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC News"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 55,
+      "title": "Florida DMV hacked after police dept insecurely stored login info",
+      "url": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/",
+      "summary": "Florida issues alerts after statewide DMV data breach linked to ShinyHunters.",
+      "date": "2026-10-19T16:38:13+00:00",
+      "publisher": "Ars Technica - All content",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:10:16.432943+00:00",
+      "resolved_url": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/",
+      "text": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav The Florida Department of Highway Safety and Motor Vehicles (FLHSMV) has begun notifying victims impacted by a recent data breach of driver’s license and motor vehicle data, but not everyone whose information was stolen will receive an alert. In a notice posted Friday, FLHSMV confirmed that it took “immediate steps” after discovering that “a malicious actor accessed certain department records on September 4, 2026, using compromised credentials.” There’s “no evidence” that data has yet been misused, the department said, but law enforcement “determined the information potentially affected includes driver license and motor vehicle data, to include document images, and other personal information.” FLHSMV is sending out letters to everyone affected, offering victims one year of credit monitoring from Sontiq, Inc. However, the state acknowledged that it may not have current contact information for many former Florida residents whose data was still being stored. Those potential victims can confirm if their data was stolen by emailing FLHSMV at customerinquiry@flhsmv.gov , officials said. For all current and former Florida residents, FLHSMV recommended taking precautions, including monitoring financial accounts and reviewing credit reports for any suspicious activity. In a thread on the Florida subreddit, several Floridians confirmed that they had already taken officials’ third recommendation and placed “a fraud alert or security freeze with major credit bureaus.” Some residents complained that they received notice only this week, even though the breach occurred more than a month ago. The breach was previously reported by news outlets. ShinyHunters linked to hack On a webpage describing the security incident, FLHSMV confirmed that an “international cybercriminal organization” was behind the breach but did not specify which group or how long they had access. Instead, officials claimed to have “promptly mitigated the breach, launched an investigation, and issued required notification to state authorities.” Mitigations included “blocking unauthorized access, resetting relevant user credentials, engaging cybersecurity professionals, and implementing additional safeguards to protect sensitive information,” FLHSMV said. Florida’s investigation is “ongoing,” officials said, but a cybercriminal group called ShinyHunters—which recently claimed credit for hacking the FBI —may have stolen the data. Last month, NBC Miami reviewed a dark web post in which ShinyHunters announced that it had hacked Florida’s DMV and given officials a September 11 deadline to negotiate a fee to stop leaks of the data. To prove the breach was real, ShinyHunters posted a photo of the “alleged driver’s license for late financier and convicted sex offender Jeffrey Epstein, a former Florida resident,” NBC Miami reported. But soon after that post was published, ShinyHunters made edits, removing all mentions of Florida, NBC Miami noted. Ian Gray, vice president of intelligence at the threat monitoring company Flashpoint, told NBC Miami this was a likely indication that Florida officials were negotiating with ShinyHunters to prevent a leak of the database. Police department leaked login FLHSMV did not mention ShinyHunters in its announcement and did not answer NBC Miami’s questions about the dark web post. In their announcement, officials said they would post an update when more information is available to share publicly. The hack appears to be unrelated to a major breach of 153 million US driver’s licenses involving a company called IDscan.net last month, NBC Miami reported. But both hacks highlight how easy it is to get access to millions of Americans’ personal information, which will only get easier as AI advances and simplifies the process of scanning for vulnerabilities, NBC suggested. In Florida’s case, “a criminal actor gained unauthorized access to a department system” by acquiring the “credentials from an employee of a local Florida law enforcement agency, who improperly stored the credentials on an electronic device,” FLHSMV’s FAQ said. Ashley Belanger Senior Policy Reporter Ashley Belanger Senior Policy Reporter Ashley is a senior policy reporter for Ars Technica, dedicated to tracking social impacts of emerging policies and new technologies. She is a Chicago-based journalist with 20 years of experience. 29 Comments",
+      "page_sha256": "3f09b9f3ebc8099fe5c07561680ccaa1365ab49b019079254412503e23235505",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "event_id": "469c26457d26dd92",
+      "event_sources": [
+        {
+          "title": "Florida DMV hacked after police dept insecurely stored login info",
+          "url": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/",
+          "publisher": "Ars Technica - All content"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 29,
+      "title": "Curfew imposed in parts of central Paris and other cities after rioting across France",
+      "url": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss",
+      "summary": "It comes after the country's interior minister admits that police \"lost control\" in some cities.",
+      "date": "2026-10-19T21:14:53+00:00",
+      "publisher": "BBC News",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:10:16.482145+00:00",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss",
+      "text": "Figure caption, Are the riots in France a warning of an intense election to come? By Jaroslav Lukiv Published 19 October 2026 French authorities have imposed overnight curfews in parts of central Paris and other cities after a weekend of riots and looting across the country. Police in Paris said a curfew would be in force between 23:00 local time (21:00 GMT) and 06:00 in Place de la RÃ©publique, where protesters had gathered over the weekend, and the Les Halles shopping area. A ban on unauthorised gatherings has also been imposed in several other parts of the city centre. Partial curfews variously restricting the movement of young people and gatherings were announced for cities including Marseille, Bordeaux, Nice and Lyon in the south as well as Lille and other towns in the north. Earlier Interior Minister Laurent NuÃ±ez, who has been strongly criticised by opposition politicians over the preparedness for the disorder but whose resignation was rejected by President Emmanuel Macron, admitted police had \"lost control\" in some cities. The protests began last month with students demanding better school conditions, but they have since escalated to take in a broader range of concerns, with numbers at demonstrations this weekend bolstered by trade unions and various protest groups. More than 2,500 people have been arrested, officials said. One demonstrator's hand was blown off by a police crowd-control grenade, according to the AFP news agency. About 1,000 police officers were injured. Following a crisis meeting on Monday, the prime minister said local mayors were being given the power to implement curfews \"where they need\", without specifying which cities where they would be enforced. Prime Minister SÃ©bastien Lecornu, who did not rule out imposing a state of emergency in the country, said the government would also set aside money to help affected areas recover from the damage, and the funding would be recovered from those behind the violence. \"There will be a law that will be put in place to find ways of making sure that those who have damaged properties will have to pay,\" Lecornu said. He also announced a partial unemployment fund for those who could not work as a result of the riots and looting. Image source, AFP via Getty Images Image caption, French police officers stop a vehicle entering the curfew zone in Lyon Meanwhile, NuÃ±ez said 200 investigators were analysing CCTV footage to try to identify possible ringleaders. He attempted to resign on Sunday, but Macron refused \"given the need for continued command of law enforcement\", the ÃlysÃ©e Palace said. The statement said NuÃ±ez should be transparent over what Macron called \"intelligence and foresight failings\". More than 2,000 shops and other businesses have been directly impacted by the weekend's violence, the head of France's Chambers of Commerce and Industry (CCI) says. Its head Alain Di Crescenzo told France's broadcaster RTL that damage from the riots was estimated at \"hundreds of millions of euros\". Jean-Luc Chauvin, the president of the CCI's Marseille branch, told the BBC that many of the city's shop owners were in \"deep distress\" and fear for their survival. Looted goods have been listed on certain selling platforms, two French government ministers said. A Vinted spokesperson said the sale or solicitation of stolen goods was \"strictly prohibited\". \"Since this weekend, our teams have taken immediate action to identify and remove listings linked to the looting, and we have stepped up monitoring of suspicious listings,\" it said. Vinted blocks French looters listing stolen goods for sale Published 10 hours ago Figure caption, 'Very upsetting': Residents in shock after historic French town hall set alight Some 550,000 demonstrators took to the streets over the weekend for protests against rising fuel prices, the cost of living and deteriorating public services, including schools. Groups of rioters, some dressed in black and wearing masks and balaclavas, were seen setting fire to cars and buildings and looting businesses in Paris, Marseille and other cities and smaller towns. In the central city of Limoges, the ornate 19th Century city hall was gutted by a fire started by rioters on Saturday, its clock tower and roof collapsing as the flames took hold. The US Embassy in France has issued an alert advising its citizens to avoid areas affected by the recent demonstrations. The warning says to \"exercise caution\" if they find themselves close to large gatherings. China and Germany have issued similar warnings. Some politicians have accused the left-wing La France Insoumise party of playing a role in the violence, with Lecornu alleging in an earlier news conference that some groups \"want to create chaos in our country up until the presidential elections\". The party's leader Jean-Luc MÃ©lenchon, who will stand in next year's presidential election, responded by calling for the French PM to \"prove his accusation\" or \"apologise, shut up, and stop stoking disorder\". Related topics Paris Marseille Europe Lyon France More on this story Katya Adler: France's government under pressure after weekend of widespread violence Published 19 hours ago Are student protests being manipulated ahead of France's presidential election? Published 4 days ago Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting Published 1 day ago",
+      "page_sha256": "94715e3bafd58e8d8b821494621bf97156a88fde9480d3bec1affcc6b1f4fb1a",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "event_id": "0a6c23603c916ccf",
+      "event_sources": [
+        {
+          "title": "Curfew imposed in parts of central Paris and other cities after rioting across France",
+          "url": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC News"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 34,
+      "title": "Ex-OpenAI worker accused of planting device had Saudi support, says court filing",
+      "url": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Saudi government did not immediately respond to BBC requests for comment.",
+      "date": "2026-10-19T21:12:30+00:00",
+      "publisher": "BBC News",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:10:16.651591+00:00",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss",
+      "text": "Image source, Reuters/DOJ By Laura Cress Technology reporter Published 19 October 2026 A Saudi national charged with secretly planting a recording device in one of OpenAI's meeting rooms has been accused of having \"considerable support\" from the Saudi government, according to a court filing , external in California. US prosecutors claimed Abdulrahman Alfozan, who worked for the AI firm, was in \"frequent communication... with a member of the Saudi royal family\", and say a member of the country's military paid for a one-way flight to Saudi Arabia for his wife and son after his arrest. The 35-year-old engineer was on Monday deemed a flight risk and denied bail, pending trial. The Saudi government did not immediately respond to BBC requests for comment. Alfozan had worked at OpenAI for around a year before he allegedly made his attempt to plant an audio recorder. The AI company discovered the device, which was plugged into the back of a TV in a conference meeting room and covered up with toilet paper, on 30 September. A camera was placed in the room and on 5 October, Alfozan was filmed entering and appearing to look behind the television where the audio recorder had been inserted. He was arrested by the FBI on 9 October and his contract with OpenAI was terminated. The court filing claimed the suspect's alleged conduct could pose \"a danger to the national security of the United States\", because executives from the tech firm met with government officials in the room during the days the device was believed to have been installed. It said Alfozan's arrest came three days before he was scheduled to fly from San Francisco to Riyadh on a one-way itinerary with his wife and son. Following the arrest, the document claims the defendant's wife told FBI agents who interviewed her that \"her US visa was expiring\" and so she and her son were \"permanently moving back to Saudi Arabia\", and her husband intended to do the same. On 10 October, the day after Alfozan was arrested, his wife and son flew from San Francisco to Doha, Qatar. They travelled on a one-way business class ticket booked and paid for by a Saudi military official. \"Ultimately, the defendant has little incentive to remain in the United States to see this case through,\" the prosecutors argued. US district judge Alex Tse on Monday denied Alfozan's attorneys request for his release on bail, saying \"there is a risk of non-appearance that is significant\". The FBI investigation is ongoing. Alfozan was scheduled to âappear â in federal court in San Francisco later on Monday. If convicted, he faces a maximum penalty of five years in prison and a $250,000 (Â£188,000) fine. Sign up for our Tech Decoded newsletter to follow the world's top tech stories and trends. Outside the UK? Sign up here . Related topics Artificial intelligence United States Saudi Arabia More on this story Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer Published 5 days ago",
+      "page_sha256": "eae86f937a6c40fec31dcc4c3e645852336da4f1c52e1a76d7fb2c3a1ad0a4aa",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "event_id": "fdbf94b25f664247",
+      "event_sources": [
+        {
+          "title": "Ex-OpenAI worker accused of planting device had Saudi support, says court filing",
+          "url": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC News"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 49,
+      "title": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
+      "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+      "summary": "US fears Saudi government will help ex-OpenAI engineer flee spying charges.",
+      "date": "2026-10-19T20:21:53+00:00",
+      "publisher": "Ars Technica - All content",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:10:16.722359+00:00",
+      "resolved_url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+      "text": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav On Monday, a court granted the US government’s request to deny release of a former OpenAI engineer accused of bugging a top-secret conference room to steal the frontier lab’s secrets. In a court filing Sunday, US attorney Craig Missakian argued that Abdulrahman Alfozan must continue to be detained while the US makes its case that Alfozan brazenly spied on OpenAI, either for his own personal business gain or to benefit the Kingdom of Saudi Arabia. Evidence showed that Alfozan had been chatting with a member of the KSA royal family on WhatsApp, while pursuing opportunities to permanently move back to Saudi Arabia during the country’s biggest AI push yet, the government argued. Shortly before his arrest, the FBI found he accessed a folder called “Saudi Gov Docs” on his iPhone, where he also allegedly stored photos of a second bug he planted in the offices. With so much evidence against him, Alfozan—a Saudi national and US permanent legal resident—is a flight risk with seemingly endless support from the Saudi government, Missakian alleged. The FBI arrested Alfozan days before he could hop a plane, Missakian said. The US attorney noted that Alfozan had already booked a one-way ticket for him, his wife, and their baby to Riyadh, Saudi Arabia’s capital. That ticket was allegedly “paid for by the Saudi government.” Following his arrest, his wife and son booked a sooner flight and immediately left the US without him. Once again, the US found “a member of the Saudi military booked and paid for yet another one-way ticket for the defendant’s wife and son, this one business class to Doha, Qatar.” After receiving “significant compensation from a decade of high-tech employment in the Bay Area,” Alfozan has “ample resources” to run away to Saudi Arabia, the US government alleged. He also has “at least two bank accounts in Saudi Arabia,” the government said. To support their request to detain Alfozan, the government pointed to a case where former Twitter employees were charged with spying for the Saudi government . Charges are still pending against one of the ex-Twitter staffers, Ali Alzabarah, the US said, partly because “a Saudi foreign official” helped “coordinate a next-day flight to Saudi Arabia” shortly after Twitter confronted him. Because Alfozan would presumably have “little incentive to remain in the United States to see this case through,” Missakian asked the court to order his detention pending trial. “Although FBI agents seized the defendant’s Saudi passport when they arrested him, there is nothing to stop the defendant, if he is released, from obtaining any necessary travel documents and fleeing the United States—with or without the help of a foreign government that has previously assisted its citizens depart the United States under similar circumstances,” Missakian’s filing argued. On Monday, Magistrate Judge Alex G. Tse agreed at a hearing that Alfozan should remain detained while mounting his defense, Business Insider reported . Alfozan’s alleged escape plan When Alfozan was arrested, he was living at home with his family in California. Since moving to the US in 2009, he’d received technical degrees from MIT and UC Berkeley. After more than a decade working in Silicon Valley, OpenAI eventually hired him “as an engineer in or around July 2025 with an annual base salary of $325,000,” the government’s court filing said. He also got “a new hire equity grant of $2,200,000 in profit participation units.” Allegedly, Alfozan’s scheming against OpenAI started in the months after his hiring. Without detecting anything was amiss, OpenAI was preparing to grant Alfozan parental leave. His wife’s student visa had expired, and he planned to use his two months of paid time off to help her permanently move back to Saudi Arabia with their baby, the US filing said. But he didn’t make the flight. About two weeks prior to the booking, OpenAI found a recording device hidden in a conference room. That device, the US court filing confirmed, was there for “at least multiple days” and had been in place during a top-secret meeting with US government officials. “In the days surrounding the time period that the device was installed, OpenAI executives met with government officials in that very room,” the filing said. “Defendant’s conduct could pose a danger to the national security of the United States.” In their complaint, the US alleged that Alfozan used an OpenAI productivity agent to research which conference rooms might be best exploited for his spying. Logs suggested that he also used his wife’s personal ChatGPT account to research ways to modify his covert recording devices so they would auto-record when detecting speech and allow remote access controls. After his arrest, Alfozan refused to speak to the FBI, requesting his attorney. However, his wife confirmed that she had seen her ChatGPT account open on his laptop when asked about her plan to move back to Saudi Arabia, the government’s filing said. FBI uncovers “Saudi Gov Docs” folder The government’s motion for Alfozan’s detention included more details than previously reported from the search of Alfozan’s house. In addition to finding recording devices similar to the ones planted in OpenAI offices, the FBI allegedly found evidence that Alfozan had planted at least one other bug. Photos on Alfozan’s iPhone depicted “at least one additional concealed recording device as well as what appear to be the input/output panels on televisions and other electronic devices in various locations in OpenAI buildings, including another conference room where sensitive meetings frequently occurred,” the filing said. OpenAI and the US government are both aware that Saudi Arabia has dedicated this entire year to advancing its AI through an effort called “Vision 2030.” Sam Altman himself joined Donald Trump at a summit where the Saudi government’s AI push was celebrated. However, the US is very guarded about American frontier labs. The FBI therefore found it particularly concerning that Alfozan’s phone showed WhatsApp logs where “a member of the Saudi Royal Family” seemed to be recruiting Alfozan. Those logs date back to 2025, the same year he started at OpenAI, and continued up until October 5. They included an exchange where Alfozan responded “100” to a message urging that “Saudi needs you more then [sic] the US!” His iPhone browser activity was similarly revealing, the US alleged. On October 4, Alfozan accessed a folder called “Saudi Gov Docs,” the FBI found. The US did not make public what was in the folder, but they did explain what Alfozan did after accessing the folder, which suggests he may have been aiding the Saudi government. Logs showed that Alfozan used OpenAI’s productivity agent to find out “who from OpenAI could be suitable to attend a high level informal meeting with ministers in Saudi Arabia? List 10 people and why each. Ideally high levels.” “Every incentive to flee” Although Alfozan only faces a maximum sentence of five years for illegally recording OpenAI’s meetings, the government said that it expects it may raise more serious charges as evidence mounts. “Here, the nature and circumstances of the offense are indisputably serious,” the filing said. “The defendant went to significant lengths to create customized, encrypted recording devices to secretly record highly sensitive meetings involving senior OpenAI personnel and executives, high-level business counterparts, and government officials, all while communicating with individuals of significance in Saudi Arabia and pursuing opportunities in—and making plans to travel to—Saudi Arabia.” The US said it’s possible that Alfozan was acting on his own but suggested that it didn’t matter if the government could prove he planted the bugs while working for the Saudi government. “Whether the defendant wanted to record OpenAI meetings to enrich himself by enhancing his own business prospects, or to provide aid [to] a foreign government, or both, his conduct is criminal and it presents a danger to innovation in the Silicon Valley and a concern for the national security of the United States,” the US argued. Asking the court to deem Alfozan a flight risk, the US argued that Alfozan “has every incentive to flee” and use the information he allegedly stole at OpenAI to possibly emerge as a talent advancing Saudi Arabia’s AI goals. “He faces prison time in the United States,” the filing said. “His wife and son are now in Saudi Arabia and have no plans to return. He has the resources to flee. He has the connections needed not only to flee, but to build a new life in Saudi Arabia.” Ashley Belanger Senior Policy Reporter Ashley Belanger Senior Policy Reporter Ashley is a senior policy reporter for Ars Technica, dedicated to tracking social impacts of emerging policies and new technologies. She is a Chicago-based journalist with 20 years of experience. 50 Comments",
+      "page_sha256": "3b74373811fdcbf200d253c2acc039da6a308c5366bf5fe48ed011ff783c4845",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "event_id": "2629c36fb4ce1428",
+      "event_sources": [
+        {
+          "title": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
+          "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+          "publisher": "Ars Technica - All content"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 52,
+      "title": "Startup taps underwater volcano as energy source in \"proof point\" test",
+      "url": "https://arstechnica.com/science/2026/10/startup-taps-underwater-volcano-as-energy-source-in-proof-point-test/",
+      "summary": "Can undersea geothermal power help Pacific Rim nations cut down on oil imports?",
+      "date": "2026-10-19T19:27:24+00:00",
+      "publisher": "Ars Technica - All content",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:10:16.783341+00:00",
+      "resolved_url": "https://arstechnica.com/science/2026/10/startup-taps-underwater-volcano-as-energy-source-in-proof-point-test/",
+      "text": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav The world’s first demonstration of a subsea geothermal power plant has taken place near an active underwater volcano almost a mile below the ocean surface. It generated less than 10 seconds of net-positive electricity but showed the technical feasibility of tapping another form of renewable energy underwater. The three-week test deployment of the 3-ton prototype power plant took place at the Axial Seamount in the northeast Pacific Ocean in September. Endurance Energy, the Seattle-based startup behind the effort, aims to eventually commercialize subsea geothermal power for Pacific island nations and other customers looking for alternatives to importing expensive fossil fuels. “The deep ocean gives us unlimited cold seawater for cooling, and its weight keeps the system and the well pressurized, so our plants can be compact,” said Andrew Redd , founder and CEO of Endurance Energy, in an email to Ars. But efforts to tap geothermal power on the seafloor face many different challenges from land-based geothermal projects, which can also add up to higher installation and operational costs. So Endurance Energy must demonstrate consistent underwater operations as well as prove the approach can be cost-effective. “It’s probably technically feasible, but it would undoubtedly be more expensive than to do it on land,” said Roland Horne , professor of energy science & engineering at Stanford University, in an emailed response to Ars. Deep sea drilling Endurance Energy’s deployment required a subsea lander drill to deploy from the ship Ocean Guardian —operated by Stabbert Maritime—and drill two holes in the seafloor at a depth of about 5,000 feet (1,524 meters). That means the test took place at a depth exceeding 2.5 times the height of the One World Trade Center building in New York City, which is the tallest building in the United States. Both the drilled holes started venting hot hydrothermal fluid measured at a temperature of about 500° F (260° C). The Endurance Energy team proceeded to case and cement the second hole before installing a valve to create a well. Next up, the company deployed its 100-kilowatt power plant, named Adélie, that is designed to vaporize incoming hydrothermal fluid to spin a turbine and drive an electric generator. It used the assistance of Canada’s remotely operated submersible ROPOS to help connect the power plant to the newly drilled well. Adélie also connected to Endurance Energy’s Seattle command center by plugging into the Regional Cabled Array , a 559-mile (900-kilometer) network of undersea fiber-optic and electric cables that provides both power and connectivity to scientific sensors on the seafloor. The undersea network is funded by the US National Science Foundation and is operated by the University of Washington. That all set the stage for the Adélie power test. But a major hitch soon arose—the drilled well extending 52 feet (16 meters) down into the seafloor was not delivering enough of the hydrothermal fluid to run the power plant. “For our first well, the goal was to show we could drill, case, cement, and cap a well on the seafloor, so we kept it small and shallow,” Redd explained. “That limited how much fluid it could deliver, and deeper wells should change that.” The test well was also just 2 inches (5 centimeters) wide, compared to oil, gas, and onshore geothermal wells that typically have casings 20 to 36 inches (51 to 91 centimeters) across. Endurance Energy plans to avoid this issue in the future by drilling deeper wells to access more fluid. The company’s current lander drill can reach about 260 feet (80 meters), which would be five times deeper than the initial test well. Powering on To try running the Adélie power plant anyway, the team redeployed it to a nearby natural vent where hydrothermal fluid was already flowing out at about 538° F (281° C). On September 27, they gave it a try. Over nearly half a minute, the power plant turbine reached about 26,000 rpm and enabled the generator to produce 60 watt-hours of electricity. The power plant also became net-positive by producing more electricity than it consumed for about 8.7 seconds. It produced a median of about 2 kilowatts of net power and peaked at 16.5 kilowatts of net power. “It’s the proof point,” Redd told Ars. “Net-positive is the threshold that matters: the plant made more power than it took to run itself on the seafloor, which no one had done before.” The 100-kilowatt power plant named Adélie was designed to tap geothermal energy from the seafloor. Credit: Endurance Energy The 100-kilowatt power plant named Adélie was designed to tap geothermal energy from the seafloor. Credit: Endurance Energy But then a software issue brought the power run to a halt. Before the generator takes over, Adélie first relies on a battery to run its pumps, thrusters, and controls, along with spinning the turbine to get it up to speed, Redd explained. A battery module recorded a brief spike in current during the spin-up process and then stopped reporting. That prompted Adélie’s software to automatically stop the power plant as a safety precaution, because it kept relying on the old reading from the battery module. When the team was restarting the power plant, a power cable feeding the refrigerant pump also failed when an imperfection in the cable casing allowed seawater to seep in and short two of the electrical conductors. That ended the trial run, although Endurance Energy already plans to use the experience to improve how it builds and tests subsea cables. Future deployments Placing the geothermal plant on top of a natural hydrothermal vent was a one-time test for purely research and demonstration purposes, Redd said. His company still plans to rely on drilled wells in future deployments. Endurance Energy also described taking steps to reduce potential environmental impacts on the seafloor and marine life. The team described choosing the “least disruptive” site for the test run and continuously monitored the process by sampling the water and recording the seafloor array of tubeworms, snails, crabs, and bacterial mats. It also checked findings against scientific sensors run by independent researchers and sent water, rock, and mineral samples for independent lab analysis. The company’s next trial run planned for the winter of 2026—2027 will involve a refurbished and upgraded Adélie—renamed Gentoo in keeping with the penguin-inspired naming—that will aim to sustain higher power generation. The company is also developing a larger 2-megawatt commercial generator for its first planned commercial deployment with the Kingdom of Tonga in 2027. The Polynesian island nation in the South Pacific Ocean runs its power grid primarily on imported diesel fuel, which has significantly increased in price since the United States and Israel launched their war with Iran . “The 2 MW commercial generators will be about the size of a shipping container, and we are deploying up to six of these generators [to] offshore Tonga,” Redd told Ars. “The physical footprint of this project will be relatively small.” Geothermal energy projects are already cost-effective on land but “on the edge of competitive pricewise,” said Horne at Stanford University. So he cautioned that any factors making geothermal more expensive would “push it to the noncompetitive side.” Still, other customers may consider Endurance Energy’s approach if the company can demonstrate reliable operations over time with the Kingdom of Tonga. The skyrocketing cost of imported fossil fuels is a huge factor that has already spurred multiple governments to invest in more renewable energy alternatives. “Large markets with ample offshore geothermal resources include the United States—Pacific Northwest and Alaska—Taiwan, and Japan,” Redd said. “As the technology matures, we expect to compete on cost and deliver continuous, weather-independent power to utilities and large energy users.” Jeremy Hsu Tech Reporter Jeremy Hsu Tech Reporter Jeremy Hsu is a reporter exploring a wide range of topics across deep tech and AI. He has previously written for New Scientist, Scientific American, IEEE Spectrum, Wired, Undark Magazine and MIT Tech Review, among many other publications, about topics such as deepfakes, data centers, drones, battery tech, robotics, and GPS jamming. He also has a Master of Arts in Journalism from NYU, and a bachelor's degree from University of Pennsylvania in History and Sociology of Science, with a minor in English. 19 Comments",
+      "page_sha256": "3b0c9df771b2bb5b7c5bb432ba2e470f3c372efc62d56d6c918dc88896932cd1",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "event_id": "b46b4beac3601608",
+      "event_sources": [
+        {
+          "title": "Startup taps underwater volcano as energy source in \"proof point\" test",
+          "url": "https://arstechnica.com/science/2026/10/startup-taps-underwater-volcano-as-energy-source-in-proof-point-test/",
+          "publisher": "Ars Technica - All content"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 36,
+      "title": "Houthi missile strike on Yemen camp kills 50 security recruits, local authorities say",
+      "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss",
+      "summary": "Three missiles hit a camp in government-controlled Shabwa province that officials say was being used as a training centre for new recruits.",
+      "date": "2026-10-19T16:20:51+00:00",
+      "publisher": "BBC News",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:10:16.709115+00:00",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss",
+      "text": "Image source, AFP Image caption, Yemen's government said the missile strike killed recruits to its internal security forces (file photo) By David Gritten Published 19 October 2026 More than 50 security personnel have been killed and 200 injured in a Houthi missile strike on a camp in Yemen's central province of Shabwa, local authorities say. A spokesman for the Saudi-backed Yemeni armed forces said the Iran-backed group launched three ballistic missiles at al-Alam camp near Ataq city, which was being used as a training centre for recruits to the security forces and police. The head of Yemen's Presidential Leadership Council, Rashad al-Alimi, condemned what he called the \"criminal attack\" and promised a \"firm response\". The Houthis' military spokesman said they had targeted \"Saudi enemy concentrations\". Yemen's devastating civil war has flared up in recent months. At the start of October, pro-government forces launched a major offensive that aims to retake territory in western Yemen that is controlled by the Houthis. With air support from a Saudi-led coalition of Arab states, they managed to regain control of territory on the Red Sea coast that overlooks the strategically important Bab al-Mandab Strait, which the Houthis captured in a surprise assault in September. However, fierce fighting is continuing there, as well as around the besieged government-controlled city of Taiz, and to the north in Marib and al-Jawf provinces. The Houthis have also responded to the Saudi air strikes by launching missiles and drones at airports, energy facilities and military bases in neighbouring Saudi Arabia. Houthi missile attack on Yemeni presidential palace kills five, minister says Published 4 days ago On Yemen's desert battlefield, a war with global consequences is being waged Published 12 October 'We are terrified but we want to get an education', say Yemeni schoolgirls Published 6 October Monday's attack in Shabwa is one of the deadliest reported since the start of the escalation. Shabwa province's media office said in a statement that ballistic missiles struck the Martyr Ahmed al-Sulaimani Training Centre, where recruits from several provinces were undergoing training to be members of the internal security forces. According to a preliminary assessment, 53 were killed and more than 200 injured, it added. A video posted on social media appeared to show several bodies scattered across the ground. Shabwa's deputy governor, Fahad al-Khalifi, told AFP news agency that hospitals in the province were overwhelmed and had been forced to transfer the most seriously wounded to neighbouring Hadramout and Aden, where the government is based. Some of them were in a critical condition, he said. Information Minister Moammar al-Eryani said the attack constituted a war crime because the internal security forces training centre was not a military target. He also accused the Houthis of \"attempting to fabricate a false media victory, boost the morale of its collapsing elements, and cover up the defeats and setbacks it is suffering across various combat axes\". The Houthis' military spokesman, Yahya Sarea, said in a statement that the missiles targeted a gathering of \"Saudi enemy\" forces at al-Alam camp, which he said was run by Saudi officers. There was no immediate comment from Saudi authorities. In a separate development, Houthi-run media reported that a Saudi air strike on a home in the Sahar district of the Houthi-controlled northern province of Saada on Sunday killed at least 10 people and injured 23 others, many of them women and children. According to the Houthi-run health ministry in north-western Yemen, a total of 141 people had been killed in Saudi strikes over the past seven weeks. The government's health ministry, meanwhile, said last week that at least 1,282 people had been killed in the conflict across Yemen since 6 August. In Saudi Arabia, at least 19 people have been killed in Houthi attacks targeting the kingdom's airports since the beginning of October. Yemen has been devastated by a civil war that began in 2014, when the Houthis ousted the government from the capital, Sanaa. The conflict escalated in 2015, after the Saudi-led coalition intervened in an attempt to restore the government's rule. A four-year-old informal ceasefire began to unravel in July, when the Houthis announced a \"maritime embargo\" against Saudi Arabia and began missile and drone attacks on Saudi airports, oil facilities and tankers in the Red Sea. The Houthis said they were retaliating for what they call a Saudi blockade of their territory, as well as an air strike on Sanaa airport that they blamed on the kingdom. Related topics Yemen Yemen crisis Saudi Arabia Houthis",
+      "page_sha256": "756a8375cbdd0f7f10d14eff0e3016a6f12dec9251b6056fe3e1066c3efb6fd6",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "event_id": "33cf521e8c3e73c9",
+      "event_sources": [
+        {
+          "title": "Houthi missile strike on Yemen camp kills 50 security recruits, local authorities say",
+          "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC News"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 38,
+      "title": "Obama blasts federal probe of congresswoman Ilhan Omar as 'so appalling'",
+      "url": "https://www.bbc.co.uk/news/articles/cr15jl7dd42vo?at_medium=RSS&at_campaign=rss",
+      "summary": "Obama says federal agents' search of the Democrat's home was an effort to intimidate a Trump critic.",
+      "date": "2026-10-19T16:16:51+00:00",
+      "publisher": "BBC News",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:10:20.415944+00:00",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/cr15jl7dd42vo?at_medium=RSS&at_campaign=rss",
+      "text": "Image source, Getty Images By Lisa Lambert Published 19 October 2026 Barack Obama has said congresswoman Ilhan Omar is under federal criminal investigation simply because she's an outspoken critic of the President Donald Trump. \"The full weight of the federal government is being brought down on a law-abiding elected official because she has dared to criticize the president,\" the former US president wrote on X, calling the probe \"so appalling\". The White House defended the inquiry, saying the justice department was \"focused on restoring law and order\". Last week, homeland security agents searched the Minnesota Democrat's Washington DC home as part of an investigation into her immigration status. Born in Somalia, Omar moved to the US with her family as a child. US media outlets have reported that the probe is tied to her American citizenship and whether she lied about her age when she arrived in the US in 1995. Questions have been raised about whether the age listed on Omar's citizenship application differed from her actual birth date. Obama said in his X post on Sunday that her father became a naturalised citizen when she was 17, and not yet legally an adult, which then gave her citizenship. \"Now the Administration is actively trying to deport Congresswoman Omar, seemingly based solely on the unsubstantiated theory that she was actually 18 when her father was naturalized, and therefore is not a citizen,\" he wrote. \"If this becomes the new normal,\" he added, \"there's no reason to believe it will stop with her - or that future presidents, in either party, won't do the same.\" According to the US Citizenship and Immigration Services, a child born outside of the US automatically becomes a citizen when he or she has at least one parent who is a citizen by birth or naturalisation, or he or she is under the age of 18, and is a lawful permanent resident living in the custody of a citizen parent. White House spokeswoman Lauren Bis denied the investigation was politically motivated. \"Unlike Joe Biden, President Trump has not weaponized the Department of Justice against his political foes,\" she said in an emailed statement to the BBC. \"The Department is focused on restoring law and order and keeping Americans safe.\" Trump has often argued that federal criminal investigations against him as he campaigned for re-election were politically motivated. The investigation into Omar could lead to the justice department seeking to \"denaturalise\" her, or revoke her citizenship. It would have to prove there were material lies in the naturalisation process. In 2023, Republicans removed Omar from the House Foreign Affairs Committee for comments and tweets she made about Israel, which drew bipartisan criticism. Omar has said that Trump has targeted her for years with \"baseless lies and smear campaigns\" and called the investigation \"the latest escalation in his campaign of political intimidation\". But Trump has said the investigation had \"nothing to do\" with him, while describing Omar as a \"terrible person\" and a \"complainer\". Federal agents reportedly seized her phone, computers, notebooks and passport in the raid a week ago. Her lawyers have demanded the government return her belongings, CBS News, the BBC's US partner, has reported, arguing in a letter sent on Friday that the seizure of property had violated restrictions put in place by a judge to protect her work as a federal lawmaker. The lawyers also alleged agents did not duly notify Omar or the House of Representatives general counsel that a search would be taking place and kept her from contacting her attorney for more than an hour, according to CBS. Democrats characterised the raid as the president attempting to interfere with the legislative branch of government. Republicans, meanwhile, have said Omar should be treated the same as anyone else under the law. When Obama first ran for president, and throughout his two terms in the White House, Trump repeatedly raised questions about his citizenship, asserting he was not born on American soil and was disqualified from serving in office. Obama released two records proving he had been born in Hawaii. Obama did not mention that history in his X post on Sunday. Related topics Ilhan Omar US Congress United States Barack Obama US immigration Donald Trump US politics More on this story What we know about the criminal investigation into US congresswoman Ilhan Omar Published 4 days ago",
+      "page_sha256": "489ee4a266443d62cda8dd2326b8f2e66336dd4c7dab514fa53f98dc7cf945dd",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "event_id": "bdd036040bf5e5cb",
+      "event_sources": [
+        {
+          "title": "Obama blasts federal probe of congresswoman Ilhan Omar as 'so appalling'",
+          "url": "https://www.bbc.co.uk/news/articles/cr15jl7dd42vo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC News"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 6,
+      "title": "Stort vapentillslag – hittade 31 vapen hos man",
+      "url": "https://www.svt.se/nyheter/lokalt/smaland/stort-vapentillslag-hittade-31-vapen-hos-man",
+      "summary": "En man i 35-årsåldern utan vapenlicens, boende i Vimmerby kommun, hade gevär, pistoler, revolvrar och en kulspruta hemma i sin bostad och i en lagerlokal. Nu misstänks han för flera brott. – Det är ett av de större vapenbeslagen som gjorts i Sverige, säger åklagare Jacob Semark.",
+      "date": "2026-10-19T16:09:02+00:00",
+      "publisher": "SVT Nyheter",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:10:16.437018+00:00",
+      "resolved_url": "https://www.svt.se/nyheter/lokalt/smaland/stort-vapentillslag-hittade-31-vapen-hos-man",
+      "text": "Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd I videon visas några av de vapen som beslagtagits av polisen. Foto: Polisen Stort vapentillslag – hittade 31 vapen hos man Uppdaterad igår 18:36 Publicerad igår 18:09 En man i 35-årsåldern utan vapenlicens, boende i Vimmerby kommun, hade gevär, pistoler, revolvrar och en kulspruta hemma i sin bostad och i en lagerlokal. Nu misstänks han för flera brott. – Det är ett av de större vapenbeslagen som gjorts i Sverige, säger åklagare Jacob Semark. Mannen greps den 30 december 2025 och har suttit häktad sedan i januari tidigare i år. Det var när civila poliser fattade misstankar om att mannen var narkotikapåverkad och kunde ha narkotika i sin bostad som en husrannsakan genomfördes och vapnen hittades. Flera av dem var fungerande skjutvapen. – Han har sagt att han fått vapnen och föremålen av släktingar, säger Jacob Semark, åklagaren i fallet. Vad säger du om den förklaringen? – Jag kan inte ge någon förklaring på varför han hade vapnen, mer än att det kanske är som han säger, men han får ändå inte ha vapnen. Han har ingen vapenlicens. Mängder av nazistföremål i bostaden På bilder i förundersökningsprotokollet syns även stora mängder nazistföremål i mannens bostad, bland annat en byst av Hitler, flera nazistiska flaggor och nazistuniformer. Det finns även bilder och videor på när han heilar, uttalar nazistiska slagord och poserar med SS-flaggor. – Det har vi givetvis tittat på, men utredningen har inte kunnat ge något svar på syftet, men han säger själv att han är intresserad av andra världskriget, säger Jacob Semark. Är han nazist? – Det kan jag inte säga att man kan belägga, men han har ett intresse för det. Har ni utrett om han är del av något kriminellt nätverk? – Såvitt vi har kunnat, men det verkar inte som att han är det. Mannen själv förnekar att han är nazist och säger i förhör att det handlar om ”en skämtjargong” och satir. Nekar till brott Förutom olika vapen hittades även ett hölje till en bomb, elva pyrotekniska pjäser, tolv tårgasfacklor, signalpatroner och flera stubintrådar. Nu åtalas mannen för synnerligen grovt vapenbrott, brott mot vapenlagen, brott mot lagen om brandfarliga och explosiva varor och ringa narkotikabrott. Han nekar till brott. Mannens vapen enligt stämningsansökan: Tre enkelskottsgevär Ett enkelskottshagelgevär Ett luftgevär Tre cylinderrepetergevär Ett bygelrepetergevär Två halvautomatiska gevär Sex hagelgevär Två halvautomatiska hagelgevär Två pumphagelgevär En tårgas-/signalpistol En tårgas-/signalrevolver Två avkortade hagelgevär Tre halvautomatiska pistoler En revolver double-action En startpistol En kulspruta Flera vapendelar och en stor mängd ammunition, drygt 11 500 patroner, som passar till vapnen. Vapen Vapenbrott Vimmerby Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar. 1 min Följ med till Sveriges mest svårsålda tomt – har varit till salu i 20 år 48 sek Stort vapentillslag – hittade 31 vapen hos man 2 min Ali fick jobb erbjudande från IKEA – sedan drogs det tillbaka",
+      "page_sha256": "b74b2db9a505feec1aacaf1dbc3b89661ab4ab8c1cec830f53142f44243a09cc",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "event_id": "338b4ae8d8fd8c78",
+      "event_sources": [
+        {
+          "title": "Stort vapentillslag – hittade 31 vapen hos man",
+          "url": "https://www.svt.se/nyheter/lokalt/smaland/stort-vapentillslag-hittade-31-vapen-hos-man",
+          "publisher": "SVT Nyheter"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 43,
+      "title": "Italy plans tougher security measures after violent protests",
+      "url": "https://www.bbc.co.uk/news/articles/c6j9kwxxmxydo?at_medium=RSS&at_campaign=rss",
+      "summary": "The government crackdown comes after protests over rising costs broke out into violent clashes.",
+      "date": "2026-10-19T11:23:36+00:00",
+      "publisher": "BBC News",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:10:20.477312+00:00",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/c6j9kwxxmxydo?at_medium=RSS&at_campaign=rss",
+      "text": "Image source, Anadolu via Getty Images Image caption, More than 200 people were arrested across the weekend, according to Italian media By Hafsa Khalil Published 19 October 2026 Italian Prime Minister Giorgia Meloni is poised to approve emergency security measures, according to local media, after protests over rising costs broke out into violent clashes in Milan. The measures include extending preventative detention to minors and restricting group gatherings, Milanese paper Corriere della Sera reported. Police deployed tear gas and water cannons after protesters - many in masks - threw paving stones, bins and chairs at officers over the weekend. More than 250 people were detained, 80% of whom were minors, Italian police said. The expected crackdown comes after Meloni chaired an emergency security meeting on Monday afternoon. No official announcements have been made. More than 5,000 people gathered in Milan over the weekend. As well as clashes between police and some protesters, stores were looted and property was set on fire. High-end shops in the city's centre closed early on Monday, with many boarding up their windows over fears of further damage. Measures to crack down on youth gangs are expected to be approved as early as Tuesday as part of a decree law, according to Corriere della Sera. Local media reports suggest social media was used to invite young people to Italy's squares over the weekend. Rioting and violence have broken out on the sidelines of mostly peaceful youth-led protests in other European countries including France, Spain and Albania, in recent weeks. Milanese Mayor Giuseppe Sala said he was worried this represented a \"new phenomenon\" that \"originates from an international scenario and therefore feeds itself\". Speaking to Ansa, he said he witnessed \"smashed shop windows, looted stores, and frightened citizens\", adding that \"what happened here is what we are seeing in many cities around the world\". Of the 271 people taken to police stations on Sunday, 32 were arrested, including 23 minors, police said on Monday. A further 28 people were reported to judicial authorities. Italian media reported that people - including police officers - were injured. Violence between protesters and police also spread to other cities in the north. Meloni said people in Turin were detained while \"carrying cobblestones and window-breaking hammers\", while a train station in Bologna was closed as a precaution after similar disorder. \"To demonstrate is a right. To lay our cities to waste is not,\" Meloni said on Saturday, adding that \"hooligans\" had exploited the protests to \"sow chaos\". The prime minister - who is facing an election next year - also called on her political opponents to condemn the rioting. \"Do not be ambiguous about this,\" she said in a post on X, explaining that condemnation must be \"unanimous\" because \"any hesitation becomes justification\". Democratic Party leader Elly Schlein said her party had always condemned violence and that the rioting should not be used to stifle the voices of peaceful protesters across the country who are struggling to make a living, Ansa reported. The violent disorder followed anti-government protests held by students in various Italian cities on Friday, and echoed similar unrest in neighbouring France, where hundreds of thousands took to the streets. Related topics Italy Europe Giorgia Meloni More on this story Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting Published 1 day ago Katya Adler: France's government under pressure after weekend of widespread violence Published 19 hours ago",
+      "page_sha256": "f70e25595e94b6f76206d3d1ae95ae3c158e4ecc3624c739a71c4450f5e68418",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "event_id": "faa0bfeab431a1c0",
+      "event_sources": [
+        {
+          "title": "Italy plans tougher security measures after violent protests",
+          "url": "https://www.bbc.co.uk/news/articles/c6j9kwxxmxydo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC News"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 60,
+      "title": "Stratospheric airship flew from US to Japan to test sky cell tower concept",
+      "url": "https://arstechnica.com/gadgets/2026/10/trans-pacific-journey-tested-stratospheric-cell-tower-concept-in-japan/",
+      "summary": "Tests showed Sceye’s high-flying platform can deliver connectivity in disasters.",
+      "date": "2026-10-19T11:05:49+00:00",
+      "publisher": "Ars Technica - All content",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:10:16.841676+00:00",
+      "resolved_url": "https://arstechnica.com/gadgets/2026/10/trans-pacific-journey-tested-stratospheric-cell-tower-concept-in-japan/",
+      "text": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav Nearly 100 years after the dirigible Graf Zeppelin made the first nonstop airship journey across the Pacific Ocean, another airship has successfully completed a round-trip flight from New Mexico to Japan and back. But the significance of this modern feat was less about the journey’s length and more about its purpose: demonstrating how a lighter-than-air platform can act as a cell phone tower in the sky. The trans-Pacific flight that took place over a month between August and September 2026 was the most notable milestone yet for Sceye, a US aerospace company based near Albuquerque, New Mexico. Sceye has developed an uncrewed platform filled with helium for buoyancy and equipped with an electric-powered propeller for active propulsion, allowing it to resist most strong winds and keep hovering over the same location for long periods. The platform also uses top-mounted solar panels and onboard batteries to stay powered for stratospheric operations around the clock. “We can stay over an area of operation, and we do that in the stratosphere right around 60,000 feet, so we’re twice as high as air traffic and we’re above the jet stream, and yet 30 times closer than low-Earth orbit satellites,” Mikkel Frandsen , founder and CEO of Sceye, told Ars. “We can fly through day and night until the sun comes up the next morning and recharges the batteries, at which point we’re still at the same altitude and still over the same area of operation.” Flying higher There have been many past technology demonstrations and attempts to make stratospheric platforms commercially viable since the late 1990s, Frandsen said. In Sceye’s case, the company began testing a series of smaller prototypes in 2016 before eventually reaching the stratosphere with a 215-foot (65-meter) length version in 2021. The latest version extends to 270 feet (83 meters). The lighter-than-air platform has also benefited from advances in material sciences that “were either not discovered or not understood back in the late 1990s,” Frandsen said. He highlighted the example of the discovery of graphene in 2004, which “greatly helped us optimize strength relative to weight on our hull, the energy density of our batteries, and performance relative to the area and weight of our solar panels.” The design could eventually scale up to a high altitude platform system (HAPS) capable of lifting payloads as heavy as 551 pounds (250 kilograms). That would be between 25 and 50 times more payload capacity than competing stratospheric platforms like high-flying drones, according to Helena , a US nonprofit organization with a for-profit investment arm that has invested in Sceye. Sceye’s current platform has already done multiple flight demonstrations with payloads exceeding 220 pounds (100 kilograms) and can provide up to 1 kilowatt of onboard power capability for any devices that it may be carrying. A heavier payload and higher power capacity opens the door to bigger mission possibilities, such as someday using a single Sceye platform hovering in the stratosphere to provide mobile broadband coverage equivalent to 500 ground-based cell towers. That may prove useful for both enhancing commercial telecommunications services and providing emergency coverage during disaster scenarios. Sceye’s high-altitude platform system (HAPS) seen from inside its hangar after launching from New Mexico on August 9, 2026. Credit: Sceye Sceye’s high-altitude platform system (HAPS) seen from inside its hangar after launching from New Mexico on August 9, 2026. Credit: Sceye Crossing the Pacific The concept was put to the test after Sceye’s platform launched from its New Mexico base on August 9, 2026, and traveled more than 9,320 miles (15,000 kilometers) across the Pacific to reach Japan. That 13-day journey required the airship to navigate through strong winds and avoid potential bad weather “during a window of typhoon season,” said Johnny Truong , chief technology officer of Sceye. The stratospheric platform has an auto-navigation system that allows the airship to fly on its own between point A and point B while accounting for factors like local wind conditions, Truong explained. That frees up human operators to focus on big-picture decisions, such as monitoring weather forecasts, running flight simulations for possible paths, and then chaining together a series of navigational waypoints for the smoothest possible journey. The capability was first used during a previous 12-day flight from New Mexico to Brazil . But the monthlong mission to Japan and back—dubbed Service Test 1 (ST1)—was the longest test flight and deployment yet for Sceye’s platform. “There were times when our actual plan trajectory and flight path was disrupted by a change in the weather,” Truong told Ars. “So what it would do was actually just park itself at a safe, quiet place in the weather and just station-keep a while until it moved on.” The Sceye team monitors the performance of a high-altitude platform system (HAPS) during its roundtrip flight from New Mexico to Japan. Credit: Sceye The Sceye team monitors the performance of a high-altitude platform system (HAPS) during its roundtrip flight from New Mexico to Japan. Credit: Sceye Cell tower in the sky The arrival over Shikoku—the smallest of Japan’s four main islands—allowed Sceye’s uncrewed airship to show how it could provide mobile broadband service from an operational altitude of about 54,000 feet (16.5 kilometers) to smartphones, laptops, and even drones. That demonstration was performed in partnership with the Japanese telecommunications firm SoftBank Corp, which has also invested directly in Sceye. Sceye’s platform carried the equivalent of a 4G LTE base station for the demonstration, which simulated providing backup coverage in the case of an earthquake or similar large-scale disaster. ”It’s not the first time we flew a telco payload, but this is the first time where we actually flew into an area where we provide a live service,” Truong said. “What SoftBank did was, they disabled the cellular coverage area, and then we came in and we basically backfilled it.” SoftBank’s team ran tests involving voice calls, text messaging and Internet web browsing, along with streaming YouTube videos and making video calls. They also verified that Sceye’s platform could support emergency alert messaging systems for earthquakes and tsunamis, along with supporting calls to a maritime emergency number. The Japanese company even equipped drones with LTE cards to remotely control them using the Sceye-supported connectivity, along with receiving video transmissions from the drones. SoftBank also ran data throughput tests in several environments, including an open beach, a forest area with tree cover, and an indoor test inside a building. The Sceye-supported connectivity passed testing in all three scenarios, although Truong acknowledged initially being unsure about whether the indoor test would succeed. Sceye’s team had decided not to run Sceye’s communications antenna at full power to minimize potential interference and to play it safe with local regulators. For a separate edge computing experiment, a server aboard Sceye’s platform let SoftBank demonstrate an average roundtrip data-processing response time of 68 milliseconds. That supposedly represents a 40 percent reduction in latency compared to standard Internet-based cloud processing times. Sceye’s high-altitude platform system (HAPS) seen above Japan during testing as a cell tower in the sky. Credit: Sceye Sceye’s high-altitude platform system (HAPS) seen above Japan during testing as a cell tower in the sky. Credit: Sceye Lasers in the stratosphere The companies also tested setting up optical wireless communications using lasers to transmit data between Sceye’s platform in the stratosphere and towers or stations on the ground. A ground-based laser ranging system sent laser pulses toward Sceye’s moving platform, which carried a corner cube reflector that reflected laser signals back down to the ground-based system. In the future, Sceye’s platform might act as a stratospheric relay station that links communications satellites in low-Earth orbit with ground infrastructure. That would help reduce the loss of optical signal involved in transmitting directly between satellites and ground stations through the Earth’s atmosphere, because there is much less signal attenuation when transmitting between space and the stratosphere. Sceye’s HAPS could then act as a “reenergizer” to boost an optical signal received from space for retransmission down to the ground, or even switch over to radio frequency communication modes that can travel more cleanly through cloud cover down to the ground, Truong said. Broader deployments of optical wireless communication could help handle the increased data rates expected of sixth generation (6G) mobile communications services, along with providing faster Internet and mobile connectivity to more remote regions of the world that are not connected to ground-based fiber-optic networks. “You need those three layers to work together to make sure that nobody’s left behind, but also to make sure that you can get to the real-time services that are the promised land of 6G,” said Frandsen. This could also provide additional resiliency for global communications at a time when the Internet’s undersea backbone of fiber-optic cables linking continents and islands faces greater threats from deliberate sabotage—not to mention accidental cable cuts from weighted fishing boat nets and ship anchors. “You’ve seen stories where there’s a dispute and a boat for some reason forgets to raise their anchor and they suddenly take out that ocean cable,” Truong said. “Now you don’t have to worry about that because everything’s wireless… that leads to resiliency from an operational perspective.” The trans-Pacific flight route of Sceye’s helium-filled platform as seen on September 1, 2026. Credit: Sceye The trans-Pacific flight route of Sceye’s helium-filled platform as seen on September 1, 2026. Credit: Sceye There and back again By the time Sceye’s platform returned to New Mexico on September 5, it had traveled nearly 18,641 miles (30,000 kilometers) during its 30-day roundtrip to Japan and back. The company and its partners are already looking ahead to future tests. SoftBank wants to perform additional testing around using the airship to quickly restore communications in disaster scenarios, along with potentially placing cameras and other sensors aboard to help with search-and-rescue operations, Truong explained. “We can come in and basically place instant infrastructure and provide that service,” Truong said. “So from that perspective, it’s about being ready throughout the year and providing that service during those critical few days while you’re trying to restore service.” But Sceye is also aiming to help provide regular cellular coverage to underserved areas where installing fiber-optic cables to provide Internet access is more economically prohibitive. “A lot of our missions going forward are not a weeklong mission—they’re like multimonth to a yearlong mission,” Truong said. “We have one that we’re going to do earlier next year which is going to be anywhere from three to six months, with a plan to be a year-round kind of operation.” Jeremy Hsu Tech Reporter Jeremy Hsu Tech Reporter Jeremy Hsu is a reporter exploring a wide range of topics across deep tech and AI. He has previously written for New Scientist, Scientific American, IEEE Spectrum, Wired, Undark Magazine and MIT Tech Review, among many other publications, about topics such as deepfakes, data centers, drones, battery tech, robotics, and GPS jamming. He also has a Master of Arts in Journalism from NYU, and a bachelor's degree from University of Pennsylvania in History and Sociology of Science, with a minor in English. 57 Comments",
+      "page_sha256": "e7a3ca6b7eaebf97843cb2e9b7bf9d52bfd342438a711bb74c1e60d3086f5bb6",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "event_id": "bd59dd98622ae13a",
+      "event_sources": [
+        {
+          "title": "Stratospheric airship flew from US to Japan to test sky cell tower concept",
+          "url": "https://arstechnica.com/gadgets/2026/10/trans-pacific-journey-tested-stratospheric-cell-tower-concept-in-japan/",
+          "publisher": "Ars Technica - All content"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 1,
+      "title": "Experterna om Mjällbys sits: ”Kommer att få kvala”",
+      "url": "https://www.svt.se/sport/fotboll/experterna-om-mjallbys-sits-kommer-att-fa-kvala",
+      "summary": "Regerande mästaren är i ett prekärt läge. Negativt kval lär vänta. – Jag är väldigt, väldigt orolig för Mjällby, säger fotbollskrönikören Therese Strömberg i Fotbollsstudion.",
+      "date": "2026-10-19T20:25:23+00:00",
+      "publisher": "SVT Nyheter",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:10:17.019574+00:00",
+      "resolved_url": "https://www.svt.se/sport/fotboll/experterna-om-mjallbys-sits-kommer-att-fa-kvala",
+      "text": "Här hyser experterna oro kring Mjällby: ”Får kvala”. Foto: Bildbyrån/SVT Experterna om Mjällbys sits: ”Kommer att få kvala” Uppdaterad igår 23:43 Publicerad igår 22:25 Regerande mästaren är i ett prekärt läge. Negativt kval lär vänta. – Jag är väldigt, väldigt orolig för Mjällby, säger fotbollskrönikören Therese Strömberg i Fotbollsstudion. Se och hör experternas dom om Mjällby i spelaren ovan. Det blev ett SM-guld i fjol och för bara några månader sedan vann Mjällby dessutom svenska cupen. I allsvenskan har det gått tungt 2026 och man står nu på åtta raka matcher utan seger. – Det är ett lag som är sargat och som absolut inte trodde de skulle vara i den här sitsen. Och: en trupp som inte är speciellt bred, säger SVT:s expert Jonas Eriksson i Fotbollsstudion. En tuff slutspurt i allsvenskan väntar, parallellt med spel i Conference League. – Jag tror att Mjällby får kvala, säger Therese Strömberg. Se den allsvenska tabellen nedan. MISSA INTE: Fotbollsstudion varje måndag – med start 21.10 i SVT Play. Veckans lirare – omgång 24 Veckans målvakt Veckans back Veckans mittfältare Veckans anfallare Allsvenskan Fotboll Relaterat 2 min Uppgivet i Mjällby: ”Nu är allt bara mörkt” Fotboll Igår 06:18 29 sek Hammarby spelade med sorgband: ”Ont i hjärtat” Fotboll 18 oktober 2026 31 sek Domarirritation efter MFF:s förlust i stormötet mot Häcken Fotboll 18 oktober 2026 45 sek Örgryte vinner derbyt mot Gais efter succéinhopp Fotboll 18 oktober 2026 36 sek Hammarbyseger – efter sent avgörande mot tabelljumbon Fotboll 18 oktober 2026 1 min Mjällbys kvittering bortdömd – åttonde segerlösa matchen Fotboll 18 oktober 2026 54 sek Joakim Persson med dubbla fullträffar när Sirius tappade poäng sent Fotboll 18 oktober 2026 Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar. 58 sek Jonas Andersson hyllar Viktor Lodin som SHL:s bäste forward 15 sek Johanna Rytting Kaneryd: ”Fan, jag har varit glutenfri i nio år” 35 sek Johanna Rytting Kaneryd om franskan: ”Den är bedrövlig” Guide Veckans sändningstider Så sänder SVT Sport 27 sek Guide Här är höstens handbollslandskamper i SVT Handboll Se EM-kvalet i SVT 2 tim Guide Damallsvenskan 2026 Fotboll Så sänder SVT Guide Här är sportåret 2026 – tävlingar och mästerskap Se schemat månad för månad Guide Mästerskap, matcher och tv-tider Här hittar du SVT-guiderna",
+      "page_sha256": "09e56fb2e5e26615b3b300512ac0b56c3f0bb9fb1aed47438b835d93c7c60a57",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "event_id": "2f53b9541b24784e",
+      "event_sources": [
+        {
+          "title": "Experterna om Mjällbys sits: ”Kommer att få kvala”",
+          "url": "https://www.svt.se/sport/fotboll/experterna-om-mjallbys-sits-kommer-att-fa-kvala",
+          "publisher": "SVT Nyheter"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 2,
+      "title": "AI och slagsmål i Göteborg – inte upploppen i Frankrike",
+      "url": "https://www.svt.se/nyheter/utrikes/ai-och-slagsmal-i-goteborg-de-har-bilderna-visar-inte-upploppen-i-frankrike",
+      "summary": "En palestinaflagga hissas högt från franska nationalsymbolen Eiffeltornet, och ett gammalt par förnedras av demonstranter – det är bara två exempel på falska klipp som nu sprids i sociala medier och påstås visa helgens upplopp.",
+      "date": "2026-10-19T20:02:55+00:00",
+      "publisher": "SVT Nyheter",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:10:17.118449+00:00",
+      "resolved_url": "https://www.svt.se/nyheter/utrikes/ai-och-slagsmal-i-goteborg-de-har-bilderna-visar-inte-upploppen-i-frankrike",
+      "text": "Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd En palestinaflagga på Eifelltornet, slagsmål i Göteborg och ett gammalt par som förnedras av demonstranter, se vår genomgång av de virala bilderna. Foto: Faksimil AI och slagsmål i Göteborg – inte upploppen i Frankrike Uppdaterad igår 23:15 Publicerad igår 22:02 SVT Verifierar · En palestinaflagga hissas högt från franska nationalsymbolen Eiffeltornet, och ett gammalt par förnedras av demonstranter – det är bara två exempel på falska klipp som nu sprids i sociala medier och påstås visa helgens upplopp. I helgen deltog över en halv miljon människor i protester runtom i Frankrike. Under protesterna brändes stadshuset i Limoges ned och hundratals butiker plundrades och skadades. I samband med stora och dramatiska nyhetshändelser fylls flödena i princip alltid av en mix av autentiska, falska och gamla bilder och videor. Så även denna gång. SVT Verifierar Fejkade nyheter om V-ledamoten Mohamed Ali sprids Här sprängs ryska datacenter – är trollbotarna borta nu? Vi har tittat närmare på tre exempel – varav ett är från Sverige. Se mer i videon ovan! SVT Verifierar Stora demonstrationer i Frankrike Desinformation Relaterat 1 min Förödelsen stor efter protesterna i Frankrike 18 oktober 2026 Så arbetar vi på SVT Verifierar SVT Verifierar kombinerar traditionell journalistik med analys av bilder, digitala fotspår och öppna källor för att verifiera uppgifter som sprids och skildra viktiga nyhetshändelser på djupet. Läs mer om hur vi arbetar på SVT Nyheter. SVT Verifierar 3 min Fejkade nyheter om V-ledamoten Mohamed Ali sprids SVT Verifierar Väcker ilskna kommentarer från svenskar • Klickbetet styrs från Vietnam 3 min Här sprängs ryska datacenter – är trollbotarna borta nu? SVT Verifierar Zelenskyj: ”Blev plötsligt lite lättare att andas på många sociala medier” 3 min Passagerarna flyr – då slår drönaren till SVT Verifierar SVT har kartlagt Rysslands nya strategi • Attackerar tågtrafik Mer i ämnet 3 min Frankrike i chock: ”Aldrig tidigare sett sådant våld” 59 sek Jättesolkraftverket ska minska utsläppen med 2 miljoner ton 2 min Ukraina: Inga varningar om missilattacker från Ryssland Hör av dig till våra granskande reportrar Tipsa SVT Nyheter på ett säkert sätt 54 sek Tipsa SVT Verifierar SVT Verifierar Misstänker du falsk information eller fejkade bilder? Hör av dig via Verifieringshjälpen",
+      "page_sha256": "41056d57bd23a1844f7405c6baebd6406a1a2e88d0abcc644991002a15137039",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "event_id": "93f27e09cc957ad7",
+      "event_sources": [
+        {
+          "title": "AI och slagsmål i Göteborg – inte upploppen i Frankrike",
+          "url": "https://www.svt.se/nyheter/utrikes/ai-och-slagsmal-i-goteborg-de-har-bilderna-visar-inte-upploppen-i-frankrike",
+          "publisher": "SVT Nyheter"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 3,
+      "title": "Efter 43 år – Christiane Amanpour lämnar CNN",
+      "url": "https://www.svt.se/kultur/efter-43-ar-christiane-amanpour-lamnar-cnn",
+      "summary": "En av CNN:s mest välkända profiler, Christiane Amanpour, lämnar kanalen efter 43 år.",
+      "date": "2026-10-19T19:48:21+00:00",
+      "publisher": "SVT Nyheter",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:10:17.151034+00:00",
+      "resolved_url": "https://www.svt.se/kultur/efter-43-ar-christiane-amanpour-lamnar-cnn",
+      "text": "Christiane Amanpour lämnar CNN. Arkivbild. Foto: Richard Shotwell/Invision/AP/TT Efter 43 år – Christiane Amanpour lämnar CNN Uppdaterad igår 22:30 Publicerad igår 21:48 En av CNN:s mest välkända profiler, Christiane Amanpour, lämnar kanalen efter 43 år. Den internationellt kända korrespondenten och programledaren kommer från början av 2027 att dra ner på sitt dagliga program ”Amanpour” på CNN International till att sändas en gång i veckan. Programmet läggs sedan ner helt i slutet av maj och månaden därpå lämnar Amanpour, 68, kanalen. ”Efter många månaders funderande och en del sömnlösa nätter har jag beslutat att gå skilda vägar med CNN – min partner under 43 fantastiska år”, skriver hon i ett uttalande. Amanpour avslutar också sitt program ”Amanpour and Company” på PBS, men kommer att fortsätta med podcasten ”The ex files”, som hon driver tillsammans med sin före detta make, den tidigare amerikanske diplomaten Jamie Rubin. Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar. 54 sek Fansen rasar när änglarna byts mot influencers 1 min Johan Scheele kommenterar årets nominerade till Augustpriset: ”Litterärt hattrick” 36 sek Patrik Hadenius",
+      "page_sha256": "998de0bc5e708147ad21925ecc9af0a4a289c6ab5ddddc93241ae689285260c3",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "event_id": "514a6024c0b02d34",
+      "event_sources": [
+        {
+          "title": "Efter 43 år – Christiane Amanpour lämnar CNN",
+          "url": "https://www.svt.se/kultur/efter-43-ar-christiane-amanpour-lamnar-cnn",
+          "publisher": "SVT Nyheter"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 4,
+      "title": "Stopp på E45 – lastbil har vält utanför Ollsta",
+      "url": "https://www.svt.se/nyheter/lokalt/jamtland/stopp-pa-e45-lastbil-har-valt-utanfor-ollsta",
+      "summary": "En lastbilsolycka har skett på E45 strax norr om Ollsta på måndagskvällen, mellan Häggenås och Lorås. Den orsakar stor trafikpåverkan.",
+      "date": "2026-10-19T19:46:57+00:00",
+      "publisher": "SVT Nyheter",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:10:20.562070+00:00",
+      "resolved_url": "https://www.svt.se/nyheter/lokalt/jamtland/stopp-pa-e45-lastbil-har-valt-utanfor-ollsta",
+      "text": "Stopp på E45 – lastbil har vält utanför Ollsta Uppdaterad igår 22:58 Publicerad igår 21:46 En lastbilsolycka har skett på E45 strax norr om Ollsta på måndagskvällen, mellan Häggenås och Lorås. Den orsakar stor trafikpåverkan. Enligt larmet är det en singelolycka i norrgående riktning. – Enligt inringaren har en lastbil vält där och vägen ska vara blockerad. Räddningstjänst och ambulans är på väg, säger operatören på SOS Alarm vid 21.45. På Trafikverkets hemsida finns också informationen att hela vägen är blockerad, med mycket stor påverkan på trafiken. Strax innan klockan 23 skriver de att trafiken leds om och att vägen inte väntas öppna igen förrän vid klockan 01. Dieselläckage från lastbilen Larmoperatören på Räddningsregion Mittnorrland bekräftar läget vid 22.10: – Det är en lastbil som gått av vägen och ligger på sidan, helt över vägen. Det räddningstjänsten fokuserar på just nu är ett dieselläckage från lastbilen. Strax innan klockan 23 berättar de att räddningsarbetet väntas fortsätta fram till strax efter klockan 01. Oklar orsak Även polisen larmades till platsen, berättar RLC-befäl Johan Marklund. – Båda personerna som verkar ha färdats i lastbilen var vakna och talbara. Den info jag fått är att ambulansen har lämnat utan att lasta någon så det verkar ha gått bra under omständigheterna, säger han. Det är ännu okänt vad som kan ha orsakat olyckan. Europaväg 45 Östersund Hammerdal Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar. 1 min Polisen lägger ner utredning om lastbilen på Strömsundsbron 2 min Stort datacenter byggs i Tydal i norska fjällvärlden 50 sek Vad får Tydalsborna tillbaka?",
+      "page_sha256": "8f1f6d7f03866e6b90bb219a2fe9202297a4aff629896f4abb34c5c151e41cda",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "event_id": "8a9fb0df2d34c76f",
+      "event_sources": [
+        {
+          "title": "Stopp på E45 – lastbil har vält utanför Ollsta",
+          "url": "https://www.svt.se/nyheter/lokalt/jamtland/stopp-pa-e45-lastbil-har-valt-utanfor-ollsta",
+          "publisher": "SVT Nyheter"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 5,
+      "title": "Måltorkan är över – Kalmar FF vann ångestmötet med Degerfors IF",
+      "url": "https://www.svt.se/sport/fotboll/maltorkan-ar-over-kalmar-ff-vann-angestmotet-med-degerfors-if",
+      "summary": "Den långa måltorkan är över. Kalmar bortaslog Degerfors med 2–1 i det allsvenska ångestmötet och klättrar upp på säker mark i tabellen. – Sjukt skönt. Bara att få göra mål är extra bra för det här laget, säger Vilmer Tyrén till SVT Sport.",
+      "date": "2026-10-19T18:50:10+00:00",
+      "publisher": "SVT Nyheter",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:10:20.626239+00:00",
+      "resolved_url": "https://www.svt.se/sport/fotboll/maltorkan-ar-over-kalmar-ff-vann-angestmotet-med-degerfors-if",
+      "text": "Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd Se alla målen i Kalmars tunga vinst mot Degerfors: ”Tufft just nu”. Foto: Bildbyrån & TV4 Play Måltorkan är över – Kalmar FF vann ångestmötet med Degerfors IF Uppdaterad igår 23:14 Publicerad igår 20:50 Den långa måltorkan är över. Kalmar bortaslog Degerfors med 2–1 i det allsvenska ångestmötet och klättrar upp på säker mark i tabellen. – Sjukt skönt. Bara att få göra mål är extra bra för det här laget, säger Vilmer Tyrén till SVT Sport. Efter sju matchers måltorka bröts Kalmars förbannelse direkt på Stora Valla. Gästerna rivstartade och gjorde mål redan i den tredje minuten, efter att hemmalagets Daniel Sundgren slagit bort bollen. – Jag sätter laget i skiten efter bara några minuter. Vi lockar dem till en bra press och i det momentet är vi inte tillräckligt skickliga, dels jag men även lagkamrater, säger Sundgren. Det var Marius Söderbäck som därefter fick läget att göra 1-0 och Vilmer Tyrén kunde snart utöka till 2-0 för Kalmar. Men halvvägs in i halvleken blev det en scenförändring. Degerfors hade två ribbträffar och en boll i stolpen innan Nahom Netabay till slut reducerade strax före pausvilan. Netabay: ”Vi spelade som juniorer” – Vi spelade som juniorer första 20. De fick mycket övertag där i början och sedan försöker vi återhämta oss. Men vi hade behövt 2–2 före paus när vi hade tryck, säger en besviken Nahom Netabay till SVT Sport. Den andra halvleken blev mållös trots att Kalmar hade flera vassa lägen. Degerfors-målvakten Matvei Igonen stod för ett par kvalificerade räddningar och Kalmar hade också ett par frilägen där försvararna i sista stund hann emellan. – Vi är bra framåt och borde ha gjort fler än två mål i dag. Vi fick grymt bra energi i starten, första 25 är grymma, säger Vilmer Tyrén. Säsongens första bortaseger Kalmar var inför matchen seriens sämsta bortalag med bara två poäng på 12 matcher. Det här var deras första bortaseger för säsongen. – Det var mycket som klickade i dag. Det var på tiden men det viktigaste var tre poäng, konstaterar Carl Gustafsson. Lagen byter nu plats i tabellen och Kalmar går upp på säker mark med 22 poäng, två före Degerfors på kvalplats. Nästjumbon Örgryte har 18. – Det är tufft just nu, det tar jättehårt. Vi hade det i egna händer. Men vi kommer igen, säger Degerfors Nahom Netabay. Höjdpunkter från allsvenskan 2026 Degerfors – Kalmar 19/10 Halmstad – Hammarby 18/10 Örgryte – Gais 18/10 Malmö – Häcken 18/10 Västerås – Mjällby 18/10 AIK – IFK Göteborg 17/10 BP – Djurgården 16/10 Malmö – Kalmar 12/10 Elfsborg – Halmstad 12/10 Häcken – Örgryte 11/10 Hammarby – Djurgården 11/10 Mjällby – Degerfors 10/10 AIK – BP 10/10 Gais – Sirius 10/10 Göteborg – Västerås 9/10 Degerfors IF Kalmar FF Allsvenskan Fotboll Relaterat 1 min Degerforstränaren inför rysaren mot Kalmar: ”Har inte magsår” 18 oktober 2026 1 min Kalmars svåra måltorka – nära bottenrekord: ”Det är jävligt jobbigt” Fotboll 12 oktober 2026 13 sek Delad pott i ångestmötet – kryss mellan Mjällby och Degerfors Fotboll 10 oktober 2026 1 min Malmö FF slog Kalmar FF efter klack – och räddningar av Robin Olsen Fotboll 12 oktober 2026 Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar. 58 sek Jonas Andersson hyllar Viktor Lodin som SHL:s bäste forward 15 sek Johanna Rytting Kaneryd: ”Fan, jag har varit glutenfri i nio år” 35 sek Johanna Rytting Kaneryd om franskan: ”Den är bedrövlig” Guide Veckans sändningstider Så sänder SVT Sport 27 sek Guide Här är höstens handbollslandskamper i SVT Handboll Se EM-kvalet i SVT 2 tim Guide Damallsvenskan 2026 Fotboll Så sänder SVT Guide Här är sportåret 2026 – tävlingar och mästerskap Se schemat månad för månad Guide Mästerskap, matcher och tv-tider Här hittar du SVT-guiderna",
+      "page_sha256": "06d6241749908b15e03e27721df3552058551a7defef95bff8f75d3cbc65cb6e",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "event_id": "da3d4298539d8df7",
+      "event_sources": [
+        {
+          "title": "Måltorkan är över – Kalmar FF vann ångestmötet med Degerfors IF",
+          "url": "https://www.svt.se/sport/fotboll/maltorkan-ar-over-kalmar-ff-vann-angestmotet-med-degerfors-if",
+          "publisher": "SVT Nyheter"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 7,
+      "title": "Här är de nominerade till Augustpriset 2026",
+      "url": "https://www.svt.se/kultur/har-ar-de-nominerade-till-augustpriset-2026",
+      "summary": "Sjöar, kyssar och Gustav Vasa. Årets nomineringar till Augustpriset är här, och listan innehåller allt från ungdomskärlek till tankar om döden och en studie av fiskars inre tankeliv.",
+      "date": "2026-10-19T16:00:09+00:00",
+      "publisher": "SVT Nyheter",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:10:20.726527+00:00",
+      "resolved_url": "https://www.svt.se/kultur/har-ar-de-nominerade-till-augustpriset-2026",
+      "text": "Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd Hör Kulturnyheternas litteraturredaktör Johan Scheeles kommentar på årets nominerade. Foto: Andreas Sundbom, AXL Media Här är de nominerade till Augustpriset 2026 Uppdaterad igår 18:00 Publicerad igår 18:00 Sjöar, kyssar och Gustav Vasa. Årets nomineringar till Augustpriset är här, och listan innehåller allt från ungdomskärlek till tankar om döden och en studie av fiskars inre tankeliv. 18 litterära verk har chans att tilldelas Augustpriset. Idag tillkännagavs årets nominerade i kategorierna Årets svenska skönlitterära bok, Årets fackbok och Årets barn- och ungdomsbok. De sex titlar som nominerats till det Lilla Augustpriset presenterades. – Det här är alltid en jättepirrig dag, säger Mikaela Zabrodsky, VD för Svenska Förläggareföreningen som delar ut Augustpriset. Augustpriset Här är vinnarna av Augustpriset 2025 Därför kan inte ljudböcker vinna Augustpriset Boken som saknades Klas Östergren återfinns i den skönlitterära kategorin för tredje gången. Kanske kan det bli i år som han går från nominerad till vinnare. Den hyllade romanen Ultravåld lös med sin frånvaro när Tone Schunnesson blev utan nominering. Karolina Ramqvist tillhör de yngre nominerade och har under året tilldelats flera stora litteraturpriser redan. Om även Augustpriset för Årets svenska skönlitterära bok går till hennes bok ”Nattsäsong” kan det bli ett litterärt ”Hattrick”. Skräp och fiskkänslor Bland barn- och ungdomsböckerna blev det fokus på allt från deckare i en värld av skräp, växter och djur i ”Vad jag finner i rännstenen” av Aron Lundahl till ungdomskärlek, i ”Det är om dig jag skriver ” av Moa Backe Åstot. – Känslorna bara spritter i kroppen, så det är den roligaste åldern att skriva för tycker jag, säger Moa Backe Åstot. I ”Ur djupet” undersöker Lina Gustafsson fiskar på individnivå och Patrik Hadenius skyller språklig irritation i Köpenhamn på Gustav Vasa i ”Vasas testamente”. – När man beskriver svenska språkets utveckling beskriver man också samhällets utveckling, vad som har hänt i Sverige under 500 år, säger Patrik Hadenius om sin bok som undersöker det svenska språket genom brev, bloggar och händelser. NOMINERADE Årets svenska skönlitterära bok ”Vinter” av Magnus Dahlström, Albert Bonniers Förlag ”Skönheten” av Inger Edelfeldt, Norstedts ”Adrian” av Maxim Grigoriev, Albert Bonniers Förlag ”Nattsäsong” av Karolina Ramqvist, Albert Bonniers Förlag ”Under sjöarna” av Ingela Strandberg, Norstedts ”Inkokt ruda” av Klas Östergren, Bokförlaget Polaris Årets svenska fackbok ”Syndabocken” av Tomas Eriksson, Stockholmia Förlag ”Ur djupet” av Lina Gustafsson, Natur & Kultur ”Vasas testamente” av Patrik Hadenius, Bokförlaget Stolpe ”Öppna era hjärtan” av Simon Sorgenfrei, Norstedts ”När jag dog” av Per Svensson, Albert Bonniers Förlag ”Pojken med nallen” av ”Michael Verdicchio, Norstedts Årets svenska barn- och ungdomsbok ”Det är om dig jag skriver” av Moa Backe Åstot, Rabén & Sjögren ”Äckelklubben” av Emelie Franc och Hanna Klinthage, Lilla Piratförlaget ”Om du möter en silverfisk” av Malin Kivelä, Martin Glaz Serup och Linda Bondestam, Förlaget M ”Vad jag finner i rännstenen” av Aron Landahl, Rabén & Sjögren ”Egentligen snäll” av Johan Rundberg, Natur & Kultur ”Sång för Valencia” av Viveka Sjögren, Bokförlaget Opal Nominerade till Lilla Augustpriset ”Solkraft” av Lea Andersson ”är galen är galen är galen” av Signe Firpo ”Du, befriad” av Fia Koné ”Nästan” av Stina Salzer ”Drömspel” av Edith Svärd ”Sensommarsorg” av Alma Åhrén SEX NOMINERADE TILL AUGUSTPRISET Patrik Hadenius Moa Backe Åstot Maxim Grigoriev Aron Landahl Ingela Strandberg Lina Gustafsson Augustpriset Augustpriset Priser och utmärkelser Litteratur Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar. Augustpriset 1 min Här är vinnarna av Augustpriset 2025 Lina Wolff vinner i den skönlitterära klassen • Bea Uusmas ”Vitön” vinnare i fackbokskategorin 1 min Därför kan inte ljudböcker vinna Augustpriset Stora svenska bokpriset delas ut i kväll 1 min Här är alla nominerade till Augustpriset 2025 Veteraner och debutanter har chans till priset Mer i ämnet 54 sek Fansen rasar när änglarna byts mot influencers 1 min Johan Scheele kommenterar årets nominerade till Augustpriset: ”Litterärt hattrick” 36 sek Patrik Hadenius",
+      "page_sha256": "0b876df583724d12c7436bdc34d1d671f81c2c125e905a26abb5a96a2df60254",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "event_id": "c3ee0ba0a3453560",
+      "event_sources": [
+        {
+          "title": "Här är de nominerade till Augustpriset 2026",
+          "url": "https://www.svt.se/kultur/har-ar-de-nominerade-till-augustpriset-2026",
+          "publisher": "SVT Nyheter"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 8,
+      "title": "Ali, 26, fick jobb på Ikea – sedan drog de tillbaka anställningen",
+      "url": "https://www.svt.se/nyheter/lokalt/smaland/ali-26-fick-jobb-pa-ikea-sedan-drog-de-tillbaka-anstallningen",
+      "summary": "Ali Alshihan, 26, sökte ett jobb på Ikea som han sedan via mejl fick veta att han fått. Fem dagar senare fick han mejl från Ikea att han inte längre hade fått jobbet och att Ikea hade förväxlat honom med en annan person.",
+      "date": "2026-10-19T15:48:01+00:00",
+      "publisher": "SVT Nyheter",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:10:20.978641+00:00",
+      "resolved_url": "https://www.svt.se/nyheter/lokalt/smaland/ali-26-fick-jobb-pa-ikea-sedan-drog-de-tillbaka-anstallningen",
+      "text": "Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd Ali Alshihan jublade av glädje när han fick ett jobberbjudande från Ikea. Men bara några dagar senare drog de tillbaka erbjudandet. Foto: Olivia Olsson/ SVT Ali, 26, fick jobb på Ikea – sedan drog de tillbaka anställningen Uppdaterad igår 18:46 Publicerad igår 17:48 Ali Alshihan, 26, sökte ett jobb på Ikea som han sedan via mejl fick veta att han fått. Fem dagar senare fick han mejl från Ikea att han inte längre hade fått jobbet och att Ikea hade förväxlat honom med en annan person. Ali Alshihan i Älmhult fick i början av september ett mejl om att han hade fått en tjänst som han hade sökt på kundservice på Ikea i Älmhult. Han blev jätteglad. – Jag blev jätteglad och berättade för vänner att jag hade fått jobbet, min vän frågade mig: Varför är du så glad? Då sa jag att jag hade fått jobb på Ikea, säger Ali Alshihan. Fem dagar senare kom ett nytt mejl från Ikea. I det stod att företaget tackade för hans intresse och att tjänsten hade gått vidare till en annan sökande. Då kontaktade Ali Alshihan Ikea. – De sa att det hade blivit fel och att de hade skickat Det första mejlet till fel person. Jag fick också veta att jag borde ha förstått att jag inte hade fått jobbet eftersom jag inte hade gjort någon fysisk intervju, men hur skulle jag veta det? Jag hade gjort anställningsintervjun digitalt, de hade sett hur jag lät och såg ut, säger han. Ikea: Mänskliga faktorn bakom misstaget Ali berättar att han inte fått något konkret svar på varför det blivit fel. SVT Nyheter Småland var under måndagen i kontakt med Ikea som inte vill medverka i en filmad intervju. I ett sms skriver Joakim Borgudd på Ikea Sveriges pressjour: ”Det stämmer att erbjudandet skickades ut felaktigt. Vi beklagar det inträffade och är i dialog med personen i fråga. Med hänsyn till den pågående dialogen kan vi inte kommentera ärendet vidare” SVT: Hur kunde det ske? ”Det är den mänskliga faktorn som ligger bakom misstaget och vi beklagar som sagt det inträffade.” Ikea Arbetsmarknad Älmhult Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar. 1 min Följ med till Sveriges mest svårsålda tomt – har varit till salu i 20 år 48 sek Stort vapentillslag – hittade 31 vapen hos man 2 min Ali fick jobb erbjudande från IKEA – sedan drogs det tillbaka",
+      "page_sha256": "e5ed5afcf15eef0f6d605c8f410ce63c3c3d088fb038b56f4f3c01fdb7811958",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "event_id": "ce4c07f03d4b8b8c",
+      "event_sources": [
+        {
+          "title": "Ali, 26, fick jobb på Ikea – sedan drog de tillbaka anställningen",
+          "url": "https://www.svt.se/nyheter/lokalt/smaland/ali-26-fick-jobb-pa-ikea-sedan-drog-de-tillbaka-anstallningen",
+          "publisher": "SVT Nyheter"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 45,
+      "title": "Bangladesh says it was not informed of its citizens' execution by Saudi Arabia",
+      "url": "https://www.bbc.co.uk/news/articles/cmde83w13p00o?at_medium=RSS&at_campaign=rss",
+      "summary": "Saudi Arabia said it executed two Bangladeshis last week for committing an \"indecent act\" in a mosque.",
+      "date": "2026-10-19T08:17:19+00:00",
+      "publisher": "BBC News",
+      "evidence_level": "index_or_feed_excerpt",
+      "retrieval_limit": "Outside bounded article-reading budget",
+      "event_id": "1bbb6a8e1ea9b702",
+      "event_sources": [
+        {
+          "title": "Bangladesh says it was not informed of its citizens' execution by Saudi Arabia",
+          "url": "https://www.bbc.co.uk/news/articles/cmde83w13p00o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC News"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 40,
+      "title": "Deadly fire at Canada military base moved a kilometre 'in 30 to 60 seconds'",
+      "url": "https://www.bbc.co.uk/news/articles/ckj0ly6qnp1lo?at_medium=RSS&at_campaign=rss",
+      "summary": "The blaze that killed four men and injured dozens of others spread with alarming speed, accounts suggest.",
+      "date": "2026-10-20T01:52:43+00:00",
+      "publisher": "BBC News",
+      "evidence_level": "index_or_feed_excerpt",
+      "retrieval_limit": "Outside bounded article-reading budget",
+      "event_id": "c08153696e3dc613",
+      "event_sources": [
+        {
+          "title": "Deadly fire at Canada military base moved a kilometre 'in 30 to 60 seconds'",
+          "url": "https://www.bbc.co.uk/news/articles/ckj0ly6qnp1lo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC News"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 47,
+      "title": "Pennsylvania issues alert on congenital measles—something US hasn't seen for decades",
+      "url": "https://arstechnica.com/health/2026/10/pennsylvania-issues-alert-on-congenital-measles-something-us-hasnt-seen-for-decades/",
+      "summary": "Congenital measles can be fatal, and survivors require monitoring for years.",
+      "date": "2026-10-19T22:44:26+00:00",
+      "publisher": "Ars Technica - All content",
+      "evidence_level": "index_or_feed_excerpt",
+      "retrieval_limit": "Outside bounded article-reading budget",
+      "event_id": "ad0be469bd2d9be7",
+      "event_sources": [
+        {
+          "title": "Pennsylvania issues alert on congenital measles—something US hasn't seen for decades",
+          "url": "https://arstechnica.com/health/2026/10/pennsylvania-issues-alert-on-congenital-measles-something-us-hasnt-seen-for-decades/",
+          "publisher": "Ars Technica - All content"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 48,
+      "title": "Russian spacecraft maneuvers in \"extreme proximity\" to satellite used by Ukraine",
+      "url": "https://arstechnica.com/space/2026/10/russian-spacecraft-maneuvers-in-extreme-proximity-to-satellite-used-by-ukraine/",
+      "summary": "\"Kosmos 2612 closed from hundreds of kilometers away to extreme proximity to ICEYE-X36.\"",
+      "date": "2026-10-19T20:54:17+00:00",
+      "publisher": "Ars Technica - All content",
+      "evidence_level": "index_or_feed_excerpt",
+      "retrieval_limit": "Outside bounded article-reading budget",
+      "event_id": "b7a4b6338c1e6a9a",
+      "event_sources": [
+        {
+          "title": "Russian spacecraft maneuvers in \"extreme proximity\" to satellite used by Ukraine",
+          "url": "https://arstechnica.com/space/2026/10/russian-spacecraft-maneuvers-in-extreme-proximity-to-satellite-used-by-ukraine/",
+          "publisher": "Ars Technica - All content"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 50,
+      "title": "Batteries help reduce emissions, but how do we reduce their emissions?",
+      "url": "https://arstechnica.com/science/2026/10/batteries-have-a-small-carbon-footprint-we-can-make-it-smaller/",
+      "summary": "One way to make batteries cleaner is to make fewer of them.",
+      "date": "2026-10-19T20:03:55+00:00",
+      "publisher": "Ars Technica - All content",
+      "evidence_level": "index_or_feed_excerpt",
+      "retrieval_limit": "Outside bounded article-reading budget",
+      "event_id": "65937a320405fe64",
+      "event_sources": [
+        {
+          "title": "Batteries help reduce emissions, but how do we reduce their emissions?",
+          "url": "https://arstechnica.com/science/2026/10/batteries-have-a-small-carbon-footprint-we-can-make-it-smaller/",
+          "publisher": "Ars Technica - All content"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 51,
+      "title": "PSA: Patch your Plex media server before someone hacks it",
+      "url": "https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware/",
+      "summary": "A researcher says attacks chaining 4 vulnerabilities is hacking unpatched boxes.",
+      "date": "2026-10-19T19:39:19+00:00",
+      "publisher": "Ars Technica - All content",
+      "evidence_level": "index_or_feed_excerpt",
+      "retrieval_limit": "Outside bounded article-reading budget",
+      "event_id": "8410a27008d2f594",
+      "event_sources": [
+        {
+          "title": "PSA: Patch your Plex media server before someone hacks it",
+          "url": "https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware/",
+          "publisher": "Ars Technica - All content"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 23,
+      "title": "Ordering violence from abroad: five suspects arrested in Spain, Morocco, and France",
+      "url": "https://www.europol.europa.eu/media-press/newsroom/news/ordering-violence-abroad-five-suspects-arrested-in-spain-morocco-and-france",
+      "summary": "Five suspects linked to the organisation and recruitment of serious violence have been arrested in Spain, Morocco, and France, in the latest results of the Operational Taskforce (OTF) GRIMM, coordinated by Europol. The arrests in August and September target the upper levels of violence-as-a-service: those suspected of ordering attacks, finding perp",
+      "date": "unknown",
+      "publisher": "News",
+      "evidence_level": "index_or_feed_excerpt",
+      "retrieved_at": "2026-10-20T03:10:19.954841+00:00",
+      "retrieval_limit": "Page could not be read; claims must stay within the supplied excerpt",
+      "event_id": "3c7296776f2f9405",
+      "event_sources": [
+        {
+          "title": "Ordering violence from abroad: five suspects arrested in Spain, Morocco, and France",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/ordering-violence-abroad-five-suspects-arrested-in-spain-morocco-and-france",
+          "publisher": "News"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 25,
+      "title": "Cannabis smuggling from North America and Thailand into Europe: Europol highlights growing threat",
+      "url": "https://www.europol.europa.eu/media-press/newsroom/news/cannabis-smuggling-north-america-and-thailand-europe-europol-highlights-growing-threat",
+      "summary": "Cannabis smuggling from North America and Thailand in Europe has seen a sharp rise, driven by oversupply in legal markets and the adaptability of organised crime groups. A dedicated Europol Operational Taskforce (OTF) has been established to dismantle the criminal networks behind this evolving threat.",
+      "date": "unknown",
+      "publisher": "News",
+      "evidence_level": "index_or_feed_excerpt",
+      "retrieved_at": "2026-10-20T03:10:20.403191+00:00",
+      "retrieval_limit": "Page could not be read; claims must stay within the supplied excerpt",
+      "event_id": "f130ebdaeb961c7f",
+      "event_sources": [
+        {
+          "title": "Cannabis smuggling from North America and Thailand into Europe: Europol highlights growing threat",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/cannabis-smuggling-north-america-and-thailand-europe-europol-highlights-growing-threat",
+          "publisher": "News"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 9,
+      "title": "Huthiattack mot militärläger i Jemen – minst 53 dödades",
+      "url": "https://www.svt.se/nyheter/utrikes/huthiattack-mot-militarlager-i-jemen-minst-53-dodades",
+      "summary": "Minst 53 personer har dödats i en huthiattack mot ett militärläger för regeringsstyrkor i Jemen. Det är en av de dödligaste attackerna under den senaste tidens upptrappning, rapporterar AP.",
+      "date": "2026-10-19T15:04:54+00:00",
+      "publisher": "SVT Nyheter",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:10:21.004687+00:00",
+      "resolved_url": "https://www.svt.se/nyheter/utrikes/huthiattack-mot-militarlager-i-jemen-minst-53-dodades",
+      "text": "Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd På bara några år har huthirebellerna tiodubblats och nu finns det upp emot 350 000 soldater. Vilka är huthierna? Foto: Muhammed Huwais/AFP Huthiattack mot militärläger i Jemen – minst 53 dödades Publicerad igår 17:04 Minst 53 personer har dödats i en huthiattack mot ett militärläger för regeringsstyrkor i Jemen. Det är en av de dödligaste attackerna under den senaste tidens upptrappning, rapporterar AP. De Iranstödda huthirebellerna bekräftar att man på måndagen avfyrat tre ballistiska robotar mot ett militärläger för regeringsstyrkor i södra Jemen. Minst 53 personer ska ha dödats och ytterligare 200 skadats, rapporterar AP med hänvisning till lokala myndigheter. Jemens president Rashad al-Alimi uppger att de dödade var nyrekryterade från olika delar av landet och lovar ett ”kraftfullt svar”. Upptrappning av konflikten På söndagen anklagade huthierna den saudistödda koalitionen för att ha dödat minst nio personer i flyganfall mot den huthikontrollerade delen av Jemen. Huthierna har under de senaste veckorna återupptagit attackerna mot Saudiarabien, eftersom landet stöttar Jemens regering i inbördeskriget. Den saudiledda koalitionen inledde under oktober en större militäroffensiv för att driva bort rebellerna för att återta territoriet. Vapenvila upprättades 2022 Kriget i Jemen inleddes 2014 och beskrevs av FN som en av världens värsta humanitära situationer. En vapenvila upprättades 2022, men konflikten har trappats upp på nytt i samband med USA och Israels krig mot Iran. Huthirörelsen styr delar av Jemen, bland annat huvudstaden Sana, där man verkar som en alternativ regering till den internationellt erkända regeringen i Jemen. Vilka är huthirebellerna? Se videon ovan. Huthirebellerna Krig Jemen Saudiarabien Relaterat 54 sek Experten om huthirebellerna: ”Nu är de mycket starka” 15 oktober 2026 Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar. 3 min Frankrike i chock: ”Aldrig tidigare sett sådant våld” 59 sek Jättesolkraftverket ska minska utsläppen med 2 miljoner ton 2 min Ukraina: Inga varningar om missilattacker från Ryssland Hör av dig till våra granskande reportrar Tipsa SVT Nyheter på ett säkert sätt 54 sek Tipsa SVT Verifierar SVT Verifierar Misstänker du falsk information eller fejkade bilder? Hör av dig via Verifieringshjälpen",
+      "page_sha256": "0f4b1448988fd824db1e92a2e0822fa7c8c137c69738484f5009a8154a265e1a",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "event_id": "8d9e5087075aa588",
+      "event_sources": [
+        {
+          "title": "Huthiattack mot militärläger i Jemen – minst 53 dödades",
+          "url": "https://www.svt.se/nyheter/utrikes/huthiattack-mot-militarlager-i-jemen-minst-53-dodades",
+          "publisher": "SVT Nyheter"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 10,
+      "title": "Grannen Elliot efter mordet på Erikslid: ”En läskig syn”",
+      "url": "https://www.svt.se/nyheter/lokalt/vasterbotten/grannen-elliot-efter-mordet-pa-erikslid-en-laskig-syn",
+      "summary": "Elliot Holmgren bor i samma trapphus på Erikslid i Skellefteå som där det misstänkta mordet ska ha inträffat i fredags. – Det var blodstänk och droppar överallt, säger han.",
+      "date": "2026-10-19T14:54:04+00:00",
+      "publisher": "SVT Nyheter",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:10:21.057678+00:00",
+      "resolved_url": "https://www.svt.se/nyheter/lokalt/vasterbotten/grannen-elliot-efter-mordet-pa-erikslid-en-laskig-syn",
+      "text": "Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd ”Fotspår med blod” – här beskriver grannen Elliot synen han möttes av när han kom hem efter helgens mord. Foto: privat & SVT Grannen Elliot efter mordet på Erikslid: ”En läskig syn” Uppdaterad igår 17:38 Publicerad igår 16:54 Elliot Holmgren bor i samma trapphus på Erikslid i Skellefteå som där det misstänkta mordet ska ha inträffat i fredags . – Det var blodstänk och droppar överallt, säger han. Flera boende i de närliggande hyreshusen som SVT har pratat med berättar hur de känt sig otrygga en längre tid. Området har varit stökigt med ständig polisnärvaro, enligt dem. Ett par familjer med barn säger att den här händelsen var droppen som gör att nu tänker de flytta därifrån. – Det känns inte bra att bo här, säger en person med barn. Misstänkt mord på Erikslid i Skellefteå Här grips den misstänkte mördaren – polisen: ”De inblandade är bekanta” Man död i Skellefteå: Två män anhölls – en har släppts Men polisen vill lugna folks oro. – Det här är en isolerad händelse gällande några personer i en lägenhet, det finns ingen oro för utomstående. Men min uppmaning till allmänheten är, har man sett något i samband med den här händelsen får man gärna vända sig till polisen, säger Marcus Danielsson på avdelningen grova brott. Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd Polischefen Marcus Danielsson berättar om läget kring mordutredningen i Skellefteå. Foto: Johan Everljung/SVT Misstänkt mord på Erikslid i Skellefteå Misstänkt mord Skellefteå Relaterat 22 sek Här grips den misstänkte mördaren – polisen: ”De inblandade är bekanta” Igår 16:53 27 sek Man död i Skellefteå: Två män anhölls – en har släppts 17 oktober 2026 Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar. Misstänkt mord på Erikslid i Skellefteå 22 sek Missa inte Se när den misstänkte mördaren grips Polisen: ”De inblandade är bekanta med varandra” 27 sek Misstänkt mord i Skellefteå – grannen: ”Blod i trapphuset” En man anhållen misstänkt för mord Mer i ämnet 55 sek Skellefteå: Misstänkt dopningsfabrik med testosteron i lägenhet 2 min Trenden: Elevers engelska förbättras – lärare i Malå: ”Blivit engelsktalande” 1 min Tips: Så slipper du slänga kläder",
+      "page_sha256": "b853dd13cfb792476a85e0aaa651767e89f3b4ac25c2aa7192e947d09ba27509",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "event_id": "7397856cd976cf54",
+      "event_sources": [
+        {
+          "title": "Grannen Elliot efter mordet på Erikslid: ”En läskig syn”",
+          "url": "https://www.svt.se/nyheter/lokalt/vasterbotten/grannen-elliot-efter-mordet-pa-erikslid-en-laskig-syn",
+          "publisher": "SVT Nyheter"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 11,
+      "title": "Här grips den misstänkte mördaren – polisen: ”De inblandade är bekanta”",
+      "url": "https://www.svt.se/nyheter/lokalt/vasterbotten/har-grips-den-misstankte-mordaren-polisen-de-inblandade-ar-bekanta",
+      "summary": "De tre personer som var inblandade i det misstänkta mordet på Erikslid i Skellefteå i helgen var bekanta med varandra, enligt polisen. Flera tillhyggen ska ha använts vid dådet. – I lägenheten har det uppstått bråk och det bråket eskalerar så att det får en sådan olycklig utgång, säger Marcus Danielsson, chef för grova brott på polisen.",
+      "date": "2026-10-19T14:53:13+00:00",
+      "publisher": "SVT Nyheter",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:10:21.160977+00:00",
+      "resolved_url": "https://www.svt.se/nyheter/lokalt/vasterbotten/har-grips-den-misstankte-mordaren-polisen-de-inblandade-ar-bekanta",
+      "text": "Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd Se när den misstänkte mördaren grips i Skellefteå. Foto: SVT, privat Här grips den misstänkte mördaren – polisen: ”De inblandade är bekanta” Uppdaterad igår 17:10 Publicerad igår 16:53 De tre personer som var inblandade i det misstänkta mordet på Erikslid i Skellefteå i helgen var bekanta med varandra, enligt polisen. Flera tillhyggen ska ha använts vid dådet. – I lägenheten har det uppstått bråk och det bråket eskalerar så att det får en sådan olycklig utgång, säger Marcus Danielsson, chef för grova brott på polisen. Polisutredningen fortsätter om våldsdådet på Erikslid i helgen, då en man i 50-årsåldern avled av sina skador. Två personer greps – en anhållen En man i 40-årsåldern är fortsatt anhållen misstänkt för mord. En man i 30-årsåldern, som också greps och anhölls, släpptes efter förhör under söndagen – men misstankarna mot honom kvarstår. – Utifrån de uppgifter han har lämnat samt och den allvarliga brottsmisstanken är det svårt att dra någon annan slutsats än att han kommer att avföras från utredningen, säger advokaten Fredrik Elveros, som försvarar den man som släpptes under söndagen. Misstänkt mord på Erikslid i Skellefteå Grannen Elliot efter mordet på Erikslid: ”En läskig syn” Man död i Skellefteå: Två män anhölls – en har släppts Vad gjorde personen i lägenheten den här kvällen? – Det kan jag inte gå in på i nuläget, säger Fredrik Elveros. Bekanta sedan tidigare Samtliga tre personer som befinner sig på platsen har polisen hanterat på något sätt tidigare. – Det vi känner till är att samtliga som befinner sig lägenheten är bekanta med varandra på ett eller annat sätt sedan tidigare. Men jag tror inte att de själva skulle definiera sig som nära bekanta, säger polisen Marcus Danielsson. Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd Enligt Marcus Danielsson har polisen en god lägesbild över vad som hänt. Se honom berätta om larmet och vad som händer sedan i klippet. Foto: Johan Everljung/SVT Misstänkt mord på Erikslid i Skellefteå Misstänkt mord Skellefteå Relaterat 51 sek Grannen Elliot efter mordet på Erikslid: ”En läskig syn” Igår 16:54 27 sek Man död i Skellefteå: Två män anhölls – en har släppts 17 oktober 2026 Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar. Misstänkt mord på Erikslid i Skellefteå 51 sek Grannen Elliot efter mordet: ”En läskig syn” Boende vittnar om stökigt område: ”Känns inte bra” 27 sek Misstänkt mord i Skellefteå – grannen: ”Blod i trapphuset” En man anhållen misstänkt för mord Mer i ämnet 55 sek Skellefteå: Misstänkt dopningsfabrik med testosteron i lägenhet 2 min Trenden: Elevers engelska förbättras – lärare i Malå: ”Blivit engelsktalande” 1 min Tips: Så slipper du slänga kläder",
+      "page_sha256": "8009db82c41594ccf61a1c98bc58151916ab2224043619bd411533d2f85ed196",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "event_id": "618ec8c21d229772",
+      "event_sources": [
+        {
+          "title": "Här grips den misstänkte mördaren – polisen: ”De inblandade är bekanta”",
+          "url": "https://www.svt.se/nyheter/lokalt/vasterbotten/har-grips-den-misstankte-mordaren-polisen-de-inblandade-ar-bekanta",
+          "publisher": "SVT Nyheter"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 12,
+      "title": "Man hittad död i Kramfors – misstänkt mord",
+      "url": "https://www.svt.se/nyheter/lokalt/vasternorrland/man-hittad-dod-i-kramfors-misstankt-mord",
+      "summary": "En man i 85-årsåldern hittades avliden i en bostad i Kramfors tidigt under måndagsmorgonen. Enligt polisen råder oklara omständigheter kring dödsfallet och en förundersökning gällande mord alternativt dråp har inletts.",
+      "date": "2026-10-19T13:52:03+00:00",
+      "publisher": "SVT Nyheter",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:10:21.194966+00:00",
+      "resolved_url": "https://www.svt.se/nyheter/lokalt/vasternorrland/man-hittad-dod-i-kramfors-misstankt-mord",
+      "text": "Man hittad död i Kramfors – misstänkt mord Uppdaterad igår 19:41 Publicerad igår 15:52 En man i 85-årsåldern hittades avliden i en bostad i Kramfors tidigt under måndagsmorgonen. Enligt polisen råder oklara omständigheter kring dödsfallet och en förundersökning gällande mord alternativt dråp har inletts. Två personer är gripna som misstänka och åklagare har efter förhör beslutat att de ska anhållas. De inblandade ska dessutom vara bekanta med varandra sen tidigare. Nu pågår utredningsarbete med bland annat förhör och brottsplatsundersökning. Anhöriga är underrättade. I övrigt är polisen mycket sparsam med uppgifter i ärendet. SVT söker senior åklagare Hanna Flordal som leder förundersökningen. Texten uppdateras. Misstänkt mord Kramfors Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar. 2 min Maten snabbt slut vid strypt import – olönsamt att producera mera 1 min Nytt minoritetsstyre i Sollefteå 1 min Brödsmällen – Polarbröd i Bredbyn minskar med 14 tjänster",
+      "page_sha256": "bea724e3ded0ed1832d16d92c8a722659095089eed4dce5618a880f23ff2fa36",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "event_id": "499cc2b5cf0ad400",
+      "event_sources": [
+        {
+          "title": "Man hittad död i Kramfors – misstänkt mord",
+          "url": "https://www.svt.se/nyheter/lokalt/vasternorrland/man-hittad-dod-i-kramfors-misstankt-mord",
+          "publisher": "SVT Nyheter"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 33,
+      "title": "Five ways El Niño is affecting the weather around the world",
+      "url": "https://www.bbc.co.uk/weather/articles/c6dx07dznpyyo?at_medium=RSS&at_campaign=rss",
+      "summary": "As the strongest El Niño on record continues to intensify, what impacts on weather patterns are already being felt across the globe? Sarah Keith-Lucas looks at the evidence.",
+      "date": "2026-10-19T23:08:25+00:00",
+      "publisher": "BBC News",
+      "evidence_level": "index_or_feed_excerpt",
+      "retrieval_limit": "Outside bounded article-reading budget",
+      "event_id": "07167e547d89671a",
+      "event_sources": [
+        {
+          "title": "Five ways El Niño is affecting the weather around the world",
+          "url": "https://www.bbc.co.uk/weather/articles/c6dx07dznpyyo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC News"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 32,
+      "title": "Tennis star Svitolina says emotional toll of Ukraine war led to Monfils separation",
+      "url": "https://www.bbc.co.uk/news/articles/ckd7qy12j148o?at_medium=RSS&at_campaign=rss",
+      "summary": "The two top tennis pros married in 2021 and have one child together.",
+      "date": "2026-10-19T21:02:33+00:00",
+      "publisher": "BBC News",
+      "evidence_level": "index_or_feed_excerpt",
+      "retrieval_limit": "Outside bounded article-reading budget",
+      "event_id": "39c4f1651486ce56",
+      "event_sources": [
+        {
+          "title": "Tennis star Svitolina says emotional toll of Ukraine war led to Monfils separation",
+          "url": "https://www.bbc.co.uk/news/articles/ckd7qy12j148o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC News"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 53,
+      "title": "ReactOS reaches major milestone with NTFS install support",
+      "url": "https://arstechnica.com/information-technology/2026/10/reactos-reaches-major-milestone-with-ntfs-install-support/",
+      "summary": "ReactOS gains NTFS install support with new driver.",
+      "date": "2026-10-19T18:30:56+00:00",
+      "publisher": "Ars Technica - All content",
+      "evidence_level": "index_or_feed_excerpt",
+      "retrieval_limit": "Outside bounded article-reading budget",
+      "event_id": "941522470c47301c",
+      "event_sources": [
+        {
+          "title": "ReactOS reaches major milestone with NTFS install support",
+          "url": "https://arstechnica.com/information-technology/2026/10/reactos-reaches-major-milestone-with-ntfs-install-support/",
+          "publisher": "Ars Technica - All content"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 31,
+      "title": "Kenya cult leader who told parents to starve children guilty of 191 murders",
+      "url": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo?at_medium=RSS&at_campaign=rss",
+      "summary": "Self-proclaimed pastor Paul Mackenzie was found guilty of 191 murder charges - all but one of them children.",
+      "date": "2026-10-19T17:18:04+00:00",
+      "publisher": "BBC News",
+      "evidence_level": "index_or_feed_excerpt",
+      "retrieval_limit": "Outside bounded article-reading budget",
+      "event_id": "af01090cc482d4b9",
+      "event_sources": [
+        {
+          "title": "Kenya cult leader who told parents to starve children guilty of 191 murders",
+          "url": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC News"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 54,
+      "title": "AI game clones are making indie developers afraid to show their work",
+      "url": "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/",
+      "summary": "Delayed Steam Next Fest demo is a sign of a growing problem for indie devs.",
+      "date": "2026-10-19T16:59:22+00:00",
+      "publisher": "Ars Technica - All content",
+      "evidence_level": "index_or_feed_excerpt",
+      "retrieval_limit": "Outside bounded article-reading budget",
+      "event_id": "99fbb5c930c77ea8",
+      "event_sources": [
+        {
+          "title": "AI game clones are making indie developers afraid to show their work",
+          "url": "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/",
+          "publisher": "Ars Technica - All content"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 56,
+      "title": "Disney found a way to buy Character.AI without buying its lawsuits",
+      "url": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
+      "summary": "Character.AI faces claims its bots encouraged minors to self-harm and kill their parents.",
+      "date": "2026-10-19T14:45:43+00:00",
+      "publisher": "Ars Technica - All content",
+      "evidence_level": "index_or_feed_excerpt",
+      "retrieval_limit": "Outside bounded article-reading budget",
+      "event_id": "0f032fcd4fedfb79",
+      "event_sources": [
+        {
+          "title": "Disney found a way to buy Character.AI without buying its lawsuits",
+          "url": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
+          "publisher": "Ars Technica - All content"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 57,
+      "title": "A Chinese rocket deorbited over Minnesota and left this in a farmer's cornfield",
+      "url": "https://arstechnica.com/space/2026/10/a-chinese-rocket-deorbited-over-minnesota-and-left-this-in-a-farmers-cornfield/",
+      "summary": "All the evidence points to the debris being part of a Chinese Zhuque-2E rocket.",
+      "date": "2026-10-19T14:35:01+00:00",
+      "publisher": "Ars Technica - All content",
+      "evidence_level": "index_or_feed_excerpt",
+      "retrieval_limit": "Outside bounded article-reading budget",
+      "event_id": "8f02d8a8994efba6",
+      "event_sources": [
+        {
+          "title": "A Chinese rocket deorbited over Minnesota and left this in a farmer's cornfield",
+          "url": "https://arstechnica.com/space/2026/10/a-chinese-rocket-deorbited-over-minnesota-and-left-this-in-a-farmers-cornfield/",
+          "publisher": "Ars Technica - All content"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 37,
+      "title": "US airman dies as daredevil descent goes wrong before Texas college football game",
+      "url": "https://www.bbc.co.uk/news/articles/crd6dn63j2xwo?at_medium=RSS&at_campaign=rss",
+      "summary": "The game continued after the incident. The American Conference said the decision was made before his death was known.",
+      "date": "2026-10-19T14:13:18+00:00",
+      "publisher": "BBC News",
+      "evidence_level": "index_or_feed_excerpt",
+      "retrieval_limit": "Outside bounded article-reading budget",
+      "event_id": "adbcbb6da0e53214",
+      "event_sources": [
+        {
+          "title": "US airman dies as daredevil descent goes wrong before Texas college football game",
+          "url": "https://www.bbc.co.uk/news/articles/crd6dn63j2xwo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC News"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 42,
+      "title": "Catalonia's former rebel president can return to Spain, court rules",
+      "url": "https://www.bbc.co.uk/news/articles/cvp8gzg4e143o?at_medium=RSS&at_campaign=rss",
+      "summary": "The court upholds a decision to lift an arrest warrant for Carles Puigdemont linked to the independence bid he led in 2017.",
+      "date": "2026-10-19T14:06:53+00:00",
+      "publisher": "BBC News",
+      "evidence_level": "index_or_feed_excerpt",
+      "retrieval_limit": "Outside bounded article-reading budget",
+      "event_id": "7f505277127bb486",
+      "event_sources": [
+        {
+          "title": "Catalonia's former rebel president can return to Spain, court rules",
+          "url": "https://www.bbc.co.uk/news/articles/cvp8gzg4e143o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC News"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "id": 35,
+      "title": "Exiled critic of Rwandan president found beheaded",
+      "url": "https://www.bbc.co.uk/news/articles/c3lylj78777do?at_medium=RSS&at_campaign=rss",
+      "summary": "Former army sergeant major Robert Kabera was a popular YouTuber and singer, who had sought asylum in Uganda.",
+      "date": "2026-10-19T13:42:41+00:00",
+      "publisher": "BBC News",
+      "evidence_level": "index_or_feed_excerpt",
+      "retrieval_limit": "Outside bounded article-reading budget",
+      "event_id": "3c700c4e31d63c57",
+      "event_sources": [
+        {
+          "title": "Exiled critic of Rwandan president found beheaded",
+          "url": "https://www.bbc.co.uk/news/articles/c3lylj78777do?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC News"
+        }
+      ],
+      "corroborated": false
+    }
+  ]
+}

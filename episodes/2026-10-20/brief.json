@@ -1,0 +1,64 @@
+{
+  "title": "IBATs morgonPOD - 2026-10-20",
+  "intro": "Välkommen till IBATs morgonPOD. Idag den 20 oktober 2026 bevakar vi säkerhetsläget i Ukraina med fokus på underrättelsedelning, den omfattande dataläckan i Florida samt de misstänkta spioneriärendena kring OpenAI.",
+  "outlook": "Händelserna visar hur snabbt sårbarheter i digitala system och läckta inloggningsuppgifter kan få allvarliga konsekvenser för både enskilda och statliga aktörer. För den som arbetar med informationsförsörjning och säkerhet understryker detta vikten av strikt behörighetsstyrning, proaktiv sårbarhetshantering och säker delning av underrättelser.",
+  "news": [
+    {
+      "category": "Hotbilder och brottslighetens utveckling",
+      "title": "Ukrainska rådgivare larmar om bristande underrättelsevarningar",
+      "summary": "Zelenskys rådgivare uppger till BBC News att Ukraina drabbas av dödsfall på grund av uteblivna amerikanska robotvarningar, medan Vita huset förnekar förändringar i underrättelsebytet.",
+      "context": "Rapporteringen belyser sårbarheter i den internationella underrättelsedelningen och beroendet av externa system som Starlink under pågående konflikt.",
+      "url": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC News",
+      "body": "Ukrainas presidentrådgivare Serhii Beskrestnov uppger till BBC News att ukrainska medborgare har dött på grund av att landet saknar tillförlitliga varningar om inkommande ryska robotattacker. Enligt uppgifterna har brister i underrättelseflödet lett till att det saknats tid att varna civilbefolkningen. Samtidigt uppges begränsningar i nätverket Starlink påverka kommunikationen och drönarverksamheten på fältet. Vita huset har tillbakavisat uppgifterna om att underrättelsedelningen har förändrats eller pausats, och uppger att det amerikanska stödet till Ukraina fortsätter. Analytiker bedömer att situationen kan vara ett led i att utöva påtryckningar för framtida förhandlingar, vilket understryker betydelsen av robusta och oberoende nationella system för lägesförståelse.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss",
+          "title": "BBC News"
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "category": "Juridik, integritet och informationssäkerhet",
+      "title": "Omfattande dataläckage vid myndighet i Florida efter slarv med inloggningsuppgifter",
+      "summary": "Floridas motortrafikmyndighet har börjat meddela drabbade efter ett dataintrång som orsakats av att inloggningsuppgifter förvarats osäkert.",
+      "context": "Händelsen visar hur bristfällig intern informationssäkerhet och felaktigt sparade inloggningsuppgifter kan leda till omfattande dataläckage av känsliga personuppgifter.",
+      "url": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/",
+      "publisher": "Ars Technica - All content",
+      "body": "The Florida Department of Highway Safety and Motor Vehicles har bekräftat att en skadlig aktör kom åt departementets register den 4 september 2026 via komprometterade inloggningsuppgifter. Enligt utredningen kom uppgifterna på avvägar efter att en anställd på en lokal enhet olämpligt nog lagrat inloggningsuppgifterna på en elektronisk enhet. Även om myndigheten uppger att det saknas bevis för att uppgifterna missbrukats, har information om körkort och motorfordon potentiellt påverkats. Händelsen har kopplats till den internationella cyberbrottsgruppen ShinyHunters och belyser vikten av strikta säkerhetsrutiner vid hantering av digitala behörigheter.",
+      "sources": [
+        {
+          "url": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/",
+          "title": "Ars Technica - All content"
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "category": "AI för informationsanalys",
+      "title": "Tidigare OpenAI-ingenjör häktad misstänkt för spioneri",
+      "summary": "FBI och amerikanska åklagare uppger att en f.d. OpenAI-ingenjör har häktats misstänkt för att ha planterat dolda inspelningsenheter i ett säkerhetsklassat konferensrum.",
+      "context": "Ärendet aktualiserar frågor om insiderhot, skydd av immateriella tillgångar och säkerhetsprövning inom ledande AI-laboratorier.",
+      "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+      "publisher": "Ars Technica - All content",
+      "body": "En domstol har beviljat den amerikanska regeringens begäran om att hålla en före detta OpenAI-ingenjör häktad under tiden som anklagelserna om spioneri prövas. Enligt domstolshandlingar från Ars Technica ska mannen ha installerat dolda inspelningsenheter i ett konfidentiellt konferensrum där ledningen träffat statliga företrädare. Utredningen visar på kontakt med företrädare för den saudiska kungafamiljen samt att mannen undersökt möjligheterna att fly landet. Företrädare för USA:s rättsväsende framhåller att agerandet utgör en allvarlig risk för innovation och nationell säkerhet, vilket visar på behovet av stärkt skydd mot insiderhot inom högteknologiska verksamheter.",
+      "sources": [
+        {
+          "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+          "title": "Ars Technica - All content"
+        }
+      ],
+      "open_questions": []
+    }
+  ],
+  "description": "Välkommen till IBATs morgonPOD. Idag den 20 oktober 2026 bevakar vi säkerhetsläget i Ukraina med fokus på underrättelsedelning, den omfattande dataläckan i Florida samt de misstänkta spioneriärendena kring OpenAI.",
+  "tags": [
+    "Hotbilder och brottslighetens utveckling",
+    "Juridik, integritet och informationssäkerhet",
+    "AI för informationsanalys"
+  ],
+  "text_format": "editorial_articles",
+  "editorial_date": "2026-10-20",
+  "channel": "ibat"
+}

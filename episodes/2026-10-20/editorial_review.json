@@ -1,0 +1,41 @@
+{
+  "approved": true,
+  "issues": [],
+  "source_coverage": [
+    {
+      "claim": "Serhii Beskrestnov uppger till BBC News att ukrainska medborgare har mist livet till följd av uteblivna amerikanska varningar om inkommande ryska robotattacker.",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "claim": "Enligt Ars Technica kom en obehörig aktör åt delstatens register i Florida den 4 september 2026 genom komprometterade inloggningsuppgifter.",
+      "source_url": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/"
+    },
+    {
+      "claim": "En amerikansk domstol har beslutat att hålla en tidigare ingenjör hos OpenAI häktad under pågående utredning om misstänkt spioneri.",
+      "source_url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/"
+    }
+  ],
+  "short_episode_reason": "",
+  "reviewed_script_sha256": "16cf44e27f16d2adedef0c0ac6d38e6ddc03476d5bebc112c319d667560df58e",
+  "source_audit_correction": {
+    "id": "ibat-20261020-opening-date",
+    "method": "reviewed_deletions_only",
+    "reviewer": "Codex exact opening audit: 20 October 2026 is Tuesday; preserve deterministic date header and delete duplicate incorrect welcome only",
+    "before_sha256": {
+      "brief.json": "64fd386c80b9ddb5caf765af7ba2dbf63d722849dd742aff0df28e78a07e4093",
+      "manus.txt": "11769e03fceb621cc55ff52b18e77a6df26bab22b3deec134bdfdff6c7678995",
+      "editorial_review.json": "7b75dad25d74f243053c411e362ebc7b06d8bb3bc59fc52652e4cdc2e7fa8c44",
+      "kallor.json": "8f363dc9f894de6161bf965ae0e7eb1aa05a2620939dc44489aea3c07b39d170"
+    },
+    "corrected_brief_sha256": "64fd386c80b9ddb5caf765af7ba2dbf63d722849dd742aff0df28e78a07e4093",
+    "edits": [],
+    "corrected_manus_sha256": "16cf44e27f16d2adedef0c0ac6d38e6ddc03476d5bebc112c319d667560df58e",
+    "script_removals": [
+      {
+        "remove": "Välkommen till IBATs morgonPOD för måndagen den 20 oktober 2026. ",
+        "reason": "Wrong weekday and duplicate episode-date reading. Deterministic first paragraph already identifies the correct edition date. No news content changes."
+      }
+    ],
+    "new_model_review": false
+  }
+}

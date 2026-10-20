@@ -1,0 +1,1359 @@
+{
+  "channel": "ibat",
+  "date": "2026-10-20",
+  "schema": 2,
+  "corroboration_method": "distinct_hosts_not_proof_of_independence",
+  "received": 61,
+  "unique_urls": 61,
+  "identified_events": 61,
+  "selected_articles": 40,
+  "selected_events": 40,
+  "unique_domains": 4,
+  "max_items": 40,
+  "gemini_calls": 0,
+  "decisions": [
+    {
+      "event_id": "34384522d57615d5",
+      "selected": false,
+      "reason": "already_reported_without_independent_update",
+      "score": 43,
+      "score_components": {
+        "relevance": 18,
+        "freshness": 3,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "europol.europa.eu"
+      ],
+      "articles": [
+        {
+          "title": "Protecting citizens, preserving rights",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/protecting-citizens-preserving-rights"
+        }
+      ]
+    },
+    {
+      "event_id": "d1e327b913f3a3dd",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 42,
+      "score_components": {
+        "relevance": 6,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "469c26457d26dd92",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 42,
+      "score_components": {
+        "relevance": 6,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "arstechnica.com"
+      ],
+      "articles": [
+        {
+          "title": "Florida DMV hacked after police dept insecurely stored login info",
+          "url": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/"
+        }
+      ]
+    },
+    {
+      "event_id": "0a6c23603c916ccf",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 39,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Curfew imposed in parts of central Paris and other cities after rioting across France",
+          "url": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "fdbf94b25f664247",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 39,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Ex-OpenAI worker accused of planting device had Saudi support, says court filing",
+          "url": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "2629c36fb4ce1428",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 39,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "arstechnica.com"
+      ],
+      "articles": [
+        {
+          "title": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
+          "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/"
+        }
+      ]
+    },
+    {
+      "event_id": "b46b4beac3601608",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 39,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "arstechnica.com"
+      ],
+      "articles": [
+        {
+          "title": "Startup taps underwater volcano as energy source in \"proof point\" test",
+          "url": "https://arstechnica.com/science/2026/10/startup-taps-underwater-volcano-as-energy-source-in-proof-point-test/"
+        }
+      ]
+    },
+    {
+      "event_id": "33cf521e8c3e73c9",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 39,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Houthi missile strike on Yemen camp kills 50 security recruits, local authorities say",
+          "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "bdd036040bf5e5cb",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 39,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Obama blasts federal probe of congresswoman Ilhan Omar as 'so appalling'",
+          "url": "https://www.bbc.co.uk/news/articles/cr15jl7dd42vo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "338b4ae8d8fd8c78",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 39,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Stort vapentillslag – hittade 31 vapen hos man",
+          "url": "https://www.svt.se/nyheter/lokalt/smaland/stort-vapentillslag-hittade-31-vapen-hos-man"
+        }
+      ]
+    },
+    {
+      "event_id": "faa0bfeab431a1c0",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 39,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Italy plans tougher security measures after violent protests",
+          "url": "https://www.bbc.co.uk/news/articles/c6j9kwxxmxydo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "bd59dd98622ae13a",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 39,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "arstechnica.com"
+      ],
+      "articles": [
+        {
+          "title": "Stratospheric airship flew from US to Japan to test sky cell tower concept",
+          "url": "https://arstechnica.com/gadgets/2026/10/trans-pacific-journey-tested-stratospheric-cell-tower-concept-in-japan/"
+        }
+      ]
+    },
+    {
+      "event_id": "b91a9eb3a2571423",
+      "selected": false,
+      "reason": "already_reported_without_independent_update",
+      "score": 37,
+      "score_components": {
+        "relevance": 12,
+        "freshness": 3,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "europol.europa.eu"
+      ],
+      "articles": [
+        {
+          "title": "EU law enforcement chiefs gather to discuss new challenges in EU security",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/eu-law-enforcement-chiefs-gather-to-discuss-new-challenges-in-eu-security"
+        }
+      ]
+    },
+    {
+      "event_id": "6265918f53848cdd",
+      "selected": false,
+      "reason": "already_reported_without_independent_update",
+      "score": 37,
+      "score_components": {
+        "relevance": 12,
+        "freshness": 3,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "europol.europa.eu"
+      ],
+      "articles": [
+        {
+          "title": "Spain, Denmark and the Netherlands win Europol 2026 Excellence Awards in Innovation",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/spain-denmark-and-netherlands-win-europol-2026-excellence-awards-in-innovation"
+        }
+      ]
+    },
+    {
+      "event_id": "2f53b9541b24784e",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 36,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Experterna om Mjällbys sits: ”Kommer att få kvala”",
+          "url": "https://www.svt.se/sport/fotboll/experterna-om-mjallbys-sits-kommer-att-fa-kvala"
+        }
+      ]
+    },
+    {
+      "event_id": "93f27e09cc957ad7",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 36,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "AI och slagsmål i Göteborg – inte upploppen i Frankrike",
+          "url": "https://www.svt.se/nyheter/utrikes/ai-och-slagsmal-i-goteborg-de-har-bilderna-visar-inte-upploppen-i-frankrike"
+        }
+      ]
+    },
+    {
+      "event_id": "514a6024c0b02d34",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 36,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Efter 43 år – Christiane Amanpour lämnar CNN",
+          "url": "https://www.svt.se/kultur/efter-43-ar-christiane-amanpour-lamnar-cnn"
+        }
+      ]
+    },
+    {
+      "event_id": "8a9fb0df2d34c76f",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 36,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Stopp på E45 – lastbil har vält utanför Ollsta",
+          "url": "https://www.svt.se/nyheter/lokalt/jamtland/stopp-pa-e45-lastbil-har-valt-utanfor-ollsta"
+        }
+      ]
+    },
+    {
+      "event_id": "da3d4298539d8df7",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 36,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Måltorkan är över – Kalmar FF vann ångestmötet med Degerfors IF",
+          "url": "https://www.svt.se/sport/fotboll/maltorkan-ar-over-kalmar-ff-vann-angestmotet-med-degerfors-if"
+        }
+      ]
+    },
+    {
+      "event_id": "c3ee0ba0a3453560",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 36,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Här är de nominerade till Augustpriset 2026",
+          "url": "https://www.svt.se/kultur/har-ar-de-nominerade-till-augustpriset-2026"
+        }
+      ]
+    },
+    {
+      "event_id": "ce4c07f03d4b8b8c",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 36,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Ali, 26, fick jobb på Ikea – sedan drog de tillbaka anställningen",
+          "url": "https://www.svt.se/nyheter/lokalt/smaland/ali-26-fick-jobb-pa-ikea-sedan-drog-de-tillbaka-anstallningen"
+        }
+      ]
+    },
+    {
+      "event_id": "8d9e5087075aa588",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 36,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Huthiattack mot militärläger i Jemen – minst 53 dödades",
+          "url": "https://www.svt.se/nyheter/utrikes/huthiattack-mot-militarlager-i-jemen-minst-53-dodades"
+        }
+      ]
+    },
+    {
+      "event_id": "7397856cd976cf54",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 36,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Grannen Elliot efter mordet på Erikslid: ”En läskig syn”",
+          "url": "https://www.svt.se/nyheter/lokalt/vasterbotten/grannen-elliot-efter-mordet-pa-erikslid-en-laskig-syn"
+        }
+      ]
+    },
+    {
+      "event_id": "618ec8c21d229772",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 36,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Här grips den misstänkte mördaren – polisen: ”De inblandade är bekanta”",
+          "url": "https://www.svt.se/nyheter/lokalt/vasterbotten/har-grips-den-misstankte-mordaren-polisen-de-inblandade-ar-bekanta"
+        }
+      ]
+    },
+    {
+      "event_id": "499cc2b5cf0ad400",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 36,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Man hittad död i Kramfors – misstänkt mord",
+          "url": "https://www.svt.se/nyheter/lokalt/vasternorrland/man-hittad-dod-i-kramfors-misstankt-mord"
+        }
+      ]
+    },
+    {
+      "event_id": "cd4eae350cdf6a32",
+      "selected": false,
+      "reason": "already_reported_without_independent_update",
+      "score": 34,
+      "score_components": {
+        "relevance": 9,
+        "freshness": 3,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "europol.europa.eu"
+      ],
+      "articles": [
+        {
+          "title": "Keeping pace with e-evidence: New report examines Europe’s digital forensic capabilities",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/keeping-pace-e-evidence-new-report-examines-europes-digital-forensic-capabilities"
+        }
+      ]
+    },
+    {
+      "event_id": "47a7db6b9dae943a",
+      "selected": false,
+      "reason": "already_reported_without_independent_update",
+      "score": 34,
+      "score_components": {
+        "relevance": 9,
+        "freshness": 3,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "europol.europa.eu"
+      ],
+      "articles": [
+        {
+          "title": "Teenager suspected of leading KillSec ransomware group as law enforcement seizes servers and leak site",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/teenager-suspected-of-leading-killsec-ransomware-group-law-enforcement-seizes-servers-and-leak-site"
+        }
+      ]
+    },
+    {
+      "event_id": "1bbb6a8e1ea9b702",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 33,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Bangladesh says it was not informed of its citizens' execution by Saudi Arabia",
+          "url": "https://www.bbc.co.uk/news/articles/cmde83w13p00o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "2c350c1680208c15",
+      "selected": false,
+      "reason": "already_reported_without_independent_update",
+      "score": 31,
+      "score_components": {
+        "relevance": 6,
+        "freshness": 3,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "europol.europa.eu"
+      ],
+      "articles": [
+        {
+          "title": "Almost 50 arrested as police target Western Balkan network linked to killings",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/almost-50-arrested-police-target-western-balkan-network-linked-to-killings"
+        }
+      ]
+    },
+    {
+      "event_id": "968f0ddb587f8e9b",
+      "selected": false,
+      "reason": "already_reported_without_independent_update",
+      "score": 31,
+      "score_components": {
+        "relevance": 6,
+        "freshness": 3,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "europol.europa.eu"
+      ],
+      "articles": [
+        {
+          "title": "Europol urges early action to protect cryptocurrencies and sensitive data from quantum threats",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/europol-urges-early-action-to-protect-cryptocurrencies-and-sensitive-data-quantum-threats"
+        }
+      ]
+    },
+    {
+      "event_id": "5ca92a832c2657f4",
+      "selected": false,
+      "reason": "already_reported_without_independent_update",
+      "score": 31,
+      "score_components": {
+        "relevance": 6,
+        "freshness": 3,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "europol.europa.eu"
+      ],
+      "articles": [
+        {
+          "title": "European and Ecuadorian cooperation leads to 20 arrests in major hit against drug trafficking",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/european-and-ecuadorian-cooperation-leads-to-20-arrests-in-major-hit-against-drug-trafficking"
+        }
+      ]
+    },
+    {
+      "event_id": "c08153696e3dc613",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Deadly fire at Canada military base moved a kilometre 'in 30 to 60 seconds'",
+          "url": "https://www.bbc.co.uk/news/articles/ckj0ly6qnp1lo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "07167e547d89671a",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Five ways El Niño is affecting the weather around the world",
+          "url": "https://www.bbc.co.uk/weather/articles/c6dx07dznpyyo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "ad0be469bd2d9be7",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "arstechnica.com"
+      ],
+      "articles": [
+        {
+          "title": "Pennsylvania issues alert on congenital measles—something US hasn't seen for decades",
+          "url": "https://arstechnica.com/health/2026/10/pennsylvania-issues-alert-on-congenital-measles-something-us-hasnt-seen-for-decades/"
+        }
+      ]
+    },
+    {
+      "event_id": "39c4f1651486ce56",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Tennis star Svitolina says emotional toll of Ukraine war led to Monfils separation",
+          "url": "https://www.bbc.co.uk/news/articles/ckd7qy12j148o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "b7a4b6338c1e6a9a",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "arstechnica.com"
+      ],
+      "articles": [
+        {
+          "title": "Russian spacecraft maneuvers in \"extreme proximity\" to satellite used by Ukraine",
+          "url": "https://arstechnica.com/space/2026/10/russian-spacecraft-maneuvers-in-extreme-proximity-to-satellite-used-by-ukraine/"
+        }
+      ]
+    },
+    {
+      "event_id": "65937a320405fe64",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "arstechnica.com"
+      ],
+      "articles": [
+        {
+          "title": "Batteries help reduce emissions, but how do we reduce their emissions?",
+          "url": "https://arstechnica.com/science/2026/10/batteries-have-a-small-carbon-footprint-we-can-make-it-smaller/"
+        }
+      ]
+    },
+    {
+      "event_id": "8410a27008d2f594",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "arstechnica.com"
+      ],
+      "articles": [
+        {
+          "title": "PSA: Patch your Plex media server before someone hacks it",
+          "url": "https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware/"
+        }
+      ]
+    },
+    {
+      "event_id": "941522470c47301c",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "arstechnica.com"
+      ],
+      "articles": [
+        {
+          "title": "ReactOS reaches major milestone with NTFS install support",
+          "url": "https://arstechnica.com/information-technology/2026/10/reactos-reaches-major-milestone-with-ntfs-install-support/"
+        }
+      ]
+    },
+    {
+      "event_id": "af01090cc482d4b9",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Kenya cult leader who told parents to starve children guilty of 191 murders",
+          "url": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "99fbb5c930c77ea8",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "arstechnica.com"
+      ],
+      "articles": [
+        {
+          "title": "AI game clones are making indie developers afraid to show their work",
+          "url": "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/"
+        }
+      ]
+    },
+    {
+      "event_id": "0f032fcd4fedfb79",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "arstechnica.com"
+      ],
+      "articles": [
+        {
+          "title": "Disney found a way to buy Character.AI without buying its lawsuits",
+          "url": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/"
+        }
+      ]
+    },
+    {
+      "event_id": "8f02d8a8994efba6",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "arstechnica.com"
+      ],
+      "articles": [
+        {
+          "title": "A Chinese rocket deorbited over Minnesota and left this in a farmer's cornfield",
+          "url": "https://arstechnica.com/space/2026/10/a-chinese-rocket-deorbited-over-minnesota-and-left-this-in-a-farmers-cornfield/"
+        }
+      ]
+    },
+    {
+      "event_id": "adbcbb6da0e53214",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "US airman dies as daredevil descent goes wrong before Texas college football game",
+          "url": "https://www.bbc.co.uk/news/articles/crd6dn63j2xwo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "7f505277127bb486",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Catalonia's former rebel president can return to Spain, court rules",
+          "url": "https://www.bbc.co.uk/news/articles/cvp8gzg4e143o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "3c700c4e31d63c57",
+      "selected": true,
+      "reason": "domain_balance_fallback",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Exiled critic of Rwandan president found beheaded",
+          "url": "https://www.bbc.co.uk/news/articles/c3lylj78777do?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "cdfd3848a7988aaa",
+      "selected": false,
+      "reason": "domain_balance",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "arstechnica.com"
+      ],
+      "articles": [
+        {
+          "title": "Review: Lanterns is a truly unique twist on the superhero genre",
+          "url": "https://arstechnica.com/culture/2026/10/review-lanterns-is-a-truly-unique-twist-on-the-superhero-genre/"
+        }
+      ]
+    },
+    {
+      "event_id": "85412754f4b72396",
+      "selected": false,
+      "reason": "domain_balance",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "arstechnica.com"
+      ],
+      "articles": [
+        {
+          "title": "DIY VR: How to build your own headset, and why you probably won't want to",
+          "url": "https://arstechnica.com/gadgets/2026/10/diy-vr-how-to-build-your-own-headset-and-why-you-probably-wont-want-to/"
+        }
+      ]
+    },
+    {
+      "event_id": "df739430f9a29eab",
+      "selected": false,
+      "reason": "domain_balance",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Jimmy Jansson (S) lämnar riksdagen – efter en månad",
+          "url": "https://www.svt.se/nyheter/lokalt/sormland/jimmy-jansson-s-lamnar-riksdagen-efter-en-manad"
+        }
+      ]
+    },
+    {
+      "event_id": "70f7834830f4d429",
+      "selected": false,
+      "reason": "domain_balance",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Rakade kvinnas underliv på äldreboende i Vännäs – vårdare döms till ett års fängelse",
+          "url": "https://www.svt.se/nyheter/lokalt/vasterbotten/rakade-kvinnas-underliv-pa-aldreboende-i-vannas-vardare-doms-till-ett-ars-fangelse"
+        }
+      ]
+    },
+    {
+      "event_id": "8dd9f41b9a06a12a",
+      "selected": false,
+      "reason": "domain_balance",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Talmannen ger Elisabeth Thand Ringqvist (C) sonderingsuppdraget",
+          "url": "https://www.svt.se/nyheter/inrikes/talmannen-ger-elisabeth-thand-rinqvist-c-sonderingsuppdraget"
+        }
+      ]
+    },
+    {
+      "event_id": "6e5b7399008b9084",
+      "selected": false,
+      "reason": "domain_balance",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Personal attacks fire up debate before Brazil's run-off vote",
+          "url": "https://www.bbc.co.uk/news/articles/ck98zlzyqle3o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "5499b9f96113e68f",
+      "selected": false,
+      "reason": "domain_balance",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Tonåring häktad för rån i Kalmar – en jagas fortfarande",
+          "url": "https://www.svt.se/nyheter/lokalt/smaland/tonaring-haktad-for-ran-i-kalmar-en-jagas-fortfarande"
+        }
+      ]
+    },
+    {
+      "event_id": "3a6bea4dd552dfb3",
+      "selected": false,
+      "reason": "domain_balance",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Svensk död i klättringsolycka på Malta",
+          "url": "https://www.svt.se/nyheter/inrikes/svensk-dod-i-klattringsolycka-pa-malta"
+        }
+      ]
+    },
+    {
+      "event_id": "cb6f2c7efc0f2e64",
+      "selected": false,
+      "reason": "domain_balance",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Åtal efter skoldådet i Fagersta dröjer – åklagaren: ”Mycket arbete återstår”",
+          "url": "https://www.svt.se/nyheter/lokalt/vastmanland/atal-efter-skoldadet-i-fagersta-drojer-aklagaren-mycket-arbete-aterstar"
+        }
+      ]
+    },
+    {
+      "event_id": "753f144b687771d3",
+      "selected": false,
+      "reason": "domain_balance",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Possible wreckage of Amelia Earhart's plane likely to be trees, say researchers",
+          "url": "https://www.bbc.co.uk/news/articles/cmq5n8x106jdo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "ee685eec94451824",
+      "selected": false,
+      "reason": "domain_balance",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Bollywood actor Tiger Shroff survives shooting attempt in Mumbai",
+          "url": "https://www.bbc.co.uk/news/articles/c6jdmy872r7vo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "3c7296776f2f9405",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 28,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 3,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "europol.europa.eu"
+      ],
+      "articles": [
+        {
+          "title": "Ordering violence from abroad: five suspects arrested in Spain, Morocco, and France",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/ordering-violence-abroad-five-suspects-arrested-in-spain-morocco-and-france"
+        }
+      ]
+    },
+    {
+      "event_id": "f130ebdaeb961c7f",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 28,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 3,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "europol.europa.eu"
+      ],
+      "articles": [
+        {
+          "title": "Cannabis smuggling from North America and Thailand into Europe: Europol highlights growing threat",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/cannabis-smuggling-north-america-and-thailand-europe-europol-highlights-growing-threat"
+        }
+      ]
+    },
+    {
+      "event_id": "fd1b55ae0a0c1df3",
+      "selected": false,
+      "reason": "already_reported_without_independent_update",
+      "score": 24,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 14,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
+          "url": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "64e9910ddfef21b0",
+      "selected": false,
+      "reason": "already_reported_without_independent_update",
+      "score": 24,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 14,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "arstechnica.com"
+      ],
+      "articles": [
+        {
+          "title": "Anthropic gives outside AI watchdog “employee-like” access",
+          "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

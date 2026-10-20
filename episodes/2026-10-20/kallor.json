@@ -1,0 +1,38 @@
+[
+  {
+    "source": "BBC News",
+    "title": "Ukrainska rådgivare larmar om bristande underrättelsevarningar",
+    "url": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss",
+    "evidence": {
+      "date": "2026-10-19T20:49:00+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:10:16.426043+00:00",
+      "page_sha256": "efb6cb278e608727aa581f095f5b7eb08b96097d18f7046a7296a390e0e70d42",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Ars Technica - All content",
+    "title": "Omfattande dataläckage vid myndighet i Florida efter slarv med inloggningsuppgifter",
+    "url": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/",
+    "evidence": {
+      "date": "2026-10-19T16:38:13+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:10:16.432943+00:00",
+      "page_sha256": "3f09b9f3ebc8099fe5c07561680ccaa1365ab49b019079254412503e23235505",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Ars Technica - All content",
+    "title": "Tidigare OpenAI-ingenjör häktad misstänkt för spioneri",
+    "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+    "evidence": {
+      "date": "2026-10-19T20:21:53+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:10:16.722359+00:00",
+      "page_sha256": "3b74373811fdcbf200d253c2acc039da6a308c5366bf5fe48ed011ff783c4845",
+      "retrieval_limit": null
+    }
+  }
+]
