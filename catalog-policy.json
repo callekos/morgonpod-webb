@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "release": "WORK_LIBRARY_2026_10_R1",
+  "superseded": {
+    "ibat:2026-10-20:daily": "WORK_LIBRARY_2026_10:ibat:replacement_ordinary:2",
+    "vald:2026-10-20:daily": "WORK_LIBRARY_2026_10:vald:replacement_ordinary:2",
+    "kek:2026-10-20:daily": "WORK_LIBRARY_2026_10:kek:replacement_ordinary:2",
+    "sjoomradet:2026-10-20:daily": "WORK_LIBRARY_2026_10:sjoomradet:replacement_ordinary:2",
+    "lagstiftning:2026-10-20:daily": "WORK_LIBRARY_2026_10:lagstiftning:replacement_ordinary:2"
+  }
+}
