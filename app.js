@@ -19,6 +19,12 @@ const Core = {
     if(key.startsWith('episodes')&&data.pages.length>1)return null;
     return [...data.pages].reverse();
   },
+  // Preserve the order the listener actually sees. Never mix channel and global queues.
+  queueIds: (ids, selected) => {
+    const unique=[...new Set((ids||[]).filter(Boolean))];
+    const at=unique.indexOf(selected);
+    return at<0?[selected].filter(Boolean):unique.slice(at);
+  },
   ranking: rows => (Array.isArray(rows) ? rows : []).filter(x => Number.isFinite(x.count) && x.count > 0).sort((a,b)=>b.count-a.count).slice(0,10)
 };
 if (typeof module !== 'undefined') module.exports = Core;
@@ -38,7 +44,7 @@ if (typeof document !== 'undefined') (async () => {
   };
   const duration=n=>{n=Math.max(0,Math.floor(n||0));return Math.floor(n/60)+':'+String(n%60).padStart(2,'0');};
   const prettyDate=e=>{const raw=e.published_at||e.date;if(!raw)return '';const d=new Date(raw);return Number.isNaN(d.getTime())?'':new Intl.DateTimeFormat('sv-SE',{day:'numeric',month:'short',timeZone:'Europe/Stockholm',...(e.published_at?{hour:'2-digit',minute:'2-digit'}:{})}).format(d);};
-  const channelCard=c=>'<a class="channel-card" href="'+url('kanal',{id:c.id})+'" style="--channel-color:'+visual(c.id).color+'">'+cover(c.id)+'<span class="channel-card-label">'+icon(visual(c.id).icon)+'<strong>'+esc(channel(c.id))+'</strong></span><small>'+esc(visual(c.id).category)+'</small></a>';
+  const channelCard=c=>'<a class="channel-card" href="'+url('kanal',{id:c.id})+'" style="--channel-color:'+visual(c.id).color+'">'+cover(c.id)+'<span class="channel-card-label">'+icon(visual(c.id).icon)+'<strong>'+esc(channel(c.id))+'</strong></span></a>';
   const systemTheme=matchMedia('(prefers-color-scheme: dark)');
   function setTheme(value){document.documentElement.dataset.theme=value;try{localStorage.setItem('morgonpod-theme',value)}catch{}document.querySelector('meta[name="theme-color"]').content=(value==='dark'||value==='system'&&systemTheme.matches)?'#071720':'#faf9f6';}
   setTheme(document.documentElement.dataset.theme||'system');systemTheme.addEventListener('change',()=>setTheme(document.documentElement.dataset.theme));
@@ -79,6 +85,44 @@ if (typeof document !== 'undefined') (async () => {
     if (window.goatcounter?.count) window.goatcounter.count({path:'morgonpod/'+type+'/'+encodeURIComponent(id),title:type,event:true,referrer:''});
   }
   const player=$('#player');
+  // The active queue is a snapshot of the list where playback started.
+  // It survives SPA navigation, but a new manual selection replaces it.
+  let playQueue=[], queuePosition=0, queueBusy=false;
+  const queueButton=document.createElement('button');
+  queueButton.type='button';queueButton.id='queue-toggle';queueButton.textContent='Spellista';queueButton.setAttribute('aria-expanded','false');
+  const queuePanel=document.createElement('section');
+  queuePanel.id='queue-panel';queuePanel.className='queue-panel';queuePanel.hidden=true;
+  queuePanel.setAttribute('aria-label','Spelas härnäst');
+  const nextButton=document.createElement('button');
+  nextButton.type='button';nextButton.id='queue-next';nextButton.textContent='Nästa';nextButton.setAttribute('aria-label','Nästa avsnitt');
+  const previousButton=document.createElement('button');
+  previousButton.type='button';previousButton.id='queue-previous';previousButton.textContent='Föregående';previousButton.setAttribute('aria-label','Föregående avsnitt');
+  $('#player .player-controls').append(previousButton,nextButton,queueButton);
+  player.append(queuePanel);
+  function updateQueue(){
+    const remaining=Math.max(0,playQueue.length-queuePosition-1);
+    queueButton.textContent='Spellista ('+remaining+')';
+    nextButton.disabled=!remaining;previousButton.disabled=queuePosition<=0;
+    queuePanel.innerHTML='<h3>Spelas härnäst</h3>'+(remaining
+      ?'<ol>'+playQueue.slice(queuePosition+1,queuePosition+21).map((id,i)=>'<li><button type="button" data-queue-index="'+(queuePosition+i+1)+'">'+esc(latestRows.get(id)?.title||id)+'</button></li>').join('')+'</ol>'
+      :'<p>Inga fler avsnitt i kön.</p>');
+  }
+  queueButton.onclick=()=>{queuePanel.hidden=!queuePanel.hidden;queueButton.setAttribute('aria-expanded',String(!queuePanel.hidden));};
+  async function playQueueIndex(index){
+    if(queueBusy||index<0||index>=playQueue.length)return;
+    queueBusy=true;
+    try {
+      const episode=await detail('episodes',playQueue[index]);
+      if(!Core.safePath(episode.audio))throw Error('Ogiltig ljudkälla');
+      queuePosition=index;
+      await play(episode,null,true);
+      updateQueue();
+    } catch {$('#player-status').textContent='Nästa avsnitt kunde inte laddas. Välj ett annat i spellistan.';}
+    finally {queueBusy=false;}
+  }
+  nextButton.onclick=()=>playQueueIndex(queuePosition+1);
+  previousButton.onclick=()=>playQueueIndex(queuePosition-1);
+  queuePanel.onclick=event=>{const button=event.target.closest('[data-queue-index]');if(button)playQueueIndex(Number(button.dataset.queueIndex));};
   let toggle=$('#player-toggle');
   if(!toggle){toggle=document.createElement('button');toggle.id='player-toggle';toggle.textContent='Minimera';player.append(toggle);}
   function compactPlayer(compact){
@@ -101,8 +145,19 @@ if (typeof document !== 'undefined') (async () => {
   $('#player-open').onclick=()=>{if(currentEpisode)navigate(url('avsnitt',{id:currentEpisode.id}));};
   function syncAudio(){const paused=audio.paused;$('#play-pause').innerHTML=icon(paused?'play':'pause');$('#play-pause').setAttribute('aria-label',paused?'Spela':'Pausa');$('#elapsed').textContent=duration(audio.currentTime);$('#total').textContent=duration(audio.duration);$('#seek').value=Number.isFinite(audio.duration)?audio.currentTime/audio.duration*100:0;const big=$('#big-play');if(big&&$('.full-player')?.dataset.episode===currentEpisode?.id){big.innerHTML=icon(paused?'play':'pause');big.setAttribute('aria-label',paused?'Spela avsnittet':'Pausa avsnittet');}const position=$('#big-seek');if(position&&$('.full-player')?.dataset.episode===currentEpisode?.id){position.value=$('#seek').value;$('#big-elapsed').textContent=duration(audio.currentTime);$('#big-total').textContent=duration(audio.duration);}}
   for(const event of ['timeupdate','play','pause','loadedmetadata','ended'])audio.addEventListener(event,syncAudio);
-  async function play(e) {
+  audio.addEventListener('ended',()=>{if(queuePosition+1<playQueue.length)void playQueueIndex(queuePosition+1);});
+  async function play(e, sourceList=null, preserveQueue=false) {
     if(!Core.safePath(e.audio))return;
+    if(!preserveQueue){
+      const ids=sourceList?[...sourceList.querySelectorAll('details.episode[data-id]')].map(node=>node.dataset.id):[];
+      // Keep the existing queue when opening the same episode in the full player.
+      if(sourceList||currentEpisode?.id!==e.id){
+        playQueue=Core.queueIds(ids,e.id);
+        queuePosition=0;
+      }
+    }
+    latestRows.set(e.id,e);
+    updateQueue();
     if(currentEpisode?.id!==e.id){currentEpisode=e;audio.src=e.audio;elapsed=0;previousTime=0;}
     $('#player').hidden=false;$('#player-title').textContent=episodeTitle(e);$('#player-status').textContent=channel(e.channel);$('#player-image').src='assets/channels/'+visual(e.channel).image+'-square.webp?v=3';
     document.body.classList.add('has-player');
@@ -118,7 +173,7 @@ if (typeof document !== 'undefined') (async () => {
       const e=await detail('episodes',node.dataset.id);
       if(!node.isConnected)return;
       body.innerHTML='<button class="primary play">▶ Spela avsnittet</button><h3>Om avsnittet</h3><p>'+esc(e.description)+'</p><h3>Ämnen</h3><div class="tags">'+(tags(e)||'<span class="muted">Ämnen saknas för detta äldre avsnitt.</span>')+'</div><p class="channel-link"><a href="'+url('kanal',{id:e.channel})+'">Om kanalen '+esc(channel(e.channel))+' ↗</a></p><h3>Artiklar i avsnittet</h3>'+(e.articles?.length?e.articles.map(articleCard).join(''):'<p class="muted">Detta avsnitt saknar separata redaktionella artiklar.</p>');
-      body.querySelector('.play').onclick=()=>play(e);body.insertAdjacentHTML('afterbegin','<a class="open-episode" href="'+url('avsnitt',{id:e.id})+'">Öppna stor spelare '+icon('arrow-up-right')+'</a>');
+      body.querySelector('.play').onclick=()=>play(e,node.closest('.episode-list'));body.insertAdjacentHTML('afterbegin','<a class="open-episode" href="'+url('avsnitt',{id:e.id})+'">Öppna stor spelare '+icon('arrow-up-right')+'</a>');
       if(node.getBoundingClientRect().top<0||node.getBoundingClientRect().top>innerHeight*.5)node.scrollIntoView({block:'start',behavior:'instant'});
     } catch {body.textContent='Avsnittet kunde inte laddas. Stäng och öppna för att försöka igen.';}
   },true);
