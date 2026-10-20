@@ -1,0 +1,37 @@
+{
+  "approved": true,
+  "issues": [],
+  "source_coverage": [
+    {
+      "claim": "Falska och manipulerade videor och bilder har spritts i sociala medier i samband med helgens proteströrelser.",
+      "source_url": "https://www.svt.se/nyheter/utrikes/ai-och-slagsmal-i-goteborg-de-har-bilderna-visar-inte-upploppen-i-franken"
+    },
+    {
+      "claim": "Minst 53 personer har dödats i en robotattack mot ett militärläger för regeringsstyrkor i Jemen, vilket rapporterats av AP och bekräftats av huthirebellerna.",
+      "source_url": "https://www.svt.se/nyheter/utrikes/huthiattack-mot-militarlager-i-jemen-minst-53-dodades"
+    }
+  ],
+  "short_episode_reason": "",
+  "reviewed_script_sha256": "04a4de04867554e467a83565ee6ce8e32f0f1e1e59212560c03cb57dd8f0f9c2",
+  "source_audit_correction": {
+    "id": "sjoomradet-20261020-opening-date",
+    "method": "reviewed_deletions_only",
+    "reviewer": "Codex exact opening audit, source event dates remain unchanged",
+    "before_sha256": {
+      "brief.json": "3455dde72e5b02ca5c72db2213f755bbe969f86196a5ed75e1312f2bafd5bbd6",
+      "manus.txt": "ef2dcf176c2c8aa2fbd2c2044a0daef84206ae0bcbf2850890ab037dfbce29c9",
+      "editorial_review.json": "c68cb2f1c48f001fb2e15ecac047484d5ace40163a9340d60632a3bed2dd3874",
+      "kallor.json": "035068ca569373fb939d464423d8d7786b93347b42367d5afc3bd5ba29c0a5b8"
+    },
+    "corrected_brief_sha256": "3455dde72e5b02ca5c72db2213f755bbe969f86196a5ed75e1312f2bafd5bbd6",
+    "edits": [],
+    "corrected_manus_sha256": "04a4de04867554e467a83565ee6ce8e32f0f1e1e59212560c03cb57dd8f0f9c2",
+    "script_removals": [
+      {
+        "remove": "Det är den 20 oktober 2026. ",
+        "reason": "Remove only the duplicate identification date. Keep the deterministic edition header and all dates of reported events."
+      }
+    ],
+    "new_model_review": false
+  }
+}

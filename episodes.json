@@ -2,6 +2,44 @@
   "episodes": [
     {
       "production_schema": 2,
+      "articles_required": true,
+      "article_count": 2,
+      "kind": "daily",
+      "duration_seconds": 312.168,
+      "duration_status": "short",
+      "target_minutes": [
+        6,
+        10
+      ],
+      "channel": "sjoomradet",
+      "date": "2026-10-20",
+      "title": "Tisdag V.43",
+      "description": "I dagens avsnitt av Sjöområdet uppmärksammar vi den senaste tidens händelser med desinformation i digitala kanaler samt den dödliga robotattacken mot ett militärläger i Jemen. Vi går igenom vad som rapporterats och analyserar händelsernas bredare konsekvenser.",
+      "audio": "episodes/sjoomradet/2026-10-20/morgonpod.mp3",
+      "audio_version": "317f0e4adb75b126",
+      "sources": "episodes/sjoomradet/2026-10-20/kallor.json",
+      "is_intro": false,
+      "episode_order": 739910,
+      "published_at": "2026-10-20T05:57:21.342562+00:00",
+      "published_at_source": "publication_transaction",
+      "tags": [
+        "Desinformation och verifiering",
+        "Internationella konflikter"
+      ],
+      "topics": [
+        {
+          "id": "desinformation-och-verifiering",
+          "name": "Desinformation och verifiering"
+        },
+        {
+          "id": "internationella-konflikter",
+          "name": "Internationella konflikter"
+        }
+      ],
+      "brief": "episodes/sjoomradet/2026-10-20/brief.json"
+    },
+    {
+      "production_schema": 2,
       "kind": "introduction",
       "duration_seconds": 1761.288,
       "duration_status": "within_target",

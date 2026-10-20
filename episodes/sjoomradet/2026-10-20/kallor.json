@@ -1,0 +1,26 @@
+[
+  {
+    "source": "SVT Nyheter",
+    "title": "AI och slagsmål i Göteborg – inte upploppen i Frankrike",
+    "url": "https://www.svt.se/nyheter/utrikes/ai-och-slagsmal-i-goteborg-de-har-bilderna-visar-inte-upploppen-i-frankrike",
+    "evidence": {
+      "date": "2026-10-19T20:02:55+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:10:30.226986+00:00",
+      "page_sha256": "41056d57bd23a1844f7405c6baebd6406a1a2e88d0abcc644991002a15137039",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "SVT Nyheter",
+    "title": "Huthiattack mot militärläger i Jemen – minst 53 dödades",
+    "url": "https://www.svt.se/nyheter/utrikes/huthiattack-mot-militarlager-i-jemen-minst-53-dodades",
+    "evidence": {
+      "date": "2026-10-19T15:04:54+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:10:31.385637+00:00",
+      "page_sha256": "f56198c51aca3e7c390da5559c8fef4917779e80aedff3f34e2656027da488f4",
+      "retrieval_limit": null
+    }
+  }
+]
