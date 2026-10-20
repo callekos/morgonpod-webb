@@ -1,0 +1,64 @@
+{
+  "title": "Extra ordinarie dagsavsnitt: Straffrättsliga uppdateringar",
+  "intro": "Detta är ett extra ordinarie dagsavsnitt från Lagstiftning med fokus på aktuella rättsfall, åtal och pågående utredningar inom straffrättsområdet med stöd av rapportering från SVT.",
+  "outlook": "Bevakningen fortsätter att följa hur dessa rättsprocesser utvecklar sig i tingsrätter och under kommande förundersökningar.",
+  "news": [
+    {
+      "category": "Domstolsavgörande",
+      "title": "Vårdare döms till ett års fängelse för sexuellt övergrepp i Vännäs",
+      "summary": "En vårdare i Vännäs döms till ett års fängelse för sexuellt övergrepp mot en äldre kvinna på ett äldreboende.",
+      "context": "Rapportering från SVT om en fällande dom i Umeå tingsrätt gällande händelser på ett äldreboende.",
+      "url": "https://www.svt.se/nyheter/lokalt/vasterbotten/rakade-kvinnas-underliv-pa-aldreboende-i-vannas-vardare-doms-till-ett-ars-fangelse",
+      "publisher": "SVT Nyheter",
+      "body": "En vårdare i Vännäs kommun döms till ett års fängelse för sexuellt övergrepp efter att ha rakat en äldre kvinnas underliv mot hennes vilja på ett äldreboende. Händelsen ägde rum dagen innan julafton föregående år. Kvinnan bedömdes vara i en särskilt utsatt situation på grund av sin höga ålder och sitt sjukdomstillstånd. Enligt SVT har mannen hela tiden nekat till brott och uppgett att det han gjorde ingick i hans arbetsuppgifter och var önskat av målsäganden. Umeå tingsrätt dömde mannen till ett års fängelse samt ett skadestånd om 73 200 kronor för kränkning, sveda och värk. Mannen har tidigare avskedats från sitt arbete.",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/vasterbotten/rakade-kvinnas-underliv-pa-aldreboende-i-vannas-vardare-doms-till-ett-ars-fangelse",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "category": "Åtal",
+      "title": "Stort vapentillslag: hittade 31 vapen hos man",
+      "summary": "En man i Vimmerby kommun åtalas för synnerligen grovt vapenbrott efter att trettioen vapen och stor mängd ammunition påträffats.",
+      "context": "SVT rapporterar om ett omfattande vapenbeslag där en man i 35-årsåldern åtalas efter tillslag i bostad och lagerlokal.",
+      "url": "https://www.svt.se/nyheter/lokalt/smaland/stort-vapentillslag-hittade-31-vapen-hos-man",
+      "publisher": "SVT Nyheter",
+      "body": "En man i 35-årsåldern i Vimmerby kommun åtalas för synnerligen grovt vapenbrott, brott mot vapenlagen, brott mot lagen om brandfarliga och explosiva varor samt ringa narkotikabrott. Åklagaren Jacob Semark uppger att det är ett av de större vapenbeslagen i Sverige. Vid en husrannsakan hittades 31 vapen, däribland gevär, pistoler, revolvrar och en kulspruta, samt drygt 11 500 patroner i mannens bostad och lagerlokal. Mannen greps i slutet av december 2025 och har varit häktad sedan januari. I bostaden påträffades även nazistföremål. Mannen nekar till brott och uppger att vapnen kommit från släktingar, samt att de historiska föremålen utgör skämtjargong.",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/smaland/stort-vapentillslag-hittade-31-vapen-hos-man",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "category": "Förundersökning",
+      "title": "Åtal efter skoldådet i Fagersta dröjer",
+      "summary": "Åtalet efter skoldådet i Fagersta skjuts upp då åklagaren har beviljats förlängd åtalstid till den 16 november.",
+      "context": "SVT rapporterar om läget i förundersökningen gällande svärdattacken på Brinellgymnasiet i Fagersta.",
+      "url": "https://www.svt.se/nyheter/lokalt/vastmanland/atal-efter-skoldadet-i-fagersta-drojer-aklagaren-mycket-arbete-aterstar",
+      "publisher": "SVT Nyheter",
+      "body": "Åtalet efter skoldådet på Brinellgymnasiet i Fagersta dröjer sedan åklagaren begärt och beviljats förlängd åtalstid till den 16 november. En 18-årig man är huvudmisstänkt och häktad för mord och tre fall av försök till mord, och en 16-åring är häktad för medhjälp. Omkring 760 förhör har hållits i ärendet. Senior åklagare Ann-Sofie Trossing uppger att mycket arbete återstår med att sammanställa och analysera det omfattande utredningsmaterialet.",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/vastmanland/atal-efter-skoldadet-i-fagersta-drojer-aklagaren-mycket-arbete-aterstar",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "open_questions": []
+    }
+  ],
+  "description": "Detta är ett extra ordinarie dagsavsnitt från Lagstiftning med fokus på aktuella rättsfall, åtal och pågående utredningar inom straffrättsområdet med stöd av rapportering från SVT.",
+  "tags": [
+    "Domstolsavgörande",
+    "Åtal",
+    "Förundersökning"
+  ],
+  "text_format": "editorial_articles",
+  "editorial_date": "2026-10-20",
+  "channel": "lagstiftning"
+}

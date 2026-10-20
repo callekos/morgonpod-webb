@@ -1,0 +1,83 @@
+{
+  "channel": "lagstiftning",
+  "date": "2026-10-20",
+  "schema": 2,
+  "corroboration_method": "distinct_hosts_not_proof_of_independence",
+  "received": 3,
+  "unique_urls": 3,
+  "identified_events": 3,
+  "selected_articles": 3,
+  "selected_events": 3,
+  "unique_domains": 1,
+  "max_items": 40,
+  "gemini_calls": 0,
+  "decisions": [
+    {
+      "event_id": "22c6be0c4e463780",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 48,
+      "score_components": {
+        "relevance": 6,
+        "freshness": 14,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Vårdare döms till ett års fängelse för sexuellt övergrepp i Vännäs",
+          "url": "https://www.svt.se/nyheter/lokalt/vasterbotten/rakade-kvinnas-underliv-pa-aldreboende-i-vannas-vardare-doms-till-ett-ars-fangelse"
+        }
+      ]
+    },
+    {
+      "event_id": "b843a573815d5c06",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 42,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 14,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Stort vapentillslag: hittade 31 vapen hos man",
+          "url": "https://www.svt.se/nyheter/lokalt/smaland/stort-vapentillslag-hittade-31-vapen-hos-man"
+        }
+      ]
+    },
+    {
+      "event_id": "74e5f2cae065f6e8",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 42,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 14,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Åtal efter skoldådet i Fagersta dröjer",
+          "url": "https://www.svt.se/nyheter/lokalt/vastmanland/atal-efter-skoldadet-i-fagersta-drojer-aklagaren-mycket-arbete-aterstar"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

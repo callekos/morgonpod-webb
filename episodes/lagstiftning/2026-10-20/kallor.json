@@ -1,0 +1,38 @@
+[
+  {
+    "source": "SVT Nyheter",
+    "title": "Vårdare döms till ett års fängelse för sexuellt övergrepp i Vännäs",
+    "url": "https://www.svt.se/nyheter/lokalt/vasterbotten/rakade-kvinnas-underliv-pa-aldreboende-i-vannas-vardare-doms-till-ett-ars-fangelse",
+    "evidence": {
+      "date": "2026-10-19",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:47:21.826553+00:00",
+      "page_sha256": "d39371b51c52c291e8b43aa922e7eed2c893880009e991eaaeecedb98dc45a0f",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "SVT Nyheter",
+    "title": "Stort vapentillslag: hittade 31 vapen hos man",
+    "url": "https://www.svt.se/nyheter/lokalt/smaland/stort-vapentillslag-hittade-31-vapen-hos-man",
+    "evidence": {
+      "date": "2026-10-19",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:47:21.826185+00:00",
+      "page_sha256": "6b49888f145639192a6adf8b4aa53d4fc93825c12d3a2d7b69f140baabf9b8d1",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "SVT Nyheter",
+    "title": "Åtal efter skoldådet i Fagersta dröjer",
+    "url": "https://www.svt.se/nyheter/lokalt/vastmanland/atal-efter-skoldadet-i-fagersta-drojer-aklagaren-mycket-arbete-aterstar",
+    "evidence": {
+      "date": "2026-10-19",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T03:47:21.827304+00:00",
+      "page_sha256": "6b0a1df4f1bb5d13005dccabde86eedd1d95cbfbbe12900f3446705e32d4d275",
+      "retrieval_limit": null
+    }
+  }
+]

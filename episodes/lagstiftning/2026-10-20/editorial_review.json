@@ -1,0 +1,41 @@
+{
+  "approved": true,
+  "issues": [],
+  "source_coverage": [
+    {
+      "claim": "En vårdare i trettioårsåldern har dömts till ett års fängelse av Umeå tingsrätt för sexuellt övergrepp i Vännäs kommun.",
+      "source_url": "https://www.svt.se/nyheter/lokalt/vasterbotten/rakade-kvinnas-underliv-pa-aldreboende-i-vannas-vardare-doms-till-ett-ars-fangelse"
+    },
+    {
+      "claim": "En man i trettiofemårsåldern i Vimmerby kommun åtalas för synnerligen grovt vapenbrott och andra brott efter att ett stort antal vapen påträffats.",
+      "source_url": "https://www.svt.se/nyheter/lokalt/smaland/stort-vapentillslag-hittade-31-vapen-hos-man"
+    },
+    {
+      "claim": "Åtalet efter skoldådet i Fagersta dröjer då åklagaren har beviljats förlängd åtalstid till den sextonde november.",
+      "source_url": "https://www.svt.se/nyheter/lokalt/vastmanland/atal-efter-skoldadet-i-fagersta-drojer-aklagaren-mycket-arbete-aterstar"
+    }
+  ],
+  "short_episode_reason": "",
+  "source_audit_correction": {
+    "id": "lagstiftning-20261020-spoken-amount",
+    "method": "reviewed_deletions_only",
+    "reviewer": "Codex source audit against retrieved SVT page: damages are 73 200 kronor; article body is correct, malformed spoken amount omitted",
+    "before_sha256": {
+      "brief.json": "8a7bbb1567a7045326118cd31a7e58814a959411d3f7a2e734b58aa7c13bcd39",
+      "manus.txt": "22a666fbda661bfac1a6413cac9a065ee8a5b998d6eee21de487f984cd772a49",
+      "editorial_review.json": "1dc4651fad8e981333f3ac126a4e734405d26d667668cf786a42ca1125273d5b",
+      "kallor.json": "433283b1710af02c7cc1d0d7fc5c61b7642687e0e093d2257af133050533e7c6"
+    },
+    "corrected_brief_sha256": "8a7bbb1567a7045326118cd31a7e58814a959411d3f7a2e734b58aa7c13bcd39",
+    "edits": [],
+    "corrected_manus_sha256": "10f8df8277734ab86465dbe18db03677c5582fce162d158787b1d69fcdeca183",
+    "script_removals": [
+      {
+        "remove": "på sjuttioatusentvåhundra kronor ",
+        "reason": "The generated spoken amount is malformed. Omit only this amount clause, preserving the supported statement about damages and the article with the correct sourced figure 73 200 kronor. No replacement fact is introduced."
+      }
+    ],
+    "new_model_review": false
+  },
+  "reviewed_script_sha256": "10f8df8277734ab86465dbe18db03677c5582fce162d158787b1d69fcdeca183"
+}

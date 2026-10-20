@@ -5,6 +5,49 @@
       "articles_required": true,
       "article_count": 3,
       "kind": "daily",
+      "duration_seconds": 181.176,
+      "duration_status": "short",
+      "target_minutes": [
+        6,
+        10
+      ],
+      "channel": "lagstiftning",
+      "date": "2026-10-20",
+      "title": "Tisdag V.43",
+      "description": "Detta är ett extra ordinarie dagsavsnitt från Lagstiftning med fokus på aktuella rättsfall, åtal och pågående utredningar inom straffrättsområdet med stöd av rapportering från SVT.",
+      "audio": "episodes/lagstiftning/2026-10-20/morgonpod.mp3",
+      "audio_version": "65abfd716b202cfa",
+      "sources": "episodes/lagstiftning/2026-10-20/kallor.json",
+      "is_intro": false,
+      "episode_order": 739910,
+      "published_at": "2026-10-20T06:02:54.353062+00:00",
+      "published_at_source": "publication_transaction",
+      "tags": [
+        "Domstolsavgörande",
+        "Åtal",
+        "Förundersökning"
+      ],
+      "topics": [
+        {
+          "id": "domstolsavgörande",
+          "name": "Domstolsavgörande"
+        },
+        {
+          "id": "åtal",
+          "name": "Åtal"
+        },
+        {
+          "id": "förundersökning",
+          "name": "Förundersökning"
+        }
+      ],
+      "brief": "episodes/lagstiftning/2026-10-20/brief.json"
+    },
+    {
+      "production_schema": 2,
+      "articles_required": true,
+      "article_count": 3,
+      "kind": "daily",
       "duration_seconds": 359.52,
       "duration_status": "short",
       "target_minutes": [
