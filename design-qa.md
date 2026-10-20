@@ -2,7 +2,7 @@
 
 ## Omfattning
 
-Granskning av den separata fungerande förhandsversionen. Detta är inte slutligt releasegodkännande. Faktisk publiceringstid, feedordning, fysisk iPhone Safari och produktionsintegrering är kvarstående releasegrindar enligt docs/v2-preview.md.
+Historiska visuella granskningar av den separata fungerande förhandsversionen följer nedan. Uppgifterna om då kvarstående metadata och feed är ersatta av produktionskontraktet i docs/v2-preview.md. Releasekontrollen den 20 oktober journalförs sist och i PR #4. Ingen fysisk Safari-verifiering av agenten påstås.
 
 ## Referens och bevis
 
@@ -47,6 +47,16 @@ P3: Bildspråket följer referensen men motiven är egna kanalillustrationer. Fe
 Inga kvarvarande P0/P1/P2 visuella fynd för förhandsversionens granskade vyer. Produktionskraven ovan är uttryckligen inte godkända av denna visuella QA.
 
 final result: passed
+
+## Produktionsintegration 20 oktober, morgonpass
+
+Ägarens uppdrag cirka 05.06: fortsätt och färdigställ. Första bildseriens bearbetade scener och samtliga visuella komponenter är bevarade. Ingen ny konceptiteration eller bildgenerering. Cacheversion v2-release4 skiljer produktionsintegrationen från nattens bildpreview.
+
+Konkreta integrationsfynd: frontend läste enbart previewaliaset history_pages och inte producentens nya episodes/history/channel/CHANNEL; startsidan kunde välja första åtta kanaler innan faktisk senastepublicering jämfördes. Båda rättade. Historisk ordning följer intro, explicit ordningsnyckel och redaktionell kronologi, utan omskrivna publiceringstider. Separata listvägar och deras sidantal används vid paginering. Previewbygget bevarar producentens historikordning.
+
+Regression: 15 lokala enhetstester godkända före CI. 44 browserfall definierade inklusive iPad WebKit, mellanbredder 650/820/1024, 50 historikposter över tre sidor och 20 kanaler med 4000 avsnitt där senast publicerat finns i kanal 20. Befintliga sex flöden, 6000/24000-arkiv, bild- och temakontroller kvar. Nytt read-only livejobb verifierar exakta frontendbytes och samma centrala flöden efter Pages-publicering. Resultat ska kvitteras i PR innan release påstås godkänd.
+
+Fysiskt iPhoneprov efter detta pass saknas, medan automatiskt WebKitprov ingår. Framtida publiceringstider kan inte verifieras före morgonens riktiga produktionsleverans; historiska saknade tider förblir okända. Dessa begränsningar är uttryckliga och ersätts inte med syntetiskt bevis om verklig produktion.
 
 ## Iteration 2: kanalbilder efter ägarens iPhoneprov
 

@@ -1,0 +1,57 @@
+[
+  {
+    "source": "Finansinspektionen",
+    "title": "Regler mot penningtvätt och finansiering av terrorism",
+    "url": "https://fi.se/sv/bank/penningtvatt/regler-mot-penningtvatt-och-finansiering-av-terrorism/",
+    "evidence": {
+      "date": "unknown",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T17:45:58.760982+00:00",
+      "page_sha256": "e34358c8920db23987584a3560ef35f6682e0fe19b110448c13ac8a18eadb1d1"
+    }
+  },
+  {
+    "source": "Ekobrottsmyndigheten",
+    "title": "Penningtvättsbrott",
+    "url": "https://www.ekobrottsmyndigheten.se/om-ekobrott/brotten-vi-utreder/penningtvattsbrott/",
+    "evidence": {
+      "date": "unknown",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T17:45:59.643375+00:00",
+      "page_sha256": "5816756697ace19789d295c0ccc6584e29d41de2c9ede46e66f509d6c3fd0dcc"
+    }
+  },
+  {
+    "source": "Ekobrottsmyndigheten",
+    "title": "Penningtvätt och kriminell ekonomi",
+    "url": "https://www.ekobrottsmyndigheten.se/om-ekobrott/lagesbilden/penningtvatt/",
+    "evidence": {
+      "date": "unknown",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T17:45:58.659787+00:00",
+      "page_sha256": "f682c75d94fa0fb90091dba02ac18703c6a25e5ea55beef2d06e22014f91931e"
+    }
+  },
+  {
+    "source": "Ekobrottsmyndigheten",
+    "title": "Lägesbild 2025: från enskilda brott till organiserade systemhot",
+    "url": "https://www.ekobrottsmyndigheten.se/om-oss/press/aktuellt/nyheter/lagesbild-2025-fran-enskilda-brott-till-organiserade-systemhot/",
+    "evidence": {
+      "date": "unknown",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T17:45:59.669188+00:00",
+      "page_sha256": "8bfc8710cc817f1ec3451f56d2e960d4910252c08e891eca96eef9a11fd27b7e"
+    }
+  },
+  {
+    "source": "Finansinspektionen",
+    "title": "Penningtvätt och finansiering av terrorism",
+    "url": "https://www.fi.se/sv/penningtvatt/",
+    "evidence": {
+      "date": "unknown",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-19T17:45:58.661009+00:00",
+      "page_sha256": "80e2ca919b3ba6d642ed9703adbfea9a047aef16585b4d91a47bc3ef230b23e6"
+    }
+  }
+]

@@ -18,16 +18,22 @@ Fem verkliga kanaler visas. De 15 framtida kanalerna är inte fabricerade. Nya k
 
 published_at används för senasteordning. kind=introduction, is_intro eller äldre :introduction-ID känns igen. episode_order respekteras i historiken. Inga publiceringstider skrivs om. Ordningen mellan poster utan tidsstämpel faller tillbaka på date och stabilt ID, vilket inte kan bevisa faktisk publiceringsordning.
 
-Alla 11 nuvarande avsnitt saknar published_at. Detta är en uttrycklig integrationsgrind före slutlig release. Produktionsägaren har informerats via #34, utan parallella ändringar i deras filer. Samma verkliga tidsstämpel måste följa detalj-, list- och sökposter. Feedordningen måste verifieras hos produktionen; frontend ändrar inte RSS eller historiskt ljud.
+De 12 äldre publicerade avsnitten saknar verifierbar published_at. De behåller dokumenterad datumfallback; inga tider fabriceras. Produktionskontraktet är infört genom nyhetspodden PR #75 och docs/WEB-PRODUCTION-CONTRACT.md. Framtida publiceringstransaktioner för published_at, kind, is_intro och episode_order vidare till detaljer, listor och sök. published_at är publiceringstransaktionens tid, inte exakt första CDN-tillgänglighet. Separat web_verified_at är verifieringstid.
+
+V2 läser nu producentens kanoniska collection episodes/history/channel/CHANNEL direkt. Previewaliaset history_pages behålls bakåtkompatibelt. Gamla enskilda sidor kan sorteras fullständigt lokalt; flersidiga äldre episodarkiv utan historikindex visar ett begripligt meddelande i stället för falsk global ordning. Startsidan jämför en begränsad förstasida per kanal innan den väljer första åtta, så den senaste faktiska publiceringen inte missas i kanal 9 till 20. Inga hela arkiv eller detaljposter behövs för startsidan.
+
+Producenten bygger redan deterministiska katalogsidor vid ordinarie publicering. Previewpaketeringen är därför inte längre en produktionsgrind och ska inte kopplas in som konkurrerande produktionsjobb. Ingen RSS/XML-feed finns enligt producentens inventering; ny distribution ligger utanför V2 och är inte en blockerande ändring.
 
 ## Förhandsdrift och release
 
 Separat privat Sites-förhandsversion med en kopia av verkligt publicerat innehåll. Den tar inte över den ordinarie publiceringsadressen eller katalogen. Denna preview är en innehållssnapshot och uppdateras vid nästa previewbygge. Ingen modell för manus eller ljud har anropats. Ingen betaltjänst aktiveras.
 
-Inför slutlig release efter ägarens iPhonefeedback: färdigställ publiceringstidskontraktet, integrera den deterministiska paketeringen i befintlig webbpublicering i samråd med produktionsägaren, kör grön CI inklusive WebKit på exakt head, jämför nytt producerat innehåll, verifiera publicerad webb och ljud efter byte. Ingen merge eller ändring av Pages-källa innan detta.
+Ägaren har granskat preview på iPhone, styrt bildriktningen och den 20 oktober cirka 05.06 uttryckligen bett att genomföra och färdigställa arbetet. Slutlig release görs på befintlig Pages-adress efter grön CI på exakt head. Inga hostinginställningar eller produktionsjobb byts. Main har hämtats in inklusive sista KEK-uppstarten utan ändringar av dess data. Produktionsfiler och ljud ska vara byteidentiska före/efter UI-merge.
+
+Webbens acceptans kör 44 browserfall: iPhone WebKit, Android Chromium, iPad WebKit och desktop. Efter UI-push till main verifierar separat read-only-jobb exakta publicerade frontendbytes och därefter sex flöden med verklig ljuduppspelning i alla fyra browserprofiler. Det är inte ett påstående om fysisk iPhone eller om morgonens ännu inte publicerade utgåvor. Innehållspushar ensamma utlöser inte den tunga UI-sviten. Livejobbet skriver varken till kataloger, Telegram eller produktionssystemet.
 
 Rollback: återgå till tidigare frontendfiler och deras cacheversion; behåll nytillkomna katalogposter och ljud. Revert får aldrig återställa hela repot eller förlora publiceringar som skett efter basen.
 
 ## Testgränser
 
-Lokala Chromiumtester omfattar mobil, desktop, navigering, stora syntetiska arkiv, temalagring/systemval, artiklar, faktisk ljudposition, hastighet och beständigt ljud. WebKit-binarien gick att hämta men systembibliotek saknas i denna körmiljö och paketinstallationen nekades av körmiljön. GitHub Actions installerar WebKit med systemberoenden och är avsedd som releasegrind. Ingen fysisk iPhone Safari har testats av agenten. Det är därför ägarens previewfeedback behövs före ersättning av befintlig design.
+Tidigare lokala Chromiumtester omfattar mobil, desktop, navigering, stora syntetiska arkiv, temalagring/systemval, artiklar, faktisk ljudposition, hastighet och beständigt ljud. Den aktuella miljön saknar stödd lokal browserstyrning, så nattens integrationskontroll använder GitHub Actions med WebKit/systemberoenden. Ingen fysisk iPhone Safari har testats av agenten. Ägarens tidigare iPhonegranskning och de automatiska WebKitproven redovisas separat. 20 kanaler och stora arkiv provas syntetiskt; bara fem verkliga kanaler är publicerade.

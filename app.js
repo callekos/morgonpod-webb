@@ -6,7 +6,19 @@ const Core = {
   isIntro: e => e.is_intro === true || e.kind === 'introduction' || /:introduction$/.test(e.id || ''),
   published: e => Date.parse(e.published_at || e.date || '') || 0,
   compareLatest: (a,b) => Core.published(b)-Core.published(a) || String(a.id).localeCompare(String(b.id)),
-  compareHistory: (a,b) => Number(Core.isIntro(b))-Number(Core.isIntro(a)) || ((Number.isFinite(a.episode_order)&&Number.isFinite(b.episode_order)) ? a.episode_order-b.episode_order : Core.published(a)-Core.published(b)) || String(a.id).localeCompare(String(b.id)),
+  compareHistory: (a,b) => Number(Core.isIntro(b))-Number(Core.isIntro(a)) || ((Number.isFinite(a.episode_order)&&Number.isFinite(b.episode_order)) ? a.episode_order-b.episode_order : (Date.parse(a.date)||Core.published(a))-(Date.parse(b.date)||Core.published(b))) || Core.published(a)-Core.published(b) || String(a.id).localeCompare(String(b.id)),
+  collectionPaths: (manifest,key,order) => {
+    const data=manifest.collections[key]||{pages:[]};
+    if(order!=='oldest')return data.pages;
+    // Producer contract since 20 October. The preview's older alias is retained.
+    const history=manifest.collections[key.replace(/^episodes\/channel\//,'episodes/history/channel/')];
+    if(key.startsWith('episodes/channel/')&&history?.pages)return history.pages;
+    if(data.history_pages)return data.history_pages;
+    // A single legacy page can be sorted completely. Never fake global episode
+    // chronology by sorting/reversing only one page of a large old archive.
+    if(key.startsWith('episodes')&&data.pages.length>1)return null;
+    return [...data.pages].reverse();
+  },
   ranking: rows => (Array.isArray(rows) ? rows : []).filter(x => Number.isFinite(x.count) && x.count > 0).sort((a,b)=>b.count-a.count).slice(0,10)
 };
 if (typeof module !== 'undefined') module.exports = Core;
@@ -113,44 +125,46 @@ if (typeof document !== 'undefined') (async () => {
   async function collection(key, target, token, maximum=Infinity, order='latest') {
     const data=manifest.collections[key]||{count:0,pages:[]};
     if(!data.count){target.innerHTML='<p class="empty">Inget publicerat innehåll i detta urval ännu.</p>';return;}
-    let page=0;const paths=order==='oldest'?(data.history_pages||[...data.pages].reverse()):data.pages;
+    let page=0;const paths=Core.collectionPaths(manifest,key,order);
+    if(!paths){target.innerHTML='<p class="empty">Historisk ordning är ännu inte tillgänglig för detta äldre arkiv. Välj Senast publicerat.</p>';return;}
     const list=document.createElement('div');list.className=key.startsWith('articles')?'article-grid':'episode-list';
     const button=document.createElement('button');button.className='more';button.textContent='Visa fler';
     target.append(list,button);
-    async function next(){button.disabled=true;try{const chunk=await json(paths[page]);if(token!==routeToken)return;list.insertAdjacentHTML('beforeend',[...chunk.items].sort(order==='oldest'?Core.compareHistory:Core.compareLatest).slice(0,maximum).map(key.startsWith('articles')?articleCard:episodeRow).join(''));page++;button.hidden=page>=data.pages.length||page*24>=maximum;}catch{button.textContent='Kunde inte ladda. Försök igen';}button.disabled=false;}
+    async function next(){button.disabled=true;try{const chunk=await json(paths[page]);if(token!==routeToken)return;list.insertAdjacentHTML('beforeend',[...chunk.items].sort(order==='oldest'?Core.compareHistory:Core.compareLatest).slice(0,maximum-page*24).map(key.startsWith('articles')?articleCard:episodeRow).join(''));page++;button.hidden=page>=paths.length||page*24>=maximum;}catch{button.textContent='Kunde inte ladda. Försök igen';}button.disabled=false;}
     button.onclick=next;await next();
   }
   // Homepage shows the newest item per channel, not an arbitrary first item in a global feed.
-  // Fetch one small page per visible channel; reveal further channels on demand.
+  // One bounded first page per channel establishes the correct global order,
+  // even if the producer manifest has no optional latest summary. Never fetch
+  // episode details or the complete archive just to order the homepage.
   async function homeLatest(kind, target, token, initial=8) {
-    const eligible=manifest.channels.filter(c=>(manifest.collections[kind+'/channel/'+c.id]?.count||0)>0).sort((a,b)=>{const x=manifest.collections[kind+'/channel/'+a.id].latest,y=manifest.collections[kind+'/channel/'+b.id].latest;return x&&y?Core.compareLatest(x,y):0;});
+    const eligible=manifest.channels.filter(c=>(manifest.collections[kind+'/channel/'+c.id]?.count||0)>0);
     if(!eligible.length){target.innerHTML='<p class="empty">Inget publicerat innehåll ännu.</p>';return;}
+    const results=await Promise.allSettled(eligible.map(async c=>{
+      const data=manifest.collections[kind+'/channel/'+c.id];
+      if(data.latest)return data.latest;
+      const page=await json(data.pages[0]);
+      return [...(page.items||[])].sort(Core.compareLatest)[0]||null;
+    }));
+    if(token!==routeToken)return;
+    const ordered=results.filter(r=>r.status==='fulfilled'&&r.value).map(r=>r.value).sort(Core.compareLatest);
+    if(!ordered.length){target.innerHTML='<p class="empty">Innehållet kunde inte hämtas. Försök ladda sidan igen.</p>';return;}
     const list=document.createElement('div');list.className=kind==='articles'?'article-grid':'episode-list';
     const more=document.createElement('button');more.className='more';more.type='button';
     target.append(list,more);
     let shown=0;
     async function reveal(){
       more.disabled=true;
-      const next=eligible.slice(shown,shown+initial);
-      const results=await Promise.allSettled(next.map(async c=>{
-        const path=manifest.collections[kind+'/channel/'+c.id].pages[0];
-        const page=await json(path);
-        return [...(page.items||[])].sort(Core.compareLatest)[0]||null;
-      }));
-      if(token!==routeToken)return;
-      const rows=results.filter(r=>r.status==='fulfilled'&&r.value).map(r=>r.value)
-        .sort(Core.compareLatest);
+      const rows=ordered.slice(shown,shown+initial);
       rows.forEach(e=>latestRows.set(e.id,e));list.insertAdjacentHTML('beforeend',rows.map(kind==='articles'?articleCard:episodeRow).join(''));
-      shown+=next.length;
-      more.hidden=shown>=eligible.length;
-      more.textContent='Visa fler kanaler ('+shown+' av '+eligible.length+')';
+      shown+=rows.length;
+      more.hidden=shown>=ordered.length;
+      more.textContent='Visa fler kanaler ('+shown+' av '+ordered.length+')';
       more.disabled=false;
-      if(results.some(r=>r.status==='rejected')){
-        const note=document.createElement('p');note.className='muted';note.textContent='Vissa kanaler kunde inte hämtas just nu.';target.append(note);
-      }
     }
     more.onclick=reveal;
     await reveal();
+    if(results.some(r=>r.status==='rejected')){const note=document.createElement('p');note.className='muted';note.textContent='Vissa kanaler kunde inte hämtas just nu.';target.append(note);}
   }
   function filters(kind,p) {
     return '<form id="filters"><label>Kanal<select name="channel"><option value="">Alla kanaler</option>'+manifest.channels.map(c=>'<option value="'+esc(c.id)+'" '+(p.get('channel')===c.id?'selected':'')+'>'+esc(c.name)+'</option>').join('')+'</select></label><button type="submit">Visa</button></form>';

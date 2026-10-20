@@ -8,8 +8,13 @@ function orderedCollections(root,out){
    const d=memo.get(row.detail);return {...row,published_at:row.published_at||d.published_at,kind:row.kind||d.kind,is_intro:Core.isIntro({...d,...row}),episode_order:row.episode_order??d.episode_order};
   });
   if(key==='episodes')missing=rows.filter(x=>!x.published_at).length;
-  const latest=rows.toSorted(Core.compareLatest);c.latest=latest[0]||null;c.pages=writePages(key,latest);
-  if(key.startsWith('episodes'))c.history_pages=writePages(key+'/history',rows.toSorted(Core.compareHistory));
+  const historical=key.startsWith('episodes/history/');
+  const latest=rows.toSorted(Core.compareLatest);c.latest=latest[0]||null;c.pages=writePages(key,historical?rows.toSorted(Core.compareHistory):latest);
+  if(key.startsWith('episodes')&&!historical){
+   const historyKey=key.startsWith('episodes/channel/')?key.replace('episodes/channel/','episodes/history/channel/'):key+'/history';
+   c.history_pages=writePages(historyKey,rows.toSorted(Core.compareHistory));
+   if(historyKey.startsWith('episodes/history/channel/')&&!manifest.collections[historyKey])manifest.collections[historyKey]={count:rows.length,pages:c.history_pages};
+  }
  }
  manifest.publication_metadata={missing_episode_timestamps:missing};
  manifest.channels=manifest.channels.map(c=>c.id==='ibat'?{...c,name:'IBAT - Informationsförsörjning'}:c);
