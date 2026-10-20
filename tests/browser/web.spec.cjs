@@ -1,7 +1,7 @@
 const {test,expect}=require('@playwright/test');
 test('navigation, expandable episodes, bounded requests and persistent player',async({page})=>{
  const requests=[];page.on('request',r=>requests.push(r.url()));
- await page.goto('/idag.html');await expect(page.getByRole('heading',{name:'Senaste poddavsnitten'})).toBeVisible();
+ await page.goto('/idag.html');await expect(page.getByRole('heading',{name:'Senast publicerat'})).toBeVisible();
  await page.locator('a[href="lyssna.html"]').filter({visible:true}).first().click();
  await expect(page.getByRole('heading',{name:'Lyssna',exact:true})).toBeVisible();
  await page.locator('summary').first().click();await expect(page.getByRole('heading',{name:'Om avsnittet'})).toBeVisible();
@@ -48,7 +48,7 @@ test('homepage picks one latest episode per channel and can expand',async({page}
   route.fulfill({json:{items:[{id:'latest-'+i,channel:'c'+i,date:'2026-10-17',title:'Senast i kanal '+i},{id:'older-'+i,channel:'c'+i,date:'2026-10-16',title:'Äldre'}]}});
  });
  await page.goto('/idag.html');
- await expect(page.locator('details.episode')).toHaveCount(8);
+ await expect(page.locator('details.episode')).toHaveCount(6);
  await expect(page.getByText('Äldre',{exact:true})).toHaveCount(0);
  await page.getByRole('button',{name:/Visa fler kanaler/}).first().click();
  await expect(page.locator('details.episode')).toHaveCount(10);

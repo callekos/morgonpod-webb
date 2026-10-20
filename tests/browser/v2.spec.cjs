@@ -14,7 +14,7 @@ test('V2 channel identity, tabs and all appearance modes',async({page},info)=>{
  expect(errors).toEqual([]);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
 });
 test('V2 six flows, real audio and responsive visual evidence',async({page},info)=>{
- const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('/idag.html');await expect(page.locator('.hero')).toBeVisible();
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('/idag.html');await expect(page.locator('.morning-brief')).toBeVisible();
  await capture(page,'docs/evidence/'+info.project.name+'-today.png');
  await page.getByRole('link',{name:'Kanaler',exact:true}).click();await expect(page.locator('.channel-card')).toHaveCount(await channelCount(page));await capture(page,'docs/evidence/'+info.project.name+'-channels.png');
  await page.locator('.channel-card').filter({hasText:'Sjöområdet'}).click();await expect(page.getByRole('heading',{name:'Sjöområdet',exact:true})).toBeVisible();await capture(page,'docs/evidence/'+info.project.name+'-channel-light.png');

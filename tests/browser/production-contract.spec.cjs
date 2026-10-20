@@ -20,9 +20,9 @@ test('homepage finds newest publication across 20 producer channels without late
  channels.forEach(c=>collections['episodes/channel/'+c.id]={count:200,pages:Array.from({length:9},(_,i)=>'catalog/lists/episodes/channel/'+c.id+'/'+i+'.json')});
  await page.route('**/catalog/manifest.json',r=>r.fulfill({json:{channels,collections,topics:[],search_buckets:[]}}));
  await page.route('**/catalog/lists/**',r=>{loaded.push(r.request().url());const n=Number(r.request().url().match(/channel\/c(\d+)\//)[1]);r.fulfill({json:{items:[{id:'latest-'+n,channel:'c'+n,date:'2026-10-01',published_at:new Date(Date.UTC(2026,9,20,7,n)).toISOString(),title:'Ny publicering '+n}]}});});
- await page.goto('/idag.html');await expect(page.locator('.home-episodes .episode')).toHaveCount(8);await expect(page.locator('.hero')).toContainText('Kanal 19');
+ await page.goto('/idag.html');await expect(page.locator('.home-episodes .episode')).toHaveCount(6);await expect(page.locator('.home-episodes .episode').first()).toContainText('Kanal 19');
  expect(loaded).toHaveLength(20);expect(loaded.every(url=>url.endsWith('/0.json'))).toBeTruthy();
- await page.getByRole('button',{name:/Visa fler kanaler/}).click();await page.getByRole('button',{name:/Visa fler kanaler/}).click();await expect(page.locator('.episode')).toHaveCount(20);
+ for(let i=0;i<3;i++)await page.getByRole('button',{name:/Visa fler kanaler/}).click();await expect(page.locator('.episode')).toHaveCount(20);
  expect(await page.locator('.episode').evaluateAll(nodes=>nodes.map(n=>n.dataset.id))).toEqual(Array.from({length:20},(_,i)=>'latest-'+(19-i)));expect(loaded).toHaveLength(20);
 });
 test('tablet and intermediate widths keep navigation and archives reachable',async({page})=>{

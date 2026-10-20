@@ -8,6 +8,7 @@ const Core = {
   channelOrder: ['ibat','vald','sjoomradet','kek','lagstiftning','ai_brottsbekampning','it_juridik','verksamhetsutveckling'],
   editorialRank: e => Core.isIntro(e) ? 0 : Number(e.episode_order)||2,
   compareLatest: (a,b) => Core.published(b)-Core.published(a) || Number(Core.isIntro(a))-Number(Core.isIntro(b)) || (Core.channelOrder.indexOf(a.channel) < 0 ? 99 : Core.channelOrder.indexOf(a.channel))-(Core.channelOrder.indexOf(b.channel) < 0 ? 99 : Core.channelOrder.indexOf(b.channel)) || Core.editorialRank(b)-Core.editorialRank(a) || String(a.id).localeCompare(String(b.id)),
+  special: e => e.kind==='special'||/:special:/.test(e.id||'')||e.kind==='historical'&&!/:replacement_ordinary:/.test(e.id||''),
   ordinary: e => e.kind==='daily'||/:replacement_ordinary:/.test(e.id||''),
   stockholmDay: now => new Intl.DateTimeFormat('sv-SE',{timeZone:'Europe/Stockholm',year:'numeric',month:'2-digit',day:'2-digit'}).format(now||new Date()),
   compareHistory: (a,b) => Number(Core.isIntro(b))-Number(Core.isIntro(a)) || ((Number.isFinite(a.episode_order)&&Number.isFinite(b.episode_order)) ? a.episode_order-b.episode_order : (Date.parse(a.date)||Core.published(a))-(Date.parse(b.date)||Core.published(b))) || Core.published(a)-Core.published(b) || String(a.id).localeCompare(String(b.id)),
@@ -253,7 +254,7 @@ if (typeof document !== 'undefined') (async () => {
     document.body.dataset.page=page;contexts.clear();latestRows.clear();
     const kind=page==='artiklar'?'articles':'episodes';
     $('#nav').querySelectorAll('a').forEach(a=>{if(a.getAttribute('href')===(['kanal','avsnitt'].includes(page)?'kanaler.html':page==='artikel'?'artiklar.html':page==='index'?'idag.html':page+'.html'))a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
-    main.innerHTML='<p role="status">Hämtar innehåll…</p>';
+    latestRows.clear();main.innerHTML='<p role="status">Hämtar innehåll…</p>';
     try {
       if(page==='artikel') {
         const a=await detail('articles',p.get('id')||'');if(token!==routeToken)return;
@@ -306,9 +307,9 @@ if (typeof document !== 'undefined') (async () => {
         const rows=available.filter(e=>e.date===day),missing=dailyChannels.filter(c=>c.id!=='lagstiftning'&&!rows.some(e=>e.channel===c.id));
         $('#brief-action').innerHTML=rows.length?'<button class="primary morning-play" data-play="'+esc(rows[0].id)+'">'+icon('play')+' Spela bevakningen</button><small>'+rows.length+' avsnitt · '+Math.ceil(rows.reduce((n,e)=>n+(e.duration_seconds||0),0)/60)+' min</small>':'<p>Bevakningen har ännu inte publicerats.</p>';
         registerContext($('.morning-brief'),rows,null,'Bevakningen '+(day||today));
-        $('#morning-editions').innerHTML=(rows.length&&day!==today?'<p class="edition-status">Senaste tillgängliga bevakning: '+esc(day)+'. Dagens avsnitt visas här när de publiceras.</p>':'')+'<div class="morning-strip">'+rows.map(e=>'<a href="'+url('avsnitt',{id:e.id})+'">'+cover(e.channel)+'<span>'+esc(channel(e.channel))+'</span><small>'+duration(e.duration_seconds)+'</small></a>').join('')+'</div>'+(missing.length?'<p class="edition-status">'+esc(missing.map(c=>channel(c.id)).join(', '))+': inväntar publicering'+(day&&day!==today?' för '+day:'')+'.</p>':'');
+        $('#morning-editions').innerHTML=(rows.length&&day!==today?'<p class="edition-status">Senaste tillgängliga bevakning: '+esc(day)+'. Dagens avsnitt visas här när de publiceras.</p>':'')+'<div class="morning-strip">'+rows.map(e=>'<a href="'+url('avsnitt',{id:e.id})+'">'+cover(e.channel)+'<span>'+esc(e.channel==='ibat'?'IBAT':channel(e.channel))+'</span><small>'+duration(e.duration_seconds)+'</small></a>').join('')+'</div>'+(missing.length?'<p class="edition-status">'+esc(missing.map(c=>channel(c.id)).join(', '))+': inväntar publicering'+(day&&day!==today?' för '+day:'')+'.</p>':'');
         await homeLatest('episodes',$('#episodes'),token,6);if(token!==routeToken)return;
-        const picks=[...latestRows.values()].filter(e=>!Core.isIntro(e)&&!Core.ordinary(e)&&!knowledge.includes(e.channel)).sort(Core.compareLatest).slice(0,3);
+        const picks=[...latestRows.values()].filter(e=>Core.special(e)&&!Core.isIntro(e)&&!knowledge.includes(e.channel)).sort(Core.compareLatest).slice(0,3);
         if(picks.length){$('#special-picks').innerHTML='<h3>Fördjupningar från fler kanaler</h3><div class="episode-list">'+picks.map(episodeRow).join('')+'</div>';registerContext($('#special-picks'),picks,null,'Utvalda fördjupningar');}
         await homeLatest('articles',$('#articles'),token,4);
         return;
