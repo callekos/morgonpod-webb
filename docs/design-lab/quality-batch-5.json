@@ -1,0 +1,145 @@
+{
+  "experimental_series_count": 15,
+  "distinct_originals": 120,
+  "decoded_webp_files": 495,
+  "ordinary_default": "V3",
+  "validation": "offline image decoding, dimensions, provenance and SHA256 uniqueness",
+  "physical_device_tested": false,
+  "series": [
+    {
+      "id": "01-documentary",
+      "number": 1,
+      "originals": 8,
+      "decoded_webp_files": 33,
+      "total_bytes": 3052674,
+      "eight_small_bytes": 120078,
+      "preview_bytes": 44242
+    },
+    {
+      "id": "02-editorial",
+      "number": 2,
+      "originals": 8,
+      "decoded_webp_files": 33,
+      "total_bytes": 4521818,
+      "eight_small_bytes": 136760,
+      "preview_bytes": 50310
+    },
+    {
+      "id": "03-minimal",
+      "number": 3,
+      "originals": 8,
+      "decoded_webp_files": 33,
+      "total_bytes": 1235122,
+      "eight_small_bytes": 71120,
+      "preview_bytes": 31794
+    },
+    {
+      "id": "04-linocut",
+      "number": 4,
+      "originals": 8,
+      "decoded_webp_files": 33,
+      "total_bytes": 8502878,
+      "eight_small_bytes": 248398,
+      "preview_bytes": 71136
+    },
+    {
+      "id": "05-isometric",
+      "number": 5,
+      "originals": 8,
+      "decoded_webp_files": 33,
+      "total_bytes": 2895798,
+      "eight_small_bytes": 110212,
+      "preview_bytes": 40308
+    },
+    {
+      "id": "06-film",
+      "number": 6,
+      "originals": 8,
+      "decoded_webp_files": 33,
+      "total_bytes": 2881128,
+      "eight_small_bytes": 120572,
+      "preview_bytes": 45772
+    },
+    {
+      "id": "07-oil",
+      "number": 7,
+      "originals": 8,
+      "decoded_webp_files": 33,
+      "total_bytes": 6452086,
+      "eight_small_bytes": 180280,
+      "preview_bytes": 56532
+    },
+    {
+      "id": "08-geometric",
+      "number": 8,
+      "originals": 8,
+      "decoded_webp_files": 33,
+      "total_bytes": 2498486,
+      "eight_small_bytes": 144198,
+      "preview_bytes": 60704
+    },
+    {
+      "id": "09-collage",
+      "number": 9,
+      "originals": 8,
+      "decoded_webp_files": 33,
+      "total_bytes": 5534908,
+      "eight_small_bytes": 155882,
+      "preview_bytes": 54306
+    },
+    {
+      "id": "10-diorama",
+      "number": 10,
+      "originals": 8,
+      "decoded_webp_files": 33,
+      "total_bytes": 3772404,
+      "eight_small_bytes": 144156,
+      "preview_bytes": 50906
+    },
+    {
+      "id": "11-watercolor",
+      "number": 11,
+      "originals": 8,
+      "decoded_webp_files": 33,
+      "total_bytes": 6664222,
+      "eight_small_bytes": 173504,
+      "preview_bytes": 54586
+    },
+    {
+      "id": "12-architecture",
+      "number": 12,
+      "originals": 8,
+      "decoded_webp_files": 33,
+      "total_bytes": 3651066,
+      "eight_small_bytes": 139916,
+      "preview_bytes": 48114
+    },
+    {
+      "id": "13-infographic",
+      "number": 13,
+      "originals": 8,
+      "decoded_webp_files": 33,
+      "total_bytes": 2942282,
+      "eight_small_bytes": 133820,
+      "preview_bytes": 50688
+    },
+    {
+      "id": "14-concept",
+      "number": 14,
+      "originals": 8,
+      "decoded_webp_files": 33,
+      "total_bytes": 3453164,
+      "eight_small_bytes": 122832,
+      "preview_bytes": 41566
+    },
+    {
+      "id": "17-monochrome",
+      "number": 17,
+      "originals": 8,
+      "decoded_webp_files": 33,
+      "total_bytes": 2884726,
+      "eight_small_bytes": 122172,
+      "preview_bytes": 43636
+    }
+  ]
+}

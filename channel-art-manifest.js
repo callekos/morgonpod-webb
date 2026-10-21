@@ -515,6 +515,63 @@
       }
     },
     {
+      "id": "09-collage",
+      "number": 9,
+      "name": "Papper och collage",
+      "status": "ready",
+      "preview": "assets/design-lab/09-collage/preview.webp",
+      "channels": {
+        "ibat": {
+          "wide": "assets/design-lab/09-collage/ibat.webp",
+          "small": "assets/design-lab/09-collage/ibat-small.webp",
+          "square": "assets/design-lab/09-collage/ibat-square.webp",
+          "focal": "55% 50%"
+        },
+        "vald": {
+          "wide": "assets/design-lab/09-collage/vald.webp",
+          "small": "assets/design-lab/09-collage/vald-small.webp",
+          "square": "assets/design-lab/09-collage/vald-square.webp",
+          "focal": "43% 50%"
+        },
+        "sjoomradet": {
+          "wide": "assets/design-lab/09-collage/sjoomradet.webp",
+          "small": "assets/design-lab/09-collage/sjoomradet-small.webp",
+          "square": "assets/design-lab/09-collage/sjoomradet-square.webp",
+          "focal": "50% 48%"
+        },
+        "kek": {
+          "wide": "assets/design-lab/09-collage/kek.webp",
+          "small": "assets/design-lab/09-collage/kek-small.webp",
+          "square": "assets/design-lab/09-collage/kek-square.webp",
+          "focal": "53% 52%"
+        },
+        "lagstiftning": {
+          "wide": "assets/design-lab/09-collage/lagstiftning.webp",
+          "small": "assets/design-lab/09-collage/lagstiftning-small.webp",
+          "square": "assets/design-lab/09-collage/lagstiftning-square.webp",
+          "focal": "65% 60%"
+        },
+        "ai_brottsbekampning": {
+          "wide": "assets/design-lab/09-collage/ai_brottsbekampning.webp",
+          "small": "assets/design-lab/09-collage/ai_brottsbekampning-small.webp",
+          "square": "assets/design-lab/09-collage/ai_brottsbekampning-square.webp",
+          "focal": "55% 50%"
+        },
+        "it_juridik": {
+          "wide": "assets/design-lab/09-collage/it_juridik.webp",
+          "small": "assets/design-lab/09-collage/it_juridik-small.webp",
+          "square": "assets/design-lab/09-collage/it_juridik-square.webp",
+          "focal": "50% 50%"
+        },
+        "verksamhetsutveckling": {
+          "wide": "assets/design-lab/09-collage/verksamhetsutveckling.webp",
+          "small": "assets/design-lab/09-collage/verksamhetsutveckling-small.webp",
+          "square": "assets/design-lab/09-collage/verksamhetsutveckling-square.webp",
+          "focal": "50% 50%"
+        }
+      }
+    },
+    {
       "id": "10-diorama",
       "number": 10,
       "name": "Premium 3D-diorama",
@@ -629,6 +686,177 @@
       }
     },
     {
+      "id": "12-architecture",
+      "number": 12,
+      "name": "Arkitektonisk visualisering",
+      "status": "ready",
+      "preview": "assets/design-lab/12-architecture/preview.webp",
+      "channels": {
+        "ibat": {
+          "wide": "assets/design-lab/12-architecture/ibat.webp",
+          "small": "assets/design-lab/12-architecture/ibat-small.webp",
+          "square": "assets/design-lab/12-architecture/ibat-square.webp",
+          "focal": "55% 50%"
+        },
+        "vald": {
+          "wide": "assets/design-lab/12-architecture/vald.webp",
+          "small": "assets/design-lab/12-architecture/vald-small.webp",
+          "square": "assets/design-lab/12-architecture/vald-square.webp",
+          "focal": "43% 50%"
+        },
+        "sjoomradet": {
+          "wide": "assets/design-lab/12-architecture/sjoomradet.webp",
+          "small": "assets/design-lab/12-architecture/sjoomradet-small.webp",
+          "square": "assets/design-lab/12-architecture/sjoomradet-square.webp",
+          "focal": "50% 48%"
+        },
+        "kek": {
+          "wide": "assets/design-lab/12-architecture/kek.webp",
+          "small": "assets/design-lab/12-architecture/kek-small.webp",
+          "square": "assets/design-lab/12-architecture/kek-square.webp",
+          "focal": "53% 52%"
+        },
+        "lagstiftning": {
+          "wide": "assets/design-lab/12-architecture/lagstiftning.webp",
+          "small": "assets/design-lab/12-architecture/lagstiftning-small.webp",
+          "square": "assets/design-lab/12-architecture/lagstiftning-square.webp",
+          "focal": "65% 60%"
+        },
+        "ai_brottsbekampning": {
+          "wide": "assets/design-lab/12-architecture/ai_brottsbekampning.webp",
+          "small": "assets/design-lab/12-architecture/ai_brottsbekampning-small.webp",
+          "square": "assets/design-lab/12-architecture/ai_brottsbekampning-square.webp",
+          "focal": "55% 50%"
+        },
+        "it_juridik": {
+          "wide": "assets/design-lab/12-architecture/it_juridik.webp",
+          "small": "assets/design-lab/12-architecture/it_juridik-small.webp",
+          "square": "assets/design-lab/12-architecture/it_juridik-square.webp",
+          "focal": "50% 50%"
+        },
+        "verksamhetsutveckling": {
+          "wide": "assets/design-lab/12-architecture/verksamhetsutveckling.webp",
+          "small": "assets/design-lab/12-architecture/verksamhetsutveckling-small.webp",
+          "square": "assets/design-lab/12-architecture/verksamhetsutveckling-square.webp",
+          "focal": "50% 50%"
+        }
+      }
+    },
+    {
+      "id": "13-infographic",
+      "number": 13,
+      "name": "Modern infografisk illustration",
+      "status": "ready",
+      "preview": "assets/design-lab/13-infographic/preview.webp",
+      "channels": {
+        "ibat": {
+          "wide": "assets/design-lab/13-infographic/ibat.webp",
+          "small": "assets/design-lab/13-infographic/ibat-small.webp",
+          "square": "assets/design-lab/13-infographic/ibat-square.webp",
+          "focal": "55% 50%"
+        },
+        "vald": {
+          "wide": "assets/design-lab/13-infographic/vald.webp",
+          "small": "assets/design-lab/13-infographic/vald-small.webp",
+          "square": "assets/design-lab/13-infographic/vald-square.webp",
+          "focal": "43% 50%"
+        },
+        "sjoomradet": {
+          "wide": "assets/design-lab/13-infographic/sjoomradet.webp",
+          "small": "assets/design-lab/13-infographic/sjoomradet-small.webp",
+          "square": "assets/design-lab/13-infographic/sjoomradet-square.webp",
+          "focal": "50% 48%"
+        },
+        "kek": {
+          "wide": "assets/design-lab/13-infographic/kek.webp",
+          "small": "assets/design-lab/13-infographic/kek-small.webp",
+          "square": "assets/design-lab/13-infographic/kek-square.webp",
+          "focal": "53% 52%"
+        },
+        "lagstiftning": {
+          "wide": "assets/design-lab/13-infographic/lagstiftning.webp",
+          "small": "assets/design-lab/13-infographic/lagstiftning-small.webp",
+          "square": "assets/design-lab/13-infographic/lagstiftning-square.webp",
+          "focal": "65% 60%"
+        },
+        "ai_brottsbekampning": {
+          "wide": "assets/design-lab/13-infographic/ai_brottsbekampning.webp",
+          "small": "assets/design-lab/13-infographic/ai_brottsbekampning-small.webp",
+          "square": "assets/design-lab/13-infographic/ai_brottsbekampning-square.webp",
+          "focal": "55% 50%"
+        },
+        "it_juridik": {
+          "wide": "assets/design-lab/13-infographic/it_juridik.webp",
+          "small": "assets/design-lab/13-infographic/it_juridik-small.webp",
+          "square": "assets/design-lab/13-infographic/it_juridik-square.webp",
+          "focal": "50% 50%"
+        },
+        "verksamhetsutveckling": {
+          "wide": "assets/design-lab/13-infographic/verksamhetsutveckling.webp",
+          "small": "assets/design-lab/13-infographic/verksamhetsutveckling-small.webp",
+          "square": "assets/design-lab/13-infographic/verksamhetsutveckling-square.webp",
+          "focal": "50% 50%"
+        }
+      }
+    },
+    {
+      "id": "14-concept",
+      "number": 14,
+      "name": "Filmisk konceptkonst",
+      "status": "ready",
+      "preview": "assets/design-lab/14-concept/preview.webp",
+      "channels": {
+        "ibat": {
+          "wide": "assets/design-lab/14-concept/ibat.webp",
+          "small": "assets/design-lab/14-concept/ibat-small.webp",
+          "square": "assets/design-lab/14-concept/ibat-square.webp",
+          "focal": "55% 50%"
+        },
+        "vald": {
+          "wide": "assets/design-lab/14-concept/vald.webp",
+          "small": "assets/design-lab/14-concept/vald-small.webp",
+          "square": "assets/design-lab/14-concept/vald-square.webp",
+          "focal": "43% 50%"
+        },
+        "sjoomradet": {
+          "wide": "assets/design-lab/14-concept/sjoomradet.webp",
+          "small": "assets/design-lab/14-concept/sjoomradet-small.webp",
+          "square": "assets/design-lab/14-concept/sjoomradet-square.webp",
+          "focal": "50% 48%"
+        },
+        "kek": {
+          "wide": "assets/design-lab/14-concept/kek.webp",
+          "small": "assets/design-lab/14-concept/kek-small.webp",
+          "square": "assets/design-lab/14-concept/kek-square.webp",
+          "focal": "53% 52%"
+        },
+        "lagstiftning": {
+          "wide": "assets/design-lab/14-concept/lagstiftning.webp",
+          "small": "assets/design-lab/14-concept/lagstiftning-small.webp",
+          "square": "assets/design-lab/14-concept/lagstiftning-square.webp",
+          "focal": "65% 60%"
+        },
+        "ai_brottsbekampning": {
+          "wide": "assets/design-lab/14-concept/ai_brottsbekampning.webp",
+          "small": "assets/design-lab/14-concept/ai_brottsbekampning-small.webp",
+          "square": "assets/design-lab/14-concept/ai_brottsbekampning-square.webp",
+          "focal": "55% 50%"
+        },
+        "it_juridik": {
+          "wide": "assets/design-lab/14-concept/it_juridik.webp",
+          "small": "assets/design-lab/14-concept/it_juridik-small.webp",
+          "square": "assets/design-lab/14-concept/it_juridik-square.webp",
+          "focal": "50% 50%"
+        },
+        "verksamhetsutveckling": {
+          "wide": "assets/design-lab/14-concept/verksamhetsutveckling.webp",
+          "small": "assets/design-lab/14-concept/verksamhetsutveckling-small.webp",
+          "square": "assets/design-lab/14-concept/verksamhetsutveckling-square.webp",
+          "focal": "50% 50%"
+        }
+      }
+    },
+    {
       "id": "17-monochrome",
       "number": 17,
       "name": "Monokromt reportage",
@@ -687,22 +915,6 @@
     }
   ],
   "planned": [
-    {
-      "number": 9,
-      "name": "Papper och collage"
-    },
-    {
-      "number": 12,
-      "name": "Arkitektonisk visualisering"
-    },
-    {
-      "number": 13,
-      "name": "Modern infografisk illustration"
-    },
-    {
-      "number": 14,
-      "name": "Filmisk konceptkonst"
-    },
     {
       "number": 15,
       "name": "Skandinavisk retroaffisch"

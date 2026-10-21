@@ -20,3 +20,10 @@ Slutligt estetiskt val görs av ägaren i det publicerade laboratoriet. Ingen ex
 * 06 Analog filmfotografi: varmt eftermiddagsljus, mjukare filmkaraktär och fina korn, tydligt skild från den svala dokumentärserien. Huvudmotiven behålls i små och kvadratiska format.
 * 07 Modern oljemålning: synliga impastodrag, aubergine, ockra och oliv, sammanhållen figurativ serie. Stor form och ämnesmiljö fungerar även när penseldragen reduceras i miniatyr.
 * 08 Geometrisk affischkonst: hårda färgfält i ultramarin, rött och saffran, starkare radiell komposition än den luftiga minimalistiska serien. Samtliga kanalämnen representeras med konkreta relationer och miljöer.
+
+## Batch 5
+
+* 09 Papper och collage: fotografiska fragment, rivna kanter, grönt/rost/gräddvitt. Alla åtta motiv granskade tillsammans och i små/kvadratiska beskärningar.
+* 12 Arkitektonisk visualisering: samtida rum i trä, glas och betong, dagsljus och tydlig rumslig perspektivkänsla. Verksamhetens miljö och fysiska flöden bär ämnesidentiteten.
+* 13 Modern infografisk illustration: vit yta, teal och orange, modulära samband utan påstådda exakta data. Ceremoniella domarkläder i lagstiftningsmotivet ersattes genom lokal bildredigering med vanliga mörka kostymer. Alla åtta slutmotiv och beskärningar återgranskade.
+* 14 Filmisk konceptkonst: violett gryningsljus, varmt motljus, djupa silhuetter och miljöer. Förändringsarbete får en tydlig övergång från processvägg till fungerande prototyp, inte en fristående kuggsymbol.

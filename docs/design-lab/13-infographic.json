@@ -1,0 +1,87 @@
+{
+  "style": "13-infographic",
+  "name": "Modern infografisk illustration",
+  "generator": "built-in image_gen",
+  "originals": [
+    {
+      "channel": "ibat",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 13 Modern infografisk illustration. Style/medium: Modern information editorial illustration, precise clean vector-like geometry, modular visual flow, purposeful connected components within a recognizable scene, white background, teal, orange and ink, no text or numeric labels, diagrammatic clarity without exact data claims.. Subject: Information supply for crime prevention and investigation: an analyst bringing source records, a place map and evidence photographs together into one coherent operational picture. Connected source panels and a decisive human hand. No visible private data.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "f6ec7d028a2d707feebfdcffe3320c0f4682105f0bab4377985a09bd691048f1",
+      "master": "assets/design-lab/13-infographic/ibat-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "vald",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 13 Modern infografisk illustration. Style/medium: Modern information editorial illustration, precise clean vector-like geometry, modular visual flow, purposeful connected components within a recognizable scene, white background, teal, orange and ink, no text or numeric labels, diagrammatic clarity without exact data claims.. Subject: Serious organized violence, violence as a service and digital recruitment: a contemporary Swedish street and an anonymous adult seen beside a large phone with abstract message shapes, shadowy recruiting network in the distance. No injuries, guns or sensational crime reconstruction.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "e7b05a44e44f09a5666760595e92967f56d175b6ec2ce7e74ec65bd6f6a7f599",
+      "master": "assets/design-lab/13-infographic/vald-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "sjoomradet",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 13 Modern infografisk illustration. Style/medium: Modern information editorial illustration, precise clean vector-like geometry, modular visual flow, purposeful connected components within a recognizable scene, white background, teal, orange and ink, no text or numeric labels, diagrammatic clarity without exact data claims.. Subject: Maritime security in the Baltic: a merchant ship, Nordic rocky shore, harbor infrastructure and a clearly identifiable undersea communications cable. Strong ship silhouette.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "549dcc507ef51cefef6ccbb71fcdef050fe04bf06cd882af9673663316ad6543",
+      "master": "assets/design-lab/13-infographic/sjoomradet-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "kek",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 13 Modern infografisk illustration. Style/medium: Modern information editorial illustration, precise clean vector-like geometry, modular visual flow, purposeful connected components within a recognizable scene, white background, teal, orange and ink, no text or numeric labels, diagrammatic clarity without exact data claims.. Subject: Criminal finance: an investigator tracing asset transfers between company buildings, accounts and property through an elegant winding financial trail. Evidence documents in foreground. No generic money pile.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "022b6e5d4ff48c7a0e5fda3ff2b34e3fe435f621a53ea7d7a3254bd2092005e6",
+      "master": "assets/design-lab/13-infographic/kek-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "lagstiftning",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 13 Modern infografisk illustration. Style/medium: Modern information editorial illustration, precise clean vector-like geometry, modular visual flow, purposeful connected components within a recognizable scene, white background, teal, orange and ink, no text or numeric labels, diagrammatic clarity without exact data claims.. Subject: Swedish criminal law: contemporary Swedish courtroom with pale oak benches and a prominent legal volume and case folders. Nordic legal process, no American gavel.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.\nLocal edit after review: replace ceremonial robes and white neck bands with ordinary contemporary dark business jackets and simple light shirts; preserve courtroom, palette, law book and composition.",
+      "generated_png_sha256": "0d04e3813c543355089e3acb2874a822bb21e32d7b043d0102a95564f472dffd",
+      "master": "assets/design-lab/13-infographic/lagstiftning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "ai_brottsbekampning",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 13 Modern infografisk illustration. Style/medium: Modern information editorial illustration, precise clean vector-like geometry, modular visual flow, purposeful connected components within a recognizable scene, white background, teal, orange and ink, no text or numeric labels, diagrammatic clarity without exact data claims.. Subject: Artificial intelligence in criminal investigation: human analyst checking machine assisted pattern recognition and image comparisons against source photographs. Strong human oversight and evidence verification. No robot face, no globe.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "6e93219c97eeeef25ed1ec7e4aa1e69c90c47ac8d6df912c92bcedeeb67fe773",
+      "master": "assets/design-lab/13-infographic/ai_brottsbekampning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "it_juridik",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 13 Modern infografisk illustration. Style/medium: Modern information editorial illustration, precise clean vector-like geometry, modular visual flow, purposeful connected components within a recognizable scene, white background, teal, orange and ink, no text or numeric labels, diagrammatic clarity without exact data claims.. Subject: Privacy and information law: secure personal records archive, a person presenting a permission card at an access gate, an accountable audit trail and segregated record drawers. Clearly about access rights and personal data.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "e134b53c5e6700bbf7b005b14e86ce794f22681a5034868a3455a47556ea141e",
+      "master": "assets/design-lab/13-infographic/it_juridik-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "verksamhetsutveckling",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 13 Modern infografisk illustration. Style/medium: Modern information editorial illustration, precise clean vector-like geometry, modular visual flow, purposeful connected components within a recognizable scene, white background, teal, orange and ink, no text or numeric labels, diagrammatic clarity without exact data claims.. Subject: Organizational development and implementation: a small team moving process cards from planning wall to a working service prototype. People, method, technology and practical change. No isolated gear icon.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "587199a0714d3a9d8f4541ea59fd7ddcd2657e49f4e1931aef780bec3b13b206",
+      "master": "assets/design-lab/13-infographic/verksamhetsutveckling-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
