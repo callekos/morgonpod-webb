@@ -1,0 +1,58 @@
+[
+  {
+    "id": "fatf_hawala",
+    "title": "FATF: Hawala och liknande system, 2013",
+    "url": "https://www.fatf-gafi.org/en/publications/Methodsandtrends/Role-hawalas-in-ml-tf.html",
+    "source_type": "typology",
+    "evidence": {
+      "path": "fatf_hawala.txt",
+      "page_sha256": "35950ed3c80b3b4454904ff2c313dff0ee789de8aabc9355d818f29e82c3176e",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:50:00.336414+00:00",
+      "http_status": 200
+    },
+    "characters": 4622
+  },
+  {
+    "id": "fatf_hawala_2026",
+    "title": "FATF: Professional Money Laundering, Underground Banking and HOSSPs, 3 september 2026",
+    "url": "https://www.fatf-gafi.org/en/publications/Methodsandtrends/pml-underground-banking-hawala-hossps.html",
+    "source_type": "typology",
+    "evidence": {
+      "path": "fatf_hawala_2026.txt",
+      "page_sha256": "e69d6164c0d0a59816d03cec9ba57a9cd94da2a2aa369abd63ef06e424a08aa0",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:50:00.715142+00:00",
+      "http_status": 200
+    },
+    "characters": 5531
+  },
+  {
+    "id": "pml_law",
+    "title": "Lag (2014:307) om straff för penningtvättsbrott",
+    "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2014307-om-straff-for-penningtvattsbrott_sfs-2014-307/",
+    "source_type": "legislation",
+    "evidence": {
+      "path": "pml_law.txt",
+      "page_sha256": "2bd913e6b7d58a75d8e85ee1169f35465d05bd0b8eb54f07aa1e7f158e86846b",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:49:54.918935+00:00",
+      "http_status": 200
+    },
+    "characters": 4109
+  },
+  {
+    "id": "rb",
+    "title": "Rättegångsbalk (1942:740), konsoliderad lagtext",
+    "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/rattegangsbalk-1942740_sfs-1942-740/",
+    "source_type": "legislation",
+    "evidence": {
+      "path": "rb.txt",
+      "page_sha256": "c77e4d0811bf002b8dbc254fbd8d21dacd0c0f18d21ccb783b3afb39c0de665b",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:49:51.175506+00:00",
+      "http_status": 200
+    },
+    "characters": 540264
+  }
+]

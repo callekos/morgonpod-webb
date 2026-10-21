@@ -1,0 +1,93 @@
+{
+  "identity": "WORK_SPECIALS_2026_10_21",
+  "before_episodes": 40,
+  "after_episodes": 43,
+  "before_articles": 49,
+  "after_articles": 52,
+  "preserved_prior_records": true,
+  "channels": 8,
+  "added": [
+    {
+      "id": "WORK_SPECIALS_2026_10_21:lagstiftning_5",
+      "channel": "lagstiftning",
+      "date": "2026-10-21",
+      "title": "Organisationen som lär av domar: statistik, metodutveckling och rättssäker kvalitet",
+      "description": "Hur domsanalyser kan bli en fungerande återkopplingsprocess. Mått, ägarskap, granskning och dataskydd kopplas till konkreta beslut och till ett lärande som också värderar korrekta frianden.",
+      "kind": "historical",
+      "edition_type": "special",
+      "origin": "work_special",
+      "production_identity": "WORK_SPECIALS_2026_10_21",
+      "library_release_id": "WORK_SPECIALS_2026_10_21",
+      "is_intro": false,
+      "episode_order": 7,
+      "published_at": "2026-10-21T13:49:14.734805+00:00",
+      "published_at_source": "special_release_transaction",
+      "published_at_status": "transaction_started",
+      "audio": "episodes/work_specials/WORK_SPECIALS_2026_10_21/lagstiftning_5/morgonpod.mp3",
+      "brief": "episodes/work_specials/WORK_SPECIALS_2026_10_21/lagstiftning_5/brief.json",
+      "sources": "episodes/work_specials/WORK_SPECIALS_2026_10_21/lagstiftning_5/kallor.json",
+      "duration_seconds": 580.752,
+      "article_count": 1,
+      "tags": [
+        "Fördjupning",
+        "Specialavsnitt"
+      ]
+    },
+    {
+      "id": "WORK_SPECIALS_2026_10_21:kek_1",
+      "channel": "kek",
+      "date": "2026-10-21",
+      "title": "Kryptotillgångar i den kriminella ekonomin: flöden, identitet och bevisning",
+      "description": "Hur digitala tillgångar kan användas både legitimt och brottsligt. Grundmekanismer, analysens begränsningar och skillnaden mellan en transaktion på en blockkedja och bevisning mot en person.",
+      "kind": "historical",
+      "edition_type": "special",
+      "origin": "work_special",
+      "production_identity": "WORK_SPECIALS_2026_10_21",
+      "library_release_id": "WORK_SPECIALS_2026_10_21",
+      "is_intro": false,
+      "episode_order": 3,
+      "published_at": "2026-10-21T13:49:14.734805+00:00",
+      "published_at_source": "special_release_transaction",
+      "published_at_status": "transaction_started",
+      "audio": "episodes/work_specials/WORK_SPECIALS_2026_10_21/kek_1/morgonpod.mp3",
+      "brief": "episodes/work_specials/WORK_SPECIALS_2026_10_21/kek_1/brief.json",
+      "sources": "episodes/work_specials/WORK_SPECIALS_2026_10_21/kek_1/kallor.json",
+      "duration_seconds": 392.328,
+      "article_count": 1,
+      "tags": [
+        "Fördjupning",
+        "Specialavsnitt"
+      ]
+    },
+    {
+      "id": "WORK_SPECIALS_2026_10_21:kek_2",
+      "channel": "kek",
+      "date": "2026-10-21",
+      "title": "Hawala: legitim värdeöverföring, kriminellt missbruk och svåra bevisfrågor",
+      "description": "Hur förtroende och avräkning kan flytta värde utan en motsvarande enskild banköverföring. Legitima behov skiljs från brottsligt missbruk och utredningen riktas mot handlingar och belägg.",
+      "kind": "historical",
+      "edition_type": "special",
+      "origin": "work_special",
+      "production_identity": "WORK_SPECIALS_2026_10_21",
+      "library_release_id": "WORK_SPECIALS_2026_10_21",
+      "is_intro": false,
+      "episode_order": 4,
+      "published_at": "2026-10-21T13:49:14.734805+00:00",
+      "published_at_source": "special_release_transaction",
+      "published_at_status": "transaction_started",
+      "audio": "episodes/work_specials/WORK_SPECIALS_2026_10_21/kek_2/morgonpod.mp3",
+      "brief": "episodes/work_specials/WORK_SPECIALS_2026_10_21/kek_2/brief.json",
+      "sources": "episodes/work_specials/WORK_SPECIALS_2026_10_21/kek_2/kallor.json",
+      "duration_seconds": 396.696,
+      "article_count": 1,
+      "tags": [
+        "Fördjupning",
+        "Specialavsnitt"
+      ]
+    }
+  ],
+  "transaction_started_at": "2026-10-21T13:49:14.734805+00:00",
+  "telegram_sent": false,
+  "gemini_calls": 0,
+  "ordinary_configuration_changed": false
+}

@@ -11,6 +11,7 @@ test('ordinary visitors load no experimental series or production originals',asy
  expect(imageRequests.some(u=>u.includes('-master.webp'))).toBe(false);
 });
 test('laboratory keeps audio, queue, navigation, theme and saved style',async({page},info)=>{
+ await require('./morning-fixture.cjs').morningFixture(page);
  const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('/idag.html');await expect(page.locator('.knowledge-card')).toHaveCount(4);
  await expect(page.locator('.morning-strip a')).not.toHaveCount(0);expect(await page.locator('.morning-strip a').evaluateAll(nodes=>nodes.every(a=>!a.href.includes('lagstiftning')))).toBe(true);
  await page.getByRole('button',{name:'Spela bevakningen',exact:true}).click();await expect.poll(()=>page.locator('#audio').evaluate(a=>a.currentTime)).toBeGreaterThan(0);
