@@ -1,0 +1,47 @@
+{
+  "approved": true,
+  "claims": [
+    {
+      "claim": "Finland och Sverige anslöt 4 april 2023 respektive 7 mars 2024.",
+      "status": "verified",
+      "source_ids": [
+        "nato_members"
+      ]
+    },
+    {
+      "claim": "Baltic Sentry lanserades januari 2025.",
+      "status": "verified",
+      "source_ids": [
+        "nato_baltic"
+      ]
+    },
+    {
+      "claim": "Presskonferens 14 oktober 2026 beskriver fortsatt Baltic Sentry och ingen överhängande attack mot Natoterritorium.",
+      "status": "verified",
+      "source_ids": [
+        "nato_current"
+      ]
+    },
+    {
+      "claim": "Europeiska rådet 15 och 16 oktober tar upp energiintäkter och skuggflottan.",
+      "status": "verified",
+      "source_ids": [
+        "eu_october"
+      ]
+    },
+    {
+      "claim": "FOI 5737 behandlar handelssjöfartens villkor och försörjningsberedskap.",
+      "status": "verified",
+      "source_ids": [
+        "foi_shipping"
+      ]
+    }
+  ],
+  "analysis_and_examples": "Egna analysmodeller, konstruerade exempel och scenarier är uttryckligen märkta. Inga empiriska effekttal eller scenarioprobabiliteter påstås.",
+  "limitations": "Öppna källor. Ingen insyn i operativ planering. Händelsestatus daterad. Officiella uttalanden återges som uttalanden; de styrker inte varje bakomliggande sakförhållande.",
+  "review_notes": "Sakgranskning av namn, datum, distinktion observation/orsak/ansvar samt beslutad kontra fungerande förmåga.",
+  "reviewer": "ChatGPT Work, editorial self-review",
+  "independent_human_review": false,
+  "package_sha256": "a73e301e35acffc8b890038eddf71e24be7097b113a01fb158eac7fdec4b3c62",
+  "reviewed_at": "2026-10-20T21:55:53.449197+00:00"
+}

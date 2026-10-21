@@ -1,6 +1,58 @@
 {
   "episodes": [
     {
+      "id": "WORK_SPECIALS_2026_10_21:sjoomradet_2",
+      "channel": "sjoomradet",
+      "date": "2026-10-21",
+      "title": "Skuggflottan: oljeintäkter, sanktioner och sjöfartens risker",
+      "description": "Hur ekonomiska incitament, fartygsägande och regelverk hänger ihop. Så skiljer man mellan riskindikatorer, sanktionsbeslut och bevis för ett visst brott.",
+      "kind": "historical",
+      "edition_type": "special",
+      "origin": "work_special",
+      "production_identity": "WORK_SPECIALS_2026_10_21",
+      "library_release_id": "WORK_SPECIALS_2026_10_21",
+      "is_intro": false,
+      "episode_order": 4,
+      "published_at": "2026-10-21T04:34:05.613263+00:00",
+      "published_at_source": "special_release_transaction",
+      "published_at_status": "transaction_started",
+      "audio": "episodes/work_specials/WORK_SPECIALS_2026_10_21/sjoomradet_2/morgonpod.mp3",
+      "brief": "episodes/work_specials/WORK_SPECIALS_2026_10_21/sjoomradet_2/brief.json",
+      "sources": "episodes/work_specials/WORK_SPECIALS_2026_10_21/sjoomradet_2/kallor.json",
+      "duration_seconds": 420.744,
+      "article_count": 1,
+      "tags": [
+        "Fördjupning",
+        "Specialavsnitt"
+      ]
+    },
+    {
+      "id": "WORK_SPECIALS_2026_10_21:sjoomradet_1",
+      "channel": "sjoomradet",
+      "date": "2026-10-21",
+      "title": "Ukrainakriget och Östersjön: hur Sveriges maritima säkerhet förändras",
+      "description": "Från Rysslands invasion till svensk försörjningsberedskap. En genomgång av militär geografi, civila beroenden, ekonomiska drivkrafter och vad som faktiskt går att säga om hotbilden.",
+      "kind": "historical",
+      "edition_type": "special",
+      "origin": "work_special",
+      "production_identity": "WORK_SPECIALS_2026_10_21",
+      "library_release_id": "WORK_SPECIALS_2026_10_21",
+      "is_intro": false,
+      "episode_order": 3,
+      "published_at": "2026-10-21T04:34:05.613263+00:00",
+      "published_at_source": "special_release_transaction",
+      "published_at_status": "transaction_started",
+      "audio": "episodes/work_specials/WORK_SPECIALS_2026_10_21/sjoomradet_1/morgonpod.mp3",
+      "brief": "episodes/work_specials/WORK_SPECIALS_2026_10_21/sjoomradet_1/brief.json",
+      "sources": "episodes/work_specials/WORK_SPECIALS_2026_10_21/sjoomradet_1/kallor.json",
+      "duration_seconds": 433.632,
+      "article_count": 1,
+      "tags": [
+        "Fördjupning",
+        "Specialavsnitt"
+      ]
+    },
+    {
       "id": "WORK_LIBRARY_2026_10:verksamhetsutveckling:special:5",
       "channel": "verksamhetsutveckling",
       "date": "2026-10-20",
