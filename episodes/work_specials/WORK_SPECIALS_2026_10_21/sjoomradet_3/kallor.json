@@ -1,0 +1,72 @@
+[
+  {
+    "id": "sapo_cable",
+    "title": "Säkerhetspolisen: förundersökning om grovt sabotage nedlagd 13 oktober 2025",
+    "url": "https://via.tt.se/pressmeddelande/4098720/forundersokning-om-grovt-sabotage-nedlagd?lang=sv&publisherId=3236713",
+    "source_type": "investigation_statement",
+    "original_url": "https://www.sakerhetspolisen.se/ovriga-sidor/nyheter/nyheter/2025-10-13-forundersokning-om-grovt-sabotage-nedlagd.html",
+    "evidence": {
+      "path": "sapo_cable.txt",
+      "page_sha256": "aa4a1bb36bac038495ec7db7b943ace60a57273a21f5be421b902eecd95e3099",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:55:42.109581+00:00"
+    },
+    "direct_fetch_error": "No substantive source text"
+  },
+  {
+    "id": "cable_plan",
+    "title": "EU:s handlingsplan för kabelsäkerhet JOIN(2025) 9",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52025JC0009",
+    "source_type": "policy_document",
+    "evidence": {
+      "path": "cable_plan_web_excerpt.txt",
+      "page_sha256": "62f5c881c5d514c8ca0727a671b64462ef707f5e175109d37d1d281d7e009103",
+      "evidence_level": "retrieved_page_excerpt",
+      "retrieval_method": "web tool open",
+      "retrieved_at": "2026-10-20T21:55:36.815156+00:00"
+    },
+    "direct_fetch_error": "No substantive source text"
+  },
+  {
+    "id": "cable_hubs",
+    "title": "Kommissionen: regionala kabelnav och reparationskapacitet 2026",
+    "url": "https://digital-strategy.ec.europa.eu/en/news/commission-funds-first-regional-cable-hubs-and-launches-eu40-million-call-cable-repair-capacity",
+    "source_type": "official_statement",
+    "evidence": {
+      "path": "cable_hubs.txt",
+      "page_sha256": "445a3711307c9e851df3129d2e818f561d552e9434837fc6792b5582117e56a8",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:49:47.287214+00:00",
+      "http_status": 200
+    },
+    "characters": 1828
+  },
+  {
+    "id": "imo_ais",
+    "title": "IMO: AIS transpondrar och begränsningar",
+    "url": "https://www.imo.org/en/ourwork/safety/pages/ais.aspx",
+    "source_type": "official_guidance",
+    "evidence": {
+      "path": "imo_ais.txt",
+      "page_sha256": "6ff68ac574202404e3200ab42c267eb5dff82d4fe3efec77c007ae07b018c22b",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:50:06.018238+00:00",
+      "http_status": 200
+    },
+    "characters": 4266
+  },
+  {
+    "id": "nato_baltic",
+    "title": "Nato: Baltic Sentry, 14 januari 2025",
+    "url": "https://www.nato.int/en/news-and-events/articles/news/2025/01/14/nato-launches-baltic-sentry-to-increase-critical-infrastructure-security",
+    "source_type": "official_statement",
+    "evidence": {
+      "path": "nato_baltic.txt",
+      "page_sha256": "8e98cd63a6a94b71edd0392e84f9d9b538efd28001a3e81c65b3cfa4f38fb0f4",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:49:46.820345+00:00",
+      "http_status": 200
+    },
+    "characters": 12863
+  }
+]

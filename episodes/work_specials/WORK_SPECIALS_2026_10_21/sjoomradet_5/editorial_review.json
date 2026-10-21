@@ -1,0 +1,47 @@
+{
+  "approved": true,
+  "claims": [
+    {
+      "claim": "Baltic Sentry har skydd av infrastruktur som offentlig inriktning.",
+      "status": "verified",
+      "source_ids": [
+        "nato_baltic"
+      ]
+    },
+    {
+      "claim": "Fortsatt verksamhet beskrivs offentligt i oktober 2026.",
+      "status": "verified",
+      "source_ids": [
+        "nato_current"
+      ]
+    },
+    {
+      "claim": "EU-initiativ stöder kabelnav och reparation.",
+      "status": "verified",
+      "source_ids": [
+        "cable_hubs"
+      ]
+    },
+    {
+      "claim": "AIS ger automatiskt underlag om fartyg.",
+      "status": "verified",
+      "source_ids": [
+        "imo_ais"
+      ]
+    },
+    {
+      "claim": "Sjöfartens uthållighet beror på flera civila och militära förutsättningar.",
+      "status": "verified",
+      "source_ids": [
+        "foi_shipping"
+      ]
+    }
+  ],
+  "analysis_and_examples": "Egna analysmodeller, konstruerade exempel och scenarier är uttryckligen märkta. Inga empiriska effekttal eller scenarioprobabiliteter påstås.",
+  "limitations": "Öppna källor. Ingen insyn i operativ planering. Händelsestatus daterad. Officiella uttalanden återges som uttalanden; de styrker inte varje bakomliggande sakförhållande.",
+  "review_notes": "Sakgranskning av namn, datum, distinktion observation/orsak/ansvar samt beslutad kontra fungerande förmåga.",
+  "reviewer": "ChatGPT Work, editorial self-review",
+  "independent_human_review": false,
+  "package_sha256": "4d5f1fa074ef78be0ed95cf13b63ba9457345e332099d600a48f849a287b6d55",
+  "reviewed_at": "2026-10-20T21:55:53.463573+00:00"
+}

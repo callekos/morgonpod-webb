@@ -1,0 +1,33 @@
+{
+  "approved": true,
+  "claims": [
+    {
+      "claim": "BrB 1:1 och 1:2 definierar brott och huvudregel om uppsåt; 8:1 anger stöldrekvisit; 24 kap innehåller ansvarsfrihetsregler.",
+      "status": "verified",
+      "source_ids": [
+        "brb"
+      ]
+    },
+    {
+      "claim": "RB 23:4 kräver aktiv objektivitet åt båda håll.",
+      "status": "verified",
+      "source_ids": [
+        "rb"
+      ]
+    },
+    {
+      "claim": "HD B5952-21 p17 beskriver särskild bevisfråga vid nödvärnsinvändning; inget generellt procentkrav anges.",
+      "status": "verified",
+      "source_ids": [
+        "hd_bus"
+      ]
+    }
+  ],
+  "analysis_and_examples": "Kodschema, urval, pilot, bevismatris och organisatorisk modell är egna metodrekommendationer. Samtliga övningsantal och fall är konstruerade. Ingen genomförd studie eller empirisk effekt påstås.",
+  "limitations": "Gällande rätt skiljs från metodrekommendation. Konsoliderad lagtext innehåller även framtida lydelser; endast berörda gällande paragrafer används. HD:s originalavgöranden är kontrollerade. Dataskyddets tillämplighet kräver projektspecifik prövning.",
+  "review_notes": "Kontrollerat rättskälletyp, lagrum, åtals- och analysenheter, skillnad domskäl/egen tolkning, urvalsbias, beroenden, exkulpatoriskt underlag och förbud mot att dra kausal slutsats av enbart utfallsandel.",
+  "reviewer": "ChatGPT Work, editorial self-review",
+  "independent_human_review": false,
+  "package_sha256": "6b9c68cb4f0a0d8e863e504af0c70b7bb3fe55210609a33532287c3a52f3213a",
+  "reviewed_at": "2026-10-20T22:02:57.653265+00:00"
+}
