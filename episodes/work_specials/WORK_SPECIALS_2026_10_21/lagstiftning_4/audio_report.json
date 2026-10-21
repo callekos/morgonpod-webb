@@ -1,0 +1,16 @@
+{
+  "kind": "historical",
+  "duration_seconds": 568.992,
+  "target_minutes": [
+    5,
+    10
+  ],
+  "duration_status": "within_target",
+  "channel": "lagstiftning",
+  "date": "2026-10-21",
+  "audio_sha256": "16d89ba74cf9b7e1b6c67f714d3ccd04b770070a6fc2083cb6256a50c449c1ab",
+  "audio_bytes": 4134021,
+  "decoded": true,
+  "checked_at": "2026-10-21T06:00:19.174531+00:00",
+  "editorial_approval": "not_established_by_audio_check"
+}

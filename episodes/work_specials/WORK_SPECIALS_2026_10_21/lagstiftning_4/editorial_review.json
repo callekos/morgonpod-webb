@@ -1,0 +1,40 @@
+{
+  "approved": true,
+  "claims": [
+    {
+      "claim": "Objektivitetskravet i 23:4 gäller också material som talar till fördel.",
+      "status": "verified",
+      "source_ids": [
+        "rb"
+      ]
+    },
+    {
+      "claim": "Bevisning på individnivå krävs; en allmän gruppbild räcker inte.",
+      "status": "verified",
+      "source_ids": [
+        "hd_arsta"
+      ]
+    },
+    {
+      "claim": "Rimliga praktiskt möjliga alternativ prövas mot underlaget.",
+      "status": "verified",
+      "source_ids": [
+        "hd_bus"
+      ]
+    },
+    {
+      "claim": "Olika brottsrekvisit och ansvarsförutsättningar kräver separat analys.",
+      "status": "verified",
+      "source_ids": [
+        "brb"
+      ]
+    }
+  ],
+  "analysis_and_examples": "Kodschema, urval, pilot, bevismatris och organisatorisk modell är egna metodrekommendationer. Samtliga övningsantal och fall är konstruerade. Ingen genomförd studie eller empirisk effekt påstås.",
+  "limitations": "Gällande rätt skiljs från metodrekommendation. Konsoliderad lagtext innehåller även framtida lydelser; endast berörda gällande paragrafer används. HD:s originalavgöranden är kontrollerade. Dataskyddets tillämplighet kräver projektspecifik prövning.",
+  "review_notes": "Kontrollerat rättskälletyp, lagrum, åtals- och analysenheter, skillnad domskäl/egen tolkning, urvalsbias, beroenden, exkulpatoriskt underlag och förbud mot att dra kausal slutsats av enbart utfallsandel.",
+  "reviewer": "ChatGPT Work, editorial self-review",
+  "independent_human_review": false,
+  "package_sha256": "f9ffec24dbb7cd1822de94c381162998ec34d159ca82adc048892c9de9e2e256",
+  "reviewed_at": "2026-10-20T22:02:57.671646+00:00"
+}
