@@ -1,5 +1,9 @@
 # Morgonpodden V4, granskning och prioritering
 
+## Aktuell uppföljning i V5
+
+Prioritering 1 till 13 har levererats genom PR 17 till 25 och PR 30. Se V5-CHECKPOINT.md för bildreleasens aktuella kvitton. De tre småförfiningarna nedan levererades redan i PR 24 och ska inte göras om. Ny avgränsad rättning för 320 px och stor text samt uppmätt bildpayload finns i V5-UX-VERIFICATION.md. Fysisk Safari/VoiceOver och lång bakgrundsuppspelning är fortsatt inte testade. Större gruppering av kanaler följs separat i ärende 28.
+
 Granskad 21 oktober 2026. V3 behåller redaktionell identitet, sidonavigation på desktop, mobilnavigation, tematokens och den beständiga spelaren. Nya designriktningar provas endast som lokala bilder i Designlaboratoriet.
 
 ## Granskade flöden

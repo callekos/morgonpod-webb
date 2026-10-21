@@ -1,5 +1,13 @@
 # V5, verifierad återhämtning 21 oktober 2026
 
+## Slutkvitterad bildrelease
+
+PR 30 integrerad som 0415051ea5e7201cd0d2c59e1c7aa91d9059e4a7. PR-CI 39578014128 och main-CI 39580690860 helt gröna: 33 enhetsprov, 128 browserfall inklusive iPhone/iPad WebKit, exakta frontend- och bildbytes samt fyra publicerade liveflöden. Pages 39580690500 ersattes av senare publicering efter redaktionens dokumentations-PR 31. Pages 39580853273 för cf497d2 är grön och innehåller bildreleasen.
+
+Direkt moln-Chrome visar 20 av 20 stilar. Byte till stil 20 under uppspelning behöll ljudkällan för IBAT och exakt samma synliga kö; ljudet fortsatte från 9,22 till 11,00 sekunder utan paus. Provet pausades vid 43,90 sekunder. Fysisk iPhone/VoiceOver har inte testats. Alla fem sista serier är nu publicerade och inget bildarbete återstår i #14.
+
+Release-diffen för PR 30: 193 avsedda filer, noll ändringar i katalog, avsnitt, artiklar, ljud eller V3-bilder. Senare redaktionella publiceringar behölls vid integration. Nästa avgränsade UX-etapp finns i V5-UX-VERIFICATION.md; större kanalgruppering följs separat i #28.
+
 Detta är aktuell checkpoint. Äldre antal och nästa steg i V4-CHECKPOINT.md är historik.
 
 ## Bas och skydd
