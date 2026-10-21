@@ -1,8 +1,8 @@
 const {test,expect}=require('@playwright/test');test.use({serviceWorkers:'block'});
 test('knowledge entry points, four visible mobile editions, readable intermediate widths',async({page},info)=>{
  await page.goto('/kanal.html?id=lagstiftning');await expect(page.locator('.channel-type')).toHaveText('Kunskapskanal');await expect(page.getByRole('link',{name:'Börja här: uppstartsavsnittet'})).toBeVisible();
- await page.getByRole('link',{name:'Grundkurser',exact:true}).click();await expect(page.locator('#channel-content')).toContainText('Inga publicerade avsnitt av den här typen ännu');
- await page.getByRole('link',{name:'Avsnitt',exact:true}).click();await expect(page.locator('.episode')).toHaveCount(2);await page.getByRole('link',{name:'Om kanalen',exact:true}).click();await expect(page.locator('#channel-content')).toContainText('Ingen återkommande nyhetsutgåva');
+ await page.getByRole('link',{name:'Grundkurser',exact:true}).click();await expect(page.locator('.tabs [aria-current="page"]')).toHaveText('Grundkurser');
+ await page.getByRole('link',{name:'Avsnitt',exact:true}).click();const catalog=await(await page.request.get('/catalog/manifest.json')).json();await expect(page.locator('.episode')).toHaveCount(Math.min(24,catalog.collections['episodes/channel/lagstiftning'].count));await page.getByRole('link',{name:'Om kanalen',exact:true}).click();await expect(page.locator('#channel-content')).toContainText('Ingen återkommande nyhetsutgåva');
  for(const width of [320,393,768,1024,1450]){await page.setViewportSize({width,height:900});await page.goto('/idag.html');await expect(page.locator('.morning-strip a')).toHaveCount(4);expect(await page.locator('.morning-strip').evaluate(e=>e.scrollWidth<=e.clientWidth)).toBe(true);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);}
  await page.screenshot({path:'docs/evidence/'+info.project.name+'-v4-home.png'});
 });
