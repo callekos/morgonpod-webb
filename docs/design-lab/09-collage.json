@@ -1,0 +1,87 @@
+{
+  "style": "09-collage",
+  "name": "Papper och collage",
+  "generator": "built-in image_gen",
+  "originals": [
+    {
+      "channel": "ibat",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 09 Papper och collage. Style/medium: Sophisticated editorial collage: cut photographic fragments and torn paper layered with abstract geometric shapes, cream stock, emerald, rust and charcoal, visible hand cut edges, spatially coherent subject, no printed words.. Subject: Information supply for crime prevention and investigation: an analyst bringing source records, a place map and evidence photographs together into one coherent operational picture. Connected source panels and a decisive human hand. No visible private data.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "a6123b3ec1f38ff85843fbdbe19dc539eaa91c6d3eef1af72a92204dfc4610a0",
+      "master": "assets/design-lab/09-collage/ibat-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "vald",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 09 Papper och collage. Style/medium: Sophisticated editorial collage: cut photographic fragments and torn paper layered with abstract geometric shapes, cream stock, emerald, rust and charcoal, visible hand cut edges, spatially coherent subject, no printed words.. Subject: Serious organized violence, violence as a service and digital recruitment: a contemporary Swedish street and an anonymous adult seen beside a large phone with abstract message shapes, shadowy recruiting network in the distance. No injuries, guns or sensational crime reconstruction.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "768e2127d03936e1d6dece64820e9cf610916f60c6de52c5f9578a4e4af375bc",
+      "master": "assets/design-lab/09-collage/vald-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "sjoomradet",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 09 Papper och collage. Style/medium: Sophisticated editorial collage: cut photographic fragments and torn paper layered with abstract geometric shapes, cream stock, emerald, rust and charcoal, visible hand cut edges, spatially coherent subject, no printed words.. Subject: Maritime security in the Baltic: a merchant ship, Nordic rocky shore, harbor infrastructure and a clearly identifiable undersea communications cable. Strong ship silhouette.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "6cf1a3422b616a9e757008ecbe4c6c6092569561815ca57c956dddef1c0ddeee",
+      "master": "assets/design-lab/09-collage/sjoomradet-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "kek",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 09 Papper och collage. Style/medium: Sophisticated editorial collage: cut photographic fragments and torn paper layered with abstract geometric shapes, cream stock, emerald, rust and charcoal, visible hand cut edges, spatially coherent subject, no printed words.. Subject: Criminal finance: an investigator tracing asset transfers between company buildings, accounts and property through an elegant winding financial trail. Evidence documents in foreground. No generic money pile.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "91d1432476ee0c608a01637c88475c66a7c95f22e3ec815e11b45aba2575dc13",
+      "master": "assets/design-lab/09-collage/kek-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "lagstiftning",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 09 Papper och collage. Style/medium: Sophisticated editorial collage: cut photographic fragments and torn paper layered with abstract geometric shapes, cream stock, emerald, rust and charcoal, visible hand cut edges, spatially coherent subject, no printed words.. Subject: Swedish criminal law: contemporary Swedish courtroom with pale oak benches and a prominent legal volume and case folders. Nordic legal process, no American gavel.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "dde76cfc45399957b2b7001f6f30c7d2612e2e422a5067b625da4d7df8964048",
+      "master": "assets/design-lab/09-collage/lagstiftning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "ai_brottsbekampning",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 09 Papper och collage. Style/medium: Sophisticated editorial collage: cut photographic fragments and torn paper layered with abstract geometric shapes, cream stock, emerald, rust and charcoal, visible hand cut edges, spatially coherent subject, no printed words.. Subject: Artificial intelligence in criminal investigation: human analyst checking machine assisted pattern recognition and image comparisons against source photographs. Strong human oversight and evidence verification. No robot face, no globe.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "a354d008dca7b0c0f14cf365253d4b988c5568d012efeb5ebb2be5caceecf553",
+      "master": "assets/design-lab/09-collage/ai_brottsbekampning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "it_juridik",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 09 Papper och collage. Style/medium: Sophisticated editorial collage: cut photographic fragments and torn paper layered with abstract geometric shapes, cream stock, emerald, rust and charcoal, visible hand cut edges, spatially coherent subject, no printed words.. Subject: Privacy and information law: secure personal records archive, a person presenting a permission card at an access gate, an accountable audit trail and segregated record drawers. Clearly about access rights and personal data.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "67205ff171bc65aec3043468b057bcaa453fbcdc0b71996dfbf2f7febcb8aebc",
+      "master": "assets/design-lab/09-collage/it_juridik-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "verksamhetsutveckling",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 09 Papper och collage. Style/medium: Sophisticated editorial collage: cut photographic fragments and torn paper layered with abstract geometric shapes, cream stock, emerald, rust and charcoal, visible hand cut edges, spatially coherent subject, no printed words.. Subject: Organizational development and implementation: a small team moving process cards from planning wall to a working service prototype. People, method, technology and practical change. No isolated gear icon.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "28f8fff6f016e1340dc7d981227a77546b961d72072ce55345fd0265fa3aae93",
+      "master": "assets/design-lab/09-collage/verksamhetsutveckling-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

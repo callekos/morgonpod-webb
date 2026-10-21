@@ -1,0 +1,15 @@
+{
+  "baseline": "54e90a38a07bd96d4de0737cf5fa8fbb5c327de2",
+  "verified_main": "d0a2bae33eef50e2164c61722a1c248e7d5974a9",
+  "protected_prefixes": [
+    "episodes/",
+    "catalog/",
+    "assets/channels/"
+  ],
+  "protected_files": [
+    "episodes.json",
+    "story_index.json"
+  ],
+  "compared_files": 816,
+  "missing_or_changed": []
+}
