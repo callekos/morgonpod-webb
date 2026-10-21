@@ -26,3 +26,13 @@ Lokalt: 33 enhetstester samt 48 webbläsarscenarier på desktop och emulerad And
 ## Permanent standard senare
 
 Efter uttryckligt ägarval: ändra ordinarie manifestpost/default i en separat PR, behåll valbar V3 och befintliga lokala preferenser, versionsändra shell och testa samma matris. Ändra aldrig alla besökares standard via en persons lokala laboratorieval.
+
+## Senare verifiering och UX-etapp
+
+Producent PR 118 är integrerad 2bc6592; återläst automatic_production=false. Webb PR 17 integrerad 335f27d; CI 39530271849 verifierade exakta livebytes 02.00.49 UTC och fyra publicerade flödestester. Äldre issue 1 avslutat efter verifieringen.
+
+Laboratorium PR 18 integrerad 6b29d91 efter 33 enhetsprov och 96 browserfall i CI 39530906834. Första CI stoppade korrekt två WebKit-testfall där check() inte accepterade den avsiktliga återställningen vid nätfel. Provet använder nu click() och explicit not.toBeChecked(). Ingen produktspärr eller testacceptans sänktes. Publicerings-CI 39531389244 kontrolleras.
+
+UX-etapp finns lokalt: kunskapsingångar, två gånger två bevakning på mobil, jämnt kunskapsgrid, kombinerade sökfilter, lässtruktur från verkliga rubriker, mindre bildstorleksannonsering och filtrerad sidfortsättning i kontextkön. 33 enhetsprov och 54 desktop/Android-scenarier passerar. WebKit återstår i CI. Audit och prioritering i UX-AUDIT-V4.md.
+
+Bildbatch 2: 03 Grafisk minimalism och 17 Monokromt reportage har åtta separata original vardera och är visuellt granskade som serier. De är ännu inte aktiverade eller publicerade. 17 stilar återstår att producera efter dessa. Bildbyggverktyget scripts/build-art-series.py skapar först fullständiga assets/proveniens, --activate används först efter visuell kontroll.
