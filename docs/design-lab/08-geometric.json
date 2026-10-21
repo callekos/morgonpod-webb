@@ -1,0 +1,87 @@
+{
+  "style": "08-geometric",
+  "name": "Geometrisk affischkonst",
+  "generator": "built-in image_gen",
+  "originals": [
+    {
+      "channel": "ibat",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 08 Geometrisk affischkonst. Style/medium: Bold geometric poster art, constructivist balanced architecture and radial shapes, flat ultramarine, tomato red, saffron and warm white, exact hard edges, no photographic shading, visual rhythm and large legible forms.. Subject: Information supply for crime prevention and investigation: an analyst bringing source records, a place map and evidence photographs together into one coherent operational picture. Connected source panels and a decisive human hand. No visible private data.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "8c802804ec390d49f2fbe64afcdd39a57f1fbf6e881c3a43d73aab1da0fd1733",
+      "master": "assets/design-lab/08-geometric/ibat-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "vald",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 08 Geometrisk affischkonst. Style/medium: Bold geometric poster art, constructivist balanced architecture and radial shapes, flat ultramarine, tomato red, saffron and warm white, exact hard edges, no photographic shading, visual rhythm and large legible forms.. Subject: Serious organized violence, violence as a service and digital recruitment: a contemporary Swedish street and an anonymous adult seen beside a large phone with abstract message shapes, shadowy recruiting network in the distance. No injuries, guns or sensational crime reconstruction.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "c5e42088b92e7b995eee6e80e2ae92a2bcd0359ec0a4cde389e7a2f2a7a91d81",
+      "master": "assets/design-lab/08-geometric/vald-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "sjoomradet",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 08 Geometrisk affischkonst. Style/medium: Bold geometric poster art, constructivist balanced architecture and radial shapes, flat ultramarine, tomato red, saffron and warm white, exact hard edges, no photographic shading, visual rhythm and large legible forms.. Subject: Maritime security in the Baltic: a merchant ship, Nordic rocky shore, harbor infrastructure and a clearly identifiable undersea communications cable. Strong ship silhouette.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "ac10678121456aeae856f2d9da03197a442dea1f84fb2e75760908b6a2293b97",
+      "master": "assets/design-lab/08-geometric/sjoomradet-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "kek",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 08 Geometrisk affischkonst. Style/medium: Bold geometric poster art, constructivist balanced architecture and radial shapes, flat ultramarine, tomato red, saffron and warm white, exact hard edges, no photographic shading, visual rhythm and large legible forms.. Subject: Criminal finance: an investigator tracing asset transfers between company buildings, accounts and property through an elegant winding financial trail. Evidence documents in foreground. No generic money pile.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "f33f6153d1a52ad22522035c0b3b7fbbfcbcde52bdafc685de4990c1552dc215",
+      "master": "assets/design-lab/08-geometric/kek-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "lagstiftning",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 08 Geometrisk affischkonst. Style/medium: Bold geometric poster art, constructivist balanced architecture and radial shapes, flat ultramarine, tomato red, saffron and warm white, exact hard edges, no photographic shading, visual rhythm and large legible forms.. Subject: Swedish criminal law: contemporary Swedish courtroom with pale oak benches and a prominent legal volume and case folders. Nordic legal process, no American gavel.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "0f94cd362e877d1957184977c0c45febd7d64f442f0149788a7dbc420762b541",
+      "master": "assets/design-lab/08-geometric/lagstiftning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "ai_brottsbekampning",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 08 Geometrisk affischkonst. Style/medium: Bold geometric poster art, constructivist balanced architecture and radial shapes, flat ultramarine, tomato red, saffron and warm white, exact hard edges, no photographic shading, visual rhythm and large legible forms.. Subject: Artificial intelligence in criminal investigation: human analyst checking machine assisted pattern recognition and image comparisons against source photographs. Strong human oversight and evidence verification. No robot face, no globe.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "ae11cbce29b72d3920b77c1330f4b376c8b695fcaa679197cecffa7ef6b3e51d",
+      "master": "assets/design-lab/08-geometric/ai_brottsbekampning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "it_juridik",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 08 Geometrisk affischkonst. Style/medium: Bold geometric poster art, constructivist balanced architecture and radial shapes, flat ultramarine, tomato red, saffron and warm white, exact hard edges, no photographic shading, visual rhythm and large legible forms.. Subject: Privacy and information law: secure personal records archive, a person presenting a permission card at an access gate, an accountable audit trail and segregated record drawers. Clearly about access rights and personal data.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "7301c48e36a683881c219afa8cef93d7fdab04566f331e2694d0a89eb2743ffe",
+      "master": "assets/design-lab/08-geometric/it_juridik-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "verksamhetsutveckling",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 08 Geometrisk affischkonst. Style/medium: Bold geometric poster art, constructivist balanced architecture and radial shapes, flat ultramarine, tomato red, saffron and warm white, exact hard edges, no photographic shading, visual rhythm and large legible forms.. Subject: Organizational development and implementation: a small team moving process cards from planning wall to a working service prototype. People, method, technology and practical change. No isolated gear icon.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "7c8cb4a1f0f4e319ce4077d5bb9c58de5739c270a087181c25295fcee945c68c",
+      "master": "assets/design-lab/08-geometric/verksamhetsutveckling-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

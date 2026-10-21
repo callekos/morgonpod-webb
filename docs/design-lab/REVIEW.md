@@ -13,3 +13,10 @@ Granskningen gäller kanalillustrationer, inte autentiska bilder av rapporterade
 | 17 Monokromt reportage | Sammanhållen svartvit fotografisk ton. Mänsklig verksamhet och konkreta miljöer, inga robotar eller upprepade jordglober. | Bildserien har provats i livegränssnittet. Illustrationernas ursprung anges i artikelbildens bildtext. |
 
 Slutligt estetiskt val görs av ägaren i det publicerade laboratoriet. Ingen experimentell serie blir standard genom denna granskning. Fortsatt kvalitetskontroll är skild från fysisk iPhone/VoiceOver-testning, som inte har utförts här.
+
+## Batch 4
+
+* 01 Nordiskt dokumentärfoto: sval grå/grön fotografisk ton, mänsklig verksamhet och konkreta nordiska miljöer. Åtta egna motiv, granskade brett och kvadratiskt.
+* 06 Analog filmfotografi: varmt eftermiddagsljus, mjukare filmkaraktär och fina korn, tydligt skild från den svala dokumentärserien. Huvudmotiven behålls i små och kvadratiska format.
+* 07 Modern oljemålning: synliga impastodrag, aubergine, ockra och oliv, sammanhållen figurativ serie. Stor form och ämnesmiljö fungerar även när penseldragen reduceras i miniatyr.
+* 08 Geometrisk affischkonst: hårda färgfält i ultramarin, rött och saffran, starkare radiell komposition än den luftiga minimalistiska serien. Samtliga kanalämnen representeras med konkreta relationer och miljöer.
