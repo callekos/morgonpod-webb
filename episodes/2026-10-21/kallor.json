@@ -1,0 +1,14 @@
+[
+  {
+    "source": "The Register",
+    "title": "AI har potential att sänka trösklar för infrastrukturangrepp",
+    "url": "https://www.theregister.com/security/2026/10/21/ai-has-potential-to-turn-script-kiddies-into-sophisticated-infrastructure-attackers/5304297",
+    "evidence": {
+      "date": "2026-10-21T12:00:00+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-21T12:44:58.316355+00:00",
+      "page_sha256": "e518bcac210fda8627cde56acf3c7f4bee6e3b67a4d90c999f8e197798589e4c",
+      "retrieval_limit": null
+    }
+  }
+]

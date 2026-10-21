@@ -1,0 +1,44 @@
+{
+  "channel": "ibat",
+  "date": "2026-10-21",
+  "schema": 2,
+  "corroboration_method": "distinct_hosts_not_proof_of_independence",
+  "received": 1,
+  "unique_urls": 1,
+  "identified_events": 1,
+  "selected_articles": 1,
+  "selected_events": 1,
+  "unique_domains": 1,
+  "max_items": 40,
+  "gemini_calls": 0,
+  "decisions": [
+    {
+      "event_id": "57e7f5800f3146ce",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "theregister.com"
+      ],
+      "articles": [
+        {
+          "title": "AI has 'potential' to turn script kiddies into sophisticated infrastructure attackers",
+          "url": "https://www.theregister.com/security/2026/10/21/ai-has-potential-to-turn-script-kiddies-into-sophisticated-infrastructure-attackers/5304297"
+        }
+      ]
+    }
+  ],
+  "rejected": [],
+  "channel_scope": {
+    "input_count": 1,
+    "accepted_count": 1,
+    "rejected": []
+  }
+}

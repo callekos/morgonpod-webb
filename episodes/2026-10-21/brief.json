@@ -1,0 +1,30 @@
+{
+  "title": "AI:s roll vid angrepp mot kritisk infrastruktur och nya säkerhetsrisker",
+  "intro": "Välkommen till IBATs morgonpodden. Idag tittar vi på hur artificifikell intelligens diskuteras som en möjlig drivkraft för att förändra hotbilden mot samhällsviktig infrastruktur, baserat på en färsk rapport som lyfts fram i branschrapporteringen.",
+  "outlook": "Sammantaget visar genomgångar av artificifikell intelligens inom säkerhetsområdet att tekniken snabbt förändrar förutsättningarna för både angripare och försvarare. För verksamheter som arbetar med informationsförsörjning och lägesförståelse innebär detta att hotbilden utvecklas i takt med att trösklarna för att bearbeta teknisk dokumentation sänks.",
+  "news": [
+    {
+      "category": "Hotbilder och brottslighetens utveckling",
+      "title": "AI har potential att sänka trösklar för infrastrukturangrepp",
+      "summary": "The Register rapporterar om säkerhetsbedömningar kring hur artificifikell intelligens kan snabba upp informationsinhämtning och planering mot industriella system och kritisk infrastruktur.",
+      "context": "Artikeln diskuterar slutsatser från en rapport som undersökt hur olika AI-modeller presterar vid planering och val av handlingar i simulerade scenarios mot industriella miljöer.",
+      "url": "https://www.theregister.com/security/2026/10/21/ai-has-potential-to-turn-script-kiddies-into-sophisticated-infrastructure-attackers/5304297",
+      "publisher": "The Register",
+      "body": "I en artikel hos The Register uppges att artificifikell intelligens har potential att förändra hur aktörer kan angripa kritisk infrastruktur som kraftnät och dricksvattensystem. Enligt källan menar säkerhetsexperter att AI gör det enklare och snabbare att gå igenom teknisk dokumentation, bruksanvisningar och manualer för automationskontroller för att identifiera specifika funktioner. Säkerhetsföretaget Frenos har i en rapport granskat hur ett flertal frontier-modeller och öppna modeller presterat i tusentals tester av beslutsfattande och planering. Resultaten visar att de starkaste modellerna i många fall kunde ta fram fungerande övergripande planer, även om modellerna i vissa avseenden visade sig inkonsekventa eller riskerade att förbise väsentliga detaljer. Bedömare i artikeln framhåller att mänskligt omdöme fortfarande bedöms som en nödvändig komponent för att identifiera brister och korrigera planer i praktiken. För organisationer inom offentlig säkerhet och informationsförsörjning innebär detta en ökad betoning på skiktat försvar, nätverkssegmentering samt uppdaterade kontinuitetsplaner för att möta en accelererande teknisk utveckling.",
+      "sources": [
+        {
+          "url": "https://www.theregister.com/security/2026/10/21/ai-has-potential-to-turn-script-kiddies-into-sophisticated-infrastructure-attackers/5304297",
+          "title": "The Register"
+        }
+      ],
+      "open_questions": []
+    }
+  ],
+  "description": "Välkommen till IBATs morgonpodden. Idag tittar vi på hur artificifikell intelligens diskuteras som en möjlig drivkraft för att förändra hotbilden mot samhällsviktig infrastruktur, baserat på en färsk rapport som lyfts fram i branschrapporteringen.",
+  "tags": [
+    "Hotbilder och brottslighetens utveckling"
+  ],
+  "text_format": "editorial_articles",
+  "editorial_date": "2026-10-21",
+  "channel": "ibat"
+}

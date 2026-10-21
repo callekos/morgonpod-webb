@@ -1,0 +1,28 @@
+{
+  "approved": true,
+  "issues": [],
+  "source_coverage": [
+    {
+      "claim": "Artificiell intelligens diskuteras som en möjlig drivkraft för att förändra hotbilden mot samhällsviktig infrastruktur, baserat på en färsk rapport från Frenos som lyfts fram i The Register.",
+      "source_url": "https://www.theregister.com/security/2026/10/21/ai-has-potential-to-turn-script-kiddies-into-sophisticated-infrastructure-attackers/5304297"
+    },
+    {
+      "claim": "Steve Swick, tidigare CISO vid American Electric Power, uttalar sig om säkerhet genom dunkelhet i relation till AI.",
+      "source_url": "https://www.theregister.com/security/2026/10/21/ai-has-potential-to-turn-script-kiddies-into-sophisticated-infrastructure-attackers/5304297"
+    },
+    {
+      "claim": "Paul Shaver från Armadin beskriver hur AI kan användas för att gå igenom teknisk dokumentation och manualer för automationskontroller.",
+      "source_url": "https://www.theregister.com/security/2026/10/21/ai-has-potential-to-turn-script-kiddies-into-sophisticated-infrastructure-attackers/5304297"
+    },
+    {
+      "claim": "Harry Thomas, teknikchef på Frenos, uttalar sig om accelererande tidslinjer och fler potentiella hotaktörer.",
+      "source_url": "https://www.theregister.com/security/2026/10/21/ai-has-potential-to-turn-script-kiddies-into-sophisticated-infrastructure-attackers/5304297"
+    },
+    {
+      "claim": "Rapporten State of AI in Security från Frenos omfattade 16 980 tester mellan oktober 2025 och september 2026, fördelade på beslut, planering och simulerade attacker.",
+      "source_url": "https://www.theregister.com/security/2026/10/21/ai-has-potential-to-turn-script-kiddies-into-sophisticated-infrastructure-attackers/5304297"
+    }
+  ],
+  "short_episode_reason": "",
+  "reviewed_script_sha256": "01f6ce7e6b767d740fc018fd7d014f692586f05c5e7f71eaaf1ab1ac40a57058"
+}
