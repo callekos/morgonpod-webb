@@ -25,7 +25,7 @@ test('every ready style reaches channel, article, episode, search, archive and q
  }
 });
 test('failed series preload preserves earlier choice and broken selected image falls back to V3',async({page})=>{
- const style=styles[0];await page.route('**/assets/design-lab/'+style.id+'/*-small.webp',r=>r.abort());await page.goto('/designlaboratorium.html');await page.locator('[name="art-style"]').first().check();await expect(page.locator('#art-status')).toContainText('kunde inte hämtas');
+ const style=styles[0];await page.route('**/assets/design-lab/'+style.id+'/*-small.webp',r=>r.abort());await page.goto('/designlaboratorium.html');await page.locator('[name="art-style"]').first().click();await expect(page.locator('#art-status')).toContainText('kunde inte hämtas');await expect(page.locator('[name="art-style"]').first()).not.toBeChecked();
  await page.goto('/kanaler.html');await expect(page.locator('.channel-card img').first()).toHaveAttribute('src',/^assets\/channels\//);
  await page.unroute('**/assets/design-lab/'+style.id+'/*-small.webp');await page.goto('/designlaboratorium.html');await page.locator('[name="art-style"]').first().check();await expect(page.locator('#art-status')).toContainText('Vald bildstil: '+style.name);
  await page.route('**/assets/design-lab/'+style.id+'/*',r=>r.abort());await page.goto('/kanal.html?id=ibat');await expect(page.locator('.channel-hero img')).toHaveAttribute('src',/^assets\/channels\//);
