@@ -13,7 +13,7 @@ test('large channel covers use wide artwork and channel metadata follows its con
  async function sharpHero(){const hero=page.locator('.channel-hero img');await expect(hero).toBeVisible();await expect.poll(()=>hero.evaluate(im=>im.complete&&im.naturalWidth>0)).toBe(true);const image=await hero.evaluate(im=>({src:im.currentSrc,required:im.getBoundingClientRect().width*devicePixelRatio}));if(image.required>400)expect(image.src).not.toContain('-small.webp');}
  await page.goto('/kanal.html?id=ibat');await sharpHero();
  await page.locator('#nav').getByRole('link',{name:'Mer',exact:true}).click();await page.getByRole('link',{name:'Designlaboratorium',exact:true}).click();await page.locator('[name="art-style"][value="'+polishArt[0].id+'"]').check();await expect(page.locator('#art-status')).toContainText('Vald bildstil: '+polishArt[0].name);
- await page.getByRole('link',{name:'Kanaler',exact:true}).click();await page.getByRole('link',{name:'IBAT - Informationsförsörjning',exact:true}).click();await sharpHero();
+ await page.getByRole('link',{name:'Kanaler',exact:true}).click();await page.locator('.channel-card').filter({hasText:'IBAT - Informationsförsörjning'}).click();await sharpHero();
  const ownChannel=page.locator('.channel-main .episode .channel-name').first();await expect(ownChannel).toHaveText('IBAT - Informationsförsörjning');await expect(ownChannel).toBeHidden();
  await page.goto('/lyssna.html');await expect(page.locator('.episode .channel-name').first()).toBeVisible();
 });

@@ -17,15 +17,15 @@ test('all active catalog pages have exact counts and omit superseded identities'
   const rows=collection.pages.flatMap(p=>read(p).items);
   assert.equal(rows.length,collection.count,key);
   assert.equal(new Set(rows.map(r=>r.id)).size,rows.length,key);
-  for(const row of rows)assert.ok(!expected[row.episode_id||row.id],key+': '+row.id);
+  for(const row of rows)assert.ok(!expected[row.episode_id||row.id]&&!policy.withdrawn?.[row.episode_id||row.id],key+': '+row.id);
  }
  for(const bucket of manifest.search_buckets){
   for(const rows of Object.values(read('catalog/search/'+bucket+'.json'))){
-   for(const row of rows)assert.ok(!expected[row.episode_id||row.id],row.id);
+   for(const row of rows)assert.ok(!expected[row.episode_id||row.id]&&!policy.withdrawn?.[row.episode_id||row.id],row.id);
   }
  }
  const active=manifest.collections.episodes.pages.flatMap(p=>read(p).items);
- assert.equal(active.length,entries.filter(e=>!expected[episodeId(e)]).length);
+ assert.equal(active.length,entries.filter(e=>!expected[episodeId(e)]&&!policy.withdrawn?.[episodeId(e)]).length);
  for(const channel of manifest.channels){
   const collection=manifest.collections['episodes/channel/'+channel.id];
   assert.equal(collection?.count||0,active.filter(e=>e.channel===channel.id).length);

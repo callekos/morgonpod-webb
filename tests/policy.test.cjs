@@ -9,11 +9,11 @@ test('release policy is exact, idempotent, retains future arrivals and source me
  write('catalog-policy.json',policy);write('episodes.json',{episodes:rows});write('catalog/lists/episodes/0.json',{items:rows});write('catalog/lists/articles/0.json',{items:rows.map(e=>({id:'article-'+e.id,episode_id:e.id}))});
  write('catalog/manifest.json',{page_size:24,collections:{episodes:{count:12,pages:['catalog/lists/episodes/0.json']},articles:{count:12,pages:['catalog/lists/articles/0.json']}},channels:[]});
  write('catalog/search/aa.json',{test:rows.map(e=>({...e,type:'episodes'}))});fs.mkdirSync(path.join(root,'catalog/episodes'));fs.mkdirSync(path.join(root,'catalog/articles'));write('episodes/audio.mp3',{original:true});
- const before=fs.readFileSync(path.join(root,'episodes/audio.mp3'));let m=apply(root);assert.equal(m.collections.episodes.count,7);assert.equal(m.collections.articles.count,7);assert.equal(Object.keys(m.superseded).length,5);assert.deepEqual(fs.readFileSync(path.join(root,'episodes/audio.mp3')),before);
- assert.equal(JSON.parse(fs.readFileSync(path.join(root,'episodes.json'))).episodes.length,12);assert.equal(JSON.parse(fs.readFileSync(path.join(root,'catalog/search/aa.json'))).test.length,7);
+ const before=fs.readFileSync(path.join(root,'episodes/audio.mp3'));let m=apply(root);assert.equal(m.collections.episodes.count,6);assert.equal(m.collections.articles.count,6);assert.equal(Object.keys(m.superseded).length,5);assert.deepEqual(fs.readFileSync(path.join(root,'episodes/audio.mp3')),before);
+ assert.equal(JSON.parse(fs.readFileSync(path.join(root,'episodes.json'))).episodes.length,12);assert.equal(JSON.parse(fs.readFileSync(path.join(root,'catalog/search/aa.json'))).test.length,6);
  assert.deepEqual(apply(root),m);const visible=JSON.parse(fs.readFileSync(path.join(root,'catalog/lists/episodes/0.json'))).items;assert.ok(visible.some(e=>e.id===fresh.id));assert.ok(visible.some(e=>e.id===special.id));
  // Rollback restores original active projection from retained source records.
- write('catalog-policy.json',{...policy,superseded:{}});write('catalog/lists/episodes/0.json',{items:rows});m=apply(root);assert.equal(m.collections.episodes.count,12);fs.rmSync(root,{recursive:true});
+ write('catalog-policy.json',{...policy,superseded:{},withdrawn:{}});write('catalog/lists/episodes/0.json',{items:rows});m=apply(root);assert.equal(m.collections.episodes.count,12);fs.rmSync(root,{recursive:true});
 });
 test('missing replacement never hides original',()=>{
  const ids=new Set(['ibat:2026-10-20:daily']);const active=Object.fromEntries(Object.entries(policy.superseded).filter(([,replacement])=>ids.has(replacement)));assert.deepEqual(active,{});
@@ -27,4 +27,10 @@ test('same publication time uses editorial channel order and keeps intro first o
  Core.catalogOrder=JSON.parse(fs.readFileSync('catalog/manifest.json')).channels.map(c=>c.id);
  const stamp='2026-10-20T20:49:08Z',rows=[{id:'intro',channel:'ibat',is_intro:true,episode_order:1,published_at:stamp},{id:'special3',channel:'ibat',episode_order:3,published_at:stamp},{id:'special2',channel:'ibat',episode_order:2,published_at:stamp},{id:'sjo',channel:'sjoomradet',published_at:stamp}];
  assert.deepEqual([...rows].sort(Core.compareLatest).map(e=>e.id),['special3','special2','sjo','intro']);assert.equal([...rows].sort(Core.compareHistory)[0].id,'intro');assert.equal(rows[0].published_at,stamp);
+});
+test('explicit withdrawal keeps predecessor retired, source records and all specials',()=>{
+ const manifest=JSON.parse(fs.readFileSync('catalog/manifest.json')),id='WORK_LIBRARY_2026_10:lagstiftning:replacement_ordinary:2',archive=JSON.parse(fs.readFileSync('episodes.json'));
+ assert.equal(Object.keys(policy.withdrawn).length,1);assert.deepEqual(manifest.withdrawn,policy.withdrawn);assert.equal(manifest.superseded['lagstiftning:2026-10-20:daily'],id);
+ assert.ok(archive.episodes.some(e=>e.id===id));assert.equal(manifest.collections['episodes/topic/specialavsnitt'].count,15);assert.equal(manifest.collections['episodes/channel/lagstiftning'].count,6);
+ for(const [kind,key] of [['episodes',id],['articles','work-lagstiftning_ordinary-article-1']]){const h=require('node:crypto').createHash('sha256').update(key).digest('hex').slice(0,24);assert.equal(JSON.parse(fs.readFileSync('catalog/'+kind+'/'+h+'.json')).catalog_status,'withdrawn');}
 });
