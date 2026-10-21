@@ -1,0 +1,25 @@
+name: Preserved special audio recovery
+on:
+  push:
+    branches: [work/specials-final-recovery-20261021]
+    paths: [.github/workflows/special-audio-recovery.yml]
+permissions:
+  contents: read
+jobs:
+  preserved-audio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            episodes/work_specials/WORK_SPECIALS_2026_10_21/lagstiftning_5
+            episodes/work_specials/WORK_SPECIALS_2026_10_21/kek_1
+      - name: Hash preserved audio
+        run: sha256sum episodes/work_specials/WORK_SPECIALS_2026_10_21/lagstiftning_5/morgonpod.mp3 episodes/work_specials/WORK_SPECIALS_2026_10_21/kek_1/morgonpod.mp3
+      - uses: actions/upload-artifact@v4
+        with:
+          name: preserved-sofie-specials
+          retention-days: 7
+          path: episodes/work_specials/WORK_SPECIALS_2026_10_21/*/morgonpod.mp3
+          if-no-files-found: error
