@@ -4,11 +4,11 @@ test('V3 four sections, eight distinct images, themes and bounded morning playli
  const errors=[],requests=[];page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>requests.push(r.url()));
  await page.goto('/idag.html');await expect(page.locator('.home-channels .channel-card')).toHaveCount(8);
  expect(await page.locator('.morning-home>section').evaluateAll(nodes=>nodes.map(n=>n.querySelector('h1,h2').textContent))).toEqual(['Dagens bevakning','Våra kanaler','Fördjupa dina kunskaper','Senast publicerat']);
- await expect(page.locator('.knowledge-card')).toHaveCount(3);const paths=await page.locator('.home-channels img').evaluateAll(images=>images.map(im=>im.getAttribute('src').split('?')[0]));expect(new Set(paths).size).toBe(8);
+ await expect(page.locator('.knowledge-card')).toHaveCount(4);const paths=await page.locator('.home-channels img').evaluateAll(images=>images.map(im=>im.getAttribute('src').split('?')[0]));expect(new Set(paths).size).toBe(8);
  const manifest=await(await page.request.get('/catalog/manifest.json')).json();expect(manifest.collections.episodes.count).toBeGreaterThanOrEqual(25);expect(Object.keys(manifest.superseded)).toHaveLength(5);
  const rows=(await Promise.all(manifest.collections.episodes.pages.map(p=>page.request.get('/'+p).then(r=>r.json())))).flatMap(p=>p.items);expect(rows.filter(e=>e.id.startsWith('WORK_LIBRARY_2026_10:'))).toHaveLength(25);
  expect(rows.some(e=>manifest.superseded[e.id])).toBe(false);
- const actual=await page.locator('.morning-strip a').count();expect(actual).toBeGreaterThan(0);expect(actual).toBeLessThanOrEqual(5);
+ const actual=await page.locator('.morning-strip a').count();expect(actual).toBeGreaterThan(0);expect(actual).toBeLessThanOrEqual(4);
  await page.getByRole('button',{name:'Spela bevakningen',exact:true}).click();await expect(page.locator('#player')).toBeVisible();await expect.poll(()=>page.locator('#audio').evaluate(a=>a.currentTime)).toBeGreaterThan(0);await page.locator('#play-pause').click();
  await page.locator('#queue-toggle').click();await expect(page.locator('.queue-title')).toHaveCount(actual-1);await page.getByRole('button',{name:'Stäng kön'}).click();
  await page.getByRole('link',{name:'Mer',exact:true}).click();await page.getByLabel('Mörkt läge',{exact:true}).check();await page.getByRole('link',{name:'Idag',exact:true}).click();await expect(page.locator('.morning-brief')).toBeVisible();await page.evaluate(()=>window.scrollTo(0,0));await page.screenshot({path:'docs/evidence/'+info.project.name+'-v3-dark.png',fullPage:true,scale:'css'});
