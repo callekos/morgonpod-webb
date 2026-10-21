@@ -1,0 +1,74 @@
+{
+  "approved": true,
+  "issues": [],
+  "source_coverage": [
+    {
+      "claim": "Flera personer har kontaktats av personer som utger sig för att komma från polisen, vilket bedöms som bedrägeriförsök.",
+      "source_url": "https://polisen.se/aktuellt/handelser/2026/oktober/21/21-oktober-11.35-bedrageri-stockholms-lan/"
+    },
+    {
+      "claim": "Mottagare i ett av fallen kopplades till en röst som påstod att personens ID-kort använts för suspekt aktivitet.",
+      "source_url": "https://polisen.se/aktuellt/handelser/2026/oktober/21/21-oktober-11.35-bedrageri-stockholms-lan/"
+    },
+    {
+      "claim": "Förekomst av automatiserad datoriserad röst på engelska som påstår att det finns en arresteringsorder.",
+      "source_url": "https://polisen.se/aktuellt/handelser/2026/oktober/21/21-oktober-11.35-bedrageri-stockholms-lan/"
+    },
+    {
+      "claim": "Noah Musingku, ledaren för pyramidspelet U-Vistract i Papua Nya Guinea, har avlidit och begravts.",
+      "source_url": "https://www.occrp.org/en/news/south-pacific-ponzi-scam-king-noah-musingku-dies"
+    }
+  ],
+  "short_episode_reason": "",
+  "reviewed_script_sha256": "624b9007be80892a493678e46a3a8cba7caf5c7f7b7aadb6fb21df471c830077",
+  "source_audit_correction": {
+    "id": "kek-20261021-public-source-audit",
+    "method": "reviewed_deletions_only",
+    "reviewer": "Codex independent comparison of complete manuscript and articles against retrieved Polisen 1511 chars and OCCRP 2367 chars, artifact12350019876; exact deletions only",
+    "before_sha256": {
+      "brief.json": "ae77edc5457dc183bc5b050318ce1b7ec28b84053e807fd1f33d3602c248254c",
+      "manus.txt": "b979c192e09dd4821ebda044eb4ccb5be7d3e6822a3143f1dd16d2f4797bab85",
+      "editorial_review.json": "fdc06159a9a0d326de3d6e0603433d2c8c41a2995156f9183fa23679202185b1",
+      "kallor.json": "269389b57c3557091a73dfd82d684f45c230049f769e42043fd15f9fbe515ba8"
+    },
+    "corrected_brief_sha256": "02f58ae82364ed84fbb1217d9c4c3de8a588e683770539e39cdb1baee280e3c1",
+    "edits": [
+      {
+        "news_index": 1,
+        "field": "title",
+        "remove": "Sydtyfinländsk ",
+        "reason": "Geografiskt ord saknar stöd. Originalet gäller södra Stilla havet/Papua Nya Guinea, inte Finland. Ta bort endast felaktig bestämning."
+      },
+      {
+        "news_index": 1,
+        "field": "body",
+        "remove": "Upplägget, som beskrivs av OCCRP, stal tiotals miljoner dollar från offer i regionen under 1990-talet. ",
+        "reason": "Källan säger accused of stealing. Ta bort den ovillkorliga stölduppgiften, inte ersätta den med ett nytt påstående."
+      }
+    ],
+    "corrected_manus_sha256": "624b9007be80892a493678e46a3a8cba7caf5c7f7b7aadb6fb21df471c830077",
+    "script_removals": [
+      {
+        "remove": "systematiskt ",
+        "reason": "Enstaka händelsenotis styrker inte systematik eller nationell trend."
+      },
+      {
+        "remove": "Att samtalen genomförs på engelska med syntetiska röster kan indikera internationella nätverk eller automatiserad programvara, men det är i nuläget enligt Polisen Stockholms län oklart exakt vilka tekniska system eller gärningspersoner som ligger bakom kampanjen, då uppgifterna bygger på inledande händelsenotiser. ",
+        "reason": "Notisen styrker inte internationella nätverk och tillskriver inte Polisen denna bedömning av oklar teknik/gärningspersoner. Ta bort hela meningen."
+      },
+      {
+        "remove": "Den konkreta osäkerheten ligger därmed i bedrägeriförsökens fulla omfattning och varifrån tekniken styrs. ",
+        "reason": "Följdslutsats bygger på föregående obelagda teknik-/nätverksmening."
+      },
+      {
+        "remove": ", vilket lurade till sig tiotals miljoner dollar från tusentals privatpersoner i regionen",
+        "reason": "Tusentals offer anges inte i läst original; anklagelse får inte bli fastslaget fullbordat brott. Behåll den källbelagda uppgiften om U-Vistract."
+      },
+      {
+        "remove": "Genom att kombinera finansiella löften med pseudojuridisk ideologi och väpnat skydd kunde verksamheten fortleva i decennier trots myndigheternas förbud. ",
+        "reason": "Originalet styrker inte denna säkra kausalförklaring till fortlevnaden."
+      }
+    ],
+    "new_model_review": false
+  }
+}

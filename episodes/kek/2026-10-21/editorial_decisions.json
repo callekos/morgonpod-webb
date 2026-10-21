@@ -1,0 +1,66 @@
+{
+  "channel": "kek",
+  "date": "2026-10-21",
+  "schema": 2,
+  "corroboration_method": "distinct_hosts_not_proof_of_independence",
+  "received": 2,
+  "unique_urls": 2,
+  "identified_events": 2,
+  "selected_articles": 2,
+  "selected_events": 2,
+  "unique_domains": 2,
+  "max_items": 40,
+  "gemini_calls": 0,
+  "decisions": [
+    {
+      "event_id": "806e25e730c337c3",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "polisen.se"
+      ],
+      "articles": [
+        {
+          "title": "21 oktober 11.35, Bedrägeri, Stockholms län",
+          "url": "https://polisen.se/aktuellt/handelser/2026/oktober/21/21-oktober-11.35-bedrageri-stockholms-lan/"
+        }
+      ]
+    },
+    {
+      "event_id": "bd35756cf5b4ae49",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 45,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 14,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "occrp.org"
+      ],
+      "articles": [
+        {
+          "title": "South Pacific Ponzi Scam King Noah Musingku Dies",
+          "url": "https://www.occrp.org/en/news/south-pacific-ponzi-scam-king-noah-musingku-dies"
+        }
+      ]
+    }
+  ],
+  "rejected": [],
+  "channel_scope": {
+    "input_count": 2,
+    "accepted_count": 2,
+    "rejected": []
+  }
+}

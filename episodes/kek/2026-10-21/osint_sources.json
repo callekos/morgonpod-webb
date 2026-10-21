@@ -1,0 +1,52 @@
+{
+  "channel": "kek",
+  "date": "2026-10-21",
+  "sources": [
+    {
+      "title": "21 oktober 11.35, Bedrägeri, Stockholms län",
+      "publisher": "Polisen Stockholms län",
+      "date": "2026-10-21T11:50:11+02:00",
+      "url": "https://polisen.se/aktuellt/handelser/2026/oktober/21/21-oktober-11.35-bedrageri-stockholms-lan/",
+      "summary": "Flera personer uppger att de fått samtal från någon som sade sig ringa från polisen. Det rör sig sannolikt om bedrägeriförsök.",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-21T13:40:31.642199+00:00",
+      "resolved_url": "https://polisen.se/aktuellt/handelser/2026/oktober/21/21-oktober-11.35-bedrageri-stockholms-lan/",
+      "extraction_method": "title_matched_page",
+      "text": "21 oktober 11.35, Bedrägeri, Stockholms län | Polisen Kakor på polisen.se På polisen.se använder vi nödvändiga kakor för att webbplatsen ska fungera ska så bra som möjligt. Vi använder också kakor för webbanalys för att göra webbplatsen bättre. Så här använder polisen.se kakor Anpassa inställningar för kakor Nödvändiga kakor Gör att våra tjänster och funktioner är säkra och fungerar som de ska. Kakorna är nödvändiga och går inte att välja bort. Kakor för webbstatistik Hjälper oss förstå hur webbplatsen används. Kakor för webbstatistik 21 oktober 11.35, Bedrägeri, Stockholms län Flera personer uppger att de fått samtal från någon som sade sig ringa från polisen. Det rör sig sannolikt om bedrägeriförsök. I ett av fallen kopplades mottagaren av samtalet till en röst som sade att personens ID-kort använts för \"suspekt aktivitet\". Polisen vet att det just nu förekommer bedrägerier där samtalsmottagaren får höra en automatiserad datoriserad röst. Bland annat kan de säga att det finns en arresteringsorder (warrant for your arrest) för dig och att du är efterlyst. Polisen kontaktar aldrig dig med automatiserad röst på engelska. Lägg på luren och lita inte på den som ringer. Text av Polisen Stockholms län Publicerad 21 oktober 2026 11.50 Händelsenotiserna ger kortfattad information om ett urval av de utryckningar som polisen gör. Observera att det är inledande uppgifter som ligger till grund för notiserna. Det betyder att uppgifterna kan komma att ändras. Dela händelse Facebook X LinkedIn E-post",
+      "page_sha256": "d4988e63f03f43c57c142af462ebc6a69c67cdadad5409c76578a5076836588a",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "event_id": "806e25e730c337c3",
+      "event_sources": [
+        {
+          "title": "21 oktober 11.35, Bedrägeri, Stockholms län",
+          "url": "https://polisen.se/aktuellt/handelser/2026/oktober/21/21-oktober-11.35-bedrageri-stockholms-lan/",
+          "publisher": "Polisen Stockholms län"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "title": "South Pacific Ponzi Scam King Noah Musingku Dies",
+      "publisher": "OCCRP",
+      "date": "2026-10-20T12:13:00+00:00",
+      "url": "https://www.occrp.org/en/news/south-pacific-ponzi-scam-king-noah-musingku-dies",
+      "summary": "OCCRP rapporterar om en uppföljning av ett Ponzi-upplägg. Skilj aktuell publicering från äldre bakgrund.",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-21T13:40:31.642487+00:00",
+      "resolved_url": "https://www.occrp.org/en/news/south-pacific-ponzi-scam-king-noah-musingku-dies",
+      "extraction_method": "primary_body_container",
+      "text": "A fugitive South Pacific Ponzi scammer—who later proclaimed himself “king” of a remote armed territory at the center of Papua New Guinea’s Bougainville island—has been given a royal burial following his death from an unspecified illness, according to local media and photographs of the funeral posted on social media. Noah Musingku was accused of stealing tens of millions of dollars from victims across the region in a 1990s pyramid scheme known as U-Vistract. Following the collapse of the scheme, Musingku fled in the early 2000s to his home island of Bougainville, a region then still recovering from a devastating decade-long civil war. Styling himself as King David Peii II of the twin kingdoms of Papaala and Me’ekamui, Musingku set up a pseudo-state with its own armed militia, banking system, and local currency known as the Bougainville kina (BVK). The BVK was later declared illegal by Papua New Guinea’s government. A 2025 investigation by OCCRP revealed that, in the following decades, Musingku had built a global following among both locals and Western conspiracy theorists and adherents of “sovereign citizen” ideology. Followers of Musingku believed he would make them all wealthy and usher in a golden era of global peace and prosperity. Still a fugitive until his death, Musingku survived an attack in 2006 by fighters aligned with Bougainville’s legally recognized government of former rebels. Four of Musingku’s bodyguards were killed in the attack, which left him with a bullet wound to the neck. “He is indeed a man of great love for his fellow men and the world, full of compassion, humility, visionary leader, hard-working and sacrificial leader, and a great King that has shaken the foundations of nations and touched so many lives,” a death notice posted online attributed to the government of his self-declared kingdom said. Photographs posted online show Musingku’s casket being carried and lowered into the ground in his “capital” of Tonu on Monday by an honor guard of camouflage-clad militia members while a small crowd of mourners looked on. Musingku’s grave was later covered with a mound of what appears to be sand and draped with an ornate cloth held down with large stones, as well as a flower bouquet. Musingku’s death comes despite some followers believing he would reign for a thousand years. He was reportedly in his early 60s.",
+      "page_sha256": "fa3058ae49df1eff0d2011d4d30a40cfe9922e3d82ddbdc3bfd5142c723ee7f9",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "event_id": "bd35756cf5b4ae49",
+      "event_sources": [
+        {
+          "title": "South Pacific Ponzi Scam King Noah Musingku Dies",
+          "url": "https://www.occrp.org/en/news/south-pacific-ponzi-scam-king-noah-musingku-dies",
+          "publisher": "OCCRP"
+        }
+      ],
+      "corroborated": false
+    }
+  ]
+}

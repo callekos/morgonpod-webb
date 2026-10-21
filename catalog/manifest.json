@@ -45,29 +45,23 @@
   ],
   "collections": {
     "articles": {
-      "count": 38,
+      "count": 40,
       "pages": [
         "catalog/lists/articles/0.json",
         "catalog/lists/articles/1.json"
       ]
     },
     "episodes": {
-      "count": 38,
+      "count": 39,
       "pages": [
         "catalog/lists/episodes/0.json",
         "catalog/lists/episodes/1.json"
       ]
     },
     "episodes/channel/kek": {
-      "count": 4,
+      "count": 5,
       "pages": [
         "catalog/lists/episodes/channel/kek/0.json"
-      ]
-    },
-    "episodes/topic/specialavsnitt": {
-      "count": 12,
-      "pages": [
-        "catalog/lists/episodes/topic/specialavsnitt/0.json"
       ]
     },
     "episodes/topic/fördjupning": {
@@ -76,10 +70,28 @@
         "catalog/lists/episodes/topic/fördjupning/0.json"
       ]
     },
+    "episodes/topic/specialavsnitt": {
+      "count": 12,
+      "pages": [
+        "catalog/lists/episodes/topic/specialavsnitt/0.json"
+      ]
+    },
     "episodes/channel/lagstiftning": {
       "count": 7,
       "pages": [
         "catalog/lists/episodes/channel/lagstiftning/0.json"
+      ]
+    },
+    "episodes/topic/internationell-kriminell-ekonomi": {
+      "count": 1,
+      "pages": [
+        "catalog/lists/episodes/topic/internationell-kriminell-ekonomi/0.json"
+      ]
+    },
+    "episodes/topic/bedrägeri": {
+      "count": 1,
+      "pages": [
+        "catalog/lists/episodes/topic/bedrägeri/0.json"
       ]
     },
     "episodes/channel/ibat": {
@@ -130,16 +142,16 @@
         "catalog/lists/episodes/topic/sjoomradet/0.json"
       ]
     },
-    "episodes/topic/rättslig-status": {
-      "count": 1,
-      "pages": [
-        "catalog/lists/episodes/topic/rättslig-status/0.json"
-      ]
-    },
     "episodes/topic/lagstiftning": {
       "count": 1,
       "pages": [
         "catalog/lists/episodes/topic/lagstiftning/0.json"
+      ]
+    },
+    "episodes/topic/rättslig-status": {
+      "count": 1,
+      "pages": [
+        "catalog/lists/episodes/topic/rättslig-status/0.json"
       ]
     },
     "episodes/channel/ai_brottsbekampning": {
@@ -208,10 +220,10 @@
         "catalog/lists/episodes/topic/utvärdering/0.json"
       ]
     },
-    "episodes/topic/datakvalitet": {
-      "count": 1,
+    "episodes/topic/uppstartsavsnitt": {
+      "count": 8,
       "pages": [
-        "catalog/lists/episodes/topic/datakvalitet/0.json"
+        "catalog/lists/episodes/topic/uppstartsavsnitt/0.json"
       ]
     },
     "episodes/topic/lägesförståelse": {
@@ -226,16 +238,10 @@
         "catalog/lists/episodes/topic/informationsförsörjning/0.json"
       ]
     },
-    "episodes/topic/uppstartsavsnitt": {
-      "count": 8,
-      "pages": [
-        "catalog/lists/episodes/topic/uppstartsavsnitt/0.json"
-      ]
-    },
-    "episodes/topic/våld-som-tjänst": {
+    "episodes/topic/datakvalitet": {
       "count": 1,
       "pages": [
-        "catalog/lists/episodes/topic/våld-som-tjänst/0.json"
+        "catalog/lists/episodes/topic/datakvalitet/0.json"
       ]
     },
     "episodes/topic/grovt-våld": {
@@ -248,6 +254,12 @@
       "count": 1,
       "pages": [
         "catalog/lists/episodes/topic/digital-rekrytering/0.json"
+      ]
+    },
+    "episodes/topic/våld-som-tjänst": {
+      "count": 1,
+      "pages": [
+        "catalog/lists/episodes/topic/våld-som-tjänst/0.json"
       ]
     },
     "episodes/topic/penningtvätt": {
@@ -274,22 +286,16 @@
         "catalog/lists/episodes/topic/maritim-säkerhet/0.json"
       ]
     },
-    "episodes/topic/skuggflottan": {
-      "count": 1,
-      "pages": [
-        "catalog/lists/episodes/topic/skuggflottan/0.json"
-      ]
-    },
     "episodes/topic/östersjön": {
       "count": 1,
       "pages": [
         "catalog/lists/episodes/topic/östersjön/0.json"
       ]
     },
-    "episodes/topic/straffrätt": {
+    "episodes/topic/skuggflottan": {
       "count": 1,
       "pages": [
-        "catalog/lists/episodes/topic/straffrätt/0.json"
+        "catalog/lists/episodes/topic/skuggflottan/0.json"
       ]
     },
     "episodes/topic/rättspraxis": {
@@ -304,6 +310,12 @@
         "catalog/lists/episodes/topic/straffprocess/0.json"
       ]
     },
+    "episodes/topic/straffrätt": {
+      "count": 1,
+      "pages": [
+        "catalog/lists/episodes/topic/straffrätt/0.json"
+      ]
+    },
     "episodes/topic/informationsdelning": {
       "count": 1,
       "pages": [
@@ -311,7 +323,7 @@
       ]
     },
     "articles/channel/kek": {
-      "count": 4,
+      "count": 6,
       "pages": [
         "catalog/lists/articles/channel/kek/0.json"
       ]
@@ -332,6 +344,18 @@
       "count": 7,
       "pages": [
         "catalog/lists/articles/topic/lagstiftning/0.json"
+      ]
+    },
+    "articles/topic/internationell-kriminell-ekonomi": {
+      "count": 1,
+      "pages": [
+        "catalog/lists/articles/topic/internationell-kriminell-ekonomi/0.json"
+      ]
+    },
+    "articles/topic/bedrägeri": {
+      "count": 1,
+      "pages": [
+        "catalog/lists/articles/topic/bedrägeri/0.json"
       ]
     },
     "articles/channel/ibat": {
@@ -436,6 +460,12 @@
         "catalog/lists/articles/topic/sjöområdet/0.json"
       ]
     },
+    "episodes/ordinary/channel/kek": {
+      "count": 2,
+      "pages": [
+        "catalog/lists/episodes/ordinary/channel/kek/0.json"
+      ]
+    },
     "episodes/ordinary/channel/ibat": {
       "count": 2,
       "pages": [
@@ -446,12 +476,6 @@
       "count": 1,
       "pages": [
         "catalog/lists/episodes/ordinary/channel/vald/0.json"
-      ]
-    },
-    "episodes/ordinary/channel/kek": {
-      "count": 1,
-      "pages": [
-        "catalog/lists/episodes/ordinary/channel/kek/0.json"
       ]
     },
     "episodes/ordinary/channel/sjoomradet": {
@@ -479,7 +503,7 @@
       ]
     },
     "episodes/history/channel/kek": {
-      "count": 4,
+      "count": 5,
       "pages": [
         "catalog/lists/episodes/history/channel/kek/0.json"
       ]
@@ -518,6 +542,7 @@
   "topics": [
     "ai",
     "ai-i-brottsbekämpningen",
+    "bedrägeri",
     "brottsbekämpning",
     "brottsvinster",
     "datakvalitet",
@@ -531,6 +556,7 @@
     "informationsdelning",
     "informationsförsörjning",
     "införande",
+    "internationell-kriminell-ekonomi",
     "it-juridik",
     "it-juridik-och-dataskydd",
     "kek",
@@ -569,6 +595,7 @@
     "02",
     "03",
     "04",
+    "05",
     "06",
     "07",
     "08",
@@ -816,6 +843,6 @@
       "WORK_SPECIALS_2026_10_21:kek_1",
       "WORK_SPECIALS_2026_10_21:kek_2"
     ],
-    "transaction_started_at": "2026-10-21T13:49:14.734805+00:00"
+    "transaction_started_at": "2026-10-21T16:03:11.868404+00:00"
   }
 }
