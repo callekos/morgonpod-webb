@@ -7,11 +7,11 @@ test('only complete eight-channel styles can become selectable',()=>{
 });
 test('local choice persists independently from theme and resets without affecting playback storage',()=>{
  const data=new Map([['morgonpod-theme','dark'],['morgonpod-playback','unchanged']]);const storage={getItem:k=>data.get(k),setItem:(k,v)=>data.set(k,v),removeItem:k=>data.delete(k)};
- const api=Art.create(manifest,storage),style=api.styles.find(s=>s.id!=='v3');assert.equal(api.selected,'v3');assert.ok(api.select(style.id));assert.equal(Art.create(manifest,storage).selected,style.id);
- assert.equal(data.get('morgonpod-theme'),'dark');assert.equal(data.get('morgonpod-playback'),'unchanged');api.select('v3');assert.equal(data.has(Art.KEY),false);
+ const api=Art.create(manifest,storage),style=api.styles.find(s=>s.id!=='v3');assert.equal(api.selected,'06-film');assert.ok(api.select(style.id));assert.equal(Art.create(manifest,storage).selected,style.id);
+ assert.equal(data.get('morgonpod-theme'),'dark');assert.equal(data.get('morgonpod-playback'),'unchanged');api.select('v3');assert.equal(Art.create(manifest,storage).selected,'v3');api.reset();assert.equal(data.has(Art.KEY),false);assert.equal(api.selected,'06-film');
 });
-test('unknown style and unavailable storage safely use V3',()=>{
- const api=Art.create(manifest,{getItem(){throw Error('blocked');},setItem(){throw Error('blocked');},removeItem(){throw Error('blocked');}});assert.equal(api.selected,'v3');assert.ok(api.resolve('unknown').src.includes('/ibat.webp'));assert.equal(api.select('nonexistent'),false);
+test('unavailable storage uses film and unknown channels get neutral art',()=>{
+ const api=Art.create(manifest,{getItem(){throw Error('blocked');},setItem(){throw Error('blocked');},removeItem(){throw Error('blocked');}});assert.equal(api.selected,'06-film');assert.ok(api.resolve('unknown').src==='cover.svg');assert.equal(api.select('nonexistent'),false);
 });
 test('each ready series contains distinct originals, derivatives and an eight-channel preview',()=>{
  const allOriginals=[];
@@ -25,5 +25,11 @@ test('each ready series contains distinct originals, derivatives and an eight-ch
  assert.equal(allOriginals.length,manifest.styles.filter(s=>s.id!=='v3').length*8);
 });
 test('classification retains eight identities with exactly four daily and four knowledge channels',()=>{
- const core=require('../app.js');assert.deepEqual(core.dailyChannels,['ibat','vald','sjoomradet','kek']);assert.ok(core.knowledgeChannels.includes('lagstiftning'));assert.equal(new Set([...core.dailyChannels,...core.knowledgeChannels]).size,8);
+ const core=require('../app.js'),channels=JSON.parse(fs.readFileSync('catalog/manifest.json')).channels;const groups=core.channelGroups(channels);assert.deepEqual(groups[0].channels.map(c=>c.id),['ibat','vald','sjoomradet','kek']);assert.equal(groups[1].channels.length,4);assert.equal(new Set(groups.flatMap(g=>g.channels.map(c=>c.id))).size,8);
+});
+test('valid explicit V3 and all twenty saved choices survive the new default',()=>{
+ for(const style of manifest.styles){const data=new Map([[Art.KEY,style.id]]);const storage={getItem:k=>data.get(k),setItem:(k,v)=>data.set(k,v),removeItem:k=>data.delete(k)};const api=Art.create(manifest,storage);assert.equal(api.selected,style.id);api.reset();assert.equal(api.selected,'06-film');assert.equal(data.has(Art.KEY),false);}
+});
+test('register growth and order never depend on publication timestamps or episode kinds',()=>{
+ const core=require('../app.js');for(const [a,b] of [[0,10],[1,5],[4,4],[5,1],[10,0]]){const channels=[...Array.from({length:a},(_,i)=>({id:'m'+i,channel_type:'monitoring',display_order:i})),...Array.from({length:b},(_,i)=>({id:'k'+i,channel_type:'knowledge',display_order:i}))].reverse();const groups=core.channelGroups(channels);assert.deepEqual(groups.map(g=>g.channels.length),[a,b]);assert.equal(new Set(groups.flatMap(g=>g.channels.map(c=>c.id))).size,a+b);assert.equal(groups[0].channels[0]?.id,a?'m0':undefined);}
 });

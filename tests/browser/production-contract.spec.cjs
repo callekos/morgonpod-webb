@@ -5,7 +5,7 @@ test('producer history is paginated independently and intro stays first',async({
  const rows=Array.from({length:49},(_,i)=>({id:'daily-'+i,channel:'ibat',date:'2026-10-'+String(i%20+1).padStart(2,'0'),title:'Historiskt avsnitt '+i,episode_order:20261000+i}));
  rows.unshift({id:'intro',channel:'ibat',title:'Uppstartsavsnitt',is_intro:true,episode_order:1,date:'2026-10-19',published_at:'2026-10-19T23:00:00+02:00'});
  const paths=[0,1,2].map(i=>'catalog/lists/episodes/history/channel/ibat/'+i+'.json'),loaded=[];
- const manifest={channels:[{id:'ibat',name:'IBAT - Informationsförsörjning'}],topics:[],search_buckets:[],collections:{'episodes/channel/ibat':{count:50,pages:['catalog/lists/episodes/channel/ibat/0.json']},'episodes/history/channel/ibat':{count:50,pages:paths}}};
+ const manifest={channels:[{id:'ibat',name:'IBAT - Informationsförsörjning',channel_type:'monitoring',display_order:0}],topics:[],search_buckets:[],collections:{'episodes/channel/ibat':{count:50,pages:['catalog/lists/episodes/channel/ibat/0.json']},'episodes/history/channel/ibat':{count:50,pages:paths}}};
  await page.route('**/catalog/manifest.json',r=>r.fulfill({json:manifest}));
  await page.route('**/catalog/lists/**',r=>{const path=new URL(r.request().url()).pathname.slice(1);loaded.push(path);const n=paths.indexOf(path);return r.fulfill({json:{items:n<0?[rows[49]]:rows.slice(n*24,n*24+24)}});});
  await page.goto('/kanal.html?id=ibat&sort=oldest');await expect(page.locator('.episode')).toHaveCount(24);await expect(page.locator('.episode').first()).toHaveAttribute('data-id','intro');

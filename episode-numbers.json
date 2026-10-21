@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "assignments": {
+    "ibat:2026-10-20": 1,
+    "kek:2026-10-20": 1,
+    "sjoomradet:2026-10-20": 1,
+    "vald:2026-10-20": 1,
+    "ibat:2026-10-21": 2,
+    "kek:2026-10-21": 2
+  },
+  "identities": {
+    "WORK_LIBRARY_2026_10:ibat:replacement_ordinary:2": "ibat:2026-10-20",
+    "ibat:2026-10-20:daily": "ibat:2026-10-20",
+    "WORK_LIBRARY_2026_10:kek:replacement_ordinary:2": "kek:2026-10-20",
+    "kek:2026-10-20:daily": "kek:2026-10-20",
+    "WORK_LIBRARY_2026_10:sjoomradet:replacement_ordinary:2": "sjoomradet:2026-10-20",
+    "sjoomradet:2026-10-20:daily": "sjoomradet:2026-10-20",
+    "WORK_LIBRARY_2026_10:vald:replacement_ordinary:2": "vald:2026-10-20",
+    "vald:2026-10-20:daily": "vald:2026-10-20",
+    "ibat:2026-10-21:daily": "ibat:2026-10-21",
+    "kek:2026-10-21:daily": "kek:2026-10-21"
+  }
+}

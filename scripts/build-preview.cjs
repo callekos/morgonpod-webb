@@ -1,7 +1,7 @@
 /* Deterministic static packaging. Reads producer files; writes only the output directory. */
 const fs=require('node:fs'),path=require('node:path'),Core=require('../app.js');
 function orderedCollections(root,out){
- const manifest=JSON.parse(fs.readFileSync(path.join(root,'catalog/manifest.json')));const memo=new Map();let missing=0;
+ const manifest=JSON.parse(fs.readFileSync(path.join(root,'catalog/manifest.json')));const memo=new Map();let missing=0;Core.catalogOrder=manifest.channels.map(c=>c.id);
  for(const [key,c] of Object.entries(manifest.collections)){
   const rows=c.pages.flatMap(p=>JSON.parse(fs.readFileSync(path.join(root,p))).items).map(row=>{
    if(!memo.has(row.detail)){const d=Core.safePath(row.detail)?JSON.parse(fs.readFileSync(path.join(root,row.detail))):{};memo.set(row.detail,d);}

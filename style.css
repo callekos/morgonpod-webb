@@ -135,3 +135,17 @@ button,a,summary{-webkit-tap-highlight-color:transparent}button:active,.morning-
 @media(max-width:600px){.art-styles{grid-template-columns:minmax(0,1fr)}.lab-toolbar{align-items:stretch}.lab-toolbar button{width:100%}}
 
 .channel-main .episode .channel-name{display:none}
+
+/* Both channel groups share the page scroll and the same compact cards. */
+.channel-groups{display:grid;grid-template-columns:minmax(0,1fr);gap:2rem}
+.channel-group{min-width:0;margin:0}
+.channel-group .section-heading{align-items:start;margin-bottom:1rem}
+.channel-group .section-heading p{color:var(--muted);font-size:.875rem;line-height:1.5;margin:.5rem 0 0}
+.channel-group .home-channels,.channel-group .channel-directory{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;overflow:visible;margin:0}
+.channel-group .channel-card{min-width:0;height:100%;display:flex;flex-direction:column}
+.channel-group .channel-card>.cover{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;min-height:0}
+.channel-group .channel-card-label{min-width:0;flex:1;align-items:start;padding:12px 10px}
+.channel-group .channel-card strong{overflow-wrap:anywhere;font-size:.875rem;line-height:1.4}
+.channel-group .channel-card .icon{flex-shrink:0}
+.group-all{display:inline-flex;align-items:center;min-height:44px;margin-top:1rem}
+@media(min-width:1200px){.channel-groups{grid-template-columns:repeat(2,minmax(0,1fr))}}

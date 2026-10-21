@@ -18,9 +18,23 @@ test('published six flows, themes, real audio and canonical channel identity',as
  await page.locator('#nav').getByRole('link',{name:'Mer',exact:true}).click();await page.getByLabel('Mörkt läge',{exact:true}).check();await expect(page.locator('html')).toHaveAttribute('data-theme','dark');
  await page.getByLabel('Ljust läge',{exact:true}).check();await expect(page.locator('html')).toHaveAttribute('data-theme','light');
  await page.getByLabel('Följ systemet',{exact:true}).check();await page.emulateMedia({colorScheme:'dark'});await expect(page.locator('body')).toHaveCSS('background-color','rgb(7, 23, 32)');
- const position=await page.locator('#audio').evaluate(a=>a.currentTime);await page.getByRole('link',{name:'Designlaboratorium',exact:true}).click();await page.locator('[name="art-style"]').first().check();await expect(page.locator('#art-status')).toContainText('Vald bildstil:');await expect(page.locator('#player-image')).toHaveAttribute('src',/assets\/design-lab\//);await expect(page.locator('#audio')).toHaveAttribute('src',source);await expect.poll(()=>page.locator('#audio').evaluate(a=>a.currentTime)).toBeGreaterThan(position);await expect(page.locator('#audio')).toHaveJSProperty('paused',false);await page.getByRole('button',{name:'Återställ till ordinarie design',exact:true}).click();await expect(page.locator('#player-image')).toHaveAttribute('src',/^assets\/channels\//);await page.locator('#nav').getByRole('link',{name:'Mer',exact:true}).click();
+ const position=await page.locator('#audio').evaluate(a=>a.currentTime);await page.getByRole('link',{name:'Designlaboratorium',exact:true}).click();await page.locator('[name="art-style"]').first().check();await expect(page.locator('#art-status')).toContainText('Vald bildstil:');await expect(page.locator('#player-image')).toHaveAttribute('src',/assets\/design-lab\//);await expect(page.locator('#audio')).toHaveAttribute('src',source);await expect.poll(()=>page.locator('#audio').evaluate(a=>a.currentTime)).toBeGreaterThan(position);await expect(page.locator('#audio')).toHaveJSProperty('paused',false);await page.getByRole('button',{name:'Återställ till standard',exact:true}).click();await expect(page.locator('#player-image')).toHaveAttribute('src',/assets\/design-lab\/06-film\//);await page.locator('#nav').getByRole('link',{name:'Mer',exact:true}).click();
  await page.reload();await expect(page.getByLabel('Följ systemet',{exact:true})).toBeChecked();
  expect(errors).toEqual([]);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
  await page.screenshot({path:'playwright-report/'+info.project.name+'-published.png'});
 });
 
+
+test('published groups, film default, shared filters and approved episode titles',async({page})=>{
+ const manifest=await(await page.request.get('catalog/manifest.json')).json();
+ await page.goto('idag.html');await expect(page.locator('.home-channel-groups .channel-group')).toHaveCount(2);
+ for(const type of ['monitoring','knowledge']){
+  const expected=manifest.channels.filter(c=>c.channel_type===type);const group=page.locator('.home-channel-groups [data-group='+type+']');
+  await expect(group.locator('.channel-card')).toHaveCount(Math.min(expected.length,4));await expect(group.locator('.group-all')).toHaveCount(expected.length>4?1:0);
+  expect(await group.locator('img').evaluateAll(nodes=>nodes.every(n=>n.getAttribute('src').includes('/06-film/')&&!n.getAttribute('src').includes('-master')))).toBe(true);
+ }
+ await page.goto('kanaler.html?group=knowledge');await expect(page.locator('.channel-card')).toHaveCount(manifest.channels.filter(c=>c.channel_type==='knowledge').length);await expect(page.locator('.channel-group')).toHaveCount(1);await page.reload();await expect(page.locator('[data-group=knowledge]')).toBeVisible();
+ await page.getByRole('link',{name:'Bevakningskanaler',exact:true}).click();await expect(page).toHaveURL(/group=monitoring/);await page.goBack();await expect(page).toHaveURL(/group=knowledge/);
+ const data=await(await page.request.get(manifest.collections['episodes/ordinary/channel/ibat'].pages[0])).json();const row=data.items.find(e=>!manifest.superseded[e.id]);expect(row.title).toMatch(/^Avsnitt \d+: .+/);
+ await page.goto('avsnitt.html?id='+encodeURIComponent(row.id));await expect(page.locator('.full-player h2')).toHaveText(row.title);await expect(page.locator('.full-player p').first()).not.toBeEmpty();await expect(page.locator('.episode-info .article-card').first()).toBeVisible();
+});
