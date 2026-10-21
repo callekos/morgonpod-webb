@@ -41,8 +41,8 @@ test('published groups, film default, shared filters and approved episode titles
 
 test('published subscription is reachable while scrolling and preserves real audio',require('./subscription-check.cjs').subscriptionCheck);
 
-test('existing Telegram invitation resolves to the actual subscription destination',async({request},info)=>{
+test('existing Telegram invitation exposes the matching join handoff',async({request},info)=>{
  test.skip(info.project.name!=='desktop','One independent HTTP check of the shared invitation is sufficient');
  const response=await request.get('https://t.me/+jlPUjsmjlE03NDFk');expect(response.ok()).toBe(true);
- const html=await response.text();expect(html).toContain('tgme_page_title');expect(html).toMatch(/Morgonpod/i);expect(html).toMatch(/tg:\/\/join\?invite=jlPUjsmjlE03NDFk/);
+ const html=await response.text();expect(html).toMatch(/<title>Telegram:/);expect(html).toContain('class="tgme_action_button"');expect(html).not.toMatch(/invite link (has expired|is invalid)/i);expect(html).toMatch(/tg:\/\/join\?invite=jlPUjsmjlE03NDFk/);
 });
