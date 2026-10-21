@@ -1,0 +1,87 @@
+{
+  "style": "06-film",
+  "name": "Analog filmfotografi",
+  "generator": "built-in image_gen",
+  "originals": [
+    {
+      "channel": "ibat",
+      "prompt": "Use case: photorealistic-natural. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 06 Analog filmfotografi. Style/medium: Analog medium format color photography, Kodak-like warm skin and muted colors, visible fine film grain, gentle halation, natural afternoon side light, documentary composition and shallow depth without excessive blur.. Subject: Information supply for crime prevention and investigation: an analyst bringing source records, a place map and evidence photographs together into one coherent operational picture. Connected source panels and a decisive human hand. No visible private data.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "58f96cbe18a0d754d634a99241c8f31e33cbc6757c95ff2330d057a683505873",
+      "master": "assets/design-lab/06-film/ibat-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "vald",
+      "prompt": "Use case: photorealistic-natural. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 06 Analog filmfotografi. Style/medium: Analog medium format color photography, Kodak-like warm skin and muted colors, visible fine film grain, gentle halation, natural afternoon side light, documentary composition and shallow depth without excessive blur.. Subject: Serious organized violence, violence as a service and digital recruitment: a contemporary Swedish street and an anonymous adult seen beside a large phone with abstract message shapes, shadowy recruiting network in the distance. No injuries, guns or sensational crime reconstruction.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "eeff8f3d5ca26463ae6cf5aa97858afd645246f729314f58b3cb1c5c89e3db53",
+      "master": "assets/design-lab/06-film/vald-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "sjoomradet",
+      "prompt": "Use case: photorealistic-natural. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 06 Analog filmfotografi. Style/medium: Analog medium format color photography, Kodak-like warm skin and muted colors, visible fine film grain, gentle halation, natural afternoon side light, documentary composition and shallow depth without excessive blur.. Subject: Maritime security in the Baltic: a merchant ship, Nordic rocky shore, harbor infrastructure and a clearly identifiable undersea communications cable. Strong ship silhouette.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "30bed338fb6b3f68d748ffc3ceb10a8ce1b03e991d2e7456946b0e5875c7e4ef",
+      "master": "assets/design-lab/06-film/sjoomradet-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "kek",
+      "prompt": "Use case: photorealistic-natural. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 06 Analog filmfotografi. Style/medium: Analog medium format color photography, Kodak-like warm skin and muted colors, visible fine film grain, gentle halation, natural afternoon side light, documentary composition and shallow depth without excessive blur.. Subject: Criminal finance: an investigator tracing asset transfers between company buildings, accounts and property through an elegant winding financial trail. Evidence documents in foreground. No generic money pile.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "d110345e5231cf2f987fc8d315c73d0a9cb7b62bfa8a1f0dd7dfe888d2dae77f",
+      "master": "assets/design-lab/06-film/kek-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "lagstiftning",
+      "prompt": "Use case: photorealistic-natural. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 06 Analog filmfotografi. Style/medium: Analog medium format color photography, Kodak-like warm skin and muted colors, visible fine film grain, gentle halation, natural afternoon side light, documentary composition and shallow depth without excessive blur.. Subject: Swedish criminal law: contemporary Swedish courtroom with pale oak benches and a prominent legal volume and case folders. Nordic legal process, no American gavel.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "db5ae8be012b63e15bdd3a7c9b74b935e132dcbab88cb13905307c01f8146ed1",
+      "master": "assets/design-lab/06-film/lagstiftning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "ai_brottsbekampning",
+      "prompt": "Use case: photorealistic-natural. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 06 Analog filmfotografi. Style/medium: Analog medium format color photography, Kodak-like warm skin and muted colors, visible fine film grain, gentle halation, natural afternoon side light, documentary composition and shallow depth without excessive blur.. Subject: Artificial intelligence in criminal investigation: human analyst checking machine assisted pattern recognition and image comparisons against source photographs. Strong human oversight and evidence verification. No robot face, no globe.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "a982c07fb283cc9b3aea9d7abf830e14fbcd8ee365bfe256fdc80b275a0bbb62",
+      "master": "assets/design-lab/06-film/ai_brottsbekampning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "it_juridik",
+      "prompt": "Use case: photorealistic-natural. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 06 Analog filmfotografi. Style/medium: Analog medium format color photography, Kodak-like warm skin and muted colors, visible fine film grain, gentle halation, natural afternoon side light, documentary composition and shallow depth without excessive blur.. Subject: Privacy and information law: secure personal records archive, a person presenting a permission card at an access gate, an accountable audit trail and segregated record drawers. Clearly about access rights and personal data.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "657492d4a1b47fcd8b19d1fc9c94a1a060fa75652e510d05905978cc13638e24",
+      "master": "assets/design-lab/06-film/it_juridik-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "verksamhetsutveckling",
+      "prompt": "Use case: photorealistic-natural. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 06 Analog filmfotografi. Style/medium: Analog medium format color photography, Kodak-like warm skin and muted colors, visible fine film grain, gentle halation, natural afternoon side light, documentary composition and shallow depth without excessive blur.. Subject: Organizational development and implementation: a small team moving process cards from planning wall to a working service prototype. People, method, technology and practical change. No isolated gear icon.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "875b82ab428edf999b79d5d093b37a536c7fcde0a8dd60ba6dbde10357063a14",
+      "master": "assets/design-lab/06-film/verksamhetsutveckling-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
