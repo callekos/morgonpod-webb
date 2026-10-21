@@ -362,7 +362,7 @@ if (typeof document !== 'undefined') (async () => {
         return;
       }
       const title=kind==='articles'?'Artiklar':'Lyssna';document.title=title+' | Morgonpod';
-      main.innerHTML='<div class="page-heading">'+(kind==='articles'?'':'<small>DITT PODDBIBLIOTEK</small>')+'<h1>'+title+'</h1><p>'+(kind==='articles'?'Självständiga nyhetstexter med källor och tidigare rapportering.':'Välj kanal eller hitta ditt nästa poddavsnitt.')+'</p></div>'+filters(kind,p)+'<p><a href="utforska.html">Sök i hela arkivet ↗</a></p><div id="listing"></div><section id="ranking"></section>';
+      main.innerHTML='<div class="page-heading">'+(kind==='articles'?'':'<small>DITT PODDBIBLIOTEK</small>')+'<h1>'+title+'</h1><p>'+(kind==='articles'?'Självständiga nyhetstexter med källor och tidigare rapportering.':'Välj kanal eller hitta ditt nästa poddavsnitt.')+'</p></div>'+filters(kind,p)+'<div id="listing"></div><section id="ranking"></section>';
       $('#filters').onsubmit=ev=>{ev.preventDefault();navigate(url(page,{channel:new FormData(ev.target).get('channel')}));};
       await collection(kind+(p.get('channel')?'/channel/'+p.get('channel'):''),$('#listing'),token);
       if(kind==='episodes'){try{const stats=await json('stats.json');if(token!==routeToken)return;const rows=Core.ranking(stats.episodes);if(rows.length)$('#ranking').innerHTML='<h2>Mest lyssnade på webben</h2><ol>'+rows.map(x=>'<li><a href="'+url('avsnitt',{id:x.id})+'">'+esc(x.title||x.id)+'</a> · '+x.count+'</li>').join('')+'</ol>';}catch{}}
