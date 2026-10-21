@@ -1,5 +1,14 @@
 const {test,expect}=require('@playwright/test');test.use({serviceWorkers:'block'});
 const polishArt=require('../../channel-art-manifest.js').styles.filter(s=>s.id!=='v3');
+for(const count of [1,2])test('partial morning preserves '+count+' deliveries and reports missing channels',async({page})=>{
+ await require('./morning-fixture.cjs').morningFixture(page,count);
+ await page.goto('/idag.html');
+ await expect(page.locator('.morning-strip a')).toHaveCount(count);
+ await expect(page.locator('#morning-editions .edition-status').last()).toContainText('inväntar publicering');
+ await page.getByRole('button',{name:'Spela bevakningen',exact:true}).click();
+ await expect.poll(()=>page.locator('#audio').evaluate(a=>a.currentTime)).toBeGreaterThan(0);
+ await expect(page.locator('.queue-title')).toHaveCount(count-1);
+});
 test('large channel covers use wide artwork and channel metadata follows its context',async({page})=>{
  async function sharpHero(){const hero=page.locator('.channel-hero img');await expect(hero).toBeVisible();await expect.poll(()=>hero.evaluate(im=>im.complete&&im.naturalWidth>0)).toBe(true);const image=await hero.evaluate(im=>({src:im.currentSrc,required:im.getBoundingClientRect().width*devicePixelRatio}));if(image.required>400)expect(image.src).not.toContain('-small.webp');}
  await page.goto('/kanal.html?id=ibat');await sharpHero();

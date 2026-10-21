@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "package_id": "WORK_SPECIALS_2026_10_21:kek_2",
+  "production_identity": "WORK_SPECIALS_2026_10_21",
+  "origin": "work_special",
+  "library_release_id": "WORK_SPECIALS_2026_10_21",
+  "channel": "kek",
+  "edition_type": "special",
+  "editorial_date": "2026-10-21",
+  "is_intro": false,
+  "episode_order": 4,
+  "published_at": null,
+  "notification_policy": "suppressed",
+  "gemini_text_calls": 0,
+  "work_origin_evidence": {
+    "author": "ChatGPT Work",
+    "newly_authored": true,
+    "prior_episode_relabelled": false
+  },
+  "files": {
+    "manus.txt": "75e31e86641cdcff72b503f21f3784123fcf1c8c34b274b2643e397942493c1d",
+    "brief.json": "606890b96bd24cfae3f4b182fd2b47b1709e90fade8f5c6ac36855c92f1c57e7",
+    "kallor.json": "546278586f4eac71fc3fbf8e2cd494be0142084142ee3bd1b9fd3dfa72df68ce",
+    "editorial_review.json": "35fec67b5b1a5b024eda940ceb726d141148766cc55f219c444ebef57a24396b"
+  }
+}

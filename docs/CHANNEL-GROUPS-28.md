@@ -2,7 +2,7 @@
 
 ## Omfattning och bas
 
-Gren work/issue-28-channel-groups från webbmain c4957b0. V5 och bildlaboratoriets 20 serier återanvänds. Produktionsdelen finns i nyhetspodden PR 137, integrerad ed68b8b1ea3ceb8dc89078139c3527f883f259fd efter PR-CI 39635545778/tests119344880041 success. 379 lokala Pythonprov passerar. Ingen ny innehållsproduktion eller Telegramomsändning.
+Gren work/issue-28-channel-groups i PR 34. Ursprunglig bas c4957b0; metadata är återgenererad över färsk webbmain e0f5170 efter integrerad nattredaktions-PR 33, vars tre nytillkomna specialavsnitt bevaras. V5 och bildlaboratoriets 20 serier återanvänds. Produktionsdelen finns i nyhetspodden PR 137, integrerad ed68b8b1ea3ceb8dc89078139c3527f883f259fd efter PR-CI 39635545778/tests119344880041 success. 379 lokala Pythonprov passerar. Ingen ny innehållsproduktion eller Telegramomsändning.
 
 ## Ändring
 
@@ -16,7 +16,7 @@ Ordinarie bevakning har Avsnitt N: godkänd innehållsrubrik. Datum behålls sep
 
 ## Verifierat före webbpublicering
 
-34 enhetsprov och 40 desktopprov passerar. Android: 39 av 40 första gången; enda felet var testets försök att pausa på den dolda minispelaren när stor spelare visades. Rättat till den synliga stora knappen, riktad omverifiering pågår. Prov täcker 0, 1, 4, 5 och 10 kanaler i varje grupp, totalt 20; stabil registerordning, gräns fyra, URL, omladdning, bakåt, 320 px, stor text och tangentbord. Alla 20 bildstilar provas med ljud, kö och scroll. Numrering provas med två konkurrerande verkliga gitkloner, omkörning, korrigering, separat kanalserie, historisk komplettering och supersession.
+36 enhetsprov och 40 desktopprov passerar. Android: 39 av 40 första gången; enda felet var testets försök att pausa på den dolda minispelaren när stor spelare visades. Rättat till den synliga stora knappen och samtliga sju riktade Androidprov passerar. Ny full kontroll mot nattredaktionens PR 33 körs före integration. Prov täcker 0, 1, 4, 5 och 10 kanaler i varje grupp, totalt 20; stabil registerordning, gräns fyra, URL, omladdning, bakåt, 320 px, stor text och tangentbord. Alla 20 bildstilar provas med ljud, kö och scroll. Numrering provas med två konkurrerande verkliga gitkloner, omkörning, korrigering, separat kanalserie, historisk komplettering och supersession.
 
 Lokalt WebKit blockerades före browserstart av saknade systembibliotek. Det är inte ett produktprov. Befintlig CI för iPhone/iPad WebKit ska passera före merge. Fysisk iPhone, fysisk iPad och VoiceOver är inte testade.
 
