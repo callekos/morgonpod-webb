@@ -17,7 +17,7 @@
       "name": "Nordiskt dokumentärfoto",
       "direction": "Nordic documentary editorial photography, natural overcast daylight, neutral gray and green, real material texture, candid documentary composition, restrained human scale. Illustrative staged scene, not an actual news event.",
       "status": "ready",
-      "release": "Published through PR 25"
+      "release": "Published and verified through PR 30; main CI 39580690860"
     },
     {
       "id": "02-editorial",
@@ -25,7 +25,7 @@
       "name": "Redaktionell illustration",
       "direction": "Sophisticated flat editorial illustration, crisp large shapes, subtle paper grain, ivory, forest green, vermilion, ink black and warm yellow.",
       "status": "ready",
-      "release": "Published through PR 25"
+      "release": "Published and verified through PR 30; main CI 39580690860"
     },
     {
       "id": "03-minimal",
@@ -33,7 +33,7 @@
       "name": "Grafisk minimalism",
       "direction": "High end graphic minimalism: extremely simplified but spatially coherent editorial scene made from only a few bold geometric silhouettes, sharp solid flat color planes, vast cream negative space, charcoal black, burnt orange and muted cobalt. No gradients, no photorealism, no texture, no small details. Strong asymmetrical Swiss modernist composition, a conceptual scene rather than a standalone app icon.",
       "status": "ready",
-      "release": "Published through PR 25"
+      "release": "Published and verified through PR 30; main CI 39580690860"
     },
     {
       "id": "04-linocut",
@@ -41,7 +41,7 @@
       "name": "Linoleumsnitt och grafiskt tryck",
       "direction": "Hand carved linocut print, coarse confident gouged lines, black ink, off white fibrous paper, restrained brick red accent, dramatic graphic lights and shadows. Strong silhouette, unmistakable relief print texture.",
       "status": "ready",
-      "release": "Published through PR 25"
+      "release": "Published and verified through PR 30; main CI 39580690860"
     },
     {
       "id": "05-isometric",
@@ -49,7 +49,7 @@
       "name": "Isometrisk illustration",
       "direction": "Precise refined isometric editorial illustration, clean axonometric geometry, white background, limited sage green, coral and warm gray, soft subtle dimensional shadows, miniature human figures and strong architecture.",
       "status": "ready",
-      "release": "Published through PR 25"
+      "release": "Published and verified through PR 30; main CI 39580690860"
     },
     {
       "id": "06-film",
@@ -57,7 +57,7 @@
       "name": "Analog filmfotografi",
       "direction": "Analog medium format color photography, Kodak-like warm skin and muted colors, visible fine film grain, gentle halation, natural afternoon side light, documentary composition and shallow depth without excessive blur.",
       "status": "ready",
-      "release": "Published through PR 25"
+      "release": "Published and verified through PR 30; main CI 39580690860"
     },
     {
       "id": "07-oil",
@@ -65,7 +65,7 @@
       "name": "Modern oljemålning",
       "direction": "Contemporary oil painting on linen, expressive broad impasto brushstrokes, deep aubergine shadows, amber and olive, tactile paint, confident figurative forms, gallery quality editorial scene.",
       "status": "ready",
-      "release": "Published through PR 25"
+      "release": "Published and verified through PR 30; main CI 39580690860"
     },
     {
       "id": "08-geometric",
@@ -73,7 +73,7 @@
       "name": "Geometrisk affischkonst",
       "direction": "Bold geometric poster art, constructivist balanced architecture and radial shapes, flat ultramarine, tomato red, saffron and warm white, exact hard edges, no photographic shading, visual rhythm and large legible forms.",
       "status": "ready",
-      "release": "Published through PR 25"
+      "release": "Published and verified through PR 30; main CI 39580690860"
     },
     {
       "id": "09-collage",
@@ -81,7 +81,7 @@
       "name": "Papper och collage",
       "direction": "Sophisticated editorial collage: cut photographic fragments and torn paper layered with abstract geometric shapes, cream stock, emerald, rust and charcoal, visible hand cut edges, spatially coherent subject, no printed words.",
       "status": "ready",
-      "release": "Published through PR 25"
+      "release": "Published and verified through PR 30; main CI 39580690860"
     },
     {
       "id": "10-diorama",
@@ -89,7 +89,7 @@
       "name": "Premium 3D-diorama",
       "direction": "Premium miniature 3D diorama built with matte ceramic, brushed metal and frosted acrylic, warm stone backdrop, soft studio directional light, refined material realism and precise miniature set, restrained jewel accents.",
       "status": "ready",
-      "release": "Published through PR 25"
+      "release": "Published and verified through PR 30; main CI 39580690860"
     },
     {
       "id": "11-watercolor",
@@ -97,7 +97,7 @@
       "name": "Nordisk akvarell",
       "direction": "Nordic watercolor on textured cotton paper, translucent washes, soft edges with selected precise ink-free details, pale sky gray, muted pine green, cool blue and warm ochre, airy luminous atmosphere.",
       "status": "ready",
-      "release": "Published through PR 25"
+      "release": "Published and verified through PR 30; main CI 39580690860"
     },
     {
       "id": "12-architecture",
@@ -105,7 +105,7 @@
       "name": "Arkitektonisk visualisering",
       "direction": "Contemporary architectural visualization, calm pale timber and concrete, strong spatial perspective, soft daylight, warm white, gray, sage and one copper accent, material clarity, deliberate human scale and sophisticated photorealistic render.",
       "status": "ready",
-      "release": "Published through PR 25"
+      "release": "Published and verified through PR 30; main CI 39580690860"
     },
     {
       "id": "13-infographic",
@@ -113,7 +113,7 @@
       "name": "Modern infografisk illustration",
       "direction": "Modern information editorial illustration, precise clean vector-like geometry, modular visual flow, purposeful connected components within a recognizable scene, white background, teal, orange and ink, no text or numeric labels, diagrammatic clarity without exact data claims.",
       "status": "ready",
-      "release": "Published through PR 25"
+      "release": "Published and verified through PR 30; main CI 39580690860"
     },
     {
       "id": "14-concept",
@@ -121,7 +121,7 @@
       "name": "Filmisk konceptkonst",
       "direction": "Cinematic concept art with dramatic atmospheric depth, painterly realistic environment, dawn light, dark violet and warm amber, large strong foreground silhouette, restrained cinematic composition, not all blue.",
       "status": "ready",
-      "release": "Published through PR 25"
+      "release": "Published and verified through PR 30; main CI 39580690860"
     },
     {
       "id": "15-retro",
@@ -129,7 +129,7 @@
       "name": "Skandinavisk retroaffisch",
       "direction": "Scandinavian midcentury travel poster screenprint aesthetic, simplified blocky landscapes and human figures, warm cream, dusty teal, brick red and ochre, subtle vintage ink grain, elegant bold silhouette, no typography.",
       "status": "ready",
-      "release": "V5: recovered, reviewed, awaiting CI and live verification"
+      "release": "Published and verified through PR 30; main CI 39580690860"
     },
     {
       "id": "16-paper",
@@ -137,7 +137,7 @@
       "name": "Taktil papperskonst",
       "direction": "Tactile handcrafted paper sculpture, real folded and layered colored cardstock, cut edges and directional cast shadows, cream tabletop, coral, sage, golden yellow and charcoal, photographic studio macro of a coherent miniature scene.",
       "status": "ready",
-      "release": "V5: recovered, reviewed, awaiting CI and live verification"
+      "release": "Published and verified through PR 30; main CI 39580690860"
     },
     {
       "id": "17-monochrome",
@@ -145,7 +145,7 @@
       "name": "Monokromt reportage",
       "direction": "Black and white documentary reportage photography, rich silver gelatin tonal range, striking natural side lighting, real architectural texture and human gesture, medium contrast, no color tint, no film border. Staged illustrative editorial scene, no actual news event.",
       "status": "ready",
-      "release": "Published through PR 25"
+      "release": "Published and verified through PR 30; main CI 39580690860"
     },
     {
       "id": "18-surreal",
@@ -153,7 +153,7 @@
       "name": "Fotografisk surrealism",
       "direction": "Sophisticated photographic surrealism, impossibly transformed but recognizable subject within a realistic Nordic setting, convincing material and light, one clear conceptual visual metaphor, rich emerald and warm peach, imaginative yet calm editorial composition.",
       "status": "ready",
-      "release": "V5: recovered, reviewed, awaiting CI and live verification"
+      "release": "Published and verified through PR 30; main CI 39580690860"
     },
     {
       "id": "19-blueprint",
@@ -161,7 +161,7 @@
       "name": "Teknisk ritningsestetik",
       "direction": "Technical drafting aesthetic as editorial art: elegant precise white and pale cyan architectural linework on deep slate drawing paper, axonometric sections and subtle crosshatching, restrained copper highlight, coherent recognizable scene, no numbers, labels or lettering.",
       "status": "ready",
-      "release": "V5: recovered, reviewed, awaiting CI and live verification"
+      "release": "Published and verified through PR 30; main CI 39580690860"
     },
     {
       "id": "20-magazine",
@@ -169,7 +169,7 @@
       "name": "Modern tidskriftsillustration",
       "direction": "Contemporary premium magazine illustration, hand drawn flowing contours, confident editorial metaphor, large expressive forms, lavender, vermilion, apricot and cream, refined gouache texture, dynamic asymmetry, no photorealism.",
       "status": "ready",
-      "release": "V5: recovered, reviewed, awaiting CI and live verification"
+      "release": "Published and verified through PR 30; main CI 39580690860"
     }
   ]
 }
