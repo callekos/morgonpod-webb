@@ -1,0 +1,67 @@
+{
+  "frontend_files": 31,
+  "exact_byte_matches": 31,
+  "failures": [],
+  "active_episodes": 25,
+  "active_articles": 25,
+  "channels": 8,
+  "library_episodes": 25,
+  "new_specials": 0,
+  "superseded": 5,
+  "old_direct_link_status": "superseded",
+  "replacement": "WORK_LIBRARY_2026_10:ibat:replacement_ordinary:2",
+  "media_range_checks": [
+    {
+      "id": "WORK_LIBRARY_2026_10:ibat:replacement_ordinary:2",
+      "http": 206,
+      "bytes": 1024,
+      "range": "bytes 0-1023/2501877"
+    },
+    {
+      "id": "ibat:2026-10-20:daily",
+      "http": 206,
+      "bytes": 1024,
+      "range": "bytes 0-1023/3319749"
+    }
+  ],
+  "cdn_date": "Tue, 20 Oct 2026 23:56:58 GMT",
+  "all_five_retired_direct_links": [
+    {
+      "id": "ibat:2026-10-20:daily",
+      "status": "superseded",
+      "successor_matches": true,
+      "http": 200
+    },
+    {
+      "id": "vald:2026-10-20:daily",
+      "status": "superseded",
+      "successor_matches": true,
+      "http": 200
+    },
+    {
+      "id": "kek:2026-10-20:daily",
+      "status": "superseded",
+      "successor_matches": true,
+      "http": 200
+    },
+    {
+      "id": "sjoomradet:2026-10-20:daily",
+      "status": "superseded",
+      "successor_matches": true,
+      "http": 200
+    },
+    {
+      "id": "lagstiftning:2026-10-20:daily",
+      "status": "superseded",
+      "successor_matches": true,
+      "http": 200
+    }
+  ],
+  "verified_at_stockholm": "2026-10-21T01:56:58+02:00",
+  "release_commit": "a70ae19dc8ac2034f8123e8b2798786e0f740d0e",
+  "acceptance_commit": "697f285b1d1e8f094da4349ab50c86afdeeed184",
+  "ci_run": 39518670565,
+  "unit_tests_passed": 28,
+  "browser_scenarios_passed": 84,
+  "live_browser_projects_passed": 4
+}

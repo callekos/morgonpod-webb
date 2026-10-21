@@ -16,3 +16,6 @@ This result refers to exact concept-image fidelity. Functional release acceptanc
 
 
 Iteration 2: CI WebKit found [P2] tablet overflow and invisible titles from inherited V2 order/nested grids/line-clamp. Scoped CSS removes those inherited rules. Added five intermediate viewport checks. Desktop/mobile V3 tests pass after the fix. Awaiting full CI WebKit evidence before functional release acceptance.
+
+
+Slutkvitto: båda WebKit-felen är rättade, final surfplattebild granskad och sparad i docs/evidence/tablet-webkit-v3-final.jpg. 28 enhetstester, 84 browserfall och 4/4 funktionstester på den publicerade webbplatsen passerar i CI 39518670565. Den kvarstående blocked-markeringen gäller enbart jämförelsen med den ej åtkomliga konceptbilden, inte några kvarvarande upptäckta P0/P1/P2-fel i den implementerade produkten. Fysisk iPhone/VoiceOver och Lighthouse är inte påstådda tester.

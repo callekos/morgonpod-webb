@@ -1,32 +1,21 @@
-# Kanalernas morgon V3
+# V3 checkpoint: levererad 21 oktober 2026
 
-## Scope and current checkpoint
+## Verifierat läge
 
-Issue #12 implements the approved direction. Source concept was described in issue #12 and the owner's explicit brief. The promised new concept attachment was not actually exposed in this session. This is an implementation of the approved information architecture and image direction, not a claim of pixel-perfect matching to an unseen concept image.
+Kanalernas morgon V3 är publicerad på https://callekos.github.io/morgonpod-webb/. Frontendrelease: PR #13, merge a70ae19. Producentens exakta katalogpolicy: nyhetspodden PR #115, merge 920ef5a. Efterföljande commit 697f285 rättar enbart en gammal versionsförväntan i livekontrollen.
 
-The homepage has four sections in order: Dagens bevakning, Våra kanaler, Fördjupa dina kunskaper, Senast publicerat. All eight channels have individual original photographs and shared image identity for episodes, articles, detail views and media session. Morning playback starts a bounded queue of ordinary episodes on one editorial date in channel order. Special editions never enter it. A missing morning clearly shows the latest available date, and missing channels are stated. New same-day arrivals take precedence automatically on reload. The law channel joins only when its ordinary edition has the same date. No login, favourites or profiling.
+28 enhetstester, 84 browserfall och fyra verkliga liveflödestester passerar i CI 39518670565. iPhone/iPad med WebKit, Android och desktop ingår. Lokala katalogtester omfattar 6 000 avsnitt och 24 000 artiklar. Livekontroll 21 oktober 01.56.58 svensk tid: 31/31 frontend-/bildfiler matchar, 25 aktiva avsnitt, 25 artiklar, åtta kanaler, åtta uppstarter och alla 25 biblioteks-ID:n kvar. Alla fem gamla direktlänkar har rätt superseded-status och ersättnings-ID. Gammal och ny MP3 svarar HTTP 206. Källregister och originalmedia är oförändrade.
 
-## Duplicate correction
+## Fortsättning och kontrakt
 
-catalog-policy.json maps exactly five 2026-10-20 daily IDs to the five WORK_LIBRARY_2026_10 replacement_ordinary IDs. Each pair activates only if its replacement exists in retained episodes.json. Active lists, histories, topics, counts and search omit the retired records and their 14 articles. 25 library episodes and 25 articles remain. Direct URLs explain the replacement and link to the new episode. Old source records and MP3 files remain byte-for-byte unchanged. Queues reject retired saved entries. All future daily and special IDs remain eligible.
+Inget arbete återstår för den verifierade frontendleveransen. Läs V3-DELIVERY-2026-10-21.md och V3-LIVE-RECEIPT.json för kvitton, begränsningar och rollback. Åtta bilders manual finns i channel-art-v3.md; final surfplattebild finns i evidence/tablet-webkit-v3-final.jpg.
 
-Producer support is integrated in callekos/nyhetspodden PR #115, commit 920ef5a3a9145f75263b6ff711061fcab1e5a661. Its CI tests passed. Five local Python tests include large archives, exact IDs, same-day re-run, next-day daily, special, search, missing replacement, media preservation and rollback. The publisher reads the web-owned policy and creates episodes/ordinary/channel/<id> pages. No Gemini/TTS, schedule, transport or profile changes. Issue #114 has the contract and integration notice.
+Nattredaktionen äger de 15 nya specialerna i nyhetspodden #114. Vid webbens bytekontroll hade 0 publicerats. Katalogen ska alltid byggas från färsk main med aktuell build_catalog och bevarad catalog-policy.json. Nya specialer och kommande daily ska behållas. Ändra inte deras manus, ljud eller ordinarie 07.45-flöde från detta webbuppdrag. Bevakningsvyn hämtar nya poster vid sidöppning eller omladdning, med exakt datum och tydlig fallback.
 
-## Recovery
+## Kända begränsningar
 
-To restore superseded records, remove selected mappings from catalog-policy.json and rebuild the catalog through current build_catalog using retained episodes.json/story_index.json. The producer then removes retired markers from fresh detail files too. Do not merely remove the frontend guard or restore old generated list snapshots. To roll back only the frontend, revert the V3 frontend/image commit without reverting later catalog/content publications. Read fresh main before each catalog write.
+Ingen fysisk iPhone-, VoiceOver- eller Lighthousekontroll har gjorts. Den utlovade V3-konceptbilden kunde inte hämtas, så design-qa.md behåller blocked för exakt jämförelse mot den bilden; detta är ingen påstådd pixelperfekt reproduktion. Den skriftligt godkända riktningen är implementerad och renderingen granskad. Små radbrytningar i långa kunskapskanalnamn på surfplatta kan förfinas senare. Ingen Telegramkvittens finns från denna session.
 
-## Validation
+## Återställning
 
-28 local unit tests passed. Existing desktop and Android Chromium browser flows passed, including real MP3 playback, natural queue advance, resume without autoplay, search, sources, themes and large paginated archives. Added V3 scenarios cover four-section order, eight image identities, morning queue, future four-channel arrival, special exclusion and old direct URLs. Full final local run and CI results must be recorded after completion.
-
-Local WebKit cannot launch because this host lacks its shared libraries; dependency installation was denied by filesystem permissions. The existing GitHub browser job installs WebKit dependencies on Ubuntu and is the release gate for iPhone/iPad WebKit. Do not claim physical iPhone hardware testing. The cloud-browser local preview call stalled and was interrupted; use the automated rendered browser evidence and report that limitation. No changes are published yet at this checkpoint.
-
-## Next steps
-
-Upload final code, generated catalog projection and test/evidence changes to design/kanalernas-morgon-v3. Open one release PR, inspect all checks and review the diff. Merge only after the full browser suite passes in CI, including WebKit. Then verify exact frontend and all eight image bytes live, active counts, direct-link replacement handling and audio. Recheck issue #114 for actual published specials. Report exact outcome, without treating future content or future morning production as already verified. Private Telegram status is optional only through an existing approved transport; do not create a new bot or leak credentials.
-
-
-## WebKit intermediate-width correction
-
-First CI browser run: 78/80 passed. The two failures were tablet-only: inherited V2 order moved recent episodes after the article aside, and nested two-column grids plus old WebKit line clamping collapsed episode title boxes. Replaced this inheritance explicitly within morning-home, made aside article lists one column, reset old line clamp, wrapped knowledge headings and used three channel columns at tablet widths. Added a test at 320, 768, 820, 1024 and 1450 pixels. Eight affected desktop/mobile V3 cases pass locally. Full 84-case CI run is required for release. No tests were relaxed.
+För att återställa gamla avsnitt: ta bort önskade exakta policypar och bygg om från kvarvarande episodes.json/story_index.json. Återställ inte en gammal hel katalog över nyare publiceringar. Frontendrollback ska hålla senare innehåll och katalogpolicy separata. Inga Gemini-, TTS-, profil- eller schemaändringar ingår.
