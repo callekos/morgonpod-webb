@@ -2,6 +2,86 @@
   "schema": 2,
   "stories": [
     {
+      "id": "article-9a0558291bf0ff3a659f39a1",
+      "episode_id": "kek:2026-10-21:daily",
+      "date": "2026-10-21",
+      "channel": "kek",
+      "published_at": "2026-10-21T14:11:50.956562+00:00",
+      "is_intro": false,
+      "episode_order": 739911,
+      "kind": "daily",
+      "episode_title": "Onsdag V.43",
+      "episode_audio": "episodes/kek/2026-10-21/morgonpod.mp3",
+      "episode_brief": "episodes/kek/2026-10-21/brief.json",
+      "article_index": 0,
+      "title": "Polisen varnar för misstänkta telefonbedrägerier i Stockholms län",
+      "summary": "Flera personer har enligt Polisen Stockholms län kontaktats av personer som utger sig för att komma från polisen, vilket bedöms som bedrägeriförsök.",
+      "body": "Enligt Polisen Stockholms län har flera personer uppgett att de mottagit samtal från någon som sade sig ringa från polisen, vilket bedöms som sannolika bedrägeriförsök. Polisen Stockholms län uppger att mottagare i ett av fallen kopplades till en röst som påstod att personens ID-kort använts för suspekt aktivitet. Enligt Polisen Stockholms län förekommer det just nu bedrägerier där samtalsmottagaren nås av en automatiserad datoriserad röst på engelska som bland annat påstår att det finns en arresteringsorder. Polisen Stockholms län uppger att myndigheten aldrig kontaktar någon med en automatiserad röst på engelska, och uppmanar allmänheten att lägga på luren.",
+      "context": "Aktuella uppgifter från Polisen Stockholms län om pågående telefonbedrägerier med automatiserade röster.",
+      "source_url": "https://polisen.se/aktuellt/handelser/2026/oktober/21/21-oktober-11.35-bedrageri-stockholms-lan/",
+      "sources": [
+        {
+          "url": "https://polisen.se/aktuellt/handelser/2026/oktober/21/21-oktober-11.35-bedrageri-stockholms-lan/",
+          "title": "Polisen Stockholms län"
+        }
+      ],
+      "topics": [
+        "bedrägeri"
+      ],
+      "topic_labels": [
+        "Bedrägeri"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-21T14:11:50.963293+00:00",
+      "revision": 1,
+      "fingerprint": "2b434b0b145e2d3d195cfc3628bdde5f1506434216c57038b55e367820d369f8",
+      "history": []
+    },
+    {
+      "id": "article-8939f8ecc56e7ed2fa31275a",
+      "episode_id": "kek:2026-10-21:daily",
+      "date": "2026-10-21",
+      "channel": "kek",
+      "published_at": "2026-10-21T14:11:50.956562+00:00",
+      "is_intro": false,
+      "episode_order": 739911,
+      "kind": "daily",
+      "episode_title": "Onsdag V.43",
+      "episode_audio": "episodes/kek/2026-10-21/morgonpod.mp3",
+      "episode_brief": "episodes/kek/2026-10-21/brief.json",
+      "article_index": 1,
+      "title": "Ponzi-ledare död enligt OCCRP",
+      "summary": "OCCRP rapporterar att ledaren för ett omfattande Ponzi-upplägg i Papua Nya Guinea har avlidit och begravts.",
+      "body": "Enligt en artikel hos OCCRP har en flyktad bedragare som låg bakom det storskaliga pyramidsspelet U-Vistract avlidit i en ospecificerad sjukdom och fått en kunglig begravning. Efter pyramidens kollaps flydde ledaren till ön Bougainville där han enligt OCCRP grundade en pseudostat med egen milis och lokal valuta. En tidigare utredning från OCCRP under 2025 visade att rörelsen lockade till sig ett globalt följe av anhängare innan hans död i tidiga 60-årsåldern.",
+      "context": "Uppföljning från OCCRP om det historiska pyramidsspelet U-Vistract och dess ledares bortgång.",
+      "source_url": "https://www.occrp.org/en/news/south-pacific-ponzi-scam-king-noah-musingku-dies",
+      "sources": [
+        {
+          "url": "https://www.occrp.org/en/news/south-pacific-ponzi-scam-king-noah-musingku-dies",
+          "title": "OCCRP"
+        }
+      ],
+      "topics": [
+        "internationell-kriminell-ekonomi"
+      ],
+      "topic_labels": [
+        "Internationell kriminell ekonomi"
+      ],
+      "assessment": "",
+      "open_questions": [],
+      "previous_reporting": [],
+      "event_links": [],
+      "body_provenance": "editorial_body",
+      "recorded_at": "2026-10-21T14:11:50.963355+00:00",
+      "revision": 1,
+      "fingerprint": "2fc77d03606697b48d4bdc4fb30d7c8981d82b7c9da346a08c704138444d875c",
+      "history": []
+    },
+    {
       "id": "article-35c1034db8d97ceb86890861",
       "episode_id": "ibat:2026-10-21:daily",
       "date": "2026-10-21",

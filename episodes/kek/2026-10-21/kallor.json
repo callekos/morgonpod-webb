@@ -1,0 +1,26 @@
+[
+  {
+    "source": "Polisen Stockholms län",
+    "title": "Polisen varnar för misstänkta telefonbedrägerier i Stockholms län",
+    "url": "https://polisen.se/aktuellt/handelser/2026/oktober/21/21-oktober-11.35-bedrageri-stockholms-lan/",
+    "evidence": {
+      "date": "2026-10-21T11:50:11+02:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-21T13:40:31.642199+00:00",
+      "page_sha256": "d4988e63f03f43c57c142af462ebc6a69c67cdadad5409c76578a5076836588a",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "OCCRP",
+    "title": "Sydtyfinländsk Ponzi-ledare död enligt OCCRP",
+    "url": "https://www.occrp.org/en/news/south-pacific-ponzi-scam-king-noah-musingku-dies",
+    "evidence": {
+      "date": "2026-10-20T12:13:00+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-21T13:40:31.642487+00:00",
+      "page_sha256": "fa3058ae49df1eff0d2011d4d30a40cfe9922e3d82ddbdc3bfd5142c723ee7f9",
+      "retrieval_limit": null
+    }
+  }
+]
