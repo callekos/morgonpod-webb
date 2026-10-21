@@ -1,6 +1,6 @@
-# Rättning #39
+# Webbuppdrag 39: publicerat och verifierat
 
-Avlånga kanalkort och avgränsad avpublicering förbereds på work/cards-39. Se [CHANNEL-CARDS-39.md](CHANNEL-CARDS-39.md) för status, skydd och exakt återstående verifiering. Prenumerera från #37 bevaras.
+PR #41 och miljörättning #42 är integrerade. Pages 39657136584 är grön. Slutlig mainacceptans 39658586702: 37 enhetstester, 184 browserfall inklusive iPhone/iPad WebKit och 21 livefall godkända. Publicerade bytes verifierades 21 oktober kl. 19:10:34 UTC; liveproven avslutades 19:11:48 UTC. Startsidan har kompakta bevakningskort och avlånga kunskapskort; Kanaler har avlånga kort för båda grupperna. Färgband och dekorativa namnikoner är borttagna. #37, egna bildval, ljud, råposter, datum, nummer och 15 specialer är bevarade. Endast uttryckligen beslutad veckoöversikt och dess artikel avpubliceras via beständig policy. Fysisk iPhone är inte testad. Inget återstår i #39. Se [fullständigt slutkvitto](CHANNEL-CARDS-39.md).
 
 # Tillägg #37
 
