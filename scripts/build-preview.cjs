@@ -24,7 +24,7 @@ function orderedCollections(root,out){
 }
 function build(root,out){
  if(path.resolve(root)===path.resolve(out))throw Error('Output must differ from source');fs.mkdirSync(out,{recursive:true});
- for(const name of fs.readdirSync(root))if(/\.html$/.test(name)||['app.js','playback-queue.js','search-hints.json','style.css','sw.js','manifest.webmanifest','icon.svg','cover.svg','analytics-config.json','stats.json','assets','catalog','episodes'].includes(name))fs.cpSync(path.join(root,name),path.join(out,name),{recursive:true});
+ for(const name of fs.readdirSync(root))if(/\.html$/.test(name)||['app.js','channel-art.js','channel-art-manifest.js','playback-queue.js','search-hints.json','style.css','sw.js','manifest.webmanifest','icon.svg','cover.svg','analytics-config.json','stats.json','assets','catalog','episodes'].includes(name))fs.cpSync(path.join(root,name),path.join(out,name),{recursive:true});
  return orderedCollections(root,out);
 }
 module.exports={build,orderedCollections};
