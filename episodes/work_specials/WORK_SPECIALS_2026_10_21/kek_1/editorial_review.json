@@ -1,0 +1,47 @@
+{
+  "approved": true,
+  "claims": [
+    {
+      "claim": "FATF ger riskstöd om kryptoflöden och tjänsteleverantörer, inte skuldbevis för enskild person.",
+      "status": "verified",
+      "source_ids": [
+        "fatf_crypto"
+      ]
+    },
+    {
+      "claim": "MiCA reglerar bland annat auktorisation för kryptotillgångstjänster.",
+      "status": "verified",
+      "source_ids": [
+        "fi_crypto"
+      ]
+    },
+    {
+      "claim": "TFR började tillämpas 30 december 2024; regelverkets räckvidd får inte likställas med full identifiering av alla plånböcker.",
+      "status": "verified",
+      "source_ids": [
+        "fi_tfr"
+      ]
+    },
+    {
+      "claim": "Penningtvätt kräver rekvisitprövning, inte enbart användning av krypto.",
+      "status": "verified",
+      "source_ids": [
+        "pml_law"
+      ]
+    },
+    {
+      "claim": "Objektivitet gäller även alternativa användare och legitima förklaringar.",
+      "status": "verified",
+      "source_ids": [
+        "rb"
+      ]
+    }
+  ],
+  "analysis_and_examples": "Fiktiva flöden, belopp och metodmodeller är märkta som konstruerade. Inga råd om kringgående, brottsutförande eller undandragande från upptäckt.",
+  "limitations": "Öppna rättskällor kontrollerade 20 oktober. Gällande lagrum skiljs från vägledning, typologier och enskilt tingsrättspressmeddelande. Ingen individuell rättslig rådgivning. Ingen generell slutsats om retroaktiv tillämpning.",
+  "review_notes": "Kontrollerat lagrum och rättskälletyp, skillnad riskindikator/bevis, värde/omsättning, ägande/disposition, legitim användning/missbruk samt tillfälligt säkrat/slutligt förverkat/verkställt.",
+  "reviewer": "ChatGPT Work, editorial self-review",
+  "independent_human_review": false,
+  "package_sha256": "bdaaaa9ef95a32a9261ef4484d24a2e4a4e435dbf8a90b828776a66c920ce470",
+  "reviewed_at": "2026-10-21T04:46:20.830397+00:00"
+}

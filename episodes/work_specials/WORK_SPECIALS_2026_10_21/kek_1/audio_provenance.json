@@ -1,0 +1,16 @@
+{
+  "manuscript_sha256": "e9b3640d4e2865b7e2e0088b13491ff4afc06d23a8d65b0fc0c634c18b101cde",
+  "audio_sha256": "9f461c4f5423b6934f9560606727e7a049a252564f224594c140565be681c4de",
+  "full_decode_passed": true,
+  "voice": "sv-SE-SofieNeural",
+  "rate": "+0%",
+  "pipeline": "src/podcast.py",
+  "recovery_evidence": {
+    "git_blob_sha": "7836def5ef2ff29c49dcfd0bc579d7fcb0989560",
+    "original_audio_verified_result_at": "2026-10-21T10:03:41.327394+00:00",
+    "recovery_artifact_id": 12342303530,
+    "recovery_run_id": 39592532531,
+    "binding_basis": "Immutable final blob uploaded after original manuscript-bound audio validation; original manuscript and review hashes restored unchanged",
+    "original_segment_provenance_lost_in_workspace_maintenance": true
+  }
+}

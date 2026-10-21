@@ -1,0 +1,47 @@
+{
+  "approved": true,
+  "claims": [
+    {
+      "claim": "Statistikens enheter och lagföringsbeslut skiljer sig från anmälningar och hela ärenden.",
+      "status": "verified",
+      "source_ids": [
+        "bra_def"
+      ]
+    },
+    {
+      "claim": "Rättskedjans led behöver skiljas åt vid uppföljning.",
+      "status": "verified",
+      "source_ids": [
+        "bra_chain"
+      ]
+    },
+    {
+      "claim": "RB 23:4 reglerar objektivitet i förundersökning, inte alla utvärderingsprojekt.",
+      "status": "verified",
+      "source_ids": [
+        "rb"
+      ]
+    },
+    {
+      "claim": "HD-avgöranden ger granskningsbart originalunderlag för pedagogiska kodövningar.",
+      "status": "verified",
+      "source_ids": [
+        "hd_bus"
+      ]
+    },
+    {
+      "claim": "Ett korrekt friande utfall följer när aktuellt skuldpåstående inte uppfyller beviskravet.",
+      "status": "verified",
+      "source_ids": [
+        "hd_arsta"
+      ]
+    }
+  ],
+  "analysis_and_examples": "Kodschema, urval, pilot, bevismatris och organisatorisk modell är egna metodrekommendationer. Samtliga övningsantal och fall är konstruerade. Ingen genomförd studie eller empirisk effekt påstås.",
+  "limitations": "Gällande rätt skiljs från metodrekommendation. Konsoliderad lagtext innehåller även framtida lydelser; endast berörda gällande paragrafer används. HD:s originalavgöranden är kontrollerade. Dataskyddets tillämplighet kräver projektspecifik prövning.",
+  "review_notes": "Kontrollerat rättskälletyp, lagrum, åtals- och analysenheter, skillnad domskäl/egen tolkning, urvalsbias, beroenden, exkulpatoriskt underlag och förbud mot att dra kausal slutsats av enbart utfallsandel.",
+  "reviewer": "ChatGPT Work, editorial self-review",
+  "independent_human_review": false,
+  "package_sha256": "06b629442797e7e269d7926f871983a0dd915b53b2df3eaaeb9107ca6a6eedc2",
+  "reviewed_at": "2026-10-20T22:02:57.677454+00:00"
+}

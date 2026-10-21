@@ -1,0 +1,40 @@
+{
+  "approved": true,
+  "claims": [
+    {
+      "claim": "FATF 2013 beskriver avräkning och icke-bankbaserade uppgörelser samt legitima, hybrida och brottsliga system.",
+      "status": "verified",
+      "source_ids": [
+        "fatf_hawala"
+      ]
+    },
+    {
+      "claim": "Aktuell FATF-publikation 3 september 2026 skiljer legitima behov från missbruk.",
+      "status": "verified",
+      "source_ids": [
+        "fatf_hawala_2026"
+      ]
+    },
+    {
+      "claim": "Olika svenska ansvarsformer måste prövas var för sig.",
+      "status": "verified",
+      "source_ids": [
+        "pml_law"
+      ]
+    },
+    {
+      "claim": "Utredningsobjektivitet gäller alternativa legitima förklaringar.",
+      "status": "verified",
+      "source_ids": [
+        "rb"
+      ]
+    }
+  ],
+  "analysis_and_examples": "Fiktiva flöden, belopp och metodmodeller är märkta som konstruerade. Inga råd om kringgående, brottsutförande eller undandragande från upptäckt.",
+  "limitations": "Öppna rättskällor kontrollerade 20 oktober. Gällande lagrum skiljs från vägledning, typologier och enskilt tingsrättspressmeddelande. Ingen individuell rättslig rådgivning. Ingen generell slutsats om retroaktiv tillämpning.",
+  "review_notes": "Kontrollerat lagrum och rättskälletyp, skillnad riskindikator/bevis, värde/omsättning, ägande/disposition, legitim användning/missbruk samt tillfälligt säkrat/slutligt förverkat/verkställt.",
+  "reviewer": "ChatGPT Work, editorial self-review",
+  "independent_human_review": false,
+  "package_sha256": "307e2cc9edeb8cf7f8da5f127bcc10f92a6637d4af5bee4f855dae2abaaeae8d",
+  "reviewed_at": "2026-10-21T04:46:20.835954+00:00"
+}
