@@ -316,9 +316,8 @@ if (typeof document !== 'undefined') (async () => {
       if(page==='kanaler') {
         document.title='Kanaler | Morgonpodden';
         const group=['monitoring','knowledge'].includes(p.get('group'))?p.get('group'):'';
-        main.innerHTML='<div class="page-heading"><h1>Kanaler</h1><p>Välj perspektiv. Lyssna och förstå mer.</p></div><label class="search-field">'+icon('search')+'<input id="channel-query" type="search" placeholder="Sök bland kanaler" aria-label="Sök bland kanaler" value="'+esc(p.get('q')||'')+'"></label><nav class="chips" aria-label="Kanaltyp" id="categories">'+[['','Alla'],['monitoring','Bevakningskanaler'],['knowledge','Kunskapskanaler']].map(([value,label])=>'<a class="chip '+(group===value?'selected':'')+'" '+(group===value?'aria-current="page"':'')+' href="'+url('kanaler',{group:value,q:p.get('q')||''})+'">'+label+'</a>').join('')+'</nav><div class="channel-groups directory-groups"></div>';
-        const draw=()=>{const q=$('#channel-query').value.toLocaleLowerCase('sv');const rows=manifest.channels.filter(c=>(!group||c.channel_type===group)&&(channel(c.id)+' '+(c.description||'')).toLocaleLowerCase('sv').includes(q));$('.directory-groups').innerHTML=renderGroups(rows,false,group);};
-        $('#channel-query').oninput=()=>{const query=$('#channel-query').value;history.replaceState({},'',url('kanaler',{group,q:query}));$('#categories').querySelectorAll('a').forEach(a=>{const u=new URL(a.href);if(query)u.searchParams.set('q',query);else u.searchParams.delete('q');a.href=u.pathname+u.search;});draw();};draw();return;
+        main.innerHTML='<div class="page-heading"><h1>Kanaler</h1><p>Välj perspektiv. Lyssna och förstå mer.</p></div><nav class="chips" aria-label="Kanaltyp" id="categories">'+[['','Alla'],['monitoring','Bevakningskanaler'],['knowledge','Kunskapskanaler']].map(([value,label])=>'<a class="chip '+(group===value?'selected':'')+'" '+(group===value?'aria-current="page"':'')+' href="'+url('kanaler',{group:value})+'">'+label+'</a>').join('')+'</nav><div class="channel-groups directory-groups"></div>';
+        $('.directory-groups').innerHTML=renderGroups(manifest.channels.filter(c=>!group||c.channel_type===group),false,group);return;
       }
       if(page==='kanal') {
         const id=p.get('id')||'',c=manifest.channels.find(c=>c.id===id);
@@ -363,7 +362,7 @@ if (typeof document !== 'undefined') (async () => {
         return;
       }
       const title=kind==='articles'?'Artiklar':'Lyssna';document.title=title+' | Morgonpod';
-      main.innerHTML='<div class="page-heading"><small>'+(kind==='articles'?'NYHETER OCH SAMMANHANG':'DITT PODDBIBLIOTEK')+'</small><h1>'+title+'</h1><p>'+(kind==='articles'?'Självständiga nyhetstexter med källor och tidigare rapportering.':'Välj kanal eller hitta ditt nästa poddavsnitt.')+'</p></div>'+filters(kind,p)+'<p><a href="utforska.html">Sök i hela arkivet ↗</a></p><div id="listing"></div><section id="ranking"></section>';
+      main.innerHTML='<div class="page-heading">'+(kind==='articles'?'':'<small>DITT PODDBIBLIOTEK</small>')+'<h1>'+title+'</h1><p>'+(kind==='articles'?'Självständiga nyhetstexter med källor och tidigare rapportering.':'Välj kanal eller hitta ditt nästa poddavsnitt.')+'</p></div>'+filters(kind,p)+'<p><a href="utforska.html">Sök i hela arkivet ↗</a></p><div id="listing"></div><section id="ranking"></section>';
       $('#filters').onsubmit=ev=>{ev.preventDefault();navigate(url(page,{channel:new FormData(ev.target).get('channel')}));};
       await collection(kind+(p.get('channel')?'/channel/'+p.get('channel'):''),$('#listing'),token);
       if(kind==='episodes'){try{const stats=await json('stats.json');if(token!==routeToken)return;const rows=Core.ranking(stats.episodes);if(rows.length)$('#ranking').innerHTML='<h2>Mest lyssnade på webben</h2><ol>'+rows.map(x=>'<li><a href="'+url('avsnitt',{id:x.id})+'">'+esc(x.title||x.id)+'</a> · '+x.count+'</li>').join('')+'</ol>';}catch{}}
