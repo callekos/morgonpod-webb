@@ -1,0 +1,95 @@
+{
+  "style": "02-editorial",
+  "name": "Redaktionell illustration",
+  "generator": "built-in image_gen",
+  "originals": [
+    {
+      "channel": "ibat",
+      "generated_png_sha256": "cf08addc3a59a2f56158a8539e841def62768663c846b8b5e3492ca5da065d38",
+      "master": "assets/design-lab/02-editorial/ibat-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "prompt": "Normalized production brief, reconstructed: Series Redaktionell illustration. Sophisticated flat editorial illustration, crisp large shapes, subtle paper grain, ivory, forest green, vermilion, ink black and warm yellow.. Subject: Information supply for crime prevention and investigation: an analyst bringing source records, a place map and evidence photographs together into one coherent operational picture. Connected source panels and a decisive human hand. No visible private data.. One individual 3:2 channel cover, safe central square crop, no labels, logos, robot or globe.",
+      "prompt_record": "Normalized reconstruction; exact initial tool wording was not retained"
+    },
+    {
+      "channel": "vald",
+      "generated_png_sha256": "1b1e891c916b892131df073a6408b3e48c3cc297c438f73bbfe7f83cfc00fe4e",
+      "master": "assets/design-lab/02-editorial/vald-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "prompt": "Normalized production brief, reconstructed: Series Redaktionell illustration. Sophisticated flat editorial illustration, crisp large shapes, subtle paper grain, ivory, forest green, vermilion, ink black and warm yellow.. Subject: Serious organized violence, violence as a service and digital recruitment: a contemporary Swedish street and an anonymous adult seen beside a large phone with abstract message shapes, shadowy recruiting network in the distance. No injuries, guns or sensational crime reconstruction.. One individual 3:2 channel cover, safe central square crop, no labels, logos, robot or globe.",
+      "prompt_record": "Normalized reconstruction; exact initial tool wording was not retained"
+    },
+    {
+      "channel": "sjoomradet",
+      "generated_png_sha256": "0ca7ca2acd4ed6fd36a5e39622b2bbd9b503f0afc75886f4e2e190994068a9fd",
+      "master": "assets/design-lab/02-editorial/sjoomradet-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "prompt": "Normalized production brief, reconstructed: Series Redaktionell illustration. Sophisticated flat editorial illustration, crisp large shapes, subtle paper grain, ivory, forest green, vermilion, ink black and warm yellow.. Subject: Maritime security in the Baltic: a merchant ship, Nordic rocky shore, harbor infrastructure and a clearly identifiable undersea communications cable. Strong ship silhouette.. One individual 3:2 channel cover, safe central square crop, no labels, logos, robot or globe.",
+      "prompt_record": "Normalized reconstruction; exact initial tool wording was not retained"
+    },
+    {
+      "channel": "kek",
+      "generated_png_sha256": "e2fde7adb3169d28a1968081ec04d7c581095a817fa1f2dc12eff7b56748f94f",
+      "master": "assets/design-lab/02-editorial/kek-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "prompt": "Normalized production brief, reconstructed: Series Redaktionell illustration. Sophisticated flat editorial illustration, crisp large shapes, subtle paper grain, ivory, forest green, vermilion, ink black and warm yellow.. Subject: Criminal finance: an investigator tracing asset transfers between company buildings, accounts and property through an elegant winding financial trail. Evidence documents in foreground. No generic money pile.. One individual 3:2 channel cover, safe central square crop, no labels, logos, robot or globe.",
+      "prompt_record": "Normalized reconstruction; exact initial tool wording was not retained"
+    },
+    {
+      "channel": "lagstiftning",
+      "generated_png_sha256": "96d984f87dd7646d8916826aacf5f01fc9c14aacc09efb9efd9aa162729e50f6",
+      "master": "assets/design-lab/02-editorial/lagstiftning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "prompt": "Normalized production brief, reconstructed: Series Redaktionell illustration. Sophisticated flat editorial illustration, crisp large shapes, subtle paper grain, ivory, forest green, vermilion, ink black and warm yellow.. Subject: Swedish criminal law: contemporary Swedish courtroom with pale oak benches and a prominent legal volume and case folders. Nordic legal process, no American gavel.. One individual 3:2 channel cover, safe central square crop, no labels, logos, robot or globe.",
+      "prompt_record": "Normalized reconstruction; exact initial tool wording was not retained"
+    },
+    {
+      "channel": "ai_brottsbekampning",
+      "generated_png_sha256": "20d8d800ba4d59039c5881a17ba5cc81fb94aab7f771c462638945d1729c9d98",
+      "master": "assets/design-lab/02-editorial/ai_brottsbekampning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "prompt": "Normalized production brief, reconstructed: Series Redaktionell illustration. Sophisticated flat editorial illustration, crisp large shapes, subtle paper grain, ivory, forest green, vermilion, ink black and warm yellow.. Subject: Artificial intelligence in criminal investigation: human analyst checking machine assisted pattern recognition and image comparisons against source photographs. Strong human oversight and evidence verification. No robot face, no globe.. One individual 3:2 channel cover, safe central square crop, no labels, logos, robot or globe.",
+      "prompt_record": "Normalized reconstruction; exact initial tool wording was not retained"
+    },
+    {
+      "channel": "it_juridik",
+      "generated_png_sha256": "ad7b3e8068f69b40494d6be159087a984f62839e3859736cb5dae3317e5f57f8",
+      "master": "assets/design-lab/02-editorial/it_juridik-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "prompt": "Normalized production brief, reconstructed: Series Redaktionell illustration. Sophisticated flat editorial illustration, crisp large shapes, subtle paper grain, ivory, forest green, vermilion, ink black and warm yellow.. Subject: Privacy and information law: secure personal records archive, a person presenting a permission card at an access gate, an accountable audit trail and segregated record drawers. Clearly about access rights and personal data.. One individual 3:2 channel cover, safe central square crop, no labels, logos, robot or globe.",
+      "prompt_record": "Normalized reconstruction; exact initial tool wording was not retained"
+    },
+    {
+      "channel": "verksamhetsutveckling",
+      "generated_png_sha256": "f1d944fd6341600c622ae32ba88e00c874bc60c5ad3ed8df4fa96e2171428ac1",
+      "master": "assets/design-lab/02-editorial/verksamhetsutveckling-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "prompt": "Normalized production brief, reconstructed: Series Redaktionell illustration. Sophisticated flat editorial illustration, crisp large shapes, subtle paper grain, ivory, forest green, vermilion, ink black and warm yellow.. Subject: Organizational development and implementation: a small team moving process cards from planning wall to a working service prototype. People, method, technology and practical change. No isolated gear icon.. One individual 3:2 channel cover, safe central square crop, no labels, logos, robot or globe.",
+      "prompt_record": "Normalized reconstruction; exact initial tool wording was not retained"
+    }
+  ]
+}

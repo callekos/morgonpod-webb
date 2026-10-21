@@ -1,0 +1,87 @@
+{
+  "style": "07-oil",
+  "name": "Modern oljemålning",
+  "generator": "built-in image_gen",
+  "originals": [
+    {
+      "channel": "ibat",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 07 Modern oljemålning. Style/medium: Contemporary oil painting on linen, expressive broad impasto brushstrokes, deep aubergine shadows, amber and olive, tactile paint, confident figurative forms, gallery quality editorial scene.. Subject: Information supply for crime prevention and investigation: an analyst bringing source records, a place map and evidence photographs together into one coherent operational picture. Connected source panels and a decisive human hand. No visible private data.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "44f7c04355b250646e39f0c3644947ed770ed44521d72de2ad46e82d5a130f3e",
+      "master": "assets/design-lab/07-oil/ibat-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "vald",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 07 Modern oljemålning. Style/medium: Contemporary oil painting on linen, expressive broad impasto brushstrokes, deep aubergine shadows, amber and olive, tactile paint, confident figurative forms, gallery quality editorial scene.. Subject: Serious organized violence, violence as a service and digital recruitment: a contemporary Swedish street and an anonymous adult seen beside a large phone with abstract message shapes, shadowy recruiting network in the distance. No injuries, guns or sensational crime reconstruction.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "f0194e93c326950cc3f6b5956e2c04c5b1c7e8c3d7a188d0bee7a3521267118a",
+      "master": "assets/design-lab/07-oil/vald-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "sjoomradet",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 07 Modern oljemålning. Style/medium: Contemporary oil painting on linen, expressive broad impasto brushstrokes, deep aubergine shadows, amber and olive, tactile paint, confident figurative forms, gallery quality editorial scene.. Subject: Maritime security in the Baltic: a merchant ship, Nordic rocky shore, harbor infrastructure and a clearly identifiable undersea communications cable. Strong ship silhouette.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "3cc905987621a877960f79575976b3f5305594281c6a81c65f73da5183d150f1",
+      "master": "assets/design-lab/07-oil/sjoomradet-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "kek",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 07 Modern oljemålning. Style/medium: Contemporary oil painting on linen, expressive broad impasto brushstrokes, deep aubergine shadows, amber and olive, tactile paint, confident figurative forms, gallery quality editorial scene.. Subject: Criminal finance: an investigator tracing asset transfers between company buildings, accounts and property through an elegant winding financial trail. Evidence documents in foreground. No generic money pile.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "c688a8da71c7099182c26400a4f640af616b1b2e2d0d03597e04fb8215e25f58",
+      "master": "assets/design-lab/07-oil/kek-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "lagstiftning",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 07 Modern oljemålning. Style/medium: Contemporary oil painting on linen, expressive broad impasto brushstrokes, deep aubergine shadows, amber and olive, tactile paint, confident figurative forms, gallery quality editorial scene.. Subject: Swedish criminal law: contemporary Swedish courtroom with pale oak benches and a prominent legal volume and case folders. Nordic legal process, no American gavel.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "ab93b554aef6819d16121529155a1ed8a45fa4d43cdc590edf5a26a38e61e595",
+      "master": "assets/design-lab/07-oil/lagstiftning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "ai_brottsbekampning",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 07 Modern oljemålning. Style/medium: Contemporary oil painting on linen, expressive broad impasto brushstrokes, deep aubergine shadows, amber and olive, tactile paint, confident figurative forms, gallery quality editorial scene.. Subject: Artificial intelligence in criminal investigation: human analyst checking machine assisted pattern recognition and image comparisons against source photographs. Strong human oversight and evidence verification. No robot face, no globe.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "e90379c66b1ac042eac0d68b54dd5f73b33d8da1b48f749dc4c9a0fe69898f37",
+      "master": "assets/design-lab/07-oil/ai_brottsbekampning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "it_juridik",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 07 Modern oljemålning. Style/medium: Contemporary oil painting on linen, expressive broad impasto brushstrokes, deep aubergine shadows, amber and olive, tactile paint, confident figurative forms, gallery quality editorial scene.. Subject: Privacy and information law: secure personal records archive, a person presenting a permission card at an access gate, an accountable audit trail and segregated record drawers. Clearly about access rights and personal data.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "0f3497d06605d543fa7614cd97367a519a5ac0584f341cccc0f4605646c27ae9",
+      "master": "assets/design-lab/07-oil/it_juridik-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "verksamhetsutveckling",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 07 Modern oljemålning. Style/medium: Contemporary oil painting on linen, expressive broad impasto brushstrokes, deep aubergine shadows, amber and olive, tactile paint, confident figurative forms, gallery quality editorial scene.. Subject: Organizational development and implementation: a small team moving process cards from planning wall to a working service prototype. People, method, technology and practical change. No isolated gear icon.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "5d38f717c99aa5d0a1c1a48c62fba16f74dabe812829e55c1e7f3b6d5a869779",
+      "master": "assets/design-lab/07-oil/verksamhetsutveckling-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

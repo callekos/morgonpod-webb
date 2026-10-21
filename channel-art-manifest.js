@@ -59,6 +59,63 @@
       }
     },
     {
+      "id": "01-documentary",
+      "number": 1,
+      "name": "Nordiskt dokumentärfoto",
+      "status": "ready",
+      "preview": "assets/design-lab/01-documentary/preview.webp",
+      "channels": {
+        "ibat": {
+          "wide": "assets/design-lab/01-documentary/ibat.webp",
+          "small": "assets/design-lab/01-documentary/ibat-small.webp",
+          "square": "assets/design-lab/01-documentary/ibat-square.webp",
+          "focal": "55% 50%"
+        },
+        "vald": {
+          "wide": "assets/design-lab/01-documentary/vald.webp",
+          "small": "assets/design-lab/01-documentary/vald-small.webp",
+          "square": "assets/design-lab/01-documentary/vald-square.webp",
+          "focal": "43% 50%"
+        },
+        "sjoomradet": {
+          "wide": "assets/design-lab/01-documentary/sjoomradet.webp",
+          "small": "assets/design-lab/01-documentary/sjoomradet-small.webp",
+          "square": "assets/design-lab/01-documentary/sjoomradet-square.webp",
+          "focal": "50% 48%"
+        },
+        "kek": {
+          "wide": "assets/design-lab/01-documentary/kek.webp",
+          "small": "assets/design-lab/01-documentary/kek-small.webp",
+          "square": "assets/design-lab/01-documentary/kek-square.webp",
+          "focal": "53% 52%"
+        },
+        "lagstiftning": {
+          "wide": "assets/design-lab/01-documentary/lagstiftning.webp",
+          "small": "assets/design-lab/01-documentary/lagstiftning-small.webp",
+          "square": "assets/design-lab/01-documentary/lagstiftning-square.webp",
+          "focal": "65% 60%"
+        },
+        "ai_brottsbekampning": {
+          "wide": "assets/design-lab/01-documentary/ai_brottsbekampning.webp",
+          "small": "assets/design-lab/01-documentary/ai_brottsbekampning-small.webp",
+          "square": "assets/design-lab/01-documentary/ai_brottsbekampning-square.webp",
+          "focal": "55% 50%"
+        },
+        "it_juridik": {
+          "wide": "assets/design-lab/01-documentary/it_juridik.webp",
+          "small": "assets/design-lab/01-documentary/it_juridik-small.webp",
+          "square": "assets/design-lab/01-documentary/it_juridik-square.webp",
+          "focal": "50% 50%"
+        },
+        "verksamhetsutveckling": {
+          "wide": "assets/design-lab/01-documentary/verksamhetsutveckling.webp",
+          "small": "assets/design-lab/01-documentary/verksamhetsutveckling-small.webp",
+          "square": "assets/design-lab/01-documentary/verksamhetsutveckling-square.webp",
+          "focal": "50% 50%"
+        }
+      }
+    },
+    {
       "id": "02-editorial",
       "number": 2,
       "name": "Redaktionell illustration",
@@ -287,6 +344,177 @@
       }
     },
     {
+      "id": "06-film",
+      "number": 6,
+      "name": "Analog filmfotografi",
+      "status": "ready",
+      "preview": "assets/design-lab/06-film/preview.webp",
+      "channels": {
+        "ibat": {
+          "wide": "assets/design-lab/06-film/ibat.webp",
+          "small": "assets/design-lab/06-film/ibat-small.webp",
+          "square": "assets/design-lab/06-film/ibat-square.webp",
+          "focal": "55% 50%"
+        },
+        "vald": {
+          "wide": "assets/design-lab/06-film/vald.webp",
+          "small": "assets/design-lab/06-film/vald-small.webp",
+          "square": "assets/design-lab/06-film/vald-square.webp",
+          "focal": "43% 50%"
+        },
+        "sjoomradet": {
+          "wide": "assets/design-lab/06-film/sjoomradet.webp",
+          "small": "assets/design-lab/06-film/sjoomradet-small.webp",
+          "square": "assets/design-lab/06-film/sjoomradet-square.webp",
+          "focal": "50% 48%"
+        },
+        "kek": {
+          "wide": "assets/design-lab/06-film/kek.webp",
+          "small": "assets/design-lab/06-film/kek-small.webp",
+          "square": "assets/design-lab/06-film/kek-square.webp",
+          "focal": "53% 52%"
+        },
+        "lagstiftning": {
+          "wide": "assets/design-lab/06-film/lagstiftning.webp",
+          "small": "assets/design-lab/06-film/lagstiftning-small.webp",
+          "square": "assets/design-lab/06-film/lagstiftning-square.webp",
+          "focal": "65% 60%"
+        },
+        "ai_brottsbekampning": {
+          "wide": "assets/design-lab/06-film/ai_brottsbekampning.webp",
+          "small": "assets/design-lab/06-film/ai_brottsbekampning-small.webp",
+          "square": "assets/design-lab/06-film/ai_brottsbekampning-square.webp",
+          "focal": "55% 50%"
+        },
+        "it_juridik": {
+          "wide": "assets/design-lab/06-film/it_juridik.webp",
+          "small": "assets/design-lab/06-film/it_juridik-small.webp",
+          "square": "assets/design-lab/06-film/it_juridik-square.webp",
+          "focal": "50% 50%"
+        },
+        "verksamhetsutveckling": {
+          "wide": "assets/design-lab/06-film/verksamhetsutveckling.webp",
+          "small": "assets/design-lab/06-film/verksamhetsutveckling-small.webp",
+          "square": "assets/design-lab/06-film/verksamhetsutveckling-square.webp",
+          "focal": "50% 50%"
+        }
+      }
+    },
+    {
+      "id": "07-oil",
+      "number": 7,
+      "name": "Modern oljemålning",
+      "status": "ready",
+      "preview": "assets/design-lab/07-oil/preview.webp",
+      "channels": {
+        "ibat": {
+          "wide": "assets/design-lab/07-oil/ibat.webp",
+          "small": "assets/design-lab/07-oil/ibat-small.webp",
+          "square": "assets/design-lab/07-oil/ibat-square.webp",
+          "focal": "55% 50%"
+        },
+        "vald": {
+          "wide": "assets/design-lab/07-oil/vald.webp",
+          "small": "assets/design-lab/07-oil/vald-small.webp",
+          "square": "assets/design-lab/07-oil/vald-square.webp",
+          "focal": "43% 50%"
+        },
+        "sjoomradet": {
+          "wide": "assets/design-lab/07-oil/sjoomradet.webp",
+          "small": "assets/design-lab/07-oil/sjoomradet-small.webp",
+          "square": "assets/design-lab/07-oil/sjoomradet-square.webp",
+          "focal": "50% 48%"
+        },
+        "kek": {
+          "wide": "assets/design-lab/07-oil/kek.webp",
+          "small": "assets/design-lab/07-oil/kek-small.webp",
+          "square": "assets/design-lab/07-oil/kek-square.webp",
+          "focal": "53% 52%"
+        },
+        "lagstiftning": {
+          "wide": "assets/design-lab/07-oil/lagstiftning.webp",
+          "small": "assets/design-lab/07-oil/lagstiftning-small.webp",
+          "square": "assets/design-lab/07-oil/lagstiftning-square.webp",
+          "focal": "65% 60%"
+        },
+        "ai_brottsbekampning": {
+          "wide": "assets/design-lab/07-oil/ai_brottsbekampning.webp",
+          "small": "assets/design-lab/07-oil/ai_brottsbekampning-small.webp",
+          "square": "assets/design-lab/07-oil/ai_brottsbekampning-square.webp",
+          "focal": "55% 50%"
+        },
+        "it_juridik": {
+          "wide": "assets/design-lab/07-oil/it_juridik.webp",
+          "small": "assets/design-lab/07-oil/it_juridik-small.webp",
+          "square": "assets/design-lab/07-oil/it_juridik-square.webp",
+          "focal": "50% 50%"
+        },
+        "verksamhetsutveckling": {
+          "wide": "assets/design-lab/07-oil/verksamhetsutveckling.webp",
+          "small": "assets/design-lab/07-oil/verksamhetsutveckling-small.webp",
+          "square": "assets/design-lab/07-oil/verksamhetsutveckling-square.webp",
+          "focal": "50% 50%"
+        }
+      }
+    },
+    {
+      "id": "08-geometric",
+      "number": 8,
+      "name": "Geometrisk affischkonst",
+      "status": "ready",
+      "preview": "assets/design-lab/08-geometric/preview.webp",
+      "channels": {
+        "ibat": {
+          "wide": "assets/design-lab/08-geometric/ibat.webp",
+          "small": "assets/design-lab/08-geometric/ibat-small.webp",
+          "square": "assets/design-lab/08-geometric/ibat-square.webp",
+          "focal": "55% 50%"
+        },
+        "vald": {
+          "wide": "assets/design-lab/08-geometric/vald.webp",
+          "small": "assets/design-lab/08-geometric/vald-small.webp",
+          "square": "assets/design-lab/08-geometric/vald-square.webp",
+          "focal": "43% 50%"
+        },
+        "sjoomradet": {
+          "wide": "assets/design-lab/08-geometric/sjoomradet.webp",
+          "small": "assets/design-lab/08-geometric/sjoomradet-small.webp",
+          "square": "assets/design-lab/08-geometric/sjoomradet-square.webp",
+          "focal": "50% 48%"
+        },
+        "kek": {
+          "wide": "assets/design-lab/08-geometric/kek.webp",
+          "small": "assets/design-lab/08-geometric/kek-small.webp",
+          "square": "assets/design-lab/08-geometric/kek-square.webp",
+          "focal": "53% 52%"
+        },
+        "lagstiftning": {
+          "wide": "assets/design-lab/08-geometric/lagstiftning.webp",
+          "small": "assets/design-lab/08-geometric/lagstiftning-small.webp",
+          "square": "assets/design-lab/08-geometric/lagstiftning-square.webp",
+          "focal": "65% 60%"
+        },
+        "ai_brottsbekampning": {
+          "wide": "assets/design-lab/08-geometric/ai_brottsbekampning.webp",
+          "small": "assets/design-lab/08-geometric/ai_brottsbekampning-small.webp",
+          "square": "assets/design-lab/08-geometric/ai_brottsbekampning-square.webp",
+          "focal": "55% 50%"
+        },
+        "it_juridik": {
+          "wide": "assets/design-lab/08-geometric/it_juridik.webp",
+          "small": "assets/design-lab/08-geometric/it_juridik-small.webp",
+          "square": "assets/design-lab/08-geometric/it_juridik-square.webp",
+          "focal": "50% 50%"
+        },
+        "verksamhetsutveckling": {
+          "wide": "assets/design-lab/08-geometric/verksamhetsutveckling.webp",
+          "small": "assets/design-lab/08-geometric/verksamhetsutveckling-small.webp",
+          "square": "assets/design-lab/08-geometric/verksamhetsutveckling-square.webp",
+          "focal": "50% 50%"
+        }
+      }
+    },
+    {
       "id": "10-diorama",
       "number": 10,
       "name": "Premium 3D-diorama",
@@ -459,22 +687,6 @@
     }
   ],
   "planned": [
-    {
-      "number": 1,
-      "name": "Nordiskt dokumentärfoto"
-    },
-    {
-      "number": 6,
-      "name": "Analog filmfotografi"
-    },
-    {
-      "number": 7,
-      "name": "Modern oljemålning"
-    },
-    {
-      "number": 8,
-      "name": "Geometrisk affischkonst"
-    },
     {
       "number": 9,
       "name": "Papper och collage"
