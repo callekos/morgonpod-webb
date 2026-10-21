@@ -3,7 +3,7 @@
   'use strict';
   const copy=x=>x==null?null:JSON.parse(JSON.stringify(x));
   const valid=x=>x&&typeof x.id==='string'&&x.id.length>0;
-  const metadata=x=>Object.fromEntries(['id','title','channel','date','published_at','duration_seconds','audio','is_intro','kind','episode_order'].filter(k=>x[k]!==undefined).map(k=>[k,x[k]]));
+  const metadata=x=>Object.fromEntries(['id','title','channel','date','published_at','duration_seconds','audio','is_intro','kind','content_type','episode_order'].filter(k=>x[k]!==undefined).map(k=>[k,x[k]]));
   const unique=rows=>[...new Map((rows||[]).filter(x=>valid(x)&&Queue.accept(x)).map(x=>[x.id,metadata(x)])).values()];
   const latest=(a,b)=>(Date.parse(b.published_at||b.date)||0)-(Date.parse(a.published_at||a.date)||0)||a.id.localeCompare(b.id);
   // Serializable cursors let the queue continue after navigation and reload.
@@ -15,7 +15,7 @@
       const data=await fetchPage(next.paths[next.page]);
       if(!Array.isArray(data.items))throw Error('Invalid page');
       next.page++;
-      return {items:unique(data.items).sort(compare),source:next.page<next.paths.length?next:null};
+      return {items:unique(data.items).filter(e=>Queue.matches(e,next.filter)).sort(compare),source:next.page<next.paths.length?next:null};
     }
     if(next.kind!=='merge')throw Error('Invalid source');
     const items=[];
@@ -24,7 +24,7 @@
         while(!s.buffer.length&&s.page<s.paths.length){
           const data=await fetchPage(s.paths[s.page]);
           if(!Array.isArray(data.items))throw Error('Invalid page');
-          s.buffer=unique(data.items).sort(compare);s.page++;
+          s.buffer=unique(data.items).filter(e=>Queue.matches(e,next.filter)).sort(compare);s.page++;
         }
       }));
       const heads=next.streams.filter(s=>s.buffer.length).sort((a,b)=>compare(a.buffer[0],b.buffer[0]));
@@ -74,7 +74,7 @@
       this.source=copy(value.source);this.excluded=Array.isArray(value.excluded)?value.excluded.filter(x=>typeof x==='string').slice(0,10000):[];this.label=String(value.label||'Sparad kö').slice(0,200);return true;
     }
   }
-  Queue.accept=()=>true;Queue.latest=latest;
+  Queue.accept=()=>true;Queue.matches=()=>true;Queue.latest=latest;
   Queue.history=(a,b)=>Number(b.is_intro===true||b.kind==='introduction'||/:introduction$/.test(b.id))-Number(a.is_intro===true||a.kind==='introduction'||/:introduction$/.test(a.id))||((Number.isFinite(a.episode_order)&&Number.isFinite(b.episode_order))?a.episode_order-b.episode_order:(Date.parse(a.date)||0)-(Date.parse(b.date)||0))||-latest(a,b);
   return {Queue,read,latest};
 });
