@@ -1,10 +1,11 @@
 // Read-only checks of the deployed Pages site. No production or Telegram writes.
 const {test,expect}=require('@playwright/test');
+const expectedApp=require('node:fs').readFileSync(require('node:path').join(__dirname,'../../index.html'),'utf8').match(/<script src="(app\.js[^"]*)"/)[1];
 const channelCount=async page=>(await(await page.request.get('catalog/manifest.json')).json()).channels.length;
 test('published six flows, themes, real audio and canonical channel identity',async({page},info)=>{
  const errors=[];page.on('pageerror',error=>errors.push(error.message));
  await page.goto('idag.html');await expect(page.locator('.morning-brief')).toBeVisible();
- await expect(page.locator('script[src*="app.js"]')).toHaveAttribute('src',/v2-queue-ux2/);
+ await expect(page.locator('script[src*="app.js"]')).toHaveAttribute('src',expectedApp);
  await page.getByRole('link',{name:'Kanaler',exact:true}).click();await expect(page.locator('.channel-card')).toHaveCount(await channelCount(page));
  await page.locator('.channel-card').filter({hasText:'IBAT'}).click();await expect(page.getByRole('heading',{name:'IBAT - Informationsförsörjning',exact:true})).toBeVisible();
  await page.locator('#archive-sort').selectOption('oldest');await expect(page.locator('.episode').first()).toContainText('Avsnitt 1 / Uppstart');
