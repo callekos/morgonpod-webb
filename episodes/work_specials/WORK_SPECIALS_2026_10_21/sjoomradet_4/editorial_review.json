@@ -1,0 +1,33 @@
+{
+  "approved": true,
+  "claims": [
+    {
+      "claim": "IEA:s februariunderlag anger cirka 20 miljoner fat per dag under 2025, inte dagens flöde; olja och LNG har olika alternativ.",
+      "status": "verified",
+      "source_ids": [
+        "iea_hormuz"
+      ]
+    },
+    {
+      "claim": "Reuters 7 oktober rapporterar attacker med hänvisning till maritima källor; ingen realtidsstatus fastslås.",
+      "status": "verified",
+      "source_ids": [
+        "reuters_hormuz"
+      ]
+    },
+    {
+      "claim": "Försäkringsförutsättningar påverkar sjöfartens funktion.",
+      "status": "verified",
+      "source_ids": [
+        "foi_shipping"
+      ]
+    }
+  ],
+  "analysis_and_examples": "Egna analysmodeller, konstruerade exempel och scenarier är uttryckligen märkta. Inga empiriska effekttal eller scenarioprobabiliteter påstås.",
+  "limitations": "Öppna källor. Ingen insyn i operativ planering. Händelsestatus daterad. Officiella uttalanden återges som uttalanden; de styrker inte varje bakomliggande sakförhållande.",
+  "review_notes": "Historiska 2025-flöden skiljs från oktober 2026; inga påståenden om realtidsöppning. Reuterskällans osäkerhet anges.",
+  "reviewer": "ChatGPT Work, editorial self-review",
+  "independent_human_review": false,
+  "package_sha256": "2d6265f81523bfa437653f5021761ad8e08df86fdb3e7678a9072098c4563747",
+  "reviewed_at": "2026-10-20T21:55:53.460233+00:00"
+}

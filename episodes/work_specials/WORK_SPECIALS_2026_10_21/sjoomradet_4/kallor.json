@@ -1,0 +1,58 @@
+[
+  {
+    "id": "iea_hormuz",
+    "title": "IEA: Hormuz faktablad, februari 2026, statistik för 2025",
+    "url": "https://www.iea.org/about/oil-security-and-emergency-ission/strait-of-hormuz",
+    "source_type": "official_analysis",
+    "evidence": {
+      "path": "iea_hormuz.txt",
+      "page_sha256": "44116f79edb37b9413a7472075426b9e9bd17eb2d85fb18a6f017897a7669328",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:49:51.544108+00:00",
+      "http_status": 200
+    },
+    "characters": 10894
+  },
+  {
+    "id": "reuters_hormuz",
+    "title": "Reuters 7 oktober 2026: rapporterade attacker mot tankfartyg",
+    "url": "https://www.reuters.com/world/middle-east/attacks-tankers-hormuz-hit-highest-any-week-since-start-iran-war-sources-say-2026-10-07/",
+    "source_type": "journalism",
+    "evidence": {
+      "path": "reuters_hormuz_web_excerpt.txt",
+      "page_sha256": "79a4daf34777e343b654d2dd1f5304b4766f539f3dff03082a59da97959b1719",
+      "evidence_level": "retrieved_page_excerpt",
+      "retrieval_method": "web tool open",
+      "retrieved_at": "2026-10-20T21:55:36.815199+00:00"
+    },
+    "direct_fetch_error": "401 Client Error: Unauthorized for url: https://www.reuters.com/world/middle-east/attacks-tankers-hormuz-hit-highest-any-week-since-start-iran-war-sources-say-2026-10-07/"
+  },
+  {
+    "id": "foi_shipping",
+    "title": "FOI-R--5737--SE: Ett skepp kommer lastat! Eller?",
+    "url": "https://foi.se/rest-api/report/FOI-R--5737--SE",
+    "source_type": "research",
+    "evidence": {
+      "path": "foi_shipping.txt",
+      "page_sha256": "fd75576f7459586eecb40de961b256bee6d68b1a689b82543b4d4316abc457da",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:50:05.921859+00:00",
+      "http_status": 200
+    },
+    "characters": 179494
+  },
+  {
+    "id": "eu_october",
+    "title": "Europeiska rådet 15 och 16 oktober 2026",
+    "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15-16/",
+    "source_type": "official_statement",
+    "evidence": {
+      "path": "eu_october.txt",
+      "page_sha256": "0ec3d86dae6de2cc3dbf3632dd46121713c1f8352351e5fef011cef2a945cdff",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:49:46.928280+00:00",
+      "http_status": 200
+    },
+    "characters": 26350
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "package_id": "WORK_SPECIALS_2026_10_21:lagstiftning_1",
+  "production_identity": "WORK_SPECIALS_2026_10_21",
+  "origin": "work_special",
+  "library_release_id": "WORK_SPECIALS_2026_10_21",
+  "channel": "lagstiftning",
+  "edition_type": "special",
+  "editorial_date": "2026-10-21",
+  "is_intro": false,
+  "episode_order": 3,
+  "published_at": null,
+  "notification_policy": "suppressed",
+  "gemini_text_calls": 0,
+  "work_origin_evidence": {
+    "author": "ChatGPT Work",
+    "newly_authored": true,
+    "prior_episode_relabelled": false
+  },
+  "files": {
+    "manus.txt": "9c2ba99cb8478883158e619140bf286b67ecd420aa05e9fce2bfa7c7cabbaec7",
+    "brief.json": "29fe140e5153d11dabd86dbc5fbd5e5d4ebb92fd3cefe4ca1d1fd73cc01af305",
+    "kallor.json": "973d80b8a12b2974592512813020c308d142d9fe9580f09fec39c4e079d7170f",
+    "editorial_review.json": "22318c10c39d5ba62ab5da113c53ebb3795ec1241aac5439fcbe020d9d09291f"
+  }
+}

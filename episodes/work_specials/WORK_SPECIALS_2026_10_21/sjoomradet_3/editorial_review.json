@@ -1,0 +1,40 @@
+{
+  "approved": true,
+  "claims": [
+    {
+      "claim": "Myndighetens pressmeddelande 13 oktober 2025 beskriver nedlagd förundersökning och olyckshändelse till följd av väder, utrustning och sjömanskap.",
+      "status": "verified",
+      "source_ids": [
+        "sapo_cable"
+      ]
+    },
+    {
+      "claim": "Handlingsplanen behandlar prevention, upptäckt, respons/reparation och avskräckning.",
+      "status": "verified",
+      "source_ids": [
+        "cable_plan"
+      ]
+    },
+    {
+      "claim": "Kommissionens finansieringsinitiativ för nav och reparation är initiativ, inte verifierad full operativ förmåga.",
+      "status": "verified",
+      "source_ids": [
+        "cable_hubs"
+      ]
+    },
+    {
+      "claim": "Positionsuppgifter är underlag, inte i sig bevis på uppsåt.",
+      "status": "verified",
+      "source_ids": [
+        "imo_ais"
+      ]
+    }
+  ],
+  "analysis_and_examples": "Egna analysmodeller, konstruerade exempel och scenarier är uttryckligen märkta. Inga empiriska effekttal eller scenarioprobabiliteter påstås.",
+  "limitations": "Öppna källor. Ingen insyn i operativ planering. Händelsestatus daterad. Officiella uttalanden återges som uttalanden; de styrker inte varje bakomliggande sakförhållande.",
+  "review_notes": "Sakgranskning av namn, datum, distinktion observation/orsak/ansvar samt beslutad kontra fungerande förmåga.",
+  "reviewer": "ChatGPT Work, editorial self-review",
+  "independent_human_review": false,
+  "package_sha256": "e88c2b20a176631bcb5cae78da02e269b491093c6318760dc95cce595b86c05c",
+  "reviewed_at": "2026-10-20T21:55:53.457671+00:00"
+}

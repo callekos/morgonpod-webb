@@ -1,0 +1,33 @@
+{
+  "approved": true,
+  "claims": [
+    {
+      "claim": "RB 35:1 reglerar fri bevisprövning, och 23:4 objektivitet.",
+      "status": "verified",
+      "source_ids": [
+        "rb"
+      ]
+    },
+    {
+      "claim": "B5952-21 ger fällande utfall och nyanserar alternativa praktiskt möjliga förklaringar.",
+      "status": "verified",
+      "source_ids": [
+        "hd_bus"
+      ]
+    },
+    {
+      "claim": "B2354-22 leder till ogillande av aktuellt åtal när tillräcklig individanknytning saknas.",
+      "status": "verified",
+      "source_ids": [
+        "hd_arsta"
+      ]
+    }
+  ],
+  "analysis_and_examples": "Kodschema, urval, pilot, bevismatris och organisatorisk modell är egna metodrekommendationer. Samtliga övningsantal och fall är konstruerade. Ingen genomförd studie eller empirisk effekt påstås.",
+  "limitations": "Gällande rätt skiljs från metodrekommendation. Konsoliderad lagtext innehåller även framtida lydelser; endast berörda gällande paragrafer används. HD:s originalavgöranden är kontrollerade. Dataskyddets tillämplighet kräver projektspecifik prövning.",
+  "review_notes": "Kontrollerat rättskälletyp, lagrum, åtals- och analysenheter, skillnad domskäl/egen tolkning, urvalsbias, beroenden, exkulpatoriskt underlag och förbud mot att dra kausal slutsats av enbart utfallsandel.",
+  "reviewer": "ChatGPT Work, editorial self-review",
+  "independent_human_review": false,
+  "package_sha256": "2bbb20bac5d8977fae43f448706d2ba78543706429d4b4701d2e4ceb640aabfb",
+  "reviewed_at": "2026-10-20T22:02:57.660860+00:00"
+}
