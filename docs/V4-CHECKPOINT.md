@@ -1,5 +1,7 @@
 # V4 checkpoint, 21 oktober 2026
 
+Aktuell status och nästa steg finns i [V5-CHECKPOINT.md](V5-CHECKPOINT.md). Äldre statusantal nedan är historik.
+
 ## Integrerat och verifierat
 
 Webb PR 17, merge 335f27d: fyra dagliga och fyra kunskapskanaler. Producent PR 118, merge 2bc6592: endast återkommande Lagstiftning avaktiverad genom automatic_production=false, historisk typbestämning bevarad. 333 lokala producentprov och producent-CI passerade. Fyra övriga kanalregister och 07.45-tider oförändrade.

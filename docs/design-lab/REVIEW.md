@@ -1,5 +1,11 @@
 # Visuell granskning av bildserier
 
+## V5, sista batchen
+
+15 Retro använder gräddvitt, teal, tegel och ockra med tydliga screentryckssilhuetter. 16 Papper använder vikta material och riktiga skuggor. 18 Surrealism kombinerar realistiska material med omöjlig skala. 19 Ritning använder slate, cyan, koppar och axonometriska rum. 20 Tidskrift använder lavendel, aprikos, vermiljon och uttrycksfulla gouacheformer.
+
+Alla fem kontaktblad och små/kvadratiska beskärningar återgranskades i V5. Varje serie har separata motiv för informationsanalys, digital rekrytering, maritim säkerhet med fartyg/kabel, finansspår, svensk rättsmiljö, mänskligt granskat AI-stöd, åtkomsträtt och praktiskt införande. Stora objekt och mänskliga arbetsmiljöer bär igenkänningen i miniatyr; detaljer blir tydliga i större omslag. Bilderna är illustrationer av ämnen, inte dokumentation av rapporterade händelser. Samtliga återfunna exporter återanvänds utan omgenerering. Se V5-CHECKPOINT.md och quality-final.json.
+
 Granskningen gäller kanalillustrationer, inte autentiska bilder av rapporterade händelser. Varje rad nedan avser åtta individuellt genererade motiv granskade tillsammans i kontaktförhandsvisning och i webbens bildformat. Masteroriginal bevaras separat från responsiva visningsfiler. Åtta kanalidentiteter finns kvar i alla serier.
 
 | Serie | Sammanhållning och ämnesbedömning | Format och korrigering |

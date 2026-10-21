@@ -1,0 +1,87 @@
+{
+  "style": "18-surreal",
+  "name": "Fotografisk surrealism",
+  "generator": "built-in image_gen",
+  "originals": [
+    {
+      "channel": "ibat",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 18 Fotografisk surrealism. Style/medium: Sophisticated photographic surrealism, impossibly transformed but recognizable subject within a realistic Nordic setting, convincing material and light, one clear conceptual visual metaphor, rich emerald and warm peach, imaginative yet calm editorial composition.. Subject: Information supply for crime prevention and investigation: an analyst bringing source records, a place map and evidence photographs together into one coherent operational picture. Connected source panels and a decisive human hand. No visible private data.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "5be0d2c42b2dc14218e1732c2ba70f13be46bb5cfe47d228cc6d4d36029251b0",
+      "master": "assets/design-lab/18-surreal/ibat-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "vald",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 18 Fotografisk surrealism. Style/medium: Sophisticated photographic surrealism, impossibly transformed but recognizable subject within a realistic Nordic setting, convincing material and light, one clear conceptual visual metaphor, rich emerald and warm peach, imaginative yet calm editorial composition.. Subject: Serious organized violence, violence as a service and digital recruitment: a contemporary Swedish street and an anonymous adult seen beside a large phone with abstract message shapes, shadowy recruiting network in the distance. No injuries, guns or sensational crime reconstruction.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "d0c4da35fe8f44c85bfbaa37746717d22ec461bf303727e9deb8604ea5b997df",
+      "master": "assets/design-lab/18-surreal/vald-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "sjoomradet",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 18 Fotografisk surrealism. Style/medium: Sophisticated photographic surrealism, impossibly transformed but recognizable subject within a realistic Nordic setting, convincing material and light, one clear conceptual visual metaphor, rich emerald and warm peach, imaginative yet calm editorial composition.. Subject: Maritime security in the Baltic: a merchant ship, Nordic rocky shore, harbor infrastructure and a clearly identifiable undersea communications cable. Strong ship silhouette.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "24a4a83a67602c76c6c8a0eb49e5fddef30558d5e26b4490934f90618cfd67d2",
+      "master": "assets/design-lab/18-surreal/sjoomradet-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "kek",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 18 Fotografisk surrealism. Style/medium: Sophisticated photographic surrealism, impossibly transformed but recognizable subject within a realistic Nordic setting, convincing material and light, one clear conceptual visual metaphor, rich emerald and warm peach, imaginative yet calm editorial composition.. Subject: Criminal finance: an investigator tracing asset transfers between company buildings, accounts and property through an elegant winding financial trail. Evidence documents in foreground. No generic money pile.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "08dc8d127a90dad5309206783e9a28f0a5cec8074077efe0cfc0f0997a9c6336",
+      "master": "assets/design-lab/18-surreal/kek-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "lagstiftning",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 18 Fotografisk surrealism. Style/medium: Sophisticated photographic surrealism, impossibly transformed but recognizable subject within a realistic Nordic setting, convincing material and light, one clear conceptual visual metaphor, rich emerald and warm peach, imaginative yet calm editorial composition.. Subject: Swedish criminal law: contemporary Swedish courtroom with pale oak benches and a prominent legal volume and case folders. Nordic legal process, no American gavel. All court participants including the judge wear ordinary dark business suits and ties, no ceremonial judicial robes, wigs or white legal neck bands.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "870c77d96886abf19ddfe17f5e20593848c90cb099ee81d1a343d7dc2db506c7",
+      "master": "assets/design-lab/18-surreal/lagstiftning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "ai_brottsbekampning",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 18 Fotografisk surrealism. Style/medium: Sophisticated photographic surrealism, impossibly transformed but recognizable subject within a realistic Nordic setting, convincing material and light, one clear conceptual visual metaphor, rich emerald and warm peach, imaginative yet calm editorial composition.. Subject: Artificial intelligence in criminal investigation: human analyst checking machine assisted pattern recognition and image comparisons against source photographs. Strong human oversight and evidence verification. No robot face, no globe.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "210826cf52693b09de027fc78ecf90f09ecc21d333c55b0bffc3d97a105882c4",
+      "master": "assets/design-lab/18-surreal/ai_brottsbekampning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "it_juridik",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 18 Fotografisk surrealism. Style/medium: Sophisticated photographic surrealism, impossibly transformed but recognizable subject within a realistic Nordic setting, convincing material and light, one clear conceptual visual metaphor, rich emerald and warm peach, imaginative yet calm editorial composition.. Subject: Privacy and information law: secure personal records archive, a person presenting a permission card at an access gate, an accountable audit trail and segregated record drawers. Clearly about access rights and personal data.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "3595db870b01df65455ba53a152f08cc8bc17050b997cb475946d8ef8b4517de",
+      "master": "assets/design-lab/18-surreal/it_juridik-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "verksamhetsutveckling",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 18 Fotografisk surrealism. Style/medium: Sophisticated photographic surrealism, impossibly transformed but recognizable subject within a realistic Nordic setting, convincing material and light, one clear conceptual visual metaphor, rich emerald and warm peach, imaginative yet calm editorial composition.. Subject: Organizational development and implementation: a small team moving process cards from planning wall to a working service prototype. People, method, technology and practical change. No isolated gear icon.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "ced4436b3e9bb17700f164103d96d0d4134e2285f909fe9004cd0d1cd0128681",
+      "master": "assets/design-lab/18-surreal/verksamhetsutveckling-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
