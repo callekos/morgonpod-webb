@@ -26,11 +26,12 @@ test('style names are concise and search counts keep one persistent live region'
  await page.getByRole('searchbox').fill('qzxjv4ingenuniktraff');await page.getByRole('button',{name:'Sök',exact:true}).click();await expect(status).toHaveText('0 träffar');await expect(status).toHaveAttribute('data-test-identity','persistent-search-status');
 });
 test('knowledge entry points, four visible mobile editions, readable intermediate widths',async({page},info)=>{
+ test.setTimeout(60000); // Five full viewport navigations plus channel tabs in WebKit.
  await require('./morning-fixture.cjs').morningFixture(page);
  await page.goto('/kanal.html?id=lagstiftning');await expect(page.locator('.channel-type')).toHaveText('Kunskapskanal');await expect(page.getByRole('link',{name:'Börja här: uppstartsavsnittet'})).toBeVisible();
  await page.getByRole('link',{name:'Grundkurser',exact:true}).click();await expect(page.locator('.tabs [aria-current="page"]')).toHaveText('Grundkurser');
  await page.getByRole('link',{name:'Avsnitt',exact:true}).click();const catalog=await(await page.request.get('/catalog/manifest.json')).json();const paths=catalog.collections['episodes/channel/lagstiftning'].pages;const first=await(await page.request.get('/'+paths[0])).json();const active=first.items.filter(e=>!catalog.superseded?.[e.id]).sort(require('../../app.js').compareLatest);await expect(page.locator('.episode')).toHaveCount(Math.min(24,active.length));expect(await page.locator('.episode').evaluateAll(nodes=>nodes.map(n=>n.dataset.id))).toEqual(active.slice(0,24).map(e=>e.id));await page.getByRole('link',{name:'Om kanalen',exact:true}).click();await expect(page.locator('#channel-content')).toContainText('Ingen återkommande nyhetsutgåva');
- for(const width of [320,393,768,1024,1450]){await page.setViewportSize({width,height:900});await page.goto('/idag.html');await expect(page.locator('.morning-strip a')).toHaveCount(4);expect(await page.locator('.morning-strip').evaluate(e=>e.scrollWidth<=e.clientWidth)).toBe(true);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);}
+ for(const width of [320,393,768,1024,1450]){await page.setViewportSize({width,height:900});await page.goto('/idag.html',{waitUntil:'domcontentloaded'});await expect(page.locator('.morning-strip a')).toHaveCount(4);expect(await page.locator('.morning-strip').evaluate(e=>e.scrollWidth<=e.clientWidth)).toBe(true);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);}
  await page.screenshot({path:'docs/evidence/'+info.project.name+'-v4-home.png'});
 });
 test('search refinements preserve exact playback result context',async({page})=>{
