@@ -1,3 +1,17 @@
+# V7 slutförd och publicerad, 21 oktober 2026
+
+PR #43 integrerad som aeb6bad6cb4086affdcda466ca7b624838bf92c5. Pages 39665838918 success. Exakt PR-head godkänd i 39665024702: 37 enhetstester och 188 Chromium/WebKit-fall. Mainacceptans 39665839885 success: samma 37/188 samt 21 livefall, tre avsiktligt överhoppade duplicerade Telegramkontroller. Publicerade frontendbytes verifierade 20:00:09 UTC; liveproven klara 20:01:15 UTC.
+
+Prenumerera ligger i övre högra hörnet. Sidhuvudets sök, sökdelen på Kanaler och extra söklänken över artikellistan är borttagna. Sök finns i huvudnavigationen/bottenmenyn. Kanaler och Artiklar har samma rubrikstruktur, typografi, textstorlek, avstånd och placering. Mobilens sidhuvud anpassas för 320 px och större mobilbredder. Tidigare godkända kort från #41 återanvänds: Dagens bevakning överst, två kompakta bevakningskort per mobilrad, avlånga kunskapskort, högst fyra per startsidesgrupp och villkorad Visa alla. Båda grupperna på Kanaler använder avlånga beskrivande kort, rena rundade bilder och inga dekorativa namnikoner. Stil 06 och egna bildval bevaras.
+
+Verifierat: 320/393 px och desktop 1440 px, stor text, tangentbord, långa kanalnamn, bildstil/fallback, filter med omladdning/bakåt, sök, artikellänkar, prenumeration, ljud, kö och position. Direkt CloudChrome på verklig webb visar samma rubrikfont och y-position på Kanaler/Artiklar (Georgia 30 px, y=102), bevarat eget bildval och sparad ljudposition 0:41. Oberoende HTTP-jämförelse matchade app.js, style.css, sw.js, kanaler.html, artiklar.html, idag.html, manifest, episodes.json och katalogpolicy exakt. Lokal Chromium kunde inte nå externa Pages (ERR_EMPTY_RESPONSE); därför kommer browserbevis mot verklig webb från GitHub Actions och CloudChrome. Fysisk iPhone/iPad, VoiceOver och mänsklig helgenomlyssning har inte provats.
+
+Samordning: färsk webbmain och #121:s checkpoint/journal/reservationer återlästa före integration. Drifttrådens efterkontroll var slutförd och reservationen släppt. Endast frontend, tester och dokumentation ändrades i #43. Alla innehållsbytes, 49 råavsnitt, 43 aktiva avsnitt, 49 artiklar, 15 specialer, nummerregister, bildfiler och katalogpolicyer bevaras. Ingen ny bildproduktion, inga modell-/TTS-/Telegramanrop eller schemaändringar. Morgonleveransens prioritet dokumenterad i #121.
+
+Historik: första CI 39663772065 gav 184 godkända och fyra fel i samma äldre V2-test, som försökte fylla det uttryckligen borttagna sökfältet. Testet verifierar nu att fältet saknas, att huvudnavigationens sök finns och att rätt kanalkort öppnas. Övriga kanal-/temakontroller behölls. Ny full CI och liveacceptans är gröna. Inga tester eller skydd stängdes av.
+
+Inga genomförandesteg återstår i V7/#39. Återställning vid behov: revert av PR #43:s frontendändringar på färsk main, aldrig återställning av en gammal innehållskopia. Nästa innehållspublicering utgår från färsk main och behåller beständiga katalogpolicyer. Framtida morgonleverans är ett separat driftbevis i #121.
+
 ## Uppföljning: gemensamt sidhuvud, 2026-10-21
 
 Prenumerera ligger längst till höger. Sidhuvudets söklänk och sökfältet på Kanaler har tagits bort. Sök finns kvar i huvudnavigationen. Kanaler och Artiklar har samma rubrikstruktur och typografi. Kanalfilter och allt innehåll bevaras. Lokalt: 37 enhetstester och 20 Chromium-prov godkända, inklusive 320 px, stor text, tangentbord, kanalfilter och bibehållen uppspelning. Publicering och WebKit verifieras i PR-flödet; detta är ännu ingen publiceringskvittens.
