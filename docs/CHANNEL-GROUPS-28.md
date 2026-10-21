@@ -1,8 +1,12 @@
+# Aktuellt slutprov inför publicering
+
+Färsk innehållsbas f6f6af86c87d8760079993b265682c76da214be8, inklusive alla15 specialavsnitt och deras rättade faktiska publiceringstider. 47 råavsnitt och57 råartiklar bevarade. Metadatakontrollen verifierar1176 byteidentiska skyddade filer och inga förändrade kunskaps-/specialtitlar.36 enhetsprov passerar. WebKit-provet öppnar delbar URL i ny flik, och det äldre mobilprovet verifierar två kolumner i båda grupperna. Full CI och Pages ska vara gröna innan uppdraget kvitteras.
+
 # Webbuppdrag 28, arbetscheckpoint 21 oktober 2026
 
 ## Omfattning och bas
 
-Gren work/issue-28-channel-groups i PR 34. Ursprunglig bas c4957b0; metadata är återgenererad över färsk webbmain e0f5170 efter integrerad nattredaktions-PR 33, vars tre nytillkomna specialavsnitt bevaras. V5 och bildlaboratoriets 20 serier återanvänds. Produktionsdelen finns i nyhetspodden PR 137, integrerad ed68b8b1ea3ceb8dc89078139c3527f883f259fd efter PR-CI 39635545778/tests119344880041 success. 379 lokala Pythonprov passerar. Ingen ny innehållsproduktion eller Telegramomsändning.
+Gren work/issue-28-channel-groups i PR 34. Ursprunglig bas f6f6af8; metadata är återgenererad över färsk webbmain e0f5170 efter integrerad nattredaktions-PR 33, vars tre nytillkomna specialavsnitt bevaras. V5 och bildlaboratoriets 20 serier återanvänds. Produktionsdelen finns i nyhetspodden PR 137, integrerad ed68b8b1ea3ceb8dc89078139c3527f883f259fd efter PR-CI 39635545778/tests119344880041 success. 379 lokala Pythonprov passerar. Ingen ny innehållsproduktion eller Telegramomsändning.
 
 ## Ändring
 
@@ -22,6 +26,6 @@ Lokalt WebKit blockerades före browserstart av saknade systembibliotek. Det är
 
 ## Samordning, nästa steg och rollback
 
-Dagens IBAT/KEK var levererade före start, Våld/Sjö dokumenterat stoppade i #121. Ingen produktionskörning aktiv vid avstämning. Nattredaktionens öppna webb-PR 33 får gå före denna integration. Före webb-PR/merge: hämta färsk main, behåll nyare innehåll och kör metadata-migreringen igen på färsk data. Ersätt aldrig katalogen med en äldre snapshot. Kontrollera semantisk diff och full CI. Följ Pages och exakt frontendverifiering samt verklig katalog, ljud och artikellänkar. Skriv faktiska kvitton här, i V5-CHECKPOINT och #28.
+Dagens IBAT/KEK var levererade före start, Våld/Sjö dokumenterat stoppade i #121. Ingen produktionskörning aktiv vid avstämning. Nattredaktionen har slutlevererat15/15 via PR33/35/36 och avslutat reservationen. Migrationen är omgjord över färsk main f6f6af8 med47 råavsnitt och57 råartiklar. Före webb-PR/merge: hämta färsk main, behåll nyare innehåll och kör metadata-migreringen igen på färsk data. Ersätt aldrig katalogen med en äldre snapshot. Kontrollera semantisk diff och full CI. Följ Pages och exakt frontendverifiering samt verklig katalog, ljud och artikellänkar. Skriv faktiska kvitton här, i V5-CHECKPOINT och #28.
 
 Rollback sker endast med avgränsad kodrevert eller metadatarättning mot färsk main. Nummerledger och senare innehåll får aldrig tas bort. Produktionskontrakt och migrationskommando finns i nyhetspodden/docs/WEB-TITLES-28.md och scripts/migrate_web_metadata.py.

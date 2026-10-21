@@ -1,0 +1,72 @@
+[
+  {
+    "id": "rav_forverk",
+    "title": "Åklagarmyndigheten RäV 2024:07 Brottsvinster och oförklarade tillgångar, mars 2025",
+    "url": "https://www.aklagare.se/globalassets/dokument/rattsliga-vagledningar/rav-202407-brottsvinster-och-oforklarade-tillgangar.pdf",
+    "source_type": "prosecutor_guidance",
+    "evidence": {
+      "path": "rav_forverk.txt",
+      "page_sha256": "3ba431fad33dfd722ef1d4ed6da1aca4e64acae75ab7460c4db62c2aae5d7364",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:49:56.735484+00:00",
+      "http_status": 200
+    },
+    "characters": 292395
+  },
+  {
+    "id": "brb",
+    "title": "Brottsbalk (1962:700), konsoliderad lagtext",
+    "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsbalk-1962700_sfs-1962-700/",
+    "source_type": "legislation",
+    "evidence": {
+      "path": "brb.txt",
+      "page_sha256": "fafee1cd59cdea74044ca26733607715f8cdec5a99d256c964718a606b22cfe7",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:49:50.101204+00:00",
+      "http_status": 200
+    },
+    "characters": 364276
+  },
+  {
+    "id": "pml_law",
+    "title": "Lag (2014:307) om straff för penningtvättsbrott",
+    "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2014307-om-straff-for-penningtvattsbrott_sfs-2014-307/",
+    "source_type": "legislation",
+    "evidence": {
+      "path": "pml_law.txt",
+      "page_sha256": "2bd913e6b7d58a75d8e85ee1169f35465d05bd0b8eb54f07aa1e7f158e86846b",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:49:54.918935+00:00",
+      "http_status": 200
+    },
+    "characters": 4109
+  },
+  {
+    "id": "rb",
+    "title": "Rättegångsbalk (1942:740), konsoliderad lagtext",
+    "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/rattegangsbalk-1942740_sfs-1942-740/",
+    "source_type": "legislation",
+    "evidence": {
+      "path": "rb.txt",
+      "page_sha256": "c77e4d0811bf002b8dbc254fbd8d21dacd0c0f18d21ccb783b3afb39c0de665b",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:49:51.175506+00:00",
+      "http_status": 200
+    },
+    "characters": 540264
+  },
+  {
+    "id": "fatf_hawala_2026",
+    "title": "FATF: Professional Money Laundering, Underground Banking and HOSSPs, 3 september 2026",
+    "url": "https://www.fatf-gafi.org/en/publications/Methodsandtrends/pml-underground-banking-hawala-hossps.html",
+    "source_type": "typology",
+    "evidence": {
+      "path": "fatf_hawala_2026.txt",
+      "page_sha256": "e69d6164c0d0a59816d03cec9ba57a9cd94da2a2aa369abd63ef06e424a08aa0",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:50:00.715142+00:00",
+      "http_status": 200
+    },
+    "characters": 5531
+  }
+]

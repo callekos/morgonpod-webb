@@ -1,0 +1,47 @@
+{
+  "approved": true,
+  "claims": [
+    {
+      "claim": "Åklagarmyndighetens vägledning behandlar flera tillgångsrelaterade rättsliga spår.",
+      "status": "verified",
+      "source_ids": [
+        "rav_forverk"
+      ]
+    },
+    {
+      "claim": "Olika förverkandeformer har egna förutsättningar.",
+      "status": "verified",
+      "source_ids": [
+        "brb"
+      ]
+    },
+    {
+      "claim": "Penningtvättsbrottets ansvarsbedömning är inte samma sak som förverkande.",
+      "status": "verified",
+      "source_ids": [
+        "pml_law"
+      ]
+    },
+    {
+      "claim": "Objektivitet kräver underlag åt båda håll.",
+      "status": "verified",
+      "source_ids": [
+        "rb"
+      ]
+    },
+    {
+      "claim": "Internationella typologier beskriver formella och informella ekonomiska nätverk och risker.",
+      "status": "verified",
+      "source_ids": [
+        "fatf_hawala_2026"
+      ]
+    }
+  ],
+  "analysis_and_examples": "Fiktiva flöden, belopp och metodmodeller är märkta som konstruerade. Inga råd om kringgående, brottsutförande eller undandragande från upptäckt.",
+  "limitations": "Öppna rättskällor kontrollerade 20 oktober. Gällande lagrum skiljs från vägledning, typologier och enskilt tingsrättspressmeddelande. Ingen individuell rättslig rådgivning. Ingen generell slutsats om retroaktiv tillämpning.",
+  "review_notes": "Kontrollerat lagrum och rättskälletyp, skillnad riskindikator/bevis, värde/omsättning, ägande/disposition, legitim användning/missbruk samt tillfälligt säkrat/slutligt förverkat/verkställt.",
+  "reviewer": "ChatGPT Work, editorial self-review",
+  "independent_human_review": false,
+  "package_sha256": "61521ee2715e2feff776850d4ee8af73a63f0226362e00f9e5a93bf0a9689f89",
+  "reviewed_at": "2026-10-21T04:46:20.854013+00:00"
+}

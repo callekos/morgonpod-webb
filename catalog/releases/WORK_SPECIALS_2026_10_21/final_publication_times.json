@@ -1,0 +1,26 @@
+{
+  "identity": "WORK_SPECIALS_2026_10_21",
+  "scope": "publication timestamp corrections only",
+  "new_audio_synthesis": false,
+  "telegram_sent": false,
+  "confirmed_transactions": {
+    "26": "2026-10-21T04:41:07Z",
+    "27": "2026-10-21T04:48:08Z",
+    "29": "2026-10-21T09:39:34Z",
+    "33": "2026-10-21T16:35:23Z",
+    "35": "2026-10-21T16:44:05Z"
+  },
+  "corrected_episode_ids": [
+    "WORK_SPECIALS_2026_10_21:kek_3",
+    "WORK_SPECIALS_2026_10_21:kek_4",
+    "WORK_SPECIALS_2026_10_21:kek_5",
+    "WORK_SPECIALS_2026_10_21:lagstiftning_1",
+    "WORK_SPECIALS_2026_10_21:lagstiftning_2",
+    "WORK_SPECIALS_2026_10_21:sjoomradet_1",
+    "WORK_SPECIALS_2026_10_21:sjoomradet_2",
+    "WORK_SPECIALS_2026_10_21:sjoomradet_3",
+    "WORK_SPECIALS_2026_10_21:sjoomradet_4",
+    "WORK_SPECIALS_2026_10_21:sjoomradet_5"
+  ],
+  "last_publication_commit": "94861ed2f0e55c452ba09eef74d5ab93e993b1c2"
+}

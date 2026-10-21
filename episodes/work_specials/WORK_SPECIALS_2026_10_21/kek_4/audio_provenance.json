@@ -1,0 +1,40 @@
+{
+  "manuscript_sha256": "ea90294033cdd970f4f10617b618a3cc936c95241ce6c22022faabffff9895c4",
+  "audio_sha256": "74bf82a47f82187fe595afd7d8f2a7f1d0188ed1ecca40d315ee091e356f0571",
+  "full_decode_passed": true,
+  "voice": "sv-SE-SofieNeural",
+  "rate": "+0%",
+  "pipeline": "src/podcast.py",
+  "segments": [
+    {
+      "text_sha256": "979b5db86a2e2308fe71e4b56b1e4ac22f68730b8aaa09d7f89dff6e968941ca",
+      "audio_sha256": "2c0b31d2f9f9aa0b2f0631c7c2568775c37b5933bc3f89c579ed6093fed273da",
+      "duration_seconds": 81.0,
+      "words": 250
+    },
+    {
+      "text_sha256": "dbd6b010f332ef5105e1e9c2f8c7a6a845381e20667e277d6b07d66721d3f8b2",
+      "audio_sha256": "659163b63cb851040039e4630be596dcf74a645d1e40b6ec322741eb49f345e2",
+      "duration_seconds": 110.424,
+      "words": 235
+    },
+    {
+      "text_sha256": "fb49ea1778ff81a15b905a2dcb22eb8c0f2cc39e94de1e2e0671d09d3a4b00ce",
+      "audio_sha256": "140ba3fcac1e38c8ac2a6fa9ee17f34b97bbf14296c59b34de9adfdb3e4edd49",
+      "duration_seconds": 106.92,
+      "words": 217
+    },
+    {
+      "text_sha256": "96789605d79714d18c6f938d5116f41e76728fda6768431a25f53e0fe0352e78",
+      "audio_sha256": "8101ac0db540c86988943f32b251ec3073a75845a0a73c8dfe8d53f5898af5d4",
+      "duration_seconds": 54.0,
+      "words": 230
+    },
+    {
+      "text_sha256": "0f3c665dcf095e98ee48209d98dd2258adcc9265db42fbc06b98988c63e7d64e",
+      "audio_sha256": "c8e5c20e2891a3bcc66c5eda4a0eb442ba3ce19f37d8978506c465c1b0d286ef",
+      "duration_seconds": 13.464,
+      "words": 27
+    }
+  ]
+}

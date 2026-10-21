@@ -3,7 +3,7 @@ test.use({serviceWorkers:'block'});
 const registry=(n,type)=>Array.from({length:n},(_,i)=>({id:type+i,name:(type==='monitoring'?'Bevakning ':'Kunskap ')+i,description:'Testkanal',channel_type:type,display_order:i}));
 for(const n of [0,1,4,5,10])test('registry groups handle '+n+' channels each, growth and shared URL state',async({page})=>{
  const channels=[...registry(n,'monitoring'),...registry(n,'knowledge')].reverse();
- await page.route('**/catalog/manifest.json',r=>r.fulfill({json:{channels,collections:{},topics:[],search_buckets:[]}}));
+ await page.context().route('**/catalog/manifest.json',r=>r.fulfill({json:{channels,collections:{},topics:[],search_buckets:[]}}));
  await page.goto('/idag.html');
  for(const type of ['monitoring','knowledge']){
   const group=page.locator('.channel-group[data-group='+type+']');await expect(group.locator('.channel-card')).toHaveCount(Math.min(n,4));
@@ -12,7 +12,7 @@ for(const n of [0,1,4,5,10])test('registry groups handle '+n+' channels each, gr
  }
  if(n>4){await page.getByRole('link',{name:'Visa alla kunskapskanaler',exact:true}).click();await expect(page).toHaveURL(/group=knowledge/);await expect(page.locator('.channel-card')).toHaveCount(n);await expect(page.locator('.channel-group')).toHaveCount(1);
   await page.reload();await expect(page.locator('.channel-card')).toHaveCount(n);await page.getByRole('link',{name:'Alla',exact:true}).click();await expect(page.locator('.channel-card')).toHaveCount(n*2);await page.goBack();await expect(page.locator('.channel-card')).toHaveCount(n);await expect(page).toHaveURL(/group=knowledge/);
-  const href=page.url();await page.goto(href);await expect(page.locator('.channel-card')).toHaveCount(n);
+  const href=page.url(),shared=await page.context().newPage();await shared.goto(href);await expect(shared.locator('.channel-card')).toHaveCount(n);await shared.close();
  }
 });
 test('compact groups share two-column mobile cards, desktop parity, large text and keyboard',async({page},info)=>{
