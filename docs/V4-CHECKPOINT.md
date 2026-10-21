@@ -28,3 +28,15 @@ Ordinarie V3 plus 02 Redaktionell illustration är publicerade. Batch 2 innehål
 ## Tillgänglighet, nästa fristående etapp
 
 Axe-core 4.14.0 hittade nested-interactive i avsnittsradernas summary. Spelknappen har flyttats till en separat syskonkontroll med samma utseende och kö. Efter rättning: 54 befintliga desktop/Android-prov och fyra nya riktade prov passerar; fem huvudvyer i båda teman har noll automatiska wcag2a/wcag2aa/wcag21aa-träffar. Nya tester kontrollerar oberoende Enter-uppspelning/expansion och reduced motion. Detta är inte fysisk VoiceOver-kvittens. Filerna ska få egen PR och full WebKit-CI före merge.
+
+## Kvitterad release efter PR 21
+
+PR 20 publicerade 03 Grafisk minimalism och 17 Monokromt reportage. PR 21 (merge dc4cb557b324fddb3457a5c61a72b242a4a93eeb) publicerade tillgänglighetsrättningen och fixade ett tvetydigt Mer-länkval i liveprovet. CI 39534317398 är helt grön: 33 enhetsprov, 116 browserfall och fyra publicerade flöden. Exakta frontendbytes på Pages verifierades 2026-10-21 02:44:09 UTC, 25 publicerade avsnitt bevarade. Tidigare livekörningar för PR 19/20 föll på testets tvetydiga Mer-länk, inte produktens navigation.
+
+Ärende 15 och äldre 3 är nu avslutade med verifieringskommentarer. Ärende 14 fortsätter med 17 återstående stilar; 16 följer UX. Batch 3 producerar 04, 05, 10, 11. De får inte aktiveras före granskning av samtliga åtta motiv och WebP-exporter.
+
+Ett nytt globalt unikhetstest hittade tomma masterexporter i 02/AI, 03/IT-juridik och 04/AI samt tom 04/IBAT-kvadrat. PNG-originalen är distinkta och finns kvar, visningsbilderna i de publicerade serierna är giltiga. Återskapa skadade exporter från ursprungliga PNG och ersätt dem i nästa PR. Byggskriptet exporterar nu till minnesbuffer, avkodar för validering och flyttar filen atomärt. Kontrollera alla exporter genom faktisk bildavkodning efter att varje byggprocess avslutats. Lämna inte exec_command-sessioner med pågående export utan slutkvittens.
+
+## Batch 3 klar för egen PR
+
+04 Linoleumsnitt, 05 Isometrisk illustration, 10 Premium 3D-diorama och 11 Nordisk akvarell har 32 separat genererade och granskade original. En oavsiktlig bilmärkesliknande detalj i 04/IBAT har tagits bort genom lokal image_gen-redigering. Alla 231 WebP-filer för sju serier är faktiskt avkodade och alla 56 masteroriginal är distinkta; se quality-batch-3.json. Tre tomma äldre masterexporter samt en lokal kvadrat har återskapats från individuella PNG. Byggskriptet validerar nu i minne och sparar atomärt. Nytt browserprov spärrar experimentella hämtningar för vanliga besökare och masterhämtningar i laboratoriet. Nya testförväntningar räknar aktuell katalog i stället för att anta exakt två lagstiftningsavsnitt eller tomma framtida grundkurser. Inga katalogfiler ska ingå i PR.

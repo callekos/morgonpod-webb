@@ -1,0 +1,87 @@
+{
+  "style": "04-linocut",
+  "name": "Linoleumsnitt och grafiskt tryck",
+  "generator": "built-in image_gen",
+  "originals": [
+    {
+      "channel": "ibat",
+      "prompt": "Use case stylized-concept. ONE ORIGINAL landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Art direction for complete eight-channel series 04 Linoleumsnitt och grafiskt tryck: Hand carved linocut print, coarse confident gouged lines, black ink, off white fibrous paper, restrained brick red accent, dramatic graphic lights and shadows. Strong silhouette, unmistakable relief print texture. Subject: Information supply for crime prevention and investigation: an analyst bringing source records, a place map and evidence photographs together into one coherent operational picture. Connected source panels and a decisive human hand. No visible private data. Keep one strong readable focal subject, sophisticated composition and distinct silhouette. Fit wide and square crops and remain recognizable at 48px. No text, lettering, labels, watermark, logos, border, contact sheet or grid. No generic globe or humanoid robot. Anonymous fictional people. The medium and material must be unmistakable and visually different from photographic covers. Create an original composition.\nLocal edit after review: remove incidental badge from the car grille, preserve composition and print style.",
+      "generated_png_sha256": "c3d5992844f8a351c0b85bb82fdb3e5d568695cbe60eb83456f99dfc50236df4",
+      "master": "assets/design-lab/04-linocut/ibat-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "vald",
+      "prompt": "Use case stylized-concept. ONE ORIGINAL landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Art direction for complete eight-channel series 04 Linoleumsnitt och grafiskt tryck: Hand carved linocut print, coarse confident gouged lines, black ink, off white fibrous paper, restrained brick red accent, dramatic graphic lights and shadows. Strong silhouette, unmistakable relief print texture. Subject: Serious organized violence, violence as a service and digital recruitment: a contemporary Swedish street and an anonymous adult seen beside a large phone with abstract message shapes, shadowy recruiting network in the distance. No injuries, guns or sensational crime reconstruction. Keep one strong readable focal subject, sophisticated composition and distinct silhouette. Fit wide and square crops and remain recognizable at 48px. No text, lettering, labels, watermark, logos, border, contact sheet or grid. No generic globe or humanoid robot. Anonymous fictional people. The medium and material must be unmistakable and visually different from photographic covers. Create an original composition.",
+      "generated_png_sha256": "7bf27b910912f9c926c57fa5a63890537968d2842b726cf0714e68d3f8a7db7a",
+      "master": "assets/design-lab/04-linocut/vald-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "sjoomradet",
+      "prompt": "Use case stylized-concept. ONE ORIGINAL landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Art direction for complete eight-channel series 04 Linoleumsnitt och grafiskt tryck: Hand carved linocut print, coarse confident gouged lines, black ink, off white fibrous paper, restrained brick red accent, dramatic graphic lights and shadows. Strong silhouette, unmistakable relief print texture. Subject: Maritime security in the Baltic: a merchant ship, Nordic rocky shore, harbor infrastructure and a clearly identifiable undersea communications cable. Strong ship silhouette. Keep one strong readable focal subject, sophisticated composition and distinct silhouette. Fit wide and square crops and remain recognizable at 48px. No text, lettering, labels, watermark, logos, border, contact sheet or grid. No generic globe or humanoid robot. Anonymous fictional people. The medium and material must be unmistakable and visually different from photographic covers. Create an original composition.",
+      "generated_png_sha256": "4afe6f91db01f3929fe832d5f8653171f819ba8fb720106d6a382d6035baaa1f",
+      "master": "assets/design-lab/04-linocut/sjoomradet-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "kek",
+      "prompt": "Use case stylized-concept. ONE ORIGINAL landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Art direction for complete eight-channel series 04 Linoleumsnitt och grafiskt tryck: Hand carved linocut print, coarse confident gouged lines, black ink, off white fibrous paper, restrained brick red accent, dramatic graphic lights and shadows. Strong silhouette, unmistakable relief print texture. Subject: Criminal finance: an investigator tracing asset transfers between company buildings, accounts and property through an elegant winding financial trail. Evidence documents in foreground. No generic money pile. Keep one strong readable focal subject, sophisticated composition and distinct silhouette. Fit wide and square crops and remain recognizable at 48px. No text, lettering, labels, watermark, logos, border, contact sheet or grid. No generic globe or humanoid robot. Anonymous fictional people. The medium and material must be unmistakable and visually different from photographic covers. Create an original composition.",
+      "generated_png_sha256": "b165af5193c0895043e23968ef50c75128444b20cd88b95b8b9ff41ced353bf1",
+      "master": "assets/design-lab/04-linocut/kek-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "lagstiftning",
+      "prompt": "Use case stylized-concept. ONE ORIGINAL landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Art direction for complete eight-channel series 04 Linoleumsnitt och grafiskt tryck: Hand carved linocut print, coarse confident gouged lines, black ink, off white fibrous paper, restrained brick red accent, dramatic graphic lights and shadows. Strong silhouette, unmistakable relief print texture. Subject: Swedish criminal law: contemporary Swedish courtroom with pale oak benches and a prominent legal volume and case folders. Nordic legal process, no American gavel. Keep one strong readable focal subject, sophisticated composition and distinct silhouette. Fit wide and square crops and remain recognizable at 48px. No text, lettering, labels, watermark, logos, border, contact sheet or grid. No generic globe or humanoid robot. Anonymous fictional people. The medium and material must be unmistakable and visually different from photographic covers. Create an original composition.",
+      "generated_png_sha256": "4cd7c6c416f2a3d56bbd6829a13e2b1e0e3ca925b61853e4cb0d5df6e395481a",
+      "master": "assets/design-lab/04-linocut/lagstiftning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "ai_brottsbekampning",
+      "prompt": "Use case stylized-concept. ONE ORIGINAL landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Art direction for complete eight-channel series 04 Linoleumsnitt och grafiskt tryck: Hand carved linocut print, coarse confident gouged lines, black ink, off white fibrous paper, restrained brick red accent, dramatic graphic lights and shadows. Strong silhouette, unmistakable relief print texture. Subject: Artificial intelligence in criminal investigation: human analyst checking machine assisted pattern recognition and image comparisons against source photographs. Strong human oversight and evidence verification. No robot face, no globe. Keep one strong readable focal subject, sophisticated composition and distinct silhouette. Fit wide and square crops and remain recognizable at 48px. No text, lettering, labels, watermark, logos, border, contact sheet or grid. No generic globe or humanoid robot. Anonymous fictional people. The medium and material must be unmistakable and visually different from photographic covers. Create an original composition.",
+      "generated_png_sha256": "c789a35123fe96aa4aeb859a81e676be68c52ddac8f3402f02378e528e7d0f49",
+      "master": "assets/design-lab/04-linocut/ai_brottsbekampning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "it_juridik",
+      "prompt": "Use case stylized-concept. ONE ORIGINAL landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Art direction for complete eight-channel series 04 Linoleumsnitt och grafiskt tryck: Hand carved linocut print, coarse confident gouged lines, black ink, off white fibrous paper, restrained brick red accent, dramatic graphic lights and shadows. Strong silhouette, unmistakable relief print texture. Subject: Privacy and information law: secure personal records archive, a person presenting a permission card at an access gate, an accountable audit trail and segregated record drawers. Clearly about access rights and personal data. Keep one strong readable focal subject, sophisticated composition and distinct silhouette. Fit wide and square crops and remain recognizable at 48px. No text, lettering, labels, watermark, logos, border, contact sheet or grid. No generic globe or humanoid robot. Anonymous fictional people. The medium and material must be unmistakable and visually different from photographic covers. Create an original composition.",
+      "generated_png_sha256": "d50e2a0e0e50124cf3dca03a8035879f409a015017e65e2d673c7b1bdcd320da",
+      "master": "assets/design-lab/04-linocut/it_juridik-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "verksamhetsutveckling",
+      "prompt": "Use case stylized-concept. ONE ORIGINAL landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Art direction for complete eight-channel series 04 Linoleumsnitt och grafiskt tryck: Hand carved linocut print, coarse confident gouged lines, black ink, off white fibrous paper, restrained brick red accent, dramatic graphic lights and shadows. Strong silhouette, unmistakable relief print texture. Subject: Organizational development and implementation: a small team moving process cards from planning wall to a working service prototype. People, method, technology and practical change. No isolated gear icon. Keep one strong readable focal subject, sophisticated composition and distinct silhouette. Fit wide and square crops and remain recognizable at 48px. No text, lettering, labels, watermark, logos, border, contact sheet or grid. No generic globe or humanoid robot. Anonymous fictional people. The medium and material must be unmistakable and visually different from photographic covers. Create an original composition.",
+      "generated_png_sha256": "b9ef2a549ca793202dc30bca7f8761f39c22cf54212ac3004a5112dce4817fd2",
+      "master": "assets/design-lab/04-linocut/verksamhetsutveckling-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "style": "05-isometric",
+  "name": "Isometrisk illustration",
+  "generator": "built-in image_gen",
+  "originals": [
+    {
+      "channel": "ibat",
+      "prompt": "Use case stylized-concept. ONE ORIGINAL landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Art direction for complete eight-channel series 05 Isometrisk illustration: Precise refined isometric editorial illustration, clean axonometric geometry, white background, limited sage green, coral and warm gray, soft subtle dimensional shadows, miniature human figures and strong architecture. Subject: Information supply for crime prevention and investigation: an analyst bringing source records, a place map and evidence photographs together into one coherent operational picture. Connected source panels and a decisive human hand. No visible private data. Keep one strong readable focal subject, sophisticated composition and distinct silhouette. Fit wide and square crops and remain recognizable at 48px. No text, lettering, labels, watermark, logos, border, contact sheet or grid. No generic globe or humanoid robot. Anonymous fictional people. The medium and material must be unmistakable and visually different from photographic covers. Create an original composition.",
+      "generated_png_sha256": "bbd33b75a881f10040d3ceb76370db9639b0609f8b6b94bc11b7583e96aad021",
+      "master": "assets/design-lab/05-isometric/ibat-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "vald",
+      "prompt": "Use case stylized-concept. ONE ORIGINAL landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Art direction for complete eight-channel series 05 Isometrisk illustration: Precise refined isometric editorial illustration, clean axonometric geometry, white background, limited sage green, coral and warm gray, soft subtle dimensional shadows, miniature human figures and strong architecture. Subject: Serious organized violence, violence as a service and digital recruitment: a contemporary Swedish street and an anonymous adult seen beside a large phone with abstract message shapes, shadowy recruiting network in the distance. No injuries, guns or sensational crime reconstruction. Keep one strong readable focal subject, sophisticated composition and distinct silhouette. Fit wide and square crops and remain recognizable at 48px. No text, lettering, labels, watermark, logos, border, contact sheet or grid. No generic globe or humanoid robot. Anonymous fictional people. The medium and material must be unmistakable and visually different from photographic covers. Create an original composition.",
+      "generated_png_sha256": "3219d5c1c8e93690ba2a2fa42e210d478b5eb3e2a3aed8ecb3f49310310168b3",
+      "master": "assets/design-lab/05-isometric/vald-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "sjoomradet",
+      "prompt": "Use case stylized-concept. ONE ORIGINAL landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Art direction for complete eight-channel series 05 Isometrisk illustration: Precise refined isometric editorial illustration, clean axonometric geometry, white background, limited sage green, coral and warm gray, soft subtle dimensional shadows, miniature human figures and strong architecture. Subject: Maritime security in the Baltic: a merchant ship, Nordic rocky shore, harbor infrastructure and a clearly identifiable undersea communications cable. Strong ship silhouette. Keep one strong readable focal subject, sophisticated composition and distinct silhouette. Fit wide and square crops and remain recognizable at 48px. No text, lettering, labels, watermark, logos, border, contact sheet or grid. No generic globe or humanoid robot. Anonymous fictional people. The medium and material must be unmistakable and visually different from photographic covers. Create an original composition.",
+      "generated_png_sha256": "a972ab814e52bf314e07e314eba07fc5706b6d6a9ac50ba8c84ed8db0dfc9c9b",
+      "master": "assets/design-lab/05-isometric/sjoomradet-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "kek",
+      "prompt": "Use case stylized-concept. ONE ORIGINAL landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Art direction for complete eight-channel series 05 Isometrisk illustration: Precise refined isometric editorial illustration, clean axonometric geometry, white background, limited sage green, coral and warm gray, soft subtle dimensional shadows, miniature human figures and strong architecture. Subject: Criminal finance: an investigator tracing asset transfers between company buildings, accounts and property through an elegant winding financial trail. Evidence documents in foreground. No generic money pile. Keep one strong readable focal subject, sophisticated composition and distinct silhouette. Fit wide and square crops and remain recognizable at 48px. No text, lettering, labels, watermark, logos, border, contact sheet or grid. No generic globe or humanoid robot. Anonymous fictional people. The medium and material must be unmistakable and visually different from photographic covers. Create an original composition.",
+      "generated_png_sha256": "29c922f8e01102521616ccc8d66fd364f72d42f9393d947bbb6207199ad43b43",
+      "master": "assets/design-lab/05-isometric/kek-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "lagstiftning",
+      "prompt": "Use case stylized-concept. ONE ORIGINAL landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Art direction for complete eight-channel series 05 Isometrisk illustration: Precise refined isometric editorial illustration, clean axonometric geometry, white background, limited sage green, coral and warm gray, soft subtle dimensional shadows, miniature human figures and strong architecture. Subject: Swedish criminal law: contemporary Swedish courtroom with pale oak benches and a prominent legal volume and case folders. Nordic legal process, no American gavel. Keep one strong readable focal subject, sophisticated composition and distinct silhouette. Fit wide and square crops and remain recognizable at 48px. No text, lettering, labels, watermark, logos, border, contact sheet or grid. No generic globe or humanoid robot. Anonymous fictional people. The medium and material must be unmistakable and visually different from photographic covers. Create an original composition.",
+      "generated_png_sha256": "d3e5e53b0033021ecd470d6df61447a3d889eb25f7796b095f952ddaea0e8007",
+      "master": "assets/design-lab/05-isometric/lagstiftning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "ai_brottsbekampning",
+      "prompt": "Use case stylized-concept. ONE ORIGINAL landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Art direction for complete eight-channel series 05 Isometrisk illustration: Precise refined isometric editorial illustration, clean axonometric geometry, white background, limited sage green, coral and warm gray, soft subtle dimensional shadows, miniature human figures and strong architecture. Subject: Artificial intelligence in criminal investigation: human analyst checking machine assisted pattern recognition and image comparisons against source photographs. Strong human oversight and evidence verification. No robot face, no globe. Keep one strong readable focal subject, sophisticated composition and distinct silhouette. Fit wide and square crops and remain recognizable at 48px. No text, lettering, labels, watermark, logos, border, contact sheet or grid. No generic globe or humanoid robot. Anonymous fictional people. The medium and material must be unmistakable and visually different from photographic covers. Create an original composition.",
+      "generated_png_sha256": "75e12a050d394df1e12a074cfbce7aa76b900b36fe5c4ba19db4443c38b4b15f",
+      "master": "assets/design-lab/05-isometric/ai_brottsbekampning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "it_juridik",
+      "prompt": "Use case stylized-concept. ONE ORIGINAL landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Art direction for complete eight-channel series 05 Isometrisk illustration: Precise refined isometric editorial illustration, clean axonometric geometry, white background, limited sage green, coral and warm gray, soft subtle dimensional shadows, miniature human figures and strong architecture. Subject: Privacy and information law: secure personal records archive, a person presenting a permission card at an access gate, an accountable audit trail and segregated record drawers. Clearly about access rights and personal data. Keep one strong readable focal subject, sophisticated composition and distinct silhouette. Fit wide and square crops and remain recognizable at 48px. No text, lettering, labels, watermark, logos, border, contact sheet or grid. No generic globe or humanoid robot. Anonymous fictional people. The medium and material must be unmistakable and visually different from photographic covers. Create an original composition.",
+      "generated_png_sha256": "2c92a4dd03e0057c29d8bd9748f090cbea5f0490fb3a7152cbfabb2da456560e",
+      "master": "assets/design-lab/05-isometric/it_juridik-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "verksamhetsutveckling",
+      "prompt": "Use case stylized-concept. ONE ORIGINAL landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Art direction for complete eight-channel series 05 Isometrisk illustration: Precise refined isometric editorial illustration, clean axonometric geometry, white background, limited sage green, coral and warm gray, soft subtle dimensional shadows, miniature human figures and strong architecture. Subject: Organizational development and implementation: a small team moving process cards from planning wall to a working service prototype. People, method, technology and practical change. No isolated gear icon. Keep one strong readable focal subject, sophisticated composition and distinct silhouette. Fit wide and square crops and remain recognizable at 48px. No text, lettering, labels, watermark, logos, border, contact sheet or grid. No generic globe or humanoid robot. Anonymous fictional people. The medium and material must be unmistakable and visually different from photographic covers. Create an original composition.",
+      "generated_png_sha256": "fcf5d3a9a6050457fb8f3b7e004335d7781931e14e19d49213ecd7824689fd37",
+      "master": "assets/design-lab/05-isometric/verksamhetsutveckling-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

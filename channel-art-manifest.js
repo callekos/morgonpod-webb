@@ -173,6 +173,234 @@
       }
     },
     {
+      "id": "04-linocut",
+      "number": 4,
+      "name": "Linoleumsnitt och grafiskt tryck",
+      "status": "ready",
+      "preview": "assets/design-lab/04-linocut/preview.webp",
+      "channels": {
+        "ibat": {
+          "wide": "assets/design-lab/04-linocut/ibat.webp",
+          "small": "assets/design-lab/04-linocut/ibat-small.webp",
+          "square": "assets/design-lab/04-linocut/ibat-square.webp",
+          "focal": "55% 50%"
+        },
+        "vald": {
+          "wide": "assets/design-lab/04-linocut/vald.webp",
+          "small": "assets/design-lab/04-linocut/vald-small.webp",
+          "square": "assets/design-lab/04-linocut/vald-square.webp",
+          "focal": "43% 50%"
+        },
+        "sjoomradet": {
+          "wide": "assets/design-lab/04-linocut/sjoomradet.webp",
+          "small": "assets/design-lab/04-linocut/sjoomradet-small.webp",
+          "square": "assets/design-lab/04-linocut/sjoomradet-square.webp",
+          "focal": "50% 48%"
+        },
+        "kek": {
+          "wide": "assets/design-lab/04-linocut/kek.webp",
+          "small": "assets/design-lab/04-linocut/kek-small.webp",
+          "square": "assets/design-lab/04-linocut/kek-square.webp",
+          "focal": "53% 52%"
+        },
+        "lagstiftning": {
+          "wide": "assets/design-lab/04-linocut/lagstiftning.webp",
+          "small": "assets/design-lab/04-linocut/lagstiftning-small.webp",
+          "square": "assets/design-lab/04-linocut/lagstiftning-square.webp",
+          "focal": "65% 60%"
+        },
+        "ai_brottsbekampning": {
+          "wide": "assets/design-lab/04-linocut/ai_brottsbekampning.webp",
+          "small": "assets/design-lab/04-linocut/ai_brottsbekampning-small.webp",
+          "square": "assets/design-lab/04-linocut/ai_brottsbekampning-square.webp",
+          "focal": "55% 50%"
+        },
+        "it_juridik": {
+          "wide": "assets/design-lab/04-linocut/it_juridik.webp",
+          "small": "assets/design-lab/04-linocut/it_juridik-small.webp",
+          "square": "assets/design-lab/04-linocut/it_juridik-square.webp",
+          "focal": "50% 50%"
+        },
+        "verksamhetsutveckling": {
+          "wide": "assets/design-lab/04-linocut/verksamhetsutveckling.webp",
+          "small": "assets/design-lab/04-linocut/verksamhetsutveckling-small.webp",
+          "square": "assets/design-lab/04-linocut/verksamhetsutveckling-square.webp",
+          "focal": "50% 50%"
+        }
+      }
+    },
+    {
+      "id": "05-isometric",
+      "number": 5,
+      "name": "Isometrisk illustration",
+      "status": "ready",
+      "preview": "assets/design-lab/05-isometric/preview.webp",
+      "channels": {
+        "ibat": {
+          "wide": "assets/design-lab/05-isometric/ibat.webp",
+          "small": "assets/design-lab/05-isometric/ibat-small.webp",
+          "square": "assets/design-lab/05-isometric/ibat-square.webp",
+          "focal": "55% 50%"
+        },
+        "vald": {
+          "wide": "assets/design-lab/05-isometric/vald.webp",
+          "small": "assets/design-lab/05-isometric/vald-small.webp",
+          "square": "assets/design-lab/05-isometric/vald-square.webp",
+          "focal": "43% 50%"
+        },
+        "sjoomradet": {
+          "wide": "assets/design-lab/05-isometric/sjoomradet.webp",
+          "small": "assets/design-lab/05-isometric/sjoomradet-small.webp",
+          "square": "assets/design-lab/05-isometric/sjoomradet-square.webp",
+          "focal": "50% 48%"
+        },
+        "kek": {
+          "wide": "assets/design-lab/05-isometric/kek.webp",
+          "small": "assets/design-lab/05-isometric/kek-small.webp",
+          "square": "assets/design-lab/05-isometric/kek-square.webp",
+          "focal": "53% 52%"
+        },
+        "lagstiftning": {
+          "wide": "assets/design-lab/05-isometric/lagstiftning.webp",
+          "small": "assets/design-lab/05-isometric/lagstiftning-small.webp",
+          "square": "assets/design-lab/05-isometric/lagstiftning-square.webp",
+          "focal": "65% 60%"
+        },
+        "ai_brottsbekampning": {
+          "wide": "assets/design-lab/05-isometric/ai_brottsbekampning.webp",
+          "small": "assets/design-lab/05-isometric/ai_brottsbekampning-small.webp",
+          "square": "assets/design-lab/05-isometric/ai_brottsbekampning-square.webp",
+          "focal": "55% 50%"
+        },
+        "it_juridik": {
+          "wide": "assets/design-lab/05-isometric/it_juridik.webp",
+          "small": "assets/design-lab/05-isometric/it_juridik-small.webp",
+          "square": "assets/design-lab/05-isometric/it_juridik-square.webp",
+          "focal": "50% 50%"
+        },
+        "verksamhetsutveckling": {
+          "wide": "assets/design-lab/05-isometric/verksamhetsutveckling.webp",
+          "small": "assets/design-lab/05-isometric/verksamhetsutveckling-small.webp",
+          "square": "assets/design-lab/05-isometric/verksamhetsutveckling-square.webp",
+          "focal": "50% 50%"
+        }
+      }
+    },
+    {
+      "id": "10-diorama",
+      "number": 10,
+      "name": "Premium 3D-diorama",
+      "status": "ready",
+      "preview": "assets/design-lab/10-diorama/preview.webp",
+      "channels": {
+        "ibat": {
+          "wide": "assets/design-lab/10-diorama/ibat.webp",
+          "small": "assets/design-lab/10-diorama/ibat-small.webp",
+          "square": "assets/design-lab/10-diorama/ibat-square.webp",
+          "focal": "55% 50%"
+        },
+        "vald": {
+          "wide": "assets/design-lab/10-diorama/vald.webp",
+          "small": "assets/design-lab/10-diorama/vald-small.webp",
+          "square": "assets/design-lab/10-diorama/vald-square.webp",
+          "focal": "43% 50%"
+        },
+        "sjoomradet": {
+          "wide": "assets/design-lab/10-diorama/sjoomradet.webp",
+          "small": "assets/design-lab/10-diorama/sjoomradet-small.webp",
+          "square": "assets/design-lab/10-diorama/sjoomradet-square.webp",
+          "focal": "50% 48%"
+        },
+        "kek": {
+          "wide": "assets/design-lab/10-diorama/kek.webp",
+          "small": "assets/design-lab/10-diorama/kek-small.webp",
+          "square": "assets/design-lab/10-diorama/kek-square.webp",
+          "focal": "53% 52%"
+        },
+        "lagstiftning": {
+          "wide": "assets/design-lab/10-diorama/lagstiftning.webp",
+          "small": "assets/design-lab/10-diorama/lagstiftning-small.webp",
+          "square": "assets/design-lab/10-diorama/lagstiftning-square.webp",
+          "focal": "65% 60%"
+        },
+        "ai_brottsbekampning": {
+          "wide": "assets/design-lab/10-diorama/ai_brottsbekampning.webp",
+          "small": "assets/design-lab/10-diorama/ai_brottsbekampning-small.webp",
+          "square": "assets/design-lab/10-diorama/ai_brottsbekampning-square.webp",
+          "focal": "55% 50%"
+        },
+        "it_juridik": {
+          "wide": "assets/design-lab/10-diorama/it_juridik.webp",
+          "small": "assets/design-lab/10-diorama/it_juridik-small.webp",
+          "square": "assets/design-lab/10-diorama/it_juridik-square.webp",
+          "focal": "50% 50%"
+        },
+        "verksamhetsutveckling": {
+          "wide": "assets/design-lab/10-diorama/verksamhetsutveckling.webp",
+          "small": "assets/design-lab/10-diorama/verksamhetsutveckling-small.webp",
+          "square": "assets/design-lab/10-diorama/verksamhetsutveckling-square.webp",
+          "focal": "50% 50%"
+        }
+      }
+    },
+    {
+      "id": "11-watercolor",
+      "number": 11,
+      "name": "Nordisk akvarell",
+      "status": "ready",
+      "preview": "assets/design-lab/11-watercolor/preview.webp",
+      "channels": {
+        "ibat": {
+          "wide": "assets/design-lab/11-watercolor/ibat.webp",
+          "small": "assets/design-lab/11-watercolor/ibat-small.webp",
+          "square": "assets/design-lab/11-watercolor/ibat-square.webp",
+          "focal": "55% 50%"
+        },
+        "vald": {
+          "wide": "assets/design-lab/11-watercolor/vald.webp",
+          "small": "assets/design-lab/11-watercolor/vald-small.webp",
+          "square": "assets/design-lab/11-watercolor/vald-square.webp",
+          "focal": "43% 50%"
+        },
+        "sjoomradet": {
+          "wide": "assets/design-lab/11-watercolor/sjoomradet.webp",
+          "small": "assets/design-lab/11-watercolor/sjoomradet-small.webp",
+          "square": "assets/design-lab/11-watercolor/sjoomradet-square.webp",
+          "focal": "50% 48%"
+        },
+        "kek": {
+          "wide": "assets/design-lab/11-watercolor/kek.webp",
+          "small": "assets/design-lab/11-watercolor/kek-small.webp",
+          "square": "assets/design-lab/11-watercolor/kek-square.webp",
+          "focal": "53% 52%"
+        },
+        "lagstiftning": {
+          "wide": "assets/design-lab/11-watercolor/lagstiftning.webp",
+          "small": "assets/design-lab/11-watercolor/lagstiftning-small.webp",
+          "square": "assets/design-lab/11-watercolor/lagstiftning-square.webp",
+          "focal": "65% 60%"
+        },
+        "ai_brottsbekampning": {
+          "wide": "assets/design-lab/11-watercolor/ai_brottsbekampning.webp",
+          "small": "assets/design-lab/11-watercolor/ai_brottsbekampning-small.webp",
+          "square": "assets/design-lab/11-watercolor/ai_brottsbekampning-square.webp",
+          "focal": "55% 50%"
+        },
+        "it_juridik": {
+          "wide": "assets/design-lab/11-watercolor/it_juridik.webp",
+          "small": "assets/design-lab/11-watercolor/it_juridik-small.webp",
+          "square": "assets/design-lab/11-watercolor/it_juridik-square.webp",
+          "focal": "50% 50%"
+        },
+        "verksamhetsutveckling": {
+          "wide": "assets/design-lab/11-watercolor/verksamhetsutveckling.webp",
+          "small": "assets/design-lab/11-watercolor/verksamhetsutveckling-small.webp",
+          "square": "assets/design-lab/11-watercolor/verksamhetsutveckling-square.webp",
+          "focal": "50% 50%"
+        }
+      }
+    },
+    {
       "id": "17-monochrome",
       "number": 17,
       "name": "Monokromt reportage",
@@ -236,14 +464,6 @@
       "name": "Nordiskt dokumentärfoto"
     },
     {
-      "number": 4,
-      "name": "Linoleumsnitt och grafiskt tryck"
-    },
-    {
-      "number": 5,
-      "name": "Isometrisk illustration"
-    },
-    {
       "number": 6,
       "name": "Analog filmfotografi"
     },
@@ -258,14 +478,6 @@
     {
       "number": 9,
       "name": "Papper och collage"
-    },
-    {
-      "number": 10,
-      "name": "Premium 3D-diorama"
-    },
-    {
-      "number": 11,
-      "name": "Nordisk akvarell"
     },
     {
       "number": 12,

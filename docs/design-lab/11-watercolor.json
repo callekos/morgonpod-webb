@@ -1,0 +1,87 @@
+{
+  "style": "11-watercolor",
+  "name": "Nordisk akvarell",
+  "generator": "built-in image_gen",
+  "originals": [
+    {
+      "channel": "ibat",
+      "prompt": "Use case stylized-concept. ONE ORIGINAL landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Art direction for complete eight-channel series 11 Nordisk akvarell: Nordic watercolor on textured cotton paper, translucent washes, soft edges with selected precise ink-free details, pale sky gray, muted pine green, cool blue and warm ochre, airy luminous atmosphere. Subject: Information supply for crime prevention and investigation: an analyst bringing source records, a place map and evidence photographs together into one coherent operational picture. Connected source panels and a decisive human hand. No visible private data. Keep one strong readable focal subject, sophisticated composition and distinct silhouette. Fit wide and square crops and remain recognizable at 48px. No text, lettering, labels, watermark, logos, border, contact sheet or grid. No generic globe or humanoid robot. Anonymous fictional people. The medium and material must be unmistakable and visually different from photographic covers. Create an original composition.",
+      "generated_png_sha256": "ce40796f1d73df798058bc6ec64dd466058f9a0c94fb062591de2ba67c6f33f4",
+      "master": "assets/design-lab/11-watercolor/ibat-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "vald",
+      "prompt": "Use case stylized-concept. ONE ORIGINAL landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Art direction for complete eight-channel series 11 Nordisk akvarell: Nordic watercolor on textured cotton paper, translucent washes, soft edges with selected precise ink-free details, pale sky gray, muted pine green, cool blue and warm ochre, airy luminous atmosphere. Subject: Serious organized violence, violence as a service and digital recruitment: a contemporary Swedish street and an anonymous adult seen beside a large phone with abstract message shapes, shadowy recruiting network in the distance. No injuries, guns or sensational crime reconstruction. Keep one strong readable focal subject, sophisticated composition and distinct silhouette. Fit wide and square crops and remain recognizable at 48px. No text, lettering, labels, watermark, logos, border, contact sheet or grid. No generic globe or humanoid robot. Anonymous fictional people. The medium and material must be unmistakable and visually different from photographic covers. Create an original composition.",
+      "generated_png_sha256": "937b3fa62f05a5be47e20bec074c22a936db776ee5ac762afde492e4ef02b77e",
+      "master": "assets/design-lab/11-watercolor/vald-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "sjoomradet",
+      "prompt": "Use case stylized-concept. ONE ORIGINAL landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Art direction for complete eight-channel series 11 Nordisk akvarell: Nordic watercolor on textured cotton paper, translucent washes, soft edges with selected precise ink-free details, pale sky gray, muted pine green, cool blue and warm ochre, airy luminous atmosphere. Subject: Maritime security in the Baltic: a merchant ship, Nordic rocky shore, harbor infrastructure and a clearly identifiable undersea communications cable. Strong ship silhouette. Keep one strong readable focal subject, sophisticated composition and distinct silhouette. Fit wide and square crops and remain recognizable at 48px. No text, lettering, labels, watermark, logos, border, contact sheet or grid. No generic globe or humanoid robot. Anonymous fictional people. The medium and material must be unmistakable and visually different from photographic covers. Create an original composition.",
+      "generated_png_sha256": "b959823f1fe12794e95a0f7a2a0a88d003f60b96db97a0b28aaa0349d0eb8069",
+      "master": "assets/design-lab/11-watercolor/sjoomradet-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "kek",
+      "prompt": "Use case stylized-concept. ONE ORIGINAL landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Art direction for complete eight-channel series 11 Nordisk akvarell: Nordic watercolor on textured cotton paper, translucent washes, soft edges with selected precise ink-free details, pale sky gray, muted pine green, cool blue and warm ochre, airy luminous atmosphere. Subject: Criminal finance: an investigator tracing asset transfers between company buildings, accounts and property through an elegant winding financial trail. Evidence documents in foreground. No generic money pile. Keep one strong readable focal subject, sophisticated composition and distinct silhouette. Fit wide and square crops and remain recognizable at 48px. No text, lettering, labels, watermark, logos, border, contact sheet or grid. No generic globe or humanoid robot. Anonymous fictional people. The medium and material must be unmistakable and visually different from photographic covers. Create an original composition.",
+      "generated_png_sha256": "82323e0ea2c44e8a5b73cb41b56a72dd3994e4a12566ae7325ee0464c708e1ed",
+      "master": "assets/design-lab/11-watercolor/kek-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "lagstiftning",
+      "prompt": "Use case stylized-concept. ONE ORIGINAL landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Art direction for complete eight-channel series 11 Nordisk akvarell: Nordic watercolor on textured cotton paper, translucent washes, soft edges with selected precise ink-free details, pale sky gray, muted pine green, cool blue and warm ochre, airy luminous atmosphere. Subject: Swedish criminal law: contemporary Swedish courtroom with pale oak benches and a prominent legal volume and case folders. Nordic legal process, no American gavel. Keep one strong readable focal subject, sophisticated composition and distinct silhouette. Fit wide and square crops and remain recognizable at 48px. No text, lettering, labels, watermark, logos, border, contact sheet or grid. No generic globe or humanoid robot. Anonymous fictional people. The medium and material must be unmistakable and visually different from photographic covers. Create an original composition.",
+      "generated_png_sha256": "dcb9e129acc638d74a1d9ea85cf29fdeafaab245e6c82a0f91724072f511f9b4",
+      "master": "assets/design-lab/11-watercolor/lagstiftning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "ai_brottsbekampning",
+      "prompt": "Use case stylized-concept. ONE ORIGINAL landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Art direction for complete eight-channel series 11 Nordisk akvarell: Nordic watercolor on textured cotton paper, translucent washes, soft edges with selected precise ink-free details, pale sky gray, muted pine green, cool blue and warm ochre, airy luminous atmosphere. Subject: Artificial intelligence in criminal investigation: human analyst checking machine assisted pattern recognition and image comparisons against source photographs. Strong human oversight and evidence verification. No robot face, no globe. Keep one strong readable focal subject, sophisticated composition and distinct silhouette. Fit wide and square crops and remain recognizable at 48px. No text, lettering, labels, watermark, logos, border, contact sheet or grid. No generic globe or humanoid robot. Anonymous fictional people. The medium and material must be unmistakable and visually different from photographic covers. Create an original composition.",
+      "generated_png_sha256": "8d93d7357fb29c754452fbc9a3b5804d3a592b196e9602932feb15f2b949b61d",
+      "master": "assets/design-lab/11-watercolor/ai_brottsbekampning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "it_juridik",
+      "prompt": "Use case stylized-concept. ONE ORIGINAL landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Art direction for complete eight-channel series 11 Nordisk akvarell: Nordic watercolor on textured cotton paper, translucent washes, soft edges with selected precise ink-free details, pale sky gray, muted pine green, cool blue and warm ochre, airy luminous atmosphere. Subject: Privacy and information law: secure personal records archive, a person presenting a permission card at an access gate, an accountable audit trail and segregated record drawers. Clearly about access rights and personal data. Keep one strong readable focal subject, sophisticated composition and distinct silhouette. Fit wide and square crops and remain recognizable at 48px. No text, lettering, labels, watermark, logos, border, contact sheet or grid. No generic globe or humanoid robot. Anonymous fictional people. The medium and material must be unmistakable and visually different from photographic covers. Create an original composition.",
+      "generated_png_sha256": "f0ed0fbc132daabc3a363f7a024e4c40d40b9b770d482879f2a937b3fa171b29",
+      "master": "assets/design-lab/11-watercolor/it_juridik-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "verksamhetsutveckling",
+      "prompt": "Use case stylized-concept. ONE ORIGINAL landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Art direction for complete eight-channel series 11 Nordisk akvarell: Nordic watercolor on textured cotton paper, translucent washes, soft edges with selected precise ink-free details, pale sky gray, muted pine green, cool blue and warm ochre, airy luminous atmosphere. Subject: Organizational development and implementation: a small team moving process cards from planning wall to a working service prototype. People, method, technology and practical change. No isolated gear icon. Keep one strong readable focal subject, sophisticated composition and distinct silhouette. Fit wide and square crops and remain recognizable at 48px. No text, lettering, labels, watermark, logos, border, contact sheet or grid. No generic globe or humanoid robot. Anonymous fictional people. The medium and material must be unmistakable and visually different from photographic covers. Create an original composition.",
+      "generated_png_sha256": "2544d07a800b93f716e03be34755b64741cdd31cb6a17e362eb7bdc2c4ac394c",
+      "master": "assets/design-lab/11-watercolor/verksamhetsutveckling-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

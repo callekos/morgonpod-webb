@@ -6,6 +6,7 @@ Run without --activate for visual review; activate only after reviewing crops.
 import argparse
 import hashlib
 import json
+import io
 import re
 from pathlib import Path
 from PIL import Image, ImageOps
@@ -17,6 +18,19 @@ FOCAL = {'ibat': (.55, .5), 'vald': (.43, .5), 'sjoomradet': (.5, .48),
          'kek': (.53, .52), 'lagstiftning': (.65, .6),
          'ai_brottsbekampning': (.55, .5), 'it_juridik': (.5, .5),
          'verksamhetsutveckling': (.5, .5)}
+
+def save_webp(image, path, quality):
+    """Complete and validate encoding before exposing the destination file."""
+    buffer = io.BytesIO()
+    image.save(buffer, format='WEBP', quality=quality, method=6)
+    encoded = buffer.getvalue()
+    with Image.open(io.BytesIO(encoded)) as check:
+        check.load()
+        if check.size != image.size:
+            raise ValueError('Invalid exported dimensions')
+    temporary = path.with_suffix('.webp.tmp')
+    temporary.write_bytes(encoded)
+    temporary.replace(path)
 
 def main():
     p = argparse.ArgumentParser()
@@ -43,17 +57,17 @@ def main():
             im = original.convert('RGB')
         if min(im.size) < 640:
             raise ValueError('Insufficient original resolution')
-        im.save(out / (c + '-master.webp'), quality=93, method=6)
+        save_webp(im, out / (c + '-master.webp'), 93)
         for suffix, size, quality in [('', (960, 640), 80), ('-small', (400, 267), 76),
                                        ('-square', (640, 640), 80)]:
-            ImageOps.fit(im, size, centering=FOCAL[c]).save(out / (c + suffix + '.webp'), quality=quality, method=6)
+            save_webp(ImageOps.fit(im, size, centering=FOCAL[c]), out / (c + suffix + '.webp'), quality)
         preview.paste(ImageOps.fit(im, (200, 134), centering=FOCAL[c]), ((i % 4) * 200, (i // 4) * 134))
         base = 'assets/design-lab/' + a.id + '/' + c
         entries[c] = {'wide': base + '.webp', 'small': base + '-small.webp',
                       'square': base + '-square.webp', 'focal': ' '.join(str(round(v * 100)) + '%' for v in FOCAL[c])}
         provenance.append({'channel': c, 'prompt': records[c]['prompt'], 'generated_png_sha256': hashes[i],
                            'master': base + '-master.webp', 'original_dimensions': list(im.size)})
-    preview.save(out / 'preview.webp', quality=77, method=6)
+    save_webp(preview, out / 'preview.webp', 77)
     docs = ROOT / 'docs/design-lab'
     docs.mkdir(exist_ok=True)
     (docs / (a.id + '.json')).write_text(json.dumps({'style': a.id, 'name': a.name,

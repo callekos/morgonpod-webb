@@ -1,0 +1,57 @@
+{
+  "status": "local validation before batch 3 release",
+  "experimental_series": [
+    {
+      "id": "02-editorial",
+      "originals": 8,
+      "valid_webp_files": 33,
+      "bytes": 4521818,
+      "max_small_bytes": 20904
+    },
+    {
+      "id": "03-minimal",
+      "originals": 8,
+      "valid_webp_files": 33,
+      "bytes": 1235122,
+      "max_small_bytes": 12826
+    },
+    {
+      "id": "04-linocut",
+      "originals": 8,
+      "valid_webp_files": 33,
+      "bytes": 8502878,
+      "max_small_bytes": 34328
+    },
+    {
+      "id": "05-isometric",
+      "originals": 8,
+      "valid_webp_files": 33,
+      "bytes": 2895798,
+      "max_small_bytes": 21696
+    },
+    {
+      "id": "10-diorama",
+      "originals": 8,
+      "valid_webp_files": 33,
+      "bytes": 3772404,
+      "max_small_bytes": 21152
+    },
+    {
+      "id": "11-watercolor",
+      "originals": 8,
+      "valid_webp_files": 33,
+      "bytes": 6664222,
+      "max_small_bytes": 24098
+    },
+    {
+      "id": "17-monochrome",
+      "originals": 8,
+      "valid_webp_files": 33,
+      "bytes": 2884726,
+      "max_small_bytes": 21610
+    }
+  ],
+  "distinct_originals": 56,
+  "ordinary_default": "V3",
+  "physical_device_tested": false
+}
