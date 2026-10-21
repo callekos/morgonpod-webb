@@ -40,3 +40,9 @@ Ett nytt globalt unikhetstest hittade tomma masterexporter i 02/AI, 03/IT-juridi
 ## Batch 3 klar för egen PR
 
 04 Linoleumsnitt, 05 Isometrisk illustration, 10 Premium 3D-diorama och 11 Nordisk akvarell har 32 separat genererade och granskade original. En oavsiktlig bilmärkesliknande detalj i 04/IBAT har tagits bort genom lokal image_gen-redigering. Alla 231 WebP-filer för sju serier är faktiskt avkodade och alla 56 masteroriginal är distinkta; se quality-batch-3.json. Tre tomma äldre masterexporter samt en lokal kvadrat har återskapats från individuella PNG. Byggskriptet validerar nu i minne och sparar atomärt. Nytt browserprov spärrar experimentella hämtningar för vanliga besökare och masterhämtningar i laboratoriet. Nya testförväntningar räknar aktuell katalog i stället för att anta exakt två lagstiftningsavsnitt eller tomma framtida grundkurser. Inga katalogfiler ska ingå i PR.
+
+## Batch 3 publicerad och slutkvitterad
+
+PR 22 head 286c55c414b8f30e88ae9631d7a2482a61b5d78f, merge d0a2bae33eef50e2164c61722a1c248e7d5974a9. CI 39537197891: 33 enhetsprov och 120 browserfall gröna. Pages 39537596175 grön. Main-CI 39537596815 helt grön, exakta frontendbytes och sju seriers derivat verifierade 03:19:45 UTC, 25 avsnitt bevarade, fyra liveflöden passerade 03:20:41 UTC. Direkt moln-Chrome: alla åtta kanalbilder laddade för 04, 05, 10 och 11, samma ljud fortsatte från 1:50 till 2:01 och kön behöll fyra kommande. Uppspelning pausad. Bildbevis: docs/evidence/v4-batch3-live.jpg.
+
+Sju publicerade experimentella serier: 02, 03, 04, 05, 10, 11, 17. Återstår 13 serier och 104 original. Nästa batch 01, 06, 07, 08 produceras nu med separata inbyggda bildanrop. Ingen aktivering före granskning av komplett serie. Inga katalog-, ljud- eller kärnspelarändringar i bildbatcherna.

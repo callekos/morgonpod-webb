@@ -1,0 +1,87 @@
+{
+  "style": "01-documentary",
+  "name": "Nordiskt dokumentärfoto",
+  "generator": "built-in image_gen",
+  "originals": [
+    {
+      "channel": "ibat",
+      "prompt": "Use case: photorealistic-natural. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 01 Nordiskt dokumentärfoto. Style/medium: Nordic documentary editorial photography, natural overcast daylight, neutral gray and green, real material texture, candid documentary composition, restrained human scale. Illustrative staged scene, not an actual news event.. Subject: Information supply for crime prevention and investigation: an analyst bringing source records, a place map and evidence photographs together into one coherent operational picture. Connected source panels and a decisive human hand. No visible private data.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "29e1ada9c767ebb237831801f7a3d564a065099a4aa8369fa80153508e6f723f",
+      "master": "assets/design-lab/01-documentary/ibat-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "vald",
+      "prompt": "Use case: photorealistic-natural. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 01 Nordiskt dokumentärfoto. Style/medium: Nordic documentary editorial photography, natural overcast daylight, neutral gray and green, real material texture, candid documentary composition, restrained human scale. Illustrative staged scene, not an actual news event.. Subject: Serious organized violence, violence as a service and digital recruitment: a contemporary Swedish street and an anonymous adult seen beside a large phone with abstract message shapes, shadowy recruiting network in the distance. No injuries, guns or sensational crime reconstruction.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "cae12964223f31c53707f7116f199da76525c0f44577ae7d8a322195ed649e11",
+      "master": "assets/design-lab/01-documentary/vald-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "sjoomradet",
+      "prompt": "Use case: photorealistic-natural. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 01 Nordiskt dokumentärfoto. Style/medium: Nordic documentary editorial photography, natural overcast daylight, neutral gray and green, real material texture, candid documentary composition, restrained human scale. Illustrative staged scene, not an actual news event.. Subject: Maritime security in the Baltic: a merchant ship, Nordic rocky shore, harbor infrastructure and a clearly identifiable undersea communications cable. Strong ship silhouette.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "ea2117f069d1e33de2fefeebefb08abd0bbc10fe056b5bcfc71a7c04316dee13",
+      "master": "assets/design-lab/01-documentary/sjoomradet-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "kek",
+      "prompt": "Use case: photorealistic-natural. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 01 Nordiskt dokumentärfoto. Style/medium: Nordic documentary editorial photography, natural overcast daylight, neutral gray and green, real material texture, candid documentary composition, restrained human scale. Illustrative staged scene, not an actual news event.. Subject: Criminal finance: an investigator tracing asset transfers between company buildings, accounts and property through an elegant winding financial trail. Evidence documents in foreground. No generic money pile.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "8bcc3d95710f6344ae9de9f05b6cfefc1745a2fe21d49650a03c561f8e8a5745",
+      "master": "assets/design-lab/01-documentary/kek-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "lagstiftning",
+      "prompt": "Use case: photorealistic-natural. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 01 Nordiskt dokumentärfoto. Style/medium: Nordic documentary editorial photography, natural overcast daylight, neutral gray and green, real material texture, candid documentary composition, restrained human scale. Illustrative staged scene, not an actual news event.. Subject: Swedish criminal law: contemporary Swedish courtroom with pale oak benches and a prominent legal volume and case folders. Nordic legal process, no American gavel.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "f7003ee01396df0efa80532ae8baa40a249463d2d20746f6beb10c5727e9f89e",
+      "master": "assets/design-lab/01-documentary/lagstiftning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "ai_brottsbekampning",
+      "prompt": "Use case: photorealistic-natural. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 01 Nordiskt dokumentärfoto. Style/medium: Nordic documentary editorial photography, natural overcast daylight, neutral gray and green, real material texture, candid documentary composition, restrained human scale. Illustrative staged scene, not an actual news event.. Subject: Artificial intelligence in criminal investigation: human analyst checking machine assisted pattern recognition and image comparisons against source photographs. Strong human oversight and evidence verification. No robot face, no globe.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "6541250e044704452b9dd5a94d0aca421f1596b865632098cd112de7fc0a9829",
+      "master": "assets/design-lab/01-documentary/ai_brottsbekampning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "it_juridik",
+      "prompt": "Use case: photorealistic-natural. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 01 Nordiskt dokumentärfoto. Style/medium: Nordic documentary editorial photography, natural overcast daylight, neutral gray and green, real material texture, candid documentary composition, restrained human scale. Illustrative staged scene, not an actual news event.. Subject: Privacy and information law: secure personal records archive, a person presenting a permission card at an access gate, an accountable audit trail and segregated record drawers. Clearly about access rights and personal data.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "f2bae3d622015a0a785f4468338a6c15a38fae67d3a5658505a554924da1b6ca",
+      "master": "assets/design-lab/01-documentary/it_juridik-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "verksamhetsutveckling",
+      "prompt": "Use case: photorealistic-natural. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 01 Nordiskt dokumentärfoto. Style/medium: Nordic documentary editorial photography, natural overcast daylight, neutral gray and green, real material texture, candid documentary composition, restrained human scale. Illustrative staged scene, not an actual news event.. Subject: Organizational development and implementation: a small team moving process cards from planning wall to a working service prototype. People, method, technology and practical change. No isolated gear icon.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "f3b257c9d6f27557d9e63d9dcd77b67042c82eab02fa7ce1fa16695cb047c83a",
+      "master": "assets/design-lab/01-documentary/verksamhetsutveckling-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

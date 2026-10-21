@@ -1,0 +1,10 @@
+{
+  "purpose": "Recovery checkpoint for complete original art assets, not a release branch. Manifest is intentionally unchanged.",
+  "public_release": "PR 22, seven ready experimental series; V3 default",
+  "public_main": "d0a2bae33eef50e2164c61722a1c248e7d5974a9",
+  "public_verification": "https://github.com/callekos/morgonpod-webb/actions/runs/39537596815",
+  "prepared_styles": [
+    "01-documentary"
+  ],
+  "next": "Finish, visually review and decode each eight-channel series; release from fresh main without catalog changes."
+}

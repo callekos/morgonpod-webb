@@ -1,57 +1,73 @@
 {
-  "status": "local validation before batch 3 release",
-  "experimental_series": [
+  "experimental_series_count": 7,
+  "distinct_originals": 56,
+  "decoded_webp_files": 231,
+  "ordinary_default": "V3",
+  "validation": "offline image decoding, dimensions, provenance and SHA256 uniqueness",
+  "physical_device_tested": false,
+  "series": [
     {
       "id": "02-editorial",
+      "number": 2,
       "originals": 8,
-      "valid_webp_files": 33,
-      "bytes": 4521818,
-      "max_small_bytes": 20904
+      "decoded_webp_files": 33,
+      "total_bytes": 4521818,
+      "eight_small_bytes": 136760,
+      "preview_bytes": 50310
     },
     {
       "id": "03-minimal",
+      "number": 3,
       "originals": 8,
-      "valid_webp_files": 33,
-      "bytes": 1235122,
-      "max_small_bytes": 12826
+      "decoded_webp_files": 33,
+      "total_bytes": 1235122,
+      "eight_small_bytes": 71120,
+      "preview_bytes": 31794
     },
     {
       "id": "04-linocut",
+      "number": 4,
       "originals": 8,
-      "valid_webp_files": 33,
-      "bytes": 8502878,
-      "max_small_bytes": 34328
+      "decoded_webp_files": 33,
+      "total_bytes": 8502878,
+      "eight_small_bytes": 248398,
+      "preview_bytes": 71136
     },
     {
       "id": "05-isometric",
+      "number": 5,
       "originals": 8,
-      "valid_webp_files": 33,
-      "bytes": 2895798,
-      "max_small_bytes": 21696
+      "decoded_webp_files": 33,
+      "total_bytes": 2895798,
+      "eight_small_bytes": 110212,
+      "preview_bytes": 40308
     },
     {
       "id": "10-diorama",
+      "number": 10,
       "originals": 8,
-      "valid_webp_files": 33,
-      "bytes": 3772404,
-      "max_small_bytes": 21152
+      "decoded_webp_files": 33,
+      "total_bytes": 3772404,
+      "eight_small_bytes": 144156,
+      "preview_bytes": 50906
     },
     {
       "id": "11-watercolor",
+      "number": 11,
       "originals": 8,
-      "valid_webp_files": 33,
-      "bytes": 6664222,
-      "max_small_bytes": 24098
+      "decoded_webp_files": 33,
+      "total_bytes": 6664222,
+      "eight_small_bytes": 173504,
+      "preview_bytes": 54586
     },
     {
       "id": "17-monochrome",
+      "number": 17,
       "originals": 8,
-      "valid_webp_files": 33,
-      "bytes": 2884726,
-      "max_small_bytes": 21610
+      "decoded_webp_files": 33,
+      "total_bytes": 2884726,
+      "eight_small_bytes": 122172,
+      "preview_bytes": 43636
     }
-  ],
-  "distinct_originals": 56,
-  "ordinary_default": "V3",
-  "physical_device_tested": false
+  ]
 }
