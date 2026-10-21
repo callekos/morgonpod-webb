@@ -15,11 +15,12 @@ for(const n of [0,1,4,5,10])test('registry groups handle '+n+' channels each, gr
   const href=page.url(),shared=await page.context().newPage();await shared.goto(href);await expect(shared.locator('.channel-card')).toHaveCount(n);await shared.close();
  }
 });
-test('compact groups share two-column mobile cards, desktop parity, large text and keyboard',async({page},info)=>{
+test('monitoring grid and descriptive knowledge lists preserve desktop parity, large text and keyboard',async({page},info)=>{
  for(const width of [320,393,768,1450]){
   await page.setViewportSize({width,height:1000});await page.goto('/idag.html');await expect(page.locator('.home-channel-groups .channel-card')).toHaveCount(8);
   const groups=await page.locator('.home-channel-groups .channel-group').evaluateAll(nodes=>nodes.map(n=>{const b=n.getBoundingClientRect();return {x:b.x,y:b.y,width:b.width};}));
   expect(await page.locator('.home-channels').first().evaluate(n=>getComputedStyle(n).gridTemplateColumns.split(' ').length)).toBe(2);
+  expect(await page.locator('[data-group=knowledge] .descriptive-channels').evaluate(n=>getComputedStyle(n).gridTemplateColumns.split(' ').length)).toBe(1);
   if(width===1450){expect(groups[0].y).toBe(groups[1].y);expect(groups[0].width).toBeCloseTo(groups[1].width,0);}else expect(groups[1].y).toBeGreaterThan(groups[0].y);
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
  }

@@ -5,8 +5,10 @@ function apply(root){
  const write=(p,x)=>fs.writeFileSync(path.join(root,p),JSON.stringify(x)+'\n');
  const policy=read('catalog-policy.json'),manifest=read('catalog/manifest.json');
  const ids=new Set(manifest.collections.episodes.pages.flatMap(p=>read(p).items.map(e=>e.id)));
+ if(fs.existsSync(path.join(root,'episodes.json')))for(const e of read('episodes.json').episodes||[])ids.add(e.id||[e.channel,e.date,e.kind||'daily'].join(':'));
+ const withdrawn=policy.withdrawn||{};
  const mapping=Object.fromEntries(Object.entries(policy.superseded).filter(([old,replacement])=>ids.has(replacement)));
- const active=x=>!mapping[x.episode_id||x.id];
+ const active=x=>!mapping[x.episode_id||x.id]&&!withdrawn[x.episode_id||x.id];
  for(const c of Object.values(manifest.collections)){
   const rows=c.pages.flatMap(p=>read(p).items).filter(active);
   const oldPages=[...c.pages];c.count=rows.length;c.pages=[];
@@ -21,14 +23,18 @@ function apply(root){
   for(const key of Object.keys(data))data[key]=data[key].filter(active);
   write(p,data);
  }
+ for(const [id,withdrawal_reason] of Object.entries(withdrawn)){
+  const h=require('node:crypto').createHash('sha256').update(id).digest('hex').slice(0,24),p='catalog/episodes/'+h+'.json';
+  if(fs.existsSync(path.join(root,p)))write(p,{...read(p),catalog_status:'withdrawn',withdrawal_reason});
+ }
  for(const [id,replacement_id] of Object.entries(mapping)){
   const h=require('node:crypto').createHash('sha256').update(id).digest('hex').slice(0,24),p='catalog/episodes/'+h+'.json';
   if(fs.existsSync(path.join(root,p)))write(p,{...read(p),catalog_status:'superseded',replacement_id});
  }
  for(const file of fs.readdirSync(path.join(root,'catalog/articles'))){
-  const p='catalog/articles/'+file,a=read(p);if(mapping[a.episode_id])write(p,{...a,catalog_status:'superseded',replacement_id:mapping[a.episode_id]});
+  const p='catalog/articles/'+file,a=read(p);if(withdrawn[a.episode_id])write(p,{...a,catalog_status:'withdrawn',withdrawal_reason:withdrawn[a.episode_id]});else if(mapping[a.episode_id])write(p,{...a,catalog_status:'superseded',replacement_id:mapping[a.episode_id]});
  }
- manifest.superseded=mapping;manifest.catalog_policy_release=policy.release;
+ manifest.withdrawn=withdrawn;manifest.superseded=mapping;manifest.catalog_policy_release=policy.release;
  write('catalog/manifest.json',manifest);return manifest;
 }
 module.exports={apply};if(require.main===module){const m=apply(path.resolve(__dirname,'..'));console.log(m.collections.episodes.count+' active episodes, '+m.collections.articles.count+' active articles');}

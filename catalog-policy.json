@@ -7,5 +7,8 @@
     "kek:2026-10-20:daily": "WORK_LIBRARY_2026_10:kek:replacement_ordinary:2",
     "sjoomradet:2026-10-20:daily": "WORK_LIBRARY_2026_10:sjoomradet:replacement_ordinary:2",
     "lagstiftning:2026-10-20:daily": "WORK_LIBRARY_2026_10:lagstiftning:replacement_ordinary:2"
+  },
+  "withdrawn": {
+    "WORK_LIBRARY_2026_10:lagstiftning:replacement_ordinary:2": "Avpublicerat efter ägarbeslut i webbärende #39. Veckoöversikten hör inte längre till kunskapskanalen."
   }
 }

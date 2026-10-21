@@ -38,9 +38,9 @@ test('queue continues beyond loaded page and autoplay block offers manual play',
  if(await page.locator('#queue-next').isVisible()===false)await page.locator('#player-toggle').click();
  await page.locator('#queue-next').click();await expect(page.locator('#audio')).toHaveAttribute('src','episodes/fixture/e24.wav');await expect(page.locator('#player-status')).toContainText('Tryck på Spela');expect(loaded.filter(x=>x.endsWith('/1.json'))).toHaveLength(1);await expect(page.locator('#queue-previous')).toBeEnabled();
 });
-test('approved UX keeps titles, two mobile columns, categories off cards and article audio early',async({page},info)=>{
+test('approved UX keeps descriptive directory lists, titles and article audio early',async({page},info)=>{
  await page.goto('/kanaler.html');await expect(page.locator('.channel-card').first().locator('small')).toHaveCount(0);await expect(page.locator('.channel-card')).toHaveCount(await channelCount(page));expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
- if(info.project.name.includes('iphone'))for(const directory of await page.locator('.channel-directory').all())await expect(directory).toHaveCSS('grid-template-columns',/\d+(\.\d+)?px \d+(\.\d+)?px$/);
+ for(const directory of await page.locator('.channel-directory').all())await expect(directory).toHaveCSS('grid-template-columns',/^\d+(\.\d+)?px$/);
  await page.goto('/idag.html');await expect(page.locator('.home-channels .search-channel-description')).toHaveCount(0);await expect(page.locator('.home-episodes .row-title strong').first()).toBeVisible();await expect(page.locator('.home-episodes .item-meta').first()).toBeVisible();
  await page.getByRole('link',{name:'Artiklar',exact:true}).click();await page.locator('.article-card').first().click();await expect(page.locator('.article-audio')).toBeVisible();await expect(page.getByText('Illustrativ kanalbild',{exact:true})).toBeVisible();await expect(page.locator('#nav a[aria-current]')).toHaveText('Artiklar');
  await page.screenshot({path:'docs/evidence/'+info.project.name+'-ux-article.png'});

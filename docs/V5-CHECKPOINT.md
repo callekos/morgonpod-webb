@@ -1,3 +1,7 @@
+# Rättning #39
+
+Avlånga kanalkort och avgränsad avpublicering förbereds på work/cards-39. Se [CHANNEL-CARDS-39.md](CHANNEL-CARDS-39.md) för status, skydd och exakt återstående verifiering. Prenumerera från #37 bevaras.
+
 # Tillägg #37
 
 Prenumerera-knappen förbereds isolerat från V6. Se [SUBSCRIBE-37.md](SUBSCRIBE-37.md) för aktuell status och slutkvitton. V6-kvittona nedan gäller fortsatt.

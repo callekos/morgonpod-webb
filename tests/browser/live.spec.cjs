@@ -46,3 +46,9 @@ test('existing Telegram invitation exposes the matching join handoff',async({req
  const response=await request.get('https://t.me/+jlPUjsmjlE03NDFk');expect(response.ok()).toBe(true);
  const html=await response.text();expect(html).toMatch(/<title>Telegram:/);expect(html).toContain('class="tgme_action_button"');expect(html).not.toMatch(/invite link (has expired|is invalid)/i);expect(html).toMatch(/tg:\/\/join\?invite=jlPUjsmjlE03NDFk/);
 });
+test('published home and directory retain distinct descriptive card formats',require('./cards-check.cjs').cardsCheck);
+test('published withdrawal retains source files, intro and all specials',async({page})=>{
+ const manifest=await(await page.request.get('catalog/manifest.json')).json();const id='WORK_LIBRARY_2026_10:lagstiftning:replacement_ordinary:2';expect(manifest.withdrawn[id]).toBeTruthy();expect(Object.keys(manifest.superseded)).toHaveLength(5);expect(manifest.collections['episodes/topic/specialavsnitt'].count).toBe(15);expect(manifest.collections['episodes/channel/lagstiftning'].count).toBe(6);
+ await page.goto('avsnitt.html?id='+encodeURIComponent(id));await expect(page.locator('h1')).toHaveText('Avsnittet är avpublicerat');await page.goto('artikel.html?id=work-lagstiftning_ordinary-article-1');await expect(page.locator('h1')).toHaveText('Artikeln är avpublicerad');
+ await page.goto('kanal.html?id=lagstiftning');await expect(page.locator('.episode')).toHaveCount(6);await expect(page.locator('.episode').filter({hasText:'Veckoöversikt'})).toHaveCount(0);
+});
