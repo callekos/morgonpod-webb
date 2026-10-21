@@ -1,0 +1,22 @@
+const {expect}=require('@playwright/test');
+exports.subscriptionCheck=async({page},info)=>{
+ await page.goto('idag.html');await expect(page.locator('.morning-brief')).toBeVisible();
+ const button=page.locator('.header').getByRole('link',{name:'Prenumerera',exact:true});
+ await page.evaluate(()=>scrollTo(0,document.body.scrollHeight));await expect(button).toBeInViewport();
+ const box=await button.boundingBox();expect(box.height).toBeGreaterThanOrEqual(44);expect(box.y).toBeGreaterThanOrEqual(0);
+ await button.click();await expect(page).toHaveURL(/prenumerera.html$/);await expect(page.locator('h1')).toHaveText('Prenumerera på Morgonpodden');
+ const telegram=page.getByRole('link',{name:'Öppna Morgonpodden i Telegram'});await expect(telegram).toHaveAttribute('href','https://t.me/+jlPUjsmjlE03NDFk');await expect(telegram).toHaveAttribute('target','_blank');
+ await page.reload();await expect(page.locator('h1')).toHaveText('Prenumerera på Morgonpodden');
+ await page.locator('#nav').getByRole('link',{name:'Kanaler',exact:true}).click();await page.locator('.channel-card').first().click();
+ await page.locator('summary').first().click();await page.getByRole('link',{name:/Öppna stor spelare/}).click();await page.locator('#big-play').click();
+ await expect.poll(()=>page.locator('#audio').evaluate(a=>a.currentTime)).toBeGreaterThan(0);
+ const before=await page.locator('#audio').evaluate(a=>{a.dataset.probe='subscription';a.dataset.pauses='0';a.addEventListener('pause',()=>a.dataset.pauses=String(+a.dataset.pauses+1));return {src:a.currentSrc,time:a.currentTime};});
+ const queue=await page.evaluate(()=>{const {position,...state}=JSON.parse(localStorage.getItem('morgonpod-playback'));return state;});
+ await page.evaluate(()=>scrollTo(0,document.body.scrollHeight));await expect(button).toBeInViewport();await button.click();await expect(page.locator('h1')).toHaveText('Prenumerera på Morgonpodden');
+ const after=await page.locator('#audio').evaluate(a=>({src:a.currentSrc,time:a.currentTime,paused:a.paused,pauses:a.dataset.pauses,probe:a.dataset.probe}));
+ expect(after.src).toBe(before.src);expect(after.time).toBeGreaterThanOrEqual(before.time);expect(after.paused).toBe(false);expect(after.pauses).toBe('0');expect(after.probe).toBe('subscription');
+ expect(await page.evaluate(()=>{const {position,...state}=JSON.parse(localStorage.getItem('morgonpod-playback'));return state;})).toEqual(queue);
+ await page.goBack();await expect(page.locator('.full-player')).toBeVisible();await expect(button).toBeVisible();
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+ await page.screenshot({path:'test-results/'+info.project.name+'-subscribe-playing.png'});
+};

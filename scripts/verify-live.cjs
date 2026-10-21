@@ -3,7 +3,7 @@ const fs=require('node:fs'),crypto=require('node:crypto');
 const base='https://callekos.github.io/morgonpod-webb/';
 const digest=value=>crypto.createHash('sha256').update(value).digest('hex');
 const art=require('../channel-art-manifest.js');
-const paths=[...new Set(['playback-queue.js','app.js','channel-art.js','channel-art-manifest.js','style.css','sw.js','idag.html','kanal.html','designlaboratorium.html',...art.styles.flatMap(style=>[style.preview,...Object.values(style.channels).flatMap(c=>[c.small,c.wide,c.square])]).filter(Boolean).map(p=>p.split('?')[0])])];
+const paths=[...new Set(['playback-queue.js','app.js','channel-art.js','channel-art-manifest.js','style.css','sw.js','idag.html','prenumerera.html','kanal.html','designlaboratorium.html',...art.styles.flatMap(style=>[style.preview,...Object.values(style.channels).flatMap(c=>[c.small,c.wide,c.square])]).filter(Boolean).map(p=>p.split('?')[0])])];
 (async()=>{
  let last;
  for(let attempt=0;attempt<20;attempt++){
