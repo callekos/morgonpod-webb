@@ -1,0 +1,40 @@
+{
+  "approved": true,
+  "claims": [
+    {
+      "claim": "3,4,6 och7 §§ har olika objektiva och subjektiva förutsättningar. Näringspenningtvätt får inte sammanblandas med3§. Inga äldre straffskalor anges.",
+      "status": "verified",
+      "source_ids": [
+        "pml_law"
+      ]
+    },
+    {
+      "claim": "BrB1:2 uppsåt som huvudregel om inte särskilt föreskrivits annat.",
+      "status": "verified",
+      "source_ids": [
+        "brb"
+      ]
+    },
+    {
+      "claim": "RB23:4 kräver objektivitet och beaktande av exkulpatoriskt underlag.",
+      "status": "verified",
+      "source_ids": [
+        "rb"
+      ]
+    },
+    {
+      "claim": "Straffansvar, säkringsåtgärder och förverkande är olika rättsliga frågor.",
+      "status": "verified",
+      "source_ids": [
+        "rav_forverk"
+      ]
+    }
+  ],
+  "analysis_and_examples": "Fiktiva flöden, belopp och metodmodeller är märkta som konstruerade. Inga råd om kringgående, brottsutförande eller undandragande från upptäckt.",
+  "limitations": "Öppna rättskällor kontrollerade 20 oktober. Gällande lagrum skiljs från vägledning, typologier och enskilt tingsrättspressmeddelande. Ingen individuell rättslig rådgivning. Ingen generell slutsats om retroaktiv tillämpning.",
+  "review_notes": "Kontrollerat lagrum och rättskälletyp, skillnad riskindikator/bevis, värde/omsättning, ägande/disposition, legitim användning/missbruk samt tillfälligt säkrat/slutligt förverkat/verkställt.",
+  "reviewer": "ChatGPT Work, editorial self-review",
+  "independent_human_review": false,
+  "package_sha256": "0335cd51c4f889dac77e7dc0f51792ba8fed1ab4af10082cdae3d7627bb0c05a",
+  "reviewed_at": "2026-10-21T04:46:20.840216+00:00"
+}

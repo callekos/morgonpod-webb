@@ -1,0 +1,40 @@
+{
+  "approved": true,
+  "claims": [
+    {
+      "claim": "BrB36:5 beviskrav klart mera sannolikt; värdeförverkande och skydd vid skäligt betald överlåtelse.36:20 uppenbart oskäligt.",
+      "status": "verified",
+      "source_ids": [
+        "brb"
+      ]
+    },
+    {
+      "claim": "Utredningssyften i2:1, starttröskel2:2, objektivitetsanknytning2:5, tvångsmedel och6kap juridiskt biträde.",
+      "status": "verified",
+      "source_ids": [
+        "forverk_law"
+      ]
+    },
+    {
+      "claim": "Domstolens pressmeddelande om B271-25 beskriver yrkande5783000 och bifall451000; inte prejudikat eller bevis på senare laga kraft.",
+      "status": "verified",
+      "source_ids": [
+        "eskilstuna"
+      ]
+    },
+    {
+      "claim": "Vägledningen är praktiskt stöd, inte bindande lagtext.",
+      "status": "verified",
+      "source_ids": [
+        "rav_forverk"
+      ]
+    }
+  ],
+  "analysis_and_examples": "Fiktiva flöden, belopp och metodmodeller är märkta som konstruerade. Inga råd om kringgående, brottsutförande eller undandragande från upptäckt.",
+  "limitations": "Öppna rättskällor kontrollerade 20 oktober. Gällande lagrum skiljs från vägledning, typologier och enskilt tingsrättspressmeddelande. Ingen individuell rättslig rådgivning. Ingen generell slutsats om retroaktiv tillämpning.",
+  "review_notes": "Kontrollerat lagrum och rättskälletyp, skillnad riskindikator/bevis, värde/omsättning, ägande/disposition, legitim användning/missbruk samt tillfälligt säkrat/slutligt förverkat/verkställt.",
+  "reviewer": "ChatGPT Work, editorial self-review",
+  "independent_human_review": false,
+  "package_sha256": "c74d78666dc926262a1383c0cac6bda2cfbbf8a922161b55321b09591659656e",
+  "reviewed_at": "2026-10-21T04:46:20.846760+00:00"
+}
