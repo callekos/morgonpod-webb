@@ -857,6 +857,120 @@
       }
     },
     {
+      "id": "15-retro",
+      "number": 15,
+      "name": "Skandinavisk retroaffisch",
+      "status": "ready",
+      "preview": "assets/design-lab/15-retro/preview.webp",
+      "channels": {
+        "ibat": {
+          "wide": "assets/design-lab/15-retro/ibat.webp",
+          "small": "assets/design-lab/15-retro/ibat-small.webp",
+          "square": "assets/design-lab/15-retro/ibat-square.webp",
+          "focal": "55% 50%"
+        },
+        "vald": {
+          "wide": "assets/design-lab/15-retro/vald.webp",
+          "small": "assets/design-lab/15-retro/vald-small.webp",
+          "square": "assets/design-lab/15-retro/vald-square.webp",
+          "focal": "43% 50%"
+        },
+        "sjoomradet": {
+          "wide": "assets/design-lab/15-retro/sjoomradet.webp",
+          "small": "assets/design-lab/15-retro/sjoomradet-small.webp",
+          "square": "assets/design-lab/15-retro/sjoomradet-square.webp",
+          "focal": "50% 48%"
+        },
+        "kek": {
+          "wide": "assets/design-lab/15-retro/kek.webp",
+          "small": "assets/design-lab/15-retro/kek-small.webp",
+          "square": "assets/design-lab/15-retro/kek-square.webp",
+          "focal": "53% 52%"
+        },
+        "lagstiftning": {
+          "wide": "assets/design-lab/15-retro/lagstiftning.webp",
+          "small": "assets/design-lab/15-retro/lagstiftning-small.webp",
+          "square": "assets/design-lab/15-retro/lagstiftning-square.webp",
+          "focal": "65% 60%"
+        },
+        "ai_brottsbekampning": {
+          "wide": "assets/design-lab/15-retro/ai_brottsbekampning.webp",
+          "small": "assets/design-lab/15-retro/ai_brottsbekampning-small.webp",
+          "square": "assets/design-lab/15-retro/ai_brottsbekampning-square.webp",
+          "focal": "55% 50%"
+        },
+        "it_juridik": {
+          "wide": "assets/design-lab/15-retro/it_juridik.webp",
+          "small": "assets/design-lab/15-retro/it_juridik-small.webp",
+          "square": "assets/design-lab/15-retro/it_juridik-square.webp",
+          "focal": "50% 50%"
+        },
+        "verksamhetsutveckling": {
+          "wide": "assets/design-lab/15-retro/verksamhetsutveckling.webp",
+          "small": "assets/design-lab/15-retro/verksamhetsutveckling-small.webp",
+          "square": "assets/design-lab/15-retro/verksamhetsutveckling-square.webp",
+          "focal": "50% 50%"
+        }
+      }
+    },
+    {
+      "id": "16-paper",
+      "number": 16,
+      "name": "Taktil papperskonst",
+      "status": "ready",
+      "preview": "assets/design-lab/16-paper/preview.webp",
+      "channels": {
+        "ibat": {
+          "wide": "assets/design-lab/16-paper/ibat.webp",
+          "small": "assets/design-lab/16-paper/ibat-small.webp",
+          "square": "assets/design-lab/16-paper/ibat-square.webp",
+          "focal": "55% 50%"
+        },
+        "vald": {
+          "wide": "assets/design-lab/16-paper/vald.webp",
+          "small": "assets/design-lab/16-paper/vald-small.webp",
+          "square": "assets/design-lab/16-paper/vald-square.webp",
+          "focal": "43% 50%"
+        },
+        "sjoomradet": {
+          "wide": "assets/design-lab/16-paper/sjoomradet.webp",
+          "small": "assets/design-lab/16-paper/sjoomradet-small.webp",
+          "square": "assets/design-lab/16-paper/sjoomradet-square.webp",
+          "focal": "50% 48%"
+        },
+        "kek": {
+          "wide": "assets/design-lab/16-paper/kek.webp",
+          "small": "assets/design-lab/16-paper/kek-small.webp",
+          "square": "assets/design-lab/16-paper/kek-square.webp",
+          "focal": "53% 52%"
+        },
+        "lagstiftning": {
+          "wide": "assets/design-lab/16-paper/lagstiftning.webp",
+          "small": "assets/design-lab/16-paper/lagstiftning-small.webp",
+          "square": "assets/design-lab/16-paper/lagstiftning-square.webp",
+          "focal": "65% 60%"
+        },
+        "ai_brottsbekampning": {
+          "wide": "assets/design-lab/16-paper/ai_brottsbekampning.webp",
+          "small": "assets/design-lab/16-paper/ai_brottsbekampning-small.webp",
+          "square": "assets/design-lab/16-paper/ai_brottsbekampning-square.webp",
+          "focal": "55% 50%"
+        },
+        "it_juridik": {
+          "wide": "assets/design-lab/16-paper/it_juridik.webp",
+          "small": "assets/design-lab/16-paper/it_juridik-small.webp",
+          "square": "assets/design-lab/16-paper/it_juridik-square.webp",
+          "focal": "50% 50%"
+        },
+        "verksamhetsutveckling": {
+          "wide": "assets/design-lab/16-paper/verksamhetsutveckling.webp",
+          "small": "assets/design-lab/16-paper/verksamhetsutveckling-small.webp",
+          "square": "assets/design-lab/16-paper/verksamhetsutveckling-square.webp",
+          "focal": "50% 50%"
+        }
+      }
+    },
+    {
       "id": "17-monochrome",
       "number": 17,
       "name": "Monokromt reportage",
@@ -912,28 +1026,178 @@
           "focal": "50% 50%"
         }
       }
+    },
+    {
+      "id": "18-surreal",
+      "number": 18,
+      "name": "Fotografisk surrealism",
+      "status": "ready",
+      "preview": "assets/design-lab/18-surreal/preview.webp",
+      "channels": {
+        "ibat": {
+          "wide": "assets/design-lab/18-surreal/ibat.webp",
+          "small": "assets/design-lab/18-surreal/ibat-small.webp",
+          "square": "assets/design-lab/18-surreal/ibat-square.webp",
+          "focal": "55% 50%"
+        },
+        "vald": {
+          "wide": "assets/design-lab/18-surreal/vald.webp",
+          "small": "assets/design-lab/18-surreal/vald-small.webp",
+          "square": "assets/design-lab/18-surreal/vald-square.webp",
+          "focal": "43% 50%"
+        },
+        "sjoomradet": {
+          "wide": "assets/design-lab/18-surreal/sjoomradet.webp",
+          "small": "assets/design-lab/18-surreal/sjoomradet-small.webp",
+          "square": "assets/design-lab/18-surreal/sjoomradet-square.webp",
+          "focal": "50% 48%"
+        },
+        "kek": {
+          "wide": "assets/design-lab/18-surreal/kek.webp",
+          "small": "assets/design-lab/18-surreal/kek-small.webp",
+          "square": "assets/design-lab/18-surreal/kek-square.webp",
+          "focal": "53% 52%"
+        },
+        "lagstiftning": {
+          "wide": "assets/design-lab/18-surreal/lagstiftning.webp",
+          "small": "assets/design-lab/18-surreal/lagstiftning-small.webp",
+          "square": "assets/design-lab/18-surreal/lagstiftning-square.webp",
+          "focal": "65% 60%"
+        },
+        "ai_brottsbekampning": {
+          "wide": "assets/design-lab/18-surreal/ai_brottsbekampning.webp",
+          "small": "assets/design-lab/18-surreal/ai_brottsbekampning-small.webp",
+          "square": "assets/design-lab/18-surreal/ai_brottsbekampning-square.webp",
+          "focal": "55% 50%"
+        },
+        "it_juridik": {
+          "wide": "assets/design-lab/18-surreal/it_juridik.webp",
+          "small": "assets/design-lab/18-surreal/it_juridik-small.webp",
+          "square": "assets/design-lab/18-surreal/it_juridik-square.webp",
+          "focal": "50% 50%"
+        },
+        "verksamhetsutveckling": {
+          "wide": "assets/design-lab/18-surreal/verksamhetsutveckling.webp",
+          "small": "assets/design-lab/18-surreal/verksamhetsutveckling-small.webp",
+          "square": "assets/design-lab/18-surreal/verksamhetsutveckling-square.webp",
+          "focal": "50% 50%"
+        }
+      }
+    },
+    {
+      "id": "19-blueprint",
+      "number": 19,
+      "name": "Teknisk ritningsestetik",
+      "status": "ready",
+      "preview": "assets/design-lab/19-blueprint/preview.webp",
+      "channels": {
+        "ibat": {
+          "wide": "assets/design-lab/19-blueprint/ibat.webp",
+          "small": "assets/design-lab/19-blueprint/ibat-small.webp",
+          "square": "assets/design-lab/19-blueprint/ibat-square.webp",
+          "focal": "55% 50%"
+        },
+        "vald": {
+          "wide": "assets/design-lab/19-blueprint/vald.webp",
+          "small": "assets/design-lab/19-blueprint/vald-small.webp",
+          "square": "assets/design-lab/19-blueprint/vald-square.webp",
+          "focal": "43% 50%"
+        },
+        "sjoomradet": {
+          "wide": "assets/design-lab/19-blueprint/sjoomradet.webp",
+          "small": "assets/design-lab/19-blueprint/sjoomradet-small.webp",
+          "square": "assets/design-lab/19-blueprint/sjoomradet-square.webp",
+          "focal": "50% 48%"
+        },
+        "kek": {
+          "wide": "assets/design-lab/19-blueprint/kek.webp",
+          "small": "assets/design-lab/19-blueprint/kek-small.webp",
+          "square": "assets/design-lab/19-blueprint/kek-square.webp",
+          "focal": "53% 52%"
+        },
+        "lagstiftning": {
+          "wide": "assets/design-lab/19-blueprint/lagstiftning.webp",
+          "small": "assets/design-lab/19-blueprint/lagstiftning-small.webp",
+          "square": "assets/design-lab/19-blueprint/lagstiftning-square.webp",
+          "focal": "65% 60%"
+        },
+        "ai_brottsbekampning": {
+          "wide": "assets/design-lab/19-blueprint/ai_brottsbekampning.webp",
+          "small": "assets/design-lab/19-blueprint/ai_brottsbekampning-small.webp",
+          "square": "assets/design-lab/19-blueprint/ai_brottsbekampning-square.webp",
+          "focal": "55% 50%"
+        },
+        "it_juridik": {
+          "wide": "assets/design-lab/19-blueprint/it_juridik.webp",
+          "small": "assets/design-lab/19-blueprint/it_juridik-small.webp",
+          "square": "assets/design-lab/19-blueprint/it_juridik-square.webp",
+          "focal": "50% 50%"
+        },
+        "verksamhetsutveckling": {
+          "wide": "assets/design-lab/19-blueprint/verksamhetsutveckling.webp",
+          "small": "assets/design-lab/19-blueprint/verksamhetsutveckling-small.webp",
+          "square": "assets/design-lab/19-blueprint/verksamhetsutveckling-square.webp",
+          "focal": "50% 50%"
+        }
+      }
+    },
+    {
+      "id": "20-magazine",
+      "number": 20,
+      "name": "Modern tidskriftsillustration",
+      "status": "ready",
+      "preview": "assets/design-lab/20-magazine/preview.webp",
+      "channels": {
+        "ibat": {
+          "wide": "assets/design-lab/20-magazine/ibat.webp",
+          "small": "assets/design-lab/20-magazine/ibat-small.webp",
+          "square": "assets/design-lab/20-magazine/ibat-square.webp",
+          "focal": "55% 50%"
+        },
+        "vald": {
+          "wide": "assets/design-lab/20-magazine/vald.webp",
+          "small": "assets/design-lab/20-magazine/vald-small.webp",
+          "square": "assets/design-lab/20-magazine/vald-square.webp",
+          "focal": "43% 50%"
+        },
+        "sjoomradet": {
+          "wide": "assets/design-lab/20-magazine/sjoomradet.webp",
+          "small": "assets/design-lab/20-magazine/sjoomradet-small.webp",
+          "square": "assets/design-lab/20-magazine/sjoomradet-square.webp",
+          "focal": "50% 48%"
+        },
+        "kek": {
+          "wide": "assets/design-lab/20-magazine/kek.webp",
+          "small": "assets/design-lab/20-magazine/kek-small.webp",
+          "square": "assets/design-lab/20-magazine/kek-square.webp",
+          "focal": "53% 52%"
+        },
+        "lagstiftning": {
+          "wide": "assets/design-lab/20-magazine/lagstiftning.webp",
+          "small": "assets/design-lab/20-magazine/lagstiftning-small.webp",
+          "square": "assets/design-lab/20-magazine/lagstiftning-square.webp",
+          "focal": "65% 60%"
+        },
+        "ai_brottsbekampning": {
+          "wide": "assets/design-lab/20-magazine/ai_brottsbekampning.webp",
+          "small": "assets/design-lab/20-magazine/ai_brottsbekampning-small.webp",
+          "square": "assets/design-lab/20-magazine/ai_brottsbekampning-square.webp",
+          "focal": "55% 50%"
+        },
+        "it_juridik": {
+          "wide": "assets/design-lab/20-magazine/it_juridik.webp",
+          "small": "assets/design-lab/20-magazine/it_juridik-small.webp",
+          "square": "assets/design-lab/20-magazine/it_juridik-square.webp",
+          "focal": "50% 50%"
+        },
+        "verksamhetsutveckling": {
+          "wide": "assets/design-lab/20-magazine/verksamhetsutveckling.webp",
+          "small": "assets/design-lab/20-magazine/verksamhetsutveckling-small.webp",
+          "square": "assets/design-lab/20-magazine/verksamhetsutveckling-square.webp",
+          "focal": "50% 50%"
+        }
+      }
     }
   ],
-  "planned": [
-    {
-      "number": 15,
-      "name": "Skandinavisk retroaffisch"
-    },
-    {
-      "number": 16,
-      "name": "Taktil papperskonst"
-    },
-    {
-      "number": 18,
-      "name": "Fotografisk surrealism"
-    },
-    {
-      "number": 19,
-      "name": "Teknisk ritningsestetik"
-    },
-    {
-      "number": 20,
-      "name": "Modern tidskriftsillustration"
-    }
-  ]
+  "planned": []
 };if(typeof module==='object'&&module.exports)module.exports=data;else root.ChannelArtManifest=data;})(typeof window!=='undefined'?window:this);

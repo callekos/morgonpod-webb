@@ -1,0 +1,87 @@
+{
+  "style": "20-magazine",
+  "name": "Modern tidskriftsillustration",
+  "generator": "built-in image_gen",
+  "originals": [
+    {
+      "channel": "ibat",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 20 Modern tidskriftsillustration. Style/medium: Contemporary premium magazine illustration, hand drawn flowing contours, confident editorial metaphor, large expressive forms, lavender, vermilion, apricot and cream, refined gouache texture, dynamic asymmetry, no photorealism.. Subject: Information supply for crime prevention and investigation: an analyst bringing source records, a place map and evidence photographs together into one coherent operational picture. Connected source panels and a decisive human hand. No visible private data.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "493cf0cda599e0c4881eeb683f5f51cce7610612d975111dc61259c8c1a0f1d8",
+      "master": "assets/design-lab/20-magazine/ibat-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "vald",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 20 Modern tidskriftsillustration. Style/medium: Contemporary premium magazine illustration, hand drawn flowing contours, confident editorial metaphor, large expressive forms, lavender, vermilion, apricot and cream, refined gouache texture, dynamic asymmetry, no photorealism.. Subject: Serious organized violence, violence as a service and digital recruitment: a contemporary Swedish street and an anonymous adult seen beside a large phone with abstract message shapes, shadowy recruiting network in the distance. No injuries, guns or sensational crime reconstruction.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "bc610269edba2432da71d8b07753390f661815aa1dd90f28a50aa73442a2e522",
+      "master": "assets/design-lab/20-magazine/vald-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "sjoomradet",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 20 Modern tidskriftsillustration. Style/medium: Contemporary premium magazine illustration, hand drawn flowing contours, confident editorial metaphor, large expressive forms, lavender, vermilion, apricot and cream, refined gouache texture, dynamic asymmetry, no photorealism.. Subject: Maritime security in the Baltic: a merchant ship, Nordic rocky shore, harbor infrastructure and a clearly identifiable undersea communications cable. Strong ship silhouette.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "2f2aefaed10d56dbdcdb241a32450223a8da05c05fef66bdebe31109d2831b9e",
+      "master": "assets/design-lab/20-magazine/sjoomradet-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "kek",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 20 Modern tidskriftsillustration. Style/medium: Contemporary premium magazine illustration, hand drawn flowing contours, confident editorial metaphor, large expressive forms, lavender, vermilion, apricot and cream, refined gouache texture, dynamic asymmetry, no photorealism.. Subject: Criminal finance: an investigator tracing asset transfers between company buildings, accounts and property through an elegant winding financial trail. Evidence documents in foreground. No generic money pile.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "cd45b0d1f09a537e560c6a08fb123ce194ccd4de7d8cb6d1f6e25122d1f9b4b0",
+      "master": "assets/design-lab/20-magazine/kek-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "lagstiftning",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 20 Modern tidskriftsillustration. Style/medium: Contemporary premium magazine illustration, hand drawn flowing contours, confident editorial metaphor, large expressive forms, lavender, vermilion, apricot and cream, refined gouache texture, dynamic asymmetry, no photorealism.. Subject: Swedish criminal law: contemporary Swedish courtroom with pale oak benches and a prominent legal volume and case folders. Nordic legal process, no American gavel. All court participants including the judge wear ordinary dark business suits and ties, no ceremonial judicial robes, wigs or white legal neck bands.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "65c6623e96a8b3d14ed6575f133efeeb964e85a005a8f32226db7c400ee5e602",
+      "master": "assets/design-lab/20-magazine/lagstiftning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "ai_brottsbekampning",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 20 Modern tidskriftsillustration. Style/medium: Contemporary premium magazine illustration, hand drawn flowing contours, confident editorial metaphor, large expressive forms, lavender, vermilion, apricot and cream, refined gouache texture, dynamic asymmetry, no photorealism.. Subject: Artificial intelligence in criminal investigation: human analyst checking machine assisted pattern recognition and image comparisons against source photographs. Strong human oversight and evidence verification. No robot face, no globe.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "a1c45606f178137921151a66a02807c0321298ebdfe1a1840b3167ec16fba63c",
+      "master": "assets/design-lab/20-magazine/ai_brottsbekampning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "it_juridik",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 20 Modern tidskriftsillustration. Style/medium: Contemporary premium magazine illustration, hand drawn flowing contours, confident editorial metaphor, large expressive forms, lavender, vermilion, apricot and cream, refined gouache texture, dynamic asymmetry, no photorealism.. Subject: Privacy and information law: secure personal records archive, a person presenting a permission card at an access gate, an accountable audit trail and segregated record drawers. Clearly about access rights and personal data.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "8c82a8290e54b7f858211fbc65b7938793d2c53185fee4c7e51393b340ddbbdb",
+      "master": "assets/design-lab/20-magazine/it_juridik-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "verksamhetsutveckling",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 20 Modern tidskriftsillustration. Style/medium: Contemporary premium magazine illustration, hand drawn flowing contours, confident editorial metaphor, large expressive forms, lavender, vermilion, apricot and cream, refined gouache texture, dynamic asymmetry, no photorealism.. Subject: Organizational development and implementation: a small team moving process cards from planning wall to a working service prototype. People, method, technology and practical change. No isolated gear icon.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "7d7ec66b75c4465f22468cc2c4eb94caf36da2586628aa1da442f80eb29d75b3",
+      "master": "assets/design-lab/20-magazine/verksamhetsutveckling-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

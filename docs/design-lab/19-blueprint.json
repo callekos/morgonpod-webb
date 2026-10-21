@@ -1,0 +1,87 @@
+{
+  "style": "19-blueprint",
+  "name": "Teknisk ritningsestetik",
+  "generator": "built-in image_gen",
+  "originals": [
+    {
+      "channel": "ibat",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 19 Teknisk ritningsestetik. Style/medium: Technical drafting aesthetic as editorial art: elegant precise white and pale cyan architectural linework on deep slate drawing paper, axonometric sections and subtle crosshatching, restrained copper highlight, coherent recognizable scene, no numbers, labels or lettering.. Subject: Information supply for crime prevention and investigation: an analyst bringing source records, a place map and evidence photographs together into one coherent operational picture. Connected source panels and a decisive human hand. No visible private data.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "1873d2fa11550c966269d1ea8f94ffff0c9f708b9e3e97cdebae63bd81735551",
+      "master": "assets/design-lab/19-blueprint/ibat-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "vald",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 19 Teknisk ritningsestetik. Style/medium: Technical drafting aesthetic as editorial art: elegant precise white and pale cyan architectural linework on deep slate drawing paper, axonometric sections and subtle crosshatching, restrained copper highlight, coherent recognizable scene, no numbers, labels or lettering.. Subject: Serious organized violence, violence as a service and digital recruitment: a contemporary Swedish street and an anonymous adult seen beside a large phone with abstract message shapes, shadowy recruiting network in the distance. No injuries, guns or sensational crime reconstruction.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "64a4c7e64516f118726754c24f949de86a85301dfb32efad6def1702ff1c90c3",
+      "master": "assets/design-lab/19-blueprint/vald-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "sjoomradet",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 19 Teknisk ritningsestetik. Style/medium: Technical drafting aesthetic as editorial art: elegant precise white and pale cyan architectural linework on deep slate drawing paper, axonometric sections and subtle crosshatching, restrained copper highlight, coherent recognizable scene, no numbers, labels or lettering.. Subject: Maritime security in the Baltic: a merchant ship, Nordic rocky shore, harbor infrastructure and a clearly identifiable undersea communications cable. Strong ship silhouette.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "c0b7e4e6a0ee1bf3fc6a50385f969cb32515de231755f933c26a3ac16c35b69e",
+      "master": "assets/design-lab/19-blueprint/sjoomradet-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "kek",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 19 Teknisk ritningsestetik. Style/medium: Technical drafting aesthetic as editorial art: elegant precise white and pale cyan architectural linework on deep slate drawing paper, axonometric sections and subtle crosshatching, restrained copper highlight, coherent recognizable scene, no numbers, labels or lettering.. Subject: Criminal finance: an investigator tracing asset transfers between company buildings, accounts and property through an elegant winding financial trail. Evidence documents in foreground. No generic money pile.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "8ba5140a2f2def66cfb368556bc0db5b20f00137487dcf283498e62a65735ae7",
+      "master": "assets/design-lab/19-blueprint/kek-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "lagstiftning",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 19 Teknisk ritningsestetik. Style/medium: Technical drafting aesthetic as editorial art: elegant precise white and pale cyan architectural linework on deep slate drawing paper, axonometric sections and subtle crosshatching, restrained copper highlight, coherent recognizable scene, no numbers, labels or lettering.. Subject: Swedish criminal law: contemporary Swedish courtroom with pale oak benches and a prominent legal volume and case folders. Nordic legal process, no American gavel. All court participants including the judge wear ordinary dark business suits and ties, no ceremonial judicial robes, wigs or white legal neck bands.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "00a1256befc05c58ad9bc5f648b1d327421a8f3e9b59d76c0344d38d9472f2d7",
+      "master": "assets/design-lab/19-blueprint/lagstiftning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "ai_brottsbekampning",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 19 Teknisk ritningsestetik. Style/medium: Technical drafting aesthetic as editorial art: elegant precise white and pale cyan architectural linework on deep slate drawing paper, axonometric sections and subtle crosshatching, restrained copper highlight, coherent recognizable scene, no numbers, labels or lettering.. Subject: Artificial intelligence in criminal investigation: human analyst checking machine assisted pattern recognition and image comparisons against source photographs. Strong human oversight and evidence verification. No robot face, no globe.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "0c1eb0da465d2e758f48ecc22b7bad02d997bfd91274c08c7566e26ad4a1624b",
+      "master": "assets/design-lab/19-blueprint/ai_brottsbekampning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "it_juridik",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 19 Teknisk ritningsestetik. Style/medium: Technical drafting aesthetic as editorial art: elegant precise white and pale cyan architectural linework on deep slate drawing paper, axonometric sections and subtle crosshatching, restrained copper highlight, coherent recognizable scene, no numbers, labels or lettering.. Subject: Privacy and information law: secure personal records archive, a person presenting a permission card at an access gate, an accountable audit trail and segregated record drawers. Clearly about access rights and personal data.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "6ddb6e2755770e5d9db693b35dc75f2e5f8d76cb86aef8ff90efdc7dd43b329c",
+      "master": "assets/design-lab/19-blueprint/it_juridik-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "verksamhetsutveckling",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 19 Teknisk ritningsestetik. Style/medium: Technical drafting aesthetic as editorial art: elegant precise white and pale cyan architectural linework on deep slate drawing paper, axonometric sections and subtle crosshatching, restrained copper highlight, coherent recognizable scene, no numbers, labels or lettering.. Subject: Organizational development and implementation: a small team moving process cards from planning wall to a working service prototype. People, method, technology and practical change. No isolated gear icon.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "8a3dbe72f91b5858c5cb509e7548a083dfce082990063f5cd16c8d372c88121c",
+      "master": "assets/design-lab/19-blueprint/verksamhetsutveckling-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

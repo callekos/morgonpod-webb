@@ -1,0 +1,87 @@
+{
+  "style": "15-retro",
+  "name": "Skandinavisk retroaffisch",
+  "generator": "built-in image_gen",
+  "originals": [
+    {
+      "channel": "ibat",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 15 Skandinavisk retroaffisch. Style/medium: Scandinavian midcentury travel poster screenprint aesthetic, simplified blocky landscapes and human figures, warm cream, dusty teal, brick red and ochre, subtle vintage ink grain, elegant bold silhouette, no typography.. Subject: Information supply for crime prevention and investigation: an analyst bringing source records, a place map and evidence photographs together into one coherent operational picture. Connected source panels and a decisive human hand. No visible private data.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "e8a3c4b5e105efe6b592ac5d5416c77ec4b83c8dafcd6233c91095e9e40572b7",
+      "master": "assets/design-lab/15-retro/ibat-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "vald",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 15 Skandinavisk retroaffisch. Style/medium: Scandinavian midcentury travel poster screenprint aesthetic, simplified blocky landscapes and human figures, warm cream, dusty teal, brick red and ochre, subtle vintage ink grain, elegant bold silhouette, no typography.. Subject: Serious organized violence, violence as a service and digital recruitment: a contemporary Swedish street and an anonymous adult seen beside a large phone with abstract message shapes, shadowy recruiting network in the distance. No injuries, guns or sensational crime reconstruction.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "4140d4ff21aae40659ffebe7a86a3fdab951d39dde97d3106aa388446b2ad7a9",
+      "master": "assets/design-lab/15-retro/vald-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "sjoomradet",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 15 Skandinavisk retroaffisch. Style/medium: Scandinavian midcentury travel poster screenprint aesthetic, simplified blocky landscapes and human figures, warm cream, dusty teal, brick red and ochre, subtle vintage ink grain, elegant bold silhouette, no typography.. Subject: Maritime security in the Baltic: a merchant ship, Nordic rocky shore, harbor infrastructure and a clearly identifiable undersea communications cable. Strong ship silhouette.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "22c23b7b00ebb6d0178608fd1257f76cb5144c3881fbf696827747fc079df316",
+      "master": "assets/design-lab/15-retro/sjoomradet-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "kek",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 15 Skandinavisk retroaffisch. Style/medium: Scandinavian midcentury travel poster screenprint aesthetic, simplified blocky landscapes and human figures, warm cream, dusty teal, brick red and ochre, subtle vintage ink grain, elegant bold silhouette, no typography.. Subject: Criminal finance: an investigator tracing asset transfers between company buildings, accounts and property through an elegant winding financial trail. Evidence documents in foreground. No generic money pile.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "db316d5f113dbef73f5e8ba74e894161103522f6073929f2ac7fe31d5a98c21c",
+      "master": "assets/design-lab/15-retro/kek-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "lagstiftning",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 15 Skandinavisk retroaffisch. Style/medium: Scandinavian midcentury travel poster screenprint aesthetic, simplified blocky landscapes and human figures, warm cream, dusty teal, brick red and ochre, subtle vintage ink grain, elegant bold silhouette, no typography.. Subject: Swedish criminal law: contemporary Swedish courtroom with pale oak benches and a prominent legal volume and case folders. Nordic legal process, no American gavel.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event. Local edit: replace ceremonial judicial clothing with contemporary dark business suit, white shirt and dark tie, retaining the scene.",
+      "generated_png_sha256": "b66c7d2bb7461ac2d6528cda7f348a042f7127ae83abfc427fbebfb69242273a",
+      "master": "assets/design-lab/15-retro/lagstiftning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "ai_brottsbekampning",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 15 Skandinavisk retroaffisch. Style/medium: Scandinavian midcentury travel poster screenprint aesthetic, simplified blocky landscapes and human figures, warm cream, dusty teal, brick red and ochre, subtle vintage ink grain, elegant bold silhouette, no typography.. Subject: Artificial intelligence in criminal investigation: human analyst checking machine assisted pattern recognition and image comparisons against source photographs. Strong human oversight and evidence verification. No robot face, no globe.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "eef817bb728c426814ada47b45fb54f1210c98f88f672ab940ca258084cff474",
+      "master": "assets/design-lab/15-retro/ai_brottsbekampning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "it_juridik",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 15 Skandinavisk retroaffisch. Style/medium: Scandinavian midcentury travel poster screenprint aesthetic, simplified blocky landscapes and human figures, warm cream, dusty teal, brick red and ochre, subtle vintage ink grain, elegant bold silhouette, no typography.. Subject: Privacy and information law: secure personal records archive, a person presenting a permission card at an access gate, an accountable audit trail and segregated record drawers. Clearly about access rights and personal data.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "aa6e858fa49d6794d204a1f8fffb509b08ffeff457513e6719c6749230aa4e9a",
+      "master": "assets/design-lab/15-retro/it_juridik-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "verksamhetsutveckling",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 15 Skandinavisk retroaffisch. Style/medium: Scandinavian midcentury travel poster screenprint aesthetic, simplified blocky landscapes and human figures, warm cream, dusty teal, brick red and ochre, subtle vintage ink grain, elegant bold silhouette, no typography.. Subject: Organizational development and implementation: a small team moving process cards from planning wall to a working service prototype. People, method, technology and practical change. No isolated gear icon.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "f826d2211d0a54e87ea2e44b1921312f43b641b4a9c86b697f16d9c4e59c872d",
+      "master": "assets/design-lab/15-retro/verksamhetsutveckling-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

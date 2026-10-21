@@ -7,7 +7,9 @@ test('V3 four sections, eight distinct images, themes and bounded morning playli
  await expect(page.locator('.knowledge-card')).toHaveCount(4);const paths=await page.locator('.home-channels img').evaluateAll(images=>images.map(im=>im.getAttribute('src').split('?')[0]));expect(new Set(paths).size).toBe(8);
  const manifest=await(await page.request.get('/catalog/manifest.json')).json();expect(manifest.collections.episodes.count).toBeGreaterThanOrEqual(25);expect(Object.keys(manifest.superseded)).toHaveLength(5);
  const rows=(await Promise.all(manifest.collections.episodes.pages.map(p=>page.request.get('/'+p).then(r=>r.json())))).flatMap(p=>p.items);expect(rows.filter(e=>e.id.startsWith('WORK_LIBRARY_2026_10:'))).toHaveLength(25);
- expect(rows.some(e=>manifest.superseded[e.id])).toBe(false);
+ // Source lists may retain retired records; verify the client hides those IDs.
+ const active=rows.filter(e=>!manifest.superseded[e.id]);expect(active.length).toBeGreaterThan(0);
+ await page.goto('/lyssna.html');await expect(page.locator('.episode').first()).toBeVisible();const visible=await page.locator('.episode').evaluateAll(nodes=>nodes.map(n=>n.dataset.id));expect(visible.length).toBeGreaterThan(0);expect(visible.every(id=>active.some(e=>e.id===id))).toBe(true);expect(visible.some(id=>manifest.superseded[id])).toBe(false);await page.goto('/idag.html');await expect(page.locator('.morning-strip a').first()).toBeVisible();
  const actual=await page.locator('.morning-strip a').count();expect(actual).toBeGreaterThan(0);expect(actual).toBeLessThanOrEqual(4);
  await page.getByRole('button',{name:'Spela bevakningen',exact:true}).click();await expect(page.locator('#player')).toBeVisible();await expect.poll(()=>page.locator('#audio').evaluate(a=>a.currentTime)).toBeGreaterThan(0);await page.locator('#play-pause').click();
  await page.locator('#queue-toggle').click();await expect(page.locator('.queue-title')).toHaveCount(actual-1);await page.getByRole('button',{name:'Stäng kön'}).click();

@@ -1,0 +1,87 @@
+{
+  "style": "16-paper",
+  "name": "Taktil papperskonst",
+  "generator": "built-in image_gen",
+  "originals": [
+    {
+      "channel": "ibat",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 16 Taktil papperskonst. Style/medium: Tactile handcrafted paper sculpture, real folded and layered colored cardstock, cut edges and directional cast shadows, cream tabletop, coral, sage, golden yellow and charcoal, photographic studio macro of a coherent miniature scene.. Subject: Information supply for crime prevention and investigation: an analyst bringing source records, a place map and evidence photographs together into one coherent operational picture. Connected source panels and a decisive human hand. No visible private data.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "799fcc313aab57c1c8b6a9b21dd66ab564acce4e805870858ec7a0fa0421fe87",
+      "master": "assets/design-lab/16-paper/ibat-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "vald",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 16 Taktil papperskonst. Style/medium: Tactile handcrafted paper sculpture, real folded and layered colored cardstock, cut edges and directional cast shadows, cream tabletop, coral, sage, golden yellow and charcoal, photographic studio macro of a coherent miniature scene.. Subject: Serious organized violence, violence as a service and digital recruitment: a contemporary Swedish street and an anonymous adult seen beside a large phone with abstract message shapes, shadowy recruiting network in the distance. No injuries, guns or sensational crime reconstruction.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "6fe04139eb8c1415b41bc858207c0c9509df928b9f827b6036108941a3327d6a",
+      "master": "assets/design-lab/16-paper/vald-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "sjoomradet",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 16 Taktil papperskonst. Style/medium: Tactile handcrafted paper sculpture, real folded and layered colored cardstock, cut edges and directional cast shadows, cream tabletop, coral, sage, golden yellow and charcoal, photographic studio macro of a coherent miniature scene.. Subject: Maritime security in the Baltic: a merchant ship, Nordic rocky shore, harbor infrastructure and a clearly identifiable undersea communications cable. Strong ship silhouette.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "dd1784a274bfbc7322708c57826f7323967e17506cdd99e6d030841ef4402450",
+      "master": "assets/design-lab/16-paper/sjoomradet-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "kek",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 16 Taktil papperskonst. Style/medium: Tactile handcrafted paper sculpture, real folded and layered colored cardstock, cut edges and directional cast shadows, cream tabletop, coral, sage, golden yellow and charcoal, photographic studio macro of a coherent miniature scene.. Subject: Criminal finance: an investigator tracing asset transfers between company buildings, accounts and property through an elegant winding financial trail. Evidence documents in foreground. No generic money pile.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "6833d0b98c225bc61a033f5407884a5e8d9f770a48311ee8d1c7969f067bd508",
+      "master": "assets/design-lab/16-paper/kek-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "lagstiftning",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 16 Taktil papperskonst. Style/medium: Tactile handcrafted paper sculpture, real folded and layered colored cardstock, cut edges and directional cast shadows, cream tabletop, coral, sage, golden yellow and charcoal, photographic studio macro of a coherent miniature scene.. Subject: Swedish criminal law: contemporary Swedish courtroom with pale oak benches and a prominent legal volume and case folders. Nordic legal process, no American gavel. All court participants including the judge wear ordinary dark business suits and ties, no ceremonial judicial robes, wigs or white legal neck bands.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "a76bbfdb4f6d632c85e22196a70ca2d2a6f5a5bfb9b49ccb94978bc030385bb4",
+      "master": "assets/design-lab/16-paper/lagstiftning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "ai_brottsbekampning",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 16 Taktil papperskonst. Style/medium: Tactile handcrafted paper sculpture, real folded and layered colored cardstock, cut edges and directional cast shadows, cream tabletop, coral, sage, golden yellow and charcoal, photographic studio macro of a coherent miniature scene.. Subject: Artificial intelligence in criminal investigation: human analyst checking machine assisted pattern recognition and image comparisons against source photographs. Strong human oversight and evidence verification. No robot face, no globe.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "d174059a127310f76284d16945b7970c6576c4adb00ba62f98dfc38ce3dfeb35",
+      "master": "assets/design-lab/16-paper/ai_brottsbekampning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "it_juridik",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 16 Taktil papperskonst. Style/medium: Tactile handcrafted paper sculpture, real folded and layered colored cardstock, cut edges and directional cast shadows, cream tabletop, coral, sage, golden yellow and charcoal, photographic studio macro of a coherent miniature scene.. Subject: Privacy and information law: secure personal records archive, a person presenting a permission card at an access gate, an accountable audit trail and segregated record drawers. Clearly about access rights and personal data.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "bd5c66e79e6f6a6096d79a6769b6f275b2f523e6ba98df07c00e3cfe5e459567",
+      "master": "assets/design-lab/16-paper/it_juridik-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "verksamhetsutveckling",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 16 Taktil papperskonst. Style/medium: Tactile handcrafted paper sculpture, real folded and layered colored cardstock, cut edges and directional cast shadows, cream tabletop, coral, sage, golden yellow and charcoal, photographic studio macro of a coherent miniature scene.. Subject: Organizational development and implementation: a small team moving process cards from planning wall to a working service prototype. People, method, technology and practical change. No isolated gear icon.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "c5a864d653eca547a0ebae69b68841aaa6216ad33a10c9f26c22290ddceff69a",
+      "master": "assets/design-lab/16-paper/verksamhetsutveckling-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
