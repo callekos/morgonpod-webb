@@ -4,7 +4,7 @@ async function capture(page,path){await page.waitForLoadState('networkidle');awa
 test('V2 channel identity, tabs and all appearance modes',async({page},info)=>{
  const errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto('/kanaler.html');await expect(page.locator('.channel-card')).toHaveCount(await channelCount(page));await expect(page.getByRole('heading',{name:'Kanaler',exact:true})).toBeVisible();
- await page.getByRole('searchbox').fill('IBAT');await expect(page.locator('.channel-card')).toHaveCount(1);await page.locator('.channel-card').click();
+ await expect(page.getByRole('searchbox')).toHaveCount(0);await expect(page.locator('#nav a[href="utforska.html"]')).toBeVisible();await page.locator('.channel-card[href="kanal.html?id=ibat"]').click();
  await expect(page.getByRole('heading',{name:'IBAT - Informationsförsörjning',exact:true})).toBeVisible();
  await page.getByRole('link',{name:'Om kanalen',exact:true}).click();await expect(page.getByRole('heading',{name:'Om ämnet'})).toBeVisible();
  await page.getByRole('link',{name:'Avsnitt',exact:true}).click();await page.locator('#archive-sort').selectOption('oldest');await expect(page.locator('.episode').first()).toContainText('Avsnitt 1 / Uppstart');

@@ -1,3 +1,7 @@
+## Uppföljning: gemensamt sidhuvud, 2026-10-21
+
+Prenumerera ligger längst till höger. Sidhuvudets söklänk och sökfältet på Kanaler har tagits bort. Sök finns kvar i huvudnavigationen. Kanaler och Artiklar har samma rubrikstruktur och typografi. Kanalfilter och allt innehåll bevaras. Lokalt: 37 enhetstester och 20 Chromium-prov godkända, inklusive 320 px, stor text, tangentbord, kanalfilter och bibehållen uppspelning. Publicering och WebKit verifieras i PR-flödet; detta är ännu ingen publiceringskvittens.
+
 # Webbuppdrag 39: publicerat och verifierat
 
 PR #41 och miljörättning #42 är integrerade. Pages 39657136584 är grön. Slutlig mainacceptans 39658586702: 37 enhetstester, 184 browserfall inklusive iPhone/iPad WebKit och 21 livefall godkända. Publicerade bytes verifierades 21 oktober kl. 19:10:34 UTC; liveproven avslutades 19:11:48 UTC. Startsidan har kompakta bevakningskort och avlånga kunskapskort; Kanaler har avlånga kort för båda grupperna. Färgband och dekorativa namnikoner är borttagna. #37, egna bildval, ljud, råposter, datum, nummer och 15 specialer är bevarade. Endast uttryckligen beslutad veckoöversikt och dess artikel avpubliceras via beständig policy. Fysisk iPhone är inte testad. Inget återstår i #39. Se [fullständigt slutkvitto](CHANNEL-CARDS-39.md).
