@@ -46,3 +46,11 @@ Ett nytt globalt unikhetstest hittade tomma masterexporter i 02/AI, 03/IT-juridi
 PR 22 head 286c55c414b8f30e88ae9631d7a2482a61b5d78f, merge d0a2bae33eef50e2164c61722a1c248e7d5974a9. CI 39537197891: 33 enhetsprov och 120 browserfall gröna. Pages 39537596175 grön. Main-CI 39537596815 helt grön, exakta frontendbytes och sju seriers derivat verifierade 03:19:45 UTC, 25 avsnitt bevarade, fyra liveflöden passerade 03:20:41 UTC. Direkt moln-Chrome: alla åtta kanalbilder laddade för 04, 05, 10 och 11, samma ljud fortsatte från 1:50 till 2:01 och kön behöll fyra kommande. Uppspelning pausad. Bildbevis: docs/evidence/v4-batch3-live.jpg.
 
 Sju publicerade experimentella serier: 02, 03, 04, 05, 10, 11, 17. Återstår 13 serier och 104 original. Nästa batch 01, 06, 07, 08 produceras nu med separata inbyggda bildanrop. Ingen aktivering före granskning av komplett serie. Inga katalog-, ljud- eller kärnspelarändringar i bildbatcherna.
+
+## Batch 4 klar lokalt
+
+01 Dokumentärfoto, 06 Analog film, 07 Oljemålning och 08 Geometrisk affischkonst har producerats med separata inbyggda bildanrop och granskats tillsammans samt i små och kvadratiska beskärningar. Alla elva serier har avkodade WebP-filer och unika PNG- och masterhashar, se quality-batch-4.json. Ny reproducerbar kontroll: python3 scripts/audit-art-assets.py --expected-series 20 --output docs/design-lab/quality-final.json (kör med 11 före batch 4-release).
+
+Originalserier sparas även i grenen work/v4-art-production-checkpoints utan Actions-körningar. Den grenen är återhämtningsunderlag, inte release. Manifestet i publicerad main ska endast ändras genom en verifierad releasegren. Lokala upload-STYLEID.json innehåller redan verifierade blobhashar för avbruten uppladdning.
+
+02 Redaktionell illustration har nu dokumenterad PNG-proveniens; dess initiala exakta promptordalydelse var inte bevarad och promptfältet är därför uttryckligen märkt som normaliserad rekonstruktion från produktionsbriefen. Övriga nya serier innehåller faktiskt använda prompter. Ingen ny generering av äldre serier har gjorts.
