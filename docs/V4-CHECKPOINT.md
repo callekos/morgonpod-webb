@@ -24,3 +24,7 @@ Ordinarie V3 plus 02 Redaktionell illustration är publicerade. Batch 2 innehål
 ## Permanent stil och återställning
 
 Ägaren väljer själv slutlig stil efter test i laboratoriet. Ny standard kräver separat uttryckligt beslut och PR. Behåll V3 tillgänglig och befintliga lokala val. Rollback ändrar enbart avsedda frontendfiler/manifest, aldrig hela katalogen över nya publiceringar. Alla publicerade avsnitt, artiklar, källor och ordinarie kataloguppdateringar bevaras. Gemini, TTS och Watson ska inte ändras.
+
+## Tillgänglighet, nästa fristående etapp
+
+Axe-core 4.14.0 hittade nested-interactive i avsnittsradernas summary. Spelknappen har flyttats till en separat syskonkontroll med samma utseende och kö. Efter rättning: 54 befintliga desktop/Android-prov och fyra nya riktade prov passerar; fem huvudvyer i båda teman har noll automatiska wcag2a/wcag2aa/wcag21aa-träffar. Nya tester kontrollerar oberoende Enter-uppspelning/expansion och reduced motion. Detta är inte fysisk VoiceOver-kvittens. Filerna ska få egen PR och full WebKit-CI före merge.

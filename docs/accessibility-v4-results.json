@@ -1,0 +1,52 @@
+[
+  {
+    "path": "idag.html",
+    "scheme": "light",
+    "violations": []
+  },
+  {
+    "path": "kanaler.html",
+    "scheme": "light",
+    "violations": []
+  },
+  {
+    "path": "kanal.html?id=lagstiftning",
+    "scheme": "light",
+    "violations": []
+  },
+  {
+    "path": "designlaboratorium.html",
+    "scheme": "light",
+    "violations": []
+  },
+  {
+    "path": "utforska.html",
+    "scheme": "light",
+    "violations": []
+  },
+  {
+    "path": "idag.html",
+    "scheme": "dark",
+    "violations": []
+  },
+  {
+    "path": "kanaler.html",
+    "scheme": "dark",
+    "violations": []
+  },
+  {
+    "path": "kanal.html?id=lagstiftning",
+    "scheme": "dark",
+    "violations": []
+  },
+  {
+    "path": "designlaboratorium.html",
+    "scheme": "dark",
+    "violations": []
+  },
+  {
+    "path": "utforska.html",
+    "scheme": "dark",
+    "violations": []
+  }
+]

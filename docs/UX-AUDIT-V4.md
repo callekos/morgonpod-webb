@@ -13,7 +13,7 @@ Granskad 21 oktober 2026. V3 behåller redaktionell identitet, sidonavigation p�
 | 5 | Artiklar och källor | Bra läsbredd, tydliga källor och tidig ljudkoppling. Mellanrubriker i källtext behöver återges semantiskt när de faktiskt finns. `evidence/v4-audit-article-desktop.png`. |
 | 6 | Sök och ämnen | Sökningen är ordindelad och begär avgränsade index. Kanal, avsnittstyp och längd saknas som kombinerade urval. `evidence/v4-audit-search-desktop.png`. |
 | 7 | Mini-, fullspelare och kö | Samma ljudnod bevaras. Kö kan redigeras och fortsätta över arkivsidor. Nya bildmarkörer i kön behöver tvåspaltsjustering, inte mer spelarhöjd. |
-| 8 | Mer och teman | Ljust, mörkt och systemläge fungerar. Bildval är separat lokal inställning. `evidence/desktop-designlab.png`, `evidence/android-chromium-designlab.png`. |
+| 8 | Mer och teman | Ljust, mörkt och systemläge fungerar. Bildval är separat lokal inställning. `evidence/v4-audit-lab-live.jpg`, `evidence/v4-audit-lab-mobile.png`. |
 | 9 | Stora arkiv och nya poster | Befintliga prov omfattar 20 kanaler, 6 000 avsnitt och 24 000 artiklar. Katalogen hämtas i sidor. Ordinarie nästa dag och specialavsnitt hålls skilda. |
 | 10 | Tillgänglighet och rörelse | Semantiska kontroller, synliga fokusmarkeringar, reduced motion och safe areas finns. WebKit är emulering. Fysisk iPhone, VoiceOver och långvarig bakgrundsuppspelning är ännu inte verifierade. |
 
@@ -51,3 +51,7 @@ Primärkällor lästa 21 oktober. Jämförelsen gäller dokumenterade användnin
 ## Avgränsning
 
 Större grafiska omtag och ny permanent bildstandard kräver ägarens val. De genomförda små ändringarna håller V3:s informationsarkitektur. Inga konton, favoriter, personliga rekommendationer eller parallella produktionsmotorer tillkommer. Framtida 07.45-publicering kan aldrig bevisas av ett frontendtest i förväg.
+
+## Ytterligare verifierad tillgänglighetsrättning
+
+Axe-core 4.14.0 på fem huvudvyer i båda färgteman hittade nested-interactive på avsnittsraderna: en spelknapp låg inuti summary. Spelknappen är nu en separat syskonkontroll bredvid details, med samma kontextkö och visuella rad. Efter rättningen visar de tio automatiska kombinationerna inga träffar inom wcag2a, wcag2aa och wcag21aa. Resultatet finns i accessibility-v4-results.json. Detta är automatisk regelkontroll, inte full WCAG-certifiering eller fysisk VoiceOver-testning. Nya browserprov kontrollerar att Enter på spelknappen spelar utan expansion och att Enter på summary expanderar utan att avbryta ljudet.
