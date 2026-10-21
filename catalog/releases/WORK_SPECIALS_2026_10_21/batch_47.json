@@ -1,0 +1,93 @@
+{
+  "identity": "WORK_SPECIALS_2026_10_21",
+  "before_episodes": 44,
+  "after_episodes": 47,
+  "before_articles": 54,
+  "after_articles": 57,
+  "preserved_prior_records": true,
+  "channels": 8,
+  "added": [
+    {
+      "id": "WORK_SPECIALS_2026_10_21:kek_3",
+      "channel": "kek",
+      "date": "2026-10-21",
+      "title": "Penningtvättsbrott: rekvisit, insikt och den ekonomiska beviskedjan",
+      "description": "En svensk grundgenomgång av penningtvättsbrott, penningtvättsförseelse och näringspenningtvätt. Ett fiktivt kontofall visar varför flöde, ursprung och personligt ansvar måste utredas var för sig.",
+      "kind": "historical",
+      "edition_type": "special",
+      "origin": "work_special",
+      "production_identity": "WORK_SPECIALS_2026_10_21",
+      "library_release_id": "WORK_SPECIALS_2026_10_21",
+      "is_intro": false,
+      "episode_order": 5,
+      "published_at": "2026-10-21T16:36:17.602707+00:00",
+      "published_at_source": "special_release_transaction",
+      "published_at_status": "transaction_started",
+      "audio": "episodes/work_specials/WORK_SPECIALS_2026_10_21/kek_3/morgonpod.mp3",
+      "brief": "episodes/work_specials/WORK_SPECIALS_2026_10_21/kek_3/brief.json",
+      "sources": "episodes/work_specials/WORK_SPECIALS_2026_10_21/kek_3/kallor.json",
+      "duration_seconds": 394.608,
+      "article_count": 1,
+      "tags": [
+        "Fördjupning",
+        "Specialavsnitt"
+      ]
+    },
+    {
+      "id": "WORK_SPECIALS_2026_10_21:kek_4",
+      "channel": "kek",
+      "date": "2026-10-21",
+      "title": "Självständigt förverkande: beviskravet, egendomen och rättssäkerheten",
+      "description": "Vad 36 kap. 5 § brottsbalken innebär och hur förfarandet skiljer sig från prövning av skuld. Legitima förklaringar, ägande, tredje man och skillnaden mellan tillfälliga åtgärder och slutligt förverkande.",
+      "kind": "historical",
+      "edition_type": "special",
+      "origin": "work_special",
+      "production_identity": "WORK_SPECIALS_2026_10_21",
+      "library_release_id": "WORK_SPECIALS_2026_10_21",
+      "is_intro": false,
+      "episode_order": 6,
+      "published_at": "2026-10-21T16:36:17.602707+00:00",
+      "published_at_source": "special_release_transaction",
+      "published_at_status": "transaction_started",
+      "audio": "episodes/work_specials/WORK_SPECIALS_2026_10_21/kek_4/morgonpod.mp3",
+      "brief": "episodes/work_specials/WORK_SPECIALS_2026_10_21/kek_4/brief.json",
+      "sources": "episodes/work_specials/WORK_SPECIALS_2026_10_21/kek_4/kallor.json",
+      "duration_seconds": 365.856,
+      "article_count": 1,
+      "tags": [
+        "Fördjupning",
+        "Specialavsnitt"
+      ]
+    },
+    {
+      "id": "WORK_SPECIALS_2026_10_21:kek_5",
+      "channel": "kek",
+      "date": "2026-10-21",
+      "title": "Följ värdet: ekonomisk analys och tillgångsinriktad brottsbekämpning",
+      "description": "Hur ekonomiska frågor kan följa en utredning från början. Flöden, ägande, alternativa hypoteser och rättsliga åtgärder kopplas till en sammanhängande och granskningsbar arbetsmodell.",
+      "kind": "historical",
+      "edition_type": "special",
+      "origin": "work_special",
+      "production_identity": "WORK_SPECIALS_2026_10_21",
+      "library_release_id": "WORK_SPECIALS_2026_10_21",
+      "is_intro": false,
+      "episode_order": 7,
+      "published_at": "2026-10-21T16:36:17.602707+00:00",
+      "published_at_source": "special_release_transaction",
+      "published_at_status": "transaction_started",
+      "audio": "episodes/work_specials/WORK_SPECIALS_2026_10_21/kek_5/morgonpod.mp3",
+      "brief": "episodes/work_specials/WORK_SPECIALS_2026_10_21/kek_5/brief.json",
+      "sources": "episodes/work_specials/WORK_SPECIALS_2026_10_21/kek_5/kallor.json",
+      "duration_seconds": 368.184,
+      "article_count": 1,
+      "tags": [
+        "Fördjupning",
+        "Specialavsnitt"
+      ]
+    }
+  ],
+  "transaction_started_at": "2026-10-21T16:36:17.602707+00:00",
+  "telegram_sent": false,
+  "gemini_calls": 0,
+  "ordinary_configuration_changed": false
+}

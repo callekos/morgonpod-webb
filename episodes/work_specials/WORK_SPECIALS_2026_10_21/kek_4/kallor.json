@@ -1,0 +1,72 @@
+[
+  {
+    "id": "brb",
+    "title": "Brottsbalk (1962:700), konsoliderad lagtext",
+    "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsbalk-1962700_sfs-1962-700/",
+    "source_type": "legislation",
+    "evidence": {
+      "path": "brb.txt",
+      "page_sha256": "fafee1cd59cdea74044ca26733607715f8cdec5a99d256c964718a606b22cfe7",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:49:50.101204+00:00",
+      "http_status": 200
+    },
+    "characters": 364276
+  },
+  {
+    "id": "forverk_law",
+    "title": "Lag (2024:782) om förfarandet vid förverkande av egendom och åläggande av företagsbot",
+    "url": "https://data.riksdagen.se/dokument/sfs-2024-782.html",
+    "source_type": "legislation",
+    "evidence": {
+      "path": "forverk_law.txt",
+      "page_sha256": "700e05782a04d0c646dd2402c3b3835a33ccf1e18b4688b4317b40e48e2d1e5d",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:49:57.649505+00:00",
+      "http_status": 200
+    },
+    "characters": 20899
+  },
+  {
+    "id": "rav_forverk",
+    "title": "Åklagarmyndigheten RäV 2024:07 Brottsvinster och oförklarade tillgångar, mars 2025",
+    "url": "https://www.aklagare.se/globalassets/dokument/rattsliga-vagledningar/rav-202407-brottsvinster-och-oforklarade-tillgangar.pdf",
+    "source_type": "prosecutor_guidance",
+    "evidence": {
+      "path": "rav_forverk.txt",
+      "page_sha256": "3ba431fad33dfd722ef1d4ed6da1aca4e64acae75ab7460c4db62c2aae5d7364",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:49:56.735484+00:00",
+      "http_status": 200
+    },
+    "characters": 292395
+  },
+  {
+    "id": "eskilstuna",
+    "title": "Eskilstuna tingsrätt: nyhet om dom B 271-25, 6 februari 2026",
+    "url": "https://www.domstol.se/nyheter/2026/02/dom-i-mal-om-sjalvstandigt-forverkande/",
+    "source_type": "court_press_release",
+    "evidence": {
+      "path": "eskilstuna.txt",
+      "page_sha256": "7d203a5fa1af8e3afe612da444b9adc4ac858497e7e4eca0c46f9dffac0a879a",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:50:02.519086+00:00",
+      "http_status": 200
+    },
+    "characters": 1022
+  },
+  {
+    "id": "rb",
+    "title": "Rättegångsbalk (1942:740), konsoliderad lagtext",
+    "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/rattegangsbalk-1942740_sfs-1942-740/",
+    "source_type": "legislation",
+    "evidence": {
+      "path": "rb.txt",
+      "page_sha256": "c77e4d0811bf002b8dbc254fbd8d21dacd0c0f18d21ccb783b3afb39c0de665b",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:49:51.175506+00:00",
+      "http_status": 200
+    },
+    "characters": 540264
+  }
+]
