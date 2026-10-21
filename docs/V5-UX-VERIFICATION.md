@@ -6,13 +6,13 @@ Designlaboratoriets långa rubrik behövde 325 px i en 280 px innehållsyta vid 
 
 Sidhuvudets långa ord får nu brytas. Bildväljarens fieldset tillåts krympa och textspalten använder minmax(0,1fr) samt ordombrytning. Inget innehåll döljs och ingen global overflow-spärr används. Ordinarie V3-layout, bildval, teman, spelare och kö behålls.
 
-Nytt browserprov verifierar verklig 320 px layoutyta, 200 procent rottextstorlek, reduced motion, val av stil 20 med blanksteg, återställning med Enter och klickbar mobilnavigation tillbaka till Idag. Det passerar på desktop och emulerad Android. Full lokal browsermatris: 66 godkända desktop/Android-fall. Full WebKit-CI återstår före integration.
+Nytt browserprov verifierar verklig 320 px layoutyta, 200 procent rottextstorlek, reduced motion, val av stil 20 med blanksteg, återställning med Enter och klickbar mobilnavigation tillbaka till Idag. Full lokal browsermatris: 66 godkända desktop/Android-fall. PR 32 integrerad som 6a0277176d2b978a492007c555c475d1e525d705 efter grön PR-CI 39581847544. Main-CI 39582534557 är helt grön med 34 enhetsprov, 132 browserfall inklusive iPhone/iPad WebKit, exakt filverifiering och fyra publicerade liveflöden. Pages 39582532909 är grön. Direkt moln-Chrome verifierade den nya CSS-versionen och ordombrytningen.
 
 ## Bildpayload
 
 Lokal kall Chromium-mätning med Pixel 5, utan service worker eller tidigare bildval, efter att första innehållet blivit synligt:
 
-| Vy | Bildförfrågningar | Avkodad HTTP-payload, encodedBodySize | Kontroll |
+| Vy | Bildförfrågningar | Bilddata, encodedBodySize | Kontroll |
 | --- | --- | --- | --- |
 | Idag | 8 | 539 960 byte | Noll experimentella bilder |
 | Designlaboratorium | 15 | 757 590 byte | Enbart kontaktförhandsvisningar, noll masterfiler |

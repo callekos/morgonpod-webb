@@ -1,5 +1,15 @@
 # V5, verifierad återhämtning 21 oktober 2026
 
+## V5 färdiglevererad
+
+Även den sista avgränsade UX-rättningen är publicerad: PR 32, merge 6a0277176d2b978a492007c555c475d1e525d705. PR-CI 39581847544 och main-CI 39582534557 är helt gröna: 34 enhetsprov, 132 browserfall inklusive iPhone/iPad WebKit, exakt filverifiering på Pages och fyra publicerade liveflöden. Pages 39582532909 är grön.
+
+Direkt moln-Chrome verifierade senaste CSS-versionen v5-large-text-1, 20 valbara stilar, fungerande ordombrytning samt beständigt lokalt stilval med alla åtta kanalbilder laddade. Bildbevis: [publicerat laboratorium](evidence/v5-live.jpg). V3 är fortsatt global standard.
+
+Inget bild- eller kodarbete återstår i den avgränsade V5-leveransen. Ärende 14 är avslutat med slutkvitto. Ärende 16 behåller externa prov och större beslut som öppna punkter; godkända småförbättringar är levererade. Nästa separata produktuppdrag är kanalgrupperingen i 28. Permanent bildstandard kräver ägarens uttryckliga val. Fysisk iPhone Safari, VoiceOver och långvarig bakgrundsuppspelning är inte verifierade.
+
+Ett separat lokalt headless-liveförsök stoppades av ERR_EMPTY_RESPONSE före sidladdning. Det räknas inte som ett godkänt produktprov. Liveverifieringen ovan utfördes i moln-Chrome och i GitHubs publiceringsgrind. Senare avsnittspubliceringar har bevarats; varken PR 30 eller 32 ändrar katalog, artiklar, källor, ljud eller produktion.
+
 ## Slutkvitterad bildrelease
 
 PR 30 integrerad som 0415051ea5e7201cd0d2c59e1c7aa91d9059e4a7. PR-CI 39578014128 och main-CI 39580690860 helt gröna: 33 enhetsprov, 128 browserfall inklusive iPhone/iPad WebKit, exakta frontend- och bildbytes samt fyra publicerade liveflöden. Pages 39580690500 ersattes av senare publicering efter redaktionens dokumentations-PR 31. Pages 39580853273 för cf497d2 är grön och innehåller bildreleasen.
