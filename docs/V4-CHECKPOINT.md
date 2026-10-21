@@ -1,78 +1,43 @@
-# V4 checkpoint, 21 oktober 2026
+# Morgonpodden V4, aktuell checkpoint
 
-## Integrerat och verifierat
+Uppdaterad 21 oktober 2026. Fortsätt befintligt arbete, generera inte om färdiga serier. Denna fil ersätter den löpande checkpointens äldre delsummeringar; full historik finns i git.
 
-Webb PR 17, merge 335f27d: fyra dagliga och fyra kunskapskanaler. Producent PR 118, merge 2bc6592: endast återkommande Lagstiftning avaktiverad genom automatic_production=false, historisk typbestämning bevarad. 333 lokala producentprov och producent-CI passerade. Fyra övriga kanalregister och 07.45-tider oförändrade.
+## Verifierat publicerat
 
-Webb PR 18, merge 6b29d91: live Designlaboratorium under Mer, kanoniskt bildmanifest, lokal beständig inställning, återställning och fallback. V3 är alltid standard för besökare utan eget val. 33 enhetsprov och 96 browserfall passerade i CI 39530906834. Publicerings-CI 39531389244 är grön. Direkt moln-Chrome-prov: byte till Redaktionell illustration, samma IT-juridikljud fortsatte från 0:36 till 1:27 och kön behöll fyra kommande. Testuppspelningen pausades. Ingen fysisk iPhone påstås testad.
+V3 är standard. Designlaboratorium finns under Mer och på https://callekos.github.io/morgonpod-webb/designlaboratorium.html. Stilval sparas lokalt och påverkar inte andra besökare. Uppspelning och kontextkö bevaras vid stilbyte.
 
-Webb PR 19, merge cc542be: typanpassade kunskapsingångar, fyra synliga bevakningskort på mobil, jämnt kunskapsgrid, kombinerade sökfilter kanal/typ/längd, filtrerad sidfortsättning i kontextkön, artikelrubriker från faktisk text och effektivare sizes. 33 enhetsprov och 108 browserfall godkända i CI 39532417757. Dess nya publiceringskvitto ska kontrolleras. Audit och 14 prioriteringar: UX-AUDIT-V4.md. Äldre issue 1 avslutat efter verifiering.
+15 experimentella serier publicerade genom PR 18, 20, 22, 23 och 25. Senaste bildrelease: PR 25, merge c6ae6a2fbb3a2c37557755e7309656673db60db6. Main-CI 39545294242 helt grön: 33 enhetsprov, 128 browserfall och fyra publicerade flöden.
 
-## Bildproduktion
+Klassificering publicerad i webb-PR 17 samt producent-PR 118 och dokumenterad i producent-PR 119. Lagstiftning är kunskapskanal med historik, automatic_production false. Exakt fyra dagliga kanaler: IBAT, Våld, Sjöområdet och Kriminell ekonomi. Producentens 333 lokala offlineprov och CI 39530173377 gröna. De fyra dagliga kanalernas produktionstider och kärnproduktion ändrades inte. Rör inte Gemini, TTS eller Watson.
 
-Ordinarie V3 plus 02 Redaktionell illustration är publicerade. Batch 2 innehåller 03 Grafisk minimalism och 17 Monokromt reportage, båda med åtta separat genererade original, tre WebP-format per kanal och kontaktförhandsvisning. Serierna är visuellt granskade och sex riktade desktop/Android-prov samt 33 enhetsprov passerade efter lokal aktivering. Alla 66 binära batchfiler har laddats upp med exakt blobhashkontroll. Releasegrenen ska få full CI och livekvitto före nästa bildbatch.
+UX publicerad i PR 19, 21 och 24: mobilens fyra bevakningskort, kunskapsingångar, kombinerade sökfilter, semantiska artikelrubriker, kompakt kö, separata play/expand-kontroller, tangentbord, reduced motion, responsiva omslag, mindre redundant metadata och beständig sökstatus. UX-CI 39544111942 helt grön.
 
-17 av 20 experimentella stilar återstår att producera. Se docs/design-lab/STYLE-STATUS.md och production-plan.json. scripts/build-art-series.py kräver åtta distinkta original, sparar prompter och SHA256, bygger optimerade derivat och aktiverar först med --activate efter granskning. Originalmotiven sparas som master-WebP i respektive stilkatalog.
+Ärende 15 och äldre 1 och 3 avslutade efter verifiering. 10 och 12 var redan avslutade vid övertagandet. 14 följer slutleveransen och ägarens stilval; 16 följer UX och kvarstående fysisk provning.
 
-## Nästa konkreta steg
+## Slutbatch klar lokalt
 
-1. Verifiera PR 19 live och publicera batch 2 på färsk main, utan att röra katalogfiler. Kontrollera bildbyte på alla ytor och fysisk enhet endast om sådan faktiskt finns.
-2. Fortsätt med återstående 17 stilar i batcher om 2 till 4. Varje batch ska vara komplett, visuellt granskad, testad, publicerad och checkpointad före nästa. Inga halvfärdiga alternativ i manifestet.
-3. Slutkontroll: 20 kompletta stilar, 160 distinkta original, inga masterhämtningar i klienten, beständigt lokalt val, återställning, obrutet ljud, teman, nya katalogposter och gamla länkar.
-4. Uppdatera issue 14, 15, 16 och äldre issue 3 efter verifierat utfall. Slutleverans får inte påstå 20 färdiga innan alla är live.
+15 Retro, 16 Papperskonst, 18 Surrealism, 19 Ritning och 20 Tidskrift har 40 egna original, granskade kontaktserier och beskärningar. Totalt 20 kompletta serier, 160 unika original, 660 avkodade WebP-filer enligt quality-final.json. Lokalt manifest och HTML-query v4-art-final aktiverar dessa först i egen release. V3 fortfarande standard.
 
-## Permanent stil och återställning
+33 lokala enhetsprov och 64 browserfall för desktop/emulerad Android gröna efter aktivering. Full WebKit-matris återstår i CI. Publicera från färsk main med endast nya tillgångar, metadata, manifestversion och dokumentation. Inga katalogfiler får skrivas över. Kontrollera PR-CI, Pages, exakt frontend/bildinnehåll och liveflöden innan slutkvittens i ärende 14.
 
-Ägaren väljer själv slutlig stil efter test i laboratoriet. Ny standard kräver separat uttryckligt beslut och PR. Behåll V3 tillgänglig och befintliga lokala val. Rollback ändrar enbart avsedda frontendfiler/manifest, aldrig hela katalogen över nya publiceringar. Alla publicerade avsnitt, artiklar, källor och ordinarie kataloguppdateringar bevaras. Gemini, TTS och Watson ska inte ändras.
+## Beständiga original och återupptagning
 
-## Tillgänglighet, nästa fristående etapp
+Original i assets/design-lab/STYLE/*-master.webp, derivat i samma katalog, prompter och PNG-hashar i docs/design-lab/STYLE.json. 02:s exakta initiala promptordalydelse är inte bevarad och dokumenteras ärligt som normaliserad rekonstruktion. Övriga serieprompter och lokala redigeringar finns i proveniensen.
 
-Axe-core 4.14.0 hittade nested-interactive i avsnittsradernas summary. Spelknappen har flyttats till en separat syskonkontroll med samma utseende och kö. Efter rättning: 54 befintliga desktop/Android-prov och fyra nya riktade prov passerar; fem huvudvyer i båda teman har noll automatiska wcag2a/wcag2aa/wcag21aa-träffar. Nya tester kontrollerar oberoende Enter-uppspelning/expansion och reduced motion. Detta är inte fysisk VoiceOver-kvittens. Filerna ska få egen PR och full WebKit-CI före merge.
+Gren work/v4-art-production-checkpoints sparar färdiga original före release utan extra Actions. Den är återhämtningsunderlag, inte releasegren. Lokala upload-STYLE.json kan återanvändas efter SHA-kontroll. Ändra endast från färsk main; separat redaktion får publicera nya katalogposter samtidigt.
 
-## Kvitterad release efter PR 21
+## Kontroller och gränser
 
-PR 20 publicerade 03 Grafisk minimalism och 17 Monokromt reportage. PR 21 (merge dc4cb557b324fddb3457a5c61a72b242a4a93eeb) publicerade tillgänglighetsrättningen och fixade ett tvetydigt Mer-länkval i liveprovet. CI 39534317398 är helt grön: 33 enhetsprov, 116 browserfall och fyra publicerade flöden. Exakta frontendbytes på Pages verifierades 2026-10-21 02:44:09 UTC, 25 publicerade avsnitt bevarade. Tidigare livekörningar för PR 19/20 föll på testets tvetydiga Mer-länk, inte produktens navigation.
+- npm test
+- npx playwright test (CI har Chromium och WebKit; lokalt Chromium)
+- python3 scripts/audit-art-assets.py --expected-series 20 --output docs/design-lab/quality-final.json
+- node scripts/verify-live.cjs (följ dess URL-inställningar)
+- Produktionskontrakt provar 20 kanaler, 6 000 avsnitt och 24 000 artiklar.
 
-Ärende 15 och äldre 3 är nu avslutade med verifieringskommentarer. Ärende 14 fortsätter med 17 återstående stilar; 16 följer UX. Batch 3 producerar 04, 05, 10, 11. De får inte aktiveras före granskning av samtliga åtta motiv och WebP-exporter.
+Testerna skiljer lokala enhetsprov, emulerad Android/iPhone/surfplatta, desktop och direkt moln-Chrome. Fysisk iPhone Safari, VoiceOver, skärmlås och lång bakgrundsuppspelning har inte kunnat verifieras. Påstå inte att dessa är klara. Inga Lighthouse-/fältprestandavärden är uppmätta.
 
-Ett nytt globalt unikhetstest hittade tomma masterexporter i 02/AI, 03/IT-juridik och 04/AI samt tom 04/IBAT-kvadrat. PNG-originalen är distinkta och finns kvar, visningsbilderna i de publicerade serierna är giltiga. Återskapa skadade exporter från ursprungliga PNG och ersätt dem i nästa PR. Byggskriptet exporterar nu till minnesbuffer, avkodar för validering och flyttar filen atomärt. Kontrollera alla exporter genom faktisk bildavkodning efter att varje byggprocess avslutats. Lämna inte exec_command-sessioner med pågående export utan slutkvittens.
+Skyddad V3-baseline har 816 filer i episodes/, catalog/, assets/channels/, episodes.json och story_index.json. De var identiska genom batch 3. Före slutrelease har redaktionen publicerat nya specialavsnitt i PR 26/27 och byggt om katalogen: inga av 816 sökvägar saknas och alla 350 filer i episodes/ och assets/channels/ är oförändrade. Katalogens ersättningspolicy med fem poster finns kvar. Se integrity-before-final.json. Upprepa mot färsk main efter slutrelease. Nya redaktionella tillägg får tillkomma, gamla poster och direktlänkar ska finnas kvar.
 
-## Batch 3 klar för egen PR
+## Överlämning
 
-04 Linoleumsnitt, 05 Isometrisk illustration, 10 Premium 3D-diorama och 11 Nordisk akvarell har 32 separat genererade och granskade original. En oavsiktlig bilmärkesliknande detalj i 04/IBAT har tagits bort genom lokal image_gen-redigering. Alla 231 WebP-filer för sju serier är faktiskt avkodade och alla 56 masteroriginal är distinkta; se quality-batch-3.json. Tre tomma äldre masterexporter samt en lokal kvadrat har återskapats från individuella PNG. Byggskriptet validerar nu i minne och sparar atomärt. Nytt browserprov spärrar experimentella hämtningar för vanliga besökare och masterhämtningar i laboratoriet. Nya testförväntningar räknar aktuell katalog i stället för att anta exakt två lagstiftningsavsnitt eller tomma framtida grundkurser. Inga katalogfiler ska ingå i PR.
-
-## Batch 3 publicerad och slutkvitterad
-
-PR 22 head 286c55c414b8f30e88ae9631d7a2482a61b5d78f, merge d0a2bae33eef50e2164c61722a1c248e7d5974a9. CI 39537197891: 33 enhetsprov och 120 browserfall gröna. Pages 39537596175 grön. Main-CI 39537596815 helt grön, exakta frontendbytes och sju seriers derivat verifierade 03:19:45 UTC, 25 avsnitt bevarade, fyra liveflöden passerade 03:20:41 UTC. Direkt moln-Chrome: alla åtta kanalbilder laddade för 04, 05, 10 och 11, samma ljud fortsatte från 1:50 till 2:01 och kön behöll fyra kommande. Uppspelning pausad. Bildbevis: docs/evidence/v4-batch3-live.jpg.
-
-Sju publicerade experimentella serier: 02, 03, 04, 05, 10, 11, 17. Återstår 13 serier och 104 original. Nästa batch 01, 06, 07, 08 produceras nu med separata inbyggda bildanrop. Ingen aktivering före granskning av komplett serie. Inga katalog-, ljud- eller kärnspelarändringar i bildbatcherna.
-
-## Batch 4 klar lokalt
-
-01 Dokumentärfoto, 06 Analog film, 07 Oljemålning och 08 Geometrisk affischkonst har producerats med separata inbyggda bildanrop och granskats tillsammans samt i små och kvadratiska beskärningar. Alla elva serier har avkodade WebP-filer och unika PNG- och masterhashar, se quality-batch-4.json. Ny reproducerbar kontroll: python3 scripts/audit-art-assets.py --expected-series 20 --output docs/design-lab/quality-final.json (kör med 11 före batch 4-release).
-
-Originalserier sparas även i grenen work/v4-art-production-checkpoints utan Actions-körningar. Den grenen är återhämtningsunderlag, inte release. Manifestet i publicerad main ska endast ändras genom en verifierad releasegren. Lokala upload-STYLEID.json innehåller redan verifierade blobhashar för avbruten uppladdning.
-
-02 Redaktionell illustration har nu dokumenterad PNG-proveniens; dess initiala exakta promptordalydelse var inte bevarad och promptfältet är därför uttryckligen märkt som normaliserad rekonstruktion från produktionsbriefen. Övriga nya serier innehåller faktiskt använda prompter. Ingen ny generering av äldre serier har gjorts.
-
-## Batch 4 publicerad och slutkvitterad
-
-PR 23 head 67e7d11c51ab86ac32e22b7414a852c941858f50, merge 59504e9e6bccadfe06aa7c6e05818678a419dd09. PR-CI 39540257610: 33 enhetsprov och 120 browserfall gröna. Pages 39540700945 grön. Main-CI 39540701633 helt grön: exakta frontend- och bildfiler 03:54:00 UTC, 25 avsnitt bevarade, fyra liveflöden 03:54:44 UTC. Direkt moln-Chrome: alla åtta kanalbilder laddade för 01, 06, 07 och 08, pausad ljudposition 2:15 och fyra kommande i kön kvar. Bildbevis docs/evidence/v4-batch4-live.jpg.
-
-Elva publicerade serier, 88 original. Återstår nio serier och 72 original. Nästa batch 09, 12, 13, 14; sista batch 15, 16, 18, 19, 20. Håll varje serie komplett och granskad, använd separata inbyggda bildanrop. Fyra bildanrop kan köras parallellt; filuppladdning använder fyra samtidiga filer och läser validerade base64-segment om 60 000 byte med hashkontroll. Spara uppladdningslistor efter varje delbatch för återupptagning.
-
-Filintegritet mot V3 54e90a3: samtliga 816 skyddade filer i episodes/, catalog/, assets/channels/, episodes.json och story_index.json är identiska i batch 3. Rapport integrity-v3-to-batch3.json ska följa nästa PR och jämförelsen ska upprepas efter slutreleasen. Tre små kvarstående UX-förfiningar finns dokumenterade i issue 16: kanalmetadata i egen kanalvy, kortare skärmläsarnamn i bildväljaren och beständig statusregion för sökantal. Genomför efter bildserierna, behåll fysisk Safari/VoiceOver som separat ej kvitterad kontroll.
-
-## Fristående UX-rättning före nästa bildrelease
-
-Direkt DOM-prov på publicerad desktop visade att 1 093 px brett kanalomslag laddade 400 px-exporten via sizes=320px. Appen använder nu en egen klass och storleksangivelse för stort kanalomslag, verifierat genom faktisk currentSrc i både V3 och vald experimentserie. Bildkorten behåller sitt tidigare urval.
-
-Samma avgränsade etapp förenklar laboratoriets tillgängliga radionamn (dekorativ kontaktbild med tom alt), döljer upprepat kanalnamn enbart i kanalens egna avsnittsrader och flyttar sökantal/laddning/fel till en beständig statusregion. Hela resultatlistan behöver då inte annonseras vid filtrering. Sena sökfel efter navigation ignoreras. 33 enhetsprov och 22 riktade desktop/Android-prov gröna, inklusive två nya regressionsfall. Full CI och livekvittens krävs fortfarande före slutkvittering.
-
-Nästa bildbatch 09, 12, 13, 14 är producerad som original men ännu inte publicerad. 09 är granskad och sparad i originalcheckpointgrenen. 12 till 14 ska granskas tillsammans och i beskärningar; 13/lagstiftning får en lokal korrigering av ceremoniella domarkläder till vardagliga mörka kostymer före aktivering. Fler bildstilar får inte aktiveras i UX-rättningens PR.
-
-## Batch 5 klar för test och release
-
-09 Collage, 12 Arkitektur, 13 Infografisk illustration och 14 Filmisk konceptkonst har åtta egna original var. Kontaktserier och små/kvadratiska format granskade. 13/lagstiftning lokalt korrigerad till vanliga mörka kostymer, ny PNG-hash och ombyggda derivat. Lokalt manifest innehåller 15 kompletta serier, publicerad webb fortfarande 11 tills egen bildrelease verifieras. Kvalitetskontroll: quality-batch-5.json med 120 unika original och 495 avkodade WebP-filer.
-
-UX-rättningens PR 24 (head d33ce929264c980a9af16fcfb35400c3375afe6c) ska vara integrerad och verifierad innan nästa bildrelease byggs från färsk main. Den ändrar ingen bildserie. Bildbatch 5 får endast nya bildfiler, fyra stilmetadatafiler, bildmanifest, HTML-manifestversioner och dokumentation. Slutlig batch återstår med 15, 16, 18, 19, 20.
+Se UX-AUDIT-V4.md, design-lab/STYLE-STATUS.md, REVIEW.md, quality-final.json och CHOOSE-DEFAULT.md. Slutlig publiceringskvittens och kvarstående fysisk provning dokumenteras i ärende 14/16. Ägaren ska själv välja permanent stil. Gör ingen experimentserie till standard utan ett uttryckligt nytt beslut.

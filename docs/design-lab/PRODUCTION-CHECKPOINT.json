@@ -1,8 +1,8 @@
 {
   "purpose": "Recovery checkpoint for complete original art assets, not a release branch. Manifest is intentionally unchanged.",
-  "public_release": "PR 23, eleven ready experimental series; V3 default",
-  "public_main": "59504e9e6bccadfe06aa7c6e05818678a419dd09",
-  "public_verification": "https://github.com/callekos/morgonpod-webb/actions/runs/39540701633",
+  "public_release": "PR 25, 15 kompletta stilar",
+  "public_main": "c6ae6a2fbb3a2c37557755e7309656673db60db6",
+  "public_verification": 39545294242,
   "prepared_styles": [
     "01-documentary",
     "06-film",
@@ -11,7 +11,8 @@
     "09-collage",
     "12-architecture",
     "13-infographic",
-    "14-concept"
+    "14-concept",
+    "15-retro"
   ],
   "next": "Finish, visually review and decode each eight-channel series; release from fresh main without catalog changes."
 }
