@@ -1,31 +1,19 @@
-# Aktuellt slutprov inför publicering
+# Webbuppdrag 28: publicerat och verifierat 21 oktober 2026
 
-Färsk innehållsbas f6f6af86c87d8760079993b265682c76da214be8, inklusive alla15 specialavsnitt och deras rättade faktiska publiceringstider. 47 råavsnitt och57 råartiklar bevarade. Metadatakontrollen verifierar1176 byteidentiska skyddade filer och inga förändrade kunskaps-/specialtitlar.36 enhetsprov passerar. WebKit-provet öppnar delbar URL i ny flik, och det äldre mobilprovet verifierar två kolumner i båda grupperna. Full CI och Pages ska vara gröna innan uppdraget kvitteras.
+PR 34 är integrerad som fc 51dbc 498042894cd 7a 28cf 57683ce 04d 623efc. Exakt slutrevision c 61f 2dbbf 624799076f 4949054d 952f 3dffa 4be 9 passerade PR-acceptans 39644474113:36 enhetsprov och 168 browserfall inklusive iPhone/iPad WebKit. Huvudgrenens acceptans 39645372457 är helt grön med samma 36 enhetsprov,168 browserfall, exakt filverifiering och 8 browserprov mot verkliga webbplatsen. Pages 39645368971 är success.
 
-# Webbuppdrag 28, arbetscheckpoint 21 oktober 2026
+Den verkliga filverifieringen kvitterade rätt frontendbytes och 42 aktiva avsnitt kl 17:42:50 UTC. Samtliga 8 verkliga webbprov passerade kl 17:44:04 UTC. Oberoende HTTP-kontroll matchade exakt manifest och verifierade de nya grupptyperna samt rätt channel-art.js och sw.js. Fysisk iPhone/iPad, VoiceOver och långvarig bakgrundsspelning är inte verifierade. Ett separat direkt molnwebbläsaranrop fastnade och används inte som godkänt bevis.
 
-## Omfattning och bas
+Publicerat:06-film, Analog filmfotografi, som global standard med bevarade egna val och återställning till 06. Ömsesidigt uteslutande Bevakningskanaler och Kunskapskanaler från registret, två kompakta kort per mobilrad, högstfyra per grupp och villkorade delbara Visa alla-länkar. Kanaler-fliken har samma grupper. Ordinarie bevakning har beständiga kanalvisa nummer och innehållsrubriker; listor, detaljer, sök, kö och spelare använder samma titel. Datum, kunskaps-/specialtitlar, ljud och artiklar bevaras.
 
-Gren work/issue-28-channel-groups i PR 34. Ursprunglig bas f6f6af8; metadata är återgenererad över färsk webbmain e0f5170 efter integrerad nattredaktions-PR 33, vars tre nytillkomna specialavsnitt bevaras. V5 och bildlaboratoriets 20 serier återanvänds. Produktionsdelen finns i nyhetspodden PR 137, integrerad ed68b8b1ea3ceb8dc89078139c3527f883f259fd efter PR-CI 39635545778/tests119344880041 success. 379 lokala Pythonprov passerar. Ingen ny innehållsproduktion eller Telegramomsändning.
+Färsk innehållsbas f 6f 6af 86c 87d 8760079993b 265682c 76da 214be 8 inkluderar nattredaktionens samtliga 15 specialavsnitt och deras rättade verkliga publiceringstider. Alla 47 råavsnitt och 57 råartiklar bevaras. 1176 skyddade filer i episodes/, assets/ och catalog-policy.json är byteidentiska. Endast avsedda titel-/nummer-/registermetadata och deras katalogprojektioner ändras. Inga Telegramomsändningar, ingen ny bildproduktion och inga schema-, modell-, TTS- eller Watsonändringar.
 
-## Ändring
+Produktionsdelarna är integrerade via PR 137 och 138.380 Pythonprov samt PR-/mainacceptans och heartbeat 39637253315 på 5f 28ea 5 är gröna. episode-numbers.json ingår i befintlig gittransaktion och konfliktomkörning. Omkörning, rättning, supersession, datumrättning och samtidiga publiceringar behåller stabil tilldelning. Köernas engångsmigrering har fast ursprunglig ID-mängd och växer inte med framtida avsnitt.
 
-06-film, Analog filmfotografi, är global standard utan eget val. Alla giltiga egna val bevaras. Återställ till standard tar bort eget val efter lyckat bildbyte. Alla 20 stilar, befintliga leveransbilder och fokalpunkter kvarstår. Okänd kanal får neutral bild, aldrig en annan kanals motiv.
+Testerna omfattar 0,1,4,5 och 10 kanaler per grupp, totalt 20, oberoende tillväxt, stabil ordning, URL i ny flik, omladdning, bakåt,320px,200procent textstorlek, tangentbord, teman,20 bildstilar och bevarat ljud/kö/scroll. Förutbestämda dagsantal använder kontrollerade fixtures; produktionsdata har inte ändrats för tester. Ett äldre mobilprov rättades till att kontrollera båda grupperna. WebKit-provet för delbar URL använder en ny flik efter att samma-URL-navigering efter historik kraschade i testmotorn.
 
-Bevakningskanaler och Kunskapskanaler använder samma kompakta kort. Högst fyra per grupp på startsidan. Visa alla finns bara vid fler än fyra, med group=monitoring eller group=knowledge i delbar URL. Fliken Kanaler har Alla och samma två grupper samt sökning med q i URL. Två lika breda kort per rad på mobil. Grupperna ligger bredvid varandra från 1200 px, annars efter varandra. Gemensam sidskrollning. Dagens bevakning och Senast publicerat bevaras; den överlappande äldre kunskapsgruppen tas bort.
+Begränsningar: fysisk enhet, VoiceOver och långt bakgrundsprov återstår som externa prov. De blockerar inte det beslutade webbuppdragets verifierade leverans.
 
-Grupper och ordning kommer från publika kanalregistret: channel_type och display_order, med stabilt ID som sekundär ordning. Den befintliga klassificeringen migreras en gång från tidigare frontendvärden. Ingen separat runtimekanallista används. Bevakningskanaler kan fortfarande ha specialavsnitt.
+Rollback: återställ enbart avgränsad frontendkod eller korrigera metadata perID mot färsk main. Ta aldrig bort nummerledgern och återställ aldrig gamla katalogsnapshotter. Kontrollverktyg:scripts/verify-metadata-migration.cjs. Produktionskontrakt:nyhetspodden/docs/WEB-TITLES-28.md och docs/WEB-PRODUCTION-CONTRACT.md.
 
-Ordinarie bevakning har Avsnitt N: godkänd innehållsrubrik. Datum behålls separat. episode_order behålls som gammal sorteringsmetadata. Beständiga nummer och identitetsalias ligger i episode-numbers.json och ingår i befintlig gittransaktion med konfliktomkörning. Superseded-versioner delar nummer. Migrationen ändrar ingen brief, manus, ljud, artikeltext, källa, datum eller direktlänk. Titeluppdateringen går till råmetadata, detaljer, listor, sök, artikelns avsnittslänk, kö och spelare. title_migration i manifestet rättar äldre sparade kötitlar utan att byta ID eller ljudposition.
-
-## Verifierat före webbpublicering
-
-36 enhetsprov och 40 desktopprov passerar. Android: 39 av 40 första gången; enda felet var testets försök att pausa på den dolda minispelaren när stor spelare visades. Rättat till den synliga stora knappen och samtliga sju riktade Androidprov passerar. Ny full kontroll mot nattredaktionens PR 33 körs före integration. Prov täcker 0, 1, 4, 5 och 10 kanaler i varje grupp, totalt 20; stabil registerordning, gräns fyra, URL, omladdning, bakåt, 320 px, stor text och tangentbord. Alla 20 bildstilar provas med ljud, kö och scroll. Numrering provas med två konkurrerande verkliga gitkloner, omkörning, korrigering, separat kanalserie, historisk komplettering och supersession.
-
-Lokalt WebKit blockerades före browserstart av saknade systembibliotek. Det är inte ett produktprov. Befintlig CI för iPhone/iPad WebKit ska passera före merge. Fysisk iPhone, fysisk iPad och VoiceOver är inte testade.
-
-## Samordning, nästa steg och rollback
-
-Dagens IBAT/KEK var levererade före start, Våld/Sjö dokumenterat stoppade i #121. Ingen produktionskörning aktiv vid avstämning. Nattredaktionen har slutlevererat15/15 via PR33/35/36 och avslutat reservationen. Migrationen är omgjord över färsk main f6f6af8 med47 råavsnitt och57 råartiklar. Före webb-PR/merge: hämta färsk main, behåll nyare innehåll och kör metadata-migreringen igen på färsk data. Ersätt aldrig katalogen med en äldre snapshot. Kontrollera semantisk diff och full CI. Följ Pages och exakt frontendverifiering samt verklig katalog, ljud och artikellänkar. Skriv faktiska kvitton här, i V5-CHECKPOINT och #28.
-
-Rollback sker endast med avgränsad kodrevert eller metadatarättning mot färsk main. Nummerledger och senare innehåll får aldrig tas bort. Produktionskontrakt och migrationskommando finns i nyhetspodden/docs/WEB-TITLES-28.md och scripts/migrate_web_metadata.py.
+Uppdrag 28 är slutfört. Inget implementerings- eller publiceringssteg återstår inom denna omfattning.

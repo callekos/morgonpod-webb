@@ -1,6 +1,6 @@
 # Bildstilar, verifierat publicerade i V5
 
-Samtliga 20 experimentella stilar är publicerade och verifierade genom PR 30 och grön main-CI 39580690860. Ägarbeslut i #28: stil 06-film, Analog filmfotografi, blir global standard i den separata grupperingsreleasen. V3 behålls som bildfallback. Publiceringskvitto för standardbytet finns i ../CHANNEL-GROUPS-28.md. 160 unika original och 660 avkodade WebP-filer. Inga bilder har genererats om. Se quality-final.json och ../V5-CHECKPOINT.md.
+Samtliga 20 experimentella stilar är publicerade och verifierade genom PR 30 och grön main-CI 39580690860. Stil 06-film, Analog filmfotografi, är nu publicerad global standard via PR34, merge fc51dbc. Pages39645368971 och full mainacceptans39645372457 är gröna, inklusive8 verkliga browserprov. V3 behålls som bildfallback. Fullständigt slutkvitto finns i ../CHANNEL-GROUPS-28.md. 160 unika original och 660 avkodade WebP-filer. Inga bilder har genererats om. Se quality-final.json och ../V5-CHECKPOINT.md.
 
 | Nr | Stil | Status |
 | --- | --- | --- |
