@@ -124,16 +124,16 @@
         "catalog/lists/episodes/topic/sjoomradet/0.json"
       ]
     },
-    "episodes/topic/rättslig-status": {
-      "count": 1,
-      "pages": [
-        "catalog/lists/episodes/topic/rättslig-status/0.json"
-      ]
-    },
     "episodes/topic/lagstiftning": {
       "count": 1,
       "pages": [
         "catalog/lists/episodes/topic/lagstiftning/0.json"
+      ]
+    },
+    "episodes/topic/rättslig-status": {
+      "count": 1,
+      "pages": [
+        "catalog/lists/episodes/topic/rättslig-status/0.json"
       ]
     },
     "episodes/channel/ai_brottsbekampning": {
@@ -184,10 +184,10 @@
         "catalog/lists/episodes/channel/verksamhetsutveckling/0.json"
       ]
     },
-    "episodes/topic/utvärdering": {
+    "episodes/topic/förändringsarbete": {
       "count": 5,
       "pages": [
-        "catalog/lists/episodes/topic/utvärdering/0.json"
+        "catalog/lists/episodes/topic/förändringsarbete/0.json"
       ]
     },
     "episodes/topic/verksamhetsutveckling": {
@@ -196,16 +196,10 @@
         "catalog/lists/episodes/topic/verksamhetsutveckling/0.json"
       ]
     },
-    "episodes/topic/förändringsarbete": {
+    "episodes/topic/utvärdering": {
       "count": 5,
       "pages": [
-        "catalog/lists/episodes/topic/förändringsarbete/0.json"
-      ]
-    },
-    "episodes/topic/datakvalitet": {
-      "count": 1,
-      "pages": [
-        "catalog/lists/episodes/topic/datakvalitet/0.json"
+        "catalog/lists/episodes/topic/utvärdering/0.json"
       ]
     },
     "episodes/topic/informationsförsörjning": {
@@ -214,16 +208,28 @@
         "catalog/lists/episodes/topic/informationsförsörjning/0.json"
       ]
     },
+    "episodes/topic/uppstartsavsnitt": {
+      "count": 8,
+      "pages": [
+        "catalog/lists/episodes/topic/uppstartsavsnitt/0.json"
+      ]
+    },
     "episodes/topic/lägesförståelse": {
       "count": 1,
       "pages": [
         "catalog/lists/episodes/topic/lägesförståelse/0.json"
       ]
     },
-    "episodes/topic/uppstartsavsnitt": {
-      "count": 8,
+    "episodes/topic/datakvalitet": {
+      "count": 1,
       "pages": [
-        "catalog/lists/episodes/topic/uppstartsavsnitt/0.json"
+        "catalog/lists/episodes/topic/datakvalitet/0.json"
+      ]
+    },
+    "episodes/topic/våld-som-tjänst": {
+      "count": 1,
+      "pages": [
+        "catalog/lists/episodes/topic/våld-som-tjänst/0.json"
       ]
     },
     "episodes/topic/grovt-våld": {
@@ -238,22 +244,16 @@
         "catalog/lists/episodes/topic/digital-rekrytering/0.json"
       ]
     },
-    "episodes/topic/våld-som-tjänst": {
+    "episodes/topic/kriminell-ekonomi": {
       "count": 1,
       "pages": [
-        "catalog/lists/episodes/topic/våld-som-tjänst/0.json"
+        "catalog/lists/episodes/topic/kriminell-ekonomi/0.json"
       ]
     },
     "episodes/topic/brottsvinster": {
       "count": 1,
       "pages": [
         "catalog/lists/episodes/topic/brottsvinster/0.json"
-      ]
-    },
-    "episodes/topic/kriminell-ekonomi": {
-      "count": 1,
-      "pages": [
-        "catalog/lists/episodes/topic/kriminell-ekonomi/0.json"
       ]
     },
     "episodes/topic/penningtvätt": {
@@ -280,10 +280,10 @@
         "catalog/lists/episodes/topic/skuggflottan/0.json"
       ]
     },
-    "episodes/topic/straffrätt": {
+    "episodes/topic/rättspraxis": {
       "count": 1,
       "pages": [
-        "catalog/lists/episodes/topic/straffrätt/0.json"
+        "catalog/lists/episodes/topic/rättspraxis/0.json"
       ]
     },
     "episodes/topic/straffprocess": {
@@ -292,10 +292,10 @@
         "catalog/lists/episodes/topic/straffprocess/0.json"
       ]
     },
-    "episodes/topic/rättspraxis": {
+    "episodes/topic/straffrätt": {
       "count": 1,
       "pages": [
-        "catalog/lists/episodes/topic/rättspraxis/0.json"
+        "catalog/lists/episodes/topic/straffrätt/0.json"
       ]
     },
     "episodes/topic/informationsdelning": {
@@ -796,6 +796,8 @@
       "WORK_SPECIALS_2026_10_21:lagstiftning_3",
       "WORK_SPECIALS_2026_10_21:lagstiftning_4"
     ],
-    "transaction_started_at": "2026-10-21T06:00:17.237251+00:00"
+    "transaction_started_at": "2026-10-21T06:00:17.237251+00:00",
+    "published_at": "2026-10-21T09:39:34+00:00",
+    "merge_commit": "ed7bbc7ca80904ec0c3fda98e3c8195a7a988999"
   }
 }
