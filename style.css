@@ -168,4 +168,4 @@ button,a,summary{-webkit-tap-highlight-color:transparent}button:active,.morning-
 .channel-group .knowledge-card p{font-size:.875rem;line-height:1.5;margin:0 0 12px;color:var(--muted)}
 .channel-group .knowledge-card span{font-size:.8125rem;margin-top:auto;line-height:1.5}
 .channel-group .knowledge-card:hover>.cover,.channel-group .knowledge-card:focus-visible>.cover{transform:none}
-@media(max-width:380px){.header>.brand{font-size:18px}.header .subscribe-button{font-size:14px;padding-inline:12px}}
+@media(max-width:380px){.header>.brand{font-size:16px}.header .subscribe-button{font-size:14px;padding-inline:12px}}
