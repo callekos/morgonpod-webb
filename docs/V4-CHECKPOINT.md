@@ -70,3 +70,13 @@ Direkt DOM-prov på publicerad desktop visade att 1 093 px brett kanalomslag lad
 Samma avgränsade etapp förenklar laboratoriets tillgängliga radionamn (dekorativ kontaktbild med tom alt), döljer upprepat kanalnamn enbart i kanalens egna avsnittsrader och flyttar sökantal/laddning/fel till en beständig statusregion. Hela resultatlistan behöver då inte annonseras vid filtrering. Sena sökfel efter navigation ignoreras. 33 enhetsprov och 22 riktade desktop/Android-prov gröna, inklusive två nya regressionsfall. Full CI och livekvittens krävs fortfarande före slutkvittering.
 
 Nästa bildbatch 09, 12, 13, 14 är producerad som original men ännu inte publicerad. 09 är granskad och sparad i originalcheckpointgrenen. 12 till 14 ska granskas tillsammans och i beskärningar; 13/lagstiftning får en lokal korrigering av ceremoniella domarkläder till vardagliga mörka kostymer före aktivering. Fler bildstilar får inte aktiveras i UX-rättningens PR.
+
+## Batch 5 klar för test och release
+
+09 Collage, 12 Arkitektur, 13 Infografisk illustration och 14 Filmisk konceptkonst har åtta egna original var. Kontaktserier och små/kvadratiska format granskade. 13/lagstiftning lokalt korrigerad till vanliga mörka kostymer, ny PNG-hash och ombyggda derivat. Lokalt manifest innehåller 15 kompletta serier, publicerad webb fortfarande 11 tills egen bildrelease verifieras. Kvalitetskontroll: quality-batch-5.json med 120 unika original och 495 avkodade WebP-filer.
+
+UX-rättningens PR 24 (head d33ce929264c980a9af16fcfb35400c3375afe6c) ska vara integrerad och verifierad innan nästa bildrelease byggs från färsk main. Den ändrar ingen bildserie. Bildbatch 5 får endast nya bildfiler, fyra stilmetadatafiler, bildmanifest, HTML-manifestversioner och dokumentation. Slutlig batch återstår med 15, 16, 18, 19, 20.
+
+## UX-rättning publicerad
+
+PR 24 integrerad som b83b4ff745241dddb93cb10b9ab4b9711b09fd0f. PR-CI 39543422974 och main-CI 39544111942 helt gröna: 33 enhetsprov, 128 browserfall och fyra publicerade flöden. Pages 39544111553 grön. Direkt moln-Chrome verifierade stort omslag med bred bildexport. Batch 5 är granskad och uppladdad, redo för separat release.

@@ -1,0 +1,87 @@
+{
+  "style": "12-architecture",
+  "name": "Arkitektonisk visualisering",
+  "generator": "built-in image_gen",
+  "originals": [
+    {
+      "channel": "ibat",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 12 Arkitektonisk visualisering. Style/medium: Contemporary architectural visualization, calm pale timber and concrete, strong spatial perspective, soft daylight, warm white, gray, sage and one copper accent, material clarity, deliberate human scale and sophisticated photorealistic render.. Subject: Information supply for crime prevention and investigation: an analyst bringing source records, a place map and evidence photographs together into one coherent operational picture. Connected source panels and a decisive human hand. No visible private data.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "a7242787ba94079b60432f73f5a1cb10f8ddaa5424908ecf4409e79e14be4e91",
+      "master": "assets/design-lab/12-architecture/ibat-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "vald",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 12 Arkitektonisk visualisering. Style/medium: Contemporary architectural visualization, calm pale timber and concrete, strong spatial perspective, soft daylight, warm white, gray, sage and one copper accent, material clarity, deliberate human scale and sophisticated photorealistic render.. Subject: Serious organized violence, violence as a service and digital recruitment: a contemporary Swedish street and an anonymous adult seen beside a large phone with abstract message shapes, shadowy recruiting network in the distance. No injuries, guns or sensational crime reconstruction.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "37bbd827ec87cdd6089616e0409648c02d67b76c00d4e5a2aac059ba02f88c4d",
+      "master": "assets/design-lab/12-architecture/vald-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "sjoomradet",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 12 Arkitektonisk visualisering. Style/medium: Contemporary architectural visualization, calm pale timber and concrete, strong spatial perspective, soft daylight, warm white, gray, sage and one copper accent, material clarity, deliberate human scale and sophisticated photorealistic render.. Subject: Maritime security in the Baltic: a merchant ship, Nordic rocky shore, harbor infrastructure and a clearly identifiable undersea communications cable. Strong ship silhouette.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "e903120703fb9c19e512a04c9b7d573e00b216fc24106d403784ab7a7e45f036",
+      "master": "assets/design-lab/12-architecture/sjoomradet-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "kek",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 12 Arkitektonisk visualisering. Style/medium: Contemporary architectural visualization, calm pale timber and concrete, strong spatial perspective, soft daylight, warm white, gray, sage and one copper accent, material clarity, deliberate human scale and sophisticated photorealistic render.. Subject: Criminal finance: an investigator tracing asset transfers between company buildings, accounts and property through an elegant winding financial trail. Evidence documents in foreground. No generic money pile.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "c211217fe968fe4cae88dd582db673a1d034bc3339a8e5c11f17b118fe014cf5",
+      "master": "assets/design-lab/12-architecture/kek-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "lagstiftning",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 12 Arkitektonisk visualisering. Style/medium: Contemporary architectural visualization, calm pale timber and concrete, strong spatial perspective, soft daylight, warm white, gray, sage and one copper accent, material clarity, deliberate human scale and sophisticated photorealistic render.. Subject: Swedish criminal law: contemporary Swedish courtroom with pale oak benches and a prominent legal volume and case folders. Nordic legal process, no American gavel.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "54dc86d634f915a5b91e8db35a8ff24085721c223070e3e1d156c588e66023ce",
+      "master": "assets/design-lab/12-architecture/lagstiftning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "ai_brottsbekampning",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 12 Arkitektonisk visualisering. Style/medium: Contemporary architectural visualization, calm pale timber and concrete, strong spatial perspective, soft daylight, warm white, gray, sage and one copper accent, material clarity, deliberate human scale and sophisticated photorealistic render.. Subject: Artificial intelligence in criminal investigation: human analyst checking machine assisted pattern recognition and image comparisons against source photographs. Strong human oversight and evidence verification. No robot face, no globe.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "5a21afd2015a9e8849c85b15d4fec17b83f0e46e7787e7608300d30133a274db",
+      "master": "assets/design-lab/12-architecture/ai_brottsbekampning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "it_juridik",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 12 Arkitektonisk visualisering. Style/medium: Contemporary architectural visualization, calm pale timber and concrete, strong spatial perspective, soft daylight, warm white, gray, sage and one copper accent, material clarity, deliberate human scale and sophisticated photorealistic render.. Subject: Privacy and information law: secure personal records archive, a person presenting a permission card at an access gate, an accountable audit trail and segregated record drawers. Clearly about access rights and personal data.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "de9acc43a3e0a2f9f995b11208aac8c1ea8e323caaf50d7e00da709f632b57f2",
+      "master": "assets/design-lab/12-architecture/it_juridik-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "verksamhetsutveckling",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 12 Arkitektonisk visualisering. Style/medium: Contemporary architectural visualization, calm pale timber and concrete, strong spatial perspective, soft daylight, warm white, gray, sage and one copper accent, material clarity, deliberate human scale and sophisticated photorealistic render.. Subject: Organizational development and implementation: a small team moving process cards from planning wall to a working service prototype. People, method, technology and practical change. No isolated gear icon.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "ee64e47676561e3957641633ef6dcfbed302eb8a2eb1ea6237d0315a67cfac27",
+      "master": "assets/design-lab/12-architecture/verksamhetsutveckling-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
