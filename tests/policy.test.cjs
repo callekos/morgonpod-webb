@@ -24,6 +24,7 @@ test('saved queue with retired current item is rejected and new queues omit reti
  assert.equal(q.restore({schema:1,items:[{id:retired}],index:0,source:null}),false);Queue.accept=old;
 });
 test('same publication time uses editorial channel order and keeps intro first only in history',()=>{
+ Core.catalogOrder=JSON.parse(fs.readFileSync('catalog/manifest.json')).channels.map(c=>c.id);
  const stamp='2026-10-20T20:49:08Z',rows=[{id:'intro',channel:'ibat',is_intro:true,episode_order:1,published_at:stamp},{id:'special3',channel:'ibat',episode_order:3,published_at:stamp},{id:'special2',channel:'ibat',episode_order:2,published_at:stamp},{id:'sjo',channel:'sjoomradet',published_at:stamp}];
  assert.deepEqual([...rows].sort(Core.compareLatest).map(e=>e.id),['special3','special2','sjo','intro']);assert.equal([...rows].sort(Core.compareHistory)[0].id,'intro');assert.equal(rows[0].published_at,stamp);
 });

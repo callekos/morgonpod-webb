@@ -1,3 +1,7 @@
+# Nästa separata uppdrag: kanalgrupper och stil 06
+
+V5 är fortsatt slutkvitterad. Ägarbeslut i #28 ersätter tidigare obeslutad bildstandard: 06-film, Analog filmfotografi. Genomförandestatus, tester, gren och nästa steg finns i [CHANNEL-GROUPS-28.md](CHANNEL-GROUPS-28.md). Uppdragets webbpublicering kvitteras där och överst här när den är verifierad. Historiska V3-statusar nedan avser den föregående V5-releasen.
+
 # V5, verifierad återhämtning 21 oktober 2026
 
 ## V5 färdiglevererad
