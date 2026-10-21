@@ -1,0 +1,40 @@
+{
+  "approved": true,
+  "claims": [
+    {
+      "claim": "HD-prövningen är individuell och sammanvägd.",
+      "status": "verified",
+      "source_ids": [
+        "hd_bus"
+      ]
+    },
+    {
+      "claim": "Individanknytning och rimliga alternativ har central betydelse.",
+      "status": "verified",
+      "source_ids": [
+        "hd_arsta"
+      ]
+    },
+    {
+      "claim": "Lagföringsstatistik har definierade beslut och enheter; inte identisk med alla anmälningar eller domar.",
+      "status": "verified",
+      "source_ids": [
+        "bra_def"
+      ]
+    },
+    {
+      "claim": "Handläggningsresultat avser flera led från registrering till åtalsbeslut.",
+      "status": "verified",
+      "source_ids": [
+        "bra_chain"
+      ]
+    }
+  ],
+  "analysis_and_examples": "Kodschema, urval, pilot, bevismatris och organisatorisk modell är egna metodrekommendationer. Samtliga övningsantal och fall är konstruerade. Ingen genomförd studie eller empirisk effekt påstås.",
+  "limitations": "Gällande rätt skiljs från metodrekommendation. Konsoliderad lagtext innehåller även framtida lydelser; endast berörda gällande paragrafer används. HD:s originalavgöranden är kontrollerade. Dataskyddets tillämplighet kräver projektspecifik prövning.",
+  "review_notes": "Kontrollerat rättskälletyp, lagrum, åtals- och analysenheter, skillnad domskäl/egen tolkning, urvalsbias, beroenden, exkulpatoriskt underlag och förbud mot att dra kausal slutsats av enbart utfallsandel.",
+  "reviewer": "ChatGPT Work, editorial self-review",
+  "independent_human_review": false,
+  "package_sha256": "3c93a32a0f488cd9740c579dced1d1449b6974f987daee7f1d1aa0b6bbeff603",
+  "reviewed_at": "2026-10-20T22:02:57.665465+00:00"
+}

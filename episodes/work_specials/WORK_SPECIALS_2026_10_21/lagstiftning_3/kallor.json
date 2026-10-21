@@ -1,0 +1,72 @@
+[
+  {
+    "id": "hd_bus",
+    "title": "HD B 5952-21, 14 februari 2023, Mordet vid busshållplatsen",
+    "url": "https://www.domstol.se/globalassets/filer/domstol/hogstadomstolen/avgoranden/2023/b-5952-21.pdf",
+    "source_type": "precedent",
+    "evidence": {
+      "path": "hd_bus.txt",
+      "page_sha256": "d63f0b7b5d4f75715bd0b2a8d73d8482f09692588ef866e06de7168a9ac6bae0",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:49:55.779384+00:00",
+      "http_status": 200
+    },
+    "characters": 68515
+  },
+  {
+    "id": "hd_arsta",
+    "title": "HD B 2354-22, 14 februari 2023, Årsta torg",
+    "url": "https://www.domstol.se/globalassets/filer/domstol/hogstadomstolen/avgoranden/2023/b-2354-22.pdf",
+    "source_type": "precedent",
+    "evidence": {
+      "path": "hd_arsta.txt",
+      "page_sha256": "c7277f0d303e080d7725d32688bfd007bdefa1c8ee1183f0096af4891c859055",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:49:55.741662+00:00",
+      "http_status": 200
+    },
+    "characters": 35717
+  },
+  {
+    "id": "rb",
+    "title": "Rättegångsbalk (1942:740), konsoliderad lagtext",
+    "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/rattegangsbalk-1942740_sfs-1942-740/",
+    "source_type": "legislation",
+    "evidence": {
+      "path": "rb.txt",
+      "page_sha256": "c77e4d0811bf002b8dbc254fbd8d21dacd0c0f18d21ccb783b3afb39c0de665b",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:49:51.175506+00:00",
+      "http_status": 200
+    },
+    "characters": 540264
+  },
+  {
+    "id": "bra_def",
+    "title": "Brå: om statistiken över personer lagförda för brott",
+    "url": "https://bra.se/statistik/statistik-om-rattsvasendet/personer-lagforda-for-brott/om-statistiken-over-personer-lagforda-for-brott",
+    "source_type": "official_statistics_method",
+    "evidence": {
+      "path": "bra_def.txt",
+      "page_sha256": "0fa4845596c638372c40a6e37ba5c9eff872728be569d5e31c4eca371f771420",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:49:53.762111+00:00",
+      "http_status": 200
+    },
+    "characters": 34592
+  },
+  {
+    "id": "bra_chain",
+    "title": "Brå: om statistiken över handläggningsresultat",
+    "url": "https://bra.se/statistik/statistik-om-rattsvasendet/handlaggningsresultat/om-statistiken-over-handlaggningsresultat",
+    "source_type": "official_statistics_method",
+    "evidence": {
+      "path": "bra_chain.txt",
+      "page_sha256": "80e7dacfab974907f6074763fb42b6dc2050f4c0a499a1faf71f50c0cd4ce872",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:49:53.540537+00:00",
+      "http_status": 200
+    },
+    "characters": 2067
+  }
+]
