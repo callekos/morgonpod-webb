@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "package_id": "WORK_SPECIALS_2026_10_21:sjoomradet_1",
+  "production_identity": "WORK_SPECIALS_2026_10_21",
+  "origin": "work_special",
+  "library_release_id": "WORK_SPECIALS_2026_10_21",
+  "channel": "sjoomradet",
+  "edition_type": "special",
+  "editorial_date": "2026-10-21",
+  "is_intro": false,
+  "episode_order": 3,
+  "published_at": null,
+  "notification_policy": "suppressed",
+  "gemini_text_calls": 0,
+  "work_origin_evidence": {
+    "author": "ChatGPT Work",
+    "newly_authored": true,
+    "prior_episode_relabelled": false
+  },
+  "files": {
+    "manus.txt": "290a53881d43b0837f6fedd58dd32f4c68f0be5358123ee6a5d207ce92b41fcd",
+    "brief.json": "3f4c4853ba173114c04e240671b1265c6167c71189106fc00cc8ac516796ae8d",
+    "kallor.json": "cc90ad14e3a4c5ae25c55b72d7f09706c31609c2f80b1fe7a88cd9462c4dd563",
+    "editorial_review.json": "906cb4e465dddf2a5888ed5505a4a9d157aabf9d29b538be00dc8e259fbff0f8"
+  }
+}

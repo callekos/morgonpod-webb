@@ -1,0 +1,72 @@
+[
+  {
+    "id": "nato_members",
+    "title": "Nato: medlemsländer och anslutningsdatum",
+    "url": "https://nato.int/en/about-us/organization/nato-member-countries",
+    "source_type": "official_history",
+    "evidence": {
+      "path": "nato_members.txt",
+      "page_sha256": "1ac5e04322ddb08af4f2014ca26a032b161591b071c9a2a22d31af963bfd6acb",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:50:05.630881+00:00",
+      "http_status": 200
+    },
+    "characters": 23127
+  },
+  {
+    "id": "nato_baltic",
+    "title": "Nato: Baltic Sentry, 14 januari 2025",
+    "url": "https://www.nato.int/en/news-and-events/articles/news/2025/01/14/nato-launches-baltic-sentry-to-increase-critical-infrastructure-security",
+    "source_type": "official_statement",
+    "evidence": {
+      "path": "nato_baltic.txt",
+      "page_sha256": "8e98cd63a6a94b71edd0392e84f9d9b538efd28001a3e81c65b3cfa4f38fb0f4",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:49:46.820345+00:00",
+      "http_status": 200
+    },
+    "characters": 12863
+  },
+  {
+    "id": "nato_current",
+    "title": "Nato: presskonferens om Estland 14 oktober 2026",
+    "url": "https://nato.int/en/news-and-events/events/transcripts/2026/10/14/joint-press-conference-with-nato-secretary-general-and-the-prime-minister-of-estonia",
+    "source_type": "official_statement",
+    "evidence": {
+      "path": "nato_current.txt",
+      "page_sha256": "bb5488724e171d48299d3c90aa9be2de6c6c9dd3f91e301eaf77248cc52ff8c5",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:49:46.674865+00:00",
+      "http_status": 200
+    },
+    "characters": 19728
+  },
+  {
+    "id": "eu_october",
+    "title": "Europeiska rådet 15 och 16 oktober 2026",
+    "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15-16/",
+    "source_type": "official_statement",
+    "evidence": {
+      "path": "eu_october.txt",
+      "page_sha256": "0ec3d86dae6de2cc3dbf3632dd46121713c1f8352351e5fef011cef2a945cdff",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:49:46.928280+00:00",
+      "http_status": 200
+    },
+    "characters": 26350
+  },
+  {
+    "id": "foi_shipping",
+    "title": "FOI-R--5737--SE: Ett skepp kommer lastat! Eller?",
+    "url": "https://foi.se/rest-api/report/FOI-R--5737--SE",
+    "source_type": "research",
+    "evidence": {
+      "path": "foi_shipping.txt",
+      "page_sha256": "fd75576f7459586eecb40de961b256bee6d68b1a689b82543b4d4316abc457da",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:50:05.921859+00:00",
+      "http_status": 200
+    },
+    "characters": 179494
+  }
+]

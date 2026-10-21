@@ -1,0 +1,58 @@
+[
+  {
+    "id": "eu_october",
+    "title": "Europeiska rådet 15 och 16 oktober 2026",
+    "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15-16/",
+    "source_type": "official_statement",
+    "evidence": {
+      "path": "eu_october.txt",
+      "page_sha256": "0ec3d86dae6de2cc3dbf3632dd46121713c1f8352351e5fef011cef2a945cdff",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:49:46.928280+00:00",
+      "http_status": 200
+    },
+    "characters": 26350
+  },
+  {
+    "id": "imo_ais",
+    "title": "IMO: AIS transpondrar och begränsningar",
+    "url": "https://www.imo.org/en/ourwork/safety/pages/ais.aspx",
+    "source_type": "official_guidance",
+    "evidence": {
+      "path": "imo_ais.txt",
+      "page_sha256": "6ff68ac574202404e3200ab42c267eb5dff82d4fe3efec77c007ae07b018c22b",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:50:06.018238+00:00",
+      "http_status": 200
+    },
+    "characters": 4266
+  },
+  {
+    "id": "foi_shipping",
+    "title": "FOI-R--5737--SE: Ett skepp kommer lastat! Eller?",
+    "url": "https://foi.se/rest-api/report/FOI-R--5737--SE",
+    "source_type": "research",
+    "evidence": {
+      "path": "foi_shipping.txt",
+      "page_sha256": "fd75576f7459586eecb40de961b256bee6d68b1a689b82543b4d4316abc457da",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:50:05.921859+00:00",
+      "http_status": 200
+    },
+    "characters": 179494
+  },
+  {
+    "id": "nato_baltic",
+    "title": "Nato: Baltic Sentry, 14 januari 2025",
+    "url": "https://www.nato.int/en/news-and-events/articles/news/2025/01/14/nato-launches-baltic-sentry-to-increase-critical-infrastructure-security",
+    "source_type": "official_statement",
+    "evidence": {
+      "path": "nato_baltic.txt",
+      "page_sha256": "8e98cd63a6a94b71edd0392e84f9d9b538efd28001a3e81c65b3cfa4f38fb0f4",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-20T21:49:46.820345+00:00",
+      "http_status": 200
+    },
+    "characters": 12863
+  }
+]

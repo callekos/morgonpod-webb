@@ -1,0 +1,33 @@
+{
+  "approved": true,
+  "claims": [
+    {
+      "claim": "Aktuellt rådsmöte efterlyser åtgärder längs hela transportvägen inom internationell rätt, inte en ny generell bordningsrätt.",
+      "status": "verified",
+      "source_ids": [
+        "eu_october"
+      ]
+    },
+    {
+      "claim": "AIS förmedlar identitet och positionsuppgifter; en publik lucka bevisar inte sanktionsbrott.",
+      "status": "verified",
+      "source_ids": [
+        "imo_ais"
+      ]
+    },
+    {
+      "claim": "Försäkring och ansvar är relevanta för fungerande sjöfart.",
+      "status": "verified",
+      "source_ids": [
+        "foi_shipping"
+      ]
+    }
+  ],
+  "analysis_and_examples": "Egna analysmodeller, konstruerade exempel och scenarier är uttryckligen märkta. Inga empiriska effekttal eller scenarioprobabiliteter påstås.",
+  "limitations": "Öppna källor. Ingen insyn i operativ planering. Händelsestatus daterad. Officiella uttalanden återges som uttalanden; de styrker inte varje bakomliggande sakförhållande.",
+  "review_notes": "Sakgranskning av namn, datum, distinktion observation/orsak/ansvar samt beslutad kontra fungerande förmåga.",
+  "reviewer": "ChatGPT Work, editorial self-review",
+  "independent_human_review": false,
+  "package_sha256": "f777d1070d921d4d11853fd8e4503a373ef49de984aca96c9bf71d441374dba2",
+  "reviewed_at": "2026-10-20T21:55:53.453605+00:00"
+}
