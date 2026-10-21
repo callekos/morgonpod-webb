@@ -1,0 +1,102 @@
+{
+  "channel": "sjoomradet",
+  "date": "2026-10-21",
+  "sources": [
+    {
+      "title": "U.S. Navy Awards $300M Contract to Robotic-Inspection Startup Gecko",
+      "url": "https://maritime-executive.com/article/u-s-navy-awards-300m-contract-to-robotic-inspection-startup-gecko",
+      "resolved_url": "https://maritime-executive.com/article/u-s-navy-awards-300m-contract-to-robotic-inspection-startup-gecko",
+      "http_status": 200,
+      "retrieved_at": "2026-10-21T17:31:18.908005+00:00",
+      "evidence_level": "retrieved_page_text",
+      "text": "U.S. Navy Awards $300M Contract to Robotic-Inspection Startup Gecko A team of Gecko engineers inspects the hull of a frigate with a robotic ultrasonic scanning device (file image courtesy Gecko) By The Maritime Executive 2026-10-20 22:14:35 Pittsburgh-based automated inspection company Gecko Robotics has won a $300 million IDIQ contract with the U.S. Navy to help fight the age-old enemy of corrosion with new high-tech tools. Gecko's robotic inspectors can crawl on steel structures of all kinds and detect flaws in minute detail, helping customers to plan maintenance in advance and build a digital record of asset health. For the Navy, the most valuable metric in sustainment is yard time: an understanding of the vessel's needs means better preparation for a yard period, which means more efficient utilization of both the yard capacity and the vessel. Tech tools can help get more vessels out of shipyard faster, a requirement to achieve the Navy's goal of maintaining 80% combat surge readiness at any given time. In a statement, Gecko said that its systems can help the Navy identify structural issues with its vessels up to 50 times faster than human methods can produce, and can complete digital inspections in mere days. Its proprietary technology can crawl along a flight deck and scan through thick nonskid coating. Combined with AI analysis, the technique generates a comprehensive map of corrosion. “With savings of millions of dollars per ship, months of inspections turning into days and warships returning to sea faster, the U.S. Navy is demonstrating to the world how to deploy technology at scale,\" said Gecko Robotics co-founder and CEO Jake Loosararian. Stay on Top of the Daily Maritime News The maritime news that matters most Get the latest maritime news delivered to your inbox daily. Subscribe Free The contract expands upon a previous $71 million award covering work on 18 ships in U.S. Pacific Fleet, announced in March. Gecko will also be involved in nondestructive testing of submarine components at Anduril's future manufacturing plants at Sparrows Point, Baltimore and Orange County, California, the firm says. The new Sparrows Point yard is expected to launch in 2030 and work at the OC site is already in progress.",
+      "page_sha256": "8b61c784b54f42b5fca7a80ffed3fb691f5f8c39fd536bd6db03b3646b70d26a",
+      "text_sha256": "01bc159887f11ac1a650c5bbe2fa7dda04da4e9aea1d0cd9a92048888da26377",
+      "extraction_method": "title_matched_article",
+      "publisher": "The Maritime Executive",
+      "date": "2026-10-21T02:14:35+00:00",
+      "summary": "Marin beredskap: avtal om robotiserad inspektion av fartyg och korrosion.",
+      "event_id": "c1ef6bf3af9d4ca5",
+      "event_sources": [
+        {
+          "title": "U.S. Navy Awards $300M Contract to Robotic-Inspection Startup Gecko",
+          "url": "https://maritime-executive.com/article/u-s-navy-awards-300m-contract-to-robotic-inspection-startup-gecko",
+          "publisher": "The Maritime Executive"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "title": "Norway Plans to Buy 20 Standardized Naval Vessels for Three Nations",
+      "url": "https://maritime-executive.com/article/norway-plans-to-buy-20-standardized-naval-vessels-for-three-nations",
+      "resolved_url": "https://maritime-executive.com/article/norway-plans-to-buy-20-standardized-naval-vessels-for-three-nations",
+      "http_status": 200,
+      "retrieved_at": "2026-10-21T17:31:15.703526+00:00",
+      "evidence_level": "retrieved_page_text",
+      "text": "Norway Plans to Buy 20 Standardized Naval Vessels for Three Nations Conceptual illustration courtesy of Kongsberg By The Maritime Executive 2026-10-20 23:56:26 Norway has unveiled plans to procure up to 20 standardized government vessels that are designed to strengthen the capabilities of three allied nations, a development that comes amidst rising security threats - specifically from Russia. The novel procurement plan will put a Norwegian authority in charge of buying naval vessels for use by Lithuania and the UK. The Norwegian Defence Materiel Agency (FMA) said that it is looking to identify shipyards both from Norway and across Europe that could be awarded the contract for the 20 vessels. While FMA is hoping to attract interest from a wide range of yards, the agency intends to split the procurement into two separate contracts in order to foster competition, diversify its supplier base, and ensure that the program has enough capability behind it to scale up. In the planned shipbuilding project, FMA intends to procure the 20 vessels for Norway, the UK and Lithuania. Six of the vessels will be constructed for the Norwegian Coast Guard and four of the vessels for the country’s Navy. Six vessels that will be based on the naval variant will be built for the UK and four for Lithuania. While FMA said it intends to award the contracts in 2027 with the first delivery expected in 2030, the agency did not provide detailed specifications. Stay on Top of the Daily Maritime News The maritime news that matters most Get the latest maritime news delivered to your inbox daily. Subscribe Free “We have chosen to start with the large, ocean-going vessels to ensure progress while meeting the needs of our allies in the UK and Lithuania. At the same time, we will spend the necessary time on further developing the smaller vessels,” said Marte Gerhardsen, State Secretary. The agency said that it is reaching out early in the process because it wants to provide the industrial base with early insight into the shipbuilding contract, hoping to attract broad participation from shipyards and reduce procurement risk.",
+      "page_sha256": "86d758b0287de2d81f0cd6b4f66accfb3ea32a1ae7b9837128fafcb229c2c9dd",
+      "text_sha256": "15b4f2fbb4cf684c2acd29a917fb60f5f2711b8fae7e191a83177ef53c44b789",
+      "extraction_method": "title_matched_article",
+      "publisher": "The Maritime Executive",
+      "date": "2026-10-21T03:56:26+00:00",
+      "summary": "Norska planer på standardiserade marin- och kustbevakningsfartyg för tre allierade länder.",
+      "event_id": "02741b9845794077",
+      "event_sources": [
+        {
+          "title": "Norway Plans to Buy 20 Standardized Naval Vessels for Three Nations",
+          "url": "https://maritime-executive.com/article/norway-plans-to-buy-20-standardized-naval-vessels-for-three-nations",
+          "publisher": "The Maritime Executive"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "title": "Report: Despite Iran's Attacks, Gulf Oil Exports Exceed Prewar Levels",
+      "url": "https://maritime-executive.com/article/report-despite-iran-s-attacks-gulf-oil-exports-exceed-prewar-levels",
+      "resolved_url": "https://maritime-executive.com/article/report-despite-iran-s-attacks-gulf-oil-exports-exceed-prewar-levels",
+      "http_status": 200,
+      "retrieved_at": "2026-10-21T17:31:15.672299+00:00",
+      "evidence_level": "retrieved_page_text",
+      "text": "Report: Despite Iran's Attacks, Gulf Oil Exports Exceed Prewar Levels NASA file image By The Maritime Executive 2026-10-20 23:22:44 Commodity intelligence firm Kpler reports that oil flows out of the Arabian Gulf have rebounded so well that they now exceed levels seen before the start of the U.S.-Israel-Iran war. By Kpler's count, the GCC states are now moving about 24 million barrels per day out of the region, including volumes transported by overland pipeline. The resurgence can be attributed in large part to the U.S.-protected shipping lane through the southern side of the Strait of Hormuz, which is now moving about 14 million barrels per day of crude oil, despite the constant risk of Iranian attack. The hazard level is high, but day rates are as well, and strong earnings have attracted a growing number of tankers in the market despite regular drone and missile strikes. A \"Hormuz Shuttle Service\" of short-haul tankers provides the backbone, carrying Gulf crude to Fujairah for transfer to other vessels, but there are others as well; TankerTrackers.com counts several hundred ships engaged in various aspects of the trade. The restoration of Arabian Gulf exports has been done without Iran, which remains cut off by a U.S. Navy blockade. With no sign of progress in peace negotiations, that naval mission is expected to continue. The U.S. Navy flotilla in the Arabian Sea is getting reinforcement soon from the carrier USS Theodore Roosevelt and her escorts, now under way from Japan to the Mideast, U.S. officials confirmed to Fox News' Liz Friden on Tuesday. The Makin Island Amphibious Ready Group - comprised of amphibs USS Makin Island , USS Anchorage and USS John P. Murtha - is also under way from San Diego to join the task force near the Gulf of Oman. The arrival of more Navy assets could allow the ships on station to rotate out, putting less strain on the overall fleet, or provide more capacity for airstrikes after the midterm elections. Stay on Top of the Daily Maritime News The maritime news that matters most Get the latest maritime news delivered to your inbox daily. Subscribe Free Despite higher flows out of the Gulf, oil prices remain well above $100 per barrel, reflecting the extreme day rates for VLCCs and Suezmax tankers. The cost of delivering oil out of the Gulf to Asia now exceeds $35 per barrel, creating a market dynamic where transport cost effectively drives the price of crude. The Trump administration hopes to address this by boosting the availability of tanker tonnage: its plan is to create a path to resale and legitimacy for hundreds of \"shadow fleet\" tankers operating in sanctioned trades. But market watchers are skeptical whether this plan can scale: shadow fleet tankers are already quite profitable in their current role, and relatively few qualified candidates are available (and insurable), multiple analysts told Bloomberg this week.",
+      "page_sha256": "04f93dc6082383c98af2bcb4e6c018740463d2e250745d032b378de1155334c3",
+      "text_sha256": "c0f95a80dd0bc68fd5c37658e41fa48032290cc6fcd6b1f51ed223a3ad4108c9",
+      "extraction_method": "title_matched_article",
+      "publisher": "The Maritime Executive",
+      "date": "2026-10-21T03:22:44+00:00",
+      "summary": "Maritim säkerhet: Kplers uppgifter om oljeexport och kvarstående risker i Hormuz.",
+      "event_id": "b8e0105d3c03e691",
+      "event_sources": [
+        {
+          "title": "Report: Despite Iran's Attacks, Gulf Oil Exports Exceed Prewar Levels",
+          "url": "https://maritime-executive.com/article/report-despite-iran-s-attacks-gulf-oil-exports-exceed-prewar-levels",
+          "publisher": "The Maritime Executive"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "title": "Littoral Combat Ship Transits Past a Contested Reef, Angering China",
+      "url": "https://maritime-executive.com/article/littoral-combat-ship-transits-past-a-contested-reef-angering-china",
+      "resolved_url": "https://maritime-executive.com/article/littoral-combat-ship-transits-past-a-contested-reef-angering-china",
+      "http_status": 200,
+      "retrieved_at": "2026-10-21T17:31:18.876428+00:00",
+      "evidence_level": "retrieved_page_text",
+      "text": "Littoral Combat Ship Transits Past a Contested Reef, Angering China File image: USS Charleston during an exercise with Japanese forces in 2023 (USN) By The Maritime Executive 2026-10-20 21:27:04 At a time of heightened tensions between the Philippines and China, the Independence-class LCS USS Charleston conducted a transit near Sabina Shoal, a contested reef within the boundaries of the Philippine exclusive economic zone and China's overlapping \"nine dash line\" claim. China's military interpreted the maneuver as a challenge to Beijing's sovereignty and issued a statement of protest. PLA Southern Theater Command spokesman Yin Gang said in a statement that USS Charleston had \"illegally intruded\" into waters next to Sabina Shoal, and that China's military had dispatched units to track and monitor the American ship. Zhang Junshe, a researcher at the PLA Naval Military Academic Research Institute and a frequent commentator in Chinese state media, told Global Times that Charleston's transit was calculated to show support for the Philippines and challenge \"China's sovereignty in the South China Sea.\" He emphasized that the PLA has the capability to swiftly detect and track what it considers to be \"unauthorized intrusions.\" The encounter comes amidst a diplomatic dustup over language used by the Chinese ambassador to Manila last week. In an interview on the 15th, Ambassador Jing Quan told Philippine media that China could \"easily win\" if it chose to use force to pursue its claims. \"We should feel fortunate enough that you have a neighbor like China in this region. If we want to use force, we may easily win. But no, we’ll not use force. We love peace,\" Jing said. At least 10 Philippine lawmakers have called for Jing to be declared persona non grata and sent back to China. Philippine Foreign Affairs Secretary Theresa Lazaro summoned him on Monday to register the government's objections. \"Secretary Lazaro told the Ambassador that the statement was provocative and unacceptable, and does not contribute to creating understanding,\" the ministry said in a statement. Stay on Top of the Daily Maritime News The maritime news that matters most Get the latest maritime news delivered to your inbox daily. Subscribe Free China's sweeping maritime claims inside the Philippine EEZ were rejected by an international tribunal in 2016, but Beijing has refused to recognize the ruling and has carried on with what it describes as \"rights protection\" in \"China's\" Spratly Islands. Sabina Shoal is about 700 nautical miles from mainland China and 80 nautical miles from the Philippine province of Palawan. Sabina Shoal has been a flash point for confrontations between Chinese and Philippine forces. In 2024, the Philippine Coast Guard cutter BRP Teresa Magbanua anchored at the reef to deter suspected Chinese land reclamation activity. In response , Chinese forces deployed multiple vessels, including CCG 5901 - the world's largest coast guard cutter at 12,000 tonnes displacement. \"It’s an intimidation on the part of the China Coast Guard,\" Philippine Coast Guard spokesman Jay Tariella told Reuters at the time. The Chinese forces set up a blockade to prevent resupply of the Magbanua , leaving the PCG cutter's crew to subsist on what they could find on board for weeks. Acute health issues stemming from malnutrition and dehydration eventually forced the Magbanua to return to port.",
+      "page_sha256": "ab6906e7c7f030e2c024bf334f05fbc599b3aac0074230ba1bf1cb61fd529040",
+      "text_sha256": "a9d65a82bb54865f931081b6685f444283ca3564061bfce5d1c753e3c6e73684",
+      "extraction_method": "title_matched_article",
+      "publisher": "The Maritime Executive",
+      "date": "2026-10-21T01:27:04+00:00",
+      "summary": "Maritim säkerhet: amerikanskt örlogsfartyg vid omstritt rev och Kinas protest.",
+      "event_id": "4da66cfa6860910a",
+      "event_sources": [
+        {
+          "title": "Littoral Combat Ship Transits Past a Contested Reef, Angering China",
+          "url": "https://maritime-executive.com/article/littoral-combat-ship-transits-past-a-contested-reef-angering-china",
+          "publisher": "The Maritime Executive"
+        }
+      ],
+      "corroborated": false
+    }
+  ]
+}

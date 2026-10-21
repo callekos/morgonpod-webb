@@ -1,0 +1,50 @@
+[
+  {
+    "source": "The Maritime Executive",
+    "title": "Norsk fartygsplan för tre allierade länder",
+    "url": "https://maritime-executive.com/article/norway-plans-to-buy-20-standardized-naval-vessels-for-three-nations",
+    "evidence": {
+      "date": "2026-10-21T03:56:26+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-21T17:31:15.703526+00:00",
+      "page_sha256": "86d758b0287de2d81f0cd6b4f66accfb3ea32a1ae7b9837128fafcb229c2c9dd",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "The Maritime Executive",
+    "title": "Oljeexport återhämtas samtidigt som farleder förblir riskfyllda",
+    "url": "https://maritime-executive.com/article/report-despite-iran-s-attacks-gulf-oil-exports-exceed-prewar-levels",
+    "evidence": {
+      "date": "2026-10-21T03:22:44+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-21T17:31:15.672299+00:00",
+      "page_sha256": "04f93dc6082383c98af2bcb4e6c018740463d2e250745d032b378de1155334c3",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "The Maritime Executive",
+    "title": "Amerikansk fartygspassage möter kinesisk protest",
+    "url": "https://maritime-executive.com/article/littoral-combat-ship-transits-past-a-contested-reef-angering-china",
+    "evidence": {
+      "date": "2026-10-21T01:27:04+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-21T17:31:18.876428+00:00",
+      "page_sha256": "ab6906e7c7f030e2c024bf334f05fbc599b3aac0074230ba1bf1cb61fd529040",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "The Maritime Executive",
+    "title": "Robotinspektion ska stödja marinens underhåll",
+    "url": "https://maritime-executive.com/article/u-s-navy-awards-300m-contract-to-robotic-inspection-startup-gecko",
+    "evidence": {
+      "date": "2026-10-21T02:14:35+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-21T17:31:18.908005+00:00",
+      "page_sha256": "8b61c784b54f42b5fca7a80ffed3fb691f5f8c39fd536bd6db03b3646b70d26a",
+      "retrieval_limit": null
+    }
+  }
+]

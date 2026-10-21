@@ -1,0 +1,26 @@
+{
+  "approved": true,
+  "issues": [],
+  "source_coverage": [
+    {
+      "claim": "Norge planerar en gemensam anskaffning av upp till tjugo standardiserade fartyg för Norge, Storbritannien och Litauen.",
+      "source_url": "https://maritime-executive.com/article/norway-plans-to-buy-20-standardized-naval-vessels-for-three-nations"
+    },
+    {
+      "claim": "Oljeexporten från gulfstaterna har återhämtats till nivåer över dem före kriget, enligt Kpler.",
+      "source_url": "https://maritime-executive.com/article/report-despite-iran-s-attacks-gulf-oil-exports-exceed-prewar-levels"
+    },
+    {
+      "claim": "Det amerikanska örlogsfartyget Charleston genomförde en passage nära Sabina Shoal i Sydkinesiska havet, vilket mötte kinesiska protester.",
+      "source_url": "https://maritime-executive.com/article/littoral-combat-ship-transits-past-a-contested-reef-angering-china"
+    },
+    {
+      "claim": "Gecko Robotics har fått ett kontrakt på upp till trehundra miljoner dollar med den amerikanska marinen för robotiserade inspektioner.",
+      "source_url": "https://maritime-executive.com/article/u-s-navy-awards-300m-contract-to-robotic-inspection-startup-gecko"
+    }
+  ],
+  "short_episode_reason": "Manuset är väl underbyggett av de fyra angivna källorna från The Maritime Executive, följer redaktionella regler kring attribution och källkritik samt håller sig inom rätt tidsram och ämnesfokus.",
+  "reviewed_candidate_sha256": "eec5899a7b4a291c0a09a2045bdf9feb2bc21138eb751d6553825d154f6cda2c",
+  "reviewed_script_sha256": "09fffbd8bba4afa9857a00c1ea2e3341a23dee1ba8390b1b097f6308124b457f",
+  "work_package_sha256": "17981acac688750394d2ed1258f2c0f8c231386e443bcaf9f50de9d39fe063a5"
+}

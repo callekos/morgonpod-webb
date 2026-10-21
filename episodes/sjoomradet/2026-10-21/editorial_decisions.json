@@ -1,0 +1,123 @@
+{
+  "channel": "sjoomradet",
+  "date": "2026-10-21",
+  "schema": 2,
+  "corroboration_method": "distinct_hosts_not_proof_of_independence",
+  "received": 4,
+  "unique_urls": 4,
+  "identified_events": 4,
+  "selected_articles": 4,
+  "selected_events": 4,
+  "unique_domains": 1,
+  "max_items": 40,
+  "gemini_calls": 0,
+  "decisions": [
+    {
+      "event_id": "c1ef6bf3af9d4ca5",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 54,
+      "score_components": {
+        "relevance": 6,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "maritime-executive.com"
+      ],
+      "articles": [
+        {
+          "title": "U.S. Navy Awards $300M Contract to Robotic-Inspection Startup Gecko",
+          "url": "https://maritime-executive.com/article/u-s-navy-awards-300m-contract-to-robotic-inspection-startup-gecko"
+        }
+      ]
+    },
+    {
+      "event_id": "02741b9845794077",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 51,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "maritime-executive.com"
+      ],
+      "articles": [
+        {
+          "title": "Norway Plans to Buy 20 Standardized Naval Vessels for Three Nations",
+          "url": "https://maritime-executive.com/article/norway-plans-to-buy-20-standardized-naval-vessels-for-three-nations"
+        }
+      ]
+    },
+    {
+      "event_id": "b8e0105d3c03e691",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 51,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "maritime-executive.com"
+      ],
+      "articles": [
+        {
+          "title": "Report: Despite Iran's Attacks, Gulf Oil Exports Exceed Prewar Levels",
+          "url": "https://maritime-executive.com/article/report-despite-iran-s-attacks-gulf-oil-exports-exceed-prewar-levels"
+        }
+      ]
+    },
+    {
+      "event_id": "4da66cfa6860910a",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 51,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "maritime-executive.com"
+      ],
+      "articles": [
+        {
+          "title": "Littoral Combat Ship Transits Past a Contested Reef, Angering China",
+          "url": "https://maritime-executive.com/article/littoral-combat-ship-transits-past-a-contested-reef-angering-china"
+        }
+      ]
+    }
+  ],
+  "rejected": [],
+  "channel_scope": {
+    "input_count": 4,
+    "accepted_count": 4,
+    "rejected": []
+  },
+  "work_import": {
+    "package_sha256": "17981acac688750394d2ed1258f2c0f8c231386e443bcaf9f50de9d39fe063a5",
+    "candidate_sha256": "e4936f567b10a43df2da22b9566da3d157658f6ee8c94271059578564a028780",
+    "provenance": {
+      "issue": 121,
+      "source": "Work editorial rescue",
+      "prior_source_selection": "One Norwegian ship-procurement story",
+      "content_revision_reason": "Three genuinely new, separately read dated original articles: Gulf oil movements, Sabina Shoal transit and robotic naval inspections. Norwegian story retained. Sources published within existing 55-hour daily window.",
+      "prior_attempts_preserved": true,
+      "new_model_review_required": true
+    },
+    "editorial_approved": false
+  }
+}
