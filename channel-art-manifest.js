@@ -114,16 +114,126 @@
           "focal": "50% 52%"
         }
       }
+    },
+    {
+      "id": "03-minimal",
+      "number": 3,
+      "name": "Grafisk minimalism",
+      "status": "ready",
+      "preview": "assets/design-lab/03-minimal/preview.webp",
+      "channels": {
+        "ibat": {
+          "wide": "assets/design-lab/03-minimal/ibat.webp",
+          "small": "assets/design-lab/03-minimal/ibat-small.webp",
+          "square": "assets/design-lab/03-minimal/ibat-square.webp",
+          "focal": "55% 50%"
+        },
+        "vald": {
+          "wide": "assets/design-lab/03-minimal/vald.webp",
+          "small": "assets/design-lab/03-minimal/vald-small.webp",
+          "square": "assets/design-lab/03-minimal/vald-square.webp",
+          "focal": "43% 50%"
+        },
+        "sjoomradet": {
+          "wide": "assets/design-lab/03-minimal/sjoomradet.webp",
+          "small": "assets/design-lab/03-minimal/sjoomradet-small.webp",
+          "square": "assets/design-lab/03-minimal/sjoomradet-square.webp",
+          "focal": "50% 48%"
+        },
+        "kek": {
+          "wide": "assets/design-lab/03-minimal/kek.webp",
+          "small": "assets/design-lab/03-minimal/kek-small.webp",
+          "square": "assets/design-lab/03-minimal/kek-square.webp",
+          "focal": "53% 52%"
+        },
+        "lagstiftning": {
+          "wide": "assets/design-lab/03-minimal/lagstiftning.webp",
+          "small": "assets/design-lab/03-minimal/lagstiftning-small.webp",
+          "square": "assets/design-lab/03-minimal/lagstiftning-square.webp",
+          "focal": "65% 60%"
+        },
+        "ai_brottsbekampning": {
+          "wide": "assets/design-lab/03-minimal/ai_brottsbekampning.webp",
+          "small": "assets/design-lab/03-minimal/ai_brottsbekampning-small.webp",
+          "square": "assets/design-lab/03-minimal/ai_brottsbekampning-square.webp",
+          "focal": "55% 50%"
+        },
+        "it_juridik": {
+          "wide": "assets/design-lab/03-minimal/it_juridik.webp",
+          "small": "assets/design-lab/03-minimal/it_juridik-small.webp",
+          "square": "assets/design-lab/03-minimal/it_juridik-square.webp",
+          "focal": "50% 50%"
+        },
+        "verksamhetsutveckling": {
+          "wide": "assets/design-lab/03-minimal/verksamhetsutveckling.webp",
+          "small": "assets/design-lab/03-minimal/verksamhetsutveckling-small.webp",
+          "square": "assets/design-lab/03-minimal/verksamhetsutveckling-square.webp",
+          "focal": "50% 50%"
+        }
+      }
+    },
+    {
+      "id": "17-monochrome",
+      "number": 17,
+      "name": "Monokromt reportage",
+      "status": "ready",
+      "preview": "assets/design-lab/17-monochrome/preview.webp",
+      "channels": {
+        "ibat": {
+          "wide": "assets/design-lab/17-monochrome/ibat.webp",
+          "small": "assets/design-lab/17-monochrome/ibat-small.webp",
+          "square": "assets/design-lab/17-monochrome/ibat-square.webp",
+          "focal": "55% 50%"
+        },
+        "vald": {
+          "wide": "assets/design-lab/17-monochrome/vald.webp",
+          "small": "assets/design-lab/17-monochrome/vald-small.webp",
+          "square": "assets/design-lab/17-monochrome/vald-square.webp",
+          "focal": "43% 50%"
+        },
+        "sjoomradet": {
+          "wide": "assets/design-lab/17-monochrome/sjoomradet.webp",
+          "small": "assets/design-lab/17-monochrome/sjoomradet-small.webp",
+          "square": "assets/design-lab/17-monochrome/sjoomradet-square.webp",
+          "focal": "50% 48%"
+        },
+        "kek": {
+          "wide": "assets/design-lab/17-monochrome/kek.webp",
+          "small": "assets/design-lab/17-monochrome/kek-small.webp",
+          "square": "assets/design-lab/17-monochrome/kek-square.webp",
+          "focal": "53% 52%"
+        },
+        "lagstiftning": {
+          "wide": "assets/design-lab/17-monochrome/lagstiftning.webp",
+          "small": "assets/design-lab/17-monochrome/lagstiftning-small.webp",
+          "square": "assets/design-lab/17-monochrome/lagstiftning-square.webp",
+          "focal": "65% 60%"
+        },
+        "ai_brottsbekampning": {
+          "wide": "assets/design-lab/17-monochrome/ai_brottsbekampning.webp",
+          "small": "assets/design-lab/17-monochrome/ai_brottsbekampning-small.webp",
+          "square": "assets/design-lab/17-monochrome/ai_brottsbekampning-square.webp",
+          "focal": "55% 50%"
+        },
+        "it_juridik": {
+          "wide": "assets/design-lab/17-monochrome/it_juridik.webp",
+          "small": "assets/design-lab/17-monochrome/it_juridik-small.webp",
+          "square": "assets/design-lab/17-monochrome/it_juridik-square.webp",
+          "focal": "50% 50%"
+        },
+        "verksamhetsutveckling": {
+          "wide": "assets/design-lab/17-monochrome/verksamhetsutveckling.webp",
+          "small": "assets/design-lab/17-monochrome/verksamhetsutveckling-small.webp",
+          "square": "assets/design-lab/17-monochrome/verksamhetsutveckling-square.webp",
+          "focal": "50% 50%"
+        }
+      }
     }
   ],
   "planned": [
     {
       "number": 1,
       "name": "Nordiskt dokumentärfoto"
-    },
-    {
-      "number": 3,
-      "name": "Grafisk minimalism"
     },
     {
       "number": 4,
@@ -176,10 +286,6 @@
     {
       "number": 16,
       "name": "Taktil papperskonst"
-    },
-    {
-      "number": 17,
-      "name": "Monokromt reportage"
     },
     {
       "number": 18,

@@ -1,0 +1,87 @@
+{
+  "style": "17-monochrome",
+  "name": "Monokromt reportage",
+  "generator": "built-in image_gen",
+  "originals": [
+    {
+      "channel": "ibat",
+      "prompt": "Use case photorealistic-natural. ONE original landscape 3:2 channel cover, sophisticated professional Swedish editorial series. Style: Black and white documentary reportage photography, rich silver gelatin tonal range, striking natural side lighting, real architectural texture and human gesture, medium contrast, no color tint, no film border. Staged illustrative editorial scene, no actual news event. Subject: Information supply for crime prevention and investigation: an analyst bringing source records, a place map and evidence photographs together into one coherent operational picture. Connected source panels and a decisive human hand. No visible private data. Composition: decisive human gesture or strong central object, subject readable at small size, square-safe crop, documentary atmosphere but clearly staged illustration. No text, labels, letters, logos, watermark, border or grid. Anonymous fictional people, no actual crime event. No generic robot or globe. Realistic natural materials, absolutely black and white with no color.",
+      "generated_png_sha256": "9ff4910fc05a5c355d8b9f20678b562fc11a7e21b63e7245ee00ee1cc7dc867b",
+      "master": "assets/design-lab/17-monochrome/ibat-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "vald",
+      "prompt": "Use case photorealistic-natural. ONE original landscape 3:2 channel cover, sophisticated professional Swedish editorial series. Style: Black and white documentary reportage photography, rich silver gelatin tonal range, striking natural side lighting, real architectural texture and human gesture, medium contrast, no color tint, no film border. Staged illustrative editorial scene, no actual news event. Subject: Serious organized violence, violence as a service and digital recruitment: a contemporary Swedish street and an anonymous adult seen beside a large phone with abstract message shapes, shadowy recruiting network in the distance. No injuries, guns or sensational crime reconstruction. Composition: decisive human gesture or strong central object, subject readable at small size, square-safe crop, documentary atmosphere but clearly staged illustration. No text, labels, letters, logos, watermark, border or grid. Anonymous fictional people, no actual crime event. No generic robot or globe. Realistic natural materials, absolutely black and white with no color.",
+      "generated_png_sha256": "f2c959c20893d7204cbda745bfcb178aa48bb61e225e8c934e314933fa4671c4",
+      "master": "assets/design-lab/17-monochrome/vald-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "sjoomradet",
+      "prompt": "Use case photorealistic-natural. ONE original landscape 3:2 channel cover, sophisticated professional Swedish editorial series. Style: Black and white documentary reportage photography, rich silver gelatin tonal range, striking natural side lighting, real architectural texture and human gesture, medium contrast, no color tint, no film border. Staged illustrative editorial scene, no actual news event. Subject: Maritime security in the Baltic: a merchant ship, Nordic rocky shore, harbor infrastructure and a clearly identifiable undersea communications cable. Strong ship silhouette. Composition: decisive human gesture or strong central object, subject readable at small size, square-safe crop, documentary atmosphere but clearly staged illustration. No text, labels, letters, logos, watermark, border or grid. Anonymous fictional people, no actual crime event. No generic robot or globe. Realistic natural materials, absolutely black and white with no color.",
+      "generated_png_sha256": "b4760820409a8fc7a9a677d591e3075967644b8e3e4d706df57b821cc624675c",
+      "master": "assets/design-lab/17-monochrome/sjoomradet-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "kek",
+      "prompt": "Use case photorealistic-natural. ONE original landscape 3:2 channel cover, sophisticated professional Swedish editorial series. Style: Black and white documentary reportage photography, rich silver gelatin tonal range, striking natural side lighting, real architectural texture and human gesture, medium contrast, no color tint, no film border. Staged illustrative editorial scene, no actual news event. Subject: Criminal finance: an investigator tracing asset transfers between company buildings, accounts and property through an elegant winding financial trail. Evidence documents in foreground. No generic money pile. Composition: decisive human gesture or strong central object, subject readable at small size, square-safe crop, documentary atmosphere but clearly staged illustration. No text, labels, letters, logos, watermark, border or grid. Anonymous fictional people, no actual crime event. No generic robot or globe. Realistic natural materials, absolutely black and white with no color.",
+      "generated_png_sha256": "8f2537309d1427e5bf4364114a1a11e428cc7c8425317528d91e9ec903a004fa",
+      "master": "assets/design-lab/17-monochrome/kek-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "lagstiftning",
+      "prompt": "Use case photorealistic-natural. ONE original landscape 3:2 channel cover, sophisticated professional Swedish editorial series. Style: Black and white documentary reportage photography, rich silver gelatin tonal range, striking natural side lighting, real architectural texture and human gesture, medium contrast, no color tint, no film border. Staged illustrative editorial scene, no actual news event. Subject: Swedish criminal law: contemporary Swedish courtroom with pale oak benches and a prominent legal volume and case folders. Nordic legal process, no American gavel. Composition: decisive human gesture or strong central object, subject readable at small size, square-safe crop, documentary atmosphere but clearly staged illustration. No text, labels, letters, logos, watermark, border or grid. Anonymous fictional people, no actual crime event. No generic robot or globe. Realistic natural materials, absolutely black and white with no color.",
+      "generated_png_sha256": "50eb0869c1ba35d3c01230a89cdccca3fe43d1d731140f5063314e45d8213fc1",
+      "master": "assets/design-lab/17-monochrome/lagstiftning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "ai_brottsbekampning",
+      "prompt": "Use case photorealistic-natural. ONE original landscape 3:2 channel cover, sophisticated professional Swedish editorial series. Style: Black and white documentary reportage photography, rich silver gelatin tonal range, striking natural side lighting, real architectural texture and human gesture, medium contrast, no color tint, no film border. Staged illustrative editorial scene, no actual news event. Subject: Artificial intelligence in criminal investigation: human analyst checking machine assisted pattern recognition and image comparisons against source photographs. Strong human oversight and evidence verification. No robot face, no globe. Composition: decisive human gesture or strong central object, subject readable at small size, square-safe crop, documentary atmosphere but clearly staged illustration. No text, labels, letters, logos, watermark, border or grid. Anonymous fictional people, no actual crime event. No generic robot or globe. Realistic natural materials, absolutely black and white with no color.",
+      "generated_png_sha256": "37a51dc456f236ce39d7ba8f43c1d1570b617d7bd6b3562cc084ff747607935f",
+      "master": "assets/design-lab/17-monochrome/ai_brottsbekampning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "it_juridik",
+      "prompt": "Use case photorealistic-natural. ONE original landscape 3:2 channel cover, sophisticated professional Swedish editorial series. Style: Black and white documentary reportage photography, rich silver gelatin tonal range, striking natural side lighting, real architectural texture and human gesture, medium contrast, no color tint, no film border. Staged illustrative editorial scene, no actual news event. Subject: Privacy and information law: secure personal records archive, a person presenting a permission card at an access gate, an accountable audit trail and segregated record drawers. Clearly about access rights and personal data. Composition: decisive human gesture or strong central object, subject readable at small size, square-safe crop, documentary atmosphere but clearly staged illustration. No text, labels, letters, logos, watermark, border or grid. Anonymous fictional people, no actual crime event. No generic robot or globe. Realistic natural materials, absolutely black and white with no color.",
+      "generated_png_sha256": "c469df32995894bb3d47a4a9a3d6a764b40f8a104b04a294d5db67e62f865341",
+      "master": "assets/design-lab/17-monochrome/it_juridik-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "verksamhetsutveckling",
+      "prompt": "Use case photorealistic-natural. ONE original landscape 3:2 channel cover, sophisticated professional Swedish editorial series. Style: Black and white documentary reportage photography, rich silver gelatin tonal range, striking natural side lighting, real architectural texture and human gesture, medium contrast, no color tint, no film border. Staged illustrative editorial scene, no actual news event. Subject: Organizational development and implementation: a small team moving process cards from planning wall to a working service prototype. People, method, technology and practical change. No isolated gear icon. Composition: decisive human gesture or strong central object, subject readable at small size, square-safe crop, documentary atmosphere but clearly staged illustration. No text, labels, letters, logos, watermark, border or grid. Anonymous fictional people, no actual crime event. No generic robot or globe. Realistic natural materials, absolutely black and white with no color.",
+      "generated_png_sha256": "34dbbdf724c92e87169cb2cf1e1f1b7593bddb94544a93a40ed7483e3793c335",
+      "master": "assets/design-lab/17-monochrome/verksamhetsutveckling-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

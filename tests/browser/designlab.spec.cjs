@@ -1,5 +1,5 @@
 const {test,expect}=require('@playwright/test');const manifest=require('../../channel-art-manifest.js');test.use({serviceWorkers:'block'});
-const styles=manifest.styles.filter(s=>s.id!=='v3');
+const styles=manifest.styles.filter(s=>s.id!=='v3');test.setTimeout(Math.max(30000,styles.length*15000));
 test('laboratory keeps audio, queue, navigation, theme and saved style',async({page},info)=>{
  const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('/idag.html');await expect(page.locator('.knowledge-card')).toHaveCount(4);
  await expect(page.locator('.morning-strip a')).not.toHaveCount(0);expect(await page.locator('.morning-strip a').evaluateAll(nodes=>nodes.every(a=>!a.href.includes('lagstiftning')))).toBe(true);

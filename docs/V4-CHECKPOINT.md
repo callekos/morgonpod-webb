@@ -1,38 +1,26 @@
 # V4 checkpoint, 21 oktober 2026
 
-## Utgångspunkt och skydd
+## Integrerat och verifierat
 
-V3 publicerad från main 54e90a3. Ärenden 10 och 12 redan avslutade. Katalog, avsnitt, artiklar och producentens Gemini/TTS/Watson ändras inte av frontendgrenar. Separat redaktion kan publicera nya katalogposter; varje merge ska bevara dem.
+Webb PR 17, merge 335f27d: fyra dagliga och fyra kunskapskanaler. Producent PR 118, merge 2bc6592: endast återkommande Lagstiftning avaktiverad genom automatic_production=false, historisk typbestämning bevarad. 333 lokala producentprov och producent-CI passerade. Fyra övriga kanalregister och 07.45-tider oförändrade.
 
-## Klassificering
+Webb PR 18, merge 6b29d91: live Designlaboratorium under Mer, kanoniskt bildmanifest, lokal beständig inställning, återställning och fallback. V3 är alltid standard för besökare utan eget val. 33 enhetsprov och 96 browserfall passerade i CI 39530906834. Publicerings-CI 39531389244 är grön. Direkt moln-Chrome-prov: byte till Redaktionell illustration, samma IT-juridikljud fortsatte från 0:36 till 1:27 och kön behöll fyra kommande. Testuppspelningen pausades. Ingen fysisk iPhone påstås testad.
 
-Webb PR 17: fyra dagliga kanaler, Lagstiftning bland fyra kunskapskanaler. 28 enhetstester och 84 webbläsarscenarier passerar i CI 39529712623. Producent PR 118 avaktiverar endast återkommande Lagstiftning genom automatic_production=false i gemensamt kanalurval. 333 lokala offlinetester passerar. Båda releaserna ska återläsas före slutförandekvitto.
+Webb PR 19, merge cc542be: typanpassade kunskapsingångar, fyra synliga bevakningskort på mobil, jämnt kunskapsgrid, kombinerade sökfilter kanal/typ/längd, filtrerad sidfortsättning i kontextkön, artikelrubriker från faktisk text och effektivare sizes. 33 enhetsprov och 108 browserfall godkända i CI 39532417757. Dess nya publiceringskvitto ska kontrolleras. Audit och 14 prioriteringar: UX-AUDIT-V4.md. Äldre issue 1 avslutat efter verifiering.
 
-## Designlaboratorium, första fungerande etapp
+## Bildproduktion
 
-Mer länkar till designlaboratorium.html. Ett kanoniskt manifest channel-art-manifest.js mappar stil/kanal/format/fokus. channel-art.js validerar att alla åtta kanaler finns innan stilen blir valbar. Bildvalet sparas separat från tema och ljud i localStorage. Byte förladdar åtta småbilder och uppdaterar endast bildattribut. Ljudnod, källa, kö och aktiv sida återskapas inte. Bildfel faller tillbaka till ordinarie V3. Snabba byten har senaste-val-vinner-skydd.
+Ordinarie V3 plus 02 Redaktionell illustration är publicerade. Batch 2 innehåller 03 Grafisk minimalism och 17 Monokromt reportage, båda med åtta separat genererade original, tre WebP-format per kanal och kontaktförhandsvisning. Serierna är visuellt granskade och sex riktade desktop/Android-prov samt 33 enhetsprov passerade efter lokal aktivering. Alla 66 binära batchfiler har laddats upp med exakt blobhashkontroll. Releasegrenen ska få full CI och livekvitto före nästa bildbatch.
 
-Stil 02 Redaktionell illustration: 8 individuella genererade originalmotiv och 24 WebP-derivat, samt förhandsvisning med alla åtta. Separata master-WebP finns i assets/design-lab/02-editorial. Totalt 4 521 818 byte inklusive masters. Övriga 19 stilar är ännu INTE producerade eller valbara. V3 är standard för nya besökare.
+17 av 20 experimentella stilar återstår att producera. Se docs/design-lab/STYLE-STATUS.md och production-plan.json. scripts/build-art-series.py kräver åtta distinkta original, sparar prompter och SHA256, bygger optimerade derivat och aktiverar först med --activate efter granskning. Originalmotiven sparas som master-WebP i respektive stilkatalog.
 
-Lokalt: 33 enhetstester samt 48 webbläsarscenarier på desktop och emulerad Android passerade. Bildbyte under verklig ljuduppspelning verifierar noll pause-event, samma ljudnod/källa, löpande position samt bevarat tema. Persistens, återställning, kanal, artikel, stor spelare, sök, arkiv, kö och fel återges i tests/browser/designlab.spec.cjs. WebKit saknar systembibliotek lokalt, befintlig CI måste verifiera iPhone/iPad innan merge. Fysisk telefon och VoiceOver är inte testade.
+## Nästa konkreta steg
 
-## Nästa steg
+1. Verifiera PR 19 live och publicera batch 2 på färsk main, utan att röra katalogfiler. Kontrollera bildbyte på alla ytor och fysisk enhet endast om sådan faktiskt finns.
+2. Fortsätt med återstående 17 stilar i batcher om 2 till 4. Varje batch ska vara komplett, visuellt granskad, testad, publicerad och checkpointad före nästa. Inga halvfärdiga alternativ i manifestet.
+3. Slutkontroll: 20 kompletta stilar, 160 distinkta original, inga masterhämtningar i klienten, beständigt lokalt val, återställning, obrutet ljud, teman, nya katalogposter och gamla länkar.
+4. Uppdatera issue 14, 15, 16 och äldre issue 3 efter verifierat utfall. Slutleverans får inte påstå 20 färdiga innan alla är live.
 
-1. Verifiera och integrera producent PR 118 och webb PR 17. Kontrollera publicerad fyrkanalsvy.
-2. Publicera första laboratoriesteget efter komplett CI. Kontrollera bildbyte live.
-3. Producera återstående 19 kompletta originalserier i mindre batcher, kontrollera samtliga format, lägg till i manifest först när alla åtta motiv är granskade. Håll 20-stilsstatus och bildprompter uppdaterade.
-4. Fortsätt UX 16 efter fungerande liveväljare. Ingen experimentell stil blir permanent utan ägarens val.
+## Permanent stil och återställning
 
-## Permanent standard senare
-
-Efter uttryckligt ägarval: ändra ordinarie manifestpost/default i en separat PR, behåll valbar V3 och befintliga lokala preferenser, versionsändra shell och testa samma matris. Ändra aldrig alla besökares standard via en persons lokala laboratorieval.
-
-## Senare verifiering och UX-etapp
-
-Producent PR 118 är integrerad 2bc6592; återläst automatic_production=false. Webb PR 17 integrerad 335f27d; CI 39530271849 verifierade exakta livebytes 02.00.49 UTC och fyra publicerade flödestester. Äldre issue 1 avslutat efter verifieringen.
-
-Laboratorium PR 18 integrerad 6b29d91 efter 33 enhetsprov och 96 browserfall i CI 39530906834. Första CI stoppade korrekt två WebKit-testfall där check() inte accepterade den avsiktliga återställningen vid nätfel. Provet använder nu click() och explicit not.toBeChecked(). Ingen produktspärr eller testacceptans sänktes. Publicerings-CI 39531389244 kontrolleras.
-
-UX-etapp finns lokalt: kunskapsingångar, två gånger två bevakning på mobil, jämnt kunskapsgrid, kombinerade sökfilter, lässtruktur från verkliga rubriker, mindre bildstorleksannonsering och filtrerad sidfortsättning i kontextkön. 33 enhetsprov och 54 desktop/Android-scenarier passerar. WebKit återstår i CI. Audit och prioritering i UX-AUDIT-V4.md.
-
-Bildbatch 2: 03 Grafisk minimalism och 17 Monokromt reportage har åtta separata original vardera och är visuellt granskade som serier. De är ännu inte aktiverade eller publicerade. 17 stilar återstår att producera efter dessa. Bildbyggverktyget scripts/build-art-series.py skapar först fullständiga assets/proveniens, --activate används först efter visuell kontroll.
+Ägaren väljer själv slutlig stil efter test i laboratoriet. Ny standard kräver separat uttryckligt beslut och PR. Behåll V3 tillgänglig och befintliga lokala val. Rollback ändrar enbart avsedda frontendfiler/manifest, aldrig hela katalogen över nya publiceringar. Alla publicerade avsnitt, artiklar, källor och ordinarie kataloguppdateringar bevaras. Gemini, TTS och Watson ska inte ändras.

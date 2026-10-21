@@ -1,0 +1,87 @@
+{
+  "style": "03-minimal",
+  "name": "Grafisk minimalism",
+  "generator": "built-in image_gen",
+  "originals": [
+    {
+      "channel": "ibat",
+      "prompt": "Use case stylized-concept. Create ONE original landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Series 03 Grafisk minimalism. Style: High end graphic minimalism: extremely simplified but spatially coherent editorial scene made from only a few bold geometric silhouettes, sharp solid flat color planes, vast cream negative space, charcoal black, burnt orange and muted cobalt. No gradients, no photorealism, no texture, no small details. Strong asymmetrical Swiss modernist composition, a conceptual scene rather than a standalone app icon. Subject: Information supply for crime prevention and investigation: an analyst bringing source records, a place map and evidence photographs together into one coherent operational picture. Connected source panels and a decisive human hand. No visible private data. Composition: one centered recognizable main idea, clear hierarchy, robust square and wide crop, subject distinguishable at 48px. No text, no letters, no logos, no watermark, no contact sheet or grid. No generic robot or globe. Invent a fresh composition rather than filtering an existing image.",
+      "generated_png_sha256": "4c99df143ab04b110d7f4b778f772d9976aeb551ab1d4e5512a27d3aa9451123",
+      "master": "assets/design-lab/03-minimal/ibat-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "vald",
+      "prompt": "Use case stylized-concept. Create ONE original landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Series 03 Grafisk minimalism. Style: High end graphic minimalism: extremely simplified but spatially coherent editorial scene made from only a few bold geometric silhouettes, sharp solid flat color planes, vast cream negative space, charcoal black, burnt orange and muted cobalt. No gradients, no photorealism, no texture, no small details. Strong asymmetrical Swiss modernist composition, a conceptual scene rather than a standalone app icon. Subject: Serious organized violence, violence as a service and digital recruitment: a contemporary Swedish street and an anonymous adult seen beside a large phone with abstract message shapes, shadowy recruiting network in the distance. No injuries, guns or sensational crime reconstruction. Composition: one centered recognizable main idea, clear hierarchy, robust square and wide crop, subject distinguishable at 48px. No text, no letters, no logos, no watermark, no contact sheet or grid. No generic robot or globe. Invent a fresh composition rather than filtering an existing image.",
+      "generated_png_sha256": "129a45c343b3c212b365d3044a67dc9251df7d36f6f26cd9f13341cb637d1f6a",
+      "master": "assets/design-lab/03-minimal/vald-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "sjoomradet",
+      "prompt": "Use case stylized-concept. Create ONE original landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Series 03 Grafisk minimalism. Style: High end graphic minimalism: extremely simplified but spatially coherent editorial scene made from only a few bold geometric silhouettes, sharp solid flat color planes, vast cream negative space, charcoal black, burnt orange and muted cobalt. No gradients, no photorealism, no texture, no small details. Strong asymmetrical Swiss modernist composition, a conceptual scene rather than a standalone app icon. Subject: Maritime security in the Baltic: a merchant ship, Nordic rocky shore, harbor infrastructure and a clearly identifiable undersea communications cable. Strong ship silhouette. Composition: one centered recognizable main idea, clear hierarchy, robust square and wide crop, subject distinguishable at 48px. No text, no letters, no logos, no watermark, no contact sheet or grid. No generic robot or globe. Invent a fresh composition rather than filtering an existing image.",
+      "generated_png_sha256": "6ac66a9711e32c62d104e5eb6ec63bd93060555d0b2279e43f63279e345186ee",
+      "master": "assets/design-lab/03-minimal/sjoomradet-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "kek",
+      "prompt": "Use case stylized-concept. Create ONE original landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Series 03 Grafisk minimalism. Style: High end graphic minimalism: extremely simplified but spatially coherent editorial scene made from only a few bold geometric silhouettes, sharp solid flat color planes, vast cream negative space, charcoal black, burnt orange and muted cobalt. No gradients, no photorealism, no texture, no small details. Strong asymmetrical Swiss modernist composition, a conceptual scene rather than a standalone app icon. Subject: Criminal finance: an investigator tracing asset transfers between company buildings, accounts and property through an elegant winding financial trail. Evidence documents in foreground. No generic money pile. Composition: one centered recognizable main idea, clear hierarchy, robust square and wide crop, subject distinguishable at 48px. No text, no letters, no logos, no watermark, no contact sheet or grid. No generic robot or globe. Invent a fresh composition rather than filtering an existing image.",
+      "generated_png_sha256": "bf7d6336534dae2d9482a8dedd70a761826ced282e1c1c9806d056aba2dbf282",
+      "master": "assets/design-lab/03-minimal/kek-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "lagstiftning",
+      "prompt": "Use case stylized-concept. Create ONE original landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Series 03 Grafisk minimalism. Style: High end graphic minimalism: extremely simplified but spatially coherent editorial scene made from only a few bold geometric silhouettes, sharp solid flat color planes, vast cream negative space, charcoal black, burnt orange and muted cobalt. No gradients, no photorealism, no texture, no small details. Strong asymmetrical Swiss modernist composition, a conceptual scene rather than a standalone app icon. Subject: Swedish criminal law: contemporary Swedish courtroom with pale oak benches and a prominent legal volume and case folders. Nordic legal process, no American gavel. Composition: one centered recognizable main idea, clear hierarchy, robust square and wide crop, subject distinguishable at 48px. No text, no letters, no logos, no watermark, no contact sheet or grid. No generic robot or globe. Invent a fresh composition rather than filtering an existing image.",
+      "generated_png_sha256": "8ff246083f378ea4dba64a9ff77fb473a937e07eac82f91efdd290a92313c5af",
+      "master": "assets/design-lab/03-minimal/lagstiftning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "ai_brottsbekampning",
+      "prompt": "Use case stylized-concept. Create ONE original landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Series 03 Grafisk minimalism. Style: High end graphic minimalism: extremely simplified but spatially coherent editorial scene made from only a few bold geometric silhouettes, sharp solid flat color planes, vast cream negative space, charcoal black, burnt orange and muted cobalt. No gradients, no photorealism, no texture, no small details. Strong asymmetrical Swiss modernist composition, a conceptual scene rather than a standalone app icon. Subject: Artificial intelligence in criminal investigation: human analyst checking machine assisted pattern recognition and image comparisons against source photographs. Strong human oversight and evidence verification. No robot face, no globe. Composition: one centered recognizable main idea, clear hierarchy, robust square and wide crop, subject distinguishable at 48px. No text, no letters, no logos, no watermark, no contact sheet or grid. No generic robot or globe. Invent a fresh composition rather than filtering an existing image.",
+      "generated_png_sha256": "30ebf5f7443bfb2b2d6ec067a4f14fd1eed47cdb78a01835835c17c54a2ca8bf",
+      "master": "assets/design-lab/03-minimal/ai_brottsbekampning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "it_juridik",
+      "prompt": "Use case stylized-concept. Create ONE original landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Series 03 Grafisk minimalism. Style: High end graphic minimalism: extremely simplified but spatially coherent editorial scene made from only a few bold geometric silhouettes, sharp solid flat color planes, vast cream negative space, charcoal black, burnt orange and muted cobalt. No gradients, no photorealism, no texture, no small details. Strong asymmetrical Swiss modernist composition, a conceptual scene rather than a standalone app icon. Subject: Privacy and information law: secure personal records archive, a person presenting a permission card at an access gate, an accountable audit trail and segregated record drawers. Clearly about access rights and personal data. Composition: one centered recognizable main idea, clear hierarchy, robust square and wide crop, subject distinguishable at 48px. No text, no letters, no logos, no watermark, no contact sheet or grid. No generic robot or globe. Invent a fresh composition rather than filtering an existing image.",
+      "generated_png_sha256": "370c7976fd775ae37fd4e37e923e9f812d4cfdf76bffbaef12fa347e81172f92",
+      "master": "assets/design-lab/03-minimal/it_juridik-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "verksamhetsutveckling",
+      "prompt": "Use case stylized-concept. Create ONE original landscape 3:2 full bleed cover for a Swedish professional audio knowledge platform. Series 03 Grafisk minimalism. Style: High end graphic minimalism: extremely simplified but spatially coherent editorial scene made from only a few bold geometric silhouettes, sharp solid flat color planes, vast cream negative space, charcoal black, burnt orange and muted cobalt. No gradients, no photorealism, no texture, no small details. Strong asymmetrical Swiss modernist composition, a conceptual scene rather than a standalone app icon. Subject: Organizational development and implementation: a small team moving process cards from planning wall to a working service prototype. People, method, technology and practical change. No isolated gear icon. Composition: one centered recognizable main idea, clear hierarchy, robust square and wide crop, subject distinguishable at 48px. No text, no letters, no logos, no watermark, no contact sheet or grid. No generic robot or globe. Invent a fresh composition rather than filtering an existing image.",
+      "generated_png_sha256": "dd333a4fcd645c328d29df6b80615f7bf9725df3e1cd499c63c5a4798153854f",
+      "master": "assets/design-lab/03-minimal/verksamhetsutveckling-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
