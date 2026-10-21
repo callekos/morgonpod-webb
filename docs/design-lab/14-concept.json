@@ -1,0 +1,87 @@
+{
+  "style": "14-concept",
+  "name": "Filmisk konceptkonst",
+  "generator": "built-in image_gen",
+  "originals": [
+    {
+      "channel": "ibat",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 14 Filmisk konceptkonst. Style/medium: Cinematic concept art with dramatic atmospheric depth, painterly realistic environment, dawn light, dark violet and warm amber, large strong foreground silhouette, restrained cinematic composition, not all blue.. Subject: Information supply for crime prevention and investigation: an analyst bringing source records, a place map and evidence photographs together into one coherent operational picture. Connected source panels and a decisive human hand. No visible private data.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "94290c9d23c075f6db641e653d1b4268207fa915a7aa76477b78c9b2677c9c09",
+      "master": "assets/design-lab/14-concept/ibat-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "vald",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 14 Filmisk konceptkonst. Style/medium: Cinematic concept art with dramatic atmospheric depth, painterly realistic environment, dawn light, dark violet and warm amber, large strong foreground silhouette, restrained cinematic composition, not all blue.. Subject: Serious organized violence, violence as a service and digital recruitment: a contemporary Swedish street and an anonymous adult seen beside a large phone with abstract message shapes, shadowy recruiting network in the distance. No injuries, guns or sensational crime reconstruction.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "d4fa10e82f6e6241e90015fdabef08a76614fcfb121635023897eaf8325c8f1b",
+      "master": "assets/design-lab/14-concept/vald-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "sjoomradet",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 14 Filmisk konceptkonst. Style/medium: Cinematic concept art with dramatic atmospheric depth, painterly realistic environment, dawn light, dark violet and warm amber, large strong foreground silhouette, restrained cinematic composition, not all blue.. Subject: Maritime security in the Baltic: a merchant ship, Nordic rocky shore, harbor infrastructure and a clearly identifiable undersea communications cable. Strong ship silhouette.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "48fc9938201d1c694264430053cff00645a431b612152f5f2029e33369c21547",
+      "master": "assets/design-lab/14-concept/sjoomradet-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "kek",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 14 Filmisk konceptkonst. Style/medium: Cinematic concept art with dramatic atmospheric depth, painterly realistic environment, dawn light, dark violet and warm amber, large strong foreground silhouette, restrained cinematic composition, not all blue.. Subject: Criminal finance: an investigator tracing asset transfers between company buildings, accounts and property through an elegant winding financial trail. Evidence documents in foreground. No generic money pile.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "f83beb334a01b32030648fb285fcbe58ada79ab1bf2aef0f24c0fc88742bb438",
+      "master": "assets/design-lab/14-concept/kek-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "lagstiftning",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 14 Filmisk konceptkonst. Style/medium: Cinematic concept art with dramatic atmospheric depth, painterly realistic environment, dawn light, dark violet and warm amber, large strong foreground silhouette, restrained cinematic composition, not all blue.. Subject: Swedish criminal law: contemporary Swedish courtroom with pale oak benches and a prominent legal volume and case folders. Nordic legal process, no American gavel.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "ea7231e299126057803467b9055e5c76026c68a9b2bc07997a5ca6c4ebd6086f",
+      "master": "assets/design-lab/14-concept/lagstiftning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "ai_brottsbekampning",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 14 Filmisk konceptkonst. Style/medium: Cinematic concept art with dramatic atmospheric depth, painterly realistic environment, dawn light, dark violet and warm amber, large strong foreground silhouette, restrained cinematic composition, not all blue.. Subject: Artificial intelligence in criminal investigation: human analyst checking machine assisted pattern recognition and image comparisons against source photographs. Strong human oversight and evidence verification. No robot face, no globe.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "5f9ea125bc4068e121f11662a423a1ca72123c380af089d6f3e6b817da362c5e",
+      "master": "assets/design-lab/14-concept/ai_brottsbekampning-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "it_juridik",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 14 Filmisk konceptkonst. Style/medium: Cinematic concept art with dramatic atmospheric depth, painterly realistic environment, dawn light, dark violet and warm amber, large strong foreground silhouette, restrained cinematic composition, not all blue.. Subject: Privacy and information law: secure personal records archive, a person presenting a permission card at an access gate, an accountable audit trail and segregated record drawers. Clearly about access rights and personal data.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "93b8f13d8e3287405a551f2b3e7ee29e8080e5d2dc7d31bdb4062e1c231c15e2",
+      "master": "assets/design-lab/14-concept/it_juridik-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "channel": "verksamhetsutveckling",
+      "prompt": "Use case: stylized-concept. Asset type: ONE original landscape 3:2 full bleed channel cover for the Swedish professional audio platform Morgonpodden. Series 14 Filmisk konceptkonst. Style/medium: Cinematic concept art with dramatic atmospheric depth, painterly realistic environment, dawn light, dark violet and warm amber, large strong foreground silhouette, restrained cinematic composition, not all blue.. Subject: Organizational development and implementation: a small team moving process cards from planning wall to a working service prototype. People, method, technology and practical change. No isolated gear icon.. Composition: one recognizable main idea with clear visual hierarchy, the important subject inside the central square crop and distinguishable as a 48px thumbnail. Constraints: no text, letters, logos, watermark, contact sheet, grid, robot or globe. Create a fresh individual composition. This is an illustrative channel image, no claim to depict a real reported event.",
+      "generated_png_sha256": "020a016793cba781920ddd852b14a7e28af80a05a7f235d2c16710e5368e8378",
+      "master": "assets/design-lab/14-concept/verksamhetsutveckling-master.webp",
+      "original_dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
