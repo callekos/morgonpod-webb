@@ -132,3 +132,5 @@ button,a,summary{-webkit-tap-highlight-color:transparent}button:active,.morning-
 @media(max-width:649px){.morning-strip{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));overflow:visible;scroll-snap-type:none;padding:0}.morning-strip>a{min-height:64px;flex:initial;flex-wrap:wrap}.morning-strip span{font-size:11px}.morning-strip small{margin-left:auto}.search-refinements{grid-template-columns:minmax(0,1fr);gap:.75rem}.knowledge-card .cover{min-height:120px}}
 #design-lab>.primary{display:inline-flex;align-items:center;gap:.5rem;min-height:44px;padding:10px 16px;border-radius:9px;background:var(--accent);color:var(--bg);font-weight:650;margin:1rem 0}
 @media(max-width:600px){.art-styles{grid-template-columns:minmax(0,1fr)}.lab-toolbar{align-items:stretch}.lab-toolbar button{width:100%}}
+
+.channel-main .episode .channel-name{display:none}

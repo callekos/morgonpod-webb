@@ -55,3 +55,9 @@ Större grafiska omtag och ny permanent bildstandard kräver ägarens val. De ge
 ## Ytterligare verifierad tillgänglighetsrättning
 
 Axe-core 4.14.0 på fem huvudvyer i båda färgteman hittade nested-interactive på avsnittsraderna: en spelknapp låg inuti summary. Spelknappen är nu en separat syskonkontroll bredvid details, med samma kontextkö och visuella rad. Efter rättningen visar de tio automatiska kombinationerna inga träffar inom wcag2a, wcag2aa och wcag21aa. Resultatet finns i accessibility-v4-results.json. Detta är automatisk regelkontroll, inte full WCAG-certifiering eller fysisk VoiceOver-testning. Nya browserprov kontrollerar att Enter på spelknappen spelar utan expansion och att Enter på summary expanderar utan att avbryta ljudet.
+
+## Verifierad bildskärpa och kvarvarande småförfiningar
+
+Efter elva publicerade serier hittades ett faktiskt desktopfel: en 1 093 px bred kanalhero fick webbläsaren att välja `ibat-small.webp` (400 px export) eftersom sizes annonserade 320 px. En egen kanalhero-klass får nu sizes som följer respektive brytpunkts verkliga sidbredd. Regressionstestet granskar vald currentSrc i V3 och en experimentserie, inte bara src-attributet.
+
+Upprepat kanalnamn döljs i den egna kanalens avsnittsrader, men behålls i globala listor. Laboratoriets radioknappar namnges en gång med stilnummer och stilnamn; kontaktförhandsvisningen är dekorativ inom etiketten. Sökantal, laddning och fel använder en beständig statusregion i stället för att hela avsnitts-/artikellistan är en live-region. Tester kontrollerar statusnodens identitet över sökning och filtrering. Lokalt: 33 enhetsprov och 22 riktade desktop/Android-prov gröna. Fysisk VoiceOver är fortsatt inte verifierad.

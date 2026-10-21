@@ -54,3 +54,19 @@ Sju publicerade experimentella serier: 02, 03, 04, 05, 10, 11, 17. Återstår 13
 Originalserier sparas även i grenen work/v4-art-production-checkpoints utan Actions-körningar. Den grenen är återhämtningsunderlag, inte release. Manifestet i publicerad main ska endast ändras genom en verifierad releasegren. Lokala upload-STYLEID.json innehåller redan verifierade blobhashar för avbruten uppladdning.
 
 02 Redaktionell illustration har nu dokumenterad PNG-proveniens; dess initiala exakta promptordalydelse var inte bevarad och promptfältet är därför uttryckligen märkt som normaliserad rekonstruktion från produktionsbriefen. Övriga nya serier innehåller faktiskt använda prompter. Ingen ny generering av äldre serier har gjorts.
+
+## Batch 4 publicerad och slutkvitterad
+
+PR 23 head 67e7d11c51ab86ac32e22b7414a852c941858f50, merge 59504e9e6bccadfe06aa7c6e05818678a419dd09. PR-CI 39540257610: 33 enhetsprov och 120 browserfall gröna. Pages 39540700945 grön. Main-CI 39540701633 helt grön: exakta frontend- och bildfiler 03:54:00 UTC, 25 avsnitt bevarade, fyra liveflöden 03:54:44 UTC. Direkt moln-Chrome: alla åtta kanalbilder laddade för 01, 06, 07 och 08, pausad ljudposition 2:15 och fyra kommande i kön kvar. Bildbevis docs/evidence/v4-batch4-live.jpg.
+
+Elva publicerade serier, 88 original. Återstår nio serier och 72 original. Nästa batch 09, 12, 13, 14; sista batch 15, 16, 18, 19, 20. Håll varje serie komplett och granskad, använd separata inbyggda bildanrop. Fyra bildanrop kan köras parallellt; filuppladdning använder fyra samtidiga filer och läser validerade base64-segment om 60 000 byte med hashkontroll. Spara uppladdningslistor efter varje delbatch för återupptagning.
+
+Filintegritet mot V3 54e90a3: samtliga 816 skyddade filer i episodes/, catalog/, assets/channels/, episodes.json och story_index.json är identiska i batch 3. Rapport integrity-v3-to-batch3.json ska följa nästa PR och jämförelsen ska upprepas efter slutreleasen. Tre små kvarstående UX-förfiningar finns dokumenterade i issue 16: kanalmetadata i egen kanalvy, kortare skärmläsarnamn i bildväljaren och beständig statusregion för sökantal. Genomför efter bildserierna, behåll fysisk Safari/VoiceOver som separat ej kvitterad kontroll.
+
+## Fristående UX-rättning före nästa bildrelease
+
+Direkt DOM-prov på publicerad desktop visade att 1 093 px brett kanalomslag laddade 400 px-exporten via sizes=320px. Appen använder nu en egen klass och storleksangivelse för stort kanalomslag, verifierat genom faktisk currentSrc i både V3 och vald experimentserie. Bildkorten behåller sitt tidigare urval.
+
+Samma avgränsade etapp förenklar laboratoriets tillgängliga radionamn (dekorativ kontaktbild med tom alt), döljer upprepat kanalnamn enbart i kanalens egna avsnittsrader och flyttar sökantal/laddning/fel till en beständig statusregion. Hela resultatlistan behöver då inte annonseras vid filtrering. Sena sökfel efter navigation ignoreras. 33 enhetsprov och 22 riktade desktop/Android-prov gröna, inklusive två nya regressionsfall. Full CI och livekvittens krävs fortfarande före slutkvittering.
+
+Nästa bildbatch 09, 12, 13, 14 är producerad som original men ännu inte publicerad. 09 är granskad och sparad i originalcheckpointgrenen. 12 till 14 ska granskas tillsammans och i beskärningar; 13/lagstiftning får en lokal korrigering av ceremoniella domarkläder till vardagliga mörka kostymer före aktivering. Fler bildstilar får inte aktiveras i UX-rättningens PR.
