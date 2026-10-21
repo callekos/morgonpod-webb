@@ -7,12 +7,12 @@ const Core=require('../../app.js');
 async function morningFixture(page,count=4){
  const root=path.resolve(__dirname,'../..');
  const manifest=JSON.parse(fs.readFileSync(path.join(root,'catalog/manifest.json')));
- const episodes=JSON.parse(fs.readFileSync(path.join(root,'episodes.json'))).episodes;
  for(const [i,channel] of ['ibat','vald','sjoomradet','kek'].entries()){
-  const episode=episodes.find(e=>e.channel===channel&&Core.ordinary(e)&&!manifest.superseded?.[e.id]);
-  if(!episode)throw Error('Missing ordinary playback fixture for '+channel);
   const collection=manifest.collections['episodes/ordinary/channel/'+channel];
   if(!collection?.pages?.length)throw Error('Missing ordinary collection for '+channel);
+  const episodes=JSON.parse(fs.readFileSync(path.join(root,collection.pages[0]))).items;
+  const episode=episodes.find(e=>e.channel===channel&&Core.ordinary(e)&&!manifest.superseded?.[e.id]);
+  if(!episode?.id)throw Error('Missing canonical ordinary playback fixture for '+channel);
   await page.route('**/'+collection.pages[0],r=>r.fulfill({json:{items:i<count?[{...episode,date:'2026-10-21'}]:[]}}));
  }
 }
