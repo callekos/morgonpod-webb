@@ -1,0 +1,62 @@
+{
+  "channel": "vald",
+  "date": "2026-10-21",
+  "history": [
+    {
+      "id": "work-vald_ordinary-article-1",
+      "date": "2026-10-20",
+      "channel": "vald",
+      "title": "Tisdag V.43: rekrytering och våld som tjänst",
+      "summary": "Våld som tjänst behöver analyseras genom belagda roller och handlingar. Dagens fördjupning använder europeiska hotunderlag och svensk forskning för att diskutera digital rekrytering utan att tillskriva enskilda händelser obelagda kopplingar.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "WORK_LIBRARY_2026_10:vald:replacement_ordinary:2",
+      "source_url": "https://www.europol.europa.eu/cms/sites/default/files/documents/EU-SOCTA-2025.pdf",
+      "topics": [
+        "vald"
+      ],
+      "relevance": 3
+    },
+    {
+      "id": "work-vald_intro-article-1",
+      "date": "2026-10-20",
+      "channel": "vald",
+      "title": "Våld: förstå händelserna, relationerna och uppdragen",
+      "summary": "Kanalen Våld ska ge en bred förståelse av grovt våld och ett särskilt analytiskt fokus på brottslighet och våld som tjänst, digital rekrytering och förändrade uppdragsrelationer. Uppstartsavsnittet riktar sig till professionella inom brottsbekämpning, rättsliga processer, analys och förebyggande verksamhet.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "WORK_LIBRARY_2026_10:vald:intro:1",
+      "source_url": "https://bra.se/download/18.7d19346a191c757143634b6/1725889949825/2024_7_Okningen-av-skjutvapenvald-i-Sverige.pdf",
+      "topics": [
+        "våld"
+      ],
+      "relevance": 2
+    },
+    {
+      "id": "article-6dc84f2823552b4a664e6831",
+      "date": "2026-10-20",
+      "channel": "vald",
+      "title": "Stort vapentillslag – hittade 31 vapen hos man i Vimmerby",
+      "summary": "En man i 35-årsåldern utan vapenlicens i Vimmerby kommun har åtalats sedan polisen hittat 31 fungerande vapen, inklusive en kulspruta, samt över 11 500 patroner i hans hem och en lagerlokal. Det rör sig enligt åklagaren om ett av de större vapenbeslagen som gjorts i Sverige. Mannen åtalas för synnerligen grovt vapenbrott samt brott mot lagen om brandfarliga och explosiva varor, men nekar till brott.",
+      "assessment": "Ett beslag av denna storleksordning indikerar en betydande risk för att stora vapenmängder kan cirkulera utanför samhällets kontroll, vilket understryker vikten av tidiga underrättelser kring okontrollerade tillgångar.",
+      "open_questions": [
+        "Hur har mannen anskaffat den stora mängden vapen och ammunition utan att det upptäckts tidigare?",
+        "Finns det några verifierade kopplingar till organiserad brottslighet eller extremistmiljöer?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-20:daily",
+      "source_url": "https://www.svt.se/nyheter/lokalt/smaland/stort-vapentillslag-hittade-31-vapen-hos-man",
+      "topics": [
+        "vapenbrott",
+        "brottslighet",
+        "sverige"
+      ],
+      "relevance": 2
+    }
+  ]
+}

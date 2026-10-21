@@ -1,0 +1,78 @@
+{
+  "channel": "vald",
+  "date": "2026-10-21",
+  "sources": [
+    {
+      "title": "Åtal väckt angående mord, anstiftan till mord m.m.",
+      "url": "https://www.domstol.se/nyheter/2026/10/atal-vackt-angaende-mord-anstiftan-till-mord-m-m/",
+      "resolved_url": "https://www.domstol.se/nyheter/2026/10/atal-vackt-angaende-mord-anstiftan-till-mord-m-m/",
+      "http_status": 200,
+      "retrieved_at": "2026-10-21T17:31:17.264523+00:00",
+      "evidence_level": "retrieved_page_text",
+      "text": "Huvudförhandling inleds den 3 november 2026. Förhandlingen kommer att hållas i en särskild säkerhetssal på Bergsgatan 50 på Kungsholmen i centrala Stockholm. Huvudförhandlingen beräknas pågå i knappt 50 dagar och vara avslutad i slutet av mars 2027. Säkerhetskontroll sker för åhörare och andra deltagare. Ingen föranmälan krävs för åhörare/journalister. Särskilda ordningsregler gäller vid förhandlingen. Huvudförhandlingsplanen är endast preliminär. För beställning av handlingar (mål nr B 18213-26) hänvisas till Södertörns tingsrätt, avdelning 3, e-post: sodertorns.tingsratt.avdelning3@dom.se Observera att sekretessprövning av handlingarna pågår och att det kan dröja innan handlingarna kan lämnas ut. För beställning av handlingar sodertorns.tingsratt.avdelning3@dom.se",
+      "page_sha256": "70608e4993896cb93b95f31180bf586d1c68a6c6546aba938f39f7389446f55f",
+      "text_sha256": "bd23182f8038917493a82673d1084b51314a8691ef64770dbc466debd4ab8bd6",
+      "extraction_method": "primary_body_container",
+      "publisher": "Södertörns tingsrätt",
+      "date": "2026-10-21T12:49:00+02:00",
+      "summary": "Tingsrätten meddelar planerad huvudförhandling om mord och anstiftan, med preliminär förhandlingsplan.",
+      "event_id": "e9acd450a4d0cf8f",
+      "event_sources": [
+        {
+          "title": "Åtal väckt angående mord, anstiftan till mord m.m.",
+          "url": "https://www.domstol.se/nyheter/2026/10/atal-vackt-angaende-mord-anstiftan-till-mord-m-m/",
+          "publisher": "Södertörns tingsrätt"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "title": "Man åtalas för tre mord och flera andra fall av grov brottslighet",
+      "url": "https://www.aklagare.se/for-media/pressmeddelanden/2026/oktober/man-atalas-for-tre-mord-och-flera-andra-fall-av-grov-brottslighet/",
+      "resolved_url": "https://www.aklagare.se/for-media/pressmeddelanden/2026/oktober/man-atalas-for-tre-mord-och-flera-andra-fall-av-grov-brottslighet/",
+      "http_status": 200,
+      "retrieved_at": "2026-10-21T17:31:15.597793+00:00",
+      "evidence_level": "retrieved_page_text",
+      "text": "Den 26-åriga man som i februari överlämnades från Grekland till Sverige åtalas i dag vid Södertörns tingsrätt som misstänkt för inblandning i ett flertal grova våldsbrott under 2023 och 2024 i Stockholmsområdet, Linköping och Uppsala. Mannen misstänks ha fungerat som rekryterare av andra personer, i flera fall ungdomar, som har utfört brotten. Brottsligheten misstänks ha koppling till en konflikt mellan kriminella nätverk. Samtidigt som mannen åtalas ett antal andra personer. Ärenden och uppgift om åklagarnas tillgänglighet för media Statsåklagare Mats Ihlbom är den som lett arbetet med identifiering, spårning och utlämning. Han är tillgänglig för media när det gäller frågor av mer generell karaktär om identifieringsarbetet och frågor om utlämnandet m.m. Mats Ihlbom svarar även på frågor om: Grovt vapenbrott den 10 oktober 2021 i Stockholm. Åtal väcks mot 26-åringen. Försök till mord m.m. den 16 mars 2023 på Lingonrisvägen i Hässelby. Åtal väcks mot 26-åringen. Anstiftan av försök till mord m.m. den 4 december 2023 på Valutavägen i Hägersten. Åtal väcks mot 26-åringen. Anstiftan av människorov m.m. den 4–5 januari 2024 i bl.a. Akalla. Åtal väcks mot 26-åringen. Mord m.m. den 6 maj 2024 på Allhelgonagatan i Stockholm. Åtal väcks mot 26-åringen. Mats Ihlbom är tillgänglig från kl. 13.00, 010-562 52 91. Statsåklagare Helene Gestrin svarar på frågor om: Anstiftan av försök till grov allmänfarlig ödeläggelse m.m. den 23 september 2023 i Linköping. Åtal väcks mot 26-åringen. Anstiftan av försök till mord m.m. den 25 september 2023 i Hässelby. Åtal väcks mot 26-åringen. Anstiftan av försök till mord m.m. den 26 september i Linköping. Åtal väcks mot 26-åringen. Helene Gestrin är tillgänglig på telefon efter kl. 15.30, 010-562 58 06. Senior åklagare Thomas Bälter svarar på frågor om: Anstiftan av mord m.m. den 28 september 2023 i Uppsala. Åtal väcks mot 26-åringen. Thomas Bälter är tillgänglig på telefon efter kl. 15.30, 010-562 54 50. Senior åklagare Angelica Runesson ansvarar för åtalet om: Mord m.m. den 27 september 2023 på Mälarhöjdens IP i Hägersten. Åtal väcks mot 26-åringen. Åtal väcks också mot tre män i 22-årsåldern och en man i 40-årsåldern för olika typer av medverkan i mordet samt mot två män i 21-årsåldern för bl.a. grovt skyddande av brottsling. Angelica Runesson är inte tillgänglig för ytterligare kommentarer. Senior åklagare Åsa Lidefelt Skog svarar på frågor om: Mord m.m. den 16 september 2023 i Råcksta, Vällingby. Åtal väcks mot 26-åringen för anstiftan till mordet. Åtal väcks samtidigt mot två män i 18-årsåldern för mord, och ytterligare tre personer åtalas för medverkan till mordet i olika former. Förberedelse till mord den 17–22 november 2023 i Älta, Stockholm. Åtal väcks mot 26-åringen och ytterligare två personer för inblandning i brottet. Åsa Lidefelt Skog är tillgänglig på telefon kl. 13–14, 010-562 51 88. Målnummer i Södertörns tingsrätt: B 2902-26 (samtliga ärenden nämnda ovan). Huvudförhandling inleds den 3 november 2026 och beräknas pågå till och med mars 2027.",
+      "page_sha256": "8f2de8b2732b347eda9c862f9328c502ae4401242d43b9d4b9f04de89d66a7fc",
+      "text_sha256": "6fab1230417f8de39d8d990944b1b07bb3e26492ffa4beb4a686cce945440237",
+      "extraction_method": "title_matched_article",
+      "publisher": "Åklagarmyndigheten",
+      "date": "2026-10-21T09:59:55+02:00",
+      "summary": "Åtal om rekrytering till grova våldsbrott i flera städer, med misstankar och händelsedatum tydligt skilda från dagens åtal.",
+      "event_id": "0b6437d015cba176",
+      "event_sources": [
+        {
+          "title": "Man åtalas för tre mord och flera andra fall av grov brottslighet",
+          "url": "https://www.aklagare.se/for-media/pressmeddelanden/2026/oktober/man-atalas-for-tre-mord-och-flera-andra-fall-av-grov-brottslighet/",
+          "publisher": "Åklagarmyndigheten"
+        }
+      ],
+      "corroborated": false
+    },
+    {
+      "title": "Svensk gängtopp förd till Sverige och häktad",
+      "publisher": "SVT Nyheter",
+      "date": "2026-10-20T13:11:29+00:00",
+      "url": "https://www.svt.se/nyheter/inrikes/svensk-gangtopp-ford-till-sverige-och-haktad",
+      "summary": "Aktuell artikel om utlämning och häktning. Skilj källans publicering från händelsernas datum, misstankar och bekräftade beslut.",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-21T13:47:43.674699+00:00",
+      "resolved_url": "https://www.svt.se/nyheter/inrikes/svensk-gangtopp-ford-till-sverige-och-haktad",
+      "extraction_method": "title_matched_article",
+      "text": "Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd Hör SVT:s kriminalreporter Diamant Salihu om gripandet i somras. Foto: Interpol Svensk gängtopp förd till Sverige och häktad Uppdaterad igår 15:24 Publicerad igår 15:11 I somras kunde SVT avslöja att den svenska gängtoppen Emin Muqa Kulic gripits av spansk polis. Nu bekräftar åklagaren Ida Arnell att han förts till Sverige och häktats. – Han landade i fredags efter att ha utlämnats, säger hon till SVT. Emin Muqa Kulic, 22, ska under flera år ha tillhört ledarskiktet i det kriminella Dalennätverket och har av polisen beskrivits som ledaren Mikael ”Greken” Tenezos högra hand. I början av augusti greps han av polis i Spanien, misstänkt för omfattande grov brottslighet. Gripandet skedde enligt uppgifter till SVT i den dömde Jonas Falks tidigare bostad utanför Barcelona. – Vi menar att mannen har varit en av dem som styrt unga personer att utföra grova våldsbrott i Sverige, sade statsåklagare Ida Arnell då. Häktad i Sverige Nu har Emin Kulic förts till Sverige. Under måndagen närvarade han vid en häktningsförhandling i Södertälje. – Han landade i fredags i Sverige efter att ha utlämnats från Spanien. I går hölls en häktningsförhandling och tingsrätten beslutade att han alltjämt ska vara häktad, säger Ida Arnell. I Sverige har Emin Kulic varit misstänkt och häktad i sin utevaro för en lång rad grova brott, däribland flera fall av försök till mord och förberedelse till mord, allmänfarlig ödeläggelse, involverande av underårig i brottslighet samt flera fall av grovt vapenbrott. Ett av brotten – förberedelse till mord – ska ha skett i Norge. Nekar till brott Emin Kulic sattes i våras upp på Europols ”most wanted”-lista, misstänkt för bland annat bland annat efterlyst för anstiftan och medhjälp till mord, mordförsök, vapenbrott och sprängningar. Enligt uppgifter till SVT ska han befunnit sig i Spanien i minst ett år innan sommarens gripande. Emin Kulic nekar till brott. SVT har varit i kontakt med hans advokat som inte vill uttala sig i nuläget. Här är brotten som Emin Muqa Kulic är häktad för Grovt vapenbrott, Södertälje Försök till mord i Södertälje samt involverande av en underårig i brottslighet, Södertälje Involverande av en underårig i brottslighet, Södertälje Grovt vapenbrott, Solna Grovt vapenbrott, Åkersberga Förberedelse till mord, okänd plats Involverande av en underårig i brottslighet, Åkersberga Synnerligen grov misshandel, Åkersberga Förberedelse till mord, okänd plats samt Växjö Involverande av en underårig i brottslighet, Växjö eller annan okänd plats, Sverige Involverande av en underårig i brottslighet, Växjö eller på annan okänd plats, Sverige Grovt vapenbrott, Södertälje Grovt olaga hot, Södertälje Medhjälp till mord, okänd plats, Sverige Allmänfarlig ödeläggelse, Solna Brott mot lagen om brandfarliga och explosiva varor, grovt brott, Järfälla och Solna Involverande av en underårig i brottslighet, Örebro, Stockholm, Järfälla och Solna, Sverige Anstiftan alternativt medhjälp till försök till mord, Stockholm stad Anstiftan alternativt medhjälp till grovt vapenbrott, Stockholm stad Förberedelse till mord, Oslo och Horten, Norge Jonas Falk Dalennätverket Europol Gängkriminalitet Häktning Barcelona Relaterat 2 min Bekräftat: Svensk gängtopp gripen i Spanien 3 augusti 2026 Uppgifter: Gängtoppen gripen i Jonas Falks hus 1 augusti 2026 2 min Polisen: 188 kriminella gripna utomlands i år 5 augusti 2026 Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "page_sha256": "bb7a6dc160479f92d3fef3a34946228c8f235800b868769894fbd26bf744f526",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "event_id": "cc4e0176d386036e",
+      "event_sources": [
+        {
+          "title": "Svensk gängtopp förd till Sverige och häktad",
+          "url": "https://www.svt.se/nyheter/inrikes/svensk-gangtopp-ford-till-sverige-och-haktad",
+          "publisher": "SVT Nyheter"
+        }
+      ],
+      "corroborated": false,
+      "text_sha256": "4b9fffeb7197ee99d0d7e5b3d1918b57da13610b6723fc2f18c60b53084aece9"
+    }
+  ]
+}

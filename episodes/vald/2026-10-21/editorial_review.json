@@ -1,0 +1,22 @@
+{
+  "approved": true,
+  "issues": [],
+  "source_coverage": [
+    {
+      "claim": "Den 22-årige Emin Muqa Kulic har utlämnats från Spanien och häktats i Sverige, samt tidigare beskrivits som ledare i Dalennätverket och Mikael Tenezos högra hand.",
+      "source_url": "https://www.svt.se/nyheter/inrikes/svensk-gangtopp-ford-till-sverige-och-haktad"
+    },
+    {
+      "claim": "En 26-årig man som överlämnades från Grekland till Sverige i februari åtalas vid Södertörns tingsrätt för grova våldsbrott i Stockholmsområdet, Linköping och Uppsala.",
+      "source_url": "https://www.aklagare.se/for-media/pressmeddelanden/2026/oktober/man-atalas-for-tre-mord-och-flera-andra-fall-av-grov-brottslighet/"
+    },
+    {
+      "claim": "Södertörns tingsrätt har publicerat information om en omfattande huvudförhandling som inleds den 3 november 2026 och beräknas pågå i knappt 50 dagar.",
+      "source_url": "https://www.domstol.se/nyheter/2026/10/atal-vackt-angaende-mord-anstiftan-till-mord-m-m/"
+    }
+  ],
+  "short_episode_reason": "",
+  "reviewed_candidate_sha256": "d68a0e36b04496013047e2124b7d90992b6973a074d8abaef445b744b6008073",
+  "reviewed_script_sha256": "98ce1b7e4e698c9793c6937701379dfd7a34ab7cb0dd8f850d1868b6b465930e",
+  "work_package_sha256": "21b5a0a5a65d62cf177c83482528206279cf238b7034437b3b00b1d006e6db63"
+}

@@ -1,0 +1,102 @@
+{
+  "channel": "vald",
+  "date": "2026-10-21",
+  "schema": 2,
+  "corroboration_method": "distinct_hosts_not_proof_of_independence",
+  "received": 3,
+  "unique_urls": 3,
+  "identified_events": 3,
+  "selected_articles": 3,
+  "selected_events": 3,
+  "unique_domains": 3,
+  "max_items": 40,
+  "gemini_calls": 0,
+  "decisions": [
+    {
+      "event_id": "e9acd450a4d0cf8f",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "domstol.se"
+      ],
+      "articles": [
+        {
+          "title": "Åtal väckt angående mord, anstiftan till mord m.m.",
+          "url": "https://www.domstol.se/nyheter/2026/10/atal-vackt-angaende-mord-anstiftan-till-mord-m-m/"
+        }
+      ]
+    },
+    {
+      "event_id": "0b6437d015cba176",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "aklagare.se"
+      ],
+      "articles": [
+        {
+          "title": "Man åtalas för tre mord och flera andra fall av grov brottslighet",
+          "url": "https://www.aklagare.se/for-media/pressmeddelanden/2026/oktober/man-atalas-for-tre-mord-och-flera-andra-fall-av-grov-brottslighet/"
+        }
+      ]
+    },
+    {
+      "event_id": "cc4e0176d386036e",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 45,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 14,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Svensk gängtopp förd till Sverige och häktad",
+          "url": "https://www.svt.se/nyheter/inrikes/svensk-gangtopp-ford-till-sverige-och-haktad"
+        }
+      ]
+    }
+  ],
+  "rejected": [],
+  "channel_scope": {
+    "input_count": 3,
+    "accepted_count": 3,
+    "rejected": []
+  },
+  "work_import": {
+    "package_sha256": "21b5a0a5a65d62cf177c83482528206279cf238b7034437b3b00b1d006e6db63",
+    "candidate_sha256": "d95e9d934a2c4a57fd2a3b173fde98200ca15e83ee39fe04f873fa9dd02d66e8",
+    "provenance": {
+      "issue": 121,
+      "source": "Work editorial rescue",
+      "prior_artifact": 12351592267,
+      "prior_draft_sha256": "60cf7fd63b549631413238c454f9df75c03af1638f08712f331aa91cf3b84025",
+      "correction": "Unsupported remote-direction and weapon/explosive handling sentence removed; final draft rewritten against preserved SVT source, supplemented with two actually read original publications of 21 October.",
+      "prior_attempts_preserved": true,
+      "new_model_review_required": true
+    },
+    "editorial_approved": false
+  }
+}

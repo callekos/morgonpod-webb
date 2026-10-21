@@ -1,0 +1,38 @@
+[
+  {
+    "source": "SVT Nyheter",
+    "title": "Utlämnad misstänkt häktad i Sverige",
+    "url": "https://www.svt.se/nyheter/inrikes/svensk-gangtopp-ford-till-sverige-och-haktad",
+    "evidence": {
+      "date": "2026-10-20T13:11:29+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-21T13:47:43.674699+00:00",
+      "page_sha256": "bb7a6dc160479f92d3fef3a34946228c8f235800b868769894fbd26bf744f526",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Åklagarmyndigheten",
+    "title": "Åtal om rekrytering till grova våldsbrott",
+    "url": "https://www.aklagare.se/for-media/pressmeddelanden/2026/oktober/man-atalas-for-tre-mord-och-flera-andra-fall-av-grov-brottslighet/",
+    "evidence": {
+      "date": "2026-10-21T09:59:55+02:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-21T17:31:15.597793+00:00",
+      "page_sha256": "8f2de8b2732b347eda9c862f9328c502ae4401242d43b9d4b9f04de89d66a7fc",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Södertörns tingsrätt",
+    "title": "Omfattande förhandling planeras till november",
+    "url": "https://www.domstol.se/nyheter/2026/10/atal-vackt-angaende-mord-anstiftan-till-mord-m-m/",
+    "evidence": {
+      "date": "2026-10-21T12:49:00+02:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-21T17:31:17.264523+00:00",
+      "page_sha256": "70608e4993896cb93b95f31180bf586d1c68a6c6546aba938f39f7389446f55f",
+      "retrieval_limit": null
+    }
+  }
+]
