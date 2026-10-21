@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "@playwright/test": "1.56.1",
+    "axe-core": "4.14.0",
     "feather-icons": "^4.29.2",
     "js-sha256": "^1.0.0"
   }
