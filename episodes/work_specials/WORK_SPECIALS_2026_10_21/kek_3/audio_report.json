@@ -1,0 +1,16 @@
+{
+  "kind": "historical",
+  "duration_seconds": 394.608,
+  "target_minutes": [
+    5,
+    10
+  ],
+  "duration_status": "within_target",
+  "channel": "kek",
+  "date": "2026-10-21",
+  "audio_sha256": "ec58e2699804e74cfb4867b60fd27c5092af3a7ade685f3484ab3ea277edd2bb",
+  "audio_bytes": 2920869,
+  "decoded": true,
+  "checked_at": "2026-10-21T16:36:18.799443+00:00",
+  "editorial_approval": "not_established_by_audio_check"
+}
