@@ -1,3 +1,7 @@
+# Tillägg #37
+
+Prenumerera-knappen förbereds isolerat från V6. Se [SUBSCRIBE-37.md](SUBSCRIBE-37.md) för aktuell status och slutkvitton. V6-kvittona nedan gäller fortsatt.
+
 # Webbuppdrag 28: publicerat och verifierat
 
 Slutfört den 21 oktober 2026. PR #34 är integrerad som fc51dbc498042894cd7a28cf57683ce04d623efc. Exakt slutrevision c61f2dbbf624799076f4949054d952f3dffa4be9 passerade PR-acceptans 39644474113 med 36 enhetsprov och 168 browserfall inklusive iPhone/iPad WebKit.

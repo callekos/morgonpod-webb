@@ -38,3 +38,11 @@ test('published groups, film default, shared filters and approved episode titles
  const data=await(await page.request.get(manifest.collections['episodes/ordinary/channel/ibat'].pages[0])).json();const row=data.items.find(e=>!manifest.superseded[e.id]);expect(row.title).toMatch(/^Avsnitt \d+: .+/);
  await page.goto('avsnitt.html?id='+encodeURIComponent(row.id));await expect(page.locator('.full-player h2')).toHaveText(row.title);await expect(page.locator('.full-player p').first()).not.toBeEmpty();await expect(page.locator('.episode-info .article-card').first()).toBeVisible();
 });
+
+test('published subscription is reachable while scrolling and preserves real audio',require('./subscription-check.cjs').subscriptionCheck);
+
+test('existing Telegram invitation resolves to the actual subscription destination',async({request},info)=>{
+ test.skip(info.project.name!=='desktop','One independent HTTP check of the shared invitation is sufficient');
+ const response=await request.get('https://t.me/+jlPUjsmjlE03NDFk');expect(response.ok()).toBe(true);
+ const html=await response.text();expect(html).toContain('tgme_page_title');expect(html).toMatch(/Morgonpod/i);expect(html).toMatch(/tg:\/\/join\?invite=jlPUjsmjlE03NDFk/);
+});

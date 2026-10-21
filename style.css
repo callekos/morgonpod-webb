@@ -149,3 +149,12 @@ button,a,summary{-webkit-tap-highlight-color:transparent}button:active,.morning-
 .channel-group .channel-card .icon{flex-shrink:0}
 .group-all{display:inline-flex;align-items:center;min-height:44px;margin-top:1rem}
 @media(min-width:1200px){.channel-groups{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* #37: subscription remains reachable in the existing sticky header. */
+.header{height:auto;min-height:74px;flex-wrap:wrap;gap:8px 12px;padding:calc(10px + env(safe-area-inset-top)) max(20px,env(safe-area-inset-right)) 10px max(20px,env(safe-area-inset-left))}
+.header-actions{align-items:center;flex-wrap:wrap;max-width:100%}
+.subscribe-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px 14px;border-radius:9px;background:var(--accent);color:var(--bg);font-weight:650;line-height:1.4;overflow-wrap:anywhere}
+.subscribe-button:hover{background:var(--text);color:var(--bg)}
+.subscription{max-width:680px}.subscription>h2{margin-top:24px}.subscription>.muted{font-size:13px}
+@media(max-width:649px){body[data-page=avsnitt]>.header{display:flex}}
+.header>.brand{min-width:0;max-width:100%;overflow-wrap:anywhere;line-height:1.15}
