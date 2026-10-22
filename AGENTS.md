@@ -9,7 +9,8 @@ Denna webbplats är publicerings- och läsgränssnittet för Morgonpod. Den dela
 4. Skilj målbild, existerande kod, aktiv drift och verifierat resultat. Dokumentationsändringar innebär inte driftsatta funktioner.
 
 ## Drift och användarupplevelse
-- Webbarkivet ska tåla åtta kanaler idag (fyra dagliga och fyra kunskapskanaler) och växa mot många tusen avsnitt utan att ladda hela arkivet i webbläsaren.
+- Varje framtida beställning av ny kanal inkluderar automatiskt en egen kanalbild i gällande standardstil, registrering i befintligt manifest/resolver, master och responsiva leveranser samt faktisk visuell kontroll mobil och desktop. Bevara egna stilval, fokalpunkt och säker fallback; ingen separat bildbeställning eller rutinmässig godkännandefråga behövs. Produktionsrepots docs/CHANNEL-CREATION-CHECKLIST.md är gemensam checklista.
+- Webbarkivet ska tåla nio kanaler idag (fem bevakningskanaler och fyra kunskapskanaler, där Mediesvepet följer vardagsschema) och växa mot många tusen avsnitt utan att ladda hela arkivet i webbläsaren.
 - Behåll lättanvänt mobilgränssnitt med Idag, Lyssna, Artiklar och Utforska, tydlig uppspelning, sökbara källor och god tillgänglighet.
 - Artikeltext och källreferenser ska vara spårbara; inga fabricerade nyheter eller uppföljningar.
 - Gör inte blinda uppdateringar som tar bort tidigare publicerade avsnitt, index eller statistik.
