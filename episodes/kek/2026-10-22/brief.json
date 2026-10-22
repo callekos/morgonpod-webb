@@ -1,0 +1,47 @@
+{
+  "title": "Kriminell ekonomi: portobedrägeri och återförda tillgångar",
+  "intro": "Två aktuella rapporter om gränsöverskridande ekonomisk brottslighet och återföring av tillgångar.",
+  "outlook": "Följ rättsprocessen och ersättningskommissionens genomförande.",
+  "news": [
+    {
+      "category": "Kriminell ekonomi",
+      "title": "Gripande i Pakistan i amerikanskt portobedrägeri",
+      "summary": "Först till ett misstänkt bedrägeri med amerikanskt porto.",
+      "context": "Källans rapportering publicerad 2026-10-21. Uppgifterna återges med attribution; publiceringsdatum är inte automatiskt händelsedatum.",
+      "url": "https://www.bbc.co.uk/news/articles/ckdd8m1z1z3yo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC News",
+      "body": "Först till ett misstänkt bedrägeri med amerikanskt porto. BBC rapporterar den 21 oktober att Pakistans cyberbrottsmyndighet har gripit Faheem Akram. Han anklagas för att ha drivit en verksamhet som sålt förfalskade amerikanska fraktetiketter och orsakat USA:s postverk förluster på 126 miljoner dollar. Beloppet är en uppgift i rapporteringen om anklagelserna, inte en skada som vi själva har verifierat.\n\nEnligt BBC åtalades mannen av en federal åtalsjury i Florida förra månaden. Amerikanska åklagare uppger att webbplatsen LabelsBank sålde porto till ett fast pris, vanligen två dollar per etikett, oavsett paketets vikt, storlek eller destination. Enligt åklagarnas utredning köpte över 5 200 personer sammanlagt mer än 5,1 miljoner sådana etiketter. Webbplatsen har nu stängts, rapporterar BBC.\n\nBrottsmisstankarna gäller bland annat konspiration för att bedra USA, tillverkning och försäljning av förfalskat porto samt elektroniskt bedrägeri. Uppgifterna om hur försäljningen gick till kommer från de amerikanska åklagarna. Ett åtal och ett gripande är inte en fällande dom. BBC:s artikel redovisar möjliga maximistraff vid en framtida fällande dom, men den ger inget besked om ett utdömt straff eller om när en rättegång kan hållas. Fallet visar den rapporterade internationella dimensionen: ett gripande i Pakistan efter misstankar om en nätbaserad verksamhet med amerikanska kunder och ett amerikanskt postverk som uppgiven skadelidande.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/ckdd8m1z1z3yo?at_medium=RSS&at_campaign=rss",
+          "title": "BBC News"
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "category": "Kriminell ekonomi",
+      "title": "Gambia tar emot pengar från såld Jammeh-fastighet",
+      "summary": "Den andra rapporten handlar om återföring av beslagtagna tillgångar.",
+      "context": "Källans rapportering publicerad 2026-10-21. Uppgifterna återges med attribution; publiceringsdatum är inte automatiskt händelsedatum.",
+      "url": "https://www.bbc.co.uk/news/articles/cmn8wx75l2n8o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC News",
+      "body": "Den andra rapporten handlar om återföring av beslagtagna tillgångar. Enligt BBC ska Gambia använda pengar från försäljningen av den tidigare ledaren Yahya Jammehs fastighet i USA till ersättning för offer under hans styre. Gambias ersättningskommission meddelade på tisdagen att den hade tagit emot drygt 2,57 miljoner dollar från försäljningen av en herrgård i Maryland.\n\nBBC beskriver att USA år 2022 säkrade rätten att sälja fastigheten, med hänvisning till att den hade förvärvats med brottsvinster och förskingrade gambiska offentliga medel. Kommissionen säger att pengarna ska hanteras ansvarsfullt och öppet, med hänsyn till offrens och de överlevandes behov. Att kommissionen har tagit emot pengarna är ett konkret steg. Det är inte samma sak som att pengarna redan har betalats ut till varje enskilt offer. Artikeln ger inget detaljerat utbetalningsschema.\n\nSom bakgrund återger BBC att en nationell kommission kartlagt ett stort fastighetsinnehav och fler än hundra bankkonton under den tidigare ledarens kontroll. Kommissionens slutsats var att inkomsterna inte kunde förklaras av hans lön och att mer än 300 miljoner dollar hade förskingrats. Även här är det viktigt att hålla isär olika belopp: den större summan gäller kommissionens bedömning av förskingring, medan dagens nya uppgift gäller de drygt 2,57 miljoner dollar som ersättningskommissionen faktiskt uppger sig ha mottagit.\n\nDe två rapporterna gäller skilda processer. I det första fallet följer vi en brottsutredning och ett gripande. I det andra följer vi hur återvunna tillgångar ska användas för upprättelse. Fortsatt bevakning gäller rättsprocessens utveckling respektive hur ersättningen genomförs. Det här är dagens verifierade urval, inte ett påstående om att inget annat har hänt inom kriminell ekonomi.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cmn8wx75l2n8o?at_medium=RSS&at_campaign=rss",
+          "title": "BBC News"
+        }
+      ],
+      "open_questions": []
+    }
+  ],
+  "description": "Två aktuella rapporter om gränsöverskridande ekonomisk brottslighet och återföring av tillgångar.",
+  "tags": [
+    "Kriminell ekonomi"
+  ],
+  "text_format": "editorial_articles",
+  "editorial_date": "2026-10-22",
+  "channel": "kek",
+  "editorial_outcome": "limited"
+}

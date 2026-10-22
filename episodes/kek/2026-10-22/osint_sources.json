@@ -1,0 +1,477 @@
+{
+  "channel": "kek",
+  "date": "2026-10-22",
+  "sources": [
+    {
+      "title": "Pakistan arrests man wanted by US over $126m postage fraud case",
+      "url": "https://www.bbc.co.uk/news/articles/ckdd8m1z1z3yo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-21T05:46:33+00:00",
+      "summary": "Faheem Akram allegedly sold more than 5 million fake postage labels for a fixed price of $2 a piece.",
+      "date": "2026-10-21T05:46:33+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T05:27:29.237079+00:00",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/ckdd8m1z1z3yo?at_medium=RSS&at_campaign=rss",
+      "extraction_method": "title_matched_article",
+      "text": "Image source, Bloomberg via Getty Images By Anbarasan Ethirajan Â and Â Fan Wang Published 21 October 2026 Pakistan's cybercrime agency has arrested a man accused of running a counterfeit operation that caused $126 million (Â£94m) in losses to the US Postal service. Faheem Akram is accused of having sold fake stamps via a fraudulent website in the US since 2023. He was indicted by a federal grand jury in Florida last month for selling more than five million counterfeit shipping labels to thousands of US customers over the years. Authorities have now shut down the website. Earlier this month, the US Postal Inspection Service offered a reward of up to $100,000 for information leading to his arrest. According to the US Attorney's Office for the Southern District of Florida, the 33-year-old from Khanewal, Pakistan, operated LabelsBank.com. US prosecutors alleged that he sold counterfeit US postage at a fixed rate regardless of a package's weight, size or destination. The counterfeit labels, usually sold at $2 each, allegedly allowed customers to ship packages at rates far below legitimate prices, resulting in substantial lost revenue and shipping costs to the Postal Service. An investigation found that more than 5,200 individuals purchased more than 5.1 million counterfeit shipping labels, the office said in a press release. Akram is charged with one count of conspiracy to defraud the United States and to make and sell counterfeit postage stamps, five counts of making and selling counterfeit postage stamp labels, and four counts of wire fraud. If convicted, he faces a maximum penalty of five years in prison on the conspiracy and counterfeit postage counts, and 20 years in prison on each wire fraud count, the office said. Related topics Fraud United States Pakistan",
+      "page_sha256": "43f842816d23de3470528b7165001e69a679d3fb288606f23041cc9d76901fa1",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "text_sha256": "13e79c43a79b829ef0c3ab5e018d4664de561adfbdc7a189f804ca1c4614d0c7",
+      "publisher": "BBC News"
+    },
+    {
+      "title": "Gambia to pay victims of Yahya Jammeh's rule from proceeds of his seized US mansion",
+      "url": "https://www.bbc.co.uk/news/articles/cmn8wx75l2n8o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-21T08:31:48+00:00",
+      "summary": "The Gambia has confirmed receiving $2.5m from the sale of the house in Maryland.",
+      "date": "2026-10-21T08:31:48+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T05:27:29.462831+00:00",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/cmn8wx75l2n8o?at_medium=RSS&at_campaign=rss",
+      "extraction_method": "title_matched_article",
+      "text": "Image source, AFP via Getty Images Image caption, Jammeh, who is now living in exile in Equatorial Guinea, ruled The Gambia for more than 20 years By Basillioh Rukanga Published 21 October 2026 The Gambia will use funds received from the US from the forfeiture of long-time ruler Yahya Jammeh's property to pay victims of his rule, authorities have said. The Gambia's Reparations Commission said it received $2.5m (Â£1.86m) from the sale of a mansion in Maryland owned by former leader of the West African nation. The US had in 2022 secured the right to sell the property on grounds that it was acquired through \"criminal proceeds and misappropriated Gambian public funds\". Jammeh ruled The Gambia for more than 20 years after taking over in a coup in 1994 - a time marked by allegations of human rights abuses forced disappearances and extrajudicial killings. How US mansion of Gambia's ex-president was seized Published 27 May 2022 Profile: Former Gambian President Yahya Jammeh Published 22 January 2017 On Tuesday, the Gambia Reparations Commission said it was \"pleased to inform victims, survivors and the public that it has received a total of $2,573,414.10\" from the sale of Jammeh's property. It said it was committed to ensuring the funds were managed responsibly and transparently, \"with due regard to the rights and needs of victims and survivors\". Jammeh lost to Adama Barrow in the election of 2016, first accepting defeat and then rejecting the results. He eventually stepped down in 2017 amid intense regional and international pressure. Troops from several West African nations, including Senegal, had been deployed to The Gambia, threatening to drive Jammeh out of office. In the end he agreed to step down and went into exile Equatorial Guinea. A national commission then discovered that the former president had 281 properties in The Gambia, as well as the one in the US and one in Morocco, and controlled more than 100 bank accounts. There was no way that he could have afforded this on his salary and it concluded that he had misappropriated more than $300m. Jammeh is accused of presiding over the murder of political opponents, disappearances, rape and torture. A commission of inquiry found that widespread abuses had resulted in the death of \"240-250 Gambians and non-Gambians at the hands of the state or its agents\". You may also be interested in: The 'peace-loving' country grappling with a gruesome past Published 17 January 2021 Gambia probes sale of ex-leader's luxury cars, cows and boats Published 15 May 2025 The witch hunts which left a nation traumatised Published 12 June 2022 Torture revelations transfix a nation Published 6 June 2019 Shot and left paralysed but 'I'll never get justice' Published 13 July 2022 Go to BBCAfrica.com , external for more news from the African continent. Follow us on Twitter @BBCAfrica , external , on Facebook at BBC Africa , external or on Instagram at bbcafrica , external Related topics Africa The Gambia BBC Africa podcasts Focus on Africa This Is Africa",
+      "page_sha256": "e72f86cda349ac1a65ef502cd971f97f109baf31512356b57c9ffe749d63b5ca",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "text_sha256": "37abe7deacd591444c4ac224abf54103e1a9fe6f089d2888c5d251715415bcde",
+      "publisher": "BBC News"
+    }
+  ],
+  "collection_evidence": {
+    "state": "ready",
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "discovery": {
+      "feeds": [
+        {
+          "url": "https://www.occrp.org/en/feed",
+          "http_status": 200,
+          "entries": 5,
+          "parse_error": false
+        },
+        {
+          "url": "https://www.occrp.org/en/investigations/feed",
+          "http_status": 200,
+          "entries": 0,
+          "parse_error": false
+        },
+        {
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "http_status": 200,
+          "entries": 30,
+          "parse_error": false
+        },
+        {
+          "url": "https://www.svt.se/nyheter/rss.xml",
+          "http_status": 200,
+          "entries": 30,
+          "parse_error": false
+        }
+      ],
+      "verified_run": "39728100307",
+      "artifact_id": 12404012508,
+      "checked_at": "2026-10-22T05:27:20.180726+00:00",
+      "candidates": [
+        {
+          "title": "Collapsed Surrogacy Agency Loses U.S. Civil Case After Court No-Show",
+          "url": "https://www.occrp.org/en/news/collapsed-surrogacy-agency-loses-us-civil-case-after-court-no-show",
+          "published": "2026-10-22T04:46:00+00:00",
+          "summary": "World Center of Baby plunged surrogates and prospective parents into chaos when it announced it was filing for bankruptcy. Now the agency’s U.S. corporate entity must pay out tens of thousands of dollars to a couple after failing to respond to a civil suit alleging breach of contract and fraud."
+        },
+        {
+          "title": "In a Vienna Bakery, Fresh Pastries and a Backdoor for Serbian Votes",
+          "url": "https://www.occrp.org/en/scoop/in-a-vienna-bakery-a-sweet-scent-of-pastry-and-a-backdoor-for-serbian-votes",
+          "published": "2026-10-21T16:51:00+00:00",
+          "summary": "Ahead of a defining parliamentary election in Serbia, an unofficial voting pipeline for the diaspora in Vienna offers a glimpse of what election monitors have described as an uneven playing field tipped in the favor of the ruling party."
+        },
+        {
+          "title": "Vučić Rejects Russia Sanctions, Blames Foreign Powers for Protests",
+          "url": "https://www.occrp.org/en/news/vucic-rejects-russia-sanctions-blames-foreign-powers-for-protests",
+          "published": "2026-10-20T18:16:00+00:00",
+          "summary": ""
+        },
+        {
+          "title": "Albanian PM Offers Dialogue Amid Crackdown on Violent Protests",
+          "url": "https://www.occrp.org/en/news/albanian-pm-offers-dialogue-amid-crackdown-on-violent-protests",
+          "published": "2026-10-20T17:57:00+00:00",
+          "summary": "As student-led demonstrations enter their second week, Prime Minister Edi Rama calls for unconditional talks while police report mass arrests and an ombudsman probe details systemic abuse against detainees."
+        },
+        {
+          "title": "South Pacific Ponzi Scam “King” Noah Musingku Dies",
+          "url": "https://www.occrp.org/en/news/south-pacific-ponzi-scam-king-noah-musingku-dies",
+          "published": "2026-10-20T12:13:00+00:00",
+          "summary": "After defrauding victims of tens of millions in a 1990s pyramid scheme, Noah Musingku spent decades ruling an armed, breakaway pseudo-state in Papua New Guinea. He died earlier this month."
+        },
+        {
+          "title": "Websites taken down worldwide as critical cyber-security update issued",
+          "url": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-21T19:54:57+00:00",
+          "summary": "The vulnerabilities with PHP, a programming language widely used across the internet, have been described as the most significant ever found by AI."
+        },
+        {
+          "title": "What is PHP and why did it spark a global cyber-security scramble?",
+          "url": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-22T03:48:50+00:00",
+          "summary": "AI uncovered long-hidden programming flaws, triggering a rare global cyber-security response."
+        },
+        {
+          "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+          "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-21T21:27:41+00:00",
+          "summary": "Moscow says it is \"ready in principle\" to resume peace talks and US President Donald Trump says the world is \"the closest we've been\" to ending the war."
+        },
+        {
+          "title": "Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace",
+          "url": "https://www.bbc.co.uk/news/articles/cm98zn5j89kdo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-21T19:58:06+00:00",
+          "summary": "President Vladimir Putin does not feel under pressure right now to end the war, the BBC's Russia Editor writes."
+        },
+        {
+          "title": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate",
+          "url": "https://www.bbc.co.uk/news/articles/c6x2vpk93770o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-22T01:07:34+00:00",
+          "summary": "The warning to US officials comes as at least three people die in the latest strikes at an airport and an oil field."
+        },
+        {
+          "title": "Airbnb hosts can no longer make guests strip beds and wash dishes under new rules",
+          "url": "https://www.bbc.co.uk/news/articles/c6n049gg75r4o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-21T22:54:58+00:00",
+          "summary": "The updated policy will apply to all reservations booked on the accommodation site on or after 20 November."
+        },
+        {
+          "title": "Macron accuses foreign leaders of exploiting French riots",
+          "url": "https://www.bbc.co.uk/news/articles/ckjrw044ggxgo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-21T14:04:28+00:00",
+          "summary": "The comment is an apparent swipe at Benjamin Netanyahu and Donald Trump, who both face elections in coming weeks."
+        },
+        {
+          "title": "No order, no seat: Starbucks China rolls out new store policy",
+          "url": "https://www.bbc.co.uk/news/articles/ckzd6rjmlzvmo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-22T04:02:29+00:00",
+          "summary": "Starbucks says it is improving customers' in-store experience as it competes with homegrown rivals."
+        },
+        {
+          "title": "US embassy accuses Canada of election meddling ahead of midterms",
+          "url": "https://www.bbc.co.uk/news/articles/cmn06g29522lo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-22T03:05:28+00:00",
+          "summary": "Prime Minister Mark Carney dismissed the claim, noting that it was the that US initiated trade actions against Canada."
+        },
+        {
+          "title": "New Mexico sues Epstein lawyer and accountant, accusing them of hiding his sex crimes",
+          "url": "https://www.bbc.co.uk/news/articles/cqx287g8714lo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-21T22:20:22+00:00",
+          "summary": "Both men have denied having any knowledge of Epstein's crimes and their attorney rejected the lawsuit as \"categorically false\"."
+        },
+        {
+          "title": "Pope does not need further treatment after lung cancer surgery",
+          "url": "https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-21T20:09:10+00:00",
+          "summary": "Test results have confirmed his diagnosis as a lung adenocarcinoma that was localised."
+        },
+        {
+          "title": "'Targeted' attack on much-loved MP leaves Australian town heartbroken",
+          "url": "https://www.bbc.co.uk/news/articles/cmgr8q88r5eqo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-21T18:10:42+00:00",
+          "summary": "Locals describe the MP, who had to have both legs amputated, as a genuinely kind person who fought for the community."
+        },
+        {
+          "title": "Ex-prosecutor charged with treason in Mexico over US drug raid",
+          "url": "https://www.bbc.co.uk/news/articles/ckx2qpw4rjd7o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-21T20:19:51+00:00",
+          "summary": "César Jáuregui Moreno is accused of allowing US agents to join a raid on a suspected drugs lab in April."
+        },
+        {
+          "title": "Family of prison officer killed by IRA receives state apology",
+          "url": "https://www.bbc.co.uk/news/articles/ck20rver1j31o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-21T16:58:16+00:00",
+          "summary": "Brian Stack was crossing a street in Dublin in 1983 when he was shot in the back of the neck and died 18 months later."
+        },
+        {
+          "title": "Vance tells Republicans to 'stop whining' about controversial Ohio attack ad",
+          "url": "https://www.bbc.co.uk/news/articles/cm98zn3l2rn7o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-21T22:59:18+00:00",
+          "summary": "The ad by Ohio Republican Vivek Ramaswamy features his Democratic rival's estranged mother, who she has not seen since her stepfather was charged with sexual abuse in her childhood."
+        },
+        {
+          "title": "Pakistan arrests man wanted by US over $126m postage fraud case",
+          "url": "https://www.bbc.co.uk/news/articles/ckdd8m1z1z3yo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-21T05:46:33+00:00",
+          "summary": "Faheem Akram allegedly sold more than 5 million fake postage labels for a fixed price of $2 a piece."
+        },
+        {
+          "title": "Meta fined $25bn for 'lies' over user data privacy",
+          "url": "https://www.bbc.co.uk/news/articles/cqdr8zxrr3dxo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-21T21:49:07+00:00",
+          "summary": "The fine is the largest to date against Facebook's owner, larger than an $18bn deal with California."
+        },
+        {
+          "title": "Nigeria's first Ebola patient holidayed in Uganda, officials say",
+          "url": "https://www.bbc.co.uk/news/articles/c62kepvg2x9lo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-21T19:29:40+00:00",
+          "summary": "The wife of a diplomat based in Abuja travelled to Kampala for a vacation."
+        },
+        {
+          "title": "India 'cockroach' leaders who called on election chief to quit are freed from jail",
+          "url": "https://www.bbc.co.uk/news/articles/c674p0xepljeo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-21T18:22:28+00:00",
+          "summary": "Saurav Das and Ashutosh Ranka were accused of breaking into an unauthorised protest venue in Delhi."
+        },
+        {
+          "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
+          "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-21T08:42:49+00:00",
+          "summary": "Musk says special committees within both companies have been formed to look at a possible mega-merger."
+        },
+        {
+          "title": "Gambia to pay victims of Yahya Jammeh's rule from proceeds of his seized US mansion",
+          "url": "https://www.bbc.co.uk/news/articles/cmn8wx75l2n8o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-21T08:31:48+00:00",
+          "summary": "The Gambia has confirmed receiving $2.5m from the sale of the house in Maryland."
+        },
+        {
+          "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
+          "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-20T17:30:15+00:00",
+          "summary": "A truck carrying people to a funeral and a market alleged to be supplying fuel to the RSF were targeted."
+        },
+        {
+          "title": "Trump and Zelensky at loggerheads despite new optimism",
+          "url": "https://www.bbc.co.uk/news/articles/ckrey51jrgnro?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-20T20:00:57+00:00",
+          "summary": "The Ukrainian leader's hug with Steve Witkoff in the Norwegian capital is unlikely to dispel misgivings about US policy towards his country, writes Paul Adams."
+        },
+        {
+          "title": "Alberta's decisive decision to stay in Canada gives Carney backing to take on Trump",
+          "url": "https://www.bbc.co.uk/news/articles/cr62ylj832vxo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-20T22:22:17+00:00",
+          "summary": "The overwhelming vote by Alberta to stay in Canada gives Mark Carney political capital to focus on remaking the country's economy, writes the BBC's Lyse Doucet."
+        },
+        {
+          "title": "Swimmer, 65, killed in shark attack off South Africa's east coast",
+          "url": "https://www.bbc.co.uk/news/articles/cqx297pxg1djo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-20T15:58:57+00:00",
+          "summary": "Janine Lochrenberg, 65, was out on her daily morning swim with her club when she was attacked, her family tell the BBC."
+        },
+        {
+          "title": "Trump sued over Canadian tariffs in latest legal challenge",
+          "url": "https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-20T19:30:05+00:00",
+          "summary": "The lawsuit argues the White House exceeded its authority in imposing the latest tariffs on the country and caused \"immediate harm to American businesses\"."
+        },
+        {
+          "title": "North Korea publishes photos of Kim Jong Un - why do rumours of his death keep coming back?",
+          "url": "https://www.bbc.co.uk/news/articles/cmvg6qv1jdydo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-20T11:45:49+00:00",
+          "summary": "North Korean state media has published photos of the dictator with his daughter after the unsubstantiated rumour spread."
+        },
+        {
+          "title": "The real reasons US politicians are getting older",
+          "url": "https://www.bbc.co.uk/news/articles/cmde8rr2d6eno?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-21T23:52:12+00:00",
+          "summary": "No country for young men and women: why do older politicians seem to have such a tight grip on the US political system?"
+        },
+        {
+          "title": "Trump's green card curbs test Indian tech workers' American dream",
+          "url": "https://www.bbc.co.uk/news/articles/cqj34j7dk771o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-21T23:06:37+00:00",
+          "summary": "With immigration curbs and tech firms cutting foreign hiring, US residency is becoming a distant dream for many Indians."
+        },
+        {
+          "title": "Japan is known for world-class events - but the Asian Games were chaotic",
+          "url": "https://www.bbc.co.uk/news/articles/cvze414811jlo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-10-21T22:00:58+00:00",
+          "summary": "Hotel chaos, transport mishaps and diplomatic blunders cast a spotlight on organisers and the firm hired to deliver the games."
+        },
+        {
+          "title": "Grundlön och fasta arbetstider – knarkliga i Sundsvall drev affärer som ”företag”",
+          "url": "https://www.svt.se/nyheter/lokalt/vasternorrland/knarkliga-var-som-ett-foretag-de-anstallda-hade-fast-manadslon",
+          "published": "2026-10-22T03:30:03+00:00",
+          "summary": "Fasta arbetstider, inget helgjobb och en fast grundlön, med möjlighet till högre inkomst för extraarbete. Narkotikahärvan som just nu rullas upp i Sundsvalls tingsrätt där metoden varit så kallade dead drops ger bilden av ett välfungerande företag – med ”medarbetare” i olika åldrar och från helt olika samhällsklasser."
+        },
+        {
+          "title": "Här byggs Eskilstunas nya familjecentral – femte i kommunen",
+          "url": "https://www.svt.se/nyheter/lokalt/sormland/har-byggs-eskilstunas-nya-familjecentral-femte-i-kommunen",
+          "published": "2026-10-22T03:30:03+00:00",
+          "summary": "En ny familjecentral planeras att öppna i Skogsängen i Eskilstuna till våren. Det är ett samarbete mellan regionen och kommunen för att fler, både föräldrar och barn, ska få stöd. – Det är bra på väldigt många olika sätt, säger socialchefen Lena Söderkvist Määttä."
+        },
+        {
+          "title": "Man odlade cannabis i stora delar av sitt hus – döms till fängelse",
+          "url": "https://www.svt.se/nyheter/lokalt/smaland/man-odlade-cannabis-i-stora-delar-av-sitt-hus-doms-till-fangelse",
+          "published": "2026-10-22T03:30:03+00:00",
+          "summary": "En 40-årig man i Torsås kommun döms till två års fängelse för grovt narkotikabrott och rattfylleri. I hans bostadshus hittade polisen en omfattande cannabisodling med 53 plantor och flera kilo narkotika."
+        },
+        {
+          "title": "M i Stockholm: Misshandlade kvinnor ska få ta över hyreskontrakt",
+          "url": "https://www.svt.se/nyheter/lokalt/stockholm/m-i-stockholm-misshandlade-kvinnor-ska-fa-ta-over-hyreskontrakt",
+          "published": "2026-10-22T03:30:03+00:00",
+          "summary": "SVT har tidigare rapporterat om tvåbarnsmamman Bella som vräktes på grund av sin våldsamma ex-partner. Nu föreslår Moderaterna i Stockholm att våldsoffer ska få ta över hyreskontraktet om deras partner döms för misshandel. – Att du kan bli satt på gatan som en konsekvens av att ha blivit misshandlad, det måste stoppas, säger Christofer Fjellner (M)."
+        },
+        {
+          "title": "Polisens arbete avskräcker stöldligorna: ”Glöm Sverige”",
+          "url": "https://www.svt.se/nyheter/lokalt/vastmanland/polisens-arbete-avskracker-stoldligorna-glom-sverige",
+          "published": "2026-10-22T03:30:03+00:00",
+          "summary": "Internationella stöldligor får allt svårare att verka i Sverige. När polisen skärpt arbetet och tullen blivit bättre på att stoppa stöldgods har stölderna minskat kraftigt. ”Mitt råd skulle vara att glömma Sverige för en stund” skriver en ligamedlem i sms till en bekant."
+        },
+        {
+          "title": "Inbytte Viktor Gyökeres bakom Arsenals kvittering i stormötet",
+          "url": "https://www.svt.se/sport/fotboll/inbytte-viktor-gyokeres-bakom-arsenals-kvittering-i-stormotet",
+          "published": "2026-10-21T20:53:22+00:00",
+          "summary": "Viktor Gyökeres hade varit på planen i 14 minuter när han vickade fram bollen till Declan Rice som gjorde 2–2 mot Bayern München i kvällens stormöte."
+        },
+        {
+          "title": "SVT möter flyktingarna från katastrofbyn: ”Hundar äter döda kroppar”",
+          "url": "https://www.svt.se/nyheter/utrikes/svt-moter-flyktingarna-fran-katastrofbyn-hundar-ater-doda-kroppar",
+          "published": "2026-10-21T18:43:26+00:00",
+          "summary": "Den humanitära katastrofen i den ockuperade staden Olesjky i södra Ukraina växer. Trots att bara några kilometer skiljer staden från ukrainskkontrollerade områden, flyr människor åt andra hållet. Vägen över floden Dnipro är för farlig. SVT har träffat flyktingarna i Ukraina."
+        },
+        {
+          "title": "Videoquiz: Gissa delstaten!",
+          "url": "https://www.svt.se/special/videoquiz-gissa-delstaten/",
+          "published": "2026-10-21T15:06:47+00:00",
+          "summary": ""
+        },
+        {
+          "title": "Efter långsittare – Ica i Tranås inför tidsgräns i caféet",
+          "url": "https://www.svt.se/nyheter/lokalt/jonkoping/efter-langsittare-ica-kvantum-i-tranas-infor-tidsgrans-i-cafeet",
+          "published": "2026-10-21T15:05:10+00:00",
+          "summary": "Ica Kvantum i Tranås har infört en ny tidsgräns i sitt café, något Tranås tidning var först att berätta. Kunderna får nu fika i högst en timme, något som har mötts av både positiva och negativa reaktioner."
+        },
+        {
+          "title": "Uppgifter: Polisen utreder Foxtrot-inblandning i mordet i Älvsjö",
+          "url": "https://www.svt.se/nyheter/inrikes/uppgifter-polisen-utreder-foxtrot-inblandning-i-mordet-i-alvsjo",
+          "published": "2026-10-21T14:42:32+00:00",
+          "summary": "Tonårspojkarna agerade på någon annans uppdrag när de sköt ihjäl en kvinna i 25-årsåldern i Älvsjö. Motivet ska ha varit hämnd riktad mot en av kvinnans anhöriga och polisen utreder nätverket Foxtrots inblandning i mordet. Det uppger flera av varandra oberoende källor för SVT."
+        },
+        {
+          "title": "Förbud mot bensin- och dieselbilar kan rivas upp – trots svenskt motstånd",
+          "url": "https://www.svt.se/nyheter/inrikes/forbudet-kan-rivas-upp-trots-svenskt-motstand",
+          "published": "2026-10-21T14:27:34+00:00",
+          "summary": "Nya bensin- och dieselbilar kan få fortsätta säljas efter 2035 – efter en uppgörelse i EU-parlamentet mellan bland annat socialdemokrater och moderater. Men S i Sverige tycker att uppgörelsen är dålig. – Vi svenska socialdemokrater är ju starkt kritiska till det här, säger Åsa Westlund."
+        },
+        {
+          "title": "Piteåbon Harald, 7 år, är svensk mästare i schack",
+          "url": "https://www.svt.se/nyheter/lokalt/norrbotten/piteabon-harald-7-ar-ar-bast-i-sverige-pa-schack",
+          "published": "2026-10-21T13:53:54+00:00",
+          "summary": "Harald Bergdahl, 7 år, från Öjebyn har vunnit Skol-SM i schack. Därmed tog han Norrbottens första seger i tävlingen på över 30 år och kan också titulera sig svensk mästare i sin åldersklass."
+        },
+        {
+          "title": "2 000 deltar i gränsöverskridande övning med Norge",
+          "url": "https://www.svt.se/nyheter/lokalt/varmland/2-000-deltar-i-gransoverskridande-ovning-med-norge",
+          "published": "2026-10-21T13:32:43+00:00",
+          "summary": "Klockan 08.30 kommer larmet om skadade vid gränsen mellan Sverige och Norge, både soldater och civila har skadats allvarligt. Det är en av fyra situationer som utspelar sig under totalförsvarsövningen Grensekraft 2026. – Man får ta hand om skadade och säkra upp området, säger hemvärnssoldaten Anton som deltog."
+        },
+        {
+          "title": "Följ med in på bygget av det gigantiska AI-datacentret i Tydal",
+          "url": "https://www.svt.se/nyheter/lokalt/jamtland/folj-med-in-pa-bygget-av-det-gigantiska-ai-datacentret-i-tydal",
+          "published": "2026-10-21T12:24:52+00:00",
+          "summary": "I Tydal byggs ett av Europas största AI-datacenter. Snart stängs dörrarna av sekretesskäl. Men SVT hann få en unik rundtur på bygget."
+        },
+        {
+          "title": "Här kan man fynda brudklänning – hos Kronofogden",
+          "url": "https://www.svt.se/nyheter/lokalt/smaland/har-kan-man-fynda-brudklanning-hos-kronofogden",
+          "published": "2026-10-21T12:22:42+00:00",
+          "summary": "De flesta går och provar brudklänningar i olika bröllopsbutiker. Men just nu kan man göra ett riktigt fynd på ett mer oväntat ställe – på auktion hos Kronofogden. – Det här är oerhört ovanligt, säger kronoinspektör Dennis Blomfedt"
+        },
+        {
+          "title": "Amatörforskarnas detektivarbete löste Runns vrakgåta",
+          "url": "https://www.svt.se/nyheter/lokalt/dalarna/amatorforskarnas-detektivarbete-loste-runns-vrakgata",
+          "published": "2026-10-21T12:10:42+00:00",
+          "summary": "När marinarkeologer nu gör unika vrakfynd på Runns botten är det tack vare två hängivna amatörforskare. Ulf Backéus och Göran Garmo tillbringade tre år med historiska dokument – ett envist detektivarbete som till slut ledde experterna rakt till de sjunkna skeppen."
+        },
+        {
+          "title": "Flera fordon i trafikolycka utanför Lit",
+          "url": "https://www.svt.se/nyheter/lokalt/jamtland/flera-fordon-i-trafikolycka-utanfor-lit",
+          "published": "2026-10-21T11:47:09+00:00",
+          "summary": "En lastbil och två personbilar var inblandade i en olycka på väg 749 mellan Lit och Litsnäset i Östersunds kommun. Räddningstjänst, polis och ambulans var på plats."
+        },
+        {
+          "title": "Barn slåss med pennor och saxar – lärare i Vaggeryd sjukskrivna",
+          "url": "https://www.svt.se/nyheter/lokalt/jonkoping/barn-slass-med-pennor-och-saxar-larare-i-vaggeryd-sjukskrivna-i-protest",
+          "published": "2026-10-21T11:44:52+00:00",
+          "summary": "Ett helt arbetslag på en skola i Vaggeryds kommun har sjukskrivit sig efter att våldet från lågstadieeleverna har blivit så utstuderat. – Det är skrämmande, säger lärarnas huvudskyddsombud Andres Noor Ståhlnacke."
+        },
+        {
+          "title": "Fallolycka på Stegra i Boden",
+          "url": "https://www.svt.se/nyheter/lokalt/norrbotten/fallolycka-pa-stegra-i-boden",
+          "published": "2026-10-21T10:50:04+00:00",
+          "summary": "En arbetsplatsolycka har inträffat på Stegras industriområde i Boden. Enligt initiala uppgifter till polisen rör det sig om en fallolycka."
+        },
+        {
+          "title": "Nu är julgranen på plats i Lycksele – redan i oktober",
+          "url": "https://www.svt.se/nyheter/lokalt/vasterbotten/nu-ar-julgranen-pa-plats-i-lycksele-redan-i-oktober",
+          "published": "2026-10-21T10:09:48+00:00",
+          "summary": "Lycksele kommun har redan fått årets julgran på plats på torget – trots att det bara är oktober. Men belysningen får vänta ett tag till. – Det är inte lika bråttom med det, säger Ola Gunnarsson, anläggningstekniker Lycksele kommun."
+        },
+        {
+          "title": "Migrationsministern: ”Analyserar förutsättningar att kunna neka visum”",
+          "url": "https://www.svt.se/sport/langdskidor/migrationsministern-analyserar-forutsattningar-att-kunna-neka-visum",
+          "published": "2026-10-21T08:17:21+00:00",
+          "summary": "Sverige kommer att se över möjligheterna att stoppa de ryska längdåkarna från att komma in i Sverige under VM 2027. Det meddelar migrationsministern efter SVT Sports avslöjande."
+        },
+        {
+          "title": "Karps skogsköp i Härjedalen JO-anmäls",
+          "url": "https://www.svt.se/nyheter/lokalt/jamtland/karps-skogskop-i-harjedalen-jo-anmals",
+          "published": "2026-10-21T08:04:06+00:00",
+          "summary": "En privatperson har anmält Palantir-chefen Alex Karps skogsköp till Justitieombudsmannen, JO. Anmälaren menar att köpet strider mot lagen om utländska direktinvesteringar. Hon anmäler därför myndigheten ISP som godkände affären."
+        },
+        {
+          "title": "Gängtoppen Ildar ”Scar” Galiyev åtalas för en rad våldsbrott",
+          "url": "https://www.svt.se/nyheter/inrikes/gangtoppen-ildar-scar-galiyev-atalas-for-en-rad-valdsbrott",
+          "published": "2026-10-21T08:03:23+00:00",
+          "summary": "Radhussprängningen i Hässelby, det dödliga bombdådet i Fullerö och mordet vid Mälarhöjdens IP. Nu åtalas Ildar ”Scar” Galiyev för sin roll i en rad uppmärksammade våldsdåd, bland annat flera mord. – Det är ett gigantiskt åtal som väcks nu med oerhört många allvarliga brottsmisstankar, säger åklagaren Mats Ihlbom."
+        },
+        {
+          "title": "Vem var rapparen Nils Einár Grönberg?",
+          "url": "https://www.svt.se/kultur/vem-var-rapparen-nils-einar-gronberg",
+          "published": "2026-10-21T07:03:23+00:00",
+          "summary": "Det är fem år sedan rapparen Nils Einár Grönberg sköts till döds i Hammarby Sjöstad i Stockholm. I videon får du koll på den framgångsrika rapparens karriär fram till hans död den 21 oktober 2021."
+        },
+        {
+          "title": "En robot har slagit ner i byggnad – se när räddningstjänsten i Växjö övar",
+          "url": "https://www.svt.se/nyheter/lokalt/smaland/en-robot-har-slagit-ner-i-byggnad-se-nar-raddningstjansten-i-vaxjo-ovar",
+          "published": "2026-10-21T07:00:44+00:00",
+          "summary": "Räddningstjänsten runt om i landet tränar just nu på att hantera väpnade angrepp mot Sverige. I Växjö är scenariot att en robot slagit ner i en byggnad – och nu är det bråttom för att rädda liv."
+        },
+        {
+          "title": "Fortsatt nedåt för Husqvarna – torkan i Europa en orsak",
+          "url": "https://www.svt.se/nyheter/lokalt/jonkoping/fortsatt-nedat-for-husqvarna-torkan-i-europa-en-orsak",
+          "published": "2026-10-21T05:45:10+00:00",
+          "summary": "Storföretaget Husqvarna Group, som tillverkar bland annat trädgårdsredskap, gjorde ett minusresultat under tredje kvartalet. Aktien backade kraftigt när börsen öppnade. En orsak till minskad försäljning uppges vara torkan i Europa."
+        },
+        {
+          "title": "FN: Omöjligt klara Parisavtalets mål",
+          "url": "https://www.svt.se/nyheter/inrikes/fn-omojligt-klara-parisavtalets-mal",
+          "published": "2026-10-21T05:01:58+00:00",
+          "summary": "För första gången säger FN rakt ut att världen inte kommer att klara Parisavtalets mål om max 1,5 graders global uppvärmning. Jordens medeltemperatur kommer oundvikligen att öka till 1,7 eller 1,8 grader jämfört med tiden före industrialiseringen. Samtidigt skulle kraftfull politik och massiv koldioxidlagring kunna rädda världen från de värsta konsekvenserna, skriver FN i Emissions gap report 2026 som presenteras idag."
+        },
+        {
+          "title": "Svenska skidförbundet vill stoppa ryska åkare från VM i Falun",
+          "url": "https://www.svt.se/sport/langdskidor/svenska-skidforbundet-vill-stoppa-ryska-akare-fran-vm-i-falun",
+          "published": "2026-10-21T04:00:07+00:00",
+          "summary": "Ett flertal ryska längdskidåkare har fått klartecken att tävla på VM i Falun nästa år. Något som inte uppskattas av det Svenska skidförbundet. Nu kan SVT Sport avslöja att förbundet, tillsammans med RF, försöker få regeringen att neka de ryska åkarna visum."
+        },
+        {
+          "title": "Dominika, 25, tröttnade på skärmarna – startade offlineklubb i Katrineholm",
+          "url": "https://www.svt.se/nyheter/lokalt/sormland/dominika-25-startade-offlineklubb-i-katrineholm-trottnade-pa-skarmen",
+          "published": "2026-10-21T03:30:02+00:00",
+          "summary": "En rapport från Internetstiftelsen visar att allt fler vill skära ned på sitt användande av digitala medier. Dominika Holmberg är en av dem som tröttnat på det digitala och hon anser att man borde minska användandet. – Det är bra för en själv, men också för den yngre generationen, säger hon."
+        },
+        {
+          "title": "Vårdchefens make flög 83 gånger i högsta prisklass mellan Köpenhamn och Stockholm",
+          "url": "https://www.svt.se/nyheter/lokalt/skane/vardchefens-make-flog-83-ganger-i-hogsta-prisklass-mellan-kopenhamn-och-stockholm",
+          "published": "2026-10-21T03:30:02+00:00",
+          "summary": "SVT kan nu avslöja att maken till den tidigare chefen för cancervården i Skåne, reste i den dyraste biljettkategorin mellan Köpenhamn och Stockholm under åren 2016-2023 då han arbetade för Region Skåne. Sammanlagt gjorde han 83 enkelresor i flygbolagets högsta prisgrupp inom Skandinavien och endast 8 i vanlig ekonomiklass."
+        }
+      ],
+      "scope": "existing registered and ordinary production feeds; all relevant originals read",
+      "limitations": "A bounded sample, not comprehensive absence of events. Source-concentrated reporting remains attributed. Government homepage coverage may be undated or inaccessible; these failures are not evidence of no news.",
+      "excluded_previously_reported": [
+        {
+          "url": "https://www.occrp.org/en/news/south-pacific-ponzi-scam-king-noah-musingku-dies",
+          "reason": "Same source and facts published in22October predecessor, 2026-10-21 KEK brief; no new development verified.",
+          "previous_brief": "episodes/kek/2026-10-21/brief.json"
+        }
+      ]
+    },
+    "checked_at": "2026-10-22T07:31:51.863661+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  }
+}

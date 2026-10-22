@@ -1,0 +1,26 @@
+[
+  {
+    "source": "BBC News",
+    "title": "Gripande i Pakistan i amerikanskt portobedrägeri",
+    "url": "https://www.bbc.co.uk/news/articles/ckdd8m1z1z3yo?at_medium=RSS&at_campaign=rss",
+    "evidence": {
+      "date": "2026-10-21T05:46:33+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T05:27:29.237079+00:00",
+      "page_sha256": "43f842816d23de3470528b7165001e69a679d3fb288606f23041cc9d76901fa1",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "BBC News",
+    "title": "Gambia tar emot pengar från såld Jammeh-fastighet",
+    "url": "https://www.bbc.co.uk/news/articles/cmn8wx75l2n8o?at_medium=RSS&at_campaign=rss",
+    "evidence": {
+      "date": "2026-10-21T08:31:48+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T05:27:29.462831+00:00",
+      "page_sha256": "e72f86cda349ac1a65ef502cd971f97f109baf31512356b57c9ffe749d63b5ca",
+      "retrieval_limit": null
+    }
+  }
+]

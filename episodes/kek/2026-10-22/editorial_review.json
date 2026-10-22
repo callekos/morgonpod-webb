@@ -1,0 +1,68 @@
+{
+  "approved": true,
+  "issues": [],
+  "source_coverage": [
+    {
+      "claim": "Pakistans cyberbrottsmyndighet har gripit Faheem Akram som anklagas för att ha drivit en verksamhet som sålt förfalskade amerikanska fraktetiketter och orsakat USA:s postverk stora förluster.",
+      "source_url": "https://www.bbc.co.uk/news/articles/ckdd8m1z1z3yo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "claim": "Gambia tar emot drygt 2,57 miljoner dollar från försäljningen av Yahya Jammehs herrgård i Maryland för att använda till ersättning för offer under hans styre.",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmn8wx75l2n8o?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "short_episode_reason": "Begränsat verifierat underlag för dagen, varför avsnittet hålls kort utan utfyllnad i enlighet med redaktionell policy.",
+  "selection_decisions": [
+    {
+      "url": "https://www.bbc.co.uk/news/articles/ckdd8m1z1z3yo?at_medium=RSS&at_campaign=rss",
+      "selected": true,
+      "reason": "Relevanta uppgifter om internationell ekonomisk brottslighet och gripande.",
+      "event_key": "kek-0",
+      "source_quote": "Pakistan's cybercrime agency has arrested a man accused of running a counterfeit operation"
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/cmn8wx75l2n8o?at_medium=RSS&at_campaign=rss",
+      "selected": true,
+      "reason": "Relevanta uppgifter om tillgångsinriktad brottsbekämpning och återföring av beslagtagna medel.",
+      "event_key": "kek-1",
+      "source_quote": "The Gambia will use funds received from the US from the forfeiture"
+    }
+  ],
+  "format_decision": {
+    "outcome": "limited",
+    "reason": "Två daterade och relevanta rapporter har granskats och bearbetats fullt ut. Inga ytterligare verifierade källor föreligger för datumet, och inga utfyllnadsartiklar tillåts."
+  },
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://www.bbc.co.uk/news/articles/ckdd8m1z1z3yo?at_medium=RSS&at_campaign=rss",
+      "covered_facts": [
+        "Gripande i Pakistan",
+        "Anklagelser om falska fraktetiketter",
+        "126 miljoner dollar i förluster enligt uppgift",
+        "Åtal i Florida och nedstängd webbplats"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/cmn8wx75l2n8o?at_medium=RSS&at_campaign=rss",
+      "covered_facts": [
+        "Gambia mottar pengar från såld US-fastighet",
+        "Ersättning till offer under Yahya Jammehs styre",
+        "Belopp på drygt 2,57 miljoner dollar"
+      ],
+      "missing_facts": []
+    }
+  ],
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "3ce9155f895103307a2579f0e7292c2faf7961fe96c48f9b2ae4ba02f78b450e",
+    "news_sha256": "3390c45d1d6caee60bb131099f488f7846862f255455a3f25c0bf40c69414d33",
+    "script_sha256": "1362e993562c7edfc0d3f7046ac4513cabb62798c8bc4d17005381abc891cd46",
+    "collection_sha256": "129271be424cef6d5fe11fa73b9391ca52d52d5cb41c088721130a4de2114610"
+  },
+  "reviewed_candidate_sha256": "4a29667c7c87af03af375892071c6475d844033e2eed69584e8791e35065b98f",
+  "reviewed_script_sha256": "1362e993562c7edfc0d3f7046ac4513cabb62798c8bc4d17005381abc891cd46",
+  "work_package_sha256": "137db991502a1288d1402a7e27e57547d94e8f5f4f9ec20aa74396a7f7bd6254"
+}
