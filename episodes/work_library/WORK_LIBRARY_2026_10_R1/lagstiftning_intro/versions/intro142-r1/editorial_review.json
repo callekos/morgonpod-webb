@@ -1,0 +1,91 @@
+{
+  "approved": true,
+  "reviewer": "ChatGPT Work, separat andra genomläsning mot lästa primärkällor",
+  "independent_human_review": false,
+  "independent_agent_review": false,
+  "reviewed_at": "2026-10-22T18:03:26.744765+00:00",
+  "package_sha256": "095b73e28a1022dc358f90c2a8bb16801e6f1c69bb1bc659bc81bb29f07cad1a",
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Brott kräver straffbestämmelse; uppsåt är huvudregel.",
+      "source_ids": [
+        "intro142-brb"
+      ],
+      "locator": "1 kap. 1–2 §§",
+      "status": "verified"
+    },
+    {
+      "id": "C02",
+      "claim": "Stöldexemplet omfattar olovligt tagande, annans egendom, tillägnelseuppsåt och skada.",
+      "source_ids": [
+        "intro142-brb"
+      ],
+      "locator": "8 kap. 1 §",
+      "status": "verified"
+    },
+    {
+      "id": "C03",
+      "claim": "Uppsåt kan omfatta insedd risk och likgiltighet inför förverkligandet; risk ensam räcker inte.",
+      "source_ids": [
+        "intro142-hd-intent"
+      ],
+      "locator": "B 3014-23 p.26; ingen detaljerad bevisregel införs",
+      "status": "verified"
+    },
+    {
+      "id": "C04",
+      "claim": "Misshandel och vållande till kroppsskada hålls isär; vållande kräver skada/sjukdom som inte är ringa.",
+      "source_ids": [
+        "intro142-brb"
+      ],
+      "locator": "3 kap. 5 och 8 §§ samt 1 kap. 2 §",
+      "status": "verified"
+    },
+    {
+      "id": "C05",
+      "claim": "Nödvärn kan påverka ansvaret men påstående ger inte automatiskt ansvarsfrihet.",
+      "source_ids": [
+        "intro142-brb"
+      ],
+      "locator": "24 kap. 1 §; inga befogenhetsråd eller förenklad generell försvarsrätt",
+      "status": "verified"
+    },
+    {
+      "id": "C06",
+      "claim": "Förundersökningens objektivitet gäller till fördel och nackdel.",
+      "source_ids": [
+        "intro142-rb"
+      ],
+      "locator": "23 kap. 4 §",
+      "status": "verified"
+    },
+    {
+      "id": "C07",
+      "claim": "Åklagarens bevisbörda, utom rimligt tvivel och skilda processroller.",
+      "source_ids": [
+        "intro142-hd-evidence",
+        "intro142-courts"
+      ],
+      "locator": "HD:s ingress/beviskrav samt domstolarnas ingress",
+      "status": "verified"
+    }
+  ],
+  "checks": {
+    "pedagogical": "Tre lärandemål, begrepp förklaras före användning, två fiktiva polisnära fall och återkoppling.",
+    "scope": "Ingen processföreläsning, reformbevakning, straffskala eller åldersgräns.",
+    "intent": "Uppsåt begränsas inte till avsikt eller planering. Risk skiljs från likgiltighet inför följd.",
+    "negligence": "Dålig följd är inte automatisk oaktsamhet; straffstöd och icke ringa skada anges.",
+    "examples": "Fiktiva, öppna frågeställningar; ingen faktisk skuld bestäms.",
+    "law_version": "Relevanta hämtade lagrum lästa. Framtida konsoliderade lydelser används inte som nya gällande reformer.",
+    "article_alignment": "Samma sakpåståenden, lärandemål och exempel som slutmanuset.",
+    "identity": "Befintligt intro- och artikel-ID, datum20oktober, förstaplats och ursprunglig publicering bevaras i nästa steg."
+  },
+  "issues": [],
+  "remaining_gates": [
+    "Native Sofie TTS och komplett avkodning",
+    "Faktisk ljudinnehållskontroll",
+    "Sammanhängande ersättning med versionerade bytes på befintlig identitet",
+    "Faktisk webbuppspelning, kö, direktlänk och katalogombyggnad"
+  ]
+}

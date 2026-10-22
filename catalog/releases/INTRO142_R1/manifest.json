@@ -1,0 +1,428 @@
+{
+  "issue": 142,
+  "status": "prepared_not_published",
+  "prepared_at": "2026-10-22T19:01:59.631819+00:00",
+  "episode_id": "WORK_LIBRARY_2026_10:lagstiftning:intro:1",
+  "article_id": "work-lagstiftning_intro-article-1",
+  "content_version": "intro142-r1",
+  "audio_sha256": "6079b15b623097722c2b5ece0b013c2bef39e6dc9493aa741b12ab25275b6e97",
+  "audio_blob": "187651a5d371cf58681f614ce418e8c603a73f22",
+  "original_entry": {
+    "id": "WORK_LIBRARY_2026_10:lagstiftning:intro:1",
+    "channel": "lagstiftning",
+    "date": "2026-10-20",
+    "title": "Lagstiftning: från förslag och beslut till tillämpning",
+    "description": "Kanalen Lagstiftning inom straffrätt ska ge spårbar orientering om straffrätt, straffprocess, reformer och rättspraxis. Målgruppen är professionella inom brottsbekämpning, åklagarverksamhet och närliggande myndigheter. Uppstartsavsnittet förklarar hur en rättslig nyhet behöver läsas innan den kan användas i verksamheten.",
+    "kind": "introduction",
+    "origin": "work_library",
+    "edition_type": "intro",
+    "production_identity": "WORK_LIBRARY_2026_10",
+    "library_release_id": "WORK_LIBRARY_2026_10_R1",
+    "is_intro": true,
+    "episode_order": 1,
+    "published_at": "2026-10-20T20:49:08.348898+00:00",
+    "audio": "episodes/work_library/WORK_LIBRARY_2026_10_R1/lagstiftning_intro/morgonpod.mp3",
+    "brief": "episodes/work_library/WORK_LIBRARY_2026_10_R1/lagstiftning_intro/brief.json",
+    "sources": "episodes/work_library/WORK_LIBRARY_2026_10_R1/lagstiftning_intro/kallor.json",
+    "duration_seconds": 1200.36,
+    "article_count": 1,
+    "tags": [
+      "Straffrätt",
+      "Straffprocess",
+      "Rättspraxis",
+      "Uppstartsavsnitt"
+    ],
+    "published_at_source": "publication_transaction"
+  },
+  "original_web_content_commit": "3d9aab8680d0cc83604a508f0e2980afa512ff5b",
+  "original_package_path": "episodes/work_library/WORK_LIBRARY_2026_10_R1/lagstiftning_intro",
+  "original_audio_blob": "114d11862face8f7b3aab41a75c23b5bcd6a53b3",
+  "original_audio_stays_at_original_path": true,
+  "all_57_other_episode_records_unchanged": true,
+  "all_other_article_records_unchanged": true,
+  "original_publication_history_preserved": true,
+  "episode_number_ledger_byte_identical": true,
+  "catalog_policy_byte_identical": true,
+  "one_intro_first_five_legislation_specials_preserved": true,
+  "all_15_specials_preserved": true,
+  "second_native_rebuild_semantically_identical": true,
+  "notification_policy": "suppressed",
+  "changed_text_paths": [
+    {
+      "path": "catalog/articles/8245fc9562e8be55cc18b422.json",
+      "old_blob": "1bee4ed6233c2a28fe9f59b34359ae26093ab9c5",
+      "new_blob": "7ef40a547312d288ab18932c1f9d34d987e7c18e"
+    },
+    {
+      "path": "catalog/episodes/a606a65356bde9310dcca16f.json",
+      "old_blob": "9afe82e3f65c58bdc4002d374e44f7e5143d955f",
+      "new_blob": "c40757e9a1e17ce55bce71bf62487c47e56ddd36"
+    },
+    {
+      "path": "catalog/lists/articles/2.json",
+      "old_blob": "ddcb5f60d58c3c3debcd1be13e8ac611efee61ce",
+      "new_blob": "173450e0a07e3cdb7bddc31ac536025ab6c3fc2b"
+    },
+    {
+      "path": "catalog/lists/articles/channel/lagstiftning/0.json",
+      "old_blob": "8b6fc971de5e401ad085e58c97ff4798a227086b",
+      "new_blob": "b343bdedbc2bbe2b698aff6e1cc66ce1d5cf39c3"
+    },
+    {
+      "path": "catalog/lists/articles/topic/lagstiftning/0.json",
+      "old_blob": "8b6fc971de5e401ad085e58c97ff4798a227086b",
+      "new_blob": "5b7aeeb859b7107f05780034c37599a92acfc233"
+    },
+    {
+      "path": "catalog/lists/articles/topic/straffrätt/0.json",
+      "old_blob": null,
+      "new_blob": "2bbf393645145cc48402694b69f66a95b88976b5"
+    },
+    {
+      "path": "catalog/lists/articles/topic/uppstartsavsnitt/0.json",
+      "old_blob": null,
+      "new_blob": "2bbf393645145cc48402694b69f66a95b88976b5"
+    },
+    {
+      "path": "catalog/lists/episodes/1.json",
+      "old_blob": "f4b9d4c6eb2bbadcc649e3a858f24416207babe2",
+      "new_blob": "a7723679d10388d495070c368499f5faf474486a"
+    },
+    {
+      "path": "catalog/lists/episodes/channel/lagstiftning/0.json",
+      "old_blob": "8a2530b3a5bdebb9ac88fdf97e39d43cf83b124a",
+      "new_blob": "bc9abe408b7b9c109198b7f10c0e426ae4217243"
+    },
+    {
+      "path": "catalog/lists/episodes/history/channel/lagstiftning/0.json",
+      "old_blob": "da6746eac4c83a8ef9df5bc5ca6d44f5ff5cb964",
+      "new_blob": "1bb614c7652efc91144da1e6e3a0ee4e3219e5fa"
+    },
+    {
+      "path": "catalog/lists/episodes/topic/straffrätt/0.json",
+      "old_blob": "ab0270cecd522ec0c0973ef7e40f64c8fb19d3a8",
+      "new_blob": "a335b40530f286b78a16ad603fe916b5ccac46fd"
+    },
+    {
+      "path": "catalog/lists/episodes/topic/uppstartsavsnitt/0.json",
+      "old_blob": "6ea324369f7d131c723731928d0fef6a2c53bef1",
+      "new_blob": "0f4a05366cfc6a0c155c154a15dc1eeb575f038f"
+    },
+    {
+      "path": "catalog/manifest.json",
+      "old_blob": "636ed482999154145eeb4c10cc211363e79193ce",
+      "new_blob": "4889a46fa1cb39df9590804a26d16f08f112e97c"
+    },
+    {
+      "path": "catalog/memory/lagstiftning.json",
+      "old_blob": "b081b1f0b4eb3c2db9ccce32128b96226dc72ad4",
+      "new_blob": "5a897f17d556f180d85b051c2e820757f365d550"
+    },
+    {
+      "path": "catalog/search/04.json",
+      "old_blob": "06293fbb80d1969ab9b9f846cac0a960da9ed0f4",
+      "new_blob": "d531f6f4ad9e08cd53a96321fea9c9f887a414d3"
+    },
+    {
+      "path": "catalog/search/06.json",
+      "old_blob": "680643283c0416e5831f8df42e285e6c3f8a62a0",
+      "new_blob": "b1082f31ee6c5d280390ec7d3812ce65b2996535"
+    },
+    {
+      "path": "catalog/search/07.json",
+      "old_blob": "ac2ff868f576e85c6e6284895ab7eba163eb48b7",
+      "new_blob": "f17bb7765bdd489bbd54102d4677dc85329d6f56"
+    },
+    {
+      "path": "catalog/search/08.json",
+      "old_blob": "c9c8629680527dc55332df359f28780c82812d77",
+      "new_blob": "938bf4b44804e3a4f6ad11f53655343e3157daac"
+    },
+    {
+      "path": "catalog/search/0c.json",
+      "old_blob": "abdb68e6127521a68e4de0759295bd199127513a",
+      "new_blob": "025a293703963cbb0dfd763c389b288205805284"
+    },
+    {
+      "path": "catalog/search/0e.json",
+      "old_blob": "05c334b66df9fa4dd2c7c9d42a0565c98f5ad349",
+      "new_blob": "0ef57cceb5246a37a1e659f731ccc907d6ec292c"
+    },
+    {
+      "path": "catalog/search/15.json",
+      "old_blob": "0ac9915489c739b4dd1f7cd0f0553680a9895103",
+      "new_blob": "ac696a133536140115f89d2a98f9f9163fe77039"
+    },
+    {
+      "path": "catalog/search/16.json",
+      "old_blob": "a41cb3ef9b63e8390dcb19c26f55f541d2bd21ee",
+      "new_blob": "ff8657855fec327053af6389ca74be9fac9707a5"
+    },
+    {
+      "path": "catalog/search/1c.json",
+      "old_blob": "8be151e5c6755b911be9cdb654a30af038ee665e",
+      "new_blob": "32a57edbd6400ceb729fece60622b1517e5e52eb"
+    },
+    {
+      "path": "catalog/search/22.json",
+      "old_blob": "15e7572d7d0692d6b2a4c7fe6468cc9c9713d458",
+      "new_blob": "8cc4721478d317a754884047feaacc1c2d6d68dd"
+    },
+    {
+      "path": "catalog/search/28.json",
+      "old_blob": "b3846e581fb9fb9593d3710973a553eae754c87c",
+      "new_blob": "9268d92e1151f90ad547245c5862ade97c6ec63d"
+    },
+    {
+      "path": "catalog/search/29.json",
+      "old_blob": "e6b02a63ce447659a32041692c22a736e38c1e66",
+      "new_blob": "9b8ed2deb418922f581b9a07c86cf8375c376857"
+    },
+    {
+      "path": "catalog/search/2e.json",
+      "old_blob": "63f8928e8bc86542ecfdf0af2648299e13000d10",
+      "new_blob": "f3a26fa8c3394c07b8ad489ac83924e9ad13bc0c"
+    },
+    {
+      "path": "catalog/search/30.json",
+      "old_blob": "431db0b1bde55b90ca8d77ef5a50c6ca77ac5016",
+      "new_blob": "3e9b23bc5bc5c482ec39e88110bba1346da5009a"
+    },
+    {
+      "path": "catalog/search/33.json",
+      "old_blob": "658144e32a4b7a8adf0ba071b07cdf2ba2adf410",
+      "new_blob": "f04c882c4fa764f10e2a5ed8b82442d6ea15a37b"
+    },
+    {
+      "path": "catalog/search/34.json",
+      "old_blob": "601ae3c8d5c6855d0ad5314b6ce95bf4efabe203",
+      "new_blob": "b66fa9ab95a9c977302cdeea9d1e0a6a228234f6"
+    },
+    {
+      "path": "catalog/search/43.json",
+      "old_blob": "5390f553de908bb11af89a5c0e27360fc5c2b0da",
+      "new_blob": "cd506809f44e06e09b37a5aa59e6abd00b2bdd07"
+    },
+    {
+      "path": "catalog/search/45.json",
+      "old_blob": "a9ac20836f0a6196413bc37a0e70703cea8a12c1",
+      "new_blob": "240ac69247b46c2c3db4d586a21753bf4f383667"
+    },
+    {
+      "path": "catalog/search/48.json",
+      "old_blob": "33f215830fdd6a10338b6cc1dc32e78646d0dfd9",
+      "new_blob": "cf451f76463a8eb8d88c6fee1b6f0871fe7ed123"
+    },
+    {
+      "path": "catalog/search/49.json",
+      "old_blob": "07669903e0a49008308c10d0b4e71b4813999b36",
+      "new_blob": "cc5c9f5825bc6dbb0a6589d39ddda2e906c4af0a"
+    },
+    {
+      "path": "catalog/search/4b.json",
+      "old_blob": "2320d841f9611fd952e650022bf0544b0ddd4b5e",
+      "new_blob": "3e7d5b5a4c3572c4c37c0edf54d8973300cfe642"
+    },
+    {
+      "path": "catalog/search/4d.json",
+      "old_blob": "2304a841704ad60fb9a78a47dbab1d59aa6a9b9d",
+      "new_blob": "bbf4b3bb4c3e4f4e10fd35bf06241a64f3b7df27"
+    },
+    {
+      "path": "catalog/search/4f.json",
+      "old_blob": "5dc4e6a622e315ee1718476bc4159fd316b22662",
+      "new_blob": "f7371189d9cd338c14246340a4d5843f3ec191f4"
+    },
+    {
+      "path": "catalog/search/69.json",
+      "old_blob": "692dc5e1c24d51e437744ad3d63810333b7e351d",
+      "new_blob": "3fae302fe3573004f706a7527b2608729a72553b"
+    },
+    {
+      "path": "catalog/search/6c.json",
+      "old_blob": "c85106481be3f3c07e9606c58aa86e1f634708ee",
+      "new_blob": "6bb070a8a29f187ed288dcdedbea2209b399c672"
+    },
+    {
+      "path": "catalog/search/75.json",
+      "old_blob": "c0ef18faab7bf128e123503f0dca435f1dfd1efb",
+      "new_blob": "12848c80a7f667d4fe02bd53f49b0940c030aa15"
+    },
+    {
+      "path": "catalog/search/78.json",
+      "old_blob": "be947de85aa02f28a0d5fa7ae1cb9e38afcbfedb",
+      "new_blob": "0f05df4e37a77da0d167e78d5b60f878f9276ed3"
+    },
+    {
+      "path": "catalog/search/7c.json",
+      "old_blob": "183755d526ca6ea6fa96b458a179b97c18eb1e60",
+      "new_blob": "9688062da62eb294d891278bec35efc47341c6ec"
+    },
+    {
+      "path": "catalog/search/83.json",
+      "old_blob": "b74227c26871299203d1e2013b413d6819a4357d",
+      "new_blob": "059429f2967389ea83ab4ee9f04cf6450917f047"
+    },
+    {
+      "path": "catalog/search/84.json",
+      "old_blob": "8224bc62e33b50895123ec880e3ee747754e36d4",
+      "new_blob": "a37f3ea325106607de6029dcf023503b4f3b8cbd"
+    },
+    {
+      "path": "catalog/search/86.json",
+      "old_blob": "bfef09eb79a2a13c97521ab6988926f705f76ec6",
+      "new_blob": "b34ebcddc6661345fe63e03bbfc612f81db4d8b1"
+    },
+    {
+      "path": "catalog/search/8a.json",
+      "old_blob": "759c045a64b586430524f0ea9d38638e728cd84e",
+      "new_blob": "fe5f837609c182c6b59440edd8ea0efee25829bb"
+    },
+    {
+      "path": "catalog/search/94.json",
+      "old_blob": "06df0c1959149f311d1aa61bc2214dbac784acbd",
+      "new_blob": "ea86d492a5af5688b3cb0dd0fbe6f66bbf49d71b"
+    },
+    {
+      "path": "catalog/search/a2.json",
+      "old_blob": "d5cb58721dd3517fea52cb34205eb1a4904b4cb2",
+      "new_blob": "5f43582585e1527eaef2672be973977d58be5b35"
+    },
+    {
+      "path": "catalog/search/a6.json",
+      "old_blob": "2bc2910145adc6e60959fc271589257eecf3494d",
+      "new_blob": "3aaa705b1622a0d27f471c68ed83df22c6710481"
+    },
+    {
+      "path": "catalog/search/ad.json",
+      "old_blob": "92731416cbde66ed6b41fe79ddca698a86e40f29",
+      "new_blob": "014b1c54de33c231ff3d9a41cdd6fc29a84ae42b"
+    },
+    {
+      "path": "catalog/search/b0.json",
+      "old_blob": "463a3e21ced3488139ed112e309533cdf93a9bb6",
+      "new_blob": "0130ead7b2e32dd7d3e44089632bec30d4fce8a1"
+    },
+    {
+      "path": "catalog/search/b1.json",
+      "old_blob": "03f9ed17f1381543f95e908cafe930ee8df04718",
+      "new_blob": "9cbfd45d92fafb021d4da0f1afd4d67eb9750175"
+    },
+    {
+      "path": "catalog/search/ba.json",
+      "old_blob": "0a4b775dae014fc3dd7b170d46896212c17ec9d2",
+      "new_blob": "2ecc3aa4a92e913e39e9d217bcb093f941c09a04"
+    },
+    {
+      "path": "catalog/search/bd.json",
+      "old_blob": "97faa56b6e4390951c6047466c817e5cd711cf1c",
+      "new_blob": "b04a1ad1fc29cc874c6f39f92fd5b76278b8272e"
+    },
+    {
+      "path": "catalog/search/c9.json",
+      "old_blob": "e7165f1cc7dec50275da5801624ea6fb56744b45",
+      "new_blob": "b7eb8436153ebcb6e5cce864f879d77b742b5f71"
+    },
+    {
+      "path": "catalog/search/cf.json",
+      "old_blob": "088792687c9c6aa61aaaf449d397e416f4849e12",
+      "new_blob": "8da76875f7b6f14e0cf4825d30ccb60efbd2189f"
+    },
+    {
+      "path": "catalog/search/d0.json",
+      "old_blob": "378a0436ab6ff7ec106793080acc0b6dc4e4ca0f",
+      "new_blob": "902efcd380868eda82e0e9671f428ccec3244ea7"
+    },
+    {
+      "path": "catalog/search/d3.json",
+      "old_blob": "3ee8e9b16b441c73f837101740dae1ac3db62843",
+      "new_blob": "f6e76dc890ff8a058db615ad255f19a6f46ed61a"
+    },
+    {
+      "path": "catalog/search/d5.json",
+      "old_blob": "07b66f71fb249fe7300b65055afe2f7c429ea7fb",
+      "new_blob": "b39605c431b092944a9afa51658ec160c23a77f2"
+    },
+    {
+      "path": "catalog/search/db.json",
+      "old_blob": "4bf9d35f486fa63b88688d2b81ef92c30c497610",
+      "new_blob": "4c635564f37d97abde8705f87327363fc1f6ab90"
+    },
+    {
+      "path": "catalog/search/e0.json",
+      "old_blob": "4d9bc191c54ee846e0c92c58b25fdf2b28607a23",
+      "new_blob": "36d27b8bcd68d5ccc7a6b7e816fa09d219f018f5"
+    },
+    {
+      "path": "catalog/search/e4.json",
+      "old_blob": "5d9575e518b5723d28b37e553c3f3ea5b7fbfdb2",
+      "new_blob": "ca4a3c6ee6111c1bc596b2444ce616fa7f9e8e06"
+    },
+    {
+      "path": "catalog/search/e5.json",
+      "old_blob": "79a0b7b9734b257def8e8660413b24a0b3a6a154",
+      "new_blob": "63e918a2b525102687ffc1cb0c7a4191c315ae78"
+    },
+    {
+      "path": "catalog/search/f4.json",
+      "old_blob": "6cc072491298e5eb8c8bd0660e106dd28f58d867",
+      "new_blob": "d237cc273f1eed2df3b88c82bbe7c0f7b2dc99c9"
+    },
+    {
+      "path": "catalog/search/f7.json",
+      "old_blob": "2117eb5c48dfdb3593b07fba7cab2ee7897ea15a",
+      "new_blob": "a8bbe4755da7b75dc2780048e5f1902c3ef09669"
+    },
+    {
+      "path": "catalog/search/fd.json",
+      "old_blob": "dde421ddc0edcad6694fe4aaf0264fed7d4caaa4",
+      "new_blob": "fa36fa994e0fd8863ba6a6d6cf04dac2fad6601f"
+    },
+    {
+      "path": "episodes/work_library/WORK_LIBRARY_2026_10_R1/lagstiftning_intro/versions/intro142-r1/audio_integrity.json",
+      "old_blob": null,
+      "new_blob": "a2ccbd5f3e2028c660702d8e04d79c66436ab8f2"
+    },
+    {
+      "path": "episodes/work_library/WORK_LIBRARY_2026_10_R1/lagstiftning_intro/versions/intro142-r1/audio_report.json",
+      "old_blob": null,
+      "new_blob": "43e506c33b3dcd6615014b3404f5e812be07854a"
+    },
+    {
+      "path": "episodes/work_library/WORK_LIBRARY_2026_10_R1/lagstiftning_intro/versions/intro142-r1/brief.json",
+      "old_blob": null,
+      "new_blob": "a80b222fe2378fcbecf65b3b731c760dd8dce45b"
+    },
+    {
+      "path": "episodes/work_library/WORK_LIBRARY_2026_10_R1/lagstiftning_intro/versions/intro142-r1/editorial_review.json",
+      "old_blob": null,
+      "new_blob": "f9225d62cea3cbd7294b6c00a39414b839ca607f"
+    },
+    {
+      "path": "episodes/work_library/WORK_LIBRARY_2026_10_R1/lagstiftning_intro/versions/intro142-r1/kallor.json",
+      "old_blob": null,
+      "new_blob": "efee537d50b033c940b7b73deed9c333a1296d0d"
+    },
+    {
+      "path": "episodes/work_library/WORK_LIBRARY_2026_10_R1/lagstiftning_intro/versions/intro142-r1/manus.txt",
+      "old_blob": null,
+      "new_blob": "e6824e4e0dd1b36df059e5bb80927b2fbd7d50ce"
+    },
+    {
+      "path": "episodes/work_library/WORK_LIBRARY_2026_10_R1/lagstiftning_intro/versions/intro142-r1/package.json",
+      "old_blob": null,
+      "new_blob": "3b162b78514cbddbbc2bc5f91251668971fe68d7"
+    },
+    {
+      "path": "episodes.json",
+      "old_blob": "bd0f8b1b982b37afbcc779e0fa7acfa59a34b8fa",
+      "new_blob": "d2d71debbc29ee67b8375af9a7da2ef9174d4da0"
+    },
+    {
+      "path": "story_index.json",
+      "old_blob": "6f01b4eb2ccd081ccdcf9fb7bb0a79467a980cc5",
+      "new_blob": "f3b7944f3a11ea83a54e89dd01a918665b5192ce"
+    }
+  ],
+  "transaction_time_note": "prepared_at is preparation time. Actual replacement commit/time will be recorded after the atomic transaction."
+}
