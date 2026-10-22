@@ -1,0 +1,101 @@
+{
+  "channel": "vald",
+  "date": "2026-10-22",
+  "history": [
+    {
+      "id": "article-6dc84f2823552b4a664e6831",
+      "date": "2026-10-20",
+      "channel": "vald",
+      "title": "Stort vapentillslag – hittade 31 vapen hos man i Vimmerby",
+      "summary": "En man i 35-årsåldern utan vapenlicens i Vimmerby kommun har åtalats sedan polisen hittat 31 fungerande vapen, inklusive en kulspruta, samt över 11 500 patroner i hans hem och en lagerlokal. Det rör sig enligt åklagaren om ett av de större vapenbeslagen som gjorts i Sverige. Mannen åtalas för synnerligen grovt vapenbrott samt brott mot lagen om brandfarliga och explosiva varor, men nekar till brott.",
+      "assessment": "Ett beslag av denna storleksordning indikerar en betydande risk för att stora vapenmängder kan cirkulera utanför samhällets kontroll, vilket understryker vikten av tidiga underrättelser kring okontrollerade tillgångar.",
+      "open_questions": [
+        "Hur har mannen anskaffat den stora mängden vapen och ammunition utan att det upptäckts tidigare?",
+        "Finns det några verifierade kopplingar till organiserad brottslighet eller extremistmiljöer?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-20:daily",
+      "source_url": "https://www.svt.se/nyheter/lokalt/smaland/stort-vapentillslag-hittade-31-vapen-hos-man",
+      "topics": [
+        "vapenbrott",
+        "brottslighet",
+        "sverige"
+      ],
+      "relevance": 7
+    },
+    {
+      "id": "article-2f5d1e8681a64b43c0354c9e",
+      "date": "2026-10-21",
+      "channel": "vald",
+      "title": "Åtal om rekrytering till grova våldsbrott",
+      "summary": "En annan aktuell rättsprocess beskrivs i Åklagarmyndighetens pressmeddelande den tjugoförsta oktober. En tjugosexårig man som överlämnades från Grekland till Sverige i februari åtalas vid Södertörns tingsrätt. Myndigheten beskriver misstänkt inblandning i grova våldsbrott i Stockholmsområdet, Linköping och Uppsala under tjugohundratjugotre och tjugohundratjugofyra. En separat åtalspunkt gäller ett grovt vapenbrott i Stockholm år tjugohundratjugoett. Dagens publicering betyder därmed inte att brotten ska ha begåtts i dag.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-21:daily",
+      "source_url": "https://www.aklagare.se/for-media/pressmeddelanden/2026/oktober/man-atalas-for-tre-mord-och-flera-andra-fall-av-grov-brottslighet/",
+      "topics": [
+        "åtal-och-grovt-våld"
+      ],
+      "relevance": 6
+    },
+    {
+      "id": "article-74ba73ce90fe4d4fe5c165b3",
+      "date": "2026-10-21",
+      "channel": "vald",
+      "title": "Omfattande förhandling planeras till november",
+      "summary": "Södertörns tingsrätt har samma dag publicerat information om en omfattande huvudförhandling om bland annat mord och anstiftan till mord. Förhandlingen planeras börja den tredje november i en särskild säkerhetssal på Bergsgatan på Kungsholmen i Stockholm. Den beräknas pågå i knappt femtio dagar och avslutas i slutet av mars nästa år. Domstolen understryker att huvudförhandlingsplanen är preliminär och att sekretessprövning av handlingar pågår.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-21:daily",
+      "source_url": "https://www.domstol.se/nyheter/2026/10/atal-vackt-angaende-mord-anstiftan-till-mord-m-m/",
+      "topics": [
+        "rättsprocess"
+      ],
+      "relevance": 3
+    },
+    {
+      "id": "article-289075a9942a032f3fdc6b10",
+      "date": "2026-10-21",
+      "channel": "vald",
+      "title": "Utlämnad misstänkt häktad i Sverige",
+      "summary": "SVT rapporterar att den tjugotvåårige Emin Muqa Kulic har utlämnats från Spanien och häktats i Sverige. Enligt SVT ska han ha tillhört ledarskiktet i Dalennätverket. Samma källa återger att Polisen tidigare har beskrivit honom som Mikael Tenezos högra hand. Det handlar om misstankar och myndigheternas beskrivning av hans roll, inte om en dom i de brott som nu räknas upp.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-21:daily",
+      "source_url": "https://www.svt.se/nyheter/inrikes/svensk-gangtopp-ford-till-sverige-och-haktad",
+      "topics": [
+        "organiserad-brottslighet"
+      ],
+      "relevance": 3
+    },
+    {
+      "id": "article-88a4b0365da17cc142f0cf61",
+      "date": "2026-10-20",
+      "channel": "vald",
+      "title": "Italy plans tougher security measures after violent protests",
+      "summary": "Italienska myndigheter planerar nya akuta säkerhetsåtgärder efter att protester mot stigande levnadskostnader urartade i våldsamma sammandrabbningar i bland annat Milano. Över 250 personer har frihetsberövats, och regeringen överväger hårdare tag mot bland annat minderåriga i kriminella gäng och begränsningar av gruppsammankomster.",
+      "assessment": "Händelserna i Italien speglar en bredare europeisk trend där sociala oroligheter lätt kan utnyttjas av våldsamma element för att skapa ordningsstörningar och skadegörelse.",
+      "open_questions": [
+        "Kommer de föreslagna lagändringarna att få avsedd effekt på att dämpa framtida upplopp?",
+        "Hur sprids mobiliseringen via digitala plattformar i denna typ av oroligheter?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-20:daily",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6j9kwxxmxydo?at_medium=RSS&at_campaign=rss",
+      "topics": [
+        "protester",
+        "italien",
+        "säkerhet"
+      ],
+      "relevance": 2
+    }
+  ]
+}

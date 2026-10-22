@@ -1,0 +1,20 @@
+{
+  "approved": true,
+  "issues": [],
+  "source_coverage": [
+    {
+      "claim": "Ildar Galiyev, känd som Scar, åtalas för över 20 allvarliga brott, inklusive mordet vid Mälarhöjdens IP och anstiftan till sprängdådet i Fullerö hage.",
+      "source_url": "https://www.svt.se/nyheter/inrikes/gangtoppen-ildar-scar-galiyev-atalas-for-en-rad-valdsbrott"
+    },
+    {
+      "claim": "Polisen utreder nätverket Foxtrots eventuella inblandning i mordet på en kvinna i Älvsjö, där två minderåriga pojkar sitter häktade.",
+      "source_url": "https://www.svt.se/nyheter/inrikes/uppgifter-polisen-utreder-foxtrot-inblandning-i-mordet-i-alvsjo"
+    },
+    {
+      "claim": "Ett helt arbetslag på Östra skolan i Vaggeryds kommun har sjukskrivit sig efter att lågstadieelever använt vassa föremål som pennor och saxar som vapen.",
+      "source_url": "https://www.svt.se/nyheter/lokalt/jonkoping/barn-slass-med-pennor-och-saxar-larare-i-vaggeryd-sjukskrivna-i-protest"
+    }
+  ],
+  "short_episode_reason": "",
+  "reviewed_script_sha256": "c624642c686b5164f86e02f5888774eaa606a4251b5ec96eed1a285532aa8a42"
+}

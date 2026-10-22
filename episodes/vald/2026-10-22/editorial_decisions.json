@@ -1,0 +1,469 @@
+{
+  "channel": "vald",
+  "date": "2026-10-22",
+  "schema": 2,
+  "corroboration_method": "distinct_hosts_not_proof_of_independence",
+  "received": 5,
+  "unique_urls": 5,
+  "identified_events": 5,
+  "selected_articles": 4,
+  "selected_events": 4,
+  "unique_domains": 2,
+  "max_items": 40,
+  "gemini_calls": 0,
+  "decisions": [
+    {
+      "event_id": "0f5003c8f764f2bb",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Uppgifter: Polisen utreder Foxtrot-inblandning i mordet i Älvsjö",
+          "url": "https://www.svt.se/nyheter/inrikes/uppgifter-polisen-utreder-foxtrot-inblandning-i-mordet-i-alvsjo"
+        }
+      ]
+    },
+    {
+      "event_id": "ec75da66a33ed534",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Barn slåss med pennor och saxar – lärare i Vaggeryd sjukskrivna",
+          "url": "https://www.svt.se/nyheter/lokalt/jonkoping/barn-slass-med-pennor-och-saxar-larare-i-vaggeryd-sjukskrivna-i-protest"
+        }
+      ]
+    },
+    {
+      "event_id": "7991b1ae032419b9",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Gängtoppen Ildar ”Scar” Galiyev åtalas för en rad våldsbrott",
+          "url": "https://www.svt.se/nyheter/inrikes/gangtoppen-ildar-scar-galiyev-atalas-for-en-rad-valdsbrott"
+        }
+      ]
+    },
+    {
+      "event_id": "8da6ac9482cbd825",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 33,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "news.google.com"
+      ],
+      "articles": [
+        {
+          "title": "Gänget satte skräck i Sverige – sedan greps en efter en - Dagens Nyheter",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbEtKUWxZWnhmbEltcXg5ZjZyVjdwSmpRM2hMWVZtMUNMUmVFMW1WcXJ4ZUpxZ2l3aVByd3Z3d2twcEtMTl9mbEIxMFBkaTQ2dDdMcHhtTnhVZ3M1M19RYy1XVHVwTUREbVI3bEF3clZTZUNTTmFEd2NzVDVzQzRDb3Q5MGItZWs?oc=5"
+        }
+      ]
+    },
+    {
+      "event_id": "3c7296776f2f9405",
+      "selected": false,
+      "reason": "already_reported_without_independent_update",
+      "score": 31,
+      "score_components": {
+        "relevance": 6,
+        "freshness": 3,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 2
+      },
+      "source_domains": [
+        "europol.europa.eu"
+      ],
+      "articles": [
+        {
+          "title": "Ordering violence from abroad: five suspects arrested in Spain, Morocco, and France",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/ordering-violence-abroad-five-suspects-arrested-in-spain-morocco-and-france"
+        }
+      ]
+    }
+  ],
+  "rejected": [],
+  "channel_scope": {
+    "input_count": 47,
+    "accepted_count": 5,
+    "rejected": [
+      {
+        "url": "https://www.svt.se/sport/fotboll/inbytte-viktor-gyokeres-bakom-arsenals-kvittering-i-stormotet",
+        "reason": "outside_channel_scope",
+        "title": "Inbytte Viktor Gyökeres bakom Arsenals kvittering i stormötet",
+        "summary": "Viktor Gyökeres hade varit på planen i 14 minuter när han vickade fram bollen till Declan Rice som gjorde 2–2 mot Bayern München i kvällens stormöte.",
+        "date": "2026-10-21T20:53:22+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/utrikes/svt-moter-flyktingarna-fran-katastrofbyn-hundar-ater-doda-kroppar",
+        "reason": "outside_channel_scope",
+        "title": "SVT möter flyktingarna från katastrofbyn: ”Hundar äter döda kroppar”",
+        "summary": "Den humanitära katastrofen i den ockuperade staden Olesjky i södra Ukraina växer. Trots att bara några kilometer skiljer staden från ukrainskkontrollerade områden, flyr människor åt andra hållet. Vägen över floden Dnipro är för farlig. SVT har träffat flyktingarna i Ukraina.",
+        "date": "2026-10-21T18:43:26+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/special/videoquiz-gissa-delstaten/",
+        "reason": "outside_channel_scope",
+        "title": "Videoquiz: Gissa delstaten!",
+        "summary": "",
+        "date": "2026-10-21T15:06:47+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/jonkoping/efter-langsittare-ica-kvantum-i-tranas-infor-tidsgrans-i-cafeet",
+        "reason": "outside_channel_scope",
+        "title": "Efter långsittare – Ica i Tranås inför tidsgräns i caféet",
+        "summary": "Ica Kvantum i Tranås har infört en ny tidsgräns i sitt café, något Tranås tidning var först att berätta. Kunderna får nu fika i högst en timme, något som har mötts av både positiva och negativa reaktioner.",
+        "date": "2026-10-21T15:05:10+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/inrikes/forbudet-kan-rivas-upp-trots-svenskt-motstand",
+        "reason": "outside_channel_scope",
+        "title": "Förbud mot bensin- och dieselbilar kan rivas upp – trots svenskt motstånd",
+        "summary": "Nya bensin- och dieselbilar kan få fortsätta säljas efter 2035 – efter en uppgörelse i EU-parlamentet mellan bland annat socialdemokrater och moderater. Men S i Sverige tycker att uppgörelsen är dålig. – Vi svenska socialdemokrater är ju starkt kritiska till det här, säger Åsa Westlund.",
+        "date": "2026-10-21T14:27:34+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/norrbotten/piteabon-harald-7-ar-ar-bast-i-sverige-pa-schack",
+        "reason": "outside_channel_scope",
+        "title": "Piteåbon Harald, 7 år, är bäst i Sverige på schack",
+        "summary": "Harald Bergdahl, 7 år, från Öjebyn har vunnit Skol-SM i schack. Därmed tog han Norrbottens första seger i tävlingen på över 30 år och kan också titulera sig svensk mästare i sin åldersklass.",
+        "date": "2026-10-21T13:53:54+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/varmland/2-000-deltar-i-gransoverskridande-ovning-med-norge",
+        "reason": "outside_channel_scope",
+        "title": "2 000 deltar i gränsöverskridande övning med Norge",
+        "summary": "Klockan 08.30 kommer larmet om skadade vid gränsen mellan Sverige och Norge, både soldater och civila har skadats allvarligt. Det är en av fyra situationer som utspelar sig under totalförsvarsövningen Grensekraft 2026. – Man får ta hand om skadade och säkra upp området, säger hemvärnssoldaten Anton som deltog.",
+        "date": "2026-10-21T13:32:43+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/jamtland/folj-med-in-pa-bygget-av-det-gigantiska-ai-datacentret-i-tydal",
+        "reason": "outside_channel_scope",
+        "title": "Följ med in på bygget av det gigantiska AI-datacentret i Tydal",
+        "summary": "I Tydal byggs ett av Europas största AI-datacenter. Snart stängs dörrarna av sekretesskäl. Men SVT hann få en unik rundtur på bygget.",
+        "date": "2026-10-21T12:24:52+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/smaland/har-kan-man-fynda-brudklanning-hos-kronofogden",
+        "reason": "outside_channel_scope",
+        "title": "Här kan man fynda brudklänning – hos Kronofogden",
+        "summary": "De flesta går och provar brudklänningar i olika bröllopsbutiker. Men just nu kan man göra ett riktigt fynd på ett mer oväntat ställe – på auktion hos Kronofogden. – Det här är oerhört ovanligt, säger kronoinspektör Dennis Blomfedt",
+        "date": "2026-10-21T12:22:42+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/dalarna/amatorforskarnas-detektivarbete-loste-runns-vrakgata",
+        "reason": "outside_channel_scope",
+        "title": "Amatörforskarnas detektivarbete löste Runns vrakgåta",
+        "summary": "När marinarkeologer nu gör unika vrakfynd på Runns botten är det tack vare två hängivna amatörforskare. Ulf Backéus och Göran Garmo tillbringade tre år med historiska dokument – ett envist detektivarbete som till slut ledde experterna rakt till de sjunkna skeppen.",
+        "date": "2026-10-21T12:10:42+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/jamtland/flera-fordon-i-trafikolycka-utanfor-lit",
+        "reason": "outside_channel_scope",
+        "title": "Flera fordon i trafikolycka utanför Lit",
+        "summary": "En lastbil och två personbilar var inblandade i en olycka på väg 749 mellan Lit och Litsnäset i Östersunds kommun. Räddningstjänst, polis och ambulans var på plats.",
+        "date": "2026-10-21T11:47:09+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/norrbotten/fallolycka-pa-stegra-i-boden",
+        "reason": "outside_channel_scope",
+        "title": "Fallolycka på Stegra i Boden",
+        "summary": "En arbetsplatsolycka har inträffat på Stegras industriområde i Boden. Enligt initiala uppgifter till polisen rör det sig om en fallolycka.",
+        "date": "2026-10-21T10:50:04+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/vasterbotten/nu-ar-julgranen-pa-plats-i-lycksele-redan-i-oktober",
+        "reason": "outside_channel_scope",
+        "title": "Nu är julgranen på plats i Lycksele – redan i oktober",
+        "summary": "Lycksele kommun har redan fått årets julgran på plats på torget – trots att det bara är oktober. Men belysningen får vänta ett tag till. – Det är inte lika bråttom med det, säger Ola Gunnarsson, anläggningstekniker Lycksele kommun.",
+        "date": "2026-10-21T10:09:48+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/langdskidor/migrationsministern-analyserar-forutsattningar-att-kunna-neka-visum",
+        "reason": "outside_channel_scope",
+        "title": "Migrationsministern: ”Analyserar förutsättningar att kunna neka visum”",
+        "summary": "Sverige kommer att se över möjligheterna att stoppa de ryska längdåkarna från att komma in i Sverige under VM 2027. Det meddelar migrationsministern efter SVT Sports avslöjande.",
+        "date": "2026-10-21T08:17:21+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/jamtland/karps-skogskop-i-harjedalen-jo-anmals",
+        "reason": "outside_channel_scope",
+        "title": "Karps skogsköp i Härjedalen JO-anmäls",
+        "summary": "En privatperson har anmält Palantir-chefen Alex Karps skogsköp till Justitieombudsmannen, JO. Anmälaren menar att köpet strider mot lagen om utländska direktinvesteringar. Hon anmäler därför myndigheten ISP som godkände affären.",
+        "date": "2026-10-21T08:04:06+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/keeping-pace-e-evidence-new-report-examines-europes-digital-forensic-capabilities",
+        "reason": "outside_channel_scope",
+        "title": "Keeping pace with e-evidence: New report examines Europe’s digital forensic capabilities",
+        "summary": "Coordinated by the European Commission in cooperation with Europol, the analysis draws on stakeholder consultations, dedicated meetings, surveys and contributions from experts at Europol’s European Cybercrime Centre.The findings point to common challenges: investigative tools, resources and expertise are struggling to keep pace with the forms and v",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/european-and-ecuadorian-cooperation-leads-to-20-arrests-in-major-hit-against-drug-trafficking",
+        "reason": "outside_channel_scope",
+        "title": "European and Ecuadorian cooperation leads to 20 arrests in major hit against drug trafficking",
+        "summary": "The operation, codenamed Operation CANTABRIA, underscores the success of strong cooperation between European and Ecuadorian law enforcement agencies, proving that joint efforts are key to tackling transnational criminal networks.Magnus BrunnerEU Commissioner for Internal Affairs and Migration“International cooperation is our greatest strength again",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/almost-50-arrested-police-target-western-balkan-network-linked-to-killings",
+        "reason": "outside_channel_scope",
+        "title": "Almost 50 arrested as police target Western Balkan network linked to killings",
+        "summary": "Nearly 50 suspects have been arrested in an international operation targeting a drug trafficking network with Western Balkan members, linked to killings, kidnappings and grenade attacks across Europe.",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/europol-urges-early-action-to-protect-cryptocurrencies-and-sensitive-data-quantum-threats",
+        "reason": "outside_channel_scope",
+        "title": "Europol urges early action to protect cryptocurrencies and sensitive data from quantum threats",
+        "summary": "The timing of these capabilities remains uncertain. However, this should not be the main concern. Adapting systems and coordinating security upgrades will take time. Therefore, regardless of the nature of the threats that may emerge, crypto-agility should be pursued proactively to ensure that systems can withstand and overcome future threats while ",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/teenager-suspected-of-leading-killsec-ransomware-group-law-enforcement-seizes-servers-and-leak-site",
+        "reason": "outside_channel_scope",
+        "title": "Teenager suspected of leading KillSec ransomware group as law enforcement seizes servers and leak site",
+        "summary": "On 30 September 2026, law enforcement took control of KillSec’s leak site, securing at least 110 terabytes of data against further unauthorised access. The cybercrime group used the site to threaten organisations with the publication of stolen files unless they paid a ransom.",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/cannabis-smuggling-north-america-and-thailand-europe-europol-highlights-growing-threat",
+        "reason": "outside_channel_scope",
+        "title": "Cannabis smuggling from North America and Thailand into Europe: Europol highlights growing threat",
+        "summary": "Cannabis smuggling from North America and Thailand in Europe has seen a sharp rise, driven by oversupply in legal markets and the adaptability of organised crime groups. A dedicated Europol Operational Taskforce (OTF) has been established to dismantle the criminal networks behind this evolving threat.",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/eu-law-enforcement-chiefs-gather-to-discuss-new-challenges-in-eu-security",
+        "reason": "outside_channel_scope",
+        "title": "EU law enforcement chiefs gather to discuss new challenges in EU security",
+        "summary": "The Convention was opened by Jürgen Ebner, Europol’s Acting Executive Director, and Justin Kelly, Commissioner of the Irish An Garda Síochána.Jürgen EbnerEuropol Acting Executive DirectorOrganised crime itself has become digital by default. Technology is not just an enabler of criminal activity - it is increasingly driving it. We need strong nation",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/spain-denmark-and-netherlands-win-europol-2026-excellence-awards-in-innovation",
+        "reason": "outside_channel_scope",
+        "title": "Spain, Denmark and the Netherlands win Europol 2026 Excellence Awards in Innovation",
+        "summary": "At the European Police Chiefs Convention on 29 September 2026, Europol announced the winners of its 2026 Excellence Awards in Innovation. Law enforcement teams from Spain, Denmark and the Netherlands took home awards for projects that put innovation to work.",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/protecting-citizens-preserving-rights",
+        "reason": "outside_channel_scope",
+        "title": "Protecting citizens, preserving rights",
+        "summary": "How can law enforcement make effective use of data and technology while ensuring that fundamental rights and the rule of law remain protected? This question was at the heart of the 17th Europol Data Protection Experts Network (EDEN) conference, held in Lisbon, Portugal, on 22 and 23 September 2026 under the theme ‘Do Not Cross: Protecting Citizens,",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+        "summary": "Moscow says it is \"ready in principle\" to resume peace talks and US President Donald Trump says the world is \"the closest we've been\" to ending the war.",
+        "date": "2026-10-21T21:27:41+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cm98zn5j89kdo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace",
+        "summary": "President Vladimir Putin does not feel under pressure right now to end the war, the BBC's Russia Editor writes.",
+        "date": "2026-10-21T19:58:06+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/ckjrw044ggxgo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Macron accuses foreign leaders of exploiting French riots",
+        "summary": "The comment is an apparent swipe at Benjamin Netanyahu and Donald Trump, who both face elections in coming weeks.",
+        "date": "2026-10-21T14:04:28+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Pope does not need further treatment after lung cancer surgery",
+        "summary": "Test results have confirmed his diagnosis as a lung adenocarcinoma that was localised.",
+        "date": "2026-10-21T20:09:10+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cmgr8q88r5eqo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "'Targeted' attack on much-loved MP leaves Australian town heartbroken",
+        "summary": "Locals describe the MP, who had to have both legs amputated, as a genuinely kind person who fought for the community.",
+        "date": "2026-10-21T18:10:42+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/ck20rver1j31o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Family of prison officer killed by IRA receives state apology",
+        "summary": "Brian Stack was crossing a street in Dublin in 1983 when he was shot in the back of the neck and died 18 months later.",
+        "date": "2026-10-21T16:58:16+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/ckx2qpw4rjd7o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Ex-prosecutor charged with treason in Mexico over US drug raid",
+        "summary": "César Jáuregui Moreno is accused of allowing US agents to join a raid on a suspected drugs lab in April.",
+        "date": "2026-10-21T20:19:51+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cm98zn3l2rn7o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Vance tells Republicans to 'stop whining' about controversial Ohio attack ad",
+        "summary": "The ad by Ohio Republican Vivek Ramaswamy features his Democratic rival's estranged mother, who she has not seen since her stepfather was charged with sexual abuse in her childhood.",
+        "date": "2026-10-21T22:59:18+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/ckdd8m1z1z3yo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Pakistan arrests man wanted by US over $126m postage fraud case",
+        "summary": "Faheem Akram allegedly sold more than 5 million fake postage labels for a fixed price of $2 a piece.",
+        "date": "2026-10-21T05:46:33+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cqdr8zxrr3dxo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Meta fined $25bn for 'lies' over user data privacy",
+        "summary": "The fine is the largest to date against Facebook's owner, larger than an $18bn deal with California.",
+        "date": "2026-10-21T21:49:07+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c62kepvg2x9lo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Nigeria's first Ebola patient holidayed in Uganda, officials say",
+        "summary": "The wife of a diplomat based in Abuja travelled to Kampala for a vacation.",
+        "date": "2026-10-21T19:29:40+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c674p0xepljeo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "India 'cockroach' leaders who called on election chief to quit are freed from jail",
+        "summary": "Saurav Das and Ashutosh Ranka were accused of breaking into an unauthorised protest venue in Delhi.",
+        "date": "2026-10-21T18:22:28+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
+        "summary": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
+        "date": "2026-10-21T08:42:49+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cmn8wx75l2n8o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Gambia to pay victims of Yahya Jammeh's rule from proceeds of his seized US mansion",
+        "summary": "The Gambia has confirmed receiving $2.5m from the sale of the house in Maryland.",
+        "date": "2026-10-21T08:31:48+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
+        "summary": "A truck carrying people to a funeral and a market alleged to be supplying fuel to the RSF were targeted.",
+        "date": "2026-10-20T17:30:15+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/ckrey51jrgnro?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Trump and Zelensky at loggerheads despite new optimism",
+        "summary": "The Ukrainian leader's hug with Steve Witkoff in the Norwegian capital is unlikely to dispel misgivings about US policy towards his country, writes Paul Adams.",
+        "date": "2026-10-20T20:00:57+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cr62ylj832vxo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Alberta's decisive decision to stay in Canada gives Carney backing to take on Trump",
+        "summary": "The overwhelming vote by Alberta to stay in Canada gives Mark Carney political capital to focus on remaking the country's economy, writes the BBC's Lyse Doucet.",
+        "date": "2026-10-20T22:22:17+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cqx297pxg1djo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Swimmer, 65, killed in shark attack off South Africa's east coast",
+        "summary": "Janine Lochrenberg, 65, was out on her daily morning swim with her club when she was attacked, her family tell the BBC.",
+        "date": "2026-10-20T15:58:57+00:00",
+        "publisher": "BBC News"
+      }
+    ]
+  }
+}

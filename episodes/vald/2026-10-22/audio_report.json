@@ -1,0 +1,16 @@
+{
+  "kind": "daily",
+  "duration_seconds": 276.936,
+  "target_minutes": [
+    4,
+    8
+  ],
+  "duration_status": "within_target",
+  "channel": "vald",
+  "date": "2026-10-22",
+  "audio_sha256": "21dec025a3a62ddbdd3262248bfac153cf2ccd26344332c68b53612e2153fe54",
+  "audio_bytes": 2112572,
+  "decoded": true,
+  "checked_at": "2026-10-22T05:25:02.248610+00:00",
+  "editorial_approval": "not_established_by_audio_check"
+}
