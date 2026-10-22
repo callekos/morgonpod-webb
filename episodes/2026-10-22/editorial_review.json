@@ -3,18 +3,85 @@
   "issues": [],
   "source_coverage": [
     {
-      "claim": "eMudhra, en certifikatutfärdare som har utfärdat över 60 miljoner digitala certifikat, har fått sina privata nycklar komprometterade och flera privata nycklar var extremt svaga, såsom siffran 4.",
+      "claim": "Privata nycklar kopplade till åtta mellanliggande certifikat från eMudhra har komprometterats enligt Mozilla och The Register.",
       "source_url": "https://www.theregister.com/security/2026/10/20/indian-certification-authority-emudhras-private-keys-compromised-one-of-them-was-the-number-4/5304312"
     },
     {
-      "claim": "Palo Alto Networks PAN-OS har utsatts för attacker från ransomwaregrupper som Qilin och Inc sedan juni via en autentiseringssårbarhet.",
+      "claim": "Palo Alto Networks PAN-OS utsätts för attacker av ransomwaregrupper som Qilin och Inc via en sårbarhet i GlobalProtect, vilket utreds av Unit 42.",
       "source_url": "https://www.theregister.com/cyber-crime/2026/10/20/palo-altos-firewall-os-has-been-under-attack-from-multiple-ransomware-groups-since-june/5304226"
     },
     {
-      "claim": "ICO har utfärdat reprimander mot Ogi Networks och Data Cymru efter en ransomwareattack där ett glömt testkonto med lösenordet Password1 utnyttjades.",
+      "claim": "ICO har gett Ogi Networks och Data Cymru reprimander efter ett dataintrång som skedde via ett gammalt testkonto med svagt lösenord.",
       "source_url": "https://www.theregister.com/cyber-crime/2026/10/20/password1-and-a-forgotten-test-account-land-welsh-outfits-in-hot-water/5304139"
     }
   ],
-  "short_episode_reason": "",
-  "reviewed_script_sha256": "06d3040623c861759280e03cf9e21a807dfdcddee7d1f9fca4cd2d66957fb756"
+  "short_episode_reason": "Tre fullständigt källbelagda nyheter har granskats och behandlats utan upprepningar.",
+  "selection_decisions": [
+    {
+      "url": "https://www.theregister.com/security/2026/10/20/indian-certification-authority-emudhras-private-keys-compromised-one-of-them-was-the-number-4/5304312",
+      "selected": true,
+      "reason": "Viktig händelse rörande kryptografisk säkerhet och certifikatutfärdare.",
+      "event_key": "emudhra_keys_compromised_2026",
+      "source_quote": "Tragically simple private keys used by a certification authority based in India have been compromised"
+    },
+    {
+      "url": "https://www.theregister.com/cyber-crime/2026/10/20/palo-altos-firewall-os-has-been-under-attack-from-multiple-ransomware-groups-since-june/5304226",
+      "selected": true,
+      "reason": "Relevanta angrepp på brandväggsinfrastruktur och virtualiseringsskikt.",
+      "event_key": "palo_alto_panos_attacks_2026",
+      "source_quote": "Multiple ransomware groups, including Qilin and Inc, have been exploiting a high-severity authentication bypass bug"
+    },
+    {
+      "url": "https://www.theregister.com/cyber-crime/2026/10/20/password1-and-a-forgotten-test-account-land-welsh-outfits-in-hot-water/5304139",
+      "selected": true,
+      "reason": "Tydligt fall av regulatorisk tillsyn kring svaga lösenord och glömda testkonton.",
+      "event_key": "welsh_ico_reprimand_2026",
+      "source_quote": "A test account protected by \"Password1\" helped an intruder steal personal data"
+    }
+  ],
+  "format_decision": {
+    "outcome": "standard",
+    "reason": "Tre fullständigt källbelagda händelser har bearbetats korrekt med en genomgång per nyhet."
+  },
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://www.theregister.com/security/2026/10/20/indian-certification-authority-emudhras-private-keys-compromised-one-of-them-was-the-number-4/5304312",
+      "covered_facts": [
+        "eMudhras certifikat och komprometterade privata nycklar",
+        "Mozillas och Scott Helmes analys av svaga nycklar",
+        "Vidtagna åtgärder med återkallande och uppdateringar"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.theregister.com/cyber-crime/2026/10/20/palo-altos-firewall-os-has-been-under-attack-from-multiple-ransomware-groups-since-june/5304226",
+      "covered_facts": [
+        "Unit 42 utreder attacker mot PAN-OS sedan juni",
+        "Ransomwaregrupper utnyttjar sårbarhet i GlobalProtect",
+        "Angrepp mot virtualiseringsskikt och vCenter"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.theregister.com/cyber-crime/2026/10/20/password1-and-a-forgotten-test-account-land-welsh-outfits-in-hot-water/5304139",
+      "covered_facts": [
+        "ICO ger Ogi Networks och Data Cymru reprimander",
+        "Testkonto med lösenordet Password1 utnyttjades",
+        "Bristande rutiner för borttagning av gamla konton"
+      ],
+      "missing_facts": []
+    }
+  ],
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "bc08a9709ab009e2627901d2680edf21c7d2ac0680abe8962efa09c74d0eb8c5",
+    "news_sha256": "acf6094c19eb16cbf85a15a0557c6ab5ba7cebf0e4e1ad0ccb51e75e9abb066d",
+    "script_sha256": "a47ceb7da0cfd6164bd35dcd494cd6c2e71ac1ea8454ea458c4ee8a5bbcc829a",
+    "collection_sha256": "23036bc7a860249b3d31ec36e4744c838e8890550d5a92038cb867d4fad50f98"
+  },
+  "reviewed_candidate_sha256": "75f5917c2c5c311974e23f727549e0779620a8820ae2ce9e34c10e23bed48dd1",
+  "reviewed_script_sha256": "a47ceb7da0cfd6164bd35dcd494cd6c2e71ac1ea8454ea458c4ee8a5bbcc829a",
+  "work_package_sha256": "195b8286151c418b7c9dc0c618961748302fba70c898721d68f6c3ef458a2ab5"
 }

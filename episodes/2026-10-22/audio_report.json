@@ -1,16 +1,16 @@
 {
   "kind": "daily",
-  "duration_seconds": 339.36,
+  "duration_seconds": 201.96,
   "target_minutes": [
     4,
     8
   ],
-  "duration_status": "within_target",
+  "duration_status": "short",
   "channel": "ibat",
   "date": "2026-10-22",
-  "audio_sha256": "9e510c2b3ee15049b9f0ca49b85c1541e9aedcec755ec93360f5b44f00a5966c",
-  "audio_bytes": 2642204,
+  "audio_sha256": "42ea548c996cbaf16bc1d3bfbbd2018ec75bd5f0ba951da3511be994f60e057c",
+  "audio_bytes": 1495748,
   "decoded": true,
-  "checked_at": "2026-10-22T05:25:02.400575+00:00",
+  "checked_at": "2026-10-22T07:34:31.709168+00:00",
   "editorial_approval": "not_established_by_audio_check"
 }
