@@ -11,7 +11,7 @@ const Core = {
     const raw=Core.displayDate(e);if(!raw)return '';
     const format=(value,timed)=>{const d=new Date(value);return Number.isNaN(d.getTime())?'':new Intl.DateTimeFormat('sv-SE',{day:'numeric',month:'short',timeZone:'Europe/Stockholm',...(timed?{hour:'2-digit',minute:'2-digit'}:{})}).format(d);};
     const historical=Core.historicalMedia(e);
-    return format(raw,!historical&&!!e.published_at)+(historical?' · efterhandsproducerat '+format(e.produced_at||e.published_at,true):'');
+    return format(raw,!historical&&!!e.published_at)+(historical?' · efterhandsproducerat'+(e.produced_at?' '+format(e.produced_at,true):' · publicerat '+format(e.published_at,true)):'');
   },
   channelOrder: [],
   channelGroups: channels => ['monitoring','knowledge'].map(type=>({type,channels:channels.filter(c=>c.channel_type===type).sort((a,b)=>(a.display_order??Number.MAX_SAFE_INTEGER)-(b.display_order??Number.MAX_SAFE_INTEGER)||a.id.localeCompare(b.id))})),

@@ -22,7 +22,8 @@ test('media joins monitoring independently of knowledge channels',()=>{
 test('historical media displays reference day and actual production separately on cards and articles',()=>{
  const e={channel:'mediesvepet',date:'2026-10-21',published_at:'2026-10-22T15:24:23Z'};
  assert.equal(Core.displayDate(e),'2026-10-21');
- assert.match(Core.prettyDate(e),/^21 okt.*efterhandsproducerat 22 okt.*17:24/);
+ assert.match(Core.prettyDate(e),/^21 okt.*efterhandsproducerat.*publicerat 22 okt.*17:24/);
+ assert.match(Core.prettyDate({...e,produced_at:'2026-10-22T15:22:00Z'}),/efterhandsproducerat 22 okt.*17:22/);
  assert.equal(Core.displayDate({...e,channel:'ibat'}),e.published_at);
  assert.doesNotMatch(Core.prettyDate({...e,date:'2026-10-22'}),/efterhandsproducerat/);
  assert.equal(e.published_at,'2026-10-22T15:24:23Z');
