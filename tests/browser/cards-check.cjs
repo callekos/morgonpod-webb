@@ -1,6 +1,6 @@
 const {expect}=require('@playwright/test');
 exports.cardsCheck=async({page},info)=>{
- const manifest=await(await page.request.get('/catalog/manifest.json')).json();
+ const manifest=await(await page.request.get('catalog/manifest.json')).json();
  const checkList=async (group,count=4)=>{
   const cards=group.locator('.knowledge-card');await expect(cards).toHaveCount(count);
   const positions=await cards.evaluateAll(nodes=>nodes.map(n=>{const r=n.getBoundingClientRect(),im=n.querySelector('img').getBoundingClientRect(),copy=n.querySelector('div').getBoundingClientRect();return {x:r.x,y:r.y,w:r.width,im:im.width,copyX:copy.x};}));
