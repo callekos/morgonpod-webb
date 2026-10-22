@@ -55,6 +55,12 @@
           "small": "assets/channels/verksamhetsutveckling-small.webp?v=4",
           "square": "assets/channels/verksamhetsutveckling-square.webp?v=4",
           "focal": "50% 52%"
+        },
+        "mediesvepet": {
+          "wide": "assets/channels/mediesvepet.webp?v=1",
+          "small": "assets/channels/mediesvepet-small.webp?v=1",
+          "square": "assets/channels/mediesvepet-square.webp?v=1",
+          "focal": "48% 50%"
         }
       }
     },
@@ -397,6 +403,12 @@
           "small": "assets/design-lab/06-film/verksamhetsutveckling-small.webp",
           "square": "assets/design-lab/06-film/verksamhetsutveckling-square.webp",
           "focal": "50% 50%"
+        },
+        "mediesvepet": {
+          "wide": "assets/channels/mediesvepet.webp?v=1",
+          "small": "assets/channels/mediesvepet-small.webp?v=1",
+          "square": "assets/channels/mediesvepet-square.webp?v=1",
+          "focal": "48% 50%"
         }
       }
     },
@@ -1201,3 +1213,4 @@
   ],
   "planned": []
 };if(typeof module==='object'&&module.exports)module.exports=data;else root.ChannelArtManifest=data;})(typeof window!=='undefined'?window:this);
+

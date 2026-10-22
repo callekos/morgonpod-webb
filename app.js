@@ -4,7 +4,7 @@ const Core = {
   safePath: value => typeof value === 'string' && /^(catalog|episodes)\/[\w./-]+$/.test(value) && !value.includes('..'),
   listened: (elapsed, delta, playing) => elapsed + (playing && delta > 0 && delta < 2 ? delta : 0),
   isIntro: e => e.is_intro === true || e.kind === 'introduction' || /:introduction$/.test(e.id || ''),
-  published: e => Date.parse(e.published_at || e.date || '') || 0,
+  published: e => Date.parse(e.channel==='mediesvepet' ? e.date || '' : e.published_at || e.date || '') || 0,
   channelOrder: [],
   channelGroups: channels => ['monitoring','knowledge'].map(type=>({type,channels:channels.filter(c=>c.channel_type===type).sort((a,b)=>(a.display_order??Number.MAX_SAFE_INTEGER)-(b.display_order??Number.MAX_SAFE_INTEGER)||a.id.localeCompare(b.id))})),
   editorialRank: e => Core.isIntro(e) ? 0 : Number(e.episode_order)||2,
@@ -39,7 +39,7 @@ if (typeof document !== 'undefined') (async () => {
   const registerContext=(target,rows,source,label,fresh=false)=>{if(fresh)contexts.delete(target.dataset.context);const id=(!fresh&&target.dataset.context)||String(++contextNumber);target.dataset.context=id;contexts.set(id,{rows:[...rows],source:source?JSON.parse(JSON.stringify(source)):null,label});return id;};
   const cache = new Map(), seen = new Set();
   const channel = id => id==='ibat'?'IBAT - Informationsförsörjning':manifest.channels.find(c=>c.id===id)?.name || id;
-  const visuals={ibat:{image:'ibat',category:'Samhälle',color:'#19b8d0',icon:'database'},vald:{image:'vald',category:'Säkerhet',color:'#d54864',icon:'shield'},kek:{image:'kek',category:'Samhälle',color:'#ae8249',icon:'briefcase'},sjoomradet:{image:'sjoomradet',category:'Säkerhet',color:'#46758b',icon:'anchor'},lagstiftning:{image:'lagstiftning',category:'Kunskap',color:'#ba9a53',icon:'book-open'},ai_brottsbekampning:{image:'ai_brottsbekampning',category:'Kunskap',color:'#9184c8',icon:'monitor'},it_juridik:{image:'it_juridik',category:'Kunskap',color:'#619a91',icon:'shield'},verksamhetsutveckling:{image:'verksamhetsutveckling',category:'Kunskap',color:'#c58c59',icon:'grid'}};
+  const visuals={mediesvepet:{image:'mediesvepet',category:'Samhälle',color:'#b3946c',icon:'radio'},ibat:{image:'ibat',category:'Samhälle',color:'#19b8d0',icon:'database'},vald:{image:'vald',category:'Säkerhet',color:'#d54864',icon:'shield'},kek:{image:'kek',category:'Samhälle',color:'#ae8249',icon:'briefcase'},sjoomradet:{image:'sjoomradet',category:'Säkerhet',color:'#46758b',icon:'anchor'},lagstiftning:{image:'lagstiftning',category:'Kunskap',color:'#ba9a53',icon:'book-open'},ai_brottsbekampning:{image:'ai_brottsbekampning',category:'Kunskap',color:'#9184c8',icon:'monitor'},it_juridik:{image:'it_juridik',category:'Kunskap',color:'#619a91',icon:'shield'},verksamhetsutveckling:{image:'verksamhetsutveckling',category:'Kunskap',color:'#c58c59',icon:'grid'}};
   const visual=id=>visuals[id]||{image:'ibat',category:'Övrigt',color:'#19b8d0',icon:'radio'};
   const icon=name=>'<i class="icon icon-'+name+'" aria-hidden="true"></i>';
   let artStorage;try{artStorage=localStorage;}catch{}
@@ -383,4 +383,5 @@ if (typeof document !== 'undefined') (async () => {
   try{manifest=await json('catalog/manifest.json');superseded=manifest.superseded||{};withdrawn=manifest.withdrawn||{};Core.catalogOrder=manifest.channels.map(c=>c.id);manifest.channels=manifest.channels.map(c=>c.id==='ibat'?{...c,name:'IBAT - Informationsförsörjning'}:c);await render();try{const saved=JSON.parse(localStorage.getItem('morgonpod-playback')||'null');if(saved?.items?.some(e=>withdrawn[e.id]))main.insertAdjacentHTML('afterbegin','<p role="status">Den sparade kön innehöll ett avpublicerat avsnitt och kunde inte återställas. Välj ett avsnitt för en ny kö.</p>');if(queue.restore(saved)){resumePosition=Number.isFinite(saved.position)?Math.max(0,saved.position):0;audio.playbackRate=[1,1.25,1.5,1.75,2].includes(saved.rate)?saved.rate:1;await play(queue.current,false);}}catch{}}catch{main.innerHTML='<h1>Arkivet är tillfälligt otillgängligt</h1><p>Försök ladda sidan igen.</p>';}
   if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js').catch(()=>{});
 })();
+
 

@@ -24,8 +24,8 @@ test('each ready series contains distinct originals, derivatives and an eight-ch
  assert.equal(new Set(allOriginals).size,allOriginals.length,'Every experimental channel image must have its own original');
  assert.equal(allOriginals.length,manifest.styles.filter(s=>s.id!=='v3').length*8);
 });
-test('classification retains eight identities with exactly four daily and four knowledge channels',()=>{
- const core=require('../app.js'),channels=JSON.parse(fs.readFileSync('catalog/manifest.json')).channels;const groups=core.channelGroups(channels);assert.deepEqual(groups[0].channels.map(c=>c.id),['ibat','vald','sjoomradet','kek']);assert.equal(groups[1].channels.length,4);assert.equal(new Set(groups.flatMap(g=>g.channels.map(c=>c.id))).size,8);
+test('classification retains existing identities and accepts Mediesvepet growth',()=>{
+ const core=require('../app.js'),channels=JSON.parse(fs.readFileSync('catalog/manifest.json')).channels;const groups=core.channelGroups(channels);const hasMedia=channels.some(c=>c.id==='mediesvepet');assert.deepEqual(groups[0].channels.map(c=>c.id),['ibat','vald','sjoomradet','kek',...(hasMedia?['mediesvepet']:[])]);assert.equal(groups[1].channels.length,4);assert.equal(new Set(groups.flatMap(g=>g.channels.map(c=>c.id))).size,hasMedia?9:8);
 });
 test('valid explicit V3 and all twenty saved choices survive the new default',()=>{
  for(const style of manifest.styles){const data=new Map([[Art.KEY,style.id]]);const storage={getItem:k=>data.get(k),setItem:(k,v)=>data.set(k,v),removeItem:k=>data.delete(k)};const api=Art.create(manifest,storage);assert.equal(api.selected,style.id);api.reset();assert.equal(api.selected,'06-film');assert.equal(data.has(Art.KEY),false);}
@@ -33,3 +33,4 @@ test('valid explicit V3 and all twenty saved choices survive the new default',()
 test('register growth and order never depend on publication timestamps or episode kinds',()=>{
  const core=require('../app.js');for(const [a,b] of [[0,10],[1,5],[4,4],[5,1],[10,0]]){const channels=[...Array.from({length:a},(_,i)=>({id:'m'+i,channel_type:'monitoring',display_order:i})),...Array.from({length:b},(_,i)=>({id:'k'+i,channel_type:'knowledge',display_order:i}))].reverse();const groups=core.channelGroups(channels);assert.deepEqual(groups.map(g=>g.channels.length),[a,b]);assert.equal(new Set(groups.flatMap(g=>g.channels.map(c=>c.id))).size,a+b);assert.equal(groups[0].channels[0]?.id,a?'m0':undefined);}
 });
+
