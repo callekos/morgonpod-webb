@@ -83,3 +83,18 @@ test('saved introduction resolves its current version on the same identity',asyn
  await page.locator('#play-pause').click();
  await expect(page.locator('audio')).toHaveCount(1);
 });
+
+
+test('Lagstiftning opens with its introduction and retains an explicit latest choice',async({page})=>{
+ await page.goto('/kanal.html?id=lagstiftning');
+ await expect(page.locator('#archive-sort')).toHaveValue('oldest');
+ const introduction=page.locator('#channel-list .episode').first();
+ await expect(introduction).toHaveAttribute('data-id','WORK_LIBRARY_2026_10:lagstiftning:intro:1');
+ await expect(page.locator('#channel-list .episode')).toHaveCount(6);
+ await page.locator('#archive-sort').selectOption('latest');
+ await expect(page).toHaveURL(/sort=latest/);
+ await expect(page.locator('#archive-sort')).toHaveValue('latest');
+ await expect(page.locator('#channel-list .episode').last()).toHaveAttribute('data-id','WORK_LIBRARY_2026_10:lagstiftning:intro:1');
+ await page.goto('/kanal.html?id=ibat');
+ await expect(page.locator('#archive-sort')).toHaveValue('latest');
+});
