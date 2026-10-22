@@ -1,0 +1,171 @@
+{
+  "channel": "mediesvepet",
+  "date": "2026-10-21",
+  "schema": 2,
+  "corroboration_method": "distinct_hosts_not_proof_of_independence",
+  "received": 4,
+  "unique_urls": 4,
+  "identified_events": 4,
+  "selected_articles": 4,
+  "selected_events": 4,
+  "unique_domains": 3,
+  "max_items": 40,
+  "gemini_calls": 0,
+  "decisions": [
+    {
+      "event_id": "48a6cf7fb22faa69",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 42,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 14,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "omni.se"
+      ],
+      "articles": [
+        {
+          "title": "Vård-vd får fängelse för fulavdrag",
+          "url": "https://omni.se/vard-vd-far-fangelse-for-fulavdrag-skattepengar-har-fortsatt-in-i-bolaget/a/MA2Q75"
+        }
+      ]
+    },
+    {
+      "event_id": "7f90675887d8ea5d",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 42,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 14,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "aftonbladet.se"
+      ],
+      "articles": [
+        {
+          "title": "Fängelse för brandattack mot socialsekreterare",
+          "url": "https://www.aftonbladet.se/nyheter/a/0BJO1o/fangelse-for-brandattack-mot-socialsekreterare"
+        }
+      ]
+    },
+    {
+      "event_id": "d5aa6d7ef7ad0c66",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 42,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 14,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Två tonårspojkar häktas efter mordet på kvinnan i Älvsjö",
+          "url": "https://www.svt.se/nyheter/lokalt/stockholm/tva-begars-haktade-efter-mordet-pa-kvinnan-i-alvsjo"
+        }
+      ]
+    },
+    {
+      "event_id": "c8c5c6a49d77dbab",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 39,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 8,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Fler målsägande i utredningen om brott vid Sigtunaskolan",
+          "url": "https://www.svt.se/nyheter/lokalt/stockholm/tva-nya-misstankta-brottsoffer-vid-sigtunaskolan"
+        }
+      ]
+    }
+  ],
+  "rejected": [],
+  "identified_events_are_estimates": true,
+  "review_source_count": 4,
+  "channel_scope": {
+    "input_count": 4,
+    "accepted_count": 4,
+    "rejected": [],
+    "discussion_signals": []
+  },
+  "collection_evidence": {
+    "state": "ready",
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "channel": "mediesvepet",
+    "discovery": {
+      "original_fallback": {
+        "sources": [
+          {
+            "name": "SVT Nyheter",
+            "url": "https://www.svt.se/nyheter/lokalt/stockholm/tva-begars-haktade-efter-mordet-pa-kvinnan-i-alvsjo",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200
+          },
+          {
+            "name": "Aftonbladet/TT",
+            "url": "https://www.aftonbladet.se/nyheter/a/0BJO1o/fangelse-for-brandattack-mot-socialsekreterare",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200
+          },
+          {
+            "name": "SVT Nyheter",
+            "url": "https://www.svt.se/nyheter/lokalt/stockholm/tva-nya-misstankta-brottsoffer-vid-sigtunaskolan",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200
+          },
+          {
+            "name": "Omni, återger Aftonbladet",
+            "url": "https://omni.se/vard-vd-far-fangelse-for-fulavdrag-skattepengar-har-fortsatt-in-i-bolaget/a/MA2Q75",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200
+          }
+        ]
+      },
+      "media_reference_date": "2026-10-21",
+      "media_temporal": {
+        "excluded": [],
+        "unresolved_gaps": [],
+        "start": "2026-10-20T07:15:00+02:00",
+        "cutoff": "2026-10-21T07:15:00+02:00"
+      }
+    },
+    "checked_at": "2026-10-22T15:37:35.330708+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  },
+  "work_import": {
+    "package_sha256": "356b8895c8c0ac77f488be1bc206bbef5c7f6c1619ad8305384fbc209f92625d",
+    "candidate_sha256": "a277f4dac917bc5b44cfe09bab79e037cd33f26fdb5cbb0fede8dd98a94e321b",
+    "provenance": {
+      "issue": 151,
+      "source": "Work, faktiskt lästa offentliga sidor",
+      "new_model_review_required": true,
+      "reference_cutoff": "2026-10-21T07:15:00+02:00",
+      "historical": true,
+      "reference_comparison": "Daterade ledtrådar i151, inte de fullständiga originalutskicken"
+    },
+    "editorial_approved": false
+  }
+}

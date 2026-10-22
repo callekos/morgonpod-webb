@@ -1,0 +1,107 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "",
+  "source_coverage": [
+    {
+      "claim": "Två tonåringar har häktats och en tredje minderårig har gripits misstänkt för medhjälp efter skjutningen i Älvsjö.",
+      "source_url": "https://www.svt.se/nyheter/lokalt/stockholm/tva-begars-haktade-efter-mordet-pa-kvinnan-i-alvsjo"
+    },
+    {
+      "claim": "En 19-årig man har dömts till 14 års fängelse av hovrätten efter en beställd brandattack mot en socialsekreterares bostad.",
+      "source_url": "https://www.aftonbladet.se/nyheter/a/0BJO1o/fangelse-for-brandattack-mot-socialsekreterare"
+    },
+    {
+      "claim": "Utredningen vid Sigtunaskolan omfattar nu åtta målsägande och fem misstänkta elever samtidigt som Skolinspektionen inlett tillsyn.",
+      "source_url": "https://www.svt.se/nyheter/lokalt/stockholm/tva-nya-misstankta-brottsoffer-vid-sigtunaskolan"
+    },
+    {
+      "claim": "Medcuras tidigare VD har dömts till tre och ett halvt års fängelse för skattebrott och grovt bokföringsbrott.",
+      "source_url": "https://omni.se/vard-vd-far-fangelse-for-fulavdrag-skattepengar-har-fortsatt-in-i-bolaget/a/MA2Q75"
+    }
+  ],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/stockholm/tva-begars-haktade-efter-mordet-pa-kvinnan-i-alvsjo",
+      "covered_facts": [
+        "Två pojkar (16 och 17 år) häktade för mord, grovt vapenbrott och förberedelse till mord",
+        "En tredje minderårig gripien för medhjälp",
+        "Mordförberedelser i Norsborg och Flemingsberg"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.aftonbladet.se/nyheter/a/0BJO1o/fangelse-for-brandattack-mot-socialsekreterare",
+      "covered_facts": [
+        "19-årig man döms av hovrätten till 14 års fängelse",
+        "Tonårsflicka döms till ungdomsvård för mordbrand",
+        "Motiv kopplat till placeringsbeslut för flickvän"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/stockholm/tva-nya-misstankta-brottsoffer-vid-sigtunaskolan",
+      "covered_facts": [
+        "Åtta målsägande i utredningen",
+        "Fem elever misstänkta, varav tre häktade",
+        "Skolinspektionen inleder tillsyn"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://omni.se/vard-vd-far-fangelse-for-fulavdrag-skattepengar-har-fortsatt-in-i-bolaget/a/MA2Q75",
+      "covered_facts": [
+        "Medcuras tidigare VD döms till 3,5 års fängelse",
+        "Skattebrott och grovt bokföringsbrott samt 5 års näringsförbud",
+        "Mannen nekar till brott"
+      ],
+      "missing_facts": []
+    }
+  ],
+  "selection_decisions": [
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/stockholm/tva-begars-haktade-efter-mordet-pa-kvinnan-i-alvsjo",
+      "selected": true,
+      "reason": "Relevant rättsnyhet om häktningar efter dödsskjutning.",
+      "event_key": "alvsjo",
+      "source_quote": "Två tonårspojkar häktas efter mordet på kvinnan i 25-årsåldern i Älvsjö i södra Stockholm."
+    },
+    {
+      "url": "https://www.aftonbladet.se/nyheter/a/0BJO1o/fangelse-for-brandattack-mot-socialsekreterare",
+      "selected": true,
+      "reason": "Relevant hovrättsdom om riktat våld mot tjänsteman.",
+      "event_key": "brand",
+      "source_quote": "En 19-årig man döms av hovrätten till 14 års fängelse för att ha beställt en brandattack"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/stockholm/tva-nya-misstankta-brottsoffer-vid-sigtunaskolan",
+      "selected": true,
+      "reason": "Växande utredning om övergrepp vid internatskola.",
+      "event_key": "sigtuna",
+      "source_quote": "Totalt finns nu åtta målsäganden i fallet vid Sigtunaskolan."
+    },
+    {
+      "url": "https://omni.se/vard-vd-far-fangelse-for-fulavdrag-skattepengar-har-fortsatt-in-i-bolaget/a/MA2Q75",
+      "selected": true,
+      "reason": "Dom rörande ekobrott och välfärdssektorn.",
+      "event_key": "medcura",
+      "source_quote": "Vårdbemanningsbolaget Medcuras tidigare vd och delägare Niclas Erblad döms till tre och ett halvt års fängelse för skattebrott och grovt bokföringsbrott."
+    }
+  ],
+  "format_decision": {
+    "outcome": "standard",
+    "reason": "Fyra källbelagda nyheter behandlas utan upprepningar och täcker det relevanta nyhetsunderlaget."
+  },
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "413d4d41b179c6e21d4ef50afc7cf68e7980717dd40c371be23bab7023aa2f49",
+    "news_sha256": "1ef48339fcdcb119c5200482b6f04e9b43230ffbc9d1533068980a92b9fbe246",
+    "script_sha256": "62d9c6cf16426ba99281f5b965c127739cd09d370bff03dad6746e78fbe8c8be",
+    "collection_sha256": "b2f9f8c444ea9d962cdf59b83eee31283c25ad5fdc954620d59e880af175fafa"
+  },
+  "reviewed_candidate_sha256": "a277f4dac917bc5b44cfe09bab79e037cd33f26fdb5cbb0fede8dd98a94e321b",
+  "reviewed_script_sha256": "62d9c6cf16426ba99281f5b965c127739cd09d370bff03dad6746e78fbe8c8be",
+  "work_package_sha256": "356b8895c8c0ac77f488be1bc206bbef5c7f6c1619ad8305384fbc209f92625d"
+}
