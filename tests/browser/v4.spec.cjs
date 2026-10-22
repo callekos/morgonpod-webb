@@ -44,3 +44,14 @@ test('filtered archive queue does not admit unrelated content from a later page'
  await page.route('**/catalog/lists/filter/0.json',r=>r.fulfill({json:{items:[{...base,id:'course-1',title:'Grundkurs ett',kind:'course'}]}}));await page.route('**/catalog/lists/filter/1.json',r=>r.fulfill({json:{items:[{...base,id:'unrelated',title:'Bevakning',kind:'daily'},{...base,id:'course-2',title:'Grundkurs två',kind:'course'}]}}));
  await page.goto('/kanal.html?id=lagstiftning&tab=courses&sort=latest');await expect(page.locator('.episode')).toHaveCount(1);await page.locator('[data-play]').click();await page.locator('#queue-toggle').click();await page.getByRole('button',{name:'Hämta fler avsnitt',exact:true}).click();await expect(page.locator('.queue-title')).toHaveCount(1);await expect(page.locator('.queue-title')).toContainText('Grundkurs två');await expect(page.locator('#queue-panel')).not.toContainText('Bevakning');
 });
+
+
+test('five-channel morning includes Mediesvepet once in the playlist',async({page})=>{
+ await require('./morning-fixture.cjs').morningFixture(page,5,true);
+ await page.goto('/idag.html');await expect(page.locator('.morning-strip a')).toHaveCount(5);
+ await expect(page.locator('.morning-strip a[href*="mediesvepet"]')).toHaveCount(1);
+ await expect(page.locator('#brief-action')).toContainText('5 avsnitt');
+ await page.getByRole('button',{name:'Spela bevakningen',exact:true}).click();
+ await expect.poll(()=>page.locator('#audio').evaluate(a=>a.currentTime)).toBeGreaterThan(0);
+ await expect(page.locator('.queue-title')).toHaveCount(4);
+});
