@@ -1,0 +1,67 @@
+[
+  {
+    "id": "intro142-brb",
+    "source": "Sveriges riksdag",
+    "title": "Brottsbalk (1962:700)",
+    "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsbalk-1962700_sfs-1962-700/",
+    "locator": "1 kap. 1–2 §§; 3 kap. 5 och 8 §§; 8 kap. 1 §; 24 kap. 1 §",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T17:59:05.312026+00:00",
+      "page_sha256": "50dfe0e94969eb1a47cc8f55cff5103ced56af20b668dff84b619075075d3039",
+      "text_sha256": "a66c7a2df74d8f60bfba8a0376912cccb11187a8d883e5013118c63e00836a90"
+    }
+  },
+  {
+    "id": "intro142-rb",
+    "source": "Sveriges riksdag",
+    "title": "Rättegångsbalk (1942:740)",
+    "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/rattegangsbalk-1942740_sfs-1942-740/",
+    "locator": "23 kap. 4 §, objektivitetskravet",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T17:59:14.697371+00:00",
+      "page_sha256": "4287ddbc3be9941194099f1eca8768ff39b683e1b0728a3fa780cb382bcc5f18",
+      "text_sha256": "412778b672960883db6d7e32ad7ce5b874e0cad73acab4407ed48d606b930691"
+    }
+  },
+  {
+    "id": "intro142-hd-intent",
+    "source": "Högsta domstolen",
+    "title": "Dom B 3014-23, 16 januari 2024",
+    "url": "https://rattspraxis.etjanst.domstol.se/api/v1/bilagor/190%2Fcc%2F47%2Fcc47ba00-4066-4753-9a87-c74214b6743a",
+    "locator": "Punkterna 24–26, särskilt 26; ingen generalisering av målets straffmätning",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T17:59:55.974335+00:00",
+      "page_sha256": "5392f79ca53310ae7214e27fe00ab3464e43cbf9fdb763e3cbe6a61c317a8e0f",
+      "text_sha256": "65872aedc2b5902b5ca5a734b3b11bdee2b1d1266c324dcdda235d5b4463ac32"
+    }
+  },
+  {
+    "id": "intro142-hd-evidence",
+    "source": "Sveriges Domstolar",
+    "title": "Två avgöranden om bevisvärdering i brottmål, 14 februari 2023",
+    "url": "https://www.domstol.se/nyheter/2023/02/tva-avgoranden-om-bevisvardering-i-brottmal/",
+    "locator": "Ingress och beviskravet utom rimligt tvivel",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T17:59:22.715805+00:00",
+      "page_sha256": "976743adf99bd5aeb2609c7ddcee670c3fa5042bd5000f44772a59b5413fed3c",
+      "text_sha256": "8f9e80b70866ce80a2774eab5214e68ee1db597d8f946b44b35a181577740bad"
+    }
+  },
+  {
+    "id": "intro142-courts",
+    "source": "Sveriges Domstolar",
+    "title": "Det här händer i ett brottmål",
+    "url": "https://www.domstol.se/amnen/brott-och-straff/sa-hanteras-ett-brottmal-i-domstol/",
+    "locator": "Ingress samt Från förundersökning till dom; enbart roller används",
+    "evidence": {
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T18:00:12.067567+00:00",
+      "page_sha256": "885ec6e60c24e4a3a41faba9f4e867ff5e9dd5b14416c72c21fadeeb681d1b52",
+      "text_sha256": "848e860709e5b1c60e72b4a8de221abbbf465236d0192233eb0e01ff484cdf8a"
+    }
+  }
+]
