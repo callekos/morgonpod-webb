@@ -1,0 +1,144 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "Avsnittet täcker fem aktuella och väsentliga säkerhetsrelaterade händelser till sjöss med tillräckligt och väl belagt innehåll.",
+  "source_coverage": [
+    {
+      "claim": "Nato har beslutat att förstärka övervakningen i Svarta havet efter attacker mot handelsfartyg nära Rumäniens och Bulgariens kuster.",
+      "source_url": "https://maritime-executive.com/article/nato-to-support-increased-black-sea-surveillance"
+    },
+    {
+      "claim": "Den franska marinen rapporterar otillåtna drönarflygningar under hamnskyddsövningar nära Toulon.",
+      "source_url": "https://maritime-executive.com/article/french-navy-reports-drone-incursion-during-harbor-protection-exercises"
+    },
+    {
+      "claim": "USA:s finansdepartement har infört sanktioner mot en panamansk advokatfirma och personer kopplade till iransk skuggflotta.",
+      "source_url": "https://maritime-executive.com/article/u-s-treasury-sanctions-two-lawyers-for-alleged-shadow-fleet-services"
+    },
+    {
+      "claim": "En tanker i Persiska viken ska ha träffats av en okänd projektil nära Al Faw, och Irak återupptar statlig rederiverksamhet.",
+      "source_url": "https://maritime-executive.com/article/iraq-resumes-commercial-shipping-after-50-years-as-ship-departs-uae"
+    },
+    {
+      "claim": "Övningen Keen Sword har inletts i Östasien som ett led i stärkt försvarssamarbete mot kinesiskt tryck.",
+      "source_url": "https://maritime-executive.com/article/the-defensive-alliance-to-deter-chinese-maritime-expansion-is-strengthening"
+    }
+  ],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://maritime-executive.com/article/nato-to-support-increased-black-sea-surveillance",
+      "covered_facts": [
+        "Nato förstärker övervakningen efter fartygsattacker vid Bulgarien och Rumänien",
+        "Patrullflyg, radarsystem och drönare sätts in",
+        "Länderna pekar ännu inte ut skyldiga till attackerna"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://maritime-executive.com/article/french-navy-reports-drone-incursion-during-harbor-protection-exercises",
+      "covered_facts": [
+        "Otillåtna drönarflygningar under övningar i Toulon",
+        "Anti-drönarsystem och rättslig utredning har aktiverats",
+        "Ingen känslig infrastruktur har hotats"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://maritime-executive.com/article/u-s-treasury-sanctions-two-lawyers-for-alleged-shadow-fleet-services",
+      "covered_facts": [
+        "Sanktioner mot advokatfirma i Panama och fem personer",
+        "Kopplingar till Seyed Asadoollah Emamjomeh-nätverket för iransk export",
+        "Vidare sanktioner mot bolag och tankern Ramona 1"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://maritime-executive.com/article/iraq-resumes-commercial-shipping-after-50-years-as-ship-departs-uae",
+      "covered_facts": [
+        "Irakisk rederiverksamhet återstartas med fartyg som avgår från Jebel Ali",
+        "Rapport om att en tanker träffats av en okänd projektil nära Al Faw",
+        "Alternativa transportvägar och ansträngda nätverk"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://maritime-executive.com/article/the-defensive-alliance-to-deter-chinese-maritime-expansion-is-strengthening",
+      "covered_facts": [
+        "Övningen Keen Sword pågår till den 29 oktober med bred internationell medverkan",
+        "Japan och USA grupperar avancerade robotsystem på Yonaguni",
+        "Fördjupat samarbete och planerad övervakning mellan Taiwan och Filippinerna"
+      ],
+      "missing_facts": []
+    }
+  ],
+  "selection_decisions": [
+    {
+      "url": "https://maritime-executive.com/article/u-s-treasury-sanctions-two-lawyers-for-alleged-shadow-fleet-services",
+      "selected": true,
+      "reason": "Aktuell och konkret säkerhetsutveckling kring sanktioner mot den iranska skuggflottans stödfunktioner.",
+      "event_key": "sjo-0",
+      "source_quote": "helped clients to register corporate entities that own shadow fleet vessels",
+      "security_evidence": "helped clients to register corporate entities that own shadow fleet vessels"
+    },
+    {
+      "url": "https://maritime-executive.com/article/french-navy-reports-drone-incursion-during-harbor-protection-exercises",
+      "selected": true,
+      "reason": "Aktuellt drönarintrång under militär hamnskyddsövning i Frankrike.",
+      "event_key": "sjo-1",
+      "source_quote": "several unauthorized drone flights were detected in restricted airspace",
+      "security_evidence": "several unauthorized drone flights were detected in restricted airspace"
+    },
+    {
+      "url": "https://maritime-executive.com/article/iraq-resumes-commercial-shipping-after-50-years-as-ship-departs-uae",
+      "selected": true,
+      "reason": "Sjöfartsutveckling och säkerhetsläge i Persiska viken med rapporterad projektilattack och återstart av irakiska linjer.",
+      "event_key": "sjo-2",
+      "source_quote": "a tanker had been struck by an unknown projectile",
+      "security_evidence": "a tanker had been struck by an unknown projectile"
+    },
+    {
+      "url": "https://maritime-executive.com/article/the-defensive-alliance-to-deter-chinese-maritime-expansion-is-strengthening",
+      "selected": true,
+      "reason": "Större militärövning och stärkt maritimt samarbete för avskräckning i Östasien.",
+      "event_key": "sjo-3",
+      "source_quote": "Exercise Keen Sword has commenced and is running until October 29",
+      "security_evidence": "Exercise Keen Sword has commenced and is running until October 29"
+    },
+    {
+      "url": "https://maritime-executive.com/article/nato-to-support-increased-black-sea-surveillance",
+      "selected": true,
+      "reason": "Natos beslut om förstärkt övervakning efter fartygsattacker i Svarta havet.",
+      "event_key": "sjo-4",
+      "source_quote": "After the strikes on commercial vessels off the coasts of Bulgaria and Romania",
+      "security_evidence": "After the strikes on commercial vessels off the coasts of Bulgaria and Romania"
+    },
+    {
+      "url": "https://maritime-executive.com/article/australian-government-seizes-historic-ship-and-orders-immediate-disposal",
+      "selected": false,
+      "reason": "Museifartyget Cape Don rör lokalt bevarande och skrovskick utan koppling till internationell sjösäkerhet, konflikter eller sanktioner.",
+      "event_key": "sjo-5",
+      "source_quote": "",
+      "security_evidence": ""
+    }
+  ],
+  "format_decision": {
+    "outcome": "standard",
+    "reason": "Fem valda källor ger tillräckligt underlag för en normal, sammanhängande och väl avvägd säkerhetsbrief."
+  },
+  "maritime_policy": "maritime-security-2026-10-22",
+  "maritime_sources_sha256": "95dca2386b9925a214c723887251d03bccead2aaa7e4d8a25790ec6d7c9de76a",
+  "maritime_news_sha256": "073750c4243dd8ed7c2cb783c65ed55fc379da9b3258ee58a615f304088fa8f5",
+  "reviewed_script_sha256": "c3797a2199a15138da5974cc07e491e944c429987826455213387d10e15b740a",
+  "relevant_event_count": 5,
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "eab78f1ecf2435253e863e57b92e1fecf5cc41049f81ed1d02ec6b0046630eca",
+    "news_sha256": "c32daedb30815c12176ee1dd7f859b222fb28ef8dfcfce3c7ed672c435bb6c77",
+    "script_sha256": "c3797a2199a15138da5974cc07e491e944c429987826455213387d10e15b740a",
+    "collection_sha256": "bc3769c898a945afc71dac428d7ef61ce23403b9f9bca0890ce08cf98f6894e6"
+  },
+  "reviewed_candidate_sha256": "e5daf3fd06ac50b3774b4e311e34618f7e19bbc42125cce95033049bf7240713",
+  "work_package_sha256": "bae9fe7cfd0af589b95511c08d51c2b53108c486806d270f0fe2b60b397606f8"
+}

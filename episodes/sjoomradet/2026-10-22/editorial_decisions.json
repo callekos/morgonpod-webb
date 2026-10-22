@@ -1,0 +1,486 @@
+{
+  "schema": 2,
+  "corroboration_method": "distinct_hosts_not_proof_of_independence",
+  "received": 6,
+  "unique_urls": 6,
+  "identified_events": 6,
+  "selected_articles": 6,
+  "selected_events": 6,
+  "unique_domains": 1,
+  "max_items": 40,
+  "gemini_calls": 0,
+  "decisions": [
+    {
+      "event_id": "8ae913d2851ddaa9",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 60,
+      "score_components": {
+        "relevance": 12,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "maritime-executive.com"
+      ],
+      "articles": [
+        {
+          "title": "U.S. Treasury Sanctions Shipping Law Firm for Alleged Shadow Fleet Services",
+          "url": "https://maritime-executive.com/article/u-s-treasury-sanctions-two-lawyers-for-alleged-shadow-fleet-services"
+        }
+      ]
+    },
+    {
+      "event_id": "abca1fe599e01bb4",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 57,
+      "score_components": {
+        "relevance": 9,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "maritime-executive.com"
+      ],
+      "articles": [
+        {
+          "title": "NATO to Support Increased Black Sea Surveillance",
+          "url": "https://maritime-executive.com/article/nato-to-support-increased-black-sea-surveillance"
+        }
+      ]
+    },
+    {
+      "event_id": "8b91d886e2a5464e",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 54,
+      "score_components": {
+        "relevance": 6,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "maritime-executive.com"
+      ],
+      "articles": [
+        {
+          "title": "Iraqi Line Resumes Shipping After 50 Year Hiatus",
+          "url": "https://maritime-executive.com/article/iraq-resumes-commercial-shipping-after-50-years-as-ship-departs-uae"
+        }
+      ]
+    },
+    {
+      "event_id": "fcdd3bac1aec3490",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 54,
+      "score_components": {
+        "relevance": 6,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "maritime-executive.com"
+      ],
+      "articles": [
+        {
+          "title": "The Defensive Alliance to Deter Chinese Maritime Expansion is Strengthening",
+          "url": "https://maritime-executive.com/article/the-defensive-alliance-to-deter-chinese-maritime-expansion-is-strengthening"
+        }
+      ]
+    },
+    {
+      "event_id": "6627a97a47aaca43",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "maritime-executive.com"
+      ],
+      "articles": [
+        {
+          "title": "French Navy Reports Drone Incursion During Harbor-Protection Exercises",
+          "url": "https://maritime-executive.com/article/french-navy-reports-drone-incursion-during-harbor-protection-exercises"
+        }
+      ]
+    },
+    {
+      "event_id": "c049d4fa6489eeea",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 45,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 14,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "maritime-executive.com"
+      ],
+      "articles": [
+        {
+          "title": "Australian Government Seizes Historic Ship and Orders Immediate Disposal",
+          "url": "https://maritime-executive.com/article/australian-government-seizes-historic-ship-and-orders-immediate-disposal"
+        }
+      ]
+    }
+  ],
+  "rejected": [],
+  "identified_events_are_estimates": true,
+  "review_source_count": 6,
+  "channel_scope": {
+    "input_count": 6,
+    "accepted_count": 6,
+    "rejected": [],
+    "discussion_signals": []
+  },
+  "collection_evidence": {
+    "state": "ready",
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "discovery": {
+      "feeds": [
+        {
+          "url": "https://www.navalnews.com/feed/",
+          "http_status": 200,
+          "entries": 10,
+          "parse_error": false
+        },
+        {
+          "url": "https://maritime-executive.com/articles.rss",
+          "http_status": 200,
+          "entries": 30,
+          "parse_error": false
+        }
+      ],
+      "verified_run": "39728100307",
+      "artifact_id": 12404012508,
+      "checked_at": "2026-10-22T05:27:20.180726+00:00",
+      "candidates": [
+        {
+          "title": "OCIUS’ New Bluebottle Hybrid USV Demonstrates Capability at Maritime Big Play Pacific",
+          "url": "https://www.navalnews.com/naval-news/2026/10/ocius-new-bluebottle-hybrid-usv-demonstrates-capability-at-maritime-big-play-pacific/",
+          "published": "2026-10-21T20:50:30+00:00",
+          "summary": "Two diesel-hybrid variants of Ocius&#8217; renewably powered Bluebottle Uncrewed Surface Vessel (USV), &#8216;Bluebottle Hybrid&#8217;, are participating in the US Navy-led Maritime Big Play Pacific exercise, which runs throughout October. Ocius press release The exercise will mark the first time the&#160;Bluebottle Hybrid&#160;has participated in a Navy exercise anywhere in the world. The vessels will carry ThayerMahan ... The post OCIUS&#8217; New Bluebottle Hybrid USV Demonstrates Capability "
+        },
+        {
+          "title": "EDGE Leads Integration of Sovereign Autonomous Systems in UAE Navy Demonstration with Allied Forces",
+          "url": "https://www.navalnews.com/naval-news/2026/10/edge-leads-integration-of-sovereign-autonomous-systems-in-uae-navy-demonstration-with-allied-forces/",
+          "published": "2026-10-21T14:17:06+00:00",
+          "summary": "EDGE has led the integration of sovereign autonomous systems for a UAE Navy demonstration of national and allied unmanned maritime capabilities, conducted with the participation of the United States Navy. The Group contributed planning expertise, host facilities and operational assets, with EDGE specialists working alongside both navies on its design and execution. EDGE Group press ... The post EDGE Leads Integration of Sovereign Autonomous Systems in UAE Navy Demonstration with Allied Forces ap"
+        },
+        {
+          "title": "Leading Navy Selects Exail Navigation Systems for USV Fleet",
+          "url": "https://www.navalnews.com/naval-news/2026/10/leading-navy-selects-exail-navigation-systems-for-usv-fleet/",
+          "published": "2026-10-21T13:32:56+00:00",
+          "summary": "Exail secures a major contract to equip a leading navy's fleet of uncrewed surface vessels (USVs) with its resilient Marins inertial navigation systems. The post Leading Navy Selects Exail Navigation Systems for USV Fleet appeared first on Naval News ."
+        },
+        {
+          "title": "ST Engineering Lays Keel for Kuwait’s Third Al Dorra-Class Vessel",
+          "url": "https://www.navalnews.com/naval-news/2026/10/st-engineering-lays-keel-for-kuwaits-third-al-dorra-class-vessel/",
+          "published": "2026-10-21T11:50:01+00:00",
+          "summary": "ST Engineering laid the keel for the third Al Dorra-class vessel and cut steel for the fourth and fifth vessels at its Benoi Yard in Singapore on October 20, 2026. The three missile boats form part of an eight-vessel programme for the Kuwait Naval Force. According to ST Engineering Marine, representatives from the Kuwait Naval ... The post ST Engineering Lays Keel for Kuwait’s Third Al Dorra-Class Vessel appeared first on Naval News ."
+        },
+        {
+          "title": "AIM-174B, AIM-260A seen together on Super Hornet for the first time",
+          "url": "https://www.navalnews.com/naval-news/2026/10/aim-174b-aim-260a-super-hornet/",
+          "published": "2026-10-21T08:37:13+00:00",
+          "summary": "A U.S. Navy F/A-18 Super Hornet was spotted carrying the AIM-174B and AIM-260A JATM, marking the first documented dual-loadout of these secretive weapons. The post AIM-174B, AIM-260A seen together on Super Hornet for the first time appeared first on Naval News ."
+        },
+        {
+          "title": "Italian Navy Integrates SAVER Submarine Rescue Suite Aboard OSV Tritone",
+          "url": "https://www.navalnews.com/naval-news/2026/10/italian-navy-integrates-saver-submarine-rescue-suite-aboard-osv-tritone/",
+          "published": "2026-10-21T06:35:05+00:00",
+          "summary": "The Italian Navy OSV Tritone has deployed the new-generation SAVER submarine rescue suite for the first time, initiating sea acceptance trials. The post Italian Navy Integrates SAVER Submarine Rescue Suite Aboard OSV Tritone appeared first on Naval News ."
+        },
+        {
+          "title": "STM Holds Keel Laying Ceremony for Portugal’s Second Logistics Support Ship",
+          "url": "https://www.navalnews.com/naval-news/2026/10/stm-holds-keel-laying-ceremony-for-portugals-second-logistics-support-ship/",
+          "published": "2026-10-20T21:04:06+00:00",
+          "summary": "On October 20, 2026, Türkiye&#8217;s STM announced the keel-laying ceremony for the second logistics support ship for the Portuguese Navy in Istanbul. STM press release STM Savunma Teknolojileri Mühendislik ve Ticaret A.Ş. has reached another significant milestone in its international naval programmes. Selected by the Portuguese Navy following a competitive tender against leading global shipbuilders, ... The post STM Holds Keel Laying Ceremony for Portugal’s Second Logistics Support Ship appeare"
+        },
+        {
+          "title": "HAVELSAN Demonstrates Coordinated Unmanned Air and Maritime Operations",
+          "url": "https://www.navalnews.com/naval-news/2026/10/havelsan-demonstrates-coordinated-unmanned-air-and-maritime-operations/",
+          "published": "2026-10-20T18:40:15+00:00",
+          "summary": "HAVELSAN has demonstrated its ability to integrate unmanned air and maritime platforms for coordinated missions. HAVELSAN press release The demonstration brought together the&#160;USV-12&#160;unmanned surface vessel (USV), manufactured by VN MARITIME, and the SAGAN unmanned aerial vehicle (UAV), developed by ASİSGUARD. During the demonstration, the USV navigated autonomously. The UAV took off autonomously from the vessel, ... The post HAVELSAN Demonstrates Coordinated Unmanned Air and Maritime O"
+        },
+        {
+          "title": "Norway Outlines Procurement Strategy for Up to 20 P1118 Standardized Vessels",
+          "url": "https://www.navalnews.com/naval-news/2026/10/norway-outlines-procurement-strategy-for-up-to-20-p1118-standardized-vessels/",
+          "published": "2026-10-20T13:39:53+00:00",
+          "summary": "Norway' has revealed the acquisition model for Project P1118, splitting up to 20 ocean-going standardized vessels for Norway, the UK, and Lithuania across two parallel contracts. The post Norway Outlines Procurement Strategy for Up to 20 P1118 Standardized Vessels appeared first on Naval News ."
+        },
+        {
+          "title": "US Navy Carrier Remote-Controls MQ-25A Stingray Over 2,100 Miles Away",
+          "url": "https://www.navalnews.com/naval-news/2026/10/us-navy-carrier-remote-controls-mq-25a-stingray-over-2100-miles-away/",
+          "published": "2026-10-20T12:28:10+00:00",
+          "summary": "Underway in the Pacific, USS Ronald Reagan remotely controlled an MQ-25A Stingray 2,100 miles away in Illinois via a pLEO satellite network. The post US Navy Carrier Remote-Controls MQ-25A Stingray Over 2,100 Miles Away appeared first on Naval News ."
+        },
+        {
+          "title": "UK Approves Controversial Jackdaw Gas Project in the North Sea",
+          "url": "https://maritime-executive.com/article/uk-approves-controversial-jackdaw-gas-project-in-the-north-sea",
+          "published": "2026-10-22T03:31:05+00:00",
+          "summary": "The UK government has given the green light for the Jackdaw natural gas field development in the North Sea, a major win for the UK's declining offshor..."
+        },
+        {
+          "title": "U.S. Treasury Sanctions Shipping Law Firm for Alleged Shadow Fleet Services",
+          "url": "https://maritime-executive.com/article/u-s-treasury-sanctions-two-lawyers-for-alleged-shadow-fleet-services",
+          "published": "2026-10-22T02:52:06+00:00",
+          "summary": "On Wednesday, the U.S. Treasury announced new sanctions on a Panama-based law firm and five of its staff for allegedly helping Iranian shipping intere..."
+        },
+        {
+          "title": "French Navy Reports Drone Incursion During Harbor-Protection Exercises",
+          "url": "https://maritime-executive.com/article/french-navy-reports-drone-incursion-during-harbor-protection-exercises",
+          "published": "2026-10-22T01:43:28+00:00",
+          "summary": "On Wednesday, the French navy issued an alert reporting an unlawful drone incursion - this time, during a military exercise. According to the Marine N..."
+        },
+        {
+          "title": "MARAD Cancels Deployment and Returns Training Ship Empire State to SUNY",
+          "url": "https://maritime-executive.com/article/marad-cancels-deployment-and-returns-training-ship-empire-state-to-suny",
+          "published": "2026-10-21T23:42:45+00:00",
+          "summary": "Three weeks after the training ship Empire State arrived in Virginia for preparations for a government mission, MARAD has notified the SUNY Maritime C..."
+        },
+        {
+          "title": "Trump Administration Targets Fourth Offshore Wind Project for Remand",
+          "url": "https://maritime-executive.com/article/trump-administration-targets-fourth-offshore-wind-project-for-remand",
+          "published": "2026-10-21T23:09:11+00:00",
+          "summary": "In what is clearly emerging as a new tactic to derail the offshore wind energy sector, the Department of Justice filed for the fourth time in just a m..."
+        },
+        {
+          "title": "DOT Awards $200M Rail Grant to Support Port of Coos Bay's Terminal Project",
+          "url": "https://maritime-executive.com/article/dot-awards-200m-rail-grant-to-support-port-of-coos-bay-s-terminal-project",
+          "published": "2026-10-21T22:39:03+00:00",
+          "summary": "The Port of Coos Bay, Oregon has received a federal Department of Transportation grant for $205 million to upgrade the Coos Bay Rail Line, the short-l..."
+        },
+        {
+          "title": "Panama Canal Sets Record for Annual Tonnage Driven by Shifts in Trade",
+          "url": "https://maritime-executive.com/article/panama-canal-sets-record-for-annual-tonnage-driven-by-shifts-in-trade",
+          "published": "2026-10-21T21:57:30+00:00",
+          "summary": "Despite the challenges the Panama Canal has faced due to the drought and effects of El Niño, it completed a strong fiscal year, emphasizing its role i..."
+        },
+        {
+          "title": "Australian Fund Manager Buys Majority Stake in UK’s Largest Port Operator",
+          "url": "https://maritime-executive.com/article/australian-fund-manager-buys-majority-stake-in-uk-s-largest-port-operator",
+          "published": "2026-10-21T21:17:38+00:00",
+          "summary": "IFM Investors, an Australia-based global fund manager with a focus on UK infrastructure, emerged as the winning bidder in the sale of Associated Briti..."
+        },
+        {
+          "title": "US Deep-Sea Mining Claim Areas Rival ISA Licenses in Size",
+          "url": "https://maritime-executive.com/article/us-deep-sea-mining-claims-in-the-pacific-now-rival-isa-licenses-in-size",
+          "published": "2026-10-21T20:51:49+00:00",
+          "summary": "U.S. ambitions to mine the deep sea are rapidly expanding across the ocean, not only in the country’s own waters, but also on the high seas — the vast..."
+        },
+        {
+          "title": "Iraqi Line Resumes Shipping After 50 Year Hiatus",
+          "url": "https://maritime-executive.com/article/iraq-resumes-commercial-shipping-after-50-years-as-ship-departs-uae",
+          "published": "2026-10-21T19:44:57+00:00",
+          "summary": "An Iraqi-owned container ship departed the port of Jebel Ali in the United Arab Emirates today, October 21, northbound in the Persian Gulf. What makes..."
+        },
+        {
+          "title": "Thanks to Swift Response, All Passengers Survive Indonesian Ferry Fire",
+          "url": "https://maritime-executive.com/article/thanks-to-swift-response-all-passengers-survive-latest-se-asian-ferry-fire",
+          "published": "2026-10-21T19:21:17+00:00",
+          "summary": "On Tuesday, a fire broke out on another Southeast Asian ferry, this time at the port of Merak, Indonesia. Yesterday afternoon at about 1600 hours, the..."
+        },
+        {
+          "title": "Russia Says First Diesel Shipment is Ready as Political Debate Continues",
+          "url": "https://maritime-executive.com/article/russia-says-first-diesel-shipment-is-ready-as-political-debate-continues",
+          "published": "2026-10-21T18:58:19+00:00",
+          "summary": "Russian officials are indicating the country is ready to begin its promised exports of diesel fuel, with the first tanker ready to sail as early as Th..."
+        },
+        {
+          "title": "The Defensive Alliance to Deter Chinese Maritime Expansion is Strengthening",
+          "url": "https://maritime-executive.com/article/the-defensive-alliance-to-deter-chinese-maritime-expansion-is-strengthening",
+          "published": "2026-10-21T18:22:33+00:00",
+          "summary": "An overview of a series of separate developments suggests that a string of Asian nations facing pressure from China across maritime borders are cooper..."
+        },
+        {
+          "title": "MARPOWER Advances Key Technologies for Maritime Decarbonisation",
+          "url": "https://maritime-executive.com/article/marpower-advances-key-technologies-for-maritime-decarbonisation",
+          "published": "2026-10-21T18:19:49+00:00",
+          "summary": "[By: Maritime transport remains one of the most challenging sectors to decarbonise due to its high energy requirements, reliance on fossil fuels and t..."
+        },
+        {
+          "title": "Saitec and Kansai Welcome Kumagai Gumi as a New Partner for DemoSATH",
+          "url": "https://maritime-executive.com/article/saitec-and-kansai-welcome-kumagai-gumi-as-a-new-partner-for-demosath",
+          "published": "2026-10-21T18:14:24+00:00",
+          "summary": "The DemoSATH project, the floating offshore wind demonstrator developed by Saitec Offshore Technologies, welcomes Japanese company Kumagai Gumi as a s..."
+        },
+        {
+          "title": "New Frontier Group Appoints Laurie Roberts as Chief Operating Officer",
+          "url": "https://maritime-executive.com/article/new-frontier-group-appoints-laurie-roberts-as-chief-operating-officer",
+          "published": "2026-10-21T18:09:19+00:00",
+          "summary": "New Frontier Group (NFG), a global provider of cost management and care solutions, today announced the appointment of Laurie Roberts as Chief Operatin..."
+        },
+        {
+          "title": "Glamox Supplies Advanced Helicopter Landing Systems for 3rd Royal Navy OPV",
+          "url": "https://maritime-executive.com/article/glamox-supplies-advanced-helicopter-landing-systems-for-3rd-royal-navy-opv",
+          "published": "2026-10-21T18:05:53+00:00",
+          "summary": "Glamox, a global leader in lighting, has completed a project to supply its advanced Helicopter Visual Landing Aid System (HVLAS) to HMS Forth, a UK Ro..."
+        },
+        {
+          "title": "NATO to Support Increased Black Sea Surveillance",
+          "url": "https://maritime-executive.com/article/nato-to-support-increased-black-sea-surveillance",
+          "published": "2026-10-21T17:15:44+00:00",
+          "summary": "After the strikes on commercial vessels off the coasts of Bulgaria and Romania, NATO has agreed to provide additional support to the region. The North..."
+        },
+        {
+          "title": "How the Maritime Industry Will Unlock the Value of AI",
+          "url": "https://maritime-executive.com/article/how-the-maritime-industry-will-unlock-the-value-of-ai",
+          "published": "2026-10-21T13:49:58+00:00",
+          "summary": "Every industry has spent the past few years moving Artificial Intelligence into daily operations. Mining, aviation, construction and energy companies..."
+        },
+        {
+          "title": "Norway Plans to Buy 20 Standardized Naval Vessels for Three Nations",
+          "url": "https://maritime-executive.com/article/norway-plans-to-buy-20-standardized-naval-vessels-for-three-nations",
+          "published": "2026-10-21T03:56:26+00:00",
+          "summary": "Norway has unveiled plans to procure up to 20 standardized government vessels that are designed to strengthen the capabilities of three allied nations..."
+        },
+        {
+          "title": "Report: Despite Iran's Attacks, Gulf Oil Exports Exceed Prewar Levels",
+          "url": "https://maritime-executive.com/article/report-despite-iran-s-attacks-gulf-oil-exports-exceed-prewar-levels",
+          "published": "2026-10-21T03:22:44+00:00",
+          "summary": "Commodity intelligence firm Kpler reports that oil flows out of the Arabian Gulf have rebounded so well that they now exceed levels seen before the st..."
+        },
+        {
+          "title": "U.S. Navy Awards $300M Contract to Robotic-Inspection Startup Gecko",
+          "url": "https://maritime-executive.com/article/u-s-navy-awards-300m-contract-to-robotic-inspection-startup-gecko",
+          "published": "2026-10-21T02:14:35+00:00",
+          "summary": "Pittsburgh-based automated inspection company Gecko Robotics has won a $300 million IDIQ contract with the U.S. Navy to help fight the age-old enemy o..."
+        },
+        {
+          "title": "Littoral Combat Ship Transits Past a Contested Reef, Angering China",
+          "url": "https://maritime-executive.com/article/littoral-combat-ship-transits-past-a-contested-reef-angering-china",
+          "published": "2026-10-21T01:27:04+00:00",
+          "summary": "At a time of heightened tensions between the Philippines and China, the Independence-class LCS USS Charleston conducted a transit near Sabina Shoal, a..."
+        },
+        {
+          "title": "New Zealand Opens First Round for Offshore Energy Feasibility Permits",
+          "url": "https://maritime-executive.com/article/new-zealand-opens-first-round-for-offshore-energy-feasibility-permits",
+          "published": "2026-10-20T23:16:51+00:00",
+          "summary": "New Zealand has moved quickly to open its first round for offshore renewable energy feasibility permit applications just weeks after it completed the..."
+        },
+        {
+          "title": "Pemex Platform Catches Fire at Abkatun Field",
+          "url": "https://maritime-executive.com/article/pemex-platform-catches-fire-at-abkatun-field",
+          "published": "2026-10-20T22:36:54+00:00",
+          "summary": "On Monday, Mexican state oil company Pemex reported that it was fighting a fire on an unmanned satellite platform at a position about 60 nautical mile..."
+        },
+        {
+          "title": "Deployable Energy Nuclear Power Application Wins 2026 SHIPPINGInsight Award",
+          "url": "https://maritime-executive.com/article/deployable-energy-nuclear-power-application-wins-2026-shippinginsight-award",
+          "published": "2026-10-20T22:25:49+00:00",
+          "summary": "[By: SHIPPINGInsightThe prestigious SHIPPINGInsight Innovation Award for 2026 was presented to John Baber, Vice President of Deployable Energy on Octo..."
+        },
+        {
+          "title": "Major Investments Strengthen Gothenburg RoRo Terminal",
+          "url": "https://maritime-executive.com/article/major-investments-strengthen-gothenburg-roro-terminal",
+          "published": "2026-10-20T22:21:06+00:00",
+          "summary": "Expanded terminal areas, new rail connections and modernised quays are among the investments that have strengthened Gothenburg RoRo Terminal in recent..."
+        },
+        {
+          "title": "NOAA Selects Fugro to Provide Critical Geo-Data Supporting Maritime Safety",
+          "url": "https://maritime-executive.com/article/noaa-selects-fugro-to-provide-critical-geo-data-supporting-maritime-safety",
+          "published": "2026-10-20T22:14:27+00:00",
+          "summary": "Fugro has been selected by the National Oceanic and Atmospheric Administration (NOAA) to deliver critical seafloor mapping data along Florida's Atlant..."
+        },
+        {
+          "title": "Australian Government Seizes Historic Ship and Orders Immediate Disposal",
+          "url": "https://maritime-executive.com/article/australian-government-seizes-historic-ship-and-orders-immediate-disposal",
+          "published": "2026-10-20T22:13:50+00:00",
+          "summary": "The Government of New South Wales and preservationists are battling over the fate of a historic little vessel, MV Cape Don, with the local government..."
+        },
+        {
+          "title": "Wärtsilä Engines Selected for 2 Additional Inland Waterway Tugs in Brazil",
+          "url": "https://maritime-executive.com/article/wartsila-engines-selected-for-2-additional-inland-waterway-tugs-in-brazil",
+          "published": "2026-10-20T22:09:27+00:00",
+          "summary": "Technology group Wärtsilä will supply the engines for two new inland waterway pusher tugs being built by Brazilian shipyard Estaleiro Rio Maguari. The..."
+        }
+      ],
+      "scope": "existing registered and ordinary production feeds; all relevant originals read",
+      "limitations": "A bounded sample, not comprehensive absence of events. Source-concentrated reporting remains attributed. Government homepage coverage may be undated or inaccessible; these failures are not evidence of no news."
+    },
+    "checked_at": "2026-10-22T07:51:31.007960+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  },
+  "work_import": {
+    "package_sha256": "bae9fe7cfd0af589b95511c08d51c2b53108c486806d270f0fe2b60b397606f8",
+    "candidate_sha256": "e5daf3fd06ac50b3774b4e311e34618f7e19bbc42125cce95033049bf7240713",
+    "provenance": {
+      "source_run": "39728100307",
+      "artifact_id": 12404012508,
+      "method": "Work editorial draft from actually retrieved source text; independent production review required"
+    },
+    "editorial_approved": false
+  },
+  "final_selection": [
+    {
+      "url": "https://maritime-executive.com/article/u-s-treasury-sanctions-two-lawyers-for-alleged-shadow-fleet-services",
+      "selected": true,
+      "reason": "Aktuell och konkret säkerhetsutveckling kring sanktioner mot den iranska skuggflottans stödfunktioner.",
+      "event_key": "sjo-0",
+      "source_quote": "helped clients to register corporate entities that own shadow fleet vessels",
+      "security_evidence": "helped clients to register corporate entities that own shadow fleet vessels"
+    },
+    {
+      "url": "https://maritime-executive.com/article/french-navy-reports-drone-incursion-during-harbor-protection-exercises",
+      "selected": true,
+      "reason": "Aktuellt drönarintrång under militär hamnskyddsövning i Frankrike.",
+      "event_key": "sjo-1",
+      "source_quote": "several unauthorized drone flights were detected in restricted airspace",
+      "security_evidence": "several unauthorized drone flights were detected in restricted airspace"
+    },
+    {
+      "url": "https://maritime-executive.com/article/iraq-resumes-commercial-shipping-after-50-years-as-ship-departs-uae",
+      "selected": true,
+      "reason": "Sjöfartsutveckling och säkerhetsläge i Persiska viken med rapporterad projektilattack och återstart av irakiska linjer.",
+      "event_key": "sjo-2",
+      "source_quote": "a tanker had been struck by an unknown projectile",
+      "security_evidence": "a tanker had been struck by an unknown projectile"
+    },
+    {
+      "url": "https://maritime-executive.com/article/the-defensive-alliance-to-deter-chinese-maritime-expansion-is-strengthening",
+      "selected": true,
+      "reason": "Större militärövning och stärkt maritimt samarbete för avskräckning i Östasien.",
+      "event_key": "sjo-3",
+      "source_quote": "Exercise Keen Sword has commenced and is running until October 29",
+      "security_evidence": "Exercise Keen Sword has commenced and is running until October 29"
+    },
+    {
+      "url": "https://maritime-executive.com/article/nato-to-support-increased-black-sea-surveillance",
+      "selected": true,
+      "reason": "Natos beslut om förstärkt övervakning efter fartygsattacker i Svarta havet.",
+      "event_key": "sjo-4",
+      "source_quote": "After the strikes on commercial vessels off the coasts of Bulgaria and Romania",
+      "security_evidence": "After the strikes on commercial vessels off the coasts of Bulgaria and Romania"
+    },
+    {
+      "url": "https://maritime-executive.com/article/australian-government-seizes-historic-ship-and-orders-immediate-disposal",
+      "selected": false,
+      "reason": "Museifartyget Cape Don rör lokalt bevarande och skrovskick utan koppling till internationell sjösäkerhet, konflikter eller sanktioner.",
+      "event_key": "sjo-5",
+      "source_quote": "",
+      "security_evidence": ""
+    }
+  ],
+  "relevant_event_count": 5
+}

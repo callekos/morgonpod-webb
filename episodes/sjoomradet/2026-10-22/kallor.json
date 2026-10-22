@@ -1,0 +1,62 @@
+[
+  {
+    "source": "The Maritime Executive",
+    "title": "Nato förstärker övervakning i Svarta havet enligt rapport",
+    "url": "https://maritime-executive.com/article/nato-to-support-increased-black-sea-surveillance",
+    "evidence": {
+      "date": "2026-10-21T17:15:44+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T05:27:30.993239+00:00",
+      "page_sha256": "da33d3e320c953f16d30b7b9f6d29188bb74d9a8ad32b6e5e8fba2e89dcf4908",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "The Maritime Executive",
+    "title": "Drönarintrång under hamnskyddsövning i Toulon",
+    "url": "https://maritime-executive.com/article/french-navy-reports-drone-incursion-during-harbor-protection-exercises",
+    "evidence": {
+      "date": "2026-10-22T01:43:28+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T05:27:30.815765+00:00",
+      "page_sha256": "c0900ff150069c12701ffbe5b02ba27005a4f2713872114b283011fea571caac",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "The Maritime Executive",
+    "title": "USA sanktionerar tjänster runt iransk skuggflotta",
+    "url": "https://maritime-executive.com/article/u-s-treasury-sanctions-two-lawyers-for-alleged-shadow-fleet-services",
+    "evidence": {
+      "date": "2026-10-22T02:52:06+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T05:27:30.760497+00:00",
+      "page_sha256": "b2f64836dfad0d581b65231327a767570b41be2fca7e6f0f5437f6f10329e26b",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "The Maritime Executive",
+    "title": "Rapporterad tankerträff och pressade försörjningsvägar i Persiska viken",
+    "url": "https://maritime-executive.com/article/iraq-resumes-commercial-shipping-after-50-years-as-ship-departs-uae",
+    "evidence": {
+      "date": "2026-10-21T19:44:57+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T05:27:30.873368+00:00",
+      "page_sha256": "e1cd9d0467198b67112e817dc3393e589db6344d1fc602bccb8ac2af201bf40b",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "The Maritime Executive",
+    "title": "Övning och övervakningssamarbete i Östasien",
+    "url": "https://maritime-executive.com/article/the-defensive-alliance-to-deter-chinese-maritime-expansion-is-strengthening",
+    "evidence": {
+      "date": "2026-10-21T18:22:33+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T05:27:30.931636+00:00",
+      "page_sha256": "e2233df47f507d73e7d25018f070add4fb3d94871e36f9021d63a793b137c011",
+      "retrieval_limit": null
+    }
+  }
+]
