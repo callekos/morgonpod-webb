@@ -7,6 +7,9 @@ test('V3 four sections, eight distinct images, themes and bounded morning playli
  await expect(page.locator('[data-group=knowledge] .channel-card')).toHaveCount(4);const paths=await page.locator('.home-channels img').evaluateAll(images=>images.map(im=>im.getAttribute('src').split('?')[0]));expect(new Set(paths).size).toBe(8);
  const manifest=await(await page.request.get('/catalog/manifest.json')).json();expect(manifest.collections.episodes.count).toBeGreaterThanOrEqual(25);expect(Object.keys(manifest.superseded)).toHaveLength(5);
  const rows=(await Promise.all(manifest.collections.episodes.pages.map(p=>page.request.get('/'+p).then(r=>r.json())))).flatMap(p=>p.items);expect(rows.filter(e=>e.id.startsWith('WORK_LIBRARY_2026_10:'))).toHaveLength(25-Object.keys(manifest.withdrawn||{}).filter(id=>id.startsWith('WORK_LIBRARY_2026_10:')).length);
+ // Complete home article loading before deliberate document navigation; WebKit
+ // otherwise reports cancelled same-origin list fetches as access-control errors.
+ await expect(page.locator('#articles .article-card').first()).toBeVisible();
  // Source lists may retain retired records; verify the client hides those IDs.
  const active=rows.filter(e=>!manifest.superseded[e.id]);expect(active.length).toBeGreaterThan(0);
  await page.goto('/lyssna.html');await expect(page.locator('.episode').first()).toBeVisible();const visible=await page.locator('.episode').evaluateAll(nodes=>nodes.map(n=>n.dataset.id));expect(visible.length).toBeGreaterThan(0);expect(visible.every(id=>active.some(e=>e.id===id))).toBe(true);expect(visible.some(id=>manifest.superseded[id])).toBe(false);await page.goto('/idag.html');await expect(page.locator('.morning-strip a').first()).toBeVisible();
