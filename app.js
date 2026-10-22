@@ -5,6 +5,14 @@ const Core = {
   listened: (elapsed, delta, playing) => elapsed + (playing && delta > 0 && delta < 2 ? delta : 0),
   isIntro: e => e.is_intro === true || e.kind === 'introduction' || /:introduction$/.test(e.id || ''),
   published: e => Date.parse(e.channel==='mediesvepet' ? e.date || '' : e.published_at || e.date || '') || 0,
+  historicalMedia: e => e.channel === 'mediesvepet' && !!e.date && !!e.published_at && Number.isFinite(Date.parse(e.published_at)) && Core.stockholmDay(new Date(e.published_at)) !== e.date,
+  displayDate: e => Core.historicalMedia(e) ? e.date : e.published_at || e.date || '',
+  prettyDate: e => {
+    const raw=Core.displayDate(e);if(!raw)return '';
+    const format=(value,timed)=>{const d=new Date(value);return Number.isNaN(d.getTime())?'':new Intl.DateTimeFormat('sv-SE',{day:'numeric',month:'short',timeZone:'Europe/Stockholm',...(timed?{hour:'2-digit',minute:'2-digit'}:{})}).format(d);};
+    const historical=Core.historicalMedia(e);
+    return format(raw,!historical&&!!e.published_at)+(historical?' · efterhandsproducerat '+format(e.produced_at||e.published_at,true):'');
+  },
   channelOrder: [],
   channelGroups: channels => ['monitoring','knowledge'].map(type=>({type,channels:channels.filter(c=>c.channel_type===type).sort((a,b)=>(a.display_order??Number.MAX_SAFE_INTEGER)-(b.display_order??Number.MAX_SAFE_INTEGER)||a.id.localeCompare(b.id))})),
   editorialRank: e => Core.isIntro(e) ? 0 : Number(e.episode_order)||2,
@@ -82,7 +90,7 @@ if (typeof document !== 'undefined') (async () => {
     target.querySelectorAll('[name="art-style"]').forEach(r=>r.onchange=()=>void changeArt(r.value));$('#art-reset').onclick=async()=>{await changeArt(ChannelArt.DEFAULT);if(art.selected===ChannelArt.DEFAULT)art.reset();};
   }
   const duration=n=>{n=Math.max(0,Math.floor(n||0));return Math.floor(n/60)+':'+String(n%60).padStart(2,'0');};
-  const prettyDate=e=>{const raw=e.published_at||e.date;if(!raw)return '';const d=new Date(raw);return Number.isNaN(d.getTime())?'':new Intl.DateTimeFormat('sv-SE',{day:'numeric',month:'short',timeZone:'Europe/Stockholm',...(e.published_at?{hour:'2-digit',minute:'2-digit'}:{})}).format(d);};
+  const prettyDate=Core.prettyDate;
   const channelCard=c=>'<a class="channel-card" href="'+url('kanal',{id:c.id})+'">'+cover(c.id)+'<span class="channel-card-label"><strong>'+(c.id==='ibat'?'IBAT - Informations<wbr>försörjning':esc(channel(c.id)))+'</strong></span></a>';
   const descriptiveChannelCard=c=>'<a class="channel-card knowledge-card" href="'+url('kanal',{id:c.id})+'">'+cover(c.id)+'<div><h3>'+esc(channel(c.id))+'</h3><p>'+esc(c.description||'')+'</p><span>Öppna kanalen '+icon('chevron-right')+'</span></div></a>';
   const groupLabels={monitoring:['Bevakningskanaler','Dagliga avsnitt om det senaste inom varje område.','Visa alla bevakningskanaler'],knowledge:['Kunskapskanaler','Grundkurser och fördjupningar att lyssna på när du vill.','Visa alla kunskapskanaler']};
@@ -113,7 +121,7 @@ if (typeof document !== 'undefined') (async () => {
     if(!title)return Core.isIntro(e)?'Uppstartsavsnitt':'Morgonbrief';
     return title;
   };
-  const metadata = e => '<span class="channel-name">'+esc(channel(e.channel))+'</span><time class="episode-date" datetime="'+esc(e.published_at||e.date||'')+'">'+esc(prettyDate(e))+'</time>';
+  const metadata = e => '<span class="channel-name">'+esc(channel(e.channel))+'</span><time class="episode-date" datetime="'+esc(Core.displayDate(e))+'">'+esc(prettyDate(e))+'</time>';
   const articleCard = a => '<a class="article-card" href="'+url('artikel',{id:a.id})+'">'+cover(a.channel,'article-cover')+'<div><small>'+metadata(a)+'</small><h3>'+esc(a.title)+'</h3><p>'+esc(a.summary||'')+'</p><span class="read-time">'+(a.reading_minutes?esc(a.reading_minutes)+' min läsning':'Läs artikeln')+'</span></div>'+icon('chevron-right')+'</a>';
   const episodeRow = e => '<div class="episode-shell"><button type="button" class="episode-art direct-play" data-play="'+esc(e.id)+'" aria-label="Spela '+esc(episodeTitle(e))+'">'+cover(e.channel,'episode-cover')+'<span class="play-symbol">'+icon('play')+'</span></button><details class="episode" data-id="'+esc(e.id)+'"><summary><span class="row-title" data-channel="'+esc(channel(e.channel))+'"><small class="item-meta">'+metadata(e)+'</small><strong>'+esc(episodeTitle(e))+'</strong>'+(Core.isIntro(e)?'<span class="intro-badge">Avsnitt 1 / Uppstart</span>':'')+'<span class="episode-topics">'+esc((e.topic_labels||e.tags||[]).slice(0,2).join(' · '))+'</span></span><span class="duration">'+(e.duration_seconds?duration(e.duration_seconds):'')+'</span>'+icon('chevron-down')+'</summary><div class="episode-body"><p role="status">Laddar avsnitt…</p></div></details></div>';
   async function detail(kind,id) { return json('catalog/'+kind+'/'+(await hash(id)).slice(0,24)+'.json'); }

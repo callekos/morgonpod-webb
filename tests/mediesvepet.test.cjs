@@ -18,3 +18,12 @@ test('media joins monitoring independently of knowledge channels',()=>{
  const groups=Core.channelGroups([{id:'mediesvepet',channel_type:'monitoring',display_order:4},{id:'lagstiftning',channel_type:'knowledge',display_order:4}]);
  assert.deepEqual(groups.map(g=>g.channels.map(c=>c.id)),[['mediesvepet'],['lagstiftning']]);
 });
+
+test('historical media displays reference day and actual production separately on cards and articles',()=>{
+ const e={channel:'mediesvepet',date:'2026-10-21',published_at:'2026-10-22T15:24:23Z'};
+ assert.equal(Core.displayDate(e),'2026-10-21');
+ assert.match(Core.prettyDate(e),/^21 okt.*efterhandsproducerat 22 okt.*17:24/);
+ assert.equal(Core.displayDate({...e,channel:'ibat'}),e.published_at);
+ assert.doesNotMatch(Core.prettyDate({...e,date:'2026-10-22'}),/efterhandsproducerat/);
+ assert.equal(e.published_at,'2026-10-22T15:24:23Z');
+});
