@@ -9,7 +9,7 @@ test('new monitoring channel retains its own identity in every saved art style',
  const api=Art.create(manifest);
  for(const style of manifest.styles){for(const square of [false,true]){
   const image=api.resolve('mediesvepet',square,style.id);
-  assert.match(image.src,/assets\/channels\/mediesvepet/);
+  assert.match(image.src,style.id==='06-film'?/assets\/design-lab\/06-film\/mediesvepet/:/assets\/channels\/mediesvepet/);
   assert.ok(fs.statSync(image.src.split('?')[0]).size>1000);
  }}
  assert.equal(api.styles.length,21);
