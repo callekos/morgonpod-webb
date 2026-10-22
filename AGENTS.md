@@ -9,7 +9,7 @@ Denna webbplats är publicerings- och läsgränssnittet för Morgonpod. Den dela
 4. Skilj målbild, existerande kod, aktiv drift och verifierat resultat. Dokumentationsändringar innebär inte driftsatta funktioner.
 
 ## Drift och användarupplevelse
-- Webbarkivet ska tåla åtta kanaler idag (fyra dagliga och fyra kunskapskanaler) och växa mot många tusen avsnitt utan att ladda hela arkivet i webbläsaren.
+- Webbarkivet ska tåla nio kanaler idag (fem bevakningskanaler och fyra kunskapskanaler, där Mediesvepet följer vardagsschema) och växa mot många tusen avsnitt utan att ladda hela arkivet i webbläsaren.
 - Behåll lättanvänt mobilgränssnitt med Idag, Lyssna, Artiklar och Utforska, tydlig uppspelning, sökbara källor och god tillgänglighet.
 - Artikeltext och källreferenser ska vara spårbara; inga fabricerade nyheter eller uppföljningar.
 - Gör inte blinda uppdateringar som tar bort tidigare publicerade avsnitt, index eller statistik.
