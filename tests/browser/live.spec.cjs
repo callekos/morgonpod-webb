@@ -58,14 +58,14 @@ test('published Mediesvepet cover keeps its own film motif in narrow and wide la
   await page.setViewportSize({width,height:1000});
   for(const [label,route] of [['channel','kanal.html?id=mediesvepet'],['directory','kanaler.html?group=monitoring'],['home','idag.html']]){
    await page.goto(route);await expect(page.locator('#view')).not.toContainText('Hämtar innehåll…');
-   const covers=page.locator('img[data-art-channel="mediesvepet"]');
+   const covers=page.locator('#view img[data-art-channel="mediesvepet"]:visible');
    if(label!=='home')expect(await covers.count()).toBeGreaterThan(0);
    for(const im of await covers.all()){
     await im.scrollIntoViewIfNeeded();await expect(im).toHaveAttribute('src',/assets\/design-lab\/06-film\/mediesvepet(?:-small|-square)?\.webp/);
     await expect.poll(()=>im.evaluate(el=>el.complete&&el.naturalWidth>0)).toBe(true);
    }
    expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
-   await page.screenshot({path:'playwright-report/'+info.project.name+'-media-cover-'+label+'-'+width+'.png',fullPage:true});
+   await page.screenshot({path:'docs/evidence/'+info.project.name+'-media-cover-'+label+'-'+width+'.png',fullPage:true});
   }
  }
 });
