@@ -1,0 +1,171 @@
+{
+  "channel": "mediesvepet",
+  "date": "2026-10-19",
+  "schema": 2,
+  "corroboration_method": "distinct_hosts_not_proof_of_independence",
+  "received": 4,
+  "unique_urls": 4,
+  "identified_events": 4,
+  "selected_articles": 4,
+  "selected_events": 4,
+  "unique_domains": 3,
+  "max_items": 40,
+  "gemini_calls": 0,
+  "decisions": [
+    {
+      "event_id": "b4d9a65bb5ed6831",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 42,
+      "score_components": {
+        "relevance": 6,
+        "freshness": 8,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "omni.se"
+      ],
+      "articles": [
+        {
+          "title": "HVB-hem stängdes trots att gängkoppling saknades",
+          "url": "https://omni.se/hvb-hem-stangdes-trots-att-gangkoppling-saknades/a/oKynGK"
+        }
+      ]
+    },
+    {
+      "event_id": "a4dc5ba9a8274519",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 39,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 8,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "omni.se"
+      ],
+      "articles": [
+        {
+          "title": "Historiskt stadshus förstört efter våldsamma protester",
+          "url": "https://omni.se/historiskt-stadshus-forstort-efter-valdsamma-protester/a/0BzQk0"
+        }
+      ]
+    },
+    {
+      "event_id": "cc76d5e10232699d",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 39,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 8,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "polisen.se"
+      ],
+      "articles": [
+        {
+          "title": "Svensk gängkriminell gripen i Tyskland",
+          "url": "https://polisen.se/aktuellt/nyheter/nationell/2026/oktober/svensk-gangkriminell-gripen-i-tyskland/"
+        }
+      ]
+    },
+    {
+      "event_id": "b2f27731b4124ff9",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 36,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 8,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "sverigesradio.se"
+      ],
+      "articles": [
+        {
+          "title": "Kvinnan som sköts i idrottshallen i Älvsjö är död",
+          "url": "https://www.sverigesradio.se/artikel/kvinnan-som-skots-i-alvsjo-ar-dod"
+        }
+      ]
+    }
+  ],
+  "rejected": [],
+  "identified_events_are_estimates": true,
+  "review_source_count": 4,
+  "channel_scope": {
+    "input_count": 4,
+    "accepted_count": 4,
+    "rejected": [],
+    "discussion_signals": []
+  },
+  "collection_evidence": {
+    "state": "ready",
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "channel": "mediesvepet",
+    "discovery": {
+      "original_fallback": {
+        "sources": [
+          {
+            "name": "Sveriges Radio",
+            "url": "https://www.sverigesradio.se/artikel/kvinnan-som-skots-i-alvsjo-ar-dod",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200
+          },
+          {
+            "name": "Omni, återger Le Figaro",
+            "url": "https://omni.se/historiskt-stadshus-forstort-efter-valdsamma-protester/a/0BzQk0",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200
+          },
+          {
+            "name": "Polisen",
+            "url": "https://polisen.se/aktuellt/nyheter/nationell/2026/oktober/svensk-gangkriminell-gripen-i-tyskland/",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200
+          },
+          {
+            "name": "Omni, återger DN",
+            "url": "https://omni.se/hvb-hem-stangdes-trots-att-gangkoppling-saknades/a/oKynGK",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200
+          }
+        ]
+      },
+      "media_reference_date": "2026-10-19",
+      "media_temporal": {
+        "excluded": [],
+        "unresolved_gaps": [],
+        "start": "2026-10-16T07:15:00+02:00",
+        "cutoff": "2026-10-19T07:15:00+02:00"
+      }
+    },
+    "checked_at": "2026-10-22T16:45:18.670291+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  },
+  "work_import": {
+    "package_sha256": "750a3f356c9407865901acd235e95ad46e0afb1e9731c3e5338778d0b9bc10e8",
+    "candidate_sha256": "23c7a9a5d35d61d2dd0295de353280dc43ce283f2cee6fc762cbefb265d0953f",
+    "provenance": {
+      "issue": 151,
+      "source": "Work, faktiskt lästa offentliga sidor",
+      "new_model_review_required": true,
+      "reference_cutoff": "2026-10-19T07:15:00+02:00",
+      "historical": true,
+      "reference_comparison": "Daterade ledtrådar i #151, inte fullständiga originalutskick"
+    },
+    "editorial_approved": false
+  }
+}
