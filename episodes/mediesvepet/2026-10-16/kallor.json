@@ -1,0 +1,74 @@
+[
+  {
+    "source": "Sveriges Radio",
+    "title": "Tre barn och en lärare dödade i Oregon",
+    "url": "https://www.sverigesradio.se/artikel/tre-barn-doda-efter-skolskjutning-i-oregon",
+    "evidence": {
+      "date": "2026-10-15T22:43:00+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T15:18:59.270363+00:00",
+      "page_sha256": "4548a58fc546836baccab64aaf3c8d2e9212478c9bc8f6ea9175f6fceaa8a92b",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Polisen",
+    "title": "Efterlyst man gripen i Marocko",
+    "url": "https://polisen.se/aktuellt/nyheter/vast/2026/oktober/vastsvensk-gripen-i-marocko/",
+    "evidence": {
+      "date": "2026-10-15T08:37:25+02:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T15:16:05.001564+00:00",
+      "page_sha256": "1bdf136f4ab10a57ca440774246ea18ee293ad36976adb528229c455b4c79145",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Aftonbladet",
+    "title": "Ordningsvakter har fått lämna efter privat chatt",
+    "url": "https://www.aftonbladet.se/nyheter/a/xlbOvV/securitas-i-goteborg-17-ordningsvakter-sparkas-efter-hemlig-chatt",
+    "evidence": {
+      "date": "2026-10-15T17:08:00+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T15:16:10.401983+00:00",
+      "page_sha256": "445c80d5f02e0c4c0027eb3f0d087b518709fb526b11b5f8f6ed5beb3f2889f1",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Sveriges Radio",
+    "title": "Svensk koppleriutredning efter Epsteinmiljoner",
+    "url": "https://www.sverigesradio.se/artikel/epsteinmiljonerna-barbro-ehnbom-i-utredning-om-koppleri",
+    "evidence": {
+      "date": "2026-10-15T03:55:00+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T15:16:04.673887+00:00",
+      "page_sha256": "56beca85c48e6998695f8615ba005ffae3bb4f244cd5f090d2e9373e0041f036",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "EFN, Nyhetsbyrån Direkt",
+    "title": "Ryska uppgifter om gripen svensk",
+    "url": "https://efn.se/ryska-sakerhetstjansten-svensk-gripen-for-misstankta-terrorplaner",
+    "evidence": {
+      "date": "2026-10-15T07:24:42+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T15:51:06.496792+00:00",
+      "page_sha256": "eae35469672c85166c1eaa6c54e8c89fad1c1f3ca7e02dec3bd9fb77502ca164",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "TV4 Nyheterna",
+    "title": "Polisyrket i topp i undersökning om ungas drömjobb",
+    "url": "https://www.tv4.se/artikel/3RjSmXPAhW4DIs61m3SUQv/haer-aer-de-ungas-droemjobb-polis-tar-oever-foerstaplatsen",
+    "evidence": {
+      "date": "2026-10-15T05:18:08.767000+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T15:51:08.476614+00:00",
+      "page_sha256": "403e43d64f5858e71b5d2de1f790fd1cfbb45664f1d33f207768db100e4609d9",
+      "retrieval_limit": null
+    }
+  }
+]
