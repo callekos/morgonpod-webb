@@ -25,7 +25,7 @@ test('each ready series contains distinct originals, derivatives and an eight-ch
  assert.equal(allOriginals.length,manifest.styles.filter(s=>s.id!=='v3').length*8);
 });
 test('classification retains existing identities and accepts Mediesvepet growth',()=>{
- const core=require('../app.js'),channels=JSON.parse(fs.readFileSync('catalog/manifest.json')).channels;const groups=core.channelGroups(channels);const hasMedia=channels.some(c=>c.id==='mediesvepet');assert.deepEqual(groups[0].channels.map(c=>c.id),['ibat','vald','sjoomradet','kek',...(hasMedia?['mediesvepet']:[])]);assert.equal(groups[1].channels.length,4);assert.equal(new Set(groups.flatMap(g=>g.channels.map(c=>c.id))).size,hasMedia?9:8);
+ const core=require('../app.js'),channels=JSON.parse(fs.readFileSync('catalog/manifest.json')).channels;const groups=core.channelGroups(channels);const hasMedia=channels.some(c=>c.id==='mediesvepet');assert.deepEqual(groups[0].channels.map(c=>c.id),[...(hasMedia?['mediesvepet']:[]),'ibat','vald','sjoomradet','kek']);assert.equal(groups[1].channels.length,4);assert.equal(new Set(groups.flatMap(g=>g.channels.map(c=>c.id))).size,hasMedia?9:8);
 });
 test('valid explicit V3 and all twenty saved choices survive the new default',()=>{
  for(const style of manifest.styles){const data=new Map([[Art.KEY,style.id]]);const storage={getItem:k=>data.get(k),setItem:(k,v)=>data.set(k,v),removeItem:k=>data.delete(k)};const api=Art.create(manifest,storage);assert.equal(api.selected,style.id);api.reset();assert.equal(api.selected,'06-film');assert.equal(data.has(Art.KEY),false);}
