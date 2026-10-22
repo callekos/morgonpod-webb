@@ -19,12 +19,25 @@ test('media joins monitoring independently of knowledge channels',()=>{
  assert.deepEqual(groups.map(g=>g.channels.map(c=>c.id)),[['mediesvepet'],['lagstiftning']]);
 });
 
-test('historical media displays reference day and actual production separately on cards and articles',()=>{
+test('media displays its reference day while preserving actual production and delivery data',()=>{
  const e={channel:'mediesvepet',date:'2026-10-21',published_at:'2026-10-22T15:24:23Z'};
  assert.equal(Core.displayDate(e),'2026-10-21');
- assert.match(Core.prettyDate(e),/^21 okt.*efterhandsproducerat.*publicerat 22 okt.*17:24/);
- assert.match(Core.prettyDate({...e,produced_at:'2026-10-22T15:22:00Z'}),/efterhandsproducerat 22 okt.*17:22/);
+ assert.match(Core.prettyDate(e),/^21 okt.*efterhandsproducerat$/);
+ assert.equal(Core.prettyDate({...e,produced_at:'2026-10-22T15:22:00Z'}),Core.prettyDate(e));
+ assert.doesNotMatch(Core.prettyDate(e),/publicerat|22 okt|17:24/);
  assert.equal(Core.displayDate({...e,channel:'ibat'}),e.published_at);
  assert.doesNotMatch(Core.prettyDate({...e,date:'2026-10-22'}),/efterhandsproducerat/);
  assert.equal(e.published_at,'2026-10-22T15:24:23Z');
+});
+
+test('media reference dates survive Stockholm midnight and retain complete source metadata',()=>{
+ for(const published_at of ['2026-10-21T22:30:00Z','2026-10-22T23:30:00Z']){
+  const e={channel:'mediesvepet',date:'2026-10-22',published_at,produced_at:'2026-10-22T13:00:00Z'};
+  const before=JSON.stringify(e);
+  assert.equal(Core.displayDate(e),'2026-10-22');
+  assert.match(Core.prettyDate(e),/^22 okt\.(?: · efterhandsproducerat)?$/);
+  assert.doesNotMatch(Core.prettyDate(e),/21 okt|23 okt|00:30|01:30|15:00/);
+  assert.equal(JSON.stringify(e),before);
+ }
+ assert.equal(Core.displayDate({channel:'ibat',date:'2026-10-22',published_at:'2026-10-22T04:00:00Z'}),'2026-10-22T04:00:00Z');
 });
