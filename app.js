@@ -125,7 +125,7 @@ if (typeof document !== 'undefined') (async () => {
   const metadata = e => '<span class="channel-name">'+esc(channel(e.channel))+'</span><time class="episode-date" datetime="'+esc(Core.displayDate(e))+'">'+esc(prettyDate(e))+'</time>';
   const articleCard = a => '<a class="article-card" href="'+url('artikel',{id:a.id})+'">'+cover(a.channel,'article-cover')+'<div><small>'+metadata(a)+'</small><h3>'+esc(a.title)+'</h3><p>'+esc(a.summary||'')+'</p><span class="read-time">'+(a.reading_minutes?esc(a.reading_minutes)+' min läsning':'Läs artikeln')+'</span></div>'+icon('chevron-right')+'</a>';
   const episodeRow = e => '<div class="episode-shell"><button type="button" class="episode-art direct-play" data-play="'+esc(e.id)+'" aria-label="Spela '+esc(episodeTitle(e))+'">'+cover(e.channel,'episode-cover')+'<span class="play-symbol">'+icon('play')+'</span></button><details class="episode" data-id="'+esc(e.id)+'"><summary><span class="row-title" data-channel="'+esc(channel(e.channel))+'"><small class="item-meta">'+metadata(e)+'</small><strong>'+esc(episodeTitle(e))+'</strong>'+(Core.isIntro(e)?'<span class="intro-badge">Avsnitt 1 / Uppstart</span>':'')+'<span class="episode-topics">'+esc((e.topic_labels||e.tags||[]).slice(0,2).join(' · '))+'</span></span><span class="duration">'+(e.duration_seconds?duration(e.duration_seconds):'')+'</span>'+icon('chevron-down')+'</summary><div class="episode-body"><p role="status">Laddar avsnitt…</p></div></details></div>';
-  async function detail(kind,id) { return json('catalog/'+kind+'/'+(await hash(id)).slice(0,24)+'.json'); }
+  async function detail(kind,id,fresh=false) { const path='catalog/'+kind+'/'+(await hash(id)).slice(0,24)+'.json';if(fresh)cache.delete(path);return json(path); }
   async function track(type,id) {
     if (!config.goatcounter || navigator.doNotTrack === '1' || !window.goatcounter?.count) return;
     const k = type+':'+id;
@@ -218,8 +218,9 @@ if (typeof document !== 'undefined') (async () => {
     const request=++playbackRequest;
     if(currentEpisode?.id!==e.id)audio.pause();
     player.hidden=false;document.body.classList.add('has-player');$('#player-title').textContent=episodeTitle(e);$('#player-status').textContent='Hämtar avsnitt…';updateArtImage($('#player-image'),e.channel,true);
-    if(!e.audio){try{e=await detail('episodes',e.id);}catch{if(request!==playbackRequest)return;notice='Avsnittet finns inte tillgängligt. Välj Nästa eller ett annat avsnitt.';updateQueue();return;}}
+    if(!e.audio||Core.isIntro(e)){try{const fresh=await detail('episodes',e.id,Core.isIntro(e));if(request!==playbackRequest)return;if(Core.isIntro(e)&&e.audio&&e.audio!==fresh.audio)resumePosition=0;e=fresh;const at=queue.items.findIndex(row=>row.id===e.id);if(at>=0)queue.items[at]=e;}catch{if(request!==playbackRequest)return;notice='Avsnittet finns inte tillgängligt. Välj Nästa eller ett annat avsnitt.';updateQueue();return;}}
     if(request!==playbackRequest)return;
+    $('#player-title').textContent=episodeTitle(e);
     if(!Core.safePath(e.audio)){notice='Ljudfilen finns inte tillgänglig. Välj Nästa.';updateQueue();return;}
     const changed=currentEpisode?.id!==e.id||audio.getAttribute('src')!==e.audio||!!audio.error;
     if(changed){audio.preload='metadata';const rate=audio.playbackRate;audio.pause();currentEpisode=e;audio.src=e.audio;audio.playbackRate=rate;elapsed=0;previousTime=0;}

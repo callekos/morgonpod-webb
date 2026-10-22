@@ -59,3 +59,27 @@ test('empty exact-word search offers a bounded clickable complete-word suggestio
  await page.route('**/catalog/search/*.json',r=>r.fulfill({json:{fastighetsstopp:[rows[4]]}}));
  await page.goto('/utforska.html');await page.getByRole('searchbox').fill('fastighet');await page.getByRole('button',{name:'Sök',exact:true}).click();await page.getByRole('button',{name:'fastighetsstopp',exact:true}).click();await expect(page.locator('.episode')).toHaveCount(1);await expect(page.locator('.episode')).toHaveAttribute('data-id','e4');
 });
+
+test('saved introduction resolves its current version on the same identity',async({page})=>{
+ await fixture(page);
+ const old={...rows[0],id:'intro142',kind:'introduction',is_intro:true,episode_order:1,title:'Gammal uppstart'};
+ const current={...old,title:'Straffrätt för poliser: en första orientering',audio:'episodes/fixture/e1.wav',description:'Nytt godkänt innehåll',articles:[]};
+ let details=0;const media=[];
+ page.on('request',r=>{if(r.url().includes('/episodes/fixture/'))media.push(r.url());});
+ await page.route('**/catalog/episodes/*.json',r=>{details++;return r.fulfill({json:current});});
+ await page.addInitScript(saved=>localStorage.setItem('morgonpod-playback',JSON.stringify(saved)),{schema:1,items:[old,rows[2]],index:0,source:null,excluded:[],label:'Sparad kö',position:12,rate:1.25});
+ await page.goto('/lyssna.html');
+ await expect(page.locator('#audio')).toHaveAttribute('src',current.audio);
+ await expect(page.locator('#player-title')).toHaveText(current.title);
+ await expect(page.locator('#audio')).toHaveJSProperty('paused',true);
+ await expect(page.locator('#audio')).toHaveJSProperty('currentTime',0);
+ const saved=await page.evaluate(()=>JSON.parse(localStorage.getItem('morgonpod-playback')));
+ expect(saved.items.map(x=>x.id)).toEqual(['intro142','e2']);
+ expect(saved.items[0].audio).toBe(current.audio);expect(saved.position).toBe(0);
+ expect(media.some(url=>url.includes('/e0.wav'))).toBeFalsy();
+ await page.locator('#play-pause').click();
+ await expect.poll(()=>page.locator('#audio').evaluate(a=>a.currentTime)).toBeGreaterThan(0);
+ expect(details).toBeGreaterThanOrEqual(2);
+ await page.locator('#play-pause').click();
+ await expect(page.locator('audio')).toHaveCount(1);
+});
