@@ -10,7 +10,7 @@ test('V3 four sections, eight distinct images, themes and bounded morning playli
  // Source lists may retain retired records; verify the client hides those IDs.
  const active=rows.filter(e=>!manifest.superseded[e.id]);expect(active.length).toBeGreaterThan(0);
  await page.goto('/lyssna.html');await expect(page.locator('.episode').first()).toBeVisible();const visible=await page.locator('.episode').evaluateAll(nodes=>nodes.map(n=>n.dataset.id));expect(visible.length).toBeGreaterThan(0);expect(visible.every(id=>active.some(e=>e.id===id))).toBe(true);expect(visible.some(id=>manifest.superseded[id])).toBe(false);await page.goto('/idag.html');await expect(page.locator('.morning-strip a').first()).toBeVisible();
- const actual=await page.locator('.morning-strip a').count();expect(actual).toBeGreaterThan(0);expect(actual).toBeLessThanOrEqual(4);
+ const actual=await page.locator('.morning-strip a').count();expect(actual).toBeGreaterThan(0);expect(actual).toBeLessThanOrEqual(manifest.channels.filter(c=>c.channel_type==='monitoring').length);
  await page.getByRole('button',{name:'Spela bevakningen',exact:true}).click();await expect(page.locator('#player')).toBeVisible();await expect.poll(()=>page.locator('#audio').evaluate(a=>a.currentTime)).toBeGreaterThan(0);await page.locator('#play-pause').click();
  await page.locator('#queue-toggle').click();await expect(page.locator('.queue-title')).toHaveCount(actual-1);await page.getByRole('button',{name:'Stäng kön'}).click();
  await page.getByRole('link',{name:'Mer',exact:true}).click();await page.getByLabel('Mörkt läge',{exact:true}).check();await page.getByRole('link',{name:'Idag',exact:true}).click();await expect(page.locator('.morning-brief')).toBeVisible();await page.evaluate(()=>window.scrollTo(0,0));await page.screenshot({path:'docs/evidence/'+info.project.name+'-v3-dark.png',fullPage:true,scale:'css'});
@@ -20,10 +20,10 @@ test('V3 four sections, eight distinct images, themes and bounded morning playli
 test('V3 ordinary next-day arrival replaces fallback, special does not join morning queue',async({page})=>{
  await page.clock.setFixedTime(new Date('2026-10-21T06:00:00Z'));
  const m=await(await page.request.get('/catalog/manifest.json')).json();
- const channels=['ibat','vald','sjoomradet','kek'];for(const c of channels)m.collections['episodes/ordinary/channel/'+c]={count:2,pages:['catalog/lists/episodes/ordinary/channel/'+c+'/0.json']};
+ const channels=m.channels.filter(c=>c.channel_type==='monitoring').map(c=>c.id);for(const c of channels)m.collections['episodes/ordinary/channel/'+c]={count:2,pages:['catalog/lists/episodes/ordinary/channel/'+c+'/0.json']};
  await page.route('**/catalog/manifest.json',r=>r.fulfill({json:m}));
  await page.route('**/catalog/lists/episodes/ordinary/channel/**',r=>{const c=r.request().url().split('/').at(-2);if(c==='lagstiftning')return r.continue();return r.fulfill({json:{items:[{id:'WORK_SPECIALS_2026_10_21:'+c+':1',channel:c,kind:'special',date:'2026-10-21'},{id:c+':2026-10-21:daily',channel:c,kind:'daily',date:'2026-10-21',title:'Ny ordinarie '+c,duration_seconds:180,audio:'episodes/test.mp3'}]}});});
- await page.goto('/idag.html');await expect(page.locator('.morning-strip a')).toHaveCount(4);await expect(page.locator('#brief-action')).toContainText('4 avsnitt');await expect(page.locator('#morning-editions')).not.toContainText('Senaste tillgängliga');expect((await page.locator('.morning-strip a').evaluateAll(nodes=>nodes.map(n=>n.href))).every(u=>u.includes('2026-10-21%3Adaily'))).toBeTruthy();
+ await page.goto('/idag.html');await expect(page.locator('.morning-strip a')).toHaveCount(channels.length);await expect(page.locator('#brief-action')).toContainText(channels.length+' avsnitt');await expect(page.locator('#morning-editions')).not.toContainText('Senaste tillgängliga');expect((await page.locator('.morning-strip a').evaluateAll(nodes=>nodes.map(n=>n.href))).every(u=>u.includes('2026-10-21%3Adaily'))).toBeTruthy();
 });
 test('V3 retired episode and article deep links explain successor',async({page})=>{
  const m=await(await page.request.get('/catalog/manifest.json')).json(),id=Object.keys(m.superseded)[0];
@@ -36,3 +36,4 @@ test('V3 homepage intermediate widths keep titles visible and avoid nested card 
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();await expect(page.locator('.home-episodes .episode-list')).toHaveCSS('display','block');
  }
 });
+
