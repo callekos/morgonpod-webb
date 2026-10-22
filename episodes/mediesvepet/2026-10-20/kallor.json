@@ -1,0 +1,38 @@
+[
+  {
+    "source": "SVT Nyheter",
+    "title": "Landerholm fälld i hovrätten",
+    "url": "https://www.svt.se/nyheter/inrikes/i-dag-faller-hovrattsdomen-mot-henrik-landerholm",
+    "evidence": {
+      "date": "2026-10-19T09:17:04+02:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T14:55:48.462126+00:00",
+      "page_sha256": "b7f630a247114a223fb5f03bd258db84d978c511be2cb2b9b9b3be1ce4671014",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Sveriges Radio",
+    "title": "Frankrike öppnar för lokala utegångsförbud",
+    "url": "https://www.sverigesradio.se/artikel/frankrikes-premiarminister-oppnar-for-utegangsforbud",
+    "evidence": {
+      "date": "2026-10-19T15:25:00Z",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T14:56:59.577466+00:00",
+      "page_sha256": "2a0689a8fe4e54dab690a6d9fa819c62674c931b7daa3edc6680ecbeaee7f8c5",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "SVT Nyheter",
+    "title": "Unga kvinnors uppgifter i P3-granskning",
+    "url": "https://www.svt.se/nyheter/video/91f3bc8ca38a736e-unga-tjejer-vittnar-pressas-att-salja-sexuellt-innehall/jdbc2w",
+    "evidence": {
+      "date": "2026-10-19T12:13:58+02:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T14:56:56.882918+00:00",
+      "page_sha256": "02584aad2aa5151d3d94469d9f527ef0ce7454a9a7cc70d62d78e53da357d759",
+      "retrieval_limit": null
+    }
+  }
+]

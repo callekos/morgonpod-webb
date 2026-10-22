@@ -1,0 +1,90 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "",
+  "source_coverage": [
+    {
+      "claim": "Henrik Landerholm fälls i Svea hovrätt för vårdslöshet med hemlig uppgift och döms till 80 dagsböter på 650 kronor.",
+      "source_url": "https://www.svt.se/nyheter/inrikes/i-dag-faller-hovrattsdomen-mot-henrik-landerholm"
+    },
+    {
+      "claim": "Frankrikes premiärminister öppnar för lokala utegångsförbud efter protester och vandalisering.",
+      "source_url": "https://www.sverigesradio.se/artikel/frankrikes-premiarminister-oppnar-for-utegangsforbud"
+    },
+    {
+      "claim": "SVT:s videobeskrivning återger en granskning från P3 Nyheter där unga tjejer vittnar om att de pressats att sälja sexuellt innehåll på Onlyfans efter att ha lurats till Spanien.",
+      "source_url": "https://www.svt.se/nyheter/video/91f3bc8ca38a736e-unga-tjejer-vittnar-pressas-att-salja-sexuellt-innehall/jdbc2w"
+    }
+  ],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/i-dag-faller-hovrattsdomen-mot-henrik-landerholm",
+      "covered_facts": [
+        "Hovrätten ändrade tingsrättens dom",
+        "Landerholm fälls för vårdslöshet med hemlig uppgift",
+        "80 dagsböter på 650 kronor",
+        "Grov oaktsamhet bedömdes",
+        "Handlingar glömda på Gällöfsta i mars 2023",
+        "Landerholm nekar och advokaten håller överklagande öppet"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/frankrikes-premiarminister-oppnar-for-utegangsforbud",
+      "covered_facts": [
+        "Sébastien Lecornu öppnar för lokala utegångsförbud",
+        "Kan gälla vissa områden som Place de la République",
+        "Undantagstillstånd nämns som möjlig ytterligare åtgärd"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.svt.se/nyheter/video/91f3bc8ca38a736e-unga-tjejer-vittnar-pressas-att-salja-sexuellt-innehall/jdbc2w",
+      "covered_facts": [
+        "P3 Nyheter har granskat uppgifter",
+        "Sex unga kvinnor har arbetat för samma agentur under de senaste fyra åren",
+        "Uppgifter om att ha lurats till Spanien för att sälja sexuellt innehåll på Onlyfans"
+      ],
+      "missing_facts": []
+    }
+  ],
+  "selection_decisions": [
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/i-dag-faller-hovrattsdomen-mot-henrik-landerholm",
+      "selected": true,
+      "reason": "Viktig händelse rörande svenskt rättsväsende och säkerhetsskydd.",
+      "event_key": "landerholm-hovrattsdom",
+      "source_quote": "Henrik Landerholm fälls i hovrätten"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/frankrikes-premiarminister-oppnar-for-utegangsforbud",
+      "selected": true,
+      "reason": "Relevant internationell händelse med bäring på trygghets- och ordningsläget.",
+      "event_key": "frankrike-utegangsforbud",
+      "source_quote": "Frankrikes premiärminister öppnar för utegångsförbud"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/video/91f3bc8ca38a736e-unga-tjejer-vittnar-pressas-att-salja-sexuellt-innehall/jdbc2w",
+      "selected": true,
+      "reason": "Relevanta uppgifter om brottslighet och utsatthet inom digitala plattformar.",
+      "event_key": "p3-onlyfans-granskning",
+      "source_quote": "Unga tjejer vittnar: Pressas att sälja sexuellt innehåll"
+    }
+  ],
+  "format_decision": {
+    "outcome": "standard",
+    "reason": "Tre skilda händelser med god täckning som rymmer sig väl inom riktmärket för avsnittslängd."
+  },
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "ebf3f87b2629e34538cee86d8cbad18cb1977175b83a72dbcce5e3b33ed7379d",
+    "news_sha256": "0822fdaef03cb012870dc029500b6245544fda8a1d1664ae02883440becaf693",
+    "script_sha256": "144196346d8ce5839ca19cb990c65ca496c884aa6452d66e7ff15997f4d9e5a0",
+    "collection_sha256": "5b71910dc711d9b5476f7509b026984b270e3c8120b54963c8abf9be5d87baba"
+  },
+  "reviewed_candidate_sha256": "c8c9c34d6e664a4aac3170bb5769b8b3ebdc785f2caf2c5bb87493788f6851d0",
+  "reviewed_script_sha256": "144196346d8ce5839ca19cb990c65ca496c884aa6452d66e7ff15997f4d9e5a0",
+  "work_package_sha256": "ff3e04bd9980f1a397ba052b4177b5c59e07dfd22281ce5c584c102ce93e11d7"
+}

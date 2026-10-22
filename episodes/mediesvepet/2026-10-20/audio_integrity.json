@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "complete": true,
+  "script_sha256": "144196346d8ce5839ca19cb990c65ca496c884aa6452d66e7ff15997f4d9e5a0",
+  "spoken_sha256": "144196346d8ce5839ca19cb990c65ca496c884aa6452d66e7ff15997f4d9e5a0",
+  "audio_sha256": "0da5e5f0490ec4ceed254ff41109ae1962dd6e1555d2693f4dbaff451e7b92f9",
+  "segments": [
+    {
+      "text_sha256": "17978c8d68b24005d756212995d63f634fd60ac2e188da72618db5d01a552f10",
+      "duration_seconds": 117.528,
+      "audio_sha256": "6e5ba6b4a6f848fbb0b538e693088985340189d47eeb0b4ef4bf44432767862d"
+    },
+    {
+      "text_sha256": "e7d3d18d6ee3f6c77da83744f9c5d59248f07f1e20de818f5c2a06fbf2819b94",
+      "duration_seconds": 32.544,
+      "audio_sha256": "10655f5bcf9f24a76ada4710fe2c2d44de786127942e1390a6db8b38ee078d26"
+    }
+  ]
+}

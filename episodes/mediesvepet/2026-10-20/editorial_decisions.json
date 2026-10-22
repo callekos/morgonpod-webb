@@ -1,0 +1,143 @@
+{
+  "channel": "mediesvepet",
+  "date": "2026-10-20",
+  "schema": 2,
+  "corroboration_method": "distinct_hosts_not_proof_of_independence",
+  "received": 3,
+  "unique_urls": 3,
+  "identified_events": 3,
+  "selected_articles": 3,
+  "selected_events": 3,
+  "unique_domains": 2,
+  "max_items": 40,
+  "gemini_calls": 0,
+  "decisions": [
+    {
+      "event_id": "298207be2e0ad9e0",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 48,
+      "score_components": {
+        "relevance": 12,
+        "freshness": 8,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Unga tjejer vittnar: Pressas att sälja sexuellt innehåll",
+          "url": "https://www.svt.se/nyheter/video/91f3bc8ca38a736e-unga-tjejer-vittnar-pressas-att-salja-sexuellt-innehall/jdbc2w"
+        }
+      ]
+    },
+    {
+      "event_id": "2c0877d6407b6f29",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 36,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 8,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "sverigesradio.se"
+      ],
+      "articles": [
+        {
+          "title": "Frankrikes premiärminister öppnar för utegångsförbud",
+          "url": "https://www.sverigesradio.se/artikel/frankrikes-premiarminister-oppnar-for-utegangsforbud"
+        }
+      ]
+    },
+    {
+      "event_id": "d021cd5a5f08a792",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 36,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 8,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Henrik Landerholm fälls i hovrätten",
+          "url": "https://www.svt.se/nyheter/inrikes/i-dag-faller-hovrattsdomen-mot-henrik-landerholm"
+        }
+      ]
+    }
+  ],
+  "rejected": [],
+  "identified_events_are_estimates": true,
+  "review_source_count": 3,
+  "channel_scope": {
+    "input_count": 3,
+    "accepted_count": 3,
+    "rejected": [],
+    "discussion_signals": []
+  },
+  "collection_evidence": {
+    "state": "ready",
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "channel": "mediesvepet",
+    "discovery": {
+      "original_fallback": {
+        "sources": [
+          {
+            "name": "SVT Nyheter",
+            "url": "https://www.svt.se/nyheter/inrikes/i-dag-faller-hovrattsdomen-mot-henrik-landerholm",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200
+          },
+          {
+            "name": "Sveriges Radio",
+            "url": "https://www.sverigesradio.se/artikel/frankrikes-premiarminister-oppnar-for-utegangsforbud",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200
+          },
+          {
+            "name": "SVT Nyheter",
+            "url": "https://www.svt.se/nyheter/video/91f3bc8ca38a736e-unga-tjejer-vittnar-pressas-att-salja-sexuellt-innehall/jdbc2w",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200
+          }
+        ]
+      },
+      "media_reference_date": "2026-10-20",
+      "media_temporal": {
+        "excluded": [],
+        "unresolved_gaps": [],
+        "start": "2026-10-19T07:15:00+02:00",
+        "cutoff": "2026-10-20T07:15:00+02:00"
+      }
+    },
+    "checked_at": "2026-10-22T16:33:33.450000+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  },
+  "work_import": {
+    "package_sha256": "ff3e04bd9980f1a397ba052b4177b5c59e07dfd22281ce5c584c102ce93e11d7",
+    "candidate_sha256": "c8c9c34d6e664a4aac3170bb5769b8b3ebdc785f2caf2c5bb87493788f6851d0",
+    "provenance": {
+      "issue": 151,
+      "source": "Work, faktiskt lästa offentliga sidor",
+      "new_model_review_required": true,
+      "reference_cutoff": "2026-10-20T07:15:00+02:00",
+      "historical": true,
+      "reference_comparison": "Daterade ledtrådar i #151, inte fullständiga originalutskick"
+    },
+    "editorial_approved": false
+  }
+}

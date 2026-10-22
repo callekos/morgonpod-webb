@@ -1,0 +1,68 @@
+{
+  "title": "Mediesvepet: hovrättsdom, franska protester och mediegranskning",
+  "intro": "Efterhandsproducerat urval för 20 oktober 2026, med källor tillgängliga före 07.15.",
+  "outlook": "Fortsatta offentliga besked får följas i senare utgåvor.",
+  "news": [
+    {
+      "category": "Rättsligt",
+      "title": "Landerholm fälld i hovrätten",
+      "summary": "Svea hovrätt ändrade den friande tingsrättsdomen och dömde Henrik Landerholm till böter.",
+      "context": "SVT:s rapportering från måndagen anger att Henrik Landerholm dömts för vårdslöshet med hemlig uppgift till 80 dagsböter på 650 kronor. Hovrätten bedömde oaktsamheten som grov. Domen gäller handlingar som glömdes på Gällöfsta i mars 2023. Landerholm nekar till brott. Frågan om ett överklagande var enligt rapporteringen öppen.",
+      "url": "https://www.svt.se/nyheter/inrikes/i-dag-faller-hovrattsdomen-mot-henrik-landerholm",
+      "publisher": "SVT Nyheter",
+      "body": "SVT:s rapportering från måndagen anger att Henrik Landerholm dömts för vårdslöshet med hemlig uppgift till 80 dagsböter på 650 kronor. Hovrätten bedömde oaktsamheten som grov. Domen gäller handlingar som glömdes på Gällöfsta i mars 2023. Landerholm nekar till brott. Frågan om ett överklagande var enligt rapporteringen öppen.",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/inrikes/i-dag-faller-hovrattsdomen-mot-henrik-landerholm",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "category": "Polis och samhälle",
+      "title": "Frankrike öppnar för lokala utegångsförbud",
+      "summary": "Sveriges Radio rapporterade på måndagen om premiärministerns besked efter protesterna.",
+      "context": "Premiärminister Sébastien Lecornu öppnade enligt Sveriges Radios rapportering för lokala utegångsförbud i Frankrike. Beslut skulle kunna gälla särskilda områden efter protester och vandalisering. Rapporten beskriver en möjlig åtgärd, inte ett verifierat resultat. Senare rapportering om nattens utfall publicerades efter denna utgåvas morgongräns och används inte.",
+      "url": "https://www.sverigesradio.se/artikel/frankrikes-premiarminister-oppnar-for-utegangsforbud",
+      "publisher": "Sveriges Radio",
+      "body": "Premiärminister Sébastien Lecornu öppnade enligt Sveriges Radios rapportering för lokala utegångsförbud i Frankrike. Beslut skulle kunna gälla särskilda områden efter protester och vandalisering. Rapporten beskriver en möjlig åtgärd, inte ett verifierat resultat. Senare rapportering om nattens utfall publicerades efter denna utgåvas morgongräns och används inte.",
+      "sources": [
+        {
+          "url": "https://www.sverigesradio.se/artikel/frankrikes-premiarminister-oppnar-for-utegangsforbud",
+          "title": "Sveriges Radio"
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "category": "Mediegranskning",
+      "title": "Unga kvinnors uppgifter i P3-granskning",
+      "summary": "SVT:s offentliga videobeskrivning återger en granskning från P3 Nyheter.",
+      "context": "SVT:s offentliga beskrivning anger att P3 Nyheter talat med sex unga kvinnor som arbetat för samma agentur under de senaste fyra åren. Flera beskriver att de lurats till Spanien för att sälja sexuellt innehåll på Onlyfans. Endast den öppna beskrivningen har lästs här. Hela granskningen och videons ljud har inte konsumerats och inga ytterligare sakuppgifter läggs till.",
+      "url": "https://www.svt.se/nyheter/video/91f3bc8ca38a736e-unga-tjejer-vittnar-pressas-att-salja-sexuellt-innehall/jdbc2w",
+      "publisher": "SVT Nyheter",
+      "body": "SVT:s offentliga beskrivning anger att P3 Nyheter talat med sex unga kvinnor som arbetat för samma agentur under de senaste fyra åren. Flera beskriver att de lurats till Spanien för att sälja sexuellt innehåll på Onlyfans. Endast den öppna beskrivningen har lästs här. Hela granskningen och videons ljud har inte konsumerats och inga ytterligare sakuppgifter läggs till.",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/video/91f3bc8ca38a736e-unga-tjejer-vittnar-pressas-att-salja-sexuellt-innehall/jdbc2w",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "open_questions": []
+    }
+  ],
+  "description": "Efterhandsproducerat urval för 20 oktober 2026, med källor tillgängliga före 07.15.",
+  "tags": [
+    "Rättsligt",
+    "Polis och samhälle",
+    "Mediegranskning"
+  ],
+  "text_format": "editorial_articles",
+  "editorial_date": "2026-10-20",
+  "channel": "mediesvepet",
+  "produced_at": "2026-10-22T16:33:58.177418+00:00",
+  "reference_cutoff": "2026-10-20T07:15:00+02:00",
+  "retroactive": true,
+  "editorial_outcome": "standard"
+}
