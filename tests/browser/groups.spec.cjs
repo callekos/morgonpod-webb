@@ -36,3 +36,22 @@ test('numbered approved title is identical in archive, detail, saved queue, play
  await page.locator('#big-play').click();await page.evaluate(()=>{const state=JSON.parse(localStorage.getItem('morgonpod-playback'));for(const item of state.items)item.title='Onsdag V.43';localStorage.setItem('morgonpod-playback',JSON.stringify(state));});await page.reload();await expect(page.locator('#player-title')).toHaveText(row.title);
  await page.goto('/utforska.html');await page.getByRole('searchbox').fill(row.content_headline.split(' ')[0]);await page.getByRole('button',{name:'Sök',exact:true}).click();await expect(page.locator('[data-id="'+row.id+'"] .row-title strong')).toHaveText(row.title);
 });
+
+test('Mediesvepet leads monitoring presentation and other channel preferences survive',async({page})=>{
+ const monitoring=['mediesvepet','ibat','vald','sjoomradet','kek'];
+ const catalog=await(await page.request.get('/catalog/manifest.json')).json();
+ const knowledge=catalog.channels.filter(c=>c.channel_type==='knowledge').sort((a,b)=>a.display_order-b.display_order||a.id.localeCompare(b.id)).map(c=>c.id);
+ await page.addInitScript(()=>{localStorage.setItem('morgonpod-theme','dark');localStorage.setItem('order-preservation-probe','keep');});
+ for(const width of [320,1450]){
+  await page.setViewportSize({width,height:1000});
+  for(const route of ['/kanaler.html','/idag.html']){
+   await page.goto(route);const home=route==='/idag.html';
+   await expect(page.locator('[data-group=monitoring] .channel-card')).toHaveCount(home?4:5);
+   const ids=group=>page.locator('[data-group='+group+'] .channel-card').evaluateAll(nodes=>nodes.map(n=>new URL(n.href).searchParams.get('id')));
+   expect(await ids('monitoring')).toEqual(home?monitoring.slice(0,4):monitoring);
+   expect(await ids('knowledge')).toEqual(home?knowledge.slice(0,4):knowledge);
+   expect(await page.evaluate(()=>[localStorage.getItem('morgonpod-theme'),localStorage.getItem('order-preservation-probe')])).toEqual(['dark','keep']);
+   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+  }
+ }
+});
