@@ -1,0 +1,38 @@
+[
+  {
+    "source": "www.theregister.com - Articles",
+    "title": "Indisk certifikatutfärdare komprometterad efter extrema svagheter i privata nycklar",
+    "url": "https://www.theregister.com/security/2026/10/20/indian-certification-authority-emudhras-private-keys-compromised-one-of-them-was-the-number-4/5304312",
+    "evidence": {
+      "date": "2026-10-20T22:57:44+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T02:31:33.397937+00:00",
+      "page_sha256": "8e33a6621ef97e079726e9e5fdb059973aefa17a816f8914f1a59f3fa25f0adf",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "www.theregister.com - Articles",
+    "title": "Palo Alto Networks brandväggar under attack av flera ransomwaregrupper sedan juni",
+    "url": "https://www.theregister.com/cyber-crime/2026/10/20/palo-altos-firewall-os-has-been-under-attack-from-multiple-ransomware-groups-since-june/5304226",
+    "evidence": {
+      "date": "2026-10-20T17:33:26+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T02:31:33.016288+00:00",
+      "page_sha256": "5ae5d2c9baba99e2371b1b23d50400db93122c5ba6ccd17618a62a3a8f78fa89",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "www.theregister.com - Articles",
+    "title": "Glömt testkonto och svagt lösenord bakom walesiskt dataintrång",
+    "url": "https://www.theregister.com/cyber-crime/2026/10/20/password1-and-a-forgotten-test-account-land-welsh-outfits-in-hot-water/5304139",
+    "evidence": {
+      "date": "2026-10-20T13:35:00+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T02:31:33.025960+00:00",
+      "page_sha256": "3563e439b7105426cbd442a410782d9c2aba99f226192b5fa0382fe4de3d94d7",
+      "retrieval_limit": null
+    }
+  }
+]

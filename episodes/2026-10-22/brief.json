@@ -1,0 +1,93 @@
+{
+  "title": "IBATs morgonPOD – Säkerhetsläget och digitala sårbarheter",
+  "intro": "Välkommen till IBATs morgonPOD. I dagens avsnitt den 22 oktober 2026 fokuserar vi på aktuella cybersäkerhetshändelser och digitala sårbarheter med bred inverkan på informationsförsörjning och myndighetssamverkan.",
+  "outlook": "Sammanfattningsvis visar veckans rapportering att grundläggande brister som svaga lösenord och komprometterade certifikatsnycklar fortsätter att utgöra allvarliga risker för digital infrastruktur och samhällsservice. Det understryker vikten av kontinuerlig granskning och skärpta säkerhetskrav inom både offentlig och privat sektor.",
+  "news": [
+    {
+      "category": "Cybersäkerhet",
+      "title": "Indisk certifikatutfärdare komprometterad efter extrema svagheter i privata nycklar",
+      "summary": "The Register rapporterar den 20 oktober 2026 att eMudhra, en certifikatutfärdare som har utfärdat över 60 miljoner digitala certifikat, har fått sina privata nycklar komprometterade. Det har uppdagats att flera av de använda nycklarna var så svaga som enbart siffran '4', vilket gör dem extremt sårbara för brute force-attacker. Webbläsartillverkare har inlett ett omfattande saneringsarbete för att spärra de drabbade certifikaten.",
+      "context": "Händelsen visar på de stora riskerna med bristfällig kryptografisk hantering hos centrala leverantörer av digital tillit, vilket kan utnyttjas för att impersonera webbplatser och kringgå säkerhetsspärrar.",
+      "url": "https://www.theregister.com/security/2026/10/20/indian-certification-authority-emudhras-private-keys-compromised-one-of-them-was-the-number-4/5304312",
+      "publisher": "www.theregister.com - Articles",
+      "body": "Enligt en artikel publicerad i The Register den 20 oktober 2026 har privata nycklar kopplade till den indiska certifikatutfärdaren eMudhra komprometterats. eMudhra har utfärdat över 60 miljoner digitala certifikat globalt. Säkerhetsforskare har analyserat de berörda certifikaten och upptäckt att flera privata nycklar bestod av mycket enkla talsekvenser, däribland enbart siffran fyra. Detta innebär att nycklarna är triviala att gissa eller knäcka genom brute force, vilket i teorin gör det möjligt för angripare att utfärda falska HTTPS-certifikat och därmed avlyssna eller manipulera trafik. Mozilla, Apple och Google har vidtagit åtgärder för att uppdatera sina webbläsare så att certifikat utfärdade av eMudhra inte längre litar på, och en omfattande granskning pågår för att hjälpa organisationer att rensa bort beroenden till de komprometterade certifikaten.",
+      "id": "emudhra_keys_compromised_2026",
+      "assessment": "Enligt bedömning från kryptografiska experter i källmaterialet utgör detta en kritisk systemisk risk för digital tillit eftersom komprometterade certifikat kan användas för avancerad nätfiske och trafikavlyssning i stor skala.",
+      "open_questions": [
+        "Hur många svenska eller europeiska organisationer förlitar sig fortfarande på certifikat utställda av den berörda utfärdaren?",
+        "Vilka ytterligare kontrollmekanismer kan införas för att förhindra att uppenbart svaga privata nycklar godkänns i publika PKI-strukturer?"
+      ],
+      "topics": [
+        "Cybersäkerhet",
+        "Kryptografi",
+        "Certifikatutfärdare"
+      ],
+      "sources": [
+        {
+          "url": "https://www.theregister.com/security/2026/10/20/indian-certification-authority-emudhras-private-keys-compromised-one-of-them-was-the-number-4/5304312",
+          "title": "www.theregister.com - Articles"
+        }
+      ]
+    },
+    {
+      "category": "Cybersäkerhet",
+      "title": "Palo Alto Networks brandväggar under attack av flera ransomwaregrupper sedan juni",
+      "summary": "The Register rapporterar den 20 oktober 2026 att enhetsorganisationen Unit 42 vid Palo Alto Networks har utrett omfattande angrepp mot operativsystemet PAN-OS. Flera ransomwaregrupper, däribland Qilin och Inc, har utnyttjat en sårbarhet för autentiseringsomgång för att etablera obehöriga VPN-anslutningar. Angreppen har drabbat organisationer inom en rad olika branscher sedan tidigt i juni.",
+      "context": "Rapporten belyser hur sårbarheter i säkerhetsinfrastruktur utnyttjas som initial inträdesvektor för att uppnå nätverksåtkomst och kringgå multifaktorautentisering.",
+      "url": "https://www.theregister.com/cyber-crime/2026/10/20/palo-altos-firewall-os-has-been-under-attack-from-multiple-ransomware-groups-since-june/5304226",
+      "publisher": "www.theregister.com - Articles",
+      "body": "Enligt en artikel i The Register den 20 oktober 2026 har flera ransomwaregrupper, inklusive Qilin och Inc, utnyttjat en höggradig autentiseringssårbarhet (CVE-2026-0257) i Palo Alto Networks PAN-OS GlobalProtect-portaler och gateways. Sårbarheten upptäcktes och patchades ursprungligen av leverantören i maj, men säkerhetsforskning och Unit 42:s undersökningar visar att attackerna har pågått sedan tidigt i juni. Angripare har använt kryphålet för att få en första fotfäste i företagsnätverk, kringgå multifaktorautentisering och etablera otillåtna VPN-sessioner. Därefter har de rört sig i nätverken för att stjäla inloggningsuppgifter och förbereda utpressningsattacker, i vissa fall även genom att rikta in sig direkt på virtualiseringslager och hypervisorer för att undvika detektering.",
+      "id": "palo_alto_panos_attacks_2026",
+      "assessment": "Bedömningen från Unit 42 i källmaterialet är att angriparnas metoder har utvecklats till att direkt angripa virtualiseringsskiktet för att undvika upptäckt av klientskydd, vilket kräver noggrann hotjakt och uppdaterade skyddsrutiner.",
+      "open_questions": [
+        "Hur stor andel av de sårbara organisationerna har hunnit patcha sina system innan utnyttjande skedde?",
+        "Vilka specifika indikationer på kompromettering bör prioriteras vid intern granskning av nätverksloggar?"
+      ],
+      "topics": [
+        "Cybersäkerhet",
+        "Ransomware",
+        "Sårbarheter"
+      ],
+      "sources": [
+        {
+          "url": "https://www.theregister.com/cyber-crime/2026/10/20/palo-altos-firewall-os-has-been-under-attack-from-multiple-ransomware-groups-since-june/5304226",
+          "title": "www.theregister.com - Articles"
+        }
+      ]
+    },
+    {
+      "category": "Dataskydd",
+      "title": "Glömt testkonto och svagt lösenord bakom walesiskt dataintrång",
+      "summary": "The Register rapporterar den 20 oktober 2026 att Information Commissioner's Office i Storbritannien har utfärdat reprimander mot Ogi Networks och Data Cymru efter en ransomwareattack i slutet av 2024. Intrång möjliggjordes av ett inaktivt testkonto skyddat av lösenordet 'Password1', vilket ledde till att känsliga uppgifter om drygt 3 300 personer exfiltrerades.",
+      "context": "Fallet belyser vikten av regelbunden granskning av användarkonton och efterlevnad av grundläggande säkerhetsrutiner för att förhindra att gamla testresurser utnyttjas vid intrång.",
+      "url": "https://www.theregister.com/cyber-crime/2026/10/20/password1-and-a-forgotten-test-account-land-welsh-outfits-in-hot-water/5304139",
+      "publisher": "www.theregister.com - Articles",
+      "body": "Enligt en artikel publicerad i The Register den 20 oktober 2026 har den brittiska dataskyddsmyndigheten ICO utfärdat reprimander mot Ogi Networks Limited och Local Government Data Unit – Wales (Data Cymru). Bakgrunden är en ransomwareattack som inträffade den 1 november 2024, där en angripare utnyttjade ett gammalt testkonto med användarnamnet 'Test2' och lösenordet 'Password1' för att ta sig in i nätverket. Kontot hade skapats år 2012 och aldrig avaktiverats eller granskats, vilket gav angriparen möjlighet att kryptera data och stjäla information om 3 300 personer, huvudsakligen barn. Tillsynsmyndigheten konstaterar att organisationerna brustit i sina tekniska och organisatoriska säkerhetsåtgärder genom att inte granska aktiva konton och behörigheter regelbundet.",
+      "id": "welsh_ico_reprimand_2026",
+      "assessment": "Källans granskning visar att grundläggande hygienfaktorer som lösenordshygien och avveckling av inaktuella testkonton fortsatt försummas, vilket ger obehöriga en öppen dörr till känsliga system.",
+      "open_questions": [
+        "Vilka rutiner har införts för att säkerställa att tillfälliga testkonton rensas bort efter avslutat projekt?",
+        "Hur följer berörda myndigheter upp att leverantörer upprätthåller säkerhetskrav över tid?"
+      ],
+      "topics": [
+        "Dataskydd",
+        "Lösenordssäkerhet",
+        "Offentlig sektor"
+      ],
+      "sources": [
+        {
+          "url": "https://www.theregister.com/cyber-crime/2026/10/20/password1-and-a-forgotten-test-account-land-welsh-outfits-in-hot-water/5304139",
+          "title": "www.theregister.com - Articles"
+        }
+      ]
+    }
+  ],
+  "description": "Välkommen till IBATs morgonPOD. I dagens avsnitt den 22 oktober 2026 fokuserar vi på aktuella cybersäkerhetshändelser och digitala sårbarheter med bred inverkan på informationsförsörjning och myndighetssamverkan.",
+  "tags": [
+    "Cybersäkerhet",
+    "Dataskydd"
+  ],
+  "text_format": "editorial_articles",
+  "editorial_date": "2026-10-22",
+  "channel": "ibat"
+}
