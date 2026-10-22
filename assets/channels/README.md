@@ -17,3 +17,10 @@ Den 19 oktober byttes de fem första bilderna ut. Ägaren konstaterade att den g
 Breda webbmasters exporteras som WebP upp till 1200 × 800. Separata kvadratiska 640 × 640-utsnitt av samma master används till kanalgrid, avsnitt, artikellistor, minispelare och stor mobilspelare. Beskärningarnas fokus är valt per kanal och dokumenterat i grafikbedömningen. Hero och artikelsida använder bred master med separat fokalpunkt. Bildversion 3 och cacheversion v2-editorial3 tvingar fram bytet från den förkastade serien.
 
 Grafisk bedömning: docs/channel-art-review.md. Granskning av 128, 64 och 48 pixlar samt gråskala: docs/evidence/channel-art-final-crops.png. Alla bilder är symboliska kanalillustrationer, inte dokumentation av en verklig händelse.
+
+## Mediesvepet, 22 oktober 2026
+
+Eget symboliskt redaktionsmotiv med mikrofon och tidningar, skapat genom den inbyggda bildgenereringsförmågan. Inga verkliga nyhetshändelser, läsbar tidningstext, logotyper eller myndighetstecken. Samma motiv i bred WebP1200x800, liten400x267 och kvadrat640x640. Fokus48%50%, granskat även i litet utsnitt. Befintlig standard06-film och V3 har motivet; övriga sparade stilval faller tillbaka på kanalens V3-motiv. De åtta befintliga kanalernas tjugo experimentella bildserier bevaras. Ingen påstådd ny serie med tjugo Mediesvepetvarianter.
+
+Prompt: cinematic editorial newsroom desk, one large broadcast microphone beside folded newspapers, deep navy, muted teal and warm brass light, quiet Nordic newsroom background, central motif recognizable in square and48pixel crops, abstract unreadable newspaper marks, no people, logos, police insignia, text or watermark. Landscape1536x1024. Master sparad som generated_images/exec-7bb18e9c-23f1-4767-940e-ede369a7ccbd.png i utförarens arbetsyta; webbexporterna finns under assets/channels/mediesvepet*.webp.
+
