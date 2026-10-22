@@ -6,12 +6,13 @@ const Core = {
   isIntro: e => e.is_intro === true || e.kind === 'introduction' || /:introduction$/.test(e.id || ''),
   published: e => Date.parse(e.channel==='mediesvepet' ? e.date || '' : e.published_at || e.date || '') || 0,
   historicalMedia: e => e.channel === 'mediesvepet' && !!e.date && !!e.published_at && Number.isFinite(Date.parse(e.published_at)) && Core.stockholmDay(new Date(e.published_at)) !== e.date,
-  displayDate: e => Core.historicalMedia(e) ? e.date : e.published_at || e.date || '',
+  displayDate: e => e.channel === 'mediesvepet' && e.date ? e.date : e.published_at || e.date || '',
   prettyDate: e => {
     const raw=Core.displayDate(e);if(!raw)return '';
     const format=(value,timed)=>{const d=new Date(value);return Number.isNaN(d.getTime())?'':new Intl.DateTimeFormat('sv-SE',{day:'numeric',month:'short',timeZone:'Europe/Stockholm',...(timed?{hour:'2-digit',minute:'2-digit'}:{})}).format(d);};
     const historical=Core.historicalMedia(e);
-    return format(raw,!historical&&!!e.published_at)+(historical?' · efterhandsproducerat'+(e.produced_at?' '+format(e.produced_at,true):' · publicerat '+format(e.published_at,true)):'');
+    if(e.channel === 'mediesvepet' && e.date)return format(raw,false)+(historical?' · efterhandsproducerat':'');
+    return format(raw,!!e.published_at);
   },
   channelOrder: [],
   channelGroups: channels => ['monitoring','knowledge'].map(type=>({type,channels:channels.filter(c=>c.channel_type===type).sort((a,b)=>(a.display_order??Number.MAX_SAFE_INTEGER)-(b.display_order??Number.MAX_SAFE_INTEGER)||a.id.localeCompare(b.id))})),

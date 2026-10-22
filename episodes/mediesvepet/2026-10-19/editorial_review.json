@@ -1,0 +1,109 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "",
+  "source_coverage": [
+    {
+      "claim": "Två män i övre tonåren är anhållna misstänkta för mord och grovt vapenbrott efter skjutningen i Älvsjö.",
+      "source_url": "https://www.sverigesradio.se/artikel/kvinnan-som-skots-i-alvsjo-ar-dod"
+    },
+    {
+      "claim": "Stadshuset i franska Limoges har till stora delar förstörts i en brand efter våldsamma protester, och flera polisbilar sattes i brand samt butiker plundrades.",
+      "source_url": "https://omni.se/historiskt-stadshus-forstort-efter-valdsamma-protester/a/0BzQk0"
+    },
+    {
+      "claim": "En svensk man i 30-årsåldern som misstänks för grov allvarlig våldsbrottslighet i Stockholms län greps i Tyskland den 15 oktober.",
+      "source_url": "https://polisen.se/aktuellt/nyheter/nationell/2026/oktober/svensk-gangkriminell-gripen-i-tyskland/"
+    },
+    {
+      "claim": "Inspektionen för vård och omsorg (Ivo) har stängt 39 HVB-hem i jakten på gängkriminella aktörer, men de flesta stängdes på grund av andra skäl som brister i registerkontroller av personal.",
+      "source_url": "https://omni.se/hvb-hem-stangdes-trots-att-gangkoppling-saknades/a/oKynGK"
+    }
+  ],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://www.sverigesradio.se/artikel/kvinnan-som-skots-i-alvsjo-ar-dod",
+      "covered_facts": [
+        "Kvinnan i 25-årsåldern som sköts i idrottshallen i Älvsjö har avlidit.",
+        "Två män i övre tonåren är anhållna misstänkta för mord och grovt vapenbrott.",
+        "De är inte hemmahörande i Stockholm.",
+        "Åklagaren uppger att det generellt kan finnas koppling till organiserad brottslighet vid skjutvapenvåld i offentliga miljöer, men motivet är fortfarande oklart."
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://omni.se/historiskt-stadshus-forstort-efter-valdsamma-protester/a/0BzQk0",
+      "covered_facts": [
+        "Stadshuset i Limoges förstördes till stora delar i en brand efter protester mot höga levnadskostnader.",
+        "Maskerade personer tog sig in och satte eld på byggnaden.",
+        "Flera polisbilar sattes i brand och butiker plundrades.",
+        "Stadshus i Lille och Marseille utsattes för skadegörelse."
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://polisen.se/aktuellt/nyheter/nationell/2026/oktober/svensk-gangkriminell-gripen-i-tyskland/",
+      "covered_facts": [
+        "En man i 30-årsåldern greps den 15 oktober i Tyskland.",
+        "Mannen misstänks för grov allvarlig våldsbrottslighet i Stockholms län och beskrivs som drivande i ett nätverk.",
+        "Gripandet genomfördes av tysk polis i samarbete med rumänsk och svensk polis samt Europol."
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://omni.se/hvb-hem-stangdes-trots-att-gangkoppling-saknades/a/oKynGK",
+      "covered_facts": [
+        "Ivo har stängt 39 HVB-hem i jakten på gängkriminella.",
+        "De flesta stängdes på grund av andra skäl, främst brister i registerkontroller av personal.",
+        "Ivo medger att man inte vet hur många av hemmen som drevs av kriminella samt att man inte har följt upp vad som hänt med barnen efter stängningarna."
+      ],
+      "missing_facts": []
+    }
+  ],
+  "selection_decisions": [
+    {
+      "url": "https://www.sverigesradio.se/artikel/kvinnan-som-skots-i-alvsjo-ar-dod",
+      "selected": true,
+      "reason": "Viktig svensk nyhet om dödsskjutning och anhållna misstänkta.",
+      "event_key": "alvsjo-skjutning-dodsfall",
+      "source_quote": "Två män i övre tonåren är anhållna misstänkta för mord och grovt vapenbrott."
+    },
+    {
+      "url": "https://omni.se/historiskt-stadshus-forstort-efter-valdsamma-protester/a/0BzQk0",
+      "selected": true,
+      "reason": "Relevant omvärldsbevakning om omfattande våldsamma protester och förstörelse i Europa.",
+      "event_key": "frankrike-protester-limoges",
+      "source_quote": "Flera polisbilar sattes i brand och butiker plundrades."
+    },
+    {
+      "url": "https://polisen.se/aktuellt/nyheter/nationell/2026/oktober/svensk-gangkriminell-gripen-i-tyskland/",
+      "selected": true,
+      "reason": "Central händelse gällande internationellt polissamarbete och gripande av högvärdesmål.",
+      "event_key": "berlin-gripande-gangkriminell",
+      "source_quote": "Mannen är misstänkt för grov allvarlig våldsbrottslighet i Stockholms län."
+    },
+    {
+      "url": "https://omni.se/hvb-hem-stangdes-trots-att-gangkoppling-saknades/a/oKynGK",
+      "selected": true,
+      "reason": "Viktig granskning av svensk tillsyn, HVB-hem och trygghetsfrågor.",
+      "event_key": "ivo-hvb-hem-granskning",
+      "source_quote": "Men de flesta stängdes av andra skäl, främst brister i registerkontroller av personal, rapporterar DN."
+    }
+  ],
+  "format_decision": {
+    "outcome": "standard",
+    "reason": "Fyra skilda välbelagda händelser som täcker relevant mediautbud inom måndagens referensfönster."
+  },
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "20203de03145ab97b2081d0347358f43b27c4b7f1f002c1846b04d9cb5e1d8c9",
+    "news_sha256": "784254b8bf915e28368363998f0580c4a1cd58a58824265a8f7650e2cfc33ec3",
+    "script_sha256": "2d6f1d46ff6a2723df7e339043dd2a71d63055d426a7ff92b5a97514f985407f",
+    "collection_sha256": "4ade97986d7ef7d670f7c4d9f30edf6fac42595e5739b7d954757d108aebecb3"
+  },
+  "reviewed_candidate_sha256": "23c7a9a5d35d61d2dd0295de353280dc43ce283f2cee6fc762cbefb265d0953f",
+  "reviewed_script_sha256": "2d6f1d46ff6a2723df7e339043dd2a71d63055d426a7ff92b5a97514f985407f",
+  "work_package_sha256": "750a3f356c9407865901acd235e95ad46e0afb1e9731c3e5338778d0b9bc10e8"
+}

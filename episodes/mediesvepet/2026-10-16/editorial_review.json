@@ -1,0 +1,144 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "",
+  "source_coverage": [
+    {
+      "claim": "Tre barn och en lärare dödades i en skolskjutning i Bend i Oregon, enligt lokal polis.",
+      "source_url": "https://www.sverigesradio.se/artikel/tre-barn-doda-efter-skolskjutning-i-oregon"
+    },
+    {
+      "claim": "En 21-årig man från Västsverige greps i Agadir, Marocko, efter att ha varit internationellt efterlyst.",
+      "source_url": "https://polisen.se/aktuellt/nyheter/vast/2026/oktober/vastsvensk-gripen-i-marocko/"
+    },
+    {
+      "claim": "17 ordningsvakter vid Securitas i Göteborg har sparkats eller fått sluta efter delning av information i hemlig chatt.",
+      "source_url": "https://www.aftonbladet.se/nyheter/a/xlbOvV/securitas-i-goteborg-17-ordningsvakter-sparkas-efter-hemlig-chatt"
+    },
+    {
+      "claim": "En svensk utredning om misstänkt koppleri pågår med koppling till Jeffrey Epsteins finansiering, utan ännu delgiven misstanke.",
+      "source_url": "https://www.sverigesradio.se/artikel/epsteinmiljonerna-barbro-ehnbom-i-utredning-om-koppleri"
+    },
+    {
+      "claim": "Ryska FSB uppger att en svensk medborgare har gripits för olaglig gränsöverskridning och terrorplaner.",
+      "source_url": "https://efn.se/ryska-sakerhetstjansten-svensk-gripen-for-misstankta-terrorplaner"
+    },
+    {
+      "claim": "Polisyrket har tagit över förstaplatsen som ungas drömjobb enligt undersökningen Ungdomsfokus 2026.",
+      "source_url": "https://www.tv4.se/artikel/3RjSmXPAhW4DIs61m3SUQv/haer-aer-de-ungas-droemjobb-polis-tar-oever-foerstaplatsen"
+    }
+  ],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://www.sverigesradio.se/artikel/tre-barn-doda-efter-skolskjutning-i-oregon",
+      "covered_facts": [
+        "Skolskjutning i Bend, Oregon",
+        "Tre barn och en lärare dödade",
+        "Gärningsmannen skjutits ihjäl"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://polisen.se/aktuellt/nyheter/vast/2026/oktober/vastsvensk-gripen-i-marocko/",
+      "covered_facts": [
+        "21-årig man gripen i Agadir",
+        "Dömd för stämpling till mord",
+        "Gripande av marockansk polis"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.aftonbladet.se/nyheter/a/xlbOvV/securitas-i-goteborg-17-ordningsvakter-sparkas-efter-hemlig-chatt",
+      "covered_facts": [
+        "Ordningsvakter slutar efter chatt",
+        "17 anställda enligt uppgift",
+        "Polisanmält"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/epsteinmiljonerna-barbro-ehnbom-i-utredning-om-koppleri",
+      "covered_facts": [
+        "Svensk koppleriutredning pågår",
+        "Ingen delgiven misstanke"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://efn.se/ryska-sakerhetstjansten-svensk-gripen-for-misstankta-terrorplaner",
+      "covered_facts": [
+        "FSB uppger svensk gripen",
+        "Anklagelser om terrorplaner"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.tv4.se/artikel/3RjSmXPAhW4DIs61m3SUQv/haer-aer-de-ungas-droemjobb-polis-tar-oever-foerstaplatsen",
+      "covered_facts": [
+        "Polisyrket toppar Ungdomsfokus 2026",
+        "1058 svarande"
+      ],
+      "missing_facts": []
+    }
+  ],
+  "selection_decisions": [
+    {
+      "url": "https://www.sverigesradio.se/artikel/tre-barn-doda-efter-skolskjutning-i-oregon",
+      "selected": true,
+      "reason": "Viktig internationell händelse inom brott och trygghet.",
+      "event_key": "oregon_school_shooting",
+      "source_quote": "Ytterligare två personer, en lärare och ett barn, har förts till sjukhus med livshotande skador."
+    },
+    {
+      "url": "https://polisen.se/aktuellt/nyheter/vast/2026/oktober/vastsvensk-gripen-i-marocko/",
+      "selected": true,
+      "reason": "Väsentligt gripande av internationellt efterlyst person.",
+      "event_key": "marocco_arrest",
+      "source_quote": "En 21-årig man från Västsverige har gripits i Agadir, Marocko"
+    },
+    {
+      "url": "https://www.aftonbladet.se/nyheter/a/xlbOvV/securitas-i-goteborg-17-ordningsvakter-sparkas-efter-hemlig-chatt",
+      "selected": true,
+      "reason": "Relevant granskning av ordningsvakter och säkerhetsbranschen.",
+      "event_key": "securitas_chat",
+      "source_quote": "Enligt uppgifter till kanalen handlar det om 17 anställda."
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/epsteinmiljonerna-barbro-ehnbom-i-utredning-om-koppleri",
+      "selected": true,
+      "reason": "Större rättslig utredning med svensk koppling.",
+      "event_key": "epstein_investigation",
+      "source_quote": "Åklagaren bekräftar nu att en svensk utredning om misstänkt koppleri pågår, men säger att ingen ännu är delgiven misstanke."
+    },
+    {
+      "url": "https://efn.se/ryska-sakerhetstjansten-svensk-gripen-for-misstankta-terrorplaner",
+      "selected": true,
+      "reason": "Säkerhetsrelaterat gripande av svensk medborgare i Ryssland.",
+      "event_key": "russia_arrest",
+      "source_quote": "Den ryska säkerhetstjänsten FSB uppger att en svensk medborgare har gripits"
+    },
+    {
+      "url": "https://www.tv4.se/artikel/3RjSmXPAhW4DIs61m3SUQv/haer-aer-de-ungas-droemjobb-polis-tar-oever-foerstaplatsen",
+      "selected": true,
+      "reason": "Relevant om polisförsörjning och yrkesattraktivitet.",
+      "event_key": "police_dream_job",
+      "source_quote": "Men nu har polisyrket tagit över förstaplatsen."
+    }
+  ],
+  "format_decision": {
+    "outcome": "standard",
+    "reason": "Sex starka källbelagda händelser med god täckning som motiverar en standardutgåva utan utfyllnad."
+  },
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "a6f6226995ae5955e2fa83840475c4ba2150243b248e6f199c6d81b6988ffafb",
+    "news_sha256": "3fa010d4fd0691f782a9296d279e114c86bb38ba8a055be5ad187acf206a1610",
+    "script_sha256": "0b948ac7ccb6c39c19a728cf180b78ce8302be1bdc385ff83df2643bcf300a6a",
+    "collection_sha256": "0897ae952418da9ed15a9cacb9f59f55564b28b2087391bfc8d5fe6b25e8777c"
+  },
+  "reviewed_candidate_sha256": "9f94ef5562c943bb1098ae5b1f825befd1645d4ea0607fa09d9b2503fa63111d",
+  "reviewed_script_sha256": "0b948ac7ccb6c39c19a728cf180b78ce8302be1bdc385ff83df2643bcf300a6a",
+  "work_package_sha256": "7de7bdb557cedc609787814bdd2bcfe26c391a8e2ddfdce844d5bb9be7a48e2d"
+}

@@ -1,0 +1,227 @@
+{
+  "channel": "mediesvepet",
+  "date": "2026-10-16",
+  "schema": 2,
+  "corroboration_method": "distinct_hosts_not_proof_of_independence",
+  "received": 6,
+  "unique_urls": 6,
+  "identified_events": 6,
+  "selected_articles": 6,
+  "selected_events": 6,
+  "unique_domains": 5,
+  "max_items": 40,
+  "gemini_calls": 0,
+  "decisions": [
+    {
+      "event_id": "74d0f61e22ec8783",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 39,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 8,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "sverigesradio.se"
+      ],
+      "articles": [
+        {
+          "title": "Tre barn döda efter skolskjutning i Oregon",
+          "url": "https://www.sverigesradio.se/artikel/tre-barn-doda-efter-skolskjutning-i-oregon"
+        }
+      ]
+    },
+    {
+      "event_id": "70660b3e0ee7f773",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 36,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 8,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "aftonbladet.se"
+      ],
+      "articles": [
+        {
+          "title": "Securitas i Göteborg: 17 ordningsvakter sparkas efter hemlig chatt",
+          "url": "https://www.aftonbladet.se/nyheter/a/xlbOvV/securitas-i-goteborg-17-ordningsvakter-sparkas-efter-hemlig-chatt"
+        }
+      ]
+    },
+    {
+      "event_id": "78905686e85027eb",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 36,
+      "score_components": {
+        "relevance": 6,
+        "freshness": 2,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "tv4.se"
+      ],
+      "articles": [
+        {
+          "title": "Här är de ungas drömjobb: polis tar över förstaplatsen",
+          "url": "https://www.tv4.se/artikel/3RjSmXPAhW4DIs61m3SUQv/haer-aer-de-ungas-droemjobb-polis-tar-oever-foerstaplatsen"
+        }
+      ]
+    },
+    {
+      "event_id": "9e3fc5ea32356d92",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 33,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 2,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "polisen.se"
+      ],
+      "articles": [
+        {
+          "title": "Efterlyst västsvensk man gripen i Marocko",
+          "url": "https://polisen.se/aktuellt/nyheter/vast/2026/oktober/vastsvensk-gripen-i-marocko/"
+        }
+      ]
+    },
+    {
+      "event_id": "002e5f777df9ea70",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 2,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "sverigesradio.se"
+      ],
+      "articles": [
+        {
+          "title": "Epsteinmiljonerna: Barbro Ehnbom i utredning om koppleri",
+          "url": "https://www.sverigesradio.se/artikel/epsteinmiljonerna-barbro-ehnbom-i-utredning-om-koppleri"
+        }
+      ]
+    },
+    {
+      "event_id": "d230a3043ea4e318",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 18,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 2,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "efn.se"
+      ],
+      "articles": [
+        {
+          "title": "Ryska säkerhetstjänsten: Svensk gripen för misstänkta terrorplaner",
+          "url": "https://efn.se/ryska-sakerhetstjansten-svensk-gripen-for-misstankta-terrorplaner"
+        }
+      ]
+    }
+  ],
+  "rejected": [],
+  "identified_events_are_estimates": true,
+  "review_source_count": 6,
+  "channel_scope": {
+    "input_count": 6,
+    "accepted_count": 6,
+    "rejected": [],
+    "discussion_signals": []
+  },
+  "collection_evidence": {
+    "state": "ready",
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "channel": "mediesvepet",
+    "discovery": {
+      "original_fallback": {
+        "sources": [
+          {
+            "name": "Sveriges Radio",
+            "url": "https://www.sverigesradio.se/artikel/tre-barn-doda-efter-skolskjutning-i-oregon",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200
+          },
+          {
+            "name": "Polisen",
+            "url": "https://polisen.se/aktuellt/nyheter/vast/2026/oktober/vastsvensk-gripen-i-marocko/",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200
+          },
+          {
+            "name": "Aftonbladet",
+            "url": "https://www.aftonbladet.se/nyheter/a/xlbOvV/securitas-i-goteborg-17-ordningsvakter-sparkas-efter-hemlig-chatt",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200
+          },
+          {
+            "name": "Sveriges Radio",
+            "url": "https://www.sverigesradio.se/artikel/epsteinmiljonerna-barbro-ehnbom-i-utredning-om-koppleri",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200
+          },
+          {
+            "name": "EFN, Nyhetsbyrån Direkt",
+            "url": "https://efn.se/ryska-sakerhetstjansten-svensk-gripen-for-misstankta-terrorplaner",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200
+          },
+          {
+            "name": "TV4 Nyheterna",
+            "url": "https://www.tv4.se/artikel/3RjSmXPAhW4DIs61m3SUQv/haer-aer-de-ungas-droemjobb-polis-tar-oever-foerstaplatsen",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200
+          }
+        ]
+      },
+      "media_reference_date": "2026-10-16",
+      "media_temporal": {
+        "excluded": [],
+        "unresolved_gaps": [],
+        "start": "2026-10-15T07:15:00+02:00",
+        "cutoff": "2026-10-16T07:15:00+02:00"
+      }
+    },
+    "checked_at": "2026-10-22T16:51:18.536545+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  },
+  "work_import": {
+    "package_sha256": "7de7bdb557cedc609787814bdd2bcfe26c391a8e2ddfdce844d5bb9be7a48e2d",
+    "candidate_sha256": "9f94ef5562c943bb1098ae5b1f825befd1645d4ea0607fa09d9b2503fa63111d",
+    "provenance": {
+      "issue": 151,
+      "source": "Work, faktiskt lästa offentliga sidor",
+      "new_model_review_required": true,
+      "reference_cutoff": "2026-10-16T07:15:00+02:00",
+      "historical": true,
+      "reference_comparison": "Daterade ledtrådar i #151, inte fullständiga originalutskick"
+    },
+    "editorial_approved": false
+  }
+}

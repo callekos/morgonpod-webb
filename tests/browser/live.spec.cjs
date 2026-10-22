@@ -52,3 +52,20 @@ test('published withdrawal retains source files, intro and all specials',async({
  await page.goto('avsnitt.html?id='+encodeURIComponent(id));await expect(page.locator('h1')).toHaveText('Avsnittet är avpublicerat');await page.goto('artikel.html?id=work-lagstiftning_ordinary-article-1');await expect(page.locator('h1')).toHaveText('Artikeln är avpublicerad');
  await page.goto('kanal.html?id=lagstiftning');await expect(page.locator('.episode')).toHaveCount(6);await expect(page.locator('.episode').filter({hasText:'Veckoöversikt'})).toHaveCount(0);
 });
+
+test('published Mediesvepet cover keeps its own film motif in narrow and wide layouts',async({page},info)=>{
+ for(const width of [320,1450]){
+  await page.setViewportSize({width,height:1000});
+  for(const [label,route] of [['channel','kanal.html?id=mediesvepet'],['directory','kanaler.html?group=monitoring'],['home','idag.html']]){
+   await page.goto(route);await expect(page.locator('#view')).not.toContainText('Hämtar innehåll…');
+   const covers=page.locator('#view img[data-art-channel="mediesvepet"]:visible');
+   if(label!=='home')expect(await covers.count()).toBeGreaterThan(0);
+   for(const im of await covers.all()){
+    await im.scrollIntoViewIfNeeded();await expect(im).toHaveAttribute('src',/assets\/design-lab\/06-film\/mediesvepet(?:-small|-square)?\.webp/);
+    await expect.poll(()=>im.evaluate(el=>el.complete&&el.naturalWidth>0)).toBe(true);
+   }
+   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+   await page.screenshot({path:'docs/evidence/'+info.project.name+'-media-cover-'+label+'-'+width+'.png',fullPage:true});
+  }
+ }
+});

@@ -405,10 +405,10 @@
           "focal": "50% 50%"
         },
         "mediesvepet": {
-          "wide": "assets/channels/mediesvepet.webp?v=1",
-          "small": "assets/channels/mediesvepet-small.webp?v=1",
-          "square": "assets/channels/mediesvepet-square.webp?v=1",
-          "focal": "48% 50%"
+          "wide": "assets/design-lab/06-film/mediesvepet.webp?v=1",
+          "small": "assets/design-lab/06-film/mediesvepet-small.webp?v=1",
+          "square": "assets/design-lab/06-film/mediesvepet-square.webp?v=1",
+          "focal": "50% 52%"
         }
       }
     },

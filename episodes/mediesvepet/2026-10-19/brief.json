@@ -1,0 +1,85 @@
+{
+  "title": "Mediesvepet: helgens våld, internationellt polisarbete och HVB-granskning",
+  "intro": "Efterhandsproducerat urval för 19 oktober 2026, med källor tillgängliga före 07.15.",
+  "outlook": "Fortsatta offentliga besked får följas i senare utgåvor.",
+  "news": [
+    {
+      "category": "I fokus",
+      "title": "Kvinna död efter skjutning i idrottshall",
+      "summary": "Sveriges Radio rapporterade under helgen om dödsfallet och två anhållna för mord och grovt vapenbrott.",
+      "context": "En kvinna i 25-årsåldern avled efter fredagens skjutning i en idrottshall i Älvsjö. Enligt Sveriges Radios rapportering från lördagen var två personer i övre tonåren anhållna misstänkta för mord och grovt vapenbrott. De uppgavs inte vara hemmahörande i Stockholm. Motivet var fortfarande oklart. Senare häktningsbeslut ingår inte i detta historiska morgonläge.",
+      "url": "https://www.sverigesradio.se/artikel/kvinnan-som-skots-i-alvsjo-ar-dod",
+      "publisher": "Sveriges Radio",
+      "body": "En kvinna i 25-årsåldern avled efter fredagens skjutning i en idrottshall i Älvsjö. Enligt Sveriges Radios rapportering från lördagen var två personer i övre tonåren anhållna misstänkta för mord och grovt vapenbrott. De uppgavs inte vara hemmahörande i Stockholm. Motivet var fortfarande oklart. Senare häktningsbeslut ingår inte i detta historiska morgonläge.",
+      "sources": [
+        {
+          "url": "https://www.sverigesradio.se/artikel/kvinnan-som-skots-i-alvsjo-ar-dod",
+          "title": "Sveriges Radio"
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "category": "Omvärld",
+      "title": "Stadshus förstört efter franska protester",
+      "summary": "Omni rapporterade om en brand i Limoges, brända polisbilar och plundrade butiker.",
+      "context": "Stadshuset i Limoges förstördes till stora delar i en brand efter våldsamma protester mot höga levnadskostnader, enligt Omnis öppna återgivning av Le Figaro. Notisen beskriver hur maskerade personer tog sig in i byggnaden och anlade brand. Även polisbilar sattes i brand och butiker plundrades. Stadshus i Lille och Marseille utsattes enligt notisen för skadegörelse. Le Figaros fullständiga material har inte lästs.",
+      "url": "https://omni.se/historiskt-stadshus-forstort-efter-valdsamma-protester/a/0BzQk0",
+      "publisher": "Omni, återger Le Figaro",
+      "body": "Stadshuset i Limoges förstördes till stora delar i en brand efter våldsamma protester mot höga levnadskostnader, enligt Omnis öppna återgivning av Le Figaro. Notisen beskriver hur maskerade personer tog sig in i byggnaden och anlade brand. Även polisbilar sattes i brand och butiker plundrades. Stadshus i Lille och Marseille utsattes enligt notisen för skadegörelse. Le Figaros fullständiga material har inte lästs.",
+      "sources": [
+        {
+          "url": "https://omni.se/historiskt-stadshus-forstort-efter-valdsamma-protester/a/0BzQk0",
+          "title": "Omni, återger Le Figaro"
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "category": "Polisarbete",
+      "title": "Svensk man gripen i Berlin",
+      "summary": "Polisen uppgav på fredagen att en misstänkt nätverksaktör gripits efter internationellt samarbete.",
+      "context": "En man i 30-årsåldern greps i Berlin den 15 oktober, enligt ett polisbesked publicerat på fredagen. Mannen misstänks för grov våldsbrottslighet i Stockholms län och beskrivs av polisen som drivande i ett kriminellt nätverk. Gripandet genomfördes av tysk polis i samarbete med rumänsk och svensk polis, med stöd av Europol. Beskedet är en myndighetsuppgift om misstankar, inte en fällande dom.",
+      "url": "https://polisen.se/aktuellt/nyheter/nationell/2026/oktober/svensk-gangkriminell-gripen-i-tyskland/",
+      "publisher": "Polisen",
+      "body": "En man i 30-årsåldern greps i Berlin den 15 oktober, enligt ett polisbesked publicerat på fredagen. Mannen misstänks för grov våldsbrottslighet i Stockholms län och beskrivs av polisen som drivande i ett kriminellt nätverk. Gripandet genomfördes av tysk polis i samarbete med rumänsk och svensk polis, med stöd av Europol. Beskedet är en myndighetsuppgift om misstankar, inte en fällande dom.",
+      "sources": [
+        {
+          "url": "https://polisen.se/aktuellt/nyheter/nationell/2026/oktober/svensk-gangkriminell-gripen-i-tyskland/",
+          "title": "Polisen"
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "category": "Granskning",
+      "title": "Frågor om grunderna för stängda HVB-hem",
+      "summary": "Omni återgav DN:s granskning av 39 stängda HVB-hem och avsaknad av uppföljning av barnen.",
+      "context": "Enligt Omnis öppna återgivning av DN:s granskning hade Ivo stängt 39 HVB-hem i arbetet mot kriminella aktörer. De flesta stängdes dock av andra skäl, främst brister i registerkontroller av personal. Ivo uppgav enligt notisen att myndigheten inte visste hur många hem som drevs av kriminella och inte hade följt upp barnens situation efter stängningarna. Den bakomliggande DN-granskningen har inte lästs i sin helhet.",
+      "url": "https://omni.se/hvb-hem-stangdes-trots-att-gangkoppling-saknades/a/oKynGK",
+      "publisher": "Omni, återger DN",
+      "body": "Enligt Omnis öppna återgivning av DN:s granskning hade Ivo stängt 39 HVB-hem i arbetet mot kriminella aktörer. De flesta stängdes dock av andra skäl, främst brister i registerkontroller av personal. Ivo uppgav enligt notisen att myndigheten inte visste hur många hem som drevs av kriminella och inte hade följt upp barnens situation efter stängningarna. Den bakomliggande DN-granskningen har inte lästs i sin helhet.",
+      "sources": [
+        {
+          "url": "https://omni.se/hvb-hem-stangdes-trots-att-gangkoppling-saknades/a/oKynGK",
+          "title": "Omni, återger DN"
+        }
+      ],
+      "open_questions": []
+    }
+  ],
+  "description": "Efterhandsproducerat urval för 19 oktober 2026, med källor tillgängliga före 07.15.",
+  "tags": [
+    "I fokus",
+    "Omvärld",
+    "Polisarbete",
+    "Granskning"
+  ],
+  "text_format": "editorial_articles",
+  "editorial_date": "2026-10-19",
+  "channel": "mediesvepet",
+  "produced_at": "2026-10-22T16:45:47.550043+00:00",
+  "reference_cutoff": "2026-10-19T07:15:00+02:00",
+  "retroactive": true,
+  "editorial_outcome": "standard"
+}

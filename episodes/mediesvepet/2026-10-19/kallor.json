@@ -1,0 +1,50 @@
+[
+  {
+    "source": "Sveriges Radio",
+    "title": "Kvinna död efter skjutning i idrottshall",
+    "url": "https://www.sverigesradio.se/artikel/kvinnan-som-skots-i-alvsjo-ar-dod",
+    "evidence": {
+      "date": "2026-10-17T18:43:00+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T15:13:26.978498+00:00",
+      "page_sha256": "24ff2d9e1221e0142bd2fffb0da83814e8dc9761062d0f6adfd6469e22de1f9e",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Omni, återger Le Figaro",
+    "title": "Stadshus förstört efter franska protester",
+    "url": "https://omni.se/historiskt-stadshus-forstort-efter-valdsamma-protester/a/0BzQk0",
+    "evidence": {
+      "date": "2026-10-18T03:37:49+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T15:16:35.568004+00:00",
+      "page_sha256": "b5248045799be18da1e054375bf0d724639dfcecd333bcd49900b3704b729288",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Polisen",
+    "title": "Svensk man gripen i Berlin",
+    "url": "https://polisen.se/aktuellt/nyheter/nationell/2026/oktober/svensk-gangkriminell-gripen-i-tyskland/",
+    "evidence": {
+      "date": "2026-10-16T13:37:14+02:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T15:13:26.698235+00:00",
+      "page_sha256": "4953ad43ad2cc189724d442f7a5d1cfeedb0efe5d8febdf7f469a0218594b5fb",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Omni, återger DN",
+    "title": "Frågor om grunderna för stängda HVB-hem",
+    "url": "https://omni.se/hvb-hem-stangdes-trots-att-gangkoppling-saknades/a/oKynGK",
+    "evidence": {
+      "date": "2026-10-18T06:58:51+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T15:14:42.969208+00:00",
+      "page_sha256": "f21df3281b96b5c94335f9fd0a84f5892c5c40437a69a51e6bc201ee602eedbd",
+      "retrieval_limit": null
+    }
+  }
+]
