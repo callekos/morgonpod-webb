@@ -1,0 +1,206 @@
+{
+  "channel": "mediesvepet",
+  "date": "2026-10-22",
+  "sources": [
+    {
+      "title": "Nytt gripande inom ramen för operation Candy",
+      "url": "https://polisen.se/aktuellt/nyheter/nationell/nytt-gripande-inom-ramen-for-operation-candy/",
+      "date": "2026-10-22T07:00:00+02:00",
+      "publisher": "Polisen",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T14:17:52.621530+00:00",
+      "retrieval_error_reason": "Not a public HTTPS source",
+      "http_status": 200,
+      "text": "Nytt gripande inom ramen för operation Candy | Polisen Kakor på polisen.se På polisen.se använder vi nödvändiga kakor för att webbplatsen ska fungera ska så bra som möjligt. Vi använder också kakor för webbanalys för att göra webbplatsen bättre. Så här använder polisen.se kakor Anpassa inställningar för kakor Nödvändiga kakor Gör att våra tjänster och funktioner är säkra och fungerar som de ska. Kakorna är nödvändiga och går inte att välja bort. Kakor för webbstatistik Hjälper oss förstå hur webbplatsen används. Kakor för webbstatistik Nytt gripande inom ramen för operation Candy I veckan slog Ekobrottsmyndigheten och Polismyndigheten till mot ytterligare en man inom ramen för operation Candy. Mannen, en person med ledande befattning i ett fastighetsbolag, har begärts häktad misstänkt för grovt penningtvättsbrott. Mannen misstänks för omfattande penningtvätt genom att ta emot pengar och andra tillgångar från bolag som i sin tur använts för att tvätta pengar från annan brottslighet. Mannen har haft en ledande befattning i ett företag inom fastighetsförvaltningsbranschen. I samband med tillslaget har Ekobrottsmyndigheten även säkrat tillgångar i form av bostäder, banktillgodohavanden och kontanter till ett värde av närmare 20 miljoner kronor. – Vi misstänker att mannen har varit en del av kedjan för att tvätta pengar som kommer från bland annat skattebrottslighet. I en komplicerad penningtvättskarusell tvättas pengar från organiserad brottslighet med hjälp av bolagskonton, säger Nils Råby, förundersökningsledare och statsåklagare på Ekobrottsmyndigheten. Världsomspännande omfattning Brottsligheten i Operation Candy har en världsomspännande omfattning med tidigare tillslag i förutom Sverige, också i Spanien, Nederländerna och Australien. Även det europeiska polissamarbetet Europol och åklagarsamarbetet Eurojust stödjer insatsen. Brottsligheten i operation Candy har också kopplingar till gripanden som gjorts i Thailand i insatsen Pandora som leds av polisområde Storgöteborg. – Den organiserade brottsligheten behöver tvätta sina brottsvinster och tillgångar så att de kan omsättas i nya ”rena” tillgångar. Här blandas den kriminella ekonomin in i vårt ekonomiska system genom företag, fastigheter, båtar, bilar, klockor, kryptovaluta och pengar på konton. Man utnyttjar sårbarheterna i vår lagstiftning och banksystemet, säger Tomas Stakeberg Jansson från Polismyndigheten, operativt ansvarig chef för operation Candy. Veckans gripande är ett raden av flera tillslag, hittills har 32 personer frihetsberövats varav sex av Ekobrottsmyndigheten. I mars greps 13 personer i en koordinerad insats internationell insats. I juni greps ytterligare 15 personer i Sverige och Nederländerna. Förra veckan greps ytterligare tre personer i Boråstrakten misstänkta för grov penningtvätt. Inför dagens häktningsförhandling sitter 10 personer häktade i förundersökningarna inom Operations Candy, som drivs av åklagare både vid Ekobrottsmyndigheten och Åklagarmyndigheten. Fler frihetsberövanden planeras under hösten. Myndigheter i samverkan mot organiserad brottslighet Operation Candy är en insats i den myndighetsgemensamma ”OB-satsningen” , där 14 statliga myndigheter samverkar mot den organiserade brottsligheten. Arbetet bedrivs på uppdrag av regeringen under Polismyndighetens ledning. OB-satsningen har ett stort fokus mot den kriminella ekonomin och är inriktat mot kriminella individer, nätverk och brottsfenomen och bedrivs genom operativa insatser, underrättelsearbete och strategiskt brottsförebyggande åtgärder. Sedan 2025 prioriteras arbetet mot problemområdena brott i hamnmiljöer, välfärdsbrott och miljö- och avfallsbrott. Relaterat innehåll Operation Candy: 13 svenskar gripna i internationell insats Fler gripanden i den internationella polisoperationen Candy Pressmeddelande från Polisen Publicerad 22 oktober 2026 07.00 Dela sidan Facebook X LinkedIn E-post",
+      "page_sha256": "8e57b1a143e279db375e2c57cfc5d609cf3855e242a99f2f1eb2de174e468091",
+      "text_sha256": "515577d12e06804027789eeb968120a96f74795f934cc4462080f06595da080a",
+      "resolved_url": "https://polisen.se/aktuellt/nyheter/nationell/nytt-gripande-inom-ramen-for-operation-candy/",
+      "extraction_method": "title_matched_page",
+      "metadata": [
+        "<meta property=\"dc:Date.Modified\" content=\"2026-10-22 07:00:21\" />",
+        "<meta property=\"dc:Date.Created\" content=\"2026-10-22 07:00:00\" />",
+        "<meta name=\"Creation-Date\" content=\"2026-10-22 07:00:00\" />",
+        "<meta name=\"msvalidate.01\" content=\"1ADA7A624E745624EED655BDE5A4ACFD\" />",
+        "<time datetime=\"2026-10-22T07:00:00\">"
+      ],
+      "key": "candy",
+      "page_published_at": "2026-10-22T07:00:00+02:00",
+      "page_modified_at": "2026-10-22T07:00:21+02:00",
+      "retrieved_at_clock": "execution_host_unverified_against_github"
+    },
+    {
+      "title": "Polisen: 72 barn och unga vill ta uppdrag åt gängen",
+      "url": "https://omni.se/polisen-72-barn-och-unga-vill-ta-uppdrag-at-gangen/a/77G5Q3",
+      "date": "2026-10-21T15:05:26+00:00",
+      "publisher": "Omni",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T14:17:52.467968+00:00",
+      "retrieval_error_reason": "Not a public HTTPS source",
+      "http_status": 200,
+      "text": "Illustrationsbild. (TT) Gängvåldet • Kriminaliteten Polisen: 72 barn och unga vill ta uppdrag åt gängen Av Joel Malmén Publicerad: I går 17.05 ANNONS Polisen varnar för att annonser på nätet blivit en ny väg in i gängkriminalitet för barn och unga, skriver DN. Nationella operativa avdelningen (Noa) har granskat vilka som svarat på gängens annonser och identifierat 72 personer, de flesta barn i yngre tonåren, som sagt sig vara villiga att ta uppdrag. Via annonser med glada emojis och löften om snabba pengar lockas barn att delta i bedrägerier. Ofta handlar det om enkla uppmaningar som att köpa kontantkort till telefoner eller låna ut sitt bankkonto, men det kan snabbt växa, enligt Noa-chefen Johan Olsson. – När de som styr uppläggen fått tag på ett personnummer kommer de att pressa ungdomen till att göra andra saker. De kommer också att pressa eller hota familjen, säger han. Listan har skickats till landets polisregioner, och de unga och deras föräldrar ska kontaktas. ANNONS Barnen ska fungera som målvakter Dagens Nyheter · Ofta betalvägg Olsson: ”Vår rädsla är att det leder till andra uppdrag” TT Annons Höstlov hos Elite Hotels— upp till 25% rabatt på två nätter, frukost ingår Elite Hotels ANNONS Omni är politiskt obundna och oberoende. Vi strävar efter att ge fler perspektiv på nyheterna. Har du frågor eller synpunkter kring vår rapportering? Kontakta redaktionen Gängvåldet Kriminaliteten Lag & rätt Barn & unga Noa, Nationella operativa avdelningen",
+      "page_sha256": "9ff91b1fbbfe87f3dd3ab68d9555e0d41afb92f621e0a70ce978fa4a53a5bae2",
+      "text_sha256": "07629f388c483ada0374f7a8919bbbd99290c30501d3293bb661f46a5f61d72f",
+      "resolved_url": "https://omni.se/polisen-72-barn-och-unga-vill-ta-uppdrag-at-gangen/a/77G5Q3",
+      "extraction_method": "title_matched_article",
+      "metadata": [
+        "<meta property=\"article:published_time\" content=\"2026-10-21T15:05:26Z\"/>",
+        "<time role=\"note\" class=\"Timestamp-module-scss-module__wg8Viq__timestamp\" dateTime=\"2026-10-21T15:05:26Z\">",
+        "<time role=\"note\" class=\"Timestamp-module-scss-module__wg8Viq__timestamp\" dateTime=\"2026-10-17T10:23:31Z\">",
+        "<time role=\"note\" class=\"Timestamp-module-scss-module__wg8Viq__timestamp\" dateTime=\"2026-09-28T16:54:02Z\">",
+        "<time role=\"note\" class=\"Timestamp-module-scss-module__wg8Viq__timestamp\" dateTime=\"2026-09-26T18:50:10Z\">"
+      ],
+      "key": "young",
+      "page_published_at": "2026-10-21T15:05:26+00:00",
+      "retrieved_at_clock": "execution_host_unverified_against_github"
+    },
+    {
+      "key": "tvattstugan",
+      "title": "Polisen lägger ner Operation tvättstugan",
+      "url": "https://omni.se/polisen-lagger-ner-operation-tvattstugan-banker-kritiska/a/PgA8wz",
+      "http_status": 200,
+      "text": "Illustrationsbild. (Johan Nilsson / TT) Svenska ekobrotten Polisen lägger ner ”Operation tvättstugan” – banker kritiska Av Andreas Victorzon Publicerad: I går 21.06 ANNONS Polisens ”Operation tvättstugan” tillsammans med bankerna stoppade misstänkta låneutbetalningar för miljardbelopp och hyllades i våras av myndigheten – men nu har polisen avslutat satsningen, skriver DI. Genom att dela uppgifter med bankerna om personer som fått utvisningsbeslut kunde bankerna stoppa misstänkta lånebedrägerier. – Vi har inte sett tillräckligt stora effekter mot den organiserade brottsligheten för att motivera en ytterligare förlängning, säger Martin Eriksson på samarbetsorganisationen Finansiellt underrättelsecentrum som Tidöregeringen inrättade förra året. Bankerna har protesterat mot beslutet, skriver DI. ANNONS Polisens projekt togs över av Finuc – som lade ner satsningen Dagens Industri · Ofta betalvägg Polisen: Framgångsrik operation mot kriminell ekonomi (8 april) polisen.se Annons Betalar du rätt pris för ditt bredband? Jämför abonnemang på din adress Bredbandsval ANNONS Omni är politiskt obundna och oberoende. Vi strävar efter att ge fler perspektiv på nyheterna. Har du frågor eller synpunkter kring vår rapportering? Kontakta redaktionen Svenska ekobrotten Bank, finans & försäkring Brott Polismyndigheten",
+      "page_sha256": "1a859b250838f9f37e6868d7111abc4d785d7dbb1fdc592248912c717083b85b",
+      "text_sha256": "20b0322a7039904b6ad9ccb32e6da92491e644b1aed26b4499d45e5ef14e0700",
+      "resolved_url": "https://omni.se/polisen-lagger-ner-operation-tvattstugan-banker-kritiska/a/PgA8wz",
+      "retrieved_at": "2026-10-22T14:19:26.925949+00:00",
+      "extraction_method": "title_matched_article",
+      "metadata": [
+        "<meta property=\"article:published_time\" content=\"2026-10-21T19:06:49Z\"/>",
+        "<time role=\"note\" class=\"Timestamp-module-scss-module__wg8Viq__timestamp\" dateTime=\"2026-10-21T19:06:49Z\">",
+        "<time role=\"note\" class=\"Timestamp-module-scss-module__wg8Viq__timestamp\" dateTime=\"2026-10-20T15:03:25Z\">",
+        "<time role=\"note\" class=\"Timestamp-module-scss-module__wg8Viq__timestamp\" dateTime=\"2026-10-06T10:15:42Z\">",
+        "<time role=\"note\" class=\"Timestamp-module-scss-module__wg8Viq__timestamp\" dateTime=\"2026-10-01T19:11:49Z\">"
+      ],
+      "json_dates": [
+        "\"datePublished\":\"2026-10-21T19:06:49Z\""
+      ],
+      "page_published_at": "2026-10-21T19:06:49+00:00",
+      "publisher": "Omni, återger Dagens Industri",
+      "evidence_level": "retrieved_page_text",
+      "date": "2026-10-21T19:06:49+00:00",
+      "retrieved_at_clock": "execution_host_unverified_against_github"
+    },
+    {
+      "key": "scar",
+      "title": "Man åtalas för mord och flera andra fall av grov brottslighet",
+      "url": "https://www.aklagare.se/for-media/pressmeddelanden/2026/oktober/man-atalas-for-tre-mord-och-flera-andra-fall-av-grov-brottslighet/",
+      "http_status": 200,
+      "text": "Den 26-åriga man som i februari överlämnades från Grekland till Sverige åtalas i dag vid Södertörns tingsrätt som misstänkt för inblandning i ett flertal grova våldsbrott under 2023 och 2024 i Stockholmsområdet, Linköping och Uppsala. Mannen misstänks ha fungerat som rekryterare av andra personer, i flera fall ungdomar, som har utfört brotten. Brottsligheten misstänks ha koppling till en konflikt mellan kriminella nätverk. Samtidigt som mannen åtalas ett antal andra personer. Ärenden och uppgift om åklagarnas tillgänglighet för media Statsåklagare Mats Ihlbom är den som lett arbetet med identifiering, spårning och utlämning. Han är tillgänglig för media när det gäller frågor av mer generell karaktär om identifieringsarbetet och frågor om utlämnandet m.m. Mats Ihlbom svarar även på frågor om: Grovt vapenbrott den 10 oktober 2021 i Stockholm. Åtal väcks mot 26-åringen. Försök till mord m.m. den 16 mars 2023 på Lingonrisvägen i Hässelby. Åtal väcks mot 26-åringen. Anstiftan av försök till mord m.m. den 4 december 2023 på Valutavägen i Hägersten. Åtal väcks mot 26-åringen. Anstiftan av människorov m.m. den 4–5 januari 2024 i bl.a. Akalla. Åtal väcks mot 26-åringen. Mord m.m. den 6 maj 2024 på Allhelgonagatan i Stockholm. Åtal väcks mot 26-åringen. Mats Ihlbom är tillgänglig från kl. 13.00, 010-562 52 91. Statsåklagare Helene Gestrin svarar på frågor om: Anstiftan av försök till grov allmänfarlig ödeläggelse m.m. den 23 september 2023 i Linköping. Åtal väcks mot 26-åringen. Anstiftan av försök till mord m.m. den 25 september 2023 i Hässelby. Åtal väcks mot 26-åringen. Anstiftan av försök till mord m.m. den 26 september i Linköping. Åtal väcks mot 26-åringen. Helene Gestrin är tillgänglig på telefon efter kl. 15.30, 010-562 58 06. Senior åklagare Thomas Bälter svarar på frågor om: Anstiftan av mord m.m. den 28 september 2023 i Uppsala. Åtal väcks mot 26-åringen. Thomas Bälter är tillgänglig på telefon efter kl. 15.30, 010-562 54 50. Senior åklagare Angelica Runesson ansvarar för åtalet om: Mord m.m. den 27 september 2023 på Mälarhöjdens IP i Hägersten. Åtal väcks mot 26-åringen. Åtal väcks också mot tre män i 22-årsåldern och en man i 40-årsåldern för olika typer av medverkan i mordet samt mot två män i 21-årsåldern för bl.a. grovt skyddande av brottsling. Angelica Runesson är inte tillgänglig för ytterligare kommentarer. Senior åklagare Åsa Lidefelt Skog svarar på frågor om: Mord m.m. den 16 september 2023 i Råcksta, Vällingby. Åtal väcks mot 26-åringen för anstiftan till mordet. Åtal väcks samtidigt mot två män i 18-årsåldern för mord, och ytterligare tre personer åtalas för medverkan till mordet i olika former. Förberedelse till mord den 17–22 november 2023 i Älta, Stockholm. Åtal väcks mot 26-åringen och ytterligare två personer för inblandning i brottet. Åsa Lidefelt Skog är tillgänglig på telefon kl. 13–14, 010-562 51 88. Målnummer i Södertörns tingsrätt: B 2902-26 (samtliga ärenden nämnda ovan). Huvudförhandling inleds den 3 november 2026 och beräknas pågå till och med mars 2027.",
+      "page_sha256": "26fa3b2d5d6df266c0156b4d2c81edbf99d61c222a5b5e9543ceaacb93520c3f",
+      "text_sha256": "6fab1230417f8de39d8d990944b1b07bb3e26492ffa4beb4a686cce945440237",
+      "resolved_url": "https://www.aklagare.se/for-media/pressmeddelanden/2026/oktober/man-atalas-for-tre-mord-och-flera-andra-fall-av-grov-brottslighet/",
+      "retrieved_at": "2026-10-22T14:19:28.585117+00:00",
+      "extraction_method": "title_matched_article",
+      "metadata": [
+        "<time class=\"mb-1 text-xs block\" datetime=\"2026-10-21 09:59:55\">",
+        "<time class=\"mb-6 text-xs block\" datetime=\"2026-10-21 11:50:01\">"
+      ],
+      "json_dates": [],
+      "page_published_at": "2026-10-21T09:59:55+02:00",
+      "page_modified_at": "2026-10-21T11:50:01+02:00",
+      "publisher": "Åklagarmyndigheten",
+      "evidence_level": "retrieved_page_text",
+      "date": "2026-10-21T09:59:55+02:00",
+      "retrieved_at_clock": "execution_host_unverified_against_github"
+    },
+    {
+      "key": "php-primary",
+      "url": "https://news-web.php.net/php.announce/513",
+      "http_status": 200,
+      "text": "php.announce: [ANNOUNCE] PHP 8.5.12 Released PHP 8.5.12 Released The PHP development team announces the immediate availability of PHP 8.5.12. This is a security release. This is a security release fixing two critical vulnerabilities (CVE-2026-109618, CVE-2026-109619) that can allow unauthenticated remote code execution. All PHP 8.5 users are encouraged to upgrade to this version. There are no complete mitigations, updating is the only safe choice. See the security advisory for details: https://www.php.net/archive/2026.php#2026-10-21-5 For source downloads of PHP 8.5.12 please visit our downloads page. Windows binaries can be found on the same page. The list of changes is recorded in the ChangeLog. Release Announcement: < https://php.net/releases/8_5_12.php > Downloads: < https://php.net/downloads > Windows downloads: < https://www.php.net/downloads.php?os=windows&version=8.5 > Changelog: < https://php.net/ChangeLog-8.php#8.5.12 > Release Manifest: < https://gist.github.com/DanielEScherzer/9fce78e81e004f0398e249e1fe0df5b8 > ",
+      "page_sha256": "bc9ffb3bae5b91dd260468f41f09aaad937f2910c28b07cfba27ded1d90cd1ba",
+      "text_sha256": "29ee1cee9dc23cc4e5e2bf8f4da3b80f0ac3271506eed4d1d4d179e015b994e9",
+      "retrieved_at": "2026-10-22T14:20:36.798910+00:00",
+      "dates": [
+        "<time datetime=\"2026-10-21T14:10:11+00:00\">"
+      ],
+      "page_published_at": "2026-10-21T14:10:11+00:00",
+      "title": "PHP 8.5.12 Released",
+      "publisher": "PHP development team",
+      "resolved_url": "https://news-web.php.net/php.announce/513",
+      "evidence_level": "retrieved_page_text",
+      "date": "2026-10-21T14:10:11+00:00",
+      "retrieved_at_clock": "execution_host_unverified_against_github"
+    },
+    {
+      "key": "archetyp",
+      "title": "Dom i mål kopplat till en internationell narkotikahandelsplats",
+      "url": "https://www.aklagare.se/for-media/pressmeddelanden/2026/oktober/dom-i-mal-kopplat-till-en-internationell-narkotikahandelsplats/",
+      "http_status": 200,
+      "text": "Dom i mål kopplat till en internationell narkotikahandelsplats | Åklagarmyndigheten Åklagarmyndigheten False Hoppa till innehållet Tillbaka till pressmeddelanden På torsdag den 22 oktober kl. 11 meddelar Göteborgs tingsrätt dom i ett mål där tre män har åtalats för medhjälp till synnerligen grovt narkotikabrott. Enligt åtalet har de varit moderatorer på en av de största internationella narkotikahandelsplatserna i världen, Archetyp. En ytterligare man har åtalats för att ha agerat säljare på handelsplatsen och en man för att ha hjälpt till vid försäljningarna på handelsplatsen, där all handel har skett med kryptovalutan Monero. Pressmeddelande när åtal väcktes , 20 augusti. Målnummer: B 11458-25. Kontakt Statsåklagare Lena Medelius är tillgänglig för media på telefon på torsdag kl. 13.30–15.30, 010-562 72 25. Presstjänst Åklagarmyndighetens presstjänst 010-562 50 20 X Facebook LinkedIn",
+      "page_sha256": "af66d65dca4d6f3ac3a34b62816bfe1b8de2c956349e5376bf77a8b544dff3fd",
+      "text_sha256": "c34c6b2caa6be3f126ff4e7978a3877f13e5a9b277c1138ce1f1763b5db7a69c",
+      "resolved_url": "https://www.aklagare.se/for-media/pressmeddelanden/2026/oktober/dom-i-mal-kopplat-till-en-internationell-narkotikahandelsplats/",
+      "retrieved_at": "2026-10-22T14:19:28.494671+00:00",
+      "extraction_method": "manual_body_pending_review",
+      "metadata": [
+        "<time class=\"mb-1 text-xs block\" datetime=\"2026-10-21 10:51:05\">",
+        "<time class=\"mb-6 text-xs block\" datetime=\"2026-10-21 10:51:05\">"
+      ],
+      "json_dates": [],
+      "page_published_at": "2026-10-21T10:51:05+02:00",
+      "page_modified_at": "2026-10-21T10:51:05+02:00",
+      "publisher": "Åklagarmyndigheten",
+      "evidence_level": "retrieved_page_text",
+      "date": "2026-10-21T10:51:05+02:00",
+      "retrieved_at_clock": "execution_host_unverified_against_github"
+    }
+  ],
+  "collection_evidence": {
+    "state": "ready",
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "channel": "mediesvepet",
+    "discovery": {
+      "original_fallback": {
+        "sources": [
+          {
+            "name": "Polisen",
+            "url": "https://polisen.se/aktuellt/nyheter/nationell/nytt-gripande-inom-ramen-for-operation-candy/",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200
+          },
+          {
+            "name": "Omni",
+            "url": "https://omni.se/polisen-72-barn-och-unga-vill-ta-uppdrag-at-gangen/a/77G5Q3",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200
+          },
+          {
+            "name": "Omni, återger Dagens Industri",
+            "url": "https://omni.se/polisen-lagger-ner-operation-tvattstugan-banker-kritiska/a/PgA8wz",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200
+          },
+          {
+            "name": "Åklagarmyndigheten",
+            "url": "https://www.aklagare.se/for-media/pressmeddelanden/2026/oktober/man-atalas-for-tre-mord-och-flera-andra-fall-av-grov-brottslighet/",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200
+          },
+          {
+            "name": "PHP development team",
+            "url": "https://news-web.php.net/php.announce/513",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200
+          },
+          {
+            "name": "Åklagarmyndigheten",
+            "url": "https://www.aklagare.se/for-media/pressmeddelanden/2026/oktober/dom-i-mal-kopplat-till-en-internationell-narkotikahandelsplats/",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200
+          }
+        ]
+      },
+      "media_reference_date": "2026-10-22",
+      "media_temporal": {
+        "excluded": [],
+        "unresolved_gaps": [],
+        "start": "2026-10-21T07:15:00+02:00",
+        "cutoff": "2026-10-22T07:15:00+02:00"
+      }
+    },
+    "checked_at": "2026-10-22T15:22:35.815880+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "kind": "daily",
+  "duration_seconds": 274.656,
+  "target_minutes": [
+    4,
+    8
+  ],
+  "duration_status": "within_target",
+  "channel": "mediesvepet",
+  "date": "2026-10-22",
+  "audio_sha256": "2af2f5279b7d0fe8a242c6edd2c038e7448f1b7bd7da6eebd33cfc9e7d4d7077",
+  "audio_bytes": 1996652,
+  "decoded": true,
+  "checked_at": "2026-10-22T15:24:13.332101+00:00",
+  "editorial_approval": "not_established_by_audio_check"
+}

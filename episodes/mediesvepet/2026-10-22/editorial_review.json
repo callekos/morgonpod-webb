@@ -1,0 +1,147 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "",
+  "source_coverage": [
+    {
+      "claim": "Ytterligare en man med ledande befattning i ett fastighetsbolag har begärts häktad för grovt penningtvättsbrott inom ramen för operation Candy.",
+      "source_url": "https://polisen.se/aktuellt/nyheter/nationell/nytt-gripande-inom-ramen-for-operation-candy/"
+    },
+    {
+      "claim": "Noa har identifierat 72 personer, främst barn i yngre tonåren, som svarat på kriminellas annonser och sagt sig vara villiga att ta uppdrag.",
+      "source_url": "https://omni.se/polisen-72-barn-och-unga-vill-ta-uppdrag-at-gangen/a/77G5Q3"
+    },
+    {
+      "claim": "Operation tvättstugan har avslutats och banker är kritiska till beslutet.",
+      "source_url": "https://omni.se/polisen-lagger-ner-operation-tvattstugan-banker-kritiska/a/PgA8wz"
+    },
+    {
+      "claim": "En 26-årig man som överlämnades från Grekland i februari har åtalats för inblandning i flera grova våldsbrott.",
+      "source_url": "https://www.aklagare.se/for-media/pressmeddelanden/2026/oktober/man-atalas-for-tre-mord-och-flera-andra-fall-av-grov-brottslighet/"
+    },
+    {
+      "claim": "PHP-utvecklingsteamet har släppt version 8.5.12 som en säkerhetsrelease för två kritiska sårbarheter.",
+      "source_url": "https://news-web.php.net/php.announce/513"
+    },
+    {
+      "claim": "Göteborgs tingsrätt planerar att meddela dom den 22 oktober klockan 11 i mål B11458-25 kopplat till Archetyp.",
+      "source_url": "https://www.aklagare.se/for-media/pressmeddelanden/2026/oktober/dom-i-mal-kopplat-till-en-internationell-narkotikahandelsplats/"
+    }
+  ],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://polisen.se/aktuellt/nyheter/nationell/nytt-gripande-inom-ramen-for-operation-candy/",
+      "covered_facts": [
+        "Häktningsframställan mot fastighetsföreträdare",
+        "Säkrade tillgångar om närmare 20 miljoner",
+        "Internationell samverkan med Europol och Eurojust"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://omni.se/polisen-72-barn-och-unga-vill-ta-uppdrag-at-gangen/a/77G5Q3",
+      "covered_facts": [
+        "72 unga identifierade",
+        "Annonser på nätet som väg in i gängkriminalitet",
+        "Risk för påtryckningar och hot mot familj"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://omni.se/polisen-lagger-ner-operation-tvattstugan-banker-kritiska/a/PgA8wz",
+      "covered_facts": [
+        "Operation tvättstugan avslutas",
+        "Finansiellt underrättelsecentrum bedömer effekterna som otillräckliga",
+        "Bankerna protesterar"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.aklagare.se/for-media/pressmeddelanden/2026/oktober/man-atalas-for-tre-mord-och-flera-andra-fall-av-grov-brottslighet/",
+      "covered_facts": [
+        "Åtal mot 26-årig man som överlämnats från Grekland",
+        "Omfattar flera grova våldsbrott i Stockholmsområdet, Linköping och Uppsala",
+        "Huvudförhandling planerad till november till mars"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://news-web.php.net/php.announce/513",
+      "covered_facts": [
+        "PHP 8.5.12 släppt som säkerhetsrelease",
+        "Två kritiska sårbarheter för oautentiserad fjärrkodskörning",
+        "Uppmaning att uppdatera då fullständiga skydd saknas"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.aklagare.se/for-media/pressmeddelanden/2026/oktober/dom-i-mal-kopplat-till-en-internationell-narkotikahandelsplats/",
+      "covered_facts": [
+        "Planerad dom i Göteborgs tingsrätt den 22 oktober klockan 11",
+        "Mål kopplat till narkotikahandelsplatsen Archetyp",
+        "Åtalade moderatorer och försäljningsroller"
+      ],
+      "missing_facts": []
+    }
+  ],
+  "selection_decisions": [
+    {
+      "url": "https://polisen.se/aktuellt/nyheter/nationell/nytt-gripande-inom-ramen-for-operation-candy/",
+      "selected": true,
+      "reason": "Väsentlig nyhet om nationellt och internationellt samordnat tillslag mot kriminell ekonomi.",
+      "event_key": "candy",
+      "source_quote": "Mannen, en person med ledande befattning i ett fastighetsbolag, har begärts häktad misstänkt för grovt penningtvättsbrott."
+    },
+    {
+      "url": "https://omni.se/polisen-72-barn-och-unga-vill-ta-uppdrag-at-gangen/a/77G5Q3",
+      "selected": true,
+      "reason": "Viktig granskning av gängens rekrytering av unga via nätannonser.",
+      "event_key": "young",
+      "source_quote": "Nationella operativa avdelningen (Noa) har granskat vilka som svarat på gängens annonser och identifierat 72 personer"
+    },
+    {
+      "url": "https://omni.se/polisen-lagger-ner-operation-tvattstugan-banker-kritiska/a/PgA8wz",
+      "selected": true,
+      "reason": "Relevant uppgift om att ett myndighetssamarbete mot penningtvätt avslutas.",
+      "event_key": "tvattstugan",
+      "source_quote": "Polisens ”Operation tvättstugan” tillsammans med bankerna stoppade misstänkta låneutbetalningar för miljardbelopp"
+    },
+    {
+      "url": "https://www.aklagare.se/for-media/pressmeddelanden/2026/oktober/man-atalas-for-tre-mord-och-flera-andra-fall-av-grov-brottslighet/",
+      "selected": true,
+      "reason": "Omfattande åtal gällande grov organiserad brottslighet och våldsbrott.",
+      "event_key": "scar",
+      "source_quote": "Den 26-åriga man som i februari överlämnades från Grekland till Sverige åtalas i dag vid Södertörns tingsrätt"
+    },
+    {
+      "url": "https://news-web.php.net/php.announce/513",
+      "selected": true,
+      "reason": "Viktig sårbarhetsvarning för allmänt använd programvara med risk för fjärrkodskörning.",
+      "event_key": "php-primary",
+      "source_quote": "This is a security release fixing two critical vulnerabilities (CVE-2026-109618, CVE-2026-109619) that can allow unauthenticated remote code execution."
+    },
+    {
+      "url": "https://www.aklagare.se/for-media/pressmeddelanden/2026/oktober/dom-i-mal-kopplat-till-en-internationell-narkotikahandelsplats/",
+      "selected": true,
+      "reason": "Planerad dom i ett uppmärksammat narkotikamål för 'Händer idag'.",
+      "event_key": "archetyp",
+      "source_quote": "På torsdag den 22 oktober kl. 11 meddelar Göteborgs tingsrätt dom i ett mål där tre män har åtalats"
+    }
+  ],
+  "format_decision": {
+    "outcome": "standard",
+    "reason": "Fullgod täckning av sex relevanta och källbelagda händelser inom det fastställda referensfönstret."
+  },
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "874b33714fee2a584348c7fb0a5dc47c4ab558953fbc32f6d15de910596dade7",
+    "news_sha256": "5d93af4853029563b448833ef447ff5a9cf73d65d1321db7fb6d274a14f73fc7",
+    "script_sha256": "4f66a5a0ee2ea2a2a2bdaaaec9983ed6691a1502b9817a9164bae778aba3109b",
+    "collection_sha256": "c7017990cd66d3e81c3f4a263d4667111bb3c171a5ea35925d8b21a5ee66296d"
+  },
+  "reviewed_candidate_sha256": "93cb7fa4bd09ee94b06440fb5b60256902dad18e5585a1812072aa1baecc3713",
+  "reviewed_script_sha256": "4f66a5a0ee2ea2a2a2bdaaaec9983ed6691a1502b9817a9164bae778aba3109b",
+  "work_package_sha256": "9e7fdd86d1c797aaf8ccf93800c2294f07c7472b0d500ebf9e738c4bb18d58a4"
+}

@@ -12,7 +12,8 @@
     "ibat:2026-10-22": 3,
     "vald:2026-10-22": 3,
     "kek:2026-10-22": 3,
-    "sjoomradet:2026-10-22": 3
+    "sjoomradet:2026-10-22": 3,
+    "mediesvepet:2026-10-22": 1
   },
   "identities": {
     "WORK_LIBRARY_2026_10:ibat:replacement_ordinary:2": "ibat:2026-10-20",
@@ -30,6 +31,7 @@
     "ibat:2026-10-22:daily": "ibat:2026-10-22",
     "vald:2026-10-22:daily": "vald:2026-10-22",
     "kek:2026-10-22:daily": "kek:2026-10-22",
-    "sjoomradet:2026-10-22:daily": "sjoomradet:2026-10-22"
+    "sjoomradet:2026-10-22:daily": "sjoomradet:2026-10-22",
+    "mediesvepet:2026-10-22:daily": "mediesvepet:2026-10-22"
   }
 }

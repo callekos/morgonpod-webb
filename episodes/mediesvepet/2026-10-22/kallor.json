@@ -1,0 +1,74 @@
+[
+  {
+    "source": "Polisen",
+    "title": "Fastighetsföreträdare begärd häktad i Candy",
+    "url": "https://polisen.se/aktuellt/nyheter/nationell/nytt-gripande-inom-ramen-for-operation-candy/",
+    "evidence": {
+      "date": "2026-10-22T07:00:00+02:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T14:17:52.621530+00:00",
+      "page_sha256": "8e57b1a143e279db375e2c57cfc5d609cf3855e242a99f2f1eb2de174e468091",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Omni",
+    "title": "Unga erbjuds bedrägeriuppdrag på nätet",
+    "url": "https://omni.se/polisen-72-barn-och-unga-vill-ta-uppdrag-at-gangen/a/77G5Q3",
+    "evidence": {
+      "date": "2026-10-21T15:05:26+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T14:17:52.467968+00:00",
+      "page_sha256": "9ff91b1fbbfe87f3dd3ab68d9555e0d41afb92f621e0a70ce978fa4a53a5bae2",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Omni, återger Dagens Industri",
+    "title": "Avslutad låneinsats möter kritik från banker",
+    "url": "https://omni.se/polisen-lagger-ner-operation-tvattstugan-banker-kritiska/a/PgA8wz",
+    "evidence": {
+      "date": "2026-10-21T19:06:49+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T14:19:26.925949+00:00",
+      "page_sha256": "1a859b250838f9f37e6868d7111abc4d785d7dbb1fdc592248912c717083b85b",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Åklagarmyndigheten",
+    "title": "Omfattande åtal efter överlämnande från Grekland",
+    "url": "https://www.aklagare.se/for-media/pressmeddelanden/2026/oktober/man-atalas-for-tre-mord-och-flera-andra-fall-av-grov-brottslighet/",
+    "evidence": {
+      "date": "2026-10-21T09:59:55+02:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T14:19:28.585117+00:00",
+      "page_sha256": "26fa3b2d5d6df266c0156b4d2c81edbf99d61c222a5b5e9543ceaacb93520c3f",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "PHP development team",
+    "title": "PHP har släppt rättelse för kritiska brister",
+    "url": "https://news-web.php.net/php.announce/513",
+    "evidence": {
+      "date": "2026-10-21T14:10:11+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T14:20:36.798910+00:00",
+      "page_sha256": "bc9ffb3bae5b91dd260468f41f09aaad937f2910c28b07cfba27ded1d90cd1ba",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Åklagarmyndigheten",
+    "title": "Planerad dom i Archetypmålet klockan 11",
+    "url": "https://www.aklagare.se/for-media/pressmeddelanden/2026/oktober/dom-i-mal-kopplat-till-en-internationell-narkotikahandelsplats/",
+    "evidence": {
+      "date": "2026-10-21T10:51:05+02:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-22T14:19:28.494671+00:00",
+      "page_sha256": "af66d65dca4d6f3ac3a34b62816bfe1b8de2c956349e5376bf77a8b544dff3fd",
+      "retrieval_limit": null
+    }
+  }
+]
