@@ -1,0 +1,311 @@
+{
+  "channel": "ibat",
+  "date": "2026-10-23",
+  "sources": [
+    {
+      "url": "https://www.theregister.com/security/2026/10/22/certification-authority-emudhra-defends-its-laughably-weak-private-keys/5304647",
+      "title": "Certification authority eMudhra defends its laughably weak private keys",
+      "publisher": "www.theregister.com - Articles",
+      "date": "2026-10-22T06:38:14+00:00",
+      "summary": "Says it passed audits and made just a minor mystery error",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-23T13:51:48.965578+00:00",
+      "page_published_at": "2026-10-22T06:38:14+00:00",
+      "resolved_url": "https://www.theregister.com/security/2026/10/22/certification-authority-emudhra-defends-its-laughably-weak-private-keys/5304647",
+      "extraction_method": "title_matched_article",
+      "text": "security Certification authority eMudhra defends its laughably weak private keys Says it passed audits and made just a minor mystery error Simon Sharwood Simon Sharwood APAC Editor Published thu 22 Oct 2026 // 07:38 UTC Make us preferred on Google READ MORE Disgraced Indian cert issuer leaves the cert issuing business 18 hours ago Indian certification authority eMudhra’s private keys compromised – one of them was the number ‘4’ 2 days ago 'People's Panel' to check if UK wants controversial Digital ID will cost £630K April 1, 2026 New SSL/TLS certs to each live no longer than 47 days by 2029 April 14, 2025 Google says it's rolling out fix for stricken Chromecasts March 13, 2025 Indian certification authority eMudhra has defended the laughably weak private keys it used to sign some digital certificates it issued, and suggested others should share the blame for the incident. In case you’re coming to this one late, news broke yesterday that private keys the company used to sign certs were beyond weak: one was literally just the number “4,” and several others were short strings of easily guessed two-or-three-digit numbers. It’s easy to deduce the value of those keys, which makes it possible to forge certs and impersonate websites or other resources. That’s gold for scammers, phishers, and other miscreants. The entire infosec industry has pointed that out, urged swift adoption of better certs, and lamented the fact that implementing replacements will be a long and thankless task. REG AD eMudhra’s statement about the incident says it generated keys during “a Key Generation Ceremony (KGC) held on April 30, 2025, using FIPS 140-2 Level 3 Hardware Security Modules (HSMs).” REG AD Such hardware is the standard kit for the job and should in theory produce nicely complex keys and store them securely. But something went wrong. “A flaw in the KGC caused a wrap/unwrap step to produce a second set of weak keys alongside the original strong keys,” the statement claims. “The weak keys were the ones published to the browser root stores. eMudhra is working to establish the root cause.” The company then gets a tad defensive. “These roots and issuing CAs have gone through independent audits for two years in a row and have been in browser trust lists since mid-2025,” the statement adds, seemingly shifting some blame to auditors and other stakeholders. The announcement then points out that eMudhra’s TLS business generates just one percent of its revenue, meaning this mess won’t impact its bottom line too much. That’s nice to know for the company’s investors but rather misses the point that whoever relies on the company now has an urgent, unwanted, and costly job to do replacing certs. “eMudhra is working directly with customers who may be affected to give them replacement certificates, so that critical services are not disrupted. The company is also working with the root programs and continues its root-cause investigation,” the statement adds. REG AD The company allows that the incident “may have some reputational risks on eMudhra which cannot be quantified.” Ya think? ® digital certificate security Make us preferred on Google",
+      "page_sha256": "c6227557bd8543ca48d9c0178aeae5421ee2d5a7d91581243cdad2f60a49f083",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain."
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss",
+      "title": "Race to update services' computer systems after cyber-security flaw found",
+      "publisher": "BBC News",
+      "date": "2026-10-22T17:12:51+00:00",
+      "summary": "Websites were taken offline after the developers of programming language PHP said \"critical vulnerabilities\" had been discovered.",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-23T13:51:48.966374+00:00",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss",
+      "extraction_method": "title_matched_article",
+      "text": "Figure caption, How did AI discover the internet's massive cyber-security risk? By Tom Gerken Â and Â Liv McMahon ,Â Technology reporters Published 22 October 2026 Organisations and businesses are still scrambling to update their systems after cyber-security flaws were revealed in a widely-used programming language, PHP. Websites around the world were taken offline on Wednesday and Thursday after the developers of PHP said \"critical vulnerabilities\" were found in the back-end language, used in web development for decades. Researchers warned the \"severe\" flaws could expose millions of sites using it to potential hacks if left unpatched - and the UK government was among those to take some sites offline as a precaution. There have been no successful attacks reported so far, but experts say any impact may take time - even months - to become fully apparent. Downing Street said on Thursday \"some\" limited government services \"may be offline\" while security work was being carried out. \"The information I have is that 32 Government services are unavailable and four are partially unavailable,\" tech minister Baroness Lloyd of Effra told the House of Lords. She attributed this to having \"largely resulted from precautionary measures taken to protect systems while security updates and mitigations are applied\". The government did not specify which services were taken offline - but it said no large UK public-facing critical services had been affected. A spokesperson said work had already taken place across government to \"identify and fix potential exposures to our systems and our experts are continuing to work closely with both OpenAI and international partners on this issue\". \"But this does not mean they were hacked, and work continues to resolve any issues,\" they added. Olly Whitehouse, chief technology officer of the National Cyber Security Centre (NCSC), called the event \"unprecedented\". \"It will be universally felt, I suspect,\" he told BBC Radio 4's World At One. But he said there were \"no indications\" of any successful breaches by hackers. He said the NCSC was \"starting to see positive confirmation\" that advice sent to those affected , external had been received and was being acted on. Zoe Kleinman: PHP is the cyber equivalent of an unexploded bomb Published 1 day ago What is PHP and why did it spark a global cyber-security scramble? Published 1 hour ago Cyber-security lecturer Rory Hopcraft told the BBC the government needed to make sure that its own infrastructure was up-to-date. \"Hacking has been around for many years,\" he said. \"The government are the ones who set the rules for other organisations... they just need to effectively be practising what they're preaching at this point.\" Dean Presley, who has a garage in Chepstow, South Wales, told BBC Your Voice he had been unable to properly process MOTs online. He said his computer system had been down since Wednesday morning, and while he has experienced outages before, they have not lasted this long. \"MOTs can be conducted and they're legal but none of the paperwork and certificates can be printed and they're not on the system,\" Dean said. He said this has forced him to write everything on paper documents, leading to delays for customers. What is PHP? PHP stands for PHP: Hypertext Preprocessor. It's a programming language which runs on a web server, behind the scenes of a website, and effectively lets you see the sites you visit. When you go to a site, PHP is the code which collects data and effectively turns it into a page you can read. It was developed in the early 1990s to help serve dynamic web pages and applications, but still powers lots of platforms today. PHP has been used across a wide range of platforms including Wikipedia, online shops and WordPress â the system behind many websites - as well as to write tools to build web apps, with Laravel, Symfony and Drupal among popular PHP frameworks. According to cyber-security firm Wiz , external , which helped uncover the critical PHP vulnerabilities surfaced this week, PHP powers 70% of the world's websites. And it said the flaws - now coined \"php2shell\" - were inherent in the language itself, affecting many past versions of it. The PHP Foundation, the non-profit which maintains the programming language, warned this meant that, under the right conditions, an unauthenticated attacker would be able to remotely execute code on servers running PHP. Some large organisations said they had seen a high volume of attempts to breach their systems. Matthew Prince, the boss of internet infrastructure firm Cloudflare, wrote on X , external on Thursday that the company saw \"thousands\" of attempts to exploit the PHP vulnerabilities across its network in the 10 hours before it was publicly announced. \"That jumped to tens of thousands in the 45 minutes post announcement, hundreds of thousands within two hours, and millions now,\" he added. Amazon also says it saw hackers attempt to exploit the flaws, but its websites were operating as normal. 'Serious vulnerability' Image source, Getty Images Image caption, Cyber researchers at Calif and Wiz unearthed the php2shell flaw, theorised by the PHP Foundation in 2024, in part using OpenAI tools While the impact of the PHP flaw remains to be seen, disruption continued for businesses and organisations after many sites were taken down on Wednesday. The website of a Dutch agency specialising in cyber-security, Finland's government and parts of Wikipedia, taken temporarily offline, had returned to business as usual by Thursday. But a number of sites appeared to have been taken offline on Thursday, as operators rushed to check if PHP might be running within their systems or if any patches were required. In France, telecommunications company Orange also said , external it had suspended access to certain services globally while it deployed security fixes. According to some cyber-security researchers using scans to check servers at risk of the PHP vulnerability, the rate of organisations implementing patches - but not as quickly as might be hoped globally. \"The window to respond has shrunk dramatically,\" said Matt Hull, VP of cyber intelligence and response at global cyber security company NCC Group. \"A few years ago, attackers might have taken weeks to exploit a vulnerability. Now, it can be days or hours.\" Hull also highlighted the extent of the task facing developers and engineers working to deal with the issue. \"Several days into this incident, security professionals might already be dealing with significant burnout,\" he said, urging a need to \"make time to rest, share the workload and look after each other\". \"Resilience depends on people as much as technology.\" Sign up for our Tech Decoded newsletter to follow the world's top tech stories and trends. Outside the UK? Sign up here . Related topics Cyber-attacks Cyber-security More on this story UK working to identify exposure after global cyber-security warning Published 1 day ago",
+      "page_sha256": "f732947143fb264e43b38e2ad0cd481f1cbcc43a250e1e31296ed6f77bbd3517",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain."
+    }
+  ],
+  "collection_evidence": {
+    "state": "ready",
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "channel": "ibat",
+    "discovery": {
+      "channel": "ibat",
+      "date": "2026-10-23",
+      "feeds": [
+        {
+          "url": "https://www.theregister.com/security/headlines.atom",
+          "entries": 50,
+          "accepted": 18,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/rss.xml",
+          "entries": 100,
+          "accepted": 18,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.regeringen.se/pressmeddelanden/?format=rss",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": true,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://www.europol.europa.eu/rss.xml",
+          "entries": 10,
+          "accepted": 10,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "entries": 26,
+          "accepted": 18,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://feeds.arstechnica.com/arstechnica/index",
+          "entries": 20,
+          "accepted": 18,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Palantir%20Gotham%20Foundry%20AIP%20government%20law%20enforcement%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Palantir%20Europol%20police%20intelligence%20defense%20public%20sector%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=OSINT%20open%20source%20intelligence%20graph%20network%20analysis%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=law%20enforcement%20data%20platform%20intelligence%20analysis%20AI%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Polismyndigheten%20digitalisering%20informationsf%C3%B6rs%C3%B6rjning%20analys%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Europol%20Interpol%20AI%20analytics%20information%20sharing%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=myndighet%20datadelning%20informationsdelning%20interoperabilitet%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=AI%20agents%20RAG%20knowledge%20graph%20public%20sector%20government%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=EU%20AI%20Act%20policing%20data%20protection%20law%20enforcement%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=cybersecurity%20digital%20forensics%20intelligence%20analysis%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=totalf%C3%B6rsvar%20myndighetssamverkan%20informationsdelning%20teknik%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=research%20AI%20OSINT%20graph%20analytics%20public%20safety%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Sverige%20v%C3%A4rlden%20viktiga%20s%C3%A4kerhet%20teknik%20nyheter%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Atherecord.media%20AI%20data%20analysis%20police%20technology%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Atheregister.com%20AI%20data%20analysis%20police%20technology%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Apolisen.se%20AI%20data%20analysis%20police%20technology%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aeuropol.europa.eu%20AI%20data%20analysis%20police%20technology%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aec.europa.eu%20AI%20data%20analysis%20police%20technology%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aimy.se%20AI%20data%20analysis%20police%20technology%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Adigg.se%20AI%20data%20analysis%20police%20technology%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Abra.se%20AI%20data%20analysis%20police%20technology%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        }
+      ],
+      "web_candidates": 0,
+      "original_fallback": {
+        "sources_checked": 6,
+        "candidates": 1,
+        "excluded": 15,
+        "sources": [
+          {
+            "domain": "therecord.media",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "theregister.com",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "polisen.se",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "europol.europa.eu",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "ec.europa.eu",
+            "status": "REACHABLE_NO_CURRENT",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "imy.se",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200,
+            "error": null
+          }
+        ]
+      },
+      "candidate_count": 82,
+      "scope": "discovery_only_not_factual_approval"
+    },
+    "checked_at": "2026-10-23T13:51:50.223683+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  }
+}

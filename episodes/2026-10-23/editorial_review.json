@@ -1,0 +1,64 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "",
+  "source_coverage": [
+    {
+      "claim": "Organisationer och företag runt om i världen tvingas uppdatera sina system efter att kritiska sårbarheter upptäckts i programmeringsspråket PHP.",
+      "source_url": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "claim": "Certifikatutfärdaren eMudhra kritiseras för att ha använt mycket svaga privata nycklar vid signering av digitala certifikat.",
+      "source_url": "https://www.theregister.com/security/2026/10/22/certification-authority-emudhra-defends-its-laughably-weak-private-keys/5304647"
+    }
+  ],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss",
+      "covered_facts": [
+        "Kritiska sårbarheter i PHP",
+        "Omfattande uppdateringsbehov globalt",
+        "Myndighetstjänster tagna offline som försiktighetsåtgärd"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.theregister.com/security/2026/10/22/certification-authority-emudhra-defends-its-laughably-weak-private-keys/5304647",
+      "covered_facts": [
+        "eMudhra har använt svaga privata nycklar",
+        "En nyckel bestod av siffran 4",
+        "Företaget försvarar processen och hänvisar till revisioner"
+      ],
+      "missing_facts": []
+    }
+  ],
+  "selection_decisions": [
+    {
+      "url": "https://www.theregister.com/security/2026/10/22/certification-authority-emudhra-defends-its-laughably-weak-private-keys/5304647",
+      "selected": true,
+      "reason": "Relevant nyhet om svaga privata nycklar hos certifikatutfärdare med direkt påverkan på digital säkerhet.",
+      "event_key": "emudhra_weak_keys",
+      "source_quote": "Indian certification authority eMudhra’s private keys compromised"
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss",
+      "selected": true,
+      "reason": "Väsentlig och omfattande global cybersäkerhetshändelse rörande sårbarheter i PHP.",
+      "event_key": "php_vulnerabilities",
+      "source_quote": "Organisations and businesses are still scrambling to update their systems after cyber-security flaws were revealed in a widely-used programming language"
+    }
+  ],
+  "format_decision": {
+    "outcome": "standard",
+    "reason": "Insamlingen tillhandahåller två starka och relevanta nyheter inom cybersäkerhet och informationsförsörjning."
+  },
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "2d19958ac872bc5eaf8eeaebab4f1cd386ce87ca1d0e91663f67cda5e678479f",
+    "news_sha256": "785ada4a3acb562ffb04cb2fea681197646a973a096bb8e62c73d4060a723114",
+    "script_sha256": "e177cf2f38d037dc3cf83e4aa11fa10acf095fdb65e6c5527b2b60bffb1275e5",
+    "collection_sha256": "3ae7e1af25a11e8f4028feb4b83b3915b10ce531465a1e3fffe566846cd1229d"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "kind": "daily",
+  "duration_seconds": 101.88,
+  "target_minutes": [
+    4,
+    8
+  ],
+  "duration_status": "short",
+  "channel": "ibat",
+  "date": "2026-10-23",
+  "audio_sha256": "ae3d0f9be08b7d07f4dd2358e703a10d83b216a87ddd4a2c6b9ff7f898e4f747",
+  "audio_bytes": 783405,
+  "decoded": true,
+  "checked_at": "2026-10-23T13:54:59.955589+00:00",
+  "editorial_approval": "not_established_by_audio_check"
+}

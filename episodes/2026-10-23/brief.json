@@ -1,0 +1,66 @@
+{
+  "title": "Global säkerhetskris kring PHP och svaga certifikatsnycklar",
+  "intro": "Välkommen till IBATs morgonpod. Idag uppmärksammar vi två centrala händelser inom digital säkerhet och informationsförsörjning: de omfattande sårbarheterna i programmeringsspråket PHP som har försatt organisationer i ett globalt uppdateringsläge, samt de svaga privata nycklar som upptäckts hos certifikatutfärdaren eMudhra.",
+  "outlook": "Händelserna under veckan understryker hur sårbara moderna digitala ekosystem är för brister i grundläggande infrastruktur och kodbibliotek. För organisationer som arbetar med informationsförsörjning och digital samverkan visar detta på vikten av robusta kontinuitetsplaner, snabb förmåga till sårbarhetshantering samt noggrann kontroll av utfärdade certifikat och beroenden i mjukvaruförsörjningskedjan.",
+  "news": [
+    {
+      "category": "Cybersäkerhet",
+      "title": "Global säkerhetskris efter kritiska sårbarheter i PHP",
+      "summary": "Organisationer och företag runt om i världen tvingas uppdatera sina system efter att kritiska sårbarheter upptäckts i programmeringsspråket PHP.",
+      "context": "Sårbarheterna berör en stor del av världens webbplatser och infrastruktur, vilket har lett till att vissa offentliga och privata tjänster tillfälligt tagits offline som en säkerhetsåtgärd.",
+      "url": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC News",
+      "body": "Enligt en artikel hos BBC tvingas organisationer och företag över hela världen att skyndsamt uppdatera sina system till följd av att kritiska sårbarheter har upptäckts i programmeringsspråket PHP. Webbplatser har tagits offline på flera håll, och den brittiska regeringen uppger att ett trettiotal myndighetstjänster gjorts otillgängliga som en ren försiktighetsåtgärd medan säkerhetsuppdateringar och motåtgärder tillämpas. Olly Whitehouse, teknikchef vid National Cyber Security Centre, beskriver händelsen som oöverträffad men framhåller att det hittills inte finns några indikationer på faktiska och framgångsrika intrång från hackare. Företag som Cloudflare och Amazon har sett en kraftig ökning av försök att exploatera sårbarheterna efter att de offentliggjordes. Säkerhetsexperter betonar att tidsfönstret för att agera har krympt dramatiskt och att it-organisationer ställs inför en omfattande arbetsbörda för att säkerställa att infrastrukturen är uppdaterad.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss",
+          "title": "BBC News"
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "category": "Informationssäkerhet",
+      "title": "Certifikatutfärdare försvarar extremt svaga privata nycklar",
+      "summary": "Indiska certifikatutfärdaren eMudhra kritiseras för att ha använt mycket svaga privata nycklar vid signering av digitala certifikat.",
+      "context": "Svaga nycklar gör det möjligt att förfalska certifikat och utge sig för att vara webbplatser eller andra resurser, vilket utgör en betydande risk för bedrägerier och nätfiske.",
+      "url": "https://www.theregister.com/security/2026/10/22/certification-authority-emudhra-defends-its-laughably-weak-private-keys/5304647",
+      "publisher": "www.theregister.com - Articles",
+      "body": "The Register rapporterar att den indiska certifikatutfärdaren eMudhra har tvingats försvara de svaga privata nycklar som användes för att signera vissa utfärdade digitala certifikat. En granskning har visat att en av nycklarna bestod av enbart siffran \"4\" och att flera andra var korta str",
+      "assessment": "Bristen på kognitiv kontroll vid nyckelgenerering understryker sårbarheter i hårdvarubaserade säkerhetsmoduler.",
+      "previous_reporting": [
+        "Tidigare uppgifter om certifikatets giltighetstid och allmänna brister i PKI-infrastrukturen."
+      ],
+      "open_questions": [
+        "Vilka exakta kunder har drabbats?",
+        "Hur kunde en felaktighet i KGC passera oidentifierad?"
+      ],
+      "topics": [
+        "Kryptografi",
+        "Certifikatutfärdare",
+        "Säkerhetsbrister"
+      ],
+      "event_links": [
+        {
+          "event_id": "emudhra_weak_keys",
+          "status": "possible"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.theregister.com/security/2026/10/22/certification-authority-emudhra-defends-its-laughably-weak-private-keys/5304647",
+          "title": "www.theregister.com - Articles"
+        }
+      ]
+    }
+  ],
+  "description": "Välkommen till IBATs morgonpod. Idag uppmärksammar vi två centrala händelser inom digital säkerhet och informationsförsörjning: de omfattande sårbarheterna i programmeringsspråket PHP som har försatt organisationer i ett globalt uppdateringsläge, samt de svaga privata nycklar som upptäckts hos certifikatutfärdaren eMudhra.",
+  "tags": [
+    "Cybersäkerhet",
+    "Informationssäkerhet"
+  ],
+  "text_format": "editorial_articles",
+  "editorial_date": "2026-10-23",
+  "channel": "ibat",
+  "editorial_outcome": "standard"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "source": "BBC News",
+    "title": "Global säkerhetskris efter kritiska sårbarheter i PHP",
+    "url": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss",
+    "evidence": {
+      "date": "2026-10-22T17:12:51+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-23T13:51:48.966374+00:00",
+      "page_sha256": "f732947143fb264e43b38e2ad0cd481f1cbcc43a250e1e31296ed6f77bbd3517",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "www.theregister.com - Articles",
+    "title": "Certifikatutfärdare försvarar extremt svaga privata nycklar",
+    "url": "https://www.theregister.com/security/2026/10/22/certification-authority-emudhra-defends-its-laughably-weak-private-keys/5304647",
+    "evidence": {
+      "date": "2026-10-22T06:38:14+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-23T13:51:48.965578+00:00",
+      "page_sha256": "c6227557bd8543ca48d9c0178aeae5421ee2d5a7d91581243cdad2f60a49f083",
+      "retrieval_limit": null
+    }
+  }
+]
