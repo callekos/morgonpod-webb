@@ -1,0 +1,256 @@
+{
+  "channel": "kek",
+  "date": "2026-10-23",
+  "sources": [
+    {
+      "url": "https://www.occrp.org/en/news/smugglers-collected-up-to-509m-on-europe-routes-in-2025",
+      "title": "Smugglers Collected Up to $509M on Europe Routes in 2025",
+      "publisher": "OCCRP",
+      "date": "2026-10-22T14:17:00+00:00",
+      "summary": "",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-23T14:31:36.896314+00:00",
+      "resolved_url": "https://www.occrp.org/en/news/smugglers-collected-up-to-509m-on-europe-routes-in-2025",
+      "extraction_method": "primary_body_container",
+      "text": "Smugglers netted an estimated $388 million to $509 million from sea crossings to Europe in 2025, according to new research by the UN Office on Drugs and Crime (UNODC). The agency estimated that between 190,000 and 209,000 people were smuggled along four major Mediterranean and Atlantic routes, with criminal networks facilitating between 57 percent and 90 percent of departures. Fees varied widely depending on the journey, ranging from $170 for crossing to Spain’s Canary Islands to more than $7,500 for routes toward Italy and Malta, according to the International Organization for Migration. The Central Mediterranean was the busiest route, with up to 100,400 people smuggled, followed by the Eastern Mediterranean with up to 51,300, the Northwest African Atlantic route with 33,000, and the Western Mediterranean with 24,500. These estimates, according to UNODC, reflect all smuggling attempts, including journeys that ended in interception or tragedy. The routes remained deadly: 3,404 people died or went missing in 2025, while another 104,200 were intercepted at sea and returned.",
+      "page_sha256": "4a676c60bb99d2b9837769798b80559813607507d09d376970e8825d7cc1c89d",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "text_sha256": "eedd58e238407492ea9e7d332e284742c356bd2820643f01a0efd2acbd4ebbb0"
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c875p1yy90ryo?at_medium=RSS&at_campaign=rss",
+      "title": "Cyprus police open investigation into financial affairs of Roman Abramovich",
+      "publisher": "BBC News",
+      "date": "2026-10-23T10:14:37+00:00",
+      "summary": "Questions about the integrity of some of Abramovich's professional advisers, were raised earlier this month.",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-23T14:31:36.896498+00:00",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/c875p1yy90ryo?at_medium=RSS&at_campaign=rss",
+      "extraction_method": "title_matched_article",
+      "text": "Image source, Getty Images Image caption, Russian billionaire Roman Abramovich - his lawyers have said he denies concealing his fortune By James Oliver Â and Â Rory Tinman ,Â BBC Panorama Published 3 hours ago Police in Cyprus have opened an investigation into the financial affairs of Roman Abramovich, following revelations by BBC Panorama that accountancy firm Deloitte helped in falsifying documents to hide his wealth and evade tax. Serious questions about the integrity of some of Abramovich's professional advisers were raised earlier this month in a joint report from the BBC and the Bureau of Investigative Journalism (TBIJ). A Cypriot Ministry of Justice official told MPs this week that the report's findings would be looked at as part of a new investigation by the police's Financial Intelligence Unit. Lawyers for Abramovich have said that he denies evading tax or concealing his fortune. Deloitte Cyprus said it acts \"in compliance with applicable laws\". The police investigation was announced at a parliamentary committee meeting in the Cypriot capital, Nicosia, held to discuss the combating and prevention of money laundering. The Ministry of Justice official told MPs the police would try to determine whether any criminal acts had been committed. Last week, the report from the BBC and TBIJ detailed how accounts signed off by Deloitte in Cyprus in 2006 meant assets such as superyachts, mansions and private jets worth $672m (Â£508m) vanished from Abramovich's company accounts. Deloitte, which is the world's largest accountancy firm, also appears to have advised on a scheme to evade a huge tax bill on the oligarch's wealth, through the falsification of documents. Image caption, Deloitte in Cyprus appears to have advised Abramovich's company on a scheme to evade tax The evidence was contained in leaked files, including thousands of documents about Abramovich's finances and the operations of a network of offshore companies, administered from Cyprus between 1995 and 2022. The BBC and media partners including TBIJ, the Guardian, Paper Trail Media, the Organised Crime and Corruption Reporting Project, and Cyprus Investigative Reporting Network, have been reporting on the leaked files since 2023 as part of the International Consortium of Investigative Journalists' Cyprus Confidential , external investigation. A representative from the Cypriot police, Andreas Anastasiades, confirmed to MPs that its Financial Crime Unit had already begun to gather evidence, and said the investigation was expected to last several months. When asked by the BBC if the investigation would look into Deloitte's work, Andreas Anastasiades said: \"We will look at any company or person who may be involved.\" He added: \"We will see if there has been fraud or if some documents have been manipulated.\" Panorama - Roman Abramovich: How He Hid His Fortune 12 October Watch on iPlayer Watch now on BBC iPlayer Lawyers for Abramovich say that Panorama has provided no evidence that the billionaire knew about, authorised or directed the falsification of any document. They also say it was legitimate for his companies to rely on advice from professionals. Deloitte Cyprus says it is unable to comment because the documents are more than 20 years old and no longer accessible. The BBC and TBIJ have previously reported on a tax scheme that allowed Abramovich to dodge millions in tax on the running costs of his yachts. Following that report, two former company directors have been indicted and are due to stand trial in Cyprus next month over â¬25m in unpaid VAT. Mr Abramovich's lawyers previously told the BBC that he had \"always obtained independent expert professional tax and legal advice\" and \"acted in accordance\" with it. Related topics Roman Abramovich Cyprus More on this story Documents falsified to evade tax on Abramovich's wealth, BBC finds Published 12 October",
+      "page_sha256": "d419836a66b2bc76aa1b53aecf48a7b3d6eb55d6b6afb0b2fbfcce68b9288208",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "text_sha256": "ea96f76a31c7e5947547fed591d36b926818f9c2ae5954041288d80a561e466f"
+    },
+    {
+      "url": "https://www.occrp.org/en/news/us-court-orders-lebanese-ex-minister-to-pay-35m-in-torture-and-fraud-case",
+      "title": "US Court Orders Lebanese Ex-Minister to Pay $35M in Torture and Fraud Case",
+      "publisher": "OCCRP",
+      "date": "2026-10-23T09:32:00+00:00",
+      "summary": "A U.S. district court found four Lebanese defendants liable for fraud, torture and civil conspiracy in the 2019 detention of Elie and Lara Samaha, a couple who say they were held in an underground military prison after returning to Lebanon to settle a family dispute.",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-23T14:31:36.896670+00:00",
+      "resolved_url": "https://www.occrp.org/en/news/us-court-orders-lebanese-ex-minister-to-pay-35m-in-torture-and-fraud-case",
+      "extraction_method": "primary_body_container",
+      "text": "A U.S. district court has ruled against four Lebanese individuals, including a former minister, finding them liable for fraud, torture and civil conspiracy and ordering them to pay $35 million in damages, for orchestrating the kidnapping and torture of a Lebanese-American couple. Speaking to OCCRP about the verdict from the Florida court, Lara Samaha, a U.S. green card holder, said the couple filed in the U.S. because “the justice system in Lebanon is so corrupt it is impossible to obtain justice.” According to the default final judgment seen by OCCRP, a binding court order issued when defendants fail to respond to a lawsuit, the court ordered Gebran Bassil—a sitting member of parliament, Lebanon’s former foreign minister, and the son-in-law of former President Michel Aoun—to pay millions in damages, along with three co-defendants. “⁠I feel justice has been served after 7 years in court and more than 300 court filings,” Lara Samaha told OCCRP. She confirmed that there will be a follow up on a related lawsuit in Lebanon, though she declined to detail the next steps. The Florida court heard that the defendants kidnapped and tortured Lara and her husband Elie Samaha, a U.S.-Lebanese citizen, to force them to dismiss a lawsuit they had raised in Florida in 2017, against Lebanese government officials who had stymied Lara’s efforts to obtain her inheritance. The couple alleged to the court that Bassil had worked to ensure the dismissal in order to protect one of those officials. The court found that Bassil and the other defendants had lured the couple to Lebanon under the pretext of a settlement discussion of the inheritance dispute. Bassil’s office denied any connection to the case or the parties involved. In a statement issued on October 16 after reports of the ruling, his office said Bassil has no relationship with the parties involved and objected to what it called a selective and fragmented presentation of the legal proceedings. The office claimed that the Florida court had previously dismissed a lawsuit in March 2023 for lack of jurisdiction, and that the Lebanese judiciary had issued a ruling in Bassil’s favor against Elie and Lara Samaha. Commenting on the statement, Lara dismissed Bassil’s office claims, saying that what matters is the US court orders and final judgement. The office did not say whether or not Bassil plans to challenge the Florida court judgement. The couple’s legal battles began in 2015, when they filed a lawsuit in Beirut alleging that politically-connected family members had stolen millions of dollars Lara was due to inherit. With that case delayed but still active, they filed a parallel suit in the U.S. on November 17, 2017, seeking to recover the inheritance. In 2019, the couple traveled to Lebanon hoping to settle the dispute. That, they say, is when their ordeal began. Lara Samaha told Daraj , OCCRP’s partner, that she and her husband were detained —she for 11 days and he for nine. The legal complaint alleged that Lebanese security forces detained the couple upon their arrival in Beirut. She alleged that each spent part of that time in an underground military prison, where they were denied food, medicine and light. She also alleged they were forced to withdraw their lawsuits in both the U.S. and Lebanon. Bassil, who heads the Free Patriotic Movement (FPM), an influential Christian party in Lebanon allied with the Shiite movement Hezbollah, has been under U.S. sanctions since November 2020 for playing a major role in corruption in the country. Bassil's office did not respond to OCCRP's request for comment.",
+      "page_sha256": "70070584f05d8b2a1abffd98b522e97353c477794caf28716a4b277444c4e783",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "text_sha256": "dff9d7faede8dc43e4df4192491fad9fb6c6f8331f75209c1873d5e7fe9c1478"
+    },
+    {
+      "url": "https://www.occrp.org/en/news/interpol-cybercrime-crackdown-nets-1400-arrests-and-105m",
+      "title": "Interpol Cybercrime Crackdown Nets 1,400 Arrests and $105M",
+      "publisher": "OCCRP",
+      "date": "2026-10-22T13:06:00+00:00",
+      "summary": "",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-23T14:31:36.897274+00:00",
+      "resolved_url": "https://www.occrp.org/en/news/interpol-cybercrime-crackdown-nets-1400-arrests-and-105m",
+      "extraction_method": "primary_body_container",
+      "text": "Interpol announced Thursday that authorities from 21 countries across Africa have arrested 1,462 suspects linked to cross-border cybercrime networks in what it described as “one of Africa’s largest cybercrime enforcement operations.” The agency said the operation disrupted 10,909 malicious networks and led to the recovery of more than $105 million in illicit funds. Law enforcement identified 65,929 victims targeted by these cybercriminal networks, with investigations linking the criminal activity to losses exceeding $385 million. In Uganda alone, authorities dismantled two transnational fraud rings, arresting 365 foreign nationals linked to online investment and pension fraud schemes targeting victims across Asia.",
+      "page_sha256": "e9921d914c0d52bdd06f84fc3fdec8838f64afda6528deb385ed22a3e1f1c211",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "text_sha256": "cef5995ec2bc6ad535f3ac3e319a4299cc990c3d1a85cd6832dcb18875fb1ce4"
+    },
+    {
+      "url": "https://www.occrp.org/en/news/collapsed-surrogacy-agency-loses-us-civil-case-after-court-no-show",
+      "title": "Collapsed Surrogacy Agency Loses U.S. Civil Case After Court No-Show",
+      "publisher": "OCCRP",
+      "date": "2026-10-22T04:46:00+00:00",
+      "summary": "World Center of Baby plunged surrogates and prospective parents into chaos when it announced it was filing for bankruptcy. Now the agency’s U.S. corporate entity must pay out tens of thousands of dollars to a couple after failing to respond to a civil suit alleging breach of contract and fraud.",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-23T14:31:37.112146+00:00",
+      "resolved_url": "https://www.occrp.org/en/news/collapsed-surrogacy-agency-loses-us-civil-case-after-court-no-show",
+      "extraction_method": "primary_body_container",
+      "text": "Collapsed international surrogacy agency World Center of Baby has been dealt a double blow in Florida, with a judge ruling against its U.S. corporate entity in a civil lawsuit – shortly after another case against the company was filed. The developments come just over a month after OCCRP published a global investigation into the chaos World Center of Baby left in its wake after announcing it was filing for bankruptcy, including surrogates left unpaid and unsupported, and prospective parents abandoned. In a decision made publicly available on Tuesday, Judge Thomas Ramsberger in Florida’s Sixth Circuit Court ruled in favor of a U.K.-based couple who brought a case against the agency’s U.S. corporate entity World Center Group Corp and two of its representatives. The complaint was on five counts, including breach of contract and fraud. The lawsuit accused the company of “a calculated and coordinated scheme” to secure substantial payments for promised services despite its worsening financial and operational problems. The judge noted that the decision was a default judgement as none of the three defendants — World Center Group Corp, its former listed president Yuri Star, and listed director Malvina Jonas — responded to summons sent to the addresses listed on the company’s corporate documents. The ruling followed an October 5 hearing that the defendants failed to attend. World Center Group Corp, Star, and Jonas were ordered to recover funds for the couple amounting to $87,415 which they had paid for a World Center of Baby program that was meant to provide surrogate matching, medical coordination, and program management through the birth of two children. In the end, they received none of it. The couple, who spoke with reporters, but asked not to be named, said: “Although we have a judgement, we are not yet clear on what our chances of recovery are.” The case was tried in Pinellas County on Florida’s west coast, because that is where the most recent incorporation documents list an address for World Center Group Corp. Just before the judgement, a second civil lawsuit was filed in Pinellas County against Yuri Star and World Center Group Corp. by another intended parent who alleges they paid the agency more than $40,000 for medical procedures that were due to take place in Mexico, but did not happen and were not refunded. The plaintiff had been urged to pay the money up front in exchange for a discount, the complaint alleges. That lawsuit lays out four counts against World Center Group Corp, including fraud and breach of contract, citing OCCRP’s investigation as part of the submitted evidence. The complaint also alleges that the plaintiff was unaware that the agency did not actually employ medical staff in Mexico and instead used third-party clinics. Former World Center of Baby employees later told the plaintiff that the agency had stopped paying its partner clinics and employees around the time that the plaintiff traveled to Mexico for a clinic visit. OCCRP’s investigation into World Center of Baby found that the agency’s operations and ownership were difficult to pin down, including basic information such as who owns it, its corporate structure, and what led to its demise. Star, the former listed president, told reporters during the investigation that he had been hired as a consultant to register the company and knew nothing about it or why it collapsed. He said he was not a shareholder, investor, or beneficiary, and was still owed money for his services. Star did not respond to a request for comment on the judgement against him. Reporters were unable to reach Jonas, the listed director. Five employees who spoke with reporters said they had never met or spoken with her and one of the employees claimed her signature was automated. Ukrainian businessman Vladyslav Natochii, who is variously listed on previous versions of the agency’s website as its founder, owner, and managing director, but is not on the paperwork of the Florida-registered entity told reporters that World Center of Baby had “experienced a severe financial and operational crisis,” and denied wrongdoing.",
+      "page_sha256": "c54fd695d29a67543ce530370ebc9d8e38e009487341087259f04f7d0e54cb78",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "text_sha256": "4db04d6f8c63faee0b9a736ff201c7dbd1c27e1c687df57e04edb3166a49a7e2"
+    },
+    {
+      "url": "https://www.occrp.org/en/news/liechtenstein-discontinued-investigation-into-swiss-banker",
+      "title": "Liechtenstein Discontinued Investigation into Swiss Banker",
+      "publisher": "OCCRP",
+      "date": "2026-10-21T07:44:00+00:00",
+      "summary": "",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-23T14:31:37.124281+00:00",
+      "resolved_url": "https://www.occrp.org/en/news/liechtenstein-discontinued-investigation-into-swiss-banker",
+      "extraction_method": "primary_body_container",
+      "text": "In 2023, OCCRP reported that Venezuela’s former head of the treasury under President Hugo Chávez had been under investigation in Liechtenstein for allegedly laundering money using gold bars. Reporters found that investigators had also looked into Swiss banker Ronnie Budja, but could not confirm whether he faced any charges. Liechtenstein authorities have since confirmed that an official investigation into Budja was discontinued in 2024 due to insufficient grounds to initiate criminal proceedings.",
+      "page_sha256": "000ec9bd11c36fcd9f23c4fe30de752be57b3af3efbe4072059f7cb3b4396dac",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "text_sha256": "080bb8cbb5da94e511d5cce58bf17b0f41547cbdcd67e93977e098945008ee9a"
+    }
+  ],
+  "collection_evidence": {
+    "state": "ready",
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "channel": "kek",
+    "discovery": {
+      "channel": "kek",
+      "date": "2026-10-23",
+      "feeds": [
+        {
+          "url": "https://www.occrp.org/en/feed",
+          "entries": 60,
+          "accepted": 10,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.occrp.org/en/investigations/feed",
+          "entries": 10,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/rss.xml",
+          "entries": 100,
+          "accepted": 18,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.europol.europa.eu/rss.xml",
+          "entries": 10,
+          "accepted": 10,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "entries": 26,
+          "accepted": 18,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=kriminell%20ekonomi%20penningtv%C3%A4tt%20brottsvinster%20Sverige%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=v%C3%A4lf%C3%A4rdsbrott%20ekonomisk%20brottslighet%20organiserad%20brottslighet%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 1,
+          "accepted": 1,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Europol%20money%20laundering%20asset%20recovery%20criminal%20finance%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=economic%20crime%20organized%20crime%20financial%20investigations%20Europe%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aekobrottsmyndigheten.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Apolisen.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Afi.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Askatteverket.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aarbetsformedlingen.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aregeringen.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Abra.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Asvt.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        }
+      ],
+      "web_candidates": 0,
+      "original_fallback": null,
+      "candidate_count": 57,
+      "scope": "discovery_only_not_factual_approval"
+    },
+    "checked_at": "2026-10-23T14:31:38.587392+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "channel": "kek",
+  "date": "2026-10-23",
+  "schema": 2,
+  "corroboration_method": "distinct_hosts_not_proof_of_independence",
+  "received": 6,
+  "unique_urls": 6,
+  "identified_events": 6,
+  "selected_articles": 6,
+  "selected_events": 6,
+  "unique_domains": 2,
+  "max_items": 40,
+  "gemini_calls": 0,
+  "decisions": [
+    {
+      "event_id": "fcaaefe27a64cd38",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "occrp.org"
+      ],
+      "articles": [
+        {
+          "title": "US Court Orders Lebanese Ex-Minister to Pay $35M in Torture and Fraud Case",
+          "url": "https://www.occrp.org/en/news/us-court-orders-lebanese-ex-minister-to-pay-35m-in-torture-and-fraud-case"
+        }
+      ]
+    },
+    {
+      "event_id": "0609a7c9a9c5b50c",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 45,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 14,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "occrp.org"
+      ],
+      "articles": [
+        {
+          "title": "Smugglers Collected Up to $509M on Europe Routes in 2025",
+          "url": "https://www.occrp.org/en/news/smugglers-collected-up-to-509m-on-europe-routes-in-2025"
+        }
+      ]
+    },
+    {
+      "event_id": "7eca8dc2556b9d73",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 42,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 14,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "occrp.org"
+      ],
+      "articles": [
+        {
+          "title": "Interpol Cybercrime Crackdown Nets 1,400 Arrests and $105M",
+          "url": "https://www.occrp.org/en/news/interpol-cybercrime-crackdown-nets-1400-arrests-and-105m"
+        }
+      ]
+    },
+    {
+      "event_id": "314cbddd5fa27040",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 42,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 14,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "occrp.org"
+      ],
+      "articles": [
+        {
+          "title": "Collapsed Surrogacy Agency Loses U.S. Civil Case After Court No-Show",
+          "url": "https://www.occrp.org/en/news/collapsed-surrogacy-agency-loses-us-civil-case-after-court-no-show"
+        }
+      ]
+    },
+    {
+      "event_id": "69f5f99fce93ae44",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 42,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 14,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "occrp.org"
+      ],
+      "articles": [
+        {
+          "title": "Liechtenstein Discontinued Investigation into Swiss Banker",
+          "url": "https://www.occrp.org/en/news/liechtenstein-discontinued-investigation-into-swiss-banker"
+        }
+      ]
+    },
+    {
+      "event_id": "f6b05d7534529ea1",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 39,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Cyprus police open investigation into financial affairs of Roman Abramovich",
+          "url": "https://www.bbc.co.uk/news/articles/c875p1yy90ryo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    }
+  ],
+  "rejected": [],
+  "identified_events_are_estimates": true,
+  "review_source_count": 6,
+  "channel_scope": {
+    "input_count": 6,
+    "accepted_count": 6,
+    "rejected": [],
+    "discussion_signals": [],
+    "verified_date_exclusions": [],
+    "resolved_duplicate_aliases": []
+  },
+  "collection_evidence": {
+    "state": "ready",
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "channel": "kek",
+    "discovery": {
+      "channel": "kek",
+      "date": "2026-10-23",
+      "feeds": [
+        {
+          "url": "https://www.occrp.org/en/feed",
+          "entries": 60,
+          "accepted": 10,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.occrp.org/en/investigations/feed",
+          "entries": 10,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/rss.xml",
+          "entries": 100,
+          "accepted": 18,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.europol.europa.eu/rss.xml",
+          "entries": 10,
+          "accepted": 10,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "entries": 26,
+          "accepted": 18,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=kriminell%20ekonomi%20penningtv%C3%A4tt%20brottsvinster%20Sverige%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=v%C3%A4lf%C3%A4rdsbrott%20ekonomisk%20brottslighet%20organiserad%20brottslighet%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 1,
+          "accepted": 1,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Europol%20money%20laundering%20asset%20recovery%20criminal%20finance%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=economic%20crime%20organized%20crime%20financial%20investigations%20Europe%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aekobrottsmyndigheten.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Apolisen.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Afi.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Askatteverket.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aarbetsformedlingen.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aregeringen.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Abra.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Asvt.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        }
+      ],
+      "web_candidates": 0,
+      "original_fallback": null,
+      "candidate_count": 57,
+      "scope": "discovery_only_not_factual_approval"
+    },
+    "checked_at": "2026-10-23T14:31:38.587392+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  },
+  "work_import": {
+    "package_sha256": "0a0eb3969e938d311e329c2fb4d767c5061725c389afcd33f7cce7a3cf4396ad",
+    "candidate_sha256": "c8ed12f460d46b3611c12b7db95b100f574a921955b35487221d2b9e5345cad4",
+    "provenance": {
+      "task": "STAB-0745",
+      "source_run": 39968264715,
+      "source_artifact": 12508449001,
+      "draft": "saved initial candidate1, not degraded repair3",
+      "edits": "Source-bound Swedish correction and expansion of all five selected stories; civil/criminal status, allegations/denials, actual figures and omitted qualifications restored. All six sources and one prior explicit editorial exclusion retained. New independent review required.",
+      "original_candidate_sha256": "301668be60e8e964faff0cf7037756e9098eea7e6a16e2b854e116405f27002f"
+    },
+    "editorial_approved": false
+  }
+}

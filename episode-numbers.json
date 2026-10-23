@@ -20,7 +20,8 @@
     "mediesvepet:2026-10-16": 5,
     "mediesvepet:2026-10-23": 6,
     "ibat:2026-10-23": 4,
-    "vald:2026-10-23": 4
+    "vald:2026-10-23": 4,
+    "kek:2026-10-23": 4
   },
   "identities": {
     "WORK_LIBRARY_2026_10:ibat:replacement_ordinary:2": "ibat:2026-10-20",
@@ -46,6 +47,7 @@
     "mediesvepet:2026-10-16:daily": "mediesvepet:2026-10-16",
     "mediesvepet:2026-10-23:daily": "mediesvepet:2026-10-23",
     "ibat:2026-10-23:daily": "ibat:2026-10-23",
-    "vald:2026-10-23:daily": "vald:2026-10-23"
+    "vald:2026-10-23:daily": "vald:2026-10-23",
+    "kek:2026-10-23:daily": "kek:2026-10-23"
   }
 }

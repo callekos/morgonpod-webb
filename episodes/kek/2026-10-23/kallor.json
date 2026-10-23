@@ -1,0 +1,62 @@
+[
+  {
+    "source": "OCCRP",
+    "title": "Smugglare uppskattas ha tjänat upp till 509 miljoner dollar på Europaresor",
+    "url": "https://www.occrp.org/en/news/smugglers-collected-up-to-509m-on-europe-routes-in-2025",
+    "evidence": {
+      "date": "2026-10-22T14:17:00+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-23T14:31:36.896314+00:00",
+      "page_sha256": "4a676c60bb99d2b9837769798b80559813607507d09d376970e8825d7cc1c89d",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "BBC News",
+    "title": "Cypriotisk utredning om Abramovichs ekonomi efter mediegranskning",
+    "url": "https://www.bbc.co.uk/news/articles/c875p1yy90ryo?at_medium=RSS&at_campaign=rss",
+    "evidence": {
+      "date": "2026-10-23T10:14:37+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-23T14:31:36.896498+00:00",
+      "page_sha256": "d419836a66b2bc76aa1b53aecf48a7b3d6eb55d6b6afb0b2fbfcce68b9288208",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "OCCRP",
+    "title": "Civil tredskodom om 35 miljoner dollar i libanesiskt arvsmål",
+    "url": "https://www.occrp.org/en/news/us-court-orders-lebanese-ex-minister-to-pay-35m-in-torture-and-fraud-case",
+    "evidence": {
+      "date": "2026-10-23T09:32:00+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-23T14:31:36.896670+00:00",
+      "page_sha256": "70070584f05d8b2a1abffd98b522e97353c477794caf28716a4b277444c4e783",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "OCCRP",
+    "title": "Interpol uppger 1 462 gripna i afrikansk cyberbrottsinsats",
+    "url": "https://www.occrp.org/en/news/interpol-cybercrime-crackdown-nets-1400-arrests-and-105m",
+    "evidence": {
+      "date": "2026-10-22T13:06:00+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-23T14:31:36.897274+00:00",
+      "page_sha256": "e9921d914c0d52bdd06f84fc3fdec8838f64afda6528deb385ed22a3e1f1c211",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "OCCRP",
+    "title": "Surrogatbyråns amerikanska bolag förlorar civilmål i Florida",
+    "url": "https://www.occrp.org/en/news/collapsed-surrogacy-agency-loses-us-civil-case-after-court-no-show",
+    "evidence": {
+      "date": "2026-10-22T04:46:00+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-23T14:31:37.112146+00:00",
+      "page_sha256": "c54fd695d29a67543ce530370ebc9d8e38e009487341087259f04f7d0e54cb78",
+      "retrieval_limit": null
+    }
+  }
+]

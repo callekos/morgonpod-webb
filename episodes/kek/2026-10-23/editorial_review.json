@@ -1,0 +1,141 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "",
+  "source_coverage": [
+    {
+      "claim": "Smugglare drog in mellan 388 och 509 miljoner dollar på båtresor till Europa under 2025 enligt UNODC.",
+      "source_url": "https://www.occrp.org/en/news/smugglers-collected-up-to-509m-on-europe-routes-in-2025"
+    },
+    {
+      "claim": "Cypriotisk polis har inlett en utredning om Roman Abramovichs affärer efter uppgifter om förfalskade dokument.",
+      "source_url": "https://www.bbc.co.uk/news/articles/c875p1yy90ryo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "claim": "En amerikansk domstol har dömt fyra libanesiska personer, inklusive Gebran Bassil, att betala 35 miljoner dollar i skadestånd.",
+      "source_url": "https://www.occrp.org/en/news/us-court-orders-lebanese-ex-minister-to-pay-35m-in-torture-and-fraud-case"
+    },
+    {
+      "claim": "Interpol rapporterar 1 462 gripna och 105 miljoner dollar återfunna i en stor insats mot cyberbrottslighet i Afrika.",
+      "source_url": "https://www.occrp.org/en/news/interpol-cybercrime-crackdown-nets-1400-arrests-and-105m"
+    },
+    {
+      "claim": "En domstol i Florida har dömt World Center Group Corp att betala 87 415 dollar i ett civilmål.",
+      "source_url": "https://www.occrp.org/en/news/collapsed-surrogacy-agency-loses-us-civil-case-after-court-no-show"
+    }
+  ],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://www.occrp.org/en/news/smugglers-collected-up-to-509m-on-europe-routes-in-2025",
+      "covered_facts": [
+        "UNODC-uppskattning om 388-509 miljoner dollar i intäkter för smugglare 2025",
+        "Antal smugglade personer och rutter",
+        "Avgifter samt dödsfall och ingripanden till havs"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c875p1yy90ryo?at_medium=RSS&at_campaign=rss",
+      "covered_facts": [
+        "Cypriotisk polis inleder granskning av Roman Abramovich",
+        "Deloitte-koppling och försvunna tillgångar",
+        "Advokaternas och Deloittes kommentarer samt separat momsmål"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.occrp.org/en/news/us-court-orders-lebanese-ex-minister-to-pay-35m-in-torture-and-fraud-case",
+      "covered_facts": [
+        "Amerikansk domstol dömer Gebran Bassil med flera att betala 35 miljoner dollar",
+        "Bakgrund med kidnappning och tortyr i Libanon",
+        "Tredskodom och bemötande från Bassils kontor"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.occrp.org/en/news/interpol-cybercrime-crackdown-nets-1400-arrests-and-105m",
+      "covered_facts": [
+        "Interpol-insats i Afrika med 1 462 gripna",
+        "Återfunna medel på över 105 miljoner dollar",
+        "Slagna nätverk och offeruppgifter"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.occrp.org/en/news/collapsed-surrogacy-agency-loses-us-civil-case-after-court-no-show",
+      "covered_facts": [
+        "Civilmål mot World Center of Baby i Florida",
+        "Tredskodom och skadestånd på 87 415 dollar",
+        "Ytterligare stämning och uttalanden från tidigare företrädare"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.occrp.org/en/news/liechtenstein-discontinued-investigation-into-swiss-banker",
+      "covered_facts": [],
+      "missing_facts": [
+        "Utredningen om den svenske bankiren lades ner 2024 av myndigheterna i Liechtenstein."
+      ]
+    }
+  ],
+  "selection_decisions": [
+    {
+      "url": "https://www.occrp.org/en/news/smugglers-collected-up-to-509m-on-europe-routes-in-2025",
+      "selected": true,
+      "reason": "Relevanta data om kriminell ekonomi och olagliga penningflöden.",
+      "event_key": "smuggling_revenue_2025",
+      "source_quote": "Smugglers netted an estimated $388 million to $509 million from sea crossings to Europe in 2025"
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c875p1yy90ryo?at_medium=RSS&at_campaign=rss",
+      "selected": true,
+      "reason": "Viktig nyhet om penningtvätt och dolda tillgångar hos känd miljardär.",
+      "event_key": "cyprus_abramovich_investigation",
+      "source_quote": "Police in Cyprus have opened an investigation into the financial affairs of Roman Abramovich"
+    },
+    {
+      "url": "https://www.occrp.org/en/news/us-court-orders-lebanese-ex-minister-to-pay-35m-in-torture-and-fraud-case",
+      "selected": true,
+      "reason": "Konkret rättsligt fall gällande civila sanktioner och korruptionsanklagelser.",
+      "event_key": "us_court_lebanese_minister",
+      "source_quote": "A U.S. district court has ruled against four Lebanese individuals"
+    },
+    {
+      "url": "https://www.occrp.org/en/news/interpol-cybercrime-crackdown-nets-1400-arrests-and-105m",
+      "selected": true,
+      "reason": "Storskalig internationell insats mot cyberbrottslighet och ekonomiska brottslyft.",
+      "event_key": "interpol_cybercrime_crackdown",
+      "source_quote": "Interpol announced Thursday that authorities from 21 countries across Africa have arrested 1,462 suspects"
+    },
+    {
+      "url": "https://www.occrp.org/en/news/collapsed-surrogacy-agency-loses-us-civil-case-after-court-no-show",
+      "selected": true,
+      "reason": "Belyser oseriösa bolagsupplägg och konkurskaos med ekonomiska konsekvenser.",
+      "event_key": "world_center_of_baby_lawsuit",
+      "source_quote": "Collapsed international surrogacy agency World Center of Baby has been dealt a double blow in Florida"
+    },
+    {
+      "url": "https://www.occrp.org/en/news/liechtenstein-discontinued-investigation-into-swiss-banker",
+      "selected": false,
+      "reason": "En mindre uppdatering om nedlagd utredning från tidigare år som prioriteras bort till förmån för mer aktiva fall.",
+      "event_key": "liechtenstein_budja_discontinued",
+      "source_quote": "Liechtenstein authorities have since confirmed that an official investigation into Budja was discontinued"
+    }
+  ],
+  "format_decision": {
+    "outcome": "standard",
+    "reason": "Fem aktuella händelser täcks med god källbalans och uppfyller riktmärkena."
+  },
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "32675d580a9fb4e18a522737e5c46eb245d19e180806abda311b8d0efe8950d0",
+    "news_sha256": "4f3a563bb5a93ead285f1d9d93f4889ae2689f3772c8fc9f1d5654c726add551",
+    "script_sha256": "0184d0b3f6dd8a102c86fa0d8516b26cfe7780df072a183cd26eabdc8859fb5d",
+    "collection_sha256": "355a0cfb36f4ece2f3489d1340f2574baf9f12e9d596ac24471de8797c5b7bed"
+  },
+  "reviewed_candidate_sha256": "c8ed12f460d46b3611c12b7db95b100f574a921955b35487221d2b9e5345cad4",
+  "reviewed_script_sha256": "0184d0b3f6dd8a102c86fa0d8516b26cfe7780df072a183cd26eabdc8859fb5d",
+  "work_package_sha256": "0a0eb3969e938d311e329c2fb4d767c5061725c389afcd33f7cce7a3cf4396ad"
+}
