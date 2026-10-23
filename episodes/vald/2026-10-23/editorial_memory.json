@@ -1,0 +1,48 @@
+{
+  "channel": "vald",
+  "date": "2026-10-23",
+  "history": [
+    {
+      "id": "article-b38b6d6fc4bc796ec5d0587f",
+      "date": "2026-10-22",
+      "channel": "vald",
+      "title": "Barn slåss med pennor och saxar – lärare i Vaggeryd sjukskrivna",
+      "summary": "SVT Nyheter rapporterar den tjugoförsta oktober att ett helt arbetslag på en skola i Vaggeryds kommun har sjukskrivit sig i protest. Bakgrunden är att lågstadieelever använt vässade pennor och saxar som vapen i skolan.",
+      "assessment": "Situationen visar hur ordningsproblem och våldsinslag kryper ned i åldrarna och skapar svåra arbetsmiljökonflikter för skolpersonalen.",
+      "open_questions": [
+        "Vilka långsiktiga stödinsatser kommer kommunen att sätta in för att säkra tryggheten på skolan?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-22:daily",
+      "source_url": "https://www.svt.se/nyheter/lokalt/jonkoping/barn-slass-med-pennor-och-saxar-larare-i-vaggeryd-sjukskrivna-i-protest",
+      "topics": [
+        "skolmiljö",
+        "våld",
+        "arbetsmiljö"
+      ],
+      "relevance": 2
+    },
+    {
+      "id": "article-b366e478bf2709f873a7257c",
+      "date": "2026-10-22",
+      "channel": "vald",
+      "title": "Uppgifter: Polisen utreder Foxtrot-inblandning i mordet i Älvsjö",
+      "summary": "SVT Nyheter uppger den tjugoförsta oktober att polisen undersöker nätverket Foxtrots inblandning i mordet på en kvinna i Älvsjö. Två minderåriga pojkar sitter häktade misstänkta för dådet, som enligt källor rör hämnd riktad mot en anhörig till offret.",
+      "assessment": "Uppgifterna indikerar att nätverksrelaterade konflikter fortsätter att driva aktörer till att använda mycket unga utförare i planerade våldshandlingar.",
+      "open_questions": [
+        "Vilka direkta kopplingar finns mellan de häktade pojkarna och ledarskiktet inom det utpekade nätverket?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-22:daily",
+      "source_url": "https://www.svt.se/nyheter/inrikes/uppgifter-polisen-utreder-foxtrot-inblandning-i-mordet-i-alvsjo",
+      "topics": [
+        "gangkonflikter",
+        "mord",
+        "rekrytering"
+      ],
+      "relevance": 2
+    }
+  ]
+}

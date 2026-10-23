@@ -1,0 +1,50 @@
+[
+  {
+    "source": "SVT Nyheter",
+    "title": "Över 60 incidenter på lågstadieskola i Vaggeryd efter sommaren – ”En katastrof”",
+    "url": "https://www.svt.se/nyheter/lokalt/jonkoping/over-60-incidenter-pa-lagstadieskola-i-vaggeryd-efter-sommaren-en-katastrof",
+    "evidence": {
+      "date": "2026-10-23T06:22:17+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-23T14:05:14.869008+00:00",
+      "page_sha256": "53cf30fdbd552b98abfe266dc0975cec84d4f9f138e4b05aebdf8b28c1e9c062",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "SVT Nyheter",
+    "title": "Dömda systrarnas ord från häktet: ”Ofattbart att det blivit såhär”",
+    "url": "https://www.svt.se/nyheter/lokalt/jonkoping/domda-systrarnas-ord-fran-haktet-ofattbart-att-det-blivit-sahar",
+    "evidence": {
+      "date": "2026-10-23T12:14:06+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-23T14:05:14.869299+00:00",
+      "page_sha256": "11355ff8aa3d8afdf4dc6814467b1ac7406039f6b78b5699d00fb7ee93c1ff51",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "SVT Nyheter",
+    "title": "Skjutning utanför Paris – en död",
+    "url": "https://www.svt.se/nyheter/utrikes/skjutning-utanfor-paris-en-dod",
+    "evidence": {
+      "date": "2026-10-23T10:45:15+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-23T14:05:14.870498+00:00",
+      "page_sha256": "2d461e16cb57f40b62a2c425e36f9c286427952171d4d642c7bc0eb17c8fc767",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "BBC News",
+    "title": "Anti-terror police investigate as one person killed in shooting near Paris",
+    "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
+    "evidence": {
+      "date": "2026-10-23T13:26:48+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-23T14:05:14.870985+00:00",
+      "page_sha256": "597da63f1810535e5a4729717dfe3c95481d34c052646c0a4a83c788c8852667",
+      "retrieval_limit": null
+    }
+  }
+]

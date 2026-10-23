@@ -1,0 +1,108 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "",
+  "source_coverage": [
+    {
+      "claim": "Över 60 incidenter har rapporterats in sedan terminsstarten på Östra skolan i Vaggeryd.",
+      "source_url": "https://www.svt.se/nyheter/lokalt/jonkoping/over-60-incidenter-pa-lagstadieskola-i-vaggeryd-efter-sommaren-en-katastrof"
+    },
+    {
+      "claim": "Två systrar som dömts till tio års fängelse för mordförsök på sin pappa har uttalat sig från häktet.",
+      "source_url": "https://www.svt.se/nyheter/lokalt/jonkoping/domda-systrarnas-ord-fran-haktet-ofattbart-att-det-blivit-sahar"
+    },
+    {
+      "claim": "En person har dödats och fyra skadats i en serie skjutningar utanför Paris, och fransk antiterrorpolis utreder händelsen.",
+      "source_url": "https://www.svt.se/nyheter/utrikes/skjutning-utanfor-paris-en-dod"
+    },
+    {
+      "claim": "Franska antiterroråklagare utreder skjutningarna i Trappes och La Verrière.",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/jonkoping/over-60-incidenter-pa-lagstadieskola-i-vaggeryd-efter-sommaren-en-katastrof",
+      "covered_facts": [
+        "Över 60 incidenter",
+        "Östra skolan i Vaggeryd",
+        "Hot och våld mot personal",
+        "Sjukskrivet arbetslag",
+        "David Norrfjärds kommentar"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/jonkoping/domda-systrarnas-ord-fran-haktet-ofattbart-att-det-blivit-sahar",
+      "covered_facts": [
+        "Tio års fängelse för mordförsök på pappan",
+        "Uttalande i podden Bakom Galler",
+        "Högsta domstolen har nekat prövning",
+        "Åklagare Viktor Wetterös kommentar"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.svt.se/nyheter/utrikes/skjutning-utanfor-paris-en-dod",
+      "covered_facts": [
+        "En död och fyra skadade",
+        "Trappes och La Verrière",
+        "Terrorbrottsutredning",
+        "Gripande av 39-årig man"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
+      "covered_facts": [
+        "Antiterrorutredning",
+        "Skottlossning vid bensinstation, vårdcentral och lekplats",
+        "Gripande och polisförvar"
+      ],
+      "missing_facts": []
+    }
+  ],
+  "selection_decisions": [
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/jonkoping/over-60-incidenter-pa-lagstadieskola-i-vaggeryd-efter-sommaren-en-katastrof",
+      "selected": true,
+      "reason": "Relevanta uppgifter om hot och våld i skolmiljö med verifierat källstöd.",
+      "event_key": "vaggeryd_skola_vald",
+      "source_quote": "Över 60 incidenter har rapporterats sedan i somras på Östra skolan i Vaggeryd."
+    },
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/jonkoping/domda-systrarnas-ord-fran-haktet-ofattbart-att-det-blivit-sahar",
+      "selected": true,
+      "reason": "Verifierat domstols- och brottsfall med relevans för våld i nära relationer.",
+      "event_key": "jonkoping_mordforsok_systrar",
+      "source_quote": "De dömdes till tio års fängelse för mordförsök på sin pappa – mot sitt nekande."
+    },
+    {
+      "url": "https://www.svt.se/nyheter/utrikes/skjutning-utanfor-paris-en-dod",
+      "selected": true,
+      "reason": "Viktig internationell händelse rörande dödligt våld och antiterrorutredning.",
+      "event_key": "paris_skjutning_terror",
+      "source_quote": "En person har dödats och fyra skadats efter att en man öppnat eld i den franska staden Trappes"
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
+      "selected": true,
+      "reason": "Kompletterande internationell källrapportering om samma terrormisstänkta skjutning.",
+      "event_key": "bbc_paris_shooting",
+      "source_quote": "One person has been killed and four others wounded in a gun attack in a Parisian suburb"
+    }
+  ],
+  "format_decision": {
+    "outcome": "standard",
+    "reason": "Insamlingen fungerar korrekt och samtliga relevanta nyhetskällor har behandlats sakligt enligt riktlinjerna."
+  },
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "d0ee7e0866e3f59bb83d16106d201ce8ede70d01746460e7271b9f32cee57978",
+    "news_sha256": "b47c6ef31341a88b1bfe2c859203c4bfd3a4625e69199b37e526cc15c88ddd8b",
+    "script_sha256": "2cfc48e721d8215d8798ae456a0b9cc8b8962fc53b14a1acba62c299c3530a94",
+    "collection_sha256": "c8ba18538a9e07bd223e809f7e8e7ee66a89b04e141355c5073d455ed33b6b9c"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "title": "Våld - Lägesbild och omvärldsbevakning",
+  "intro": "Välkommen till podden Våld. Vi går igenom de senaste verifierade händelserna och rapporterna gällande CAAS och VAAS, med fokus på grovt våld, säkerhet och organiserad brottslighet nationellt och internationellt.",
+  "outlook": "Händelseutvecklingen visar på fortsatt spridning av våldsrelaterade incidenter inom skola, rättsvsende och internationella terrordåd. Det understryker vikten av noggrann uppföljning av trygghets- och säkerhetsindikatorer.",
+  "news": [
+    {
+      "category": "Skola och våld",
+      "title": "Över 60 incidenter på lågstadieskola i Vaggeryd efter sommaren – ”En katastrof”",
+      "summary": "Över 60 incidenter med hot och våld har rapporterats sedan i somras på Östra skolan i Vaggeryd, vilket har lett till att ett helt arbetslag sjukskrivit sig.",
+      "context": "Situationen belyser arbetsmiljöproblem och säkerhetsutmaningar i skolmiljöer samt behovet av tidiga insatser.",
+      "url": "https://www.svt.se/nyheter/lokalt/jonkoping/over-60-incidenter-pa-lagstadieskola-i-vaggeryd-efter-sommaren-en-katastrof",
+      "publisher": "SVT Nyheter",
+      "body": "Enligt SVT har över 60 incidenter rapporterats in sedan skolan startade i augusti på Östra skolan i Vaggeryd. De allra flesta händelser gäller hot och våld som riktats mot skolans personal. Huvudskyddsombudet berättar att lärare utsatts för fysiskt våld av elever. I början av veckan sjukskrev sig ett helt arbetslag efter en längre tid med stök och våld. Barn- och utbildningschefen David Norrfjärd uppger till SVT att det rör sig om en förskjutning av toleransnivån bortom det rimliga. Föräldrar bekräftar en kaotisk situation med bland annat slag, sparkar och rivmärken, och en anmälan har tidigare under hösten lämnats in till Skolinspektionen.",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/jonkoping/over-60-incidenter-pa-lagstadieskola-i-vaggeryd-efter-sommaren-en-katastrof",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "category": "Rättsvsende",
+      "title": "Dömda systrarnas ord från häktet: ”Ofattbart att det blivit såhär”",
+      "summary": "Två systrar som dömts till tio års fängelse för mordförsök på sin pappa uttalar sig från häktet i en podcast, medan domen står fast och prövning nekats av Högsta domstolen.",
+      "context": "Fallet belyser komplexa våldsbrott i nära relationer och rättsprocessens slutna prövningar.",
+      "url": "https://www.svt.se/nyheter/lokalt/jonkoping/domda-systrarnas-ord-fran-haktet-ofattbart-att-det-blivit-sahar",
+      "publisher": "SVT Nyheter",
+      "body": "Enligt SVT har två systrar som dömts till tio års fängelse för mordförsök på sin pappa mot sitt nekande uttalat sig inifrån häktet i podden Bakom Galler. Händelsen inträffade allhelgonahelgen 2025 då pappan larmade om att han misshandlats. Högsta domstolen har valt att inte pröva fallet. Medan granskande journalister ifrågasätter avsaknaden av fysiska bevis och motivbilden, uppger åklagaren Viktor Wetterö till SVT att ärendet har prövats fullständigt i domstol och att det är avslutat.",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/jonkoping/domda-systrarnas-ord-fran-haktet-ofattbart-att-det-blivit-sahar",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "category": "Internationellt våld",
+      "title": "Skjutning utanför Paris – en död",
+      "summary": "En person har dödats och fyra skadats i en serie skjutningar i förorter till Paris. Franska antiterroråklagare utreder händelsen som ett terrorbrott.",
+      "context": "Internationella våldsdåd av terrorkaraktär påverkar den bredare europeiska säkerhetslägesförståelsen.",
+      "url": "https://www.svt.se/nyheter/utrikes/skjutning-utanfor-paris-en-dod",
+      "publisher": "SVT Nyheter",
+      "body": "Enligt SVT och BBC har en person dödats och fyra skadats i skjutningar som inträffade på fredagsmorgonen i Trappes och La Verrière utanför Paris. Frankrikes nationella antiterroråklagarkammare (PNAT) uppger att man har tagit över utredningen med rubriceringen mord i anslutning till en terroristorganisation, med försvårande omständigheter gällande hat mot specifik ras, etnicitet, nation eller religion. Den misstänkte 39-årige mannen greps av polis i Coignières. Premiärminister Sébastien Lecornu och president Emmanuel Macron har uttalat sitt stöd till offren och deras familjer.",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/utrikes/skjutning-utanfor-paris-en-dod",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "category": "Internationellt våld",
+      "title": "Anti-terror police investigate as one person killed in shooting near Paris",
+      "summary": "BBC rapporterar om terrorutredningen efter skjutningarna i de parisiska förorterna där en person dödades och fyra skadades.",
+      "context": "Kompletterande utländsk rapportering om terrorutredningar och säkerhetsåtgärder i Frankrike.",
+      "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC News",
+      "body": "I en artikel hos BBC framgår att fransk antiterrorpolis utreder skjutningarna som skedde i Trappes och La Verrière. En 39-årig misstänkt gärningsman har gripits och placerats i polisförvar. De skadade uppges omfatta bland annat ett 12-årigt barn, och lokala borgmästare vittnar om att skytten sköt urskillningslöst mot platser som en bensinstation, en vårdcentral och en lekplats.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
+          "title": "BBC News"
+        }
+      ],
+      "open_questions": []
+    }
+  ],
+  "description": "Välkommen till podden Våld. Vi går igenom de senaste verifierade händelserna och rapporterna gällande CAAS och VAAS, med fokus på grovt våld, säkerhet och organiserad brottslighet nationellt och internationellt.",
+  "tags": [
+    "Skola och våld",
+    "Rättsvsende",
+    "Internationellt våld"
+  ],
+  "text_format": "editorial_articles",
+  "editorial_date": "2026-10-23",
+  "channel": "vald",
+  "editorial_outcome": "standard"
+}
