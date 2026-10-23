@@ -1,0 +1,227 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "Avsnittet täcker fullt ut de aktuella sjösäkerhets- och försvarsnyheterna för datumet utan utfyllnad.",
+  "source_coverage": [
+    {
+      "claim": "En drönare träffade ett handelsfartyg omkring 13 sjömil utanför Rumäniens kust, vilket ledde till minst ett dödsfall och tre saknade.",
+      "source_url": "https://www.politico.eu/article/drone-hits-another-ship-in-black-sea-near-romania-killing-at-least-one-sailor/"
+    },
+    {
+      "claim": "Rumäniens högsta försvarsråd beslutade att påskynda utbyggnaden av sjöövervakning, minröjning och drönarförsvar.",
+      "source_url": "https://hurbra.se/rumanien-svarta-havet-forsvar-22-oktober-2026/"
+    },
+    {
+      "claim": "Turkiet och Bulgarien enades om att stärka samordningen med Rumänien för fri sjöfart i Svarta havet.",
+      "source_url": "https://www.vietnam.vn/sv/tho-nhi-ky-bulgaria-tang-cuong-phoi-hop-bao-dam-an-toan-hang-hai-o-bien-den"
+    },
+    {
+      "claim": "Sanktionerade ryska tankfartyg har upptäckts sända manipulerade AIS-positioner samtidigt i Svarta havet.",
+      "source_url": "https://informnapalm.org/sv/rysslands-skuggflotta/"
+    },
+    {
+      "claim": "Houthi-attacker mot saudiska energimål bidrog till att oljepriserna steg, och Iran hävdade att tankfartyg träffats av minor.",
+      "source_url": "https://maritime-executive.com/article/oil-prices-jump-after-houthi-strikes-and-iranian-shipping-attacks"
+    },
+    {
+      "claim": "Houthierna uppgav att de räddade indiska sjömän i Röda havet, en uppgift som ännu inte bekräftats av Indien.",
+      "source_url": "https://www.hindustantimes.com/ht-explainers/west-asia-us-iran-war-indian-seafarers-exposed-as-attacks-spread-from-strait-of-hormuz-to-red-sea-houthis-saudi-arabia-conflict-101792734762412.html"
+    },
+    {
+      "claim": "En analys av fartygsansamlingar utanför Taiwan visar äldre fartyg som uppehåller sig nära internetkablar.",
+      "source_url": "https://maritime-executive.com/editorials/unexplained-ship-clusters-anchoring-off-taiwan"
+    }
+  ],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://cornucopia.se/2026/10/ukraina-tva-mordade-i-rysk-terror-mot-kyjiv-tva-mordade-i-charkiv-nato-starker-i-svarta-havet-efter-ryska-attacker-rubio-beskyller-musk-for-att-ha-stoppat-starlink/",
+      "covered_facts": [],
+      "missing_facts": [
+        "Artikeln valdes bort på grund av dubbelarbete med andra Svarta havet-rapporter."
+      ]
+    },
+    {
+      "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=5330866d3838bec4bd1465011518e4e5",
+      "covered_facts": [],
+      "missing_facts": [
+        "Artikeln valdes bort eftersom händelsen täcks av Politico- och TV4-källorna."
+      ]
+    },
+    {
+      "url": "https://maritime-executive.com/article/oil-prices-jump-after-houthi-strikes-and-iranian-shipping-attacks",
+      "covered_facts": [
+        "Houthi-attacker mot saudiska energimål och oljeprisuppgång",
+        "Irans påståenden om minor och attacker vid Hormuz"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.tv4.se/artikel/tt-261023-rumanfartyg1-9a6e64f0/nytt-fartygshaveri-i-svarta-havet-eskalering",
+      "covered_facts": [],
+      "missing_facts": [
+        "Artikeln valdes bort då fartygsattacken täcks fullt ut av Politico-källan."
+      ]
+    },
+    {
+      "url": "https://www.vietnam.vn/sv/tho-nhi-ky-bulgaria-tang-cuong-phoi-hop-bao-dam-an-toan-hang-hai-o-bien-den",
+      "covered_facts": [
+        "Turkiets och Bulgariens samtal om sjösäkerhet och samordning med Rumänien"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://hurbra.se/rumanien-svarta-havet-forsvar-22-oktober-2026/",
+      "covered_facts": [
+        "Rumäniens försvarsråds beslut om utökat sjöskydd och minröjning"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.hindustantimes.com/ht-explainers/west-asia-us-iran-war-indian-seafarers-exposed-as-attacks-spread-from-strait-of-hormuz-to-red-sea-houthis-saudi-arabia-conflict-101792734762412.html",
+      "covered_facts": [
+        "Houthiernas uppgift om räddning av indiska sjömän och den indiska beskickningens svar",
+        "Sjöfolksstatistik och risker för indisk besättning"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://maritime-executive.com/editorials/unexplained-ship-clusters-anchoring-off-taiwan",
+      "covered_facts": [
+        "Ansamlingar av äldre fartyg utanför Taiwan och säkerhetsfrågor kring internetkablar"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.politico.eu/article/drone-hits-another-ship-in-black-sea-near-romania-killing-at-least-one-sailor/",
+      "covered_facts": [
+        "Drönarattack mot handelsfartyget Khoryv utanför Rumänien och dödsfall"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://informnapalm.org/sv/rysslands-skuggflotta/",
+      "covered_facts": [
+        "Tankfartyg som sänder motstridiga positionsuppgifter i Svarta havet",
+        "Förändringar i skuggflottans flaggregistreringar enligt CREA"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.navalnews.com/naval-news/2026/10/spanish-navy-and-navantia-design-an-iamd-frigate-aiming-to-extend-f110-class/",
+      "covered_facts": [],
+      "missing_facts": [
+        "Artikeln valdes bort då den behandlar materielutveckling och design utan konkret operativ säkerhetsinsats."
+      ]
+    }
+  ],
+  "selection_decisions": [
+    {
+      "url": "https://cornucopia.se/2026/10/ukraina-tva-mordade-i-rysk-terror-mot-kyjiv-tva-mordade-i-charkiv-nato-starker-i-svarta-havet-efter-ryska-attacker-rubio-beskyller-musk-for-att-ha-stoppat-starlink/",
+      "selected": false,
+      "reason": "Samma händelse som Politico-rapporten om fartygsattacker och tidigare Nato-besked.",
+      "event_key": "excluded-black-sea-overlap",
+      "source_quote": "",
+      "security_evidence": ""
+    },
+    {
+      "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=5330866d3838bec4bd1465011518e4e5",
+      "selected": false,
+      "reason": "Dubblett av fartygsattacken i Svarta havet som täcks av Politico.",
+      "event_key": "excluded-black-sea-overlap",
+      "source_quote": "",
+      "security_evidence": ""
+    },
+    {
+      "url": "https://maritime-executive.com/article/oil-prices-jump-after-houthi-strikes-and-iranian-shipping-attacks",
+      "selected": true,
+      "reason": "Unik och relevant rapportering om Houthi-attacker mot energimål samt påståenden om minor i Hormuz.",
+      "event_key": "gulf_attack_claims_and_energy_risk",
+      "source_quote": "Separately, the government of Iran claimed that three tankers hit naval mines near the Strait of Hormuz",
+      "security_evidence": "Separately, the government of Iran claimed that three tankers hit naval mines near the Strait of Hormuz"
+    },
+    {
+      "url": "https://www.tv4.se/artikel/tt-261023-rumanfartyg1-9a6e64f0/nytt-fartygshaveri-i-svarta-havet-eskalering",
+      "selected": false,
+      "reason": "Dubblett av fartygsattacken i Svarta havet som behandlas via Politico.",
+      "event_key": "excluded-black-sea-overlap",
+      "source_quote": "",
+      "security_evidence": ""
+    },
+    {
+      "url": "https://www.vietnam.vn/sv/tho-nhi-ky-bulgaria-tang-cuong-phoi-hop-bao-dam-an-toan-hang-hai-o-bien-den",
+      "selected": true,
+      "reason": "Källbelagd diplomatisk och regional säkerhetsutveckling mellan Turkiet och Bulgarien i Svarta havet.",
+      "event_key": "turkey_bulgaria_navigation_dialogue",
+      "source_quote": "Enligt den bulgariska regeringen kom de två länderna överens om att stärka bilaterala initiativ och trilateral samordning med Rumänien för att säkerställa fri navigering i Svarta havet.",
+      "security_evidence": "Enligt den bulgariska regeringen kom de två länderna överens om att stärka bilaterala initiativ och trilateral samordning med Rumänien för att säkerställa fri navigering i Svarta havet."
+    },
+    {
+      "url": "https://hurbra.se/rumanien-svarta-havet-forsvar-22-oktober-2026/",
+      "selected": true,
+      "reason": "Unika och formella försvarsbeslut av Rumäniens högsta försvarsråd efter attackerna.",
+      "event_key": "romania_csat_maritime_response",
+      "source_quote": "Landets högsta försvarsråd beslutade på torsdagen att stärka sjöövervakningen, minröjningen och skyddet mot drönare.",
+      "security_evidence": "Landets högsta försvarsråd beslutade på torsdagen att stärka sjöövervakningen, minröjningen och skyddet mot drönare."
+    },
+    {
+      "url": "https://www.hindustantimes.com/ht-explainers/west-asia-us-iran-war-indian-seafarers-exposed-as-attacks-spread-from-strait-of-hormuz-to-red-sea-houthis-saudi-arabia-conflict-101792734762412.html",
+      "selected": true,
+      "reason": "Särskiljbar händelseuppgift om sjömän i Röda havet samt arbetskraftsperspektiv.",
+      "event_key": "indian_seafarers_red_sea_and_workforce",
+      "source_quote": "rescuing 14 Indian sailors from a yacht that had come under attack near Zuqar Island in the Red Sea",
+      "security_evidence": "rescuing 14 Indian sailors from a yacht that had come under attack near Zuqar Island in the Red Sea"
+    },
+    {
+      "url": "https://maritime-executive.com/editorials/unexplained-ship-clusters-anchoring-off-taiwan",
+      "selected": true,
+      "reason": "Relevant gråzonsanalys om fartygsansamlingar och säkerhetsrisker nära internetkablar.",
+      "event_key": "taiwan_ship_clusters_analysis",
+      "source_quote": "Several of the ships have been noted trading with North Korea, or have been designated by the Taiwan authorities as a security risk for having lingered over internet cables.",
+      "security_evidence": "Several of the ships have been noted trading with North Korea, or have been designated by the Taiwan authorities as a security risk for having lingered over internet cables."
+    },
+    {
+      "url": "https://www.politico.eu/article/drone-hits-another-ship-in-black-sea-near-romania-killing-at-least-one-sailor/",
+      "selected": true,
+      "reason": "Primär källrapport om drönarattacken mot ett handelsfartyg utanför Rumänien.",
+      "event_key": "black_sea_khoryv_attack",
+      "source_quote": "A drone has hit a commercial ship off the coast of Romania, killing at least one crew member with three more still missing",
+      "security_evidence": "A drone has hit a commercial ship off the coast of Romania, killing at least one crew member with three more still missing"
+    },
+    {
+      "url": "https://informnapalm.org/sv/rysslands-skuggflotta/",
+      "selected": true,
+      "reason": "Unik säkerhetsinformation om manipulerade AIS-positioner och förändringar i skuggflottan.",
+      "event_key": "shadow_fleet_ais_and_flags",
+      "source_quote": "Ryska oljetankfartyg har börjat sända motstridiga positionsuppgifter som får det att se ut som om de befinner sig på två platser samtidigt.",
+      "security_evidence": "Ryska oljetankfartyg har börjat sända motstridiga positionsuppgifter som får det att se ut som om de befinner sig på två platser samtidigt."
+    },
+    {
+      "url": "https://www.navalnews.com/naval-news/2026/10/spanish-navy-and-navantia-design-an-iamd-frigate-aiming-to-extend-f110-class/",
+      "selected": false,
+      "reason": "Materiel- och designpresentation utan redovisad aktuell operativ säkerhetsinsats.",
+      "event_key": "excluded-materiel-design",
+      "source_quote": "",
+      "security_evidence": ""
+    }
+  ],
+  "format_decision": {
+    "outcome": "standard",
+    "reason": "Sju separata och källbelagda säkerhetsområden behandlas fylligt utan utfyllnad."
+  },
+  "maritime_policy": "maritime-security-2026-10-22",
+  "maritime_sources_sha256": "e3e80390a20cec28ea51fb49f4e7aefd5e3d4151d6a6e4647013f5d6c816c2a5",
+  "maritime_news_sha256": "b877a27dde9ef4a0f6272bd4c2dd8457f5a5eeb8e618a3c96b7c3d0d7fe21969",
+  "reviewed_script_sha256": "ed8e37dc859cf73fe0747bccdb8c86cc8dbefe9617dc96bdb35cad8dcab21801",
+  "relevant_event_count": 7,
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "fa4cb86b85e76e15ef7ec2cfe06723ec2aeffe398e94def3f6208b2eca64e8fb",
+    "news_sha256": "dcc0181865ebe726d3f7d0ae4472d32319018f80272f965477fb63c1911f0f91",
+    "script_sha256": "ed8e37dc859cf73fe0747bccdb8c86cc8dbefe9617dc96bdb35cad8dcab21801",
+    "collection_sha256": "f90fd8d55b58fa540f9e729a31bb90656c31e6667bcce15081aa0c9ca2ec94c3"
+  },
+  "reviewed_candidate_sha256": "08729bc8c6f3b59be688dfeae59827217e780a4d87eb3db2f5b9cd7ade488ceb",
+  "work_package_sha256": "cb188e687fde2c4b68a18399c900f65ac2ab45158c30107b031721803d1fad63"
+}

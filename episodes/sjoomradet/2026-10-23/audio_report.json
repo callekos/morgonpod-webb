@@ -1,0 +1,16 @@
+{
+  "kind": "daily",
+  "duration_seconds": 474.96,
+  "target_minutes": [
+    4,
+    8
+  ],
+  "duration_status": "within_target",
+  "channel": "sjoomradet",
+  "date": "2026-10-23",
+  "audio_sha256": "b7c851e9a05b0329e41a1a1be2437c4f8eece88f2e56e6d432af7154f0179577",
+  "audio_bytes": 3498596,
+  "decoded": true,
+  "checked_at": "2026-10-23T15:59:57.453737+00:00",
+  "editorial_approval": "not_established_by_audio_check"
+}

@@ -1,0 +1,629 @@
+{
+  "schema": 2,
+  "corroboration_method": "distinct_hosts_not_proof_of_independence",
+  "received": 11,
+  "unique_urls": 11,
+  "identified_events": 11,
+  "selected_articles": 11,
+  "selected_events": 11,
+  "unique_domains": 10,
+  "max_items": 40,
+  "gemini_calls": 0,
+  "decisions": [
+    {
+      "event_id": "91930f003cb080a6",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 57,
+      "score_components": {
+        "relevance": 9,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Nytt fartygshaveri i Svarta havet: Eskalering",
+          "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=5330866d3838bec4bd1465011518e4e5"
+        }
+      ]
+    },
+    {
+      "event_id": "a73d0c0d96657812",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 54,
+      "score_components": {
+        "relevance": 6,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "maritime-executive.com"
+      ],
+      "articles": [
+        {
+          "title": "Oil Prices Jump After Houthi Strikes and Iranian Shipping Attacks",
+          "url": "https://maritime-executive.com/article/oil-prices-jump-after-houthi-strikes-and-iranian-shipping-attacks"
+        }
+      ]
+    },
+    {
+      "event_id": "ae34c80e04e1a466",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 51,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "maritime-executive.com"
+      ],
+      "articles": [
+        {
+          "title": "Unexplained Ship Clusters Anchoring off Taiwan",
+          "url": "https://maritime-executive.com/editorials/unexplained-ship-clusters-anchoring-off-taiwan"
+        }
+      ]
+    },
+    {
+      "event_id": "74f1c0870f1bc299",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "navalnews.com"
+      ],
+      "articles": [
+        {
+          "title": "Spanish Navy and Navantia design an IAMD frigate aiming to extend F110 class",
+          "url": "https://www.navalnews.com/naval-news/2026/10/spanish-navy-and-navantia-design-an-iamd-frigate-aiming-to-extend-f110-class/"
+        }
+      ]
+    },
+    {
+      "event_id": "972a7098fee3d80e",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 48,
+      "score_components": {
+        "relevance": 12,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "hindustantimes.com"
+      ],
+      "articles": [
+        {
+          "title": "The workforce numbers that leave Indian seafarers exposed as attacks spread from Strait of Hormuz to Red Sea",
+          "url": "https://www.hindustantimes.com/ht-explainers/west-asia-us-iran-war-indian-seafarers-exposed-as-attacks-spread-from-strait-of-hormuz-to-red-sea-houthis-saudi-arabia-conflict-101792734762412.html"
+        }
+      ]
+    },
+    {
+      "event_id": "0f5a17455f8ca246",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 45,
+      "score_components": {
+        "relevance": 15,
+        "freshness": 14,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "cornucopia.se"
+      ],
+      "articles": [
+        {
+          "title": "Ukraina: Två mördade i rysk terror mot Kyjiv, två mördade i Charkiv – Nato stärker i Svarta Havet efter ryska attacker – Rubio beskyller Musk för att ha stoppat Starlink - Cornucopia?",
+          "url": "https://cornucopia.se/2026/10/ukraina-tva-mordade-i-rysk-terror-mot-kyjiv-tva-mordade-i-charkiv-nato-starker-i-svarta-havet-efter-ryska-attacker-rubio-beskyller-musk-for-att-ha-stoppat-starlink/"
+        }
+      ]
+    },
+    {
+      "event_id": "02353eecc437e624",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 42,
+      "score_components": {
+        "relevance": 6,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "politico.eu"
+      ],
+      "articles": [
+        {
+          "title": "Drone hits another ship in Black Sea near Romania , killing at least 1 sailor",
+          "url": "https://www.politico.eu/article/drone-hits-another-ship-in-black-sea-near-romania-killing-at-least-one-sailor/"
+        }
+      ]
+    },
+    {
+      "event_id": "ca0f88be4d738b28",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 42,
+      "score_components": {
+        "relevance": 6,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "tv4.se"
+      ],
+      "articles": [
+        {
+          "title": "Nytt fartygshaveri i Svarta havet: ”Eskalering” - TV4 Nyheterna",
+          "url": "https://www.tv4.se/artikel/tt-261023-rumanfartyg1-9a6e64f0/nytt-fartygshaveri-i-svarta-havet-eskalering"
+        }
+      ]
+    },
+    {
+      "event_id": "ee42c1fb8ccb4974",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 42,
+      "score_components": {
+        "relevance": 6,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "hurbra.se"
+      ],
+      "articles": [
+        {
+          "title": "Rumänien stärker försvaret i Svarta havet 22/10 2026 - HurBra.se",
+          "url": "https://hurbra.se/rumanien-svarta-havet-forsvar-22-oktober-2026/"
+        }
+      ]
+    },
+    {
+      "event_id": "8803bd446d336b6c",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 39,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "informnapalm.org"
+      ],
+      "articles": [
+        {
+          "title": "Rysslands skuggflotta byter flagg och förfalskar sina positioner",
+          "url": "https://informnapalm.org/sv/rysslands-skuggflotta/"
+        }
+      ]
+    },
+    {
+      "event_id": "586b2b3112f1e17c",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 36,
+      "score_components": {
+        "relevance": 6,
+        "freshness": 14,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "vietnam.vn"
+      ],
+      "articles": [
+        {
+          "title": "Turkiet och Bulgarien stärker samordningen för att säkerställa sjösäkerheten i Svarta havet. - Vietnam.vn",
+          "url": "https://www.vietnam.vn/sv/tho-nhi-ky-bulgaria-tang-cuong-phoi-hop-bao-dam-an-toan-hang-hai-o-bien-den"
+        }
+      ]
+    }
+  ],
+  "rejected": [],
+  "identified_events_are_estimates": true,
+  "review_source_count": 11,
+  "channel_scope": {
+    "input_count": 11,
+    "accepted_count": 11,
+    "rejected": [],
+    "discussion_signals": [],
+    "verified_date_exclusions": [],
+    "resolved_duplicate_aliases": []
+  },
+  "collection_evidence": {
+    "state": "ready",
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "channel": "sjoomradet",
+    "discovery": {
+      "channel": "sjoomradet",
+      "date": "2026-10-23",
+      "feeds": [
+        {
+          "url": "https://www.navalnews.com/feed/",
+          "entries": 10,
+          "accepted": 10,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://maritime-executive.com/articles.rss",
+          "entries": 84,
+          "accepted": 18,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/rss.xml",
+          "entries": 100,
+          "accepted": 18,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.europol.europa.eu/rss.xml",
+          "entries": 10,
+          "accepted": 10,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "entries": 26,
+          "accepted": 18,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22Black%20Sea%22%20ships%20attacks%20Ukraine%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22Hormuz%22%20maritime%20security%20United%20States%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22Baltic%20Sea%22%20sabotage%20cables%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22shadow%20fleet%22%20sanctions%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22Red%20Sea%22%20shipping%20attacks%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 1,
+          "accepted": 1,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22South%20China%20Sea%22%20maritime%20confrontation%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%C3%96stersj%C3%B6n%20skuggflottan%20sanktioner%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Svarta%20havet%20Ukraina%20fartyg%20attacker%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 9,
+          "accepted": 9,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Hormuz%20USA%20sj%C3%B6fart%20s%C3%A4kerhet%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=undervattenskablar%20sabotage%20%C3%96stersj%C3%B6n%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Anato.int%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aconsilium.europa.eu%20shadow%20fleet%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aukrinform.net%20Black%20Sea%20attacks%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20Hormuz%20shipping%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Ayle.fi%20%C3%96stersj%C3%B6n%20sabotage%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Akustbevakningen.se%20skuggflotta%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Amaritime-executive.com%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Anato.int%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Amod.gov.ua%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Akustbevakningen.se%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 1,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aforsvarsmakten.se%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Amcf.se%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Araja.fi%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Atraficom.fi%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        }
+      ],
+      "web_candidates": 25,
+      "original_fallback": null,
+      "candidate_count": 109,
+      "scope": "discovery_only_not_factual_approval"
+    },
+    "checked_at": "2026-10-23T15:20:45.697635+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  },
+  "work_import": {
+    "package_sha256": "cb188e687fde2c4b68a18399c900f65ac2ab45158c30107b031721803d1fad63",
+    "candidate_sha256": "619318e3850a49c5439d3669e4317b2d31fa37ba6b11158bb61cfd585baf3cdb",
+    "provenance": {
+      "task": "STAB-0745",
+      "source_run": 39978290546,
+      "artifact": 12512695645,
+      "reused_initial_candidate_sha256": "955a8c712da9c12df91233969cfd94b72f6bdb2ab4b121457cc318a37a6f4495",
+      "edits": "Source-bound corrections and expansion after selected-news/decision mismatch: correct Friday chronology and casualty figures, separate Romanian response, preserve unverifiable Iran/India claims and label Taiwan opinion. Seven selected stories and all11current-source decisions. Two previously reported URLs already suppressed by native history, original13source packet preserved. Actual browser original provenance retained."
+    },
+    "editorial_approved": false,
+    "phase": "manuscript_draft"
+  },
+  "final_selection": [
+    {
+      "url": "https://cornucopia.se/2026/10/ukraina-tva-mordade-i-rysk-terror-mot-kyjiv-tva-mordade-i-charkiv-nato-starker-i-svarta-havet-efter-ryska-attacker-rubio-beskyller-musk-for-att-ha-stoppat-starlink/",
+      "selected": false,
+      "reason": "Samma händelse som Politico-rapporten om fartygsattacker och tidigare Nato-besked.",
+      "event_key": "excluded-black-sea-overlap",
+      "source_quote": "",
+      "security_evidence": ""
+    },
+    {
+      "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=5330866d3838bec4bd1465011518e4e5",
+      "selected": false,
+      "reason": "Dubblett av fartygsattacken i Svarta havet som täcks av Politico.",
+      "event_key": "excluded-black-sea-overlap",
+      "source_quote": "",
+      "security_evidence": ""
+    },
+    {
+      "url": "https://maritime-executive.com/article/oil-prices-jump-after-houthi-strikes-and-iranian-shipping-attacks",
+      "selected": true,
+      "reason": "Unik och relevant rapportering om Houthi-attacker mot energimål samt påståenden om minor i Hormuz.",
+      "event_key": "gulf_attack_claims_and_energy_risk",
+      "source_quote": "Separately, the government of Iran claimed that three tankers hit naval mines near the Strait of Hormuz",
+      "security_evidence": "Separately, the government of Iran claimed that three tankers hit naval mines near the Strait of Hormuz"
+    },
+    {
+      "url": "https://www.tv4.se/artikel/tt-261023-rumanfartyg1-9a6e64f0/nytt-fartygshaveri-i-svarta-havet-eskalering",
+      "selected": false,
+      "reason": "Dubblett av fartygsattacken i Svarta havet som behandlas via Politico.",
+      "event_key": "excluded-black-sea-overlap",
+      "source_quote": "",
+      "security_evidence": ""
+    },
+    {
+      "url": "https://www.vietnam.vn/sv/tho-nhi-ky-bulgaria-tang-cuong-phoi-hop-bao-dam-an-toan-hang-hai-o-bien-den",
+      "selected": true,
+      "reason": "Källbelagd diplomatisk och regional säkerhetsutveckling mellan Turkiet och Bulgarien i Svarta havet.",
+      "event_key": "turkey_bulgaria_navigation_dialogue",
+      "source_quote": "Enligt den bulgariska regeringen kom de två länderna överens om att stärka bilaterala initiativ och trilateral samordning med Rumänien för att säkerställa fri navigering i Svarta havet.",
+      "security_evidence": "Enligt den bulgariska regeringen kom de två länderna överens om att stärka bilaterala initiativ och trilateral samordning med Rumänien för att säkerställa fri navigering i Svarta havet."
+    },
+    {
+      "url": "https://hurbra.se/rumanien-svarta-havet-forsvar-22-oktober-2026/",
+      "selected": true,
+      "reason": "Unika och formella försvarsbeslut av Rumäniens högsta försvarsråd efter attackerna.",
+      "event_key": "romania_csat_maritime_response",
+      "source_quote": "Landets högsta försvarsråd beslutade på torsdagen att stärka sjöövervakningen, minröjningen och skyddet mot drönare.",
+      "security_evidence": "Landets högsta försvarsråd beslutade på torsdagen att stärka sjöövervakningen, minröjningen och skyddet mot drönare."
+    },
+    {
+      "url": "https://www.hindustantimes.com/ht-explainers/west-asia-us-iran-war-indian-seafarers-exposed-as-attacks-spread-from-strait-of-hormuz-to-red-sea-houthis-saudi-arabia-conflict-101792734762412.html",
+      "selected": true,
+      "reason": "Särskiljbar händelseuppgift om sjömän i Röda havet samt arbetskraftsperspektiv.",
+      "event_key": "indian_seafarers_red_sea_and_workforce",
+      "source_quote": "rescuing 14 Indian sailors from a yacht that had come under attack near Zuqar Island in the Red Sea",
+      "security_evidence": "rescuing 14 Indian sailors from a yacht that had come under attack near Zuqar Island in the Red Sea"
+    },
+    {
+      "url": "https://maritime-executive.com/editorials/unexplained-ship-clusters-anchoring-off-taiwan",
+      "selected": true,
+      "reason": "Relevant gråzonsanalys om fartygsansamlingar och säkerhetsrisker nära internetkablar.",
+      "event_key": "taiwan_ship_clusters_analysis",
+      "source_quote": "Several of the ships have been noted trading with North Korea, or have been designated by the Taiwan authorities as a security risk for having lingered over internet cables.",
+      "security_evidence": "Several of the ships have been noted trading with North Korea, or have been designated by the Taiwan authorities as a security risk for having lingered over internet cables."
+    },
+    {
+      "url": "https://www.politico.eu/article/drone-hits-another-ship-in-black-sea-near-romania-killing-at-least-one-sailor/",
+      "selected": true,
+      "reason": "Primär källrapport om drönarattacken mot ett handelsfartyg utanför Rumänien.",
+      "event_key": "black_sea_khoryv_attack",
+      "source_quote": "A drone has hit a commercial ship off the coast of Romania, killing at least one crew member with three more still missing",
+      "security_evidence": "A drone has hit a commercial ship off the coast of Romania, killing at least one crew member with three more still missing"
+    },
+    {
+      "url": "https://informnapalm.org/sv/rysslands-skuggflotta/",
+      "selected": true,
+      "reason": "Unik säkerhetsinformation om manipulerade AIS-positioner och förändringar i skuggflottan.",
+      "event_key": "shadow_fleet_ais_and_flags",
+      "source_quote": "Ryska oljetankfartyg har börjat sända motstridiga positionsuppgifter som får det att se ut som om de befinner sig på två platser samtidigt.",
+      "security_evidence": "Ryska oljetankfartyg har börjat sända motstridiga positionsuppgifter som får det att se ut som om de befinner sig på två platser samtidigt."
+    },
+    {
+      "url": "https://www.navalnews.com/naval-news/2026/10/spanish-navy-and-navantia-design-an-iamd-frigate-aiming-to-extend-f110-class/",
+      "selected": false,
+      "reason": "Materiel- och designpresentation utan redovisad aktuell operativ säkerhetsinsats.",
+      "event_key": "excluded-materiel-design",
+      "source_quote": "",
+      "security_evidence": ""
+    }
+  ],
+  "relevant_event_count": 7
+}
