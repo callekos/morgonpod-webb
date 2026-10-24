@@ -1,0 +1,16 @@
+{
+  "kind": "daily",
+  "duration_seconds": 110.592,
+  "target_minutes": [
+    4,
+    8
+  ],
+  "duration_status": "short",
+  "channel": "kek",
+  "date": "2026-10-24",
+  "audio_sha256": "c239982af99f7d85a0e001a20d6d6aef76f3282a3fc1b25d86e278e48ae9f525",
+  "audio_bytes": 859484,
+  "decoded": true,
+  "checked_at": "2026-10-24T04:20:49.508495+00:00",
+  "editorial_approval": "not_established_by_audio_check"
+}

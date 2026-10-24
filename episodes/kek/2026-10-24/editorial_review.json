@@ -1,0 +1,46 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "",
+  "source_coverage": [
+    {
+      "claim": "Det kypriotiska parlamentet har hållit utfrågningar med flera centrala myndigheter med anledning av avslöjanden om hur företagstjänster hjälpt bolag knutna till Roman Abramovich att flytta miljarder offshore.",
+      "source_url": "https://www.occrp.org/en/news/cyprus-parliament-reviews-reports-on-abramovich-linked-asset-transfers"
+    }
+  ],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://www.occrp.org/en/news/cyprus-parliament-reviews-reports-on-abramovich-linked-asset-transfers",
+      "covered_facts": [
+        "Parlamentarisk granskning på Cypern angående Abramovitj-kopplade tillgångar",
+        "Bakdatering av dokument och retroaktiva överföringar till Brittiska Jungfruöarna",
+        "Medverkan av Deloitte och MeritServus",
+        "Advokatsvar från Abramovich",
+        "Justitiedepartementets besked om utvärdering och regulatoriska skärpningar"
+      ],
+      "missing_facts": []
+    }
+  ],
+  "selection_decisions": [
+    {
+      "url": "https://www.occrp.org/en/news/cyprus-parliament-reviews-reports-on-abramovich-linked-asset-transfers",
+      "selected": true,
+      "reason": "Relevanta uppgifter om internationella penningtvättsupplägg, tillgångsöverföringar och parlamentarisk granskning.",
+      "event_key": "cyprus-abramovich-parliament-review",
+      "source_quote": "The Cypriot Parliament this week discussed recent revelations about corporate maneuvers that allowed firms ultimately owned by Russian billionaire Roman Abramovich to sidestep tax and transparency requirements."
+    }
+  ],
+  "format_decision": {
+    "outcome": "standard",
+    "reason": "Det finns en fullgod, källbelagd nyhet om internationell kriminell ekonomi och tillgångsöverföringar som uppfyller kanalens kriterier."
+  },
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "457bf89ede3ebae4c275c16cccb21405186b7003f5a98edf24dec999eec9aa61",
+    "news_sha256": "2aeda12553bc47439d274e600dd71ee0bc90a871a27dd47a04e364b71395b596",
+    "script_sha256": "a4cb9d772de6af518332754aa6486ac3fe4e17d5568d76abf183de8b7f63d7f4",
+    "collection_sha256": "4c5efe7a9678b279794b0c42055e64597bbf0dffa98518bac75dbd6341685dfa"
+  }
+}

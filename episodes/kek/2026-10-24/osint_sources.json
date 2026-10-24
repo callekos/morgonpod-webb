@@ -1,0 +1,185 @@
+{
+  "channel": "kek",
+  "date": "2026-10-24",
+  "sources": [
+    {
+      "id": 1,
+      "title": "Cyprus Parliament Reviews Reports on Abramovich-Linked Asset Transfers",
+      "url": "https://www.occrp.org/en/news/cyprus-parliament-reviews-reports-on-abramovich-linked-asset-transfers",
+      "summary": "Cypriot officials faced questioning from parliamentarians following an investigation by OCCRP and partners, which found that corporate services firms backdated documents to help companies tied to Russian billionaire Roman Abramovich transfer billions offshore.",
+      "date": "2026-10-23T15:51:00+00:00",
+      "publisher": "OCCRP",
+      "discovery_identity": {
+        "url": "https://www.occrp.org/en/news/cyprus-parliament-reviews-reports-on-abramovich-linked-asset-transfers",
+        "title": "Cyprus Parliament Reviews Reports on Abramovich-Linked Asset Transfers",
+        "summary": "Cypriot officials faced questioning from parliamentarians following an investigation by OCCRP and partners, which found that corporate services firms backdated documents to help companies tied to Russian billionaire Roman Abramovich transfer billions offshore.",
+        "date": "2026-10-23T15:51:00+00:00",
+        "publisher": "OCCRP"
+      },
+      "discovery_version_key": "7440c6159027a74d56a9276c3bfde0a2ae28d30d1677819aa5d8a90dd9ac0ca9",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-24T01:16:27.734132+00:00",
+      "resolved_url": "https://www.occrp.org/en/news/cyprus-parliament-reviews-reports-on-abramovich-linked-asset-transfers",
+      "extraction_method": "primary_body_container",
+      "text": "The Cypriot Parliament this week discussed recent revelations about corporate maneuvers that allowed firms ultimately owned by Russian billionaire Roman Abramovich to sidestep tax and transparency requirements. The parliamentary hearings followed an investigation last week by OCCRP , CIReN , BBC , and TBIJ . The reports detailed how the Cyprus affiliate of multinational accountancy firm Deloitte, and corporate service provider MeritServus, worked together to backdate documents relating to companies beneficially owned by Abramovich. Doing so helped the companies retroactively transfer billions of dollars in assets from Cyprus to the British Virgin Islands, where they would not be subject to Cypriot laws on tax and public disclosure. OCCRP reached out to Deloitte’s offices in Cyprus and internationally for comment on the parliamentary hearing, but did not receive a response by the time of publication. Deloitte Cyprus previously told OCCRP it \"acts in compliance with applicable laws.\" MeritServus has been dissolved and it was not possible to obtain a comment. Lawyers for Abramovich, from the London firm of Kobre and Kim, noted that he “has not been identified as the subject of any investigation, nor has he been charged with any wrongdoing.” “Our client’s position is that he denies that he evaded tax or concealed his assets,” the firm said in an emailed response to questions. During the session of Parliament’s Standing Committee on Institutions on Wednesday, representatives of several state bodies were questioned about the findings of the journalistic investigation. Government institutions present included the Finance and Justice Ministries, the Tax Commissioner’s Office, the State Prosecutor and Police, Auditor General, and Central Bank, as well as the Cyprus Securities and Exchange Commission. An official from the Justice Ministry told the committee that information published by the media outlets would be assessed, and that police investigations would be carried out to determine whether any criminal acts had been committed. A representative of the Cyprus Public Audit Oversight Board said the body had been in contact with Deloitte Cyprus since the publication of the reports. The representative referred to difficulties Deloitte Cyprus was experiencing in retrieving data and communications from the relevant period, but stated that the company would provide all relevant information as it became available. Several representatives of regulatory bodies present at the hearings highlighted general improvement made in Cyprus since the period covered by media reports, particularly as a result of E.U. directives being transposed into national law. Tax reform laws introduced in Cyprus in January increased the possible fine for failure to pay the Special Defense Contribution, one of the taxes the companies beneficially owned by Abramovich were obliged to pay. A fine could be as much as 100,000 euros ($112,200) in addition to four times the originally owed tax for repeat offenders.",
+      "page_sha256": "e4b36b23a739a785acf36d5e85241360853782c12cfcf10fd1b74e73038a6057",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain."
+    }
+  ],
+  "collection_evidence": {
+    "state": "ready",
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "channel": "kek",
+    "discovery": {
+      "channel": "kek",
+      "date": "2026-10-24",
+      "feeds": [
+        {
+          "url": "https://www.occrp.org/en/feed",
+          "entries": 60,
+          "accepted": 10,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.occrp.org/en/investigations/feed",
+          "entries": 10,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/rss.xml",
+          "entries": 100,
+          "accepted": 18,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.europol.europa.eu/rss.xml",
+          "entries": 10,
+          "accepted": 10,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "entries": 21,
+          "accepted": 18,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=kriminell%20ekonomi%20penningtv%C3%A4tt%20brottsvinster%20Sverige%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=v%C3%A4lf%C3%A4rdsbrott%20ekonomisk%20brottslighet%20organiserad%20brottslighet%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 1,
+          "accepted": 1,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Europol%20money%20laundering%20asset%20recovery%20criminal%20finance%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=economic%20crime%20organized%20crime%20financial%20investigations%20Europe%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aekobrottsmyndigheten.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Apolisen.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Afi.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Askatteverket.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aregeringen.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Abra.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Asvt.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Asverigesradio.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        }
+      ],
+      "web_candidates": 0,
+      "original_fallback": null,
+      "candidate_count": 57,
+      "scope": "discovery_only_not_factual_approval"
+    },
+    "checked_at": "2026-10-24T01:16:28.838169+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  }
+}
