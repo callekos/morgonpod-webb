@@ -1,0 +1,94 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "Tillräckligt med verifierat och händelsedykande källmaterial har samlats in för att producera en fullgod och substantiell lördagsbriefing.",
+  "source_coverage": [
+    {
+      "claim": "Det Comoros-flaggade lastfartyget Khoryv attackerades den 23 oktober i Svarta havet nära Rumänien och kapsejsade, vilket ledde till 1 död och 3 saknade.",
+      "source_url": "https://maritime-executive.com/article/romania-blames-russia-for-ship-attack-leaving-1-dead-and-3-missing"
+    },
+    {
+      "claim": "Ett oljeutsläpp från den attackerade råoljetankern Gem No.2 har spritt sig över 35 kilometer längs Förenade Arabemiratens kust.",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6rey3n974g5o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "claim": "Den amerikanska sjöblockaden mot Iran har nått 100 dagar och bedöms vara i princip 100 procent effektiv vad gäller oljeexport.",
+      "source_url": "https://maritime-executive.com/article/the-blockade-on-iran-is-deepening-but-also-widening"
+    }
+  ],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://maritime-executive.com/article/romania-blames-russia-for-ship-attack-leaving-1-dead-and-3-missing",
+      "covered_facts": [
+        "Fartygets namn och flagg (Khoryv, Comoros)",
+        "Plats: cirka 13 sjömil öster om Constanta, Rumänien",
+        "En död, tre saknade, nio räddade",
+        "Rumäniens president anklagar Ryssland",
+        "EU-kommissionens ordförande fördömer händelsen"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c6rey3n974g5o?at_medium=RSS&at_campaign=rss",
+      "covered_facts": [
+        "Tankern Gem No.2 attackerad i början av oktober",
+        "Oljeutsläppet spritt sig över 35 km längs Förenade Arabemiratens kust",
+        "Hotar marina miljöer och öar"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://maritime-executive.com/article/the-blockade-on-iran-is-deepening-but-also-widening",
+      "covered_facts": [
+        "100 dagar sedan blockaden återupptogs",
+        "Nära 100 procent effektiv för oljeexport",
+        "Påtryckningar på grannländer gällande landtransporter"
+      ],
+      "missing_facts": []
+    }
+  ],
+  "selection_decisions": [
+    {
+      "url": "https://maritime-executive.com/article/romania-blames-russia-for-ship-attack-leaving-1-dead-and-3-missing",
+      "selected": true,
+      "reason": "Viktig säkerhetsnyhet om dödlig attack mot handelsfartyg i Svarta havet nära Rumänien.",
+      "event_key": "black-sea-khoryv-attack",
+      "source_quote": "The Comoros-flagged OBO carrier (Oil-Bulk-Ore carrier) Khoryv (3,280 dwt) issued a distress call on Friday morning, October 23",
+      "security_evidence": "The Comoros-flagged OBO carrier (Oil-Bulk-Ore carrier) Khoryv (3,280 dwt) issued a distress call on Friday morning, October 23, while it was approximately 13 nautical miles east of Constanta, Romania."
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c6rey3n974g5o?at_medium=RSS&at_campaign=rss",
+      "selected": true,
+      "reason": "Relevant händelse om oljeutsläpp som hotar miljö och sjöfart efter tankarangrepp vid Hormuzsundet.",
+      "event_key": "hormuz-gem-no2-oil-spill",
+      "source_quote": "An oil spill from a tanker attacked near the Strait of Hormuz is spreading along the United Arab Emirates (UAE) coastline",
+      "security_evidence": "An oil spill from a tanker attacked near the Strait of Hormuz is spreading along the United Arab Emirates (UAE) coastline, forcing the closure of some beaches and coastal areas."
+    },
+    {
+      "url": "https://maritime-executive.com/article/the-blockade-on-iran-is-deepening-but-also-widening",
+      "selected": true,
+      "reason": "Strategisk uppdatering om den pågående maritimblockaden mot Iran och dess effekter.",
+      "event_key": "iran-naval-blockade-update",
+      "source_quote": "U.S. Central Command highlighted on Thursday, October 22, that it was marking 100 days since U.S. forces resumed the naval blockade.",
+      "security_evidence": "U.S. Central Command highlighted on Thursday, October 22, that it was marking 100 days since U.S. forces resumed the naval blockade."
+    }
+  ],
+  "format_decision": {
+    "outcome": "standard",
+    "reason": "Tillräckligt med verifierat och aktuellt källmaterial finns tillgängligt inom samtliga prioriterade områden för att producera en fullgod daglig briefing."
+  },
+  "maritime_policy": "maritime-security-2026-10-22",
+  "maritime_sources_sha256": "a40fc074d4ed955bfcf3cd883b1eba0a8fa1cfe1f50456d02d3563a1d2fe59e4",
+  "maritime_news_sha256": "e78e19946b75480fb05cca5cd6bcf65bfe38ea8d08886bfe51217c9745cea683",
+  "reviewed_script_sha256": "8bf0ebaab99c02d23f6da474ccb80777b3718383f61102e1c283df0b84eb35cb",
+  "relevant_event_count": 3,
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "d2fea759093c0c9f2f9eff7736fde3e4cfc61bef973b356c960d5b43abd87f30",
+    "news_sha256": "ecf5ed73f91f4bc142b3945e002392206aa840757599ce4dfdf1dbb90ad33458",
+    "script_sha256": "8bf0ebaab99c02d23f6da474ccb80777b3718383f61102e1c283df0b84eb35cb",
+    "collection_sha256": "e97016a220f0a367c25b71d4fe1f91bda2fda759295a6e716790c49560e06e4b"
+  }
+}
