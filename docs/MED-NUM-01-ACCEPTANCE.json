@@ -1,0 +1,79 @@
+{
+  "task": "MED-NUM-01",
+  "state": "PREPARED_NOT_PUBLISHED",
+  "web_base": "36ab2f55113fc2d7b59fc3738e55f00eca5338df",
+  "episodes_preserved": 67,
+  "stories_preserved": 140,
+  "rebuild_idempotent": true,
+  "next_new_number": 7,
+  "editions": [
+    {
+      "id": "mediesvepet:2026-10-16:daily",
+      "date": "2026-10-16",
+      "before": 5,
+      "after": 1,
+      "title": "Avsnitt 1: Tre barn och en lärare dödade i Oregon / Efterlyst man gripen i Marocko",
+      "audio": "episodes/mediesvepet/2026-10-16/morgonpod.mp3",
+      "unchanged_audio_git_blob": "9011f18894a9edb7fda99f64162ce58deefa2ef3",
+      "script_number_mentions": [],
+      "audio_scope": "Unchanged audio blob and matching script hash; no new ASR or human listening."
+    },
+    {
+      "id": "mediesvepet:2026-10-19:daily",
+      "date": "2026-10-19",
+      "before": 4,
+      "after": 2,
+      "title": "Avsnitt 2: Kvinna död efter skjutning i idrottshall / Stadshus förstört efter franska protester",
+      "audio": "episodes/mediesvepet/2026-10-19/morgonpod.mp3",
+      "unchanged_audio_git_blob": "e44c837ecbdfbd088a9a57a7a82624a8dc8beaee",
+      "script_number_mentions": [],
+      "audio_scope": "Unchanged audio blob and matching script hash; no new ASR or human listening."
+    },
+    {
+      "id": "mediesvepet:2026-10-20:daily",
+      "date": "2026-10-20",
+      "before": 3,
+      "after": 3,
+      "title": "Avsnitt 3: Landerholm fälld i hovrätten / Frankrike öppnar för lokala utegångsförbud",
+      "audio": "episodes/mediesvepet/2026-10-20/morgonpod.mp3",
+      "unchanged_audio_git_blob": "dd0cee1c87e1ed739b0e6bde5ec502406b83ec71",
+      "script_number_mentions": [],
+      "audio_scope": "Unchanged audio blob and matching script hash; no new ASR or human listening."
+    },
+    {
+      "id": "mediesvepet:2026-10-21:daily",
+      "date": "2026-10-21",
+      "before": 2,
+      "after": 4,
+      "title": "Avsnitt 4: Två tonåringar häktade efter mordet i Älvsjö / Fängelsedom efter brandattack mot socialsekreterare",
+      "audio": "episodes/mediesvepet/2026-10-21/morgonpod.mp3",
+      "unchanged_audio_git_blob": "b04e12be41446a9033964e6d617b178f0390b605",
+      "script_number_mentions": [],
+      "audio_scope": "Unchanged audio blob and matching script hash; no new ASR or human listening."
+    },
+    {
+      "id": "mediesvepet:2026-10-22:daily",
+      "date": "2026-10-22",
+      "before": 1,
+      "after": 5,
+      "title": "Avsnitt 5: Fastighetsföreträdare begärd häktad i Candy / Unga erbjuds bedrägeriuppdrag på nätet",
+      "audio": "episodes/mediesvepet/2026-10-22/morgonpod.mp3",
+      "unchanged_audio_git_blob": "85ba995fbd1de153205d5971edcd30e2382a6b48",
+      "script_number_mentions": [],
+      "audio_scope": "Unchanged audio blob and matching script hash; no new ASR or human listening."
+    },
+    {
+      "id": "mediesvepet:2026-10-23:daily",
+      "date": "2026-10-23",
+      "before": 6,
+      "after": 6,
+      "title": "Avsnitt 6: Tre misstänkta i Borlänges valfuskutredning / EU utreder misstänkt påverkan på franska protester",
+      "audio": "episodes/mediesvepet/2026-10-23/morgonpod.mp3",
+      "unchanged_audio_git_blob": "f72c376d54416c5aacabbfafa40dc7d740ebcb1f",
+      "script_number_mentions": [],
+      "audio_scope": "Unchanged audio blob and matching script hash; no new ASR or human listening."
+    }
+  ],
+  "telegram_episode_sends": 0,
+  "tts_calls": 0
+}
