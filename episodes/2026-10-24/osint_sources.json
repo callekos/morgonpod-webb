@@ -1,11 +1,121 @@
 {
   "channel": "ibat",
   "date": "2026-10-24",
-  "sources": [],
+  "sources": [
+    {
+      "url": "https://hurbra.se/palantir-nato-maven-kill-switch-2026/",
+      "title": "Palantir: Ingen kill switch i Natos AI-system - HurBra.se",
+      "publisher": "HurBra.se",
+      "date": "2026-10-22T11:10:48+00:00",
+      "summary": "Palantir: Ingen kill switch i Natos AI-system HurBra.se",
+      "discovery_identity": {
+        "url": "https://hurbra.se/palantir-nato-maven-kill-switch-2026/",
+        "title": "Palantir: Ingen kill switch i Natos AI-system - HurBra.se",
+        "summary": "Palantir: Ingen kill switch i Natos AI-system HurBra.se",
+        "date": "2026-10-22T11:10:48+00:00",
+        "publisher": "HurBra.se"
+      },
+      "discovery_version_key": "b451df301c28d6da8e4ff0b5a317c596c9b43f7714186d25ffec76dc8c6c5112",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-24T10:46:49.246935+00:00",
+      "page_published_at": "2026-10-22T11:10:48+00:00",
+      "page_sha256": "a35e64526daa1bf9abbe21c35f78c8449e1e40c2a628334519198cbcb115795e",
+      "resolved_url": "https://hurbra.se/palantir-nato-maven-kill-switch-2026/",
+      "extraction_method": "title_matched_article",
+      "text": "Hem Nyheter Palantir avvisar ”kill switch” i Natos AI-system – därför kvarstår Europas oro Palantir avvisar ”kill switch” i Natos AI-system – därför kvarstår Europas oro Nyheter Publicerad 22 oktober 2026 Av Hanna Hellman Det amerikanska teknikföretaget Palantir försäkrar att varken företaget eller USA:s regering kan stänga av Natos AI-system Maven Smart System. Beskedet kommer samtidigt som Europas beroende av amerikansk försvarsteknik ifrågasätts efter störningar i Ukrainas satellitkommunikation. Men möjligheten att hålla ett system igång är inte samma sak som att vara oberoende av leverantören. Palantirs vice vd med ansvar för Storbritannien och Europa, Louis Mosley, säger i en intervju med Reuters att det inte finns någon möjlighet för företaget eller den amerikanska regeringen att fjärrstänga Maven hos en kund. Enligt Mosley har kunden full operativ kontroll och kan använda systemet utan Palantirs personal. Det är också kunden som avgör om företagets medarbetare ska delta i driften. Uttalandet är ett tydligt besked från leverantören, men det finns ingen offentligt redovisad oberoende granskning som bekräftar just påståendet om en avstängningsfunktion. Samtidigt omfattar försäkran inte alla de frågor som europeiska försvarsmakter måste ta ställning till när allt fler militära funktioner bygger på amerikansk mjukvara. Så fungerar Natos AI-system Maven Maven Smart System är en AI-baserad plattform som används för att samla, bearbeta och analysera stora mängder militär information. Systemet kan kombinera uppgifter från exempelvis satelliter, radar, sensorer och andra underrättelsekällor. Med hjälp av artificiell intelligens kan informationen sammanställas till lägesbilder som stödjer militär planering och beslutsfattande. Tekniken kan bland annat hjälpa militära staber att identifiera mönster, bedöma möjliga mål och jämföra olika handlingsalternativ. Maven har sitt ursprung i det amerikanska försvarsdepartementets Project Maven, som inleddes 2017. Den version som används inom Nato är anpassad för alliansens egna behov. Den 22 juni 2026 uppnådde Maven full teknisk operativ förmåga inom Nato. Systemet har också fått säkerhetsackreditering för användning i alliansens klassificerade nätverk, enligt Natos egen redovisning av Maven Smart System . Det innebär att systemet har godkänts för sin avsedda användning inom organisationen. Ackrediteringen ska däremot inte förväxlas med en offentlig garanti för att Nato kan underhålla och vidareutveckla tekniken helt utan Palantir. Fyra frågor om vem som kontrollerar Maven Den europeiska diskussionen gäller mer än risken för att ett amerikanskt företag skulle kunna trycka på en avstängningsknapp. Ett militärt system kan fungera självständigt i den dagliga verksamheten men samtidigt vara beroende av tillverkaren för programuppdateringar, säkerhetsarbete, felsökning och framtida utveckling. Fråga Vad som är känt Kan USA eller Palantir stänga av systemet? Palantir säger nej. Påståendet har inte verifierats genom en offentlig oberoende granskning. Vem kontrollerar Natos data? Natos Mavenansvarige har uppgett att organisationen äger sin installation och lagrar sina data på egna servrar. Måste Palantirs personal sköta driften? Enligt företaget kan kunden driva systemet utan Palantirs medverkan. Kan Nato klara sig utan framtida stöd från Palantir? Det är inte offentligt klarlagt hur långt självständigheten sträcker sig när det gäller underhåll, uppdateringar och vidareutveckling. En viktig detalj är att Maven kan använda AI-modeller från flera olika leverantörer, bland annat franska Mistral AI. Det ger möjlighet att använda olika modeller inom plattformen. Men att byta en AI-modell är inte nödvändigtvis samma sak som att ersätta den underliggande programvaran från Palantir. Det finns inte heller belägg för att Palantir har missbrukat någon kontrollfunktion i Natos Maveninstallation. Diskussionen handlar om vilka beroenden som faktiskt finns och hur de skulle påverka verksamheten om förutsättningarna förändrades. Störningarna i Ukraina har väckt ny oro Bakgrunden till den senaste diskussionen är bland annat de problem som rapporterats kring SpaceX militära satellittjänst Starshield i Ukraina. I oktober uppgav ukrainska företrädare att begränsningar i satellitkommunikationen påverkat vissa drönaroperationer. Enligt uppgifterna uppstod problem bland annat när uppkopplade farkoster färdades i hastigheter över omkring 160 kilometer i timmen. Händelsen beskrivs närmare i Hurbra:s tidigare artikel om begränsningarna i Ukrainas satellitkommunikation och stoppade drönaruppdrag . Det är inte fastställt att störningarna berodde på ett politiskt beslut. Olika förklaringar har framförts om varför tjänsten påverkades. Starshield och Maven är dessutom två helt olika system. Det ena tillhandahåller satellitkommunikation, medan det andra används för militär informationshantering och beslutsstöd. Likheten ligger i beroendet av amerikanska leverantörer. Om en teknisk tjänst förändras kan det få direkta följder för militära operationer, även utan att någon uttryckligen stänger av hela systemet. Frankrike och Tyskland har valt andra vägar Alla Natoländer har inte valt att införa Palantirs Maven för sina nationella försvarsstyrkor. Tyskland har uttryckt betänkligheter kring den kontroll som privata teknikleverantörer skulle kunna få över känsliga militära databaser. Den tyske cyberförsvarschefen Thomas Daum förklarade i april 2026 att det då inte var aktuellt att ge Palantir tillgång till det tyska försvarets nationella databaser. Frankrike utvecklar samtidigt en egen lösning, Arcadia, där större nationell kontroll över data och teknisk infrastruktur är viktiga utgångspunkter. Det franska systemet utvecklas också med hänsyn till behovet av att kunna fortsätta militär verksamhet när delar av kommunikationen inte fungerar. Dessa nationella vägval betyder inte att Frankrike och Tyskland står utanför Natos gemensamma användning av Maven. Skillnaden är viktig: ett land kan delta i alliansens gemensamma ledningsarbete och samtidigt välja andra tekniska lösningar för sina egna försvarsstyrkor. Vad betyder Natos AI-beroende för Sverige? Sverige är fullvärdig medlem i Nato sedan den 7 mars 2024. Därmed är utvecklingen av alliansens gemensamma ledningssystem också en svensk försvarsfråga. Det betyder inte att Försvarsmakten har infört Maven i sin nationella verksamhet. Något sådant beslut är inte verifierat i det tillgängliga underlaget. Sverige arbetar däremot redan med tekniska lösningar för att dela militär information med andra Natoländer. Ett konkret exempel är Swedish Army Mission Network, SWE AR MN, som prövades under militärövningen Cold Response 2026. Systemet används för att utbyta information, lägesbilder och order med andra länders militära organisationer. Det bygger på Natos ramverk Federated Mission Networking, FMN. En viktig princip i detta samarbete är att länder ska kunna behålla kontrollen över sina egna system och sin information, samtidigt som information kan delas när det behövs. Det illustrerar en central fråga för Sverige: hur kan Försvarsmakten dra nytta av Natos gemensamma AI- och ledningssystem utan att förlora kontrollen över nationellt känsliga uppgifter? Det handlar inte bara om var information lagras. Även möjligheten att granska systemen, hantera säkerhetsuppdateringar och fortsätta verksamheten vid störningar är relevant. Ingen avstängningsknapp löser inte hela beroendet Palantirs besked är betydelsefullt eftersom en fjärrstyrd avstängningsmöjlighet skulle innebära ett mycket direkt beroende av leverantören. Men Europas diskussion om teknisk självständighet stannar inte där. För Nato och Sverige spelar det också roll vem som äger den tekniska kompetensen, hur programvaran underhålls och hur svårt det skulle vara att ersätta en leverantör utan att störa militär verksamhet. Att Nato enligt Palantir själv kan kontrollera och driva Maven besvarar en del av frågan. Hur självständigt alliansen skulle kunna utveckla, säkra och ersätta systemet på längre sikt är däremot inte klarlagt i den offentliga informationen. Tags artificiell intelligens europeisk säkerhet försvarsteknik Maven Smart System Nato Palantir Sverige USA Senaste artiklar Guider TV idag lördag 24 oktober 2026 – bästa programmen och filmerna Lördagens TV-kväll bjuder på Idol-dueller, frågesport i 1% Klubben, brittiska deckare och flera stora... 24 oktober 2026 Sport Sverige–Brasilien 24 oktober: rekordjakt och sista EM-testet Sverige möter Brasilien i damhandboll lördagen den 24 oktober 2026. Avkast sker klockan 15.15... 24 oktober 2026 Speltips SM-liiga idag 24 oktober: alla matcher och speltips Åtta matcher spelas i finska SM-liiga lördagen den 24 oktober 2026. Samtliga börjar klockan... 24 oktober 2026 Sport UFC 333 i kväll: TV-tider, alla 14 matcher och två titeldueller UFC 333 avgörs lördagen den 24 oktober 2026 i Abu Dhabi. Alexander Volkanovski försvarar... 24 oktober 2026 liknande artiklar Guider TV idag lördag 24 oktober 2026 – bästa programmen och filmerna Lördagens TV-kväll bjuder på Idol-dueller, frågesport i 1% Klubben, brittiska deckare och flera stora... 24 oktober 2026 Sport Sverige–Brasilien 24 oktober: rekordjakt och sista EM-testet Sverige möter Brasilien i damhandboll lördagen den 24 oktober 2026. Avkast sker klockan 15.15... 24 oktober 2026 Speltips SM-liiga idag 24 oktober: alla matcher och speltips Åtta matcher spelas i finska SM-liiga lördagen den 24 oktober 2026. Samtliga börjar klockan... 24 oktober 2026",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "text_sha256": "921bc5dc3cdd7e4efd6aba9c8a8c16ad8f9c00a0bea53bfb9b20d90dfeca39d0"
+    },
+    {
+      "url": "https://www.digg.se/om-oss/nyheter/digital-identitet/nyheter/2026-10-23-nytt-utkast-till-certifieringssystem-for-den-digitala-identitetsplanboken",
+      "title": "Nytt utkast till certifieringssystem för den digitala identitetsplånboken - Digg – Myndigheten för digital förvaltning",
+      "publisher": "Digg – Myndigheten för digital förvaltning",
+      "date": "2026-10-23T08:29:29+02:00",
+      "summary": "Nytt utkast till certifieringssystem för den digitala identitetsplånboken Digg – Myndigheten för digital förvaltning",
+      "discovery_identity": {
+        "url": "https://www.digg.se/om-oss/nyheter/digital-identitet/nyheter/2026-10-23-nytt-utkast-till-certifieringssystem-for-den-digitala-identitetsplanboken",
+        "title": "Nytt utkast till certifieringssystem för den digitala identitetsplånboken - Digg – Myndigheten för digital förvaltning",
+        "summary": "Nytt utkast till certifieringssystem för den digitala identitetsplånboken Digg – Myndigheten för digital förvaltning",
+        "date": "2026-10-23T08:29:29+02:00",
+        "publisher": "Digg – Myndigheten för digital förvaltning"
+      },
+      "discovery_version_key": "cbf63a0dab8188539ccda7b7c13b7aca6f28b3ecc3c359bcc756182815f9a289",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-24T10:46:49.247531+00:00",
+      "page_published_at": "2026-10-23T08:29:29+02:00",
+      "page_sha256": "39f09845f6100e48a7f4b9d17d5e11ba7a6b7831e43c73952d8b3c47cf89a02e",
+      "resolved_url": "https://www.digg.se/om-oss/nyheter/digital-identitet/nyheter/2026-10-23-nytt-utkast-till-certifieringssystem-for-den-digitala-identitetsplanboken",
+      "extraction_method": "title_matched_page",
+      "text": "Nytt utkast till certifieringssystem för den digitala identitetsplånboken | Digg Till innehållet Nytt utkast till certifieringssystem för den digitala identitetsplånboken Digg har nu tagit fram ett andra utkast till certifieringssystem för europeiska digitala identitetsplånböcker (EUDIW). Certifieringssystemet ska göra det möjligt att på ett enhetligt sätt granska och certifiera digitala identitetsplånböcker och tillhörande tjänster enligt EU:s krav. – Vi är mycket tacksamma för de synpunkter som inkom efter första utkastet. Synpunkterna har omhändertagits och bearbetats vilket gör att vi nu kan släppa uppdaterade utkast. Det har inneburit att vi successivt kunnat förbättra kvalitén i dokumenten och skapa ett tydligt och tillämpbart certifieringssystem. Det finns även denna gång möjlighet att lämna synpunkter, säger Anna Ask, enhetschef för EU-identitet på Digg. Arbetet har fortsatt genomförts inom det nordisk-baltiska samarbetet NOBID, där Sverige har haft en ledande roll i utformningen. Ett certifieringssystem är avgörande för att plånböcker och tillhörande tjänster ska kunna granskas och visa att de uppfyller EU:s krav på ett enhetligt och tillförlitligt sätt. Arbetet tillsammans med våra nordiska och baltiska grannländer stärker både kvaliteten och förutsättningarna för framtida samordning. Vad ett certifieringssystem gör Ett certifieringssystem är den struktur som gör det möjligt att genomföra certifieringar på ett enhetligt och tillförlitligt sätt. Systemet omfattar de organisationer, processer och regler som behövs för att bedöma och certifiera produkter, tillhörande tjänster eller andra certifieringsobjekt. Certifieringssystemet innehåller certifieringsordningar. Varje certifieringsordning beskriver vilka regler, processer och krav som ska användas när ett certifieringsobjekt ska certifieras. Tillsammans säkerställer certifieringssystemet och certifieringsordningarna att bedömningar genomförs på ett konsekvent, opartiskt och reproducerbart sätt. Det gör att certifieringsbeslut kan baseras på faktabaserade och verifierbara underlag. Nästa steg Nu fortsätter arbetet med att utveckla certifieringssystemet tillsammans med svenska och europeiska aktörer. Fokus ligger på tre områden: Samverkan med ackrediteringsorganet Swedac. Dialogen med Swedac är inledd. Nästa steg är att skapa förutsättningar för ackreditering av certifieringsorgan, så att certifieringar kan genomföras av oberoende och kompetenta aktörer. Samordning med andra medlemsländer. Samarbetet med andra medlemsländer fortsätter, både inom NOBID och i bredare EU-sammanhang. Genom samordning av tillvägagångssätt skapas förutsättningar för att använda ett gemensamt certifieringssystem i flera länder. Färdigställa certifieringssystemet för remittering. – En del arbete återstår fortfarande, men vi har nu en väldigt bra grund att bygga vidare på. Ett nära samarbete med både Swedac och andra medlemsländer är avgörande för att skapa ett certifieringssystem som håller över tid och fungerar i hela EU. Nästa steg är att remittera certifieringssystemet före årsskiftet, säger Anna Ask. Kortfakta om certifieringssystemet Certifieringssystemet beskriver hur digitala identitetsplånböcker, de e-legitimationssystem som plånböckerna ingår i och tillhörande komponenter kan certifieras mot kraven i eIDAS-förordningen och tillhörande genomförandeakter. Systemet är utformat för att kunna användas av flera medlemsländer och möjliggör en enhetlig granskning och certifiering över gränserna. Genom att tillämpa gemensamma metoder och bedömningskriterier säkerställs att plånbokslösningar och tillhörande tjänster uppfyller EU krav på säkerhet, tillförlitlighet och funktionalitet. Arbetet har bedrivits inom det nordisk-baltiska samarbetet NOBID, där Sverige har haft en ledande roll. Utkasten är ett andra steg och kommer att vidareutvecklas i takt med att EU:s regelverk och tekniska ramverk färdigställs. Ta del av utkasten och lämna dina synpunkter senast 13 november Fram till den 13 november 2026 har du möjlighet att ta del av utkasten och lämna synpunkter. Dokumenten TR 3 – TR 3.7 tillgängliggörs först från onsdag 28 oktober. Du begär ut dokumenten genom att mejla registrator@digg.se . Ange diarienummer 2026–07275 och vilket dokument du vill ta del av. Vi välkomnar dina synpunkter! Skicka in dem via vårt formulär senast den 13 november 2026 . Mail name e-mail: Vilket eller vilka dokument vill du lämna synpunkter på? * (obligatorisk) Vilket eller vilka dokument vill du lämna synpunkter på? TR 1 General Certification Requirements TR 2 Vocabulary TR 3 EUDI Wallet Solution Certification Scheme TR 3.1 EUDI Wallet Functional Certification Framework Methodology Evaluation Rules TR 3.2 EUDI Wallet Functional Certification Wallet Solution Conformance TR 3.3 EUDI Wallet Functional Certification PID Provider Conformance TR 3.4 EUDI Wallet Functional Certification Issuance Conformance TR 3.5 EUDI Wallet Functional Certification Presentation Conformance TR 3.6 EUDI Wallet Functional Certification PID Data Models TR 3.7 EUDI Wallet Functional Certification Trust and Internal Functions TR 4 EUDI Wallet Cybersecurity Certification Scheme TR 4.1 EUDI Wallet Solution Cybersecurity Certification Decomposition and Security Requirement TR 4.2 EUDI Wallet Solution Cybersecurity Certification Wallet Instance Protection Profile and Evaluation Module TR 4.3 EUDI Wallet Solution Cybersecurity Certification Remote WSCA Protection Profile PP WSCA REMOTE TR 4.4 EUDI Wallet Solution Cybersecurity Certification Remote WSCD Certification Requirements TR 5 EUDI Wallet eID Scheme, Certification Scheme TR 5.1 EUDI Wallet eID Scheme Wallet eID Scheme Operator General Requirements TR 5.2 EUDI Wallet eID Scheme Service Provider Information Security Requirements TR 5.3 EUDI Wallet eID Scheme PID Enrolment and Lifecycle Maintenance TR 5.4 EUDI Wallet eID Scheme Wallet Unit Provisioning and Lifecycle Maintenance TR 5.5 EUDIW Wallet eID Scheme Certification Scheme Risk Register Vilken del av dokumentet gäller din synpunkt? * (obligatorisk) Precisera så långt det är möjligt för att underlätta förståelse och hantering. Vilken synpunkt har du? * (obligatorisk) Har du synpunkter eller tankar på alternativa lösningar? Ange det här. * (obligatorisk) Kontaktuppgifter (frivilligt) Lämna dina kontaktuppgifter om du vill att vi ska kunna kontakta dig angående din fråga eller synpunkt. Namn Organisation/verksamhet E-postadress Vill du veta mer? Delta vid webbinarium om certifiering av digitala identitetsplånböcker den 11 november Välkommen till ett webbinarium där Digg ger en fördjupad bild av certifieringssystemet för digitala identitetsplånböcker. Under webbinariet får du veta mer om hur certifieringssystemet är uppbyggt, vilka delar det består av och hur de olika certifieringsordningarna samverkar. Du får också möjlighet att ställa frågor. Läs mer och välkommen med din anmälan Använd gärna möjligheten att ställa frågor till oss i förväg i samband med din anmälan. Webbinarium om certifiering av digitala identitetsplånböcker Hjälpte denna information dig? Nej Ja Ditt svar hjälper oss att förbättra sidan Publicerad: 23 oktober 2026 Tillbaka till toppen",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "text_sha256": "d735fac25be522da391ba019a899d768a38bf2dad5f984a234593914232d1c29"
+    },
+    {
+      "url": "https://www.imy.se/nyheter/sarbarheter-i-programmeringsspraket-php/",
+      "title": "Sårbarheter i programmeringsspråket PHP",
+      "publisher": "IMY",
+      "date": "2026-10-22T11:46:45+00:00",
+      "summary": "Den 21 oktober beskrevs två allvarliga säkerhetsbrister i programmeringsspråket PHP som används av många webbplatser. Den utbredda användningen av PHP gör problemet omfattande. Det är sårbarheter som kan utnyttjas av angripare och situationen innebär en risk för bland annat läckage av personuppgifter och bedrägerier.",
+      "discovery_identity": {
+        "url": "https://www.imy.se/nyheter/sarbarheter-i-programmeringsspraket-php/",
+        "title": "Sårbarheter i programmeringsspråket PHP",
+        "summary": "Den 21 oktober beskrevs två allvarliga säkerhetsbrister i programmeringsspråket PHP som används av många webbplatser. Den utbredda användningen av PHP gör problemet omfattande. Det är sårbarheter som kan utnyttjas av angripare och situationen innebär en risk för bland annat läckage av personuppgifter och bedrägerier.",
+        "date": "2026-10-22T11:46:45+00:00",
+        "publisher": "IMY"
+      },
+      "discovery_version_key": "fe5d78fad4cb267b57cb18622eb088b7056fc118517fefbe2f2aaa59717e6f19",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-24T10:46:49.248470+00:00",
+      "page_sha256": "0f02ab85224c29e5deb7625ef1a4fc584fb70fff0b484aae4ef8113ca9133a07",
+      "resolved_url": "https://www.imy.se/nyheter/sarbarheter-i-programmeringsspraket-php/",
+      "extraction_method": "title_matched_page",
+      "text": "Sårbarheter i programmeringsspråket PHP | IMY Lyssna Sårbarheter i programmeringsspråket PHP Publicerad: 22 oktober 2026 Den 21 oktober beskrevs två allvarliga säkerhetsbrister i programmeringsspråket PHP som används av många webbplatser. Den utbredda användningen av PHP gör problemet omfattande. Det är sårbarheter som kan utnyttjas av angripare och situationen innebär en risk för bland annat läckage av personuppgifter och bedrägerier. PHP är en teknik som körs i bakgrunden på webbservrar för att driva och bygga dynamiska webbplatser. Säkerhetshålen är kritiska eftersom de gör det möjligt för obehöriga att ta kontroll över drabbade webbservrar utifrån. Akuta säkerhetsuppdateringar har släppts för att täppa till hålen. Efter stora globala IT-händelser ser man ofta en ökad risk för riktade bedrägerier. IMY vill därför uppmana till extra uppmärksamhet på misstänkta e-postmeddelanden, sms eller telefonsamtal (så kallat nätfiske). Det är mycket vanligt att cyberkriminella försöker utnyttja den uppkomna situationen och den oro som kan finnas för att lura till sig känsliga uppgifter. En metod som bedragare använt tidigare är att skicka ut mejl med information om det aktuella hotet, i detta fall skulle det gälla PHP-sårbarheterna. Där kan falska länkar skickas med som påstås uppdatera miljön till en säkrare version. Dessa länkar kan leda till ännu mer skada. För att hitta den korrekta uppdatering man behöver ska man vända sig till sin leverantör eller kända källor för nedladdning. Om sårbarheterna leder till it-angrepp och att personuppgifter läcker kan även sådana uppgifter användas för bedrägerier. Det gäller både mot privatpersoner och verksamheter. Som alltid gäller att vara uppmärksam mot misstänkta kontaktförsök. Eftersom detta är en global händelse i en extern programvara hanteras de tekniska uppdateringarna direkt av respektive systemägare. För löpande uppdateringar och officiella rekommendationer hänvisar vi till de nationella expertorganen: CERT-SE (Sveriges nationella center för hantering av IT-incidenter) Nationellt cybersäkerhetscenter (NCSC-SE) Mer information Relaterade länkar CERT-SE (Sveriges nationella center för hantering av IT-incidenter) Nationellt cybersäkerhetscenter (NCSC-SE) För mer information kontakta Presstjänsten, telefon 08-515 154 15 Senast uppdaterad: 22 oktober 2026 Skriv ut Sidans etiketter Dataskydd Fler nyheter inom ämnet IMY tar fram vägledning om molntjänster i offentlig sektor 20 oktober 2026 Uttalande om smarta glasögon på EU-nivå 14 oktober 2026 Välkommen till årets DSO-konferens! 12 oktober 2026 IMY granskar behandling av personuppgifter om barn som besöker badhus 7 oktober 2026 Se fler nyheter Fler nyheter inom ämnet IMY tar fram vägledning om molntjänster i offentlig sektor 20 oktober 2026 Uttalande om smarta glasögon på EU-nivå 14 oktober 2026 Välkommen till årets DSO-konferens! 12 oktober 2026 IMY granskar behandling av personuppgifter om barn som besöker badhus 7 oktober 2026 Se fler nyheter Senast uppdaterad: 22 oktober 2026 Skriv ut Sidans etiketter Dataskydd",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "text_sha256": "d19c6d11be2c00e778c0aeeed7152861a9f4104bcbf228578cf84c4e0a24eb1a"
+    },
+    {
+      "url": "https://www.imy.se/remissvar/ett-statligt-identitetskort/",
+      "title": "Yttrande över Ett statligt identitetskort - Integritetsskyddsmyndigheten | IMY",
+      "publisher": "Integritetsskyddsmyndigheten",
+      "date": "2026-10-22",
+      "summary": "Yttrande över Ett statligt identitetskort Integritetsskyddsmyndigheten | IMY",
+      "discovery_identity": {
+        "url": "https://www.imy.se/remissvar/ett-statligt-identitetskort/",
+        "title": "Yttrande över Ett statligt identitetskort - Integritetsskyddsmyndigheten | IMY",
+        "summary": "Yttrande över Ett statligt identitetskort Integritetsskyddsmyndigheten | IMY",
+        "date": "2026-10-22",
+        "publisher": "Integritetsskyddsmyndigheten"
+      },
+      "discovery_version_key": "815a43ba7fc3b857ce5f395581eedb2110e2b750b33267df1639ba0807387736",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-24T10:46:49.658080+00:00",
+      "page_sha256": "cb822d31a078181dff000b5bf57eaf28360216e0678181108bd928f484ac21cd",
+      "page_published_date": "2026-10-22",
+      "document_url": "https://www.imy.se/globalassets/dokument/remissvar/2026/yttrande-over-ett-statligt-identitetskort.pdf",
+      "document_sha256": "4f8a80a3eaba657f7396727436e99ddb8355e0de78c2c9bf589b10589852bd9c",
+      "document_pages": 2,
+      "document_complete": true,
+      "resolved_url": "https://www.imy.se/remissvar/ett-statligt-identitetskort/",
+      "extraction_method": "linked_primary_pdf_full_text",
+      "text": "Postadress:\nBox 8114\n104 20 Stockholm\nWebbplats:\nwww.imy.se\nE-post:\nimy@imy.se\nTelefon:\n08-657 61 00\n1(2) \n \nRegeringskansliet, Justitiedepartementet \n \nYttrande över Ett statligt identitetskort \nIntegritetsskyddsmyndigheten (IMY) tillstyrker att en ny pass- och \nidentitetskortsdatalag införs, men avstyrker att biometriska uppgifter från ansiktsbilder \nska få lagras i pass- och identitetskortsregistret baserat på det underlag som återfinns \ni det remitterade förslaget.  \nLagring av biometriska uppgifter från ansiktsbilder (avsnitt \n9.9.3) \nDet föreslagna biometriska registret med ansiktsbilder kommer att innehålla \ninformation om i princip hela den svenska befolkningen eftersom en majoritet av \ninvånarna kommer att vara i behov av pass eller statligt identitetskort med statlig e-\nlegitimation för att kunna utnyttja sin fria rörlighet och identifiera sig för att ta del av \ngrundläggande samhällsservice. Det kommer inte vara möjligt för en enskild, som \nbehöver ett pass eller identitetskort, att motsätta sig lagring av sina biometriska \nuppgifter.  \nUtredningen har inte redovisat hur omfattande problemet är med identitetsmissbruk i \nsamband med ansökan om ett nytt pass eller identitetskort. I den nyligen remitterade \nutredningen Säkrare verifiering av identitet (SOU 2026:55) anger Polismyndigheten att \nde största utmaningar som finns inom identitetsförvaltningens område främst är \nkopplade till personer som inte är svenska medborgare.1 I utredningen \nFolkbokföringsverksamhet, biometri och brottsbekämpning (SOU 2025:75) framför \nockså Skatteverket att risken för fel är störst när en enskilds identitet första gången \nska etableras i landet, det vill säga bland annat i samband med fastställande av ett \npersonnummer eller tilldelning av ett samordningsnummer.2 Utredningen har inte heller \nutrett frågan om en behandling av fingeravtryck skulle kunna vara ett mindre \ningripande alternativ till att behandla ansiktsbilder. Förslaget måste också ses i ljuset \nav de nya tekniska och rättsliga möjligheterna för Polismyndigheten att använda \nansiktsigenkänning i realtid.3  \nIMY utesluter inte att det kan finnas tillräckligt starka skäl för att behandla biometriska \nansiktsbilder i passregistret. IMY:s uppfattning är dock att ett sådant förslag är mycket \nlångtgående och typiskt sett behöver föregås av en gedigen utredning med tillgång till \nexperter och andra sakkunniga för att säkerställa att behoven blir väl belysta. Den nu \nremitterade departementspromemorian, som enbart framhåller behovet av att komma \nåt fusk utan närmare belägg, brister i detta avseende och kan därför inte läggas till \n \n1 Se utredningen Säkrare verifiering av identitet (SOU 2026:55) s. 625.  \n2 Se utredningen Folkbokföringsverksamhet, biometri och brottsbekämpning (SOU 2025:75) s. 409.  \n3 Se 4 § lagen (2026:806) om användningen av AI-system för ansiktsigenkänning i realtid för brottsbekämpande \nändamål. \nDiarienummer: \nIMY-2026-12007 \nErt diarienummer: \nJu2026/01595 \nDatum: \n2026-10-22 \n\nIntegritetsskyddsmyndigheten Diarienummer: IMY-2026-12007 2(2) \n Datum: 2026-10-22  \n \ngrund för en så pass omfattande behandling av biometriska uppgifter som \nföreslås. Förslaget avstyrks därför. \nI och med att IMY anser att förslaget inte kan läggas till grund för behandling av \nbiometriska ansiktsbilder i pass- och identitetskortsregistet saknas den grundläggande \nförutsättningen för att i sin tur överväga om sådana bilder ska kunna användas av \npolisen i brottsutredande syfte (avsnitt 9.10.2).   \nDetta yttrande har beslutats av generaldirektören Eric Leijonram efter föredragning av \njuristen Emma Andersson. Vid den slutliga handläggningen har även rättschefen David \nTörngren, enhetschefen Jonas Agnvall och rådgivaren Victor Hagstedt medverkat. \nEric Leijonram",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "text_sha256": "e6820a0ab213140ace06c29e307a5254c1430fa604d289383b4424a96e5ebb31"
+    }
+  ],
   "collection_evidence": {
     "state": "ready",
+    "failed_discovery_urls": [],
     "unread_urls": [],
     "invalid_date_urls": [],
+    "subscription_exclusions": [],
     "channel": "ibat",
     "discovery": {
       "channel": "ibat",
@@ -14,8 +124,9 @@
         {
           "url": "https://www.theregister.com/security/headlines.atom",
           "entries": 50,
-          "accepted": 14,
+          "accepted": 13,
           "http_status": 200,
+          "feed_version": "rss20",
           "parse_error": false,
           "state": "entries"
         },
@@ -24,30 +135,34 @@
           "entries": 100,
           "accepted": 18,
           "http_status": 200,
+          "feed_version": "rss20",
           "parse_error": false,
           "state": "entries"
         },
         {
-          "url": "https://www.regeringen.se/pressmeddelanden/?format=rss",
-          "entries": 0,
-          "accepted": 0,
+          "url": "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&categories=1334&filterByType=FilterablePageBase&rootPage=0",
+          "entries": 99,
+          "accepted": 10,
           "http_status": 200,
-          "parse_error": true,
-          "state": "empty_or_unparseable"
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
         },
         {
           "url": "https://www.europol.europa.eu/rss.xml",
           "entries": 10,
           "accepted": 10,
           "http_status": 200,
+          "feed_version": "rss20",
           "parse_error": false,
           "state": "entries"
         },
         {
           "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-          "entries": 21,
+          "entries": 26,
           "accepted": 18,
           "http_status": 200,
+          "feed_version": "rss20",
           "parse_error": false,
           "state": "entries"
         },
@@ -56,176 +171,180 @@
           "entries": 20,
           "accepted": 18,
           "http_status": 200,
+          "feed_version": "rss20",
           "parse_error": false,
           "state": "entries"
         },
         {
-          "url": "https://news.google.com/rss/search?q=Palantir%20Gotham%20Foundry%20AIP%20government%20law%20enforcement%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
-          "entries": 0,
-          "accepted": 0,
+          "url": "https://news.google.com/rss/search?q=Palantir%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 7,
+          "accepted": 7,
           "http_status": 200,
+          "feed_version": "rss20",
           "parse_error": false,
-          "state": "empty_or_unparseable"
+          "state": "entries"
         },
         {
-          "url": "https://news.google.com/rss/search?q=Palantir%20Europol%20police%20intelligence%20defense%20public%20sector%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "url": "https://news.google.com/rss/search?q=%22open%20source%20intelligence%22%20OR%20OSINT%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
           "entries": 0,
           "accepted": 0,
           "http_status": 200,
+          "feed_version": "rss20",
           "parse_error": false,
-          "state": "empty_or_unparseable"
+          "state": "empty"
         },
         {
-          "url": "https://news.google.com/rss/search?q=OSINT%20open%20source%20intelligence%20graph%20network%20analysis%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "url": "https://news.google.com/rss/search?q=%22law%20enforcement%22%20%28AI%20OR%20%22data%20platform%22%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
           "entries": 0,
           "accepted": 0,
           "http_status": 200,
+          "feed_version": "rss20",
           "parse_error": false,
-          "state": "empty_or_unparseable"
+          "state": "empty"
         },
         {
-          "url": "https://news.google.com/rss/search?q=law%20enforcement%20data%20platform%20intelligence%20analysis%20AI%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
-          "entries": 0,
-          "accepted": 0,
+          "url": "https://news.google.com/rss/search?q=Polismyndigheten%20%28digitalisering%20OR%20informationsf%C3%B6rs%C3%B6rjning%20OR%20AI%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 1,
+          "accepted": 1,
           "http_status": 200,
+          "feed_version": "rss20",
           "parse_error": false,
-          "state": "empty_or_unparseable"
+          "state": "entries"
         },
         {
-          "url": "https://news.google.com/rss/search?q=Polismyndigheten%20digitalisering%20informationsf%C3%B6rs%C3%B6rjning%20analys%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "url": "https://news.google.com/rss/search?q=%28Europol%20OR%20Interpol%29%20%28AI%20OR%20analytics%20OR%20%22information%20sharing%22%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
           "entries": 0,
           "accepted": 0,
           "http_status": 200,
+          "feed_version": "rss20",
           "parse_error": false,
-          "state": "empty_or_unparseable"
+          "state": "empty"
         },
         {
-          "url": "https://news.google.com/rss/search?q=Europol%20Interpol%20AI%20analytics%20information%20sharing%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
-          "entries": 0,
-          "accepted": 0,
+          "url": "https://news.google.com/rss/search?q=%28myndighet%20OR%20myndigheter%29%20%28datadelning%20OR%20informationsdelning%20OR%20interoperabilitet%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 3,
+          "accepted": 3,
           "http_status": 200,
+          "feed_version": "rss20",
           "parse_error": false,
-          "state": "empty_or_unparseable"
+          "state": "entries"
         },
         {
-          "url": "https://news.google.com/rss/search?q=myndighet%20datadelning%20informationsdelning%20interoperabilitet%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "url": "https://news.google.com/rss/search?q=%28%22AI%20agents%22%20OR%20RAG%20OR%20%22knowledge%20graph%22%29%20%28%22public%20sector%22%20OR%20government%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
           "entries": 0,
           "accepted": 0,
           "http_status": 200,
+          "feed_version": "rss20",
           "parse_error": false,
-          "state": "empty_or_unparseable"
+          "state": "empty"
         },
         {
-          "url": "https://news.google.com/rss/search?q=AI%20agents%20RAG%20knowledge%20graph%20public%20sector%20government%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "url": "https://news.google.com/rss/search?q=%22AI%20Act%22%20%28policing%20OR%20%22data%20protection%22%20OR%20%22law%20enforcement%22%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
           "entries": 0,
           "accepted": 0,
           "http_status": 200,
+          "feed_version": "rss20",
           "parse_error": false,
-          "state": "empty_or_unparseable"
+          "state": "empty"
         },
         {
-          "url": "https://news.google.com/rss/search?q=EU%20AI%20Act%20policing%20data%20protection%20law%20enforcement%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "url": "https://news.google.com/rss/search?q=%22digital%20forensics%22%20OR%20%22intelligence%20analysis%22%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
           "entries": 0,
           "accepted": 0,
           "http_status": 200,
+          "feed_version": "rss20",
           "parse_error": false,
-          "state": "empty_or_unparseable"
+          "state": "empty"
         },
         {
-          "url": "https://news.google.com/rss/search?q=cybersecurity%20digital%20forensics%20intelligence%20analysis%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
-          "entries": 0,
-          "accepted": 0,
+          "url": "https://news.google.com/rss/search?q=totalf%C3%B6rsvar%20%28myndighetssamverkan%20OR%20informationsdelning%20OR%20teknik%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 1,
+          "accepted": 1,
           "http_status": 200,
+          "feed_version": "rss20",
           "parse_error": false,
-          "state": "empty_or_unparseable"
+          "state": "entries"
         },
         {
-          "url": "https://news.google.com/rss/search?q=totalf%C3%B6rsvar%20myndighetssamverkan%20informationsdelning%20teknik%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "url": "https://news.google.com/rss/search?q=%28AI%20OR%20OSINT%20OR%20%22graph%20analytics%22%29%20%22public%20safety%22%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
           "entries": 0,
           "accepted": 0,
           "http_status": 200,
+          "feed_version": "rss20",
           "parse_error": false,
-          "state": "empty_or_unparseable"
+          "state": "empty"
         },
         {
-          "url": "https://news.google.com/rss/search?q=research%20AI%20OSINT%20graph%20analytics%20public%20safety%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "url": "https://news.google.com/rss/search?q=site%3Atheregister.com%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
           "entries": 0,
           "accepted": 0,
           "http_status": 200,
+          "feed_version": "rss20",
           "parse_error": false,
-          "state": "empty_or_unparseable"
+          "state": "empty"
         },
         {
-          "url": "https://news.google.com/rss/search?q=Sverige%20v%C3%A4rlden%20viktiga%20s%C3%A4kerhet%20teknik%20nyheter%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
-          "entries": 0,
-          "accepted": 0,
+          "url": "https://news.google.com/rss/search?q=site%3Apolisen.se%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 10,
+          "accepted": 10,
           "http_status": 200,
+          "feed_version": "rss20",
           "parse_error": false,
-          "state": "empty_or_unparseable"
+          "state": "entries"
         },
         {
-          "url": "https://news.google.com/rss/search?q=site%3Atheregister.com%20AI%20data%20analysis%20police%20technology%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "url": "https://news.google.com/rss/search?q=site%3Aeuropol.europa.eu%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
           "entries": 0,
           "accepted": 0,
           "http_status": 200,
+          "feed_version": "rss20",
           "parse_error": false,
-          "state": "empty_or_unparseable"
+          "state": "empty"
         },
         {
-          "url": "https://news.google.com/rss/search?q=site%3Apolisen.se%20AI%20data%20analysis%20police%20technology%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
-          "entries": 0,
-          "accepted": 0,
+          "url": "https://news.google.com/rss/search?q=site%3Aec.europa.eu%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 8,
+          "accepted": 7,
           "http_status": 200,
+          "feed_version": "rss20",
           "parse_error": false,
-          "state": "empty_or_unparseable"
+          "state": "entries"
         },
         {
-          "url": "https://news.google.com/rss/search?q=site%3Aeuropol.europa.eu%20AI%20data%20analysis%20police%20technology%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
-          "entries": 0,
-          "accepted": 0,
+          "url": "https://news.google.com/rss/search?q=site%3Aimy.se%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 3,
+          "accepted": 3,
           "http_status": 200,
+          "feed_version": "rss20",
           "parse_error": false,
-          "state": "empty_or_unparseable"
+          "state": "entries"
         },
         {
-          "url": "https://news.google.com/rss/search?q=site%3Aec.europa.eu%20AI%20data%20analysis%20police%20technology%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
-          "entries": 0,
-          "accepted": 0,
+          "url": "https://news.google.com/rss/search?q=site%3Adigg.se%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 1,
+          "accepted": 1,
           "http_status": 200,
+          "feed_version": "rss20",
           "parse_error": false,
-          "state": "empty_or_unparseable"
+          "state": "entries"
         },
         {
-          "url": "https://news.google.com/rss/search?q=site%3Aimy.se%20AI%20data%20analysis%20police%20technology%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "url": "https://news.google.com/rss/search?q=site%3Abra.se%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
           "entries": 0,
           "accepted": 0,
           "http_status": 200,
+          "feed_version": "rss20",
           "parse_error": false,
-          "state": "empty_or_unparseable"
+          "state": "empty"
         },
         {
-          "url": "https://news.google.com/rss/search?q=site%3Adigg.se%20AI%20data%20analysis%20police%20technology%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "url": "https://news.google.com/rss/search?q=site%3Anist.gov%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
           "entries": 0,
           "accepted": 0,
           "http_status": 200,
+          "feed_version": "rss20",
           "parse_error": false,
-          "state": "empty_or_unparseable"
-        },
-        {
-          "url": "https://news.google.com/rss/search?q=site%3Abra.se%20AI%20data%20analysis%20police%20technology%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
-          "entries": 0,
-          "accepted": 0,
-          "http_status": 200,
-          "parse_error": false,
-          "state": "empty_or_unparseable"
-        },
-        {
-          "url": "https://news.google.com/rss/search?q=site%3Anist.gov%20AI%20data%20analysis%20police%20technology%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
-          "entries": 0,
-          "accepted": 0,
-          "http_status": 200,
-          "parse_error": false,
-          "state": "empty_or_unparseable"
+          "state": "empty"
         }
       ],
       "web_candidates": 0,
@@ -272,10 +391,10 @@
           }
         ]
       },
-      "candidate_count": 79,
+      "candidate_count": 121,
       "scope": "discovery_only_not_factual_approval"
     },
-    "checked_at": "2026-10-24T04:25:35.005921+00:00",
+    "checked_at": "2026-10-24T10:57:27.086223+00:00",
     "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
   }
 }

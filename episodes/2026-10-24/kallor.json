@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "source": "HurBra.se",
+    "title": "Palantir avvisar uppgifter om kill switch i Natos AI-system",
+    "url": "https://hurbra.se/palantir-nato-maven-kill-switch-2026/",
+    "evidence": {
+      "date": "2026-10-22T11:10:48+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-24T10:46:49.246935+00:00",
+      "page_sha256": "a35e64526daa1bf9abbe21c35f78c8449e1e40c2a628334519198cbcb115795e",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Digg – Myndigheten för digital förvaltning",
+    "title": "Digg släpper nytt utkast till certifieringssystem för digital identitetsplånbok",
+    "url": "https://www.digg.se/om-oss/nyheter/digital-identitet/nyheter/2026-10-23-nytt-utkast-till-certifieringssystem-for-den-digitala-identitetsplanboken",
+    "evidence": {
+      "date": "2026-10-23T08:29:29+02:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-24T10:46:49.247531+00:00",
+      "page_sha256": "39f09845f6100e48a7f4b9d17d5e11ba7a6b7831e43c73952d8b3c47cf89a02e",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Integritetsskyddsmyndigheten",
+    "title": "IMY yttrar sig över förslaget till ett statligt identitetskort",
+    "url": "https://www.imy.se/remissvar/ett-statligt-identitetskort/",
+    "evidence": {
+      "date": "2026-10-22",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-24T10:46:49.658080+00:00",
+      "page_sha256": "cb822d31a078181dff000b5bf57eaf28360216e0678181108bd928f484ac21cd",
+      "retrieval_limit": null
+    }
+  }
+]

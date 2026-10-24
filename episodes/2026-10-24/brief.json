@@ -1,12 +1,65 @@
 {
-  "title": "IBATs morgonPOD: Begränsat verifierat underlag",
-  "intro": "Dagens verifierade underlag inom området är begränsat, så avsnittet blir kortare.",
-  "outlook": "Inga nya verifierade händelser eller förändringar har inkommit för detta avsnitt, vilket gör att vi avvaktar nya uppgifter innan vidare analys genomförs.",
-  "news": [],
-  "description": "Dagens verifierade underlag inom området är begränsat, så avsnittet blir kortare.",
-  "tags": [],
+  "title": "IBATs morgonPOD: Säkerhetsfrågor kring Natos AI, digitala identitetsplånböcker och statliga identitetskort",
+  "intro": "Välkommen till IBATs morgonPOD. I dag granskar vi de senaste händelserna inom informationsförsörjning, europeisk försvarsteknik och offentlig digitalisering med fokus på aktuella källor.",
+  "outlook": "Vi följer fortsatt utvecklingen kring digitala identitetsplånböcker, certifieringssystem och det växande beroendet av extern teknik inom både försvar och offentlig förvaltning.",
+  "news": [
+    {
+      "category": "Informationsförsörjning och dataplattformar",
+      "title": "Palantir avvisar uppgifter om kill switch i Natos AI-system",
+      "summary": "Teknikföretaget Palantir uppger att det saknas en fjärravstängningsfunktion i Natos AI-system Maven Smart System, men europeiskt beroende av amerikansk försvarsteknik diskuteras vidare.",
+      "context": "Diskussionen belyser spänningen mellan operationell kontroll på plats och det långsiktiga beroendet av leverantörer för underhåll och uppdateringar i militära system.",
+      "url": "https://hurbra.se/palantir-nato-maven-kill-switch-2026/",
+      "publisher": "HurBra.se",
+      "body": "Det amerikanska teknikföretaget Palantir försäkrar att varken företaget eller USA:s regering kan stänga av Natos AI-system Maven Smart System, enligt uppgifter som presenteras i en artikel hos HurBra.se. Beskedet kommer samtidigt som Europas beroende av amerikansk försvarsteknik ifrågasätts efter störningar i Ukrainas satellitkommunikation.\n\nI en intervju med Reuters som återges i källan uppger Palantirs vice vd Louis Mosley att kunden har full operativ kontroll och kan använda systemet utan företagets personal. Samtidigt saknas en offentligt redovisad oberoende granskning som bekräftar påståendet om frånvaron av en avstängningsfunktion. Frågor kring vem som kontrollerar underhåll, programuppdateringar och vidareutveckling av plattformen förblir centrala för europeiska försvarsmakter, inklusive Sverige som är medlem i Nato.",
+      "sources": [
+        {
+          "url": "https://hurbra.se/palantir-nato-maven-kill-switch-2026/",
+          "title": "HurBra.se"
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "category": "Digital utveckling i rättsväsende och offentlig sektor",
+      "title": "Digg släpper nytt utkast till certifieringssystem för digital identitetsplånbok",
+      "summary": "Myndigheten för digital förvaltning (Digg) har tagit fram ett uppdaterat utkast till ett enhetligt certifieringssystem för europeiska digitala identitetsplånböcker inom NOBID-samarbetet.",
+      "context": "Certifieringssystemet syftar till att möjliggöra enhetliga och tillförlitliga granskningar av identitetsplånböcker och tillhörande tjänster i enlighet med EU:s eIDAS-förordning.",
+      "url": "https://www.digg.se/om-oss/nyheter/digital-identitet/nyheter/2026-10-23-nytt-utkast-till-certifieringssystem-for-den-digitala-identitetsplanboken",
+      "publisher": "Digg – Myndigheten för digital förvaltning",
+      "body": "Enligt Myndigheten för digital förvaltning (Digg) har myndigheten tagit fram ett andra utkast till certifieringssystem för europeiska digitala identitetsplånböcker (EUDIW). Arbetet har genomförts inom det nordisk-baltiska samarbetet NOBID där Sverige haft en ledande roll.\n\nSystemet ska säkerställa att plånböcker och tillhörande tjänster kan granskas och certifieras enligt EU:s krav på ett opartiskt och reproducerbart sätt. Utkasten är öppna för synpunkter fram till den 13 november 2026 inför kommande remittering och samverkan med Swedac.",
+      "sources": [
+        {
+          "url": "https://www.digg.se/om-oss/nyheter/digital-identitet/nyheter/2026-10-23-nytt-utkast-till-certifieringssystem-for-den-digitala-identitetsplanboken",
+          "title": "Digg – Myndigheten för digital förvaltning"
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "category": "Juridik, integritet och informationssäkerhet",
+      "title": "IMY yttrar sig över förslaget till ett statligt identitetskort",
+      "summary": "Integritetsskyddsmyndigheten (IMY) avstyrker lagring av biometriska ansiktsbilder i ett nytt pass- och identitetskortsregister baserat på det nuvarande underlaget.",
+      "context": "Yttrandet lyfter att utredningen brister i att visa omfattningen av identitetsmissbruk och att lagringen omfattar i princip hela befolkningen utan möjlighet till undantag.",
+      "url": "https://www.imy.se/remissvar/ett-statligt-identitetskort/",
+      "publisher": "Integritetsskyddsmyndigheten",
+      "body": "Integritetsskyddsmyndigheten (IMY) har lämnat ett remissyttrande över förslaget till ett statligt identitetskort, vilket framgår av myndighetens dokumentation. IMY tillstyrker att en ny pass- och identitetskortsdatalag införs, men avstyrker att biometriska uppgifter från ansiktsbilder ska få lagras i registret baserat på det nuvarande underlaget.\n\nI yttrandet noterar Integritetsskyddsmyndigheten (IMY) att registret kommer att omfatta i princip hela den svenska befolkningen utan att utredningen tillräckligt har redovisat omfattningen av identitetsmissbruk eller utrett mindre ingripande alternativ.",
+      "sources": [
+        {
+          "url": "https://www.imy.se/remissvar/ett-statligt-identitetskort/",
+          "title": "Integritetsskyddsmyndigheten"
+        }
+      ],
+      "open_questions": []
+    }
+  ],
+  "description": "Välkommen till IBATs morgonPOD. I dag granskar vi de senaste händelserna inom informationsförsörjning, europeisk försvarsteknik och offentlig digitalisering med fokus på aktuella källor.",
+  "tags": [
+    "Informationsförsörjning och dataplattformar",
+    "Digital utveckling i rättsväsende och offentlig sektor",
+    "Juridik, integritet och informationssäkerhet"
+  ],
   "text_format": "editorial_articles",
   "editorial_date": "2026-10-24",
   "channel": "ibat",
-  "editorial_outcome": "no_news"
+  "editorial_outcome": "standard"
 }

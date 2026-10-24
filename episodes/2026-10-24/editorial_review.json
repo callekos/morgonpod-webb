@@ -1,21 +1,97 @@
 {
   "approved": true,
   "issues": [],
-  "short_episode_reason": "Dagens verifierade underlag inom området är begränsat, så avsnittet blir kortare.",
-  "source_coverage": [],
+  "short_episode_reason": "",
+  "source_coverage": [
+    {
+      "claim": "Palantir avvisar uppgifter om att det finns en kill switch i Natos AI-system Maven Smart System.",
+      "source_url": "https://hurbra.se/palantir-nato-maven-kill-switch-2026/"
+    },
+    {
+      "claim": "Digg har presenterat ett andra utkast till ett certifieringssystem för den europeiska digitala identitetsplånboken inom det nordisk-baltiska NOBID-samarbetet.",
+      "source_url": "https://www.digg.se/om-oss/nyheter/digital-identitet/nyheter/2026-10-23-nytt-utkast-till-certifieringssystem-for-den-digitala-identitetsplanboken"
+    },
+    {
+      "claim": "IMY tillstyrker en ny pass- och identitetskortsdatalag men avstyrker lagring av biometriska ansiktsbilder baserat på det nuvarande underlaget.",
+      "source_url": "https://www.imy.se/remissvar/ett-statligt-identitetskort/"
+    }
+  ],
   "collection_complete": true,
   "coverage_complete": true,
-  "coverage_findings": [],
-  "selection_decisions": [],
+  "coverage_findings": [
+    {
+      "url": "https://hurbra.se/palantir-nato-maven-kill-switch-2026/",
+      "covered_facts": [
+        "Palantir uppger att det saknas en kill switch i Natos AI-system Maven.",
+        "Europeiskt beroende av amerikansk försvarsteknik och underhåll diskuteras."
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.digg.se/om-oss/nyheter/digital-identitet/nyheter/2026-10-23-nytt-utkast-till-certifieringssystem-for-den-digitala-identitetsplanboken",
+      "covered_facts": [
+        "Digg har tagit fram ett andra utkast till certifieringssystem för EUDIW.",
+        "Arbetet sker inom NOBID-samarbetet med svensk ledande roll."
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.imy.se/nyheter/sarbarheter-i-programmeringsspraket-php/",
+      "covered_facts": [],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.imy.se/remissvar/ett-statligt-identitetskort/",
+      "covered_facts": [
+        "IMY tillstyrker ny pass- och identitetskortsdatalag.",
+        "IMY avstyrker lagring av biometriska ansiktsbilder i registret baserat på det nuvarande underlaget."
+      ],
+      "missing_facts": []
+    }
+  ],
+  "selection_decisions": [
+    {
+      "url": "https://hurbra.se/palantir-nato-maven-kill-switch-2026/",
+      "selected": true,
+      "reason": "Väsentlig nyhet om Natos AI-system Maven och leverantörsberoende.",
+      "event_key": "palantir_nato_maven",
+      "source_quote": "Det amerikanska teknikföretaget Palantir försäkrar att varken företaget eller USA:s regering kan stänga av Natos AI-system Maven Smart System."
+    },
+    {
+      "url": "https://www.digg.se/om-oss/nyheter/digital-identitet/nyheter/2026-10-23-nytt-utkast-till-certifieringssystem-for-den-digitala-identitetsplanboken",
+      "selected": true,
+      "reason": "Relevant framsteg inom offentlig digitalisering och digital identitet.",
+      "event_key": "digg_eudiv_cert",
+      "source_quote": "Digg har nu tagit fram ett andra utkast till certifieringssystem för europeiska digitala identitetsplånböcker (EUDIW)."
+    },
+    {
+      "url": "https://www.imy.se/nyheter/sarbarheter-i-programmeringsspraket-php/",
+      "selected": false,
+      "reason": "Exkluderas i enlighet med instruktionen att inte upprepa PHP-sårbarheter utan konkret ny utveckling.",
+      "event_key": "imy_php_vulnerability",
+      "source_quote": "Den 21 oktober beskrevs två allvarliga säkerhetsbrister i programmeringsspråket PHP som används av många webbplatser."
+    },
+    {
+      "url": "https://www.imy.se/remissvar/ett-statligt-identitetskort/",
+      "selected": true,
+      "reason": "Viktigt remissvar gällande biometrisk datalagring i det statliga identitetskortet.",
+      "event_key": "imy_statligt_id_kort",
+      "source_quote": "Integritetsskyddsmyndigheten (IMY) tillstyrker att en ny pass- och identitetskortsdatalag införs, men avstyrker att biometriska uppgifter från ansiktsbilder ska få lagras i pass- och identitetskortsregistret"
+    }
+  ],
   "format_decision": {
-    "outcome": "no_news",
-    "reason": "Inga nya källposter fanns tillgängliga för datumet 2026-10-24."
+    "outcome": "standard",
+    "reason": "Tillräckligt med verifierat och relevant källmaterial föreligger för en ordinarie utgåva."
   },
+  "access_exclusions_reviewed": true,
   "completeness": {
     "version": "source-completeness-v1",
-    "sources_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "news_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "script_sha256": "23f528f4766611b614a3a9a058854169d1b0c849ea2da84b0b9e6ded1bea8986",
-    "collection_sha256": "2617b06125f5c38b85d6aa931b7f13cd76f5dfbdc9f1a7f4484e62b916d724e9"
-  }
+    "sources_sha256": "83018c6cda38b81c7bf74689108ab0db8b42d6bb9c344d31a518a4236311aac6",
+    "news_sha256": "a3a000d7a8822b2ff3f67ba0a15f539974dc12d43620ee77f9874ce62d98aab7",
+    "script_sha256": "85387af854ae5c7132213cbd1a7a1ce4fb56ffb1d35a2544be5f18a36c44e133",
+    "collection_sha256": "565a07122929bd29c103eeb3b8c7633cce9b0eb7211c39751e0f9f7b181708bf"
+  },
+  "reviewed_candidate_sha256": "59b572edfcc7f37740f4686cbf574b046b5bdf3379d7e4ff62cbc9970b845447",
+  "reviewed_script_sha256": "85387af854ae5c7132213cbd1a7a1ce4fb56ffb1d35a2544be5f18a36c44e133",
+  "work_package_sha256": "8bc68a95d5cc30a6be08ef973827519ed3308053a883f3fbc7b52ba70d502a0f"
 }
