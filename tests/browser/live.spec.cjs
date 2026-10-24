@@ -36,7 +36,15 @@ test('published groups, film default, shared filters and approved episode titles
  await page.goto('kanaler.html?group=knowledge');await expect(page.locator('.channel-card')).toHaveCount(manifest.channels.filter(c=>c.channel_type==='knowledge').length);await expect(page.locator('.channel-group')).toHaveCount(1);await page.reload();await expect(page.locator('[data-group=knowledge]')).toBeVisible();
  await page.getByRole('link',{name:'Bevakningskanaler',exact:true}).click();await expect(page).toHaveURL(/group=monitoring/);await page.goBack();await expect(page).toHaveURL(/group=knowledge/);
  const data=await(await page.request.get(manifest.collections['episodes/ordinary/channel/ibat'].pages[0])).json();const row=data.items.find(e=>!manifest.superseded[e.id]);expect(row.title).toMatch(/^Avsnitt \d+: .+/);
- await page.goto('avsnitt.html?id='+encodeURIComponent(row.id));await expect(page.locator('.full-player h2')).toHaveText(row.title);await expect(page.locator('.full-player p').first()).not.toBeEmpty();await expect(page.locator('.episode-info .article-card').first()).toBeVisible();
+ await page.goto('avsnitt.html?id='+encodeURIComponent(row.id));await expect(page.locator('.full-player h2')).toHaveText(row.title);await expect(page.locator('.full-player p').first()).not.toBeEmpty();await expect(page.locator('.episode-info .article-card')).toHaveCount(row.article_count);
+ expect(Number.isInteger(row.article_count)&&row.article_count>=0).toBe(true);
+ // Keep a positive article-rendering check even when today's approved edition is brief.
+ const articleRow=data.items.find(e=>!manifest.superseded[e.id]&&e.article_count>0);
+ expect(articleRow).toBeTruthy();
+ await page.goto('avsnitt.html?id='+encodeURIComponent(articleRow.id));
+ await expect(page.locator('.full-player h2')).toHaveText(articleRow.title);
+ await expect(page.locator('.episode-info .article-card')).toHaveCount(articleRow.article_count);
+ await expect(page.locator('.episode-info .article-card').first()).toBeVisible();
 });
 
 test('published subscription is reachable while scrolling and preserves real audio',require('./subscription-check.cjs').subscriptionCheck);
