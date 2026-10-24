@@ -1,5 +1,91 @@
 {
   "channel": "sjoomradet",
   "date": "2026-10-24",
-  "history": []
+  "history": [
+    {
+      "id": "article-36d38719f39492c562876402",
+      "date": "2026-10-23",
+      "channel": "sjoomradet",
+      "title": "Turkiet och Bulgarien diskuterar fri sjöfart",
+      "summary": "Vietnam.vn återger samtidigt ett vietnamesiskt referat av samtal mellan Turkiets och Bulgariens ledare den tjugoförsta oktober. Enligt referatet diskuterades bilaterala initiativ och samordning med Rumänien för fri sjöfart i Svarta havet. Turkiet uppges hålla kontakt med både Ryssland och Ukraina. Texten beskriver också ett förslag om ett tillfälligt uppehåll i attacker mot handelsfartyg. Det rapporterade gäller diplomati och planer. Ansvar för samtliga fartygsattacker är inte oberoende fastställt i underlaget.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "sjoomradet:2026-10-23:daily",
+      "source_url": "https://www.vietnam.vn/sv/tho-nhi-ky-bulgaria-tang-cuong-phoi-hop-bao-dam-an-toan-hang-hai-o-bien-den",
+      "topics": [
+        "maritim-säkerhet"
+      ],
+      "relevance": 3
+    },
+    {
+      "id": "article-85b562e9ad31dd383b6e9e71",
+      "date": "2026-10-21",
+      "channel": "sjoomradet",
+      "title": "Oljeexport återhämtas samtidigt som farleder förblir riskfyllda",
+      "summary": "Från framtida fartyg till den sjöfart som redan pågår i Persiska viken. The Maritime Executive återger nya uppgifter från analysföretaget Kpler om att oljeexporten från gulfstaterna har återhämtats till nivåer över dem före kriget mellan USA, Israel och Iran. Kplers uppskattning är omkring tjugofyra miljoner fat per dag ut ur regionen. Den siffran inkluderar transporter i landbaserade rörledningar och ska alltså inte läsas som att allt går genom Hormuzsundet.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "sjoomradet:2026-10-21:daily",
+      "source_url": "https://maritime-executive.com/article/report-despite-iran-s-attacks-gulf-oil-exports-exceed-prewar-levels",
+      "topics": [
+        "sjöfart-och-försörjning"
+      ],
+      "relevance": 3
+    },
+    {
+      "id": "article-aeeda98bcb5669f3e66b13e6",
+      "date": "2026-10-23",
+      "channel": "sjoomradet",
+      "title": "Drönarangrepp mot handelsfartyg utanför Rumänien",
+      "summary": "Vi börjar i Svarta havet. Enligt Politico uppgav Rumäniens president Nicușor Dan på fredagen att en drönare träffat ett handelsfartyg omkring tretton sjömil från kusten, strax utanför landets territorialvatten. Minst en besättningsmedlem hade dött och tre saknades vid rapporteringen. Nio sjömän hade räddats. Fartyget Khoryv, med Komorernas flagg, fick enligt landets inrikesdepartement omfattande skador, kapsejsade och sjönk delvis. Besättningen bestod enligt EU-kommissionens ordförande av ukrainare och azerbajdzjaner.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "sjoomradet:2026-10-23:daily",
+      "source_url": "https://www.politico.eu/article/drone-hits-another-ship-in-black-sea-near-romania-killing-at-least-one-sailor/",
+      "topics": [
+        "maritim-säkerhet"
+      ],
+      "relevance": 2
+    },
+    {
+      "id": "article-5091a997be6925c091b2c30f",
+      "date": "2026-10-23",
+      "channel": "sjoomradet",
+      "title": "Rapport om skuggflottans AIS-signaler och flaggbyten",
+      "summary": "Vi går vidare till skuggflottan. InformNapalm återger en Financial Times-granskning om minst tolv sanktionerade tankfartyg med falska eller manipulerade positionsuppgifter i Svarta havet. Sex uppges ha rapporterat två positioner samtidigt. Ett exempel är tankern Pirop, som i augusti signalerade positioner omkring åttahundra kilometer från varandra. Det är uppgifter återgivna av InformNapalm; de länkade originalen hos Financial Times har inte lästs separat i detta underlag. Vem som organiserat förfarandet och motiven för varje fartyg är inte klarlagt.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "sjoomradet:2026-10-23:daily",
+      "source_url": "https://informnapalm.org/sv/rysslands-skuggflotta/",
+      "topics": [
+        "maritim-säkerhet"
+      ],
+      "relevance": 2
+    },
+    {
+      "id": "article-467d4bff3e1d073492dff6c2",
+      "date": "2026-10-22",
+      "channel": "sjoomradet",
+      "title": "Nato förstärker övervakning i Svarta havet enligt rapport",
+      "summary": "Vi börjar i Svarta havet.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "sjoomradet:2026-10-22:daily",
+      "source_url": "https://maritime-executive.com/article/nato-to-support-increased-black-sea-surveillance",
+      "topics": [
+        "maritim-säkerhet"
+      ],
+      "relevance": 2
+    }
+  ]
 }

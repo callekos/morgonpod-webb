@@ -1,18 +1,18 @@
 {
   "approved": true,
   "issues": [],
-  "short_episode_reason": "Tillräckligt med verifierat och händelsedykande källmaterial har samlats in för att producera en fullgod och substantiell lördagsbriefing.",
+  "short_episode_reason": "Fullgod täckning av tillgängliga verifierade händelser inom de prioriterade områdena Svarta havet, Hormuz och den iranska sjöblockaden utan onödig utfyllnad.",
   "source_coverage": [
     {
-      "claim": "Det Comoros-flaggade lastfartyget Khoryv attackerades den 23 oktober i Svarta havet nära Rumänien och kapsejsade, vilket ledde till 1 död och 3 saknade.",
+      "claim": "Lastfartyget Khoryv attackerades och kapsejsade i Svarta havet nära Rumänien, med 1 död och 3 saknade.",
       "source_url": "https://maritime-executive.com/article/romania-blames-russia-for-ship-attack-leaving-1-dead-and-3-missing"
     },
     {
-      "claim": "Ett oljeutsläpp från den attackerade råoljetankern Gem No.2 har spritt sig över 35 kilometer längs Förenade Arabemiratens kust.",
+      "claim": "Oljeutsläpp från tankern Gem No.2 har spritt sig längs Förenade Arabemiratens kust efter attack vid Hormuzsundet.",
       "source_url": "https://www.bbc.co.uk/news/articles/c6rey3n974g5o?at_medium=RSS&at_campaign=rss"
     },
     {
-      "claim": "Den amerikanska sjöblockaden mot Iran har nått 100 dagar och bedöms vara i princip 100 procent effektiv vad gäller oljeexport.",
+      "claim": "Den amerikanska maritimblockaden mot Iran har nått 100 dagar och effektivt stoppat oljeexporten, samtidigt som landtransporter pressas.",
       "source_url": "https://maritime-executive.com/article/the-blockade-on-iran-is-deepening-but-also-widening"
     }
   ],
@@ -22,29 +22,49 @@
     {
       "url": "https://maritime-executive.com/article/romania-blames-russia-for-ship-attack-leaving-1-dead-and-3-missing",
       "covered_facts": [
-        "Fartygets namn och flagg (Khoryv, Comoros)",
-        "Plats: cirka 13 sjömil öster om Constanta, Rumänien",
-        "En död, tre saknade, nio räddade",
-        "Rumäniens president anklagar Ryssland",
-        "EU-kommissionens ordförande fördömer händelsen"
+        "Fartyget Khoryv attackerades den 23 oktober",
+        "Platsen var cirka 13 sjömil från Constanta",
+        "Fartyget kapsejsade, en död och tre saknade",
+        "Rumäniens president anklagar Ryssland"
       ],
       "missing_facts": []
     },
     {
       "url": "https://www.bbc.co.uk/news/articles/c6rey3n974g5o?at_medium=RSS&at_campaign=rss",
       "covered_facts": [
-        "Tankern Gem No.2 attackerad i början av oktober",
-        "Oljeutsläppet spritt sig över 35 km längs Förenade Arabemiratens kust",
-        "Hotar marina miljöer och öar"
+        "Oljeutsläpp från tankern Gem No.2",
+        "Drabbat Förenade Arabemiratens kust över 35 kilometer",
+        "Hotar marina ekosystem"
       ],
       "missing_facts": []
     },
     {
       "url": "https://maritime-executive.com/article/the-blockade-on-iran-is-deepening-but-also-widening",
       "covered_facts": [
-        "100 dagar sedan blockaden återupptogs",
-        "Nära 100 procent effektiv för oljeexport",
-        "Påtryckningar på grannländer gällande landtransporter"
+        "USA:s marinblockad mot Iran har pågått i 100 dagar",
+        "Oljeexporten har i stort sett upphört",
+        "Tryck på grannländer att begränsa landtransporter"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.navalnews.com/naval-news/2026/10/hellenic-navy-conducts-inaugural-spike-missile-firings-during-joint-drills-with-israel/",
+      "covered_facts": [],
+      "missing_facts": [
+        "Publicerad efter insamlingens slut och därför korrekt bortvald."
+      ]
+    },
+    {
+      "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=5330866d3838bec4bd1465011518e4e5",
+      "covered_facts": [
+        "Samma händelse som Khoryv-attacken i Maritime Executive."
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://nyheter24.se/nyheter/utrikes/1524500-nytt-fartyg-i-sjonod-i-svarta-havet",
+      "covered_facts": [
+        "Samma händelse som Khoryv-attacken i Maritime Executive."
       ],
       "missing_facts": []
     }
@@ -53,7 +73,7 @@
     {
       "url": "https://maritime-executive.com/article/romania-blames-russia-for-ship-attack-leaving-1-dead-and-3-missing",
       "selected": true,
-      "reason": "Viktig säkerhetsnyhet om dödlig attack mot handelsfartyg i Svarta havet nära Rumänien.",
+      "reason": "Viktig och aktuell säkerhetsnyhet om dödlig attack mot handelsfartyg i Svarta havet.",
       "event_key": "black-sea-khoryv-attack",
       "source_quote": "The Comoros-flagged OBO carrier (Oil-Bulk-Ore carrier) Khoryv (3,280 dwt) issued a distress call on Friday morning, October 23",
       "security_evidence": "The Comoros-flagged OBO carrier (Oil-Bulk-Ore carrier) Khoryv (3,280 dwt) issued a distress call on Friday morning, October 23, while it was approximately 13 nautical miles east of Constanta, Romania."
@@ -73,22 +93,49 @@
       "event_key": "iran-naval-blockade-update",
       "source_quote": "U.S. Central Command highlighted on Thursday, October 22, that it was marking 100 days since U.S. forces resumed the naval blockade.",
       "security_evidence": "U.S. Central Command highlighted on Thursday, October 22, that it was marking 100 days since U.S. forces resumed the naval blockade."
+    },
+    {
+      "url": "https://www.navalnews.com/naval-news/2026/10/hellenic-navy-conducts-inaugural-spike-missile-firings-during-joint-drills-with-israel/",
+      "selected": false,
+      "reason": "Publicerad efter ursprunglig morgonproduktion; ska inte behandlas som då borttappad nyhet.",
+      "event_key": "later_spike_exercise",
+      "source_quote": "Greek surface and special operations craft validated their new Rafael-made missile systems",
+      "security_evidence": "Acceptance firings of SPIKE NLOS and SPIKE ER guided missiles were conducted in the wider northern Cretan Sea area."
+    },
+    {
+      "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=5330866d3838bec4bd1465011518e4e5",
+      "selected": false,
+      "reason": "Samma fartygsattack som redan täcks av den valda Maritime Executive-källan; undviker dubblettrapportering.",
+      "event_key": "black-sea-khoryv-attack",
+      "source_quote": "Nytt fartygshaveri i Svarta havet: ”Eskalering” En person har dött och flera saknas",
+      "security_evidence": "En person har dött och flera saknas sedan ett fartyg i Svarta havet skickat ut nödsignaler efter att ha blivit attackerat"
+    },
+    {
+      "url": "https://nyheter24.se/nyheter/utrikes/1524500-nytt-fartyg-i-sjonod-i-svarta-havet",
+      "selected": false,
+      "reason": "Samma fartygsattack som redan täcks av den valda Maritime Executive-källan; undviker dubblettrapportering.",
+      "event_key": "black-sea-khoryv-attack",
+      "source_quote": "Nytt fartygshaveri i Svarta havet: ”Eskalering”",
+      "security_evidence": "Nio personer har räddats, en har hittats död och tre saknas, enligt Rumäniens sjöfartsmyndighet."
     }
   ],
   "format_decision": {
     "outcome": "standard",
-    "reason": "Tillräckligt med verifierat och aktuellt källmaterial finns tillgängligt inom samtliga prioriterade områden för att producera en fullgod daglig briefing."
+    "reason": "Tillräckligt med verifierat och aktuellt källmaterial finns tillgängligt för att producera en fullgod daglig briefing."
   },
+  "access_exclusions_reviewed": true,
   "maritime_policy": "maritime-security-2026-10-22",
-  "maritime_sources_sha256": "a40fc074d4ed955bfcf3cd883b1eba0a8fa1cfe1f50456d02d3563a1d2fe59e4",
+  "maritime_sources_sha256": "8ee3c40554b288c796ca0b27d3dbc5ca217db31d4b2be8b45cc2897ef300bec6",
   "maritime_news_sha256": "e78e19946b75480fb05cca5cd6bcf65bfe38ea8d08886bfe51217c9745cea683",
-  "reviewed_script_sha256": "8bf0ebaab99c02d23f6da474ccb80777b3718383f61102e1c283df0b84eb35cb",
+  "reviewed_script_sha256": "35da355923d603def1086e34d0047da7290756621075ed08738482e528f3d0f4",
   "relevant_event_count": 3,
   "completeness": {
     "version": "source-completeness-v1",
-    "sources_sha256": "d2fea759093c0c9f2f9eff7736fde3e4cfc61bef973b356c960d5b43abd87f30",
+    "sources_sha256": "235dcb7c26c32995027493565d795544985661070052f12321fda6dd5a4e9463",
     "news_sha256": "ecf5ed73f91f4bc142b3945e002392206aa840757599ce4dfdf1dbb90ad33458",
-    "script_sha256": "8bf0ebaab99c02d23f6da474ccb80777b3718383f61102e1c283df0b84eb35cb",
-    "collection_sha256": "e97016a220f0a367c25b71d4fe1f91bda2fda759295a6e716790c49560e06e4b"
-  }
+    "script_sha256": "35da355923d603def1086e34d0047da7290756621075ed08738482e528f3d0f4",
+    "collection_sha256": "59a72aa84216fb58291c753429379821aae58365518a6dddb1bf43c4cad9791b"
+  },
+  "reviewed_candidate_sha256": "7d37b77c7bfc94a703cec5a4c8ac00fbfab54d5c6acd48c1865bf161ad6408d4",
+  "work_package_sha256": "f1a392388f6139ebfbc8418599bd0a3f6ecaaaa0ca431c54369c9ce62b67cf67"
 }
