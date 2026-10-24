@@ -26,7 +26,7 @@
       "context": "Svaga nycklar gör det möjligt att förfalska certifikat och utge sig för att vara webbplatser eller andra resurser, vilket utgör en betydande risk för bedrägerier och nätfiske.",
       "url": "https://www.theregister.com/security/2026/10/22/certification-authority-emudhra-defends-its-laughably-weak-private-keys/5304647",
       "publisher": "www.theregister.com - Articles",
-      "body": "The Register rapporterar att den indiska certifikatutfärdaren eMudhra har tvingats försvara de svaga privata nycklar som användes för att signera vissa utfärdade digitala certifikat. En granskning har visat att en av nycklarna bestod av enbart siffran \"4\" och att flera andra var korta str",
+      "body": "The Register rapporterar att den indiska certifikatutfärdaren eMudhra har tvingats försvara de svaga privata nycklar som användes för att signera vissa utfärdade digitala certifikat. En granskning har visat att en av nycklarna bestod av enbart siffran \"4\" och att flera andra var korta strängar med lättgissade två- eller tresiffriga tal.",
       "assessment": "Bristen på kognitiv kontroll vid nyckelgenerering understryker sårbarheter i hårdvarubaserade säkerhetsmoduler.",
       "previous_reporting": [
         "Tidigare uppgifter om certifikatets giltighetstid och allmänna brister i PKI-infrastrukturen."

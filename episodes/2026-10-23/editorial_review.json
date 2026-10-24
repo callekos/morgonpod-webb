@@ -57,8 +57,17 @@
   "completeness": {
     "version": "source-completeness-v1",
     "sources_sha256": "2d19958ac872bc5eaf8eeaebab4f1cd386ce87ca1d0e91663f67cda5e678479f",
-    "news_sha256": "785ada4a3acb562ffb04cb2fea681197646a973a096bb8e62c73d4060a723114",
+    "news_sha256": "dc35b17d8ba8917735df9d5aeac79a20bbfaba68ba985eec6b131be454f3abe9",
     "script_sha256": "e177cf2f38d037dc3cf83e4aa11fa10acf095fdb65e6c5527b2b60bffb1275e5",
     "collection_sha256": "3ae7e1af25a11e8f4028feb4b83b3915b10ce531465a1e3fffe566846cd1229d"
+  },
+  "source_audit_correction": {
+    "id": "ibat23-complete-reading-body",
+    "method": "source_snapshot_verified_completion",
+    "source_page_sha256": "c6227557bd8543ca48d9c0178aeae5421ee2d5a7d91581243cdad2f60a49f083",
+    "artifact": 12506397529,
+    "new_model_review": false,
+    "audio_unchanged": true,
+    "original_news_sha256": "785ada4a3acb562ffb04cb2fea681197646a973a096bb8e62c73d4060a723114"
   }
 }
