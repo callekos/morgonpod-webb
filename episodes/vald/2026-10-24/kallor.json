@@ -1,0 +1,38 @@
+[
+  {
+    "source": "SVT Nyheter",
+    "title": "En man död efter skjutning i södra Stockholm",
+    "url": "https://www.svt.se/nyheter/lokalt/stockholm/larm-om-skottlossning-i-sodra-stockholm-kzidi4",
+    "evidence": {
+      "date": "2026-10-23T15:00:37+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-24T05:06:16.865854+00:00",
+      "page_sha256": "c5ca6457819c25d9a9e040a4947531e6d7825f175a2ba55531898985611bb9a5",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "BBC News",
+    "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
+    "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
+    "evidence": {
+      "date": "2026-10-23T19:42:08+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-24T05:06:16.866054+00:00",
+      "page_sha256": "044db26e7744253f4920f75b52911662b20c0549e316a0f0cf5bb0a989c3a329",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "BBC News",
+    "title": "Watch: CCTV footage shows gunmen near church in Jordan",
+    "url": "https://www.bbc.co.uk/news/videos/c39wz712q0kzo?at_medium=RSS&at_campaign=rss",
+    "evidence": {
+      "date": "2026-10-23T15:59:36+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-24T05:06:16.866242+00:00",
+      "page_sha256": "c1f3f0c7f1ae254ecce0d219df118a0465e1ef6b51fc039327bd43d86a8c6df0",
+      "retrieval_limit": null
+    }
+  }
+]

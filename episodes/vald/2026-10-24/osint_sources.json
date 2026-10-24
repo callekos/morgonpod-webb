@@ -1,0 +1,303 @@
+{
+  "channel": "vald",
+  "date": "2026-10-24",
+  "sources": [
+    {
+      "id": 15,
+      "title": "En man död efter skjutning i södra Stockholm",
+      "url": "https://www.svt.se/nyheter/lokalt/stockholm/larm-om-skottlossning-i-sodra-stockholm-kzidi4",
+      "summary": "En man i 25-årsåldern är död efter skjutningen i Bagarmossen. – Den personen som har skjutits har avlidit, säger Nadya Norton, presstalesperson vid polisen. Ingen är i nuläget gripen.",
+      "date": "2026-10-23T15:00:37+00:00",
+      "publisher": "SVT Nyheter",
+      "discovery_identity": {
+        "url": "https://www.svt.se/nyheter/lokalt/stockholm/larm-om-skottlossning-i-sodra-stockholm-kzidi4",
+        "title": "En man död efter skjutning i södra Stockholm",
+        "summary": "En man i 25-årsåldern är död efter skjutningen i Bagarmossen. – Den personen som har skjutits har avlidit, säger Nadya Norton, presstalesperson vid polisen. Ingen är i nuläget gripen.",
+        "date": "2026-10-23T15:00:37+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      "discovery_version_key": "6fffab4d78da66e7d83e2c005270c5913769a63b524ced60274cd0a82726ccbc",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-24T05:06:16.865854+00:00",
+      "page_published_at": "2026-10-23T17:00:37+02:00",
+      "page_modified_at": "2026-10-23T23:11:53+02:00",
+      "page_sha256": "c5ca6457819c25d9a9e040a4947531e6d7825f175a2ba55531898985611bb9a5",
+      "resolved_url": "https://www.svt.se/nyheter/lokalt/stockholm/larm-om-skottlossning-i-sodra-stockholm-kzidi4",
+      "extraction_method": "title_matched_article",
+      "text": "Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd En person är död efter skjutningen i södra Stockholm. SVT:s Omar Daham rapporterar från plats. Foto: Kovan Alshawish/SVT En man död efter skjutning i södra Stockholm Uppdaterad igår 23:11 Publicerad igår 17:00 En man i 25-årsåldern är död efter skjutningen i Bagarmossen. – Den personen som har skjutits har avlidit, säger Nadya Norton, presstalesperson vid polisen. Ingen är i nuläget gripen. En man i 25-årsåldern är död efter skjutningen i södra Stockholm. Skjutningen inträffade i anslutning till en bil i ett bostadsområde. Mannens anhöriga ska vara underrättade. Polislarmet inkom 16:47 under fredagen. En förundersökning för mord är nu inledd. Ingen är ännu gripen. – Vi söker fortfarande efter den eller dem som gjort detta, säger Nadya Norton, presstalesperson hos Stockholmspolisen. Ambulanshelikopter var på plats Enligt SOS Alarm har två personer förts till sjukhus. – En med ambulanshelikopter och en med vanlig ambulans, är den informationen vi kan se, säger Ola Nilsson på SOS Alarms presstjänst. Det pågår en större polisinsats i området. Tekniker är på plats och går igenom brottsplatsen. Boende i området hörs av polis. Enligt uppgifter till SVT Nyheter genomför polis fordonskontroller i Stockholmsområdet i jakten på misstänkta. Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd En person sköts i anslutning till en bil i Bagarmossen på fredagseftermiddagen, enligt polisen. Foto: Kovan Alshawish Vittnen förhörs Enligt polisen finns det vittnen till händelsen, som nu förhörs samtidigt som brottsplatsen undersöks. Polisen begärde initialt också ett stopp i tunnelbanetrafiken. – Det kan ju finnas flera anledningar till att man vill förhöra eller kontrollera personer innan de lämnar platsen, säger Nadya Norton. En timme efter skjutningen förekom det enligt SL fortsatt störningar på gröna linjen. Strax innan klockan fem inkom det larm om skjutning i Bagarmossen. Foto: SVT Skjutningar och skottlossningar Polis Stockholm Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain."
+    },
+    {
+      "id": 39,
+      "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
+      "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
+      "summary": "One person is killed and five wounded in a series of attacks. The suspected gunman has been apprehended.",
+      "date": "2026-10-23T19:42:08+00:00",
+      "publisher": "BBC News",
+      "discovery_identity": {
+        "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
+        "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
+        "summary": "One person is killed and five wounded in a series of attacks. The suspected gunman has been apprehended.",
+        "date": "2026-10-23T19:42:08+00:00",
+        "publisher": "BBC News"
+      },
+      "discovery_version_key": "7df040a5370086374caa15c31bd633702e001f41bb39ecb97cfe511f22b2f89d",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-24T05:06:16.866054+00:00",
+      "page_sha256": "044db26e7744253f4920f75b52911662b20c0549e316a0f0cf5bb0a989c3a329",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
+      "extraction_method": "title_matched_article",
+      "text": "Figure caption, Watch: Emergency services at the scene of shooting near Paris By Paul Kirby ,Â Europe digital editor Â and Â Jacob Phillips Published 23 October 2026 French President Emmanuel Macron has labelled a gun attack in a Parisian suburb which killed one person and injured five others \"a racist terrorist attack\". Macron said the attack was a \"turning point in the life of our Republic and our nation\" - the first time there has ever been a random racial killing like this. The attack unfolded over some 15 minutes with the attacker opening fire from his car - first in Trappes to the south-west of Paris, and then in nearby La VerriÃ¨re - appearing to target people of migrant origin. He was subsequently arrested. Three of those injured, including a 12-year-old girl, remain in a serious condition. Visiting the scene of the attack in Trappes, Macron said people had been targeted for their skin colour or religion and urged the public not to give an inch in the face of what he called \"ideologies taking root\". The exact motive remains unclear, but the National Anti-Terrorist Prosecutor's Office (PNAT) said the incident appeared to be \"murder in connection with a terrorist enterprise\". The suspect has been named in French media as Kevin T who, according to PNAT, had four previous convictions which had been \"automatically expunged\". The 39-year-old was known to police but not to France's intelligence services, local media report. He was not on a list of individuals considered to be a serious threat to French security, the national anti-terrorism prosecutor's office told BFMTV. A member of the suspect's \"immediate family circle\" was also taken into custody on Friday, it added. The Mayor of Trappes, Ali Rabeh, said that \"an individual fired shots from his vehicle at several people he encountered\" on Friday morning. The gunman drove through several neighbourhoods in a grey Renault Clio, according to witnesses. Rabeh said he had \"fired randomly\" with the seeming intent of causing \"as many casualties as possible... he wanted to cause carnage\", he said. The mayor said people had been targeted at a petrol station, a medical centre and a playground in Trappes before the attacker had driven on to nearby La VerriÃ¨re. A police union official said the suspect had been detained in La VerriÃ¨re on the main N10 road that runs through the town. Image source, EPA Image caption, French police inspect the scene of the shooting in Trappes, near Paris Image source, Getty Images Image caption, French firefighters and police were seen at a petrol station in the area The mother of the injured 12-year-old told French broadcaster RTL her daughter suffered eight gunshot wounds and needed surgery. \"How could anyone do this to a child?\" she asked. The mother said her daughter had been wearing a headscarf and questioned whether this was why she was attacked. \"She's a child who was born in France, in Trappes. She has the right to live in France, to make her life in France,\" she added. The attacker reportedly travelled down a main road, shooting intermittently out of his car window. A local police chief told BFMTV that the suspect had used \"an older-style semi-automatic weapon\" with bursts of fire. Le Parisien reports that the gun dated back to World War Two. PNAT said its investigation also includes \"possession of a Category A weapon\" - which includes military-grade weapons or weapons capable of firing in bursts. The anti-terrorist office also said its investigation is looking into \"conspiracy with a terrorist group for the purpose of preparing crimes against persons\". Image source, Getty Images Image caption, A big deployment of police and emergency services has been present at the scene Related topics France Paris",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain."
+    },
+    {
+      "id": 43,
+      "title": "Watch: CCTV footage shows gunmen near church in Jordan",
+      "url": "https://www.bbc.co.uk/news/videos/c39wz712q0kzo?at_medium=RSS&at_campaign=rss",
+      "summary": "Dozens of people had been inside the church for a funeral when the shooting began, local media report.",
+      "date": "2026-10-23T15:59:36+00:00",
+      "publisher": "BBC News",
+      "discovery_identity": {
+        "url": "https://www.bbc.co.uk/news/videos/c39wz712q0kzo?at_medium=RSS&at_campaign=rss",
+        "title": "Watch: CCTV footage shows gunmen near church in Jordan",
+        "summary": "Dozens of people had been inside the church for a funeral when the shooting began, local media report.",
+        "date": "2026-10-23T15:59:36+00:00",
+        "publisher": "BBC News"
+      },
+      "discovery_version_key": "d108327c2fcb8e8e51db600f6386fad3c8041fa0d7cd6d67f9328ecb8b2e83fd",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-24T05:06:16.866242+00:00",
+      "page_sha256": "c1f3f0c7f1ae254ecce0d219df118a0465e1ef6b51fc039327bd43d86a8c6df0",
+      "resolved_url": "https://www.bbc.co.uk/news/videos/c39wz712q0kzo?at_medium=RSS&at_campaign=rss",
+      "extraction_method": "title_matched_article",
+      "text": "Watch: CCTV footage shows gunmen near church in Jordan Watch: CCTV footage shows gunmen near church in Jordan Close Seven people were killed when gunmen opened fire on a funeral in central Jordan, a government spokesperson has said. At least another 34 people were injured in the church in the Karak governorate on Friday. The unidentified gunmen are reported to have arrived in a car and began shooting inside the church before fleeing the scene. Security forces have been deployed to the area after the \"heinous\" attack, government spokesman Mohammad al-Momani said. Subsection Middle East Published 13 hours ago Share close panel Share page Copy link About sharing Related topics Jordan Follow Jordan Crime Follow Crime Read description",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain."
+    },
+    {
+      "id": 47,
+      "title": "Professor: Gängen blir smartare – ställer nya krav på polisutbildningen - Dagens Nyheter",
+      "url": "https://www.dn.se/sverige/professor-gangen-blir-smartare-staller-nya-krav-pa-polisutbildningen/",
+      "summary": "Professor: Gängen blir smartare – ställer nya krav på polisutbildningen Dagens Nyheter",
+      "date": "2026-10-23T16:20:57.782000+02:00",
+      "publisher": "Dagens Nyheter",
+      "discovery_identity": {
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZnVjTHBMV2R5T1FfMmFBdGxkbXNzSzJkbEZPdEl0VVZQV2lCTEJzX2VpTkUwMlVPYlhETkRCR191V1NkaTlWT3hBRDg5U1diTlZwOGRXRWtWd091Wl9MOXU4MTFPVkcxaElWMExXUmUzX0lZRTdKeUlwTjFENmdFNklCd3Q5Qk1EczdLWFpLWlh4bTMxQURVV0NiNA?oc=5",
+        "title": "Professor: Gängen blir smartare – ställer nya krav på polisutbildningen - Dagens Nyheter",
+        "summary": "Professor: Gängen blir smartare – ställer nya krav på polisutbildningen Dagens Nyheter",
+        "date": "2026-10-23T14:20:57+00:00",
+        "publisher": "Dagens Nyheter"
+      },
+      "discovery_version_key": "c766a71670afcc7a6302a82a84ff2898c6afba6f6e7d528bffe6f4c906434d69",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "subscription_required",
+      "retrieved_at": "2026-10-24T05:06:16.992483+00:00",
+      "discovery_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZnVjTHBMV2R5T1FfMmFBdGxkbXNzSzJkbEZPdEl0VVZQV2lCTEJzX2VpTkUwMlVPYlhETkRCR191V1NkaTlWT3hBRDg5U1diTlZwOGRXRWtWd091Wl9MOXU4MTFPVkcxaElWMExXUmUzX0lZRTdKeUlwTjFENmdFNklCd3Q5Qk1EczdLWFpLWlh4bTMxQURVV0NiNA?oc=5",
+      "page_published_at": "2026-10-23T16:20:57.782000+02:00",
+      "page_modified_at": "2026-10-23T18:56:14.013000+02:00",
+      "discovery_date": "2026-10-23T14:20:57+00:00",
+      "date_precision": "timestamp",
+      "resolved_url": "https://www.dn.se/sverige/professor-gangen-blir-smartare-staller-nya-krav-pa-polisutbildningen/",
+      "source_access": {
+        "schema": "publisher-access.v1",
+        "status": "subscription_required",
+        "primary_url": "https://www.dn.se/sverige/professor-gangen-blir-smartare-staller-nya-krav-pa-polisutbildningen/",
+        "notice": "logga in för att fortsätta läsa",
+        "page_sha256": "85408c8fc6a33af34d33982393b74280d7e1fe1bc565f6c87fe197a9112b458f",
+        "page_published_at": "2026-10-23T16:20:57.782000+02:00",
+        "method": "visible_notice_and_publisher_paid_metadata"
+      },
+      "page_sha256": "85408c8fc6a33af34d33982393b74280d7e1fe1bc565f6c87fe197a9112b458f",
+      "retrieval_limit": "Publisher subscription required; article body unread and excluded from factual use"
+    }
+  ],
+  "collection_evidence": {
+    "state": "ready",
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "subscription_exclusions": [
+      "https://www.dn.se/sverige/professor-gangen-blir-smartare-staller-nya-krav-pa-polisutbildningen/"
+    ],
+    "channel": "vald",
+    "discovery": {
+      "channel": "vald",
+      "date": "2026-10-24",
+      "feeds": [
+        {
+          "url": "https://www.svt.se/nyheter/rss.xml",
+          "entries": 100,
+          "accepted": 18,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.europol.europa.eu/rss.xml",
+          "entries": 10,
+          "accepted": 10,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "entries": 24,
+          "accepted": 18,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Sverige%20skjutningar%20spr%C3%A4ngningar%20kriminella%20n%C3%A4tverk%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 2,
+          "accepted": 2,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=criminal%20violence%20shootings%20bombings%20organized%20crime%20Europe%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Europol%20violent%20organized%20crime%20gangs%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=CAAS%20VAAS%20v%C3%A5ld%20kriminella%20akt%C3%B6rer%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Acan.se%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aeurojust.europa.eu%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Ainterpol.int%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aeuda.europa.eu%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Abbc.com%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Atheguardian.com%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Apolisen.se%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "parse_error": false,
+          "state": "empty_or_unparseable"
+        }
+      ],
+      "web_candidates": 0,
+      "original_fallback": {
+        "sources_checked": 6,
+        "candidates": 0,
+        "excluded": 21,
+        "sources": [
+          {
+            "domain": "can.se",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "eurojust.europa.eu",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "interpol.int",
+            "status": "BLOCKED",
+            "http_status": 403,
+            "error": null
+          },
+          {
+            "domain": "euda.europa.eu",
+            "status": "BLOCKED",
+            "http_status": 403,
+            "error": null
+          },
+          {
+            "domain": "reuters.com",
+            "status": "BLOCKED",
+            "http_status": 401,
+            "error": null
+          },
+          {
+            "domain": "bbc.com",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          }
+        ]
+      },
+      "candidate_count": 48,
+      "scope": "discovery_only_not_factual_approval"
+    },
+    "checked_at": "2026-10-24T05:06:23.398682+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  }
+}

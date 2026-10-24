@@ -1,0 +1,100 @@
+{
+  "channel": "vald",
+  "date": "2026-10-24",
+  "history": [
+    {
+      "id": "article-9842dc586d22539c9c46565a",
+      "date": "2026-10-23",
+      "channel": "vald",
+      "title": "Anti-terror police investigate as one person killed in shooting near Paris",
+      "summary": "BBC rapporterar om terrorutredningen efter skjutningarna i de parisiska förorterna där en person dödades och fyra skadades.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-23:daily",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
+      "topics": [
+        "internationellt-våld"
+      ],
+      "relevance": 5
+    },
+    {
+      "id": "article-74346b9849c859dbc6eb8bcf",
+      "date": "2026-10-23",
+      "channel": "vald",
+      "title": "Skjutning utanför Paris – en död",
+      "summary": "En person har dödats och fyra skadats i en serie skjutningar i förorter till Paris. Franska antiterroråklagare utreder händelsen som ett terrorbrott.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-23:daily",
+      "source_url": "https://www.svt.se/nyheter/utrikes/skjutning-utanfor-paris-en-dod",
+      "topics": [
+        "internationellt-våld"
+      ],
+      "relevance": 3
+    },
+    {
+      "id": "article-b366e478bf2709f873a7257c",
+      "date": "2026-10-22",
+      "channel": "vald",
+      "title": "Uppgifter: Polisen utreder Foxtrot-inblandning i mordet i Älvsjö",
+      "summary": "SVT Nyheter uppger den tjugoförsta oktober att polisen undersöker nätverket Foxtrots inblandning i mordet på en kvinna i Älvsjö. Två minderåriga pojkar sitter häktade misstänkta för dådet, som enligt källor rör hämnd riktad mot en anhörig till offret.",
+      "assessment": "Uppgifterna indikerar att nätverksrelaterade konflikter fortsätter att driva aktörer till att använda mycket unga utförare i planerade våldshandlingar.",
+      "open_questions": [
+        "Vilka direkta kopplingar finns mellan de häktade pojkarna och ledarskiktet inom det utpekade nätverket?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-22:daily",
+      "source_url": "https://www.svt.se/nyheter/inrikes/uppgifter-polisen-utreder-foxtrot-inblandning-i-mordet-i-alvsjo",
+      "topics": [
+        "gangkonflikter",
+        "mord",
+        "rekrytering"
+      ],
+      "relevance": 2
+    },
+    {
+      "id": "article-2f5d1e8681a64b43c0354c9e",
+      "date": "2026-10-21",
+      "channel": "vald",
+      "title": "Åtal om rekrytering till grova våldsbrott",
+      "summary": "En annan aktuell rättsprocess beskrivs i Åklagarmyndighetens pressmeddelande den tjugoförsta oktober. En tjugosexårig man som överlämnades från Grekland till Sverige i februari åtalas vid Södertörns tingsrätt. Myndigheten beskriver misstänkt inblandning i grova våldsbrott i Stockholmsområdet, Linköping och Uppsala under tjugohundratjugotre och tjugohundratjugofyra. En separat åtalspunkt gäller ett grovt vapenbrott i Stockholm år tjugohundratjugoett. Dagens publicering betyder därmed inte att brotten ska ha begåtts i dag.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-21:daily",
+      "source_url": "https://www.aklagare.se/for-media/pressmeddelanden/2026/oktober/man-atalas-for-tre-mord-och-flera-andra-fall-av-grov-brottslighet/",
+      "topics": [
+        "åtal-och-grovt-våld"
+      ],
+      "relevance": 2
+    },
+    {
+      "id": "article-6dc84f2823552b4a664e6831",
+      "date": "2026-10-20",
+      "channel": "vald",
+      "title": "Stort vapentillslag – hittade 31 vapen hos man i Vimmerby",
+      "summary": "En man i 35-årsåldern utan vapenlicens i Vimmerby kommun har åtalats sedan polisen hittat 31 fungerande vapen, inklusive en kulspruta, samt över 11 500 patroner i hans hem och en lagerlokal. Det rör sig enligt åklagaren om ett av de större vapenbeslagen som gjorts i Sverige. Mannen åtalas för synnerligen grovt vapenbrott samt brott mot lagen om brandfarliga och explosiva varor, men nekar till brott.",
+      "assessment": "Ett beslag av denna storleksordning indikerar en betydande risk för att stora vapenmängder kan cirkulera utanför samhällets kontroll, vilket understryker vikten av tidiga underrättelser kring okontrollerade tillgångar.",
+      "open_questions": [
+        "Hur har mannen anskaffat den stora mängden vapen och ammunition utan att det upptäckts tidigare?",
+        "Finns det några verifierade kopplingar till organiserad brottslighet eller extremistmiljöer?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-20:daily",
+      "source_url": "https://www.svt.se/nyheter/lokalt/smaland/stort-vapentillslag-hittade-31-vapen-hos-man",
+      "topics": [
+        "vapenbrott",
+        "brottslighet",
+        "sverige"
+      ],
+      "relevance": 2
+    }
+  ]
+}

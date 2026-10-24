@@ -1,0 +1,92 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "",
+  "source_coverage": [
+    {
+      "claim": "En man i 25-årsåldern dödades i en skjutning i Bagarmossen på fredagseftermiddagen den 23 oktober och polisen har inlett en förundersökning om mord.",
+      "source_url": "https://www.svt.se/nyheter/lokalt/stockholm/larm-om-skottlossning-i-sodra-stockholm-kzidi4"
+    },
+    {
+      "claim": "Frankrikes president Emmanuel Macron har klassat skjutningen i en förort till Paris som en rasistisk terrorattack.",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "claim": "Sju personer dödades och minst 34 skadades när beväpnade personer öppnade eld vid en begravning i centrala Jordanien, i Karak-provinsen.",
+      "source_url": "https://www.bbc.co.uk/news/videos/c39wz712q0kzo?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/stockholm/larm-om-skottlossning-i-sodra-stockholm-kzidi4",
+      "covered_facts": [
+        "En man i 25-årsåldern dödades i Bagarmossen",
+        "Polisen har inlett en förundersökning om mord",
+        "Ingen är ännu gripen"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
+      "covered_facts": [
+        "Macron klassar skjutningen som rasistisk terrorattack",
+        "En dödad och fem skadade",
+        "Gärningsman greps"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/videos/c39wz712q0kzo?at_medium=RSS&at_campaign=rss",
+      "covered_facts": [
+        "Sju dödade och 34 skadade vid begravning i Jordanien",
+        "Karak-provinsen"
+      ],
+      "missing_facts": []
+    }
+  ],
+  "selection_decisions": [
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/stockholm/larm-om-skottlossning-i-sodra-stockholm-kzidi4",
+      "selected": true,
+      "reason": "Verifierad händelse om dödligt skjutvapenvåld i Stockholm.",
+      "event_key": "stockholm-shooting-bagarmossen",
+      "source_quote": "En person är död efter skjutningen i södra Stockholm."
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
+      "selected": true,
+      "reason": "Relevanta uppgifter om terrorutredning av skjutning i Paris.",
+      "event_key": "paris-terror-shooting",
+      "source_quote": "French President Emmanuel Macron has labelled a gun attack in a Parisian suburb which killed one person and injured five others \"a racist terrorist attack\"."
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/videos/c39wz712q0kzo?at_medium=RSS&at_campaign=rss",
+      "selected": true,
+      "reason": "Internationell händelse med dödligt våld vid begravning i Jordanien.",
+      "event_key": "jordan-church-shooting",
+      "source_quote": "Seven people were killed when gunmen opened fire on a funeral in central Jordan, a government spokesperson has said."
+    },
+    {
+      "url": "https://www.dn.se/sverige/professor-gangen-blir-smartare-staller-nya-krav-pa-polisutbildningen/",
+      "selected": false,
+      "reason": "subscription_required",
+      "event_key": "dn-polisutbildning",
+      "source_quote": "logga in för att fortsätta läsa",
+      "access_reason": "subscription_required"
+    }
+  ],
+  "format_decision": {
+    "outcome": "standard",
+    "reason": "Tre väsentliga och verifierade nyheter täcks i ett normalt avsnitt."
+  },
+  "access_exclusions_reviewed": true,
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "61f72ea165dfdf4ca2894c265964d4053f905f1051e17e11652dcbc6eb6a12e1",
+    "news_sha256": "dfac7835cac6c4ba8e10d9ac02655e2baccb9627ae38a75adb9feadb2dbe99ef",
+    "script_sha256": "71afd29b634e42c19f8af9b10b38a4e42062723c658753ef4ec5eb3fa82480f8",
+    "collection_sha256": "20b06733d920239e9c364214ec561d506954b84ea9adc54e20efbec574870e27"
+  }
+}
