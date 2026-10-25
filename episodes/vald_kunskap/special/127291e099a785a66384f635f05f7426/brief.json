@@ -1,0 +1,38 @@
+{
+  "title": "Människorna bakom uppdraget: beställare, förmedlare, rekryterare och utförare",
+  "description": "En källbunden rollkarta skiljer beställning, finansiering, förmedling, rekrytering, möjliggörande och utförande åt, utan att förväxla funktioner med bevisad individuell skuld.",
+  "channel": "vald_kunskap",
+  "editorial_date": "2026-10-25",
+  "origin": "work_knowledge",
+  "production_identity": "VALD-KUNSKAP-01",
+  "edition_type": "special",
+  "is_intro": false,
+  "episode_order": 3,
+  "tags": [
+    "Fördjupning",
+    "Specialavsnitt",
+    "Crime as a Service"
+  ],
+  "news": [
+    {
+      "id": "VALD-KUNSKAP-01:article:03",
+      "title": "Människorna bakom uppdraget: beställare, förmedlare, rekryterare och utförare",
+      "summary": "En källbunden rollkarta skiljer beställning, finansiering, förmedling, rekrytering, möjliggörande och utförande åt, utan att förväxla funktioner med bevisad individuell skuld.",
+      "body": "Vem ligger bakom ett beställt våldsdåd? Den frågan kan betyda flera saker. Vem ville att det skulle ske? Vem förde samman människorna? Vem gjorde handlingen möjlig? Och vem utförde den? Det här avsnittet av Våld handlar om rollerna bakom uppdraget, och om varför en enda gärningsperson sällan är en tillräcklig karta över hela förloppet.\n\nEuropol beskriver i presentationen av OTF Grimm fyra återkommande funktioner: den som beställer och finansierar, den som rekryterar, den som möjliggör och den som utför. Modellen är användbar för att skilja funktioner åt. Den är däremot inte ett bevis på att varje händelse har fyra personer eller fyra tydliga steg. En och samma person kan fylla flera funktioner. I andra fall finns fler människor mellan beställningen och brottsplatsen.\n\nVi börjar med beställaren. Här ligger den önskade handlingen och beslutet att försöka få den genomförd. Europol beskriver att beställaren ofta kan befinna sig i ett annat land. Men avstånd är ingen roll i sig. En person blir inte beställare bara för att personen bor utomlands eller har en ledande ställning i ett nätverk. Kopplingen till det specifika uppdraget behöver beläggas.\n\nFinansiering är också en funktion som måste förstås i sitt sammanhang. Att någon bidrar med resurser kan vara betydelsefullt, men alla ekonomiska kontakter visar inte att personen känner till ett våldsuppdrag. Den allmänna lärdomen är att skilja mellan en kontakt, en handling och vad personen faktiskt kan visas ha avsett. Den här seriens rollord är analytiska. De avgör inte i sig en persons straffrättsliga ansvar.\n\nSedan kommer rekryteraren. Den funktionen handlar om att få fram någon som ska delta. I Europols beskrivning kan rekryteringen ske digitalt. Rekryteraren kan skapa en relation, locka med en belöning eller utnyttja någons sårbarhet. Nästa avsnitt fördjupar sig i barns utsatthet. Här är poängen en annan: den som hittar eller påverkar en utförare behöver inte vara den som från början efterfrågade våldet.\n\nVi använder också ordet förmedlare. Det är ett praktiskt samlingsord för den som kopplar samman efterfrågan med andra aktörer. En förmedlare och en rekryterare kan vara samma person, men orden betonar olika funktioner. Den första för samman kontakter kring uppdraget, den andra försöker få någon att ta en viss roll. Vi ska inte låtsas att källorna använder identiska titlar eller att gränsen alltid går att dra exakt.\n\nDen tredje funktionen i Europols modell kallas enabler, eller möjliggörare. Den omfattar förutsättningar runt själva handlingen, som praktiska resurser, kontakter eller andra arrangemang. Vi stannar på den övergripande nivån. Kunskapsvärdet ligger i att förstå att ett våldsdåd kan vara beroende av bidrag från människor som aldrig är på brottsplatsen. Det innebär inte att varje tjänst, resa eller bekantskap har en brottslig innebörd.\n\nTill sist utföraren. Den personen genomför själva våldshandlingen och blir ofta mest synlig. EU SOCTA 2025 beskriver att utförare kan ha begränsad kunskap om måltavlan och sammanhanget. Det kan bidra till risker för utomstående. Det innebär också att utförarens egen berättelse inte nödvändigtvis räcker för att förstå hela beställningen. Kunskap kan vara ojämnt fördelad mellan människor som deltar i samma förlopp.\n\nVarför spelar rollkartan någon roll för samhällets förståelse? Därför att en ingripen utförare och en bruten uppdragskedja inte är samma resultat. Det är en analytisk skillnad, inte ett påstående om effekten i ett visst ärende. Om en funktion kan fyllas av någon ny kan verksamheten fortsätta på ett annat sätt. Samtidigt kan ett ingripande mot en enda person förhindra ett konkret dåd. Båda perspektiven behövs, och resultat behöver beskrivas på den nivå som faktiskt går att belägga.\n\nRollkartan behöver därför användas med två försiktighetsregler. För det första ska den följa beläggen. Vi får inte fylla tomma rutor med gissningar. För det andra ska vi skilja en beskrivning av nätverkets funktioner från bedömningen av varje enskild människa. Misstanke, åtal och dom är olika saker.\n\nBeställare, förmedlare, rekryterare, möjliggörare och utförare är alltså frågor att ställa till ett material, inte etiketter som automatiskt avslöjar vad som har hänt. I nästa avsnitt undersöker vi hur barn och unga kan dras in i dessa kedjor och varför ett till synes frivilligt uppdrag kan förändras till en situation som är svår att lämna.\n",
+      "context": "Källbaserad fördjupning. Källäge25oktober2026. Källornas datum och räckvidd hålls isär; uttryckligt märkt analys är inte ett nytt empiriskt resultat.",
+      "category": "vald_kunskap",
+      "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/EU-SOCTA-2025.pdf",
+      "publisher": "Morgonpodden",
+      "sources": [
+        {
+          "title": "EU-SOCTA 2025: The changing DNA of serious and organised crime",
+          "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/EU-SOCTA-2025.pdf"
+        },
+        {
+          "title": "Operational Taskforce GRIMM",
+          "url": "https://www.europol.europa.eu/how-we-work/operations/operational-taskforce-grimm"
+        }
+      ]
+    }
+  ]
+}

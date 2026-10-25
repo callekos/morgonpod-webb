@@ -1,0 +1,15 @@
+{
+  "approved": true,
+  "audio_sha256": "07d22e84ae8744148954b897910526bc9d6c76b84a0b4af2c1f9f2bafd5a6a03",
+  "manuscript_sha256": "1726273730f3ce1ff330af52ce4d8963895944d98812195a76e43e23a348c521",
+  "method": "Work review of full actual-audio ASR transcript, segment integrity and full decoding",
+  "human_listening": false,
+  "word_alignment_ratio": 0.9660766961651918,
+  "duration_seconds": 307.872,
+  "sections_complete": true,
+  "repeated_rundown_absent": true,
+  "ending_complete": true,
+  "limitations": [
+    "ASR has phonetic errors in proper names and occasional words; it is auxiliary evidence. No independent human listening claimed."
+  ]
+}

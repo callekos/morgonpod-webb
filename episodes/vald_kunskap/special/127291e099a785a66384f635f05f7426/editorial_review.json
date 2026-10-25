@@ -1,0 +1,41 @@
+{
+  "approved": true,
+  "reviewer": "ChatGPT Work, separate editorial self-review",
+  "source_ids": [
+    "S1",
+    "S5"
+  ],
+  "summary": "En källbunden rollkarta skiljer beställning, finansiering, förmedling, rekrytering, möjliggörande och utförande åt, utan att förväxla funktioner med bevisad individuell skuld.",
+  "claims": [
+    {
+      "claim": "Europols fyra funktioner instigator, recruiter, enabler och perpetrator samt gränsöverskridande och digitala förhållanden.",
+      "source_ids": [
+        "S5"
+      ],
+      "status": "verified",
+      "locator": "Background, four stages"
+    },
+    {
+      "claim": "Utförare kan sakna kunskap om mål och sammanhang, med risker för utomstående.",
+      "source_ids": [
+        "S1"
+      ],
+      "status": "verified",
+      "locator": "EU-SOCTA2025 printed page32"
+    }
+  ],
+  "analysis_marked": [
+    "Roller som funktioner, inte ett krav på fyra separata människor",
+    "Förmedlare definieras öppet som seriens analytiska samlingsord",
+    "Skillnaden mellan ett förhindrat dåd och en bruten kedja presenteras som analytisk"
+  ],
+  "limits": [
+    "Ingen rollkarta används som bevis för individuell skuld",
+    "Inga namn, brottsmanualer eller påhittade fall",
+    "Ingen generell effekt tillskrivs ett visst ingripande"
+  ],
+  "repetition_review": "Fokus på funktionsskillnader; marknadsdrivkrafter upprepas inte. Barns rekryteringsförlopp och plattformarnas funktioner behandlas först i4 och5.",
+  "independent_human_review": false,
+  "package_sha256": "7640728c170dc27011750a8ead2524dedd1d7992205689a1d9f54b5e19f3539a",
+  "reviewed_at": "2026-10-25T10:41:00.400293+00:00"
+}
