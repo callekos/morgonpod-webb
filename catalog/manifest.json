@@ -105,12 +105,6 @@
         "catalog/lists/episodes/topic/crime-as-a-service/0.json"
       ]
     },
-    "episodes/topic/kunskap": {
-      "count": 1,
-      "pages": [
-        "catalog/lists/episodes/topic/kunskap/0.json"
-      ]
-    },
     "episodes/topic/beställt-våld": {
       "count": 1,
       "pages": [
@@ -121,6 +115,12 @@
       "count": 1,
       "pages": [
         "catalog/lists/episodes/topic/violence-as-a-service/0.json"
+      ]
+    },
+    "episodes/topic/kunskap": {
+      "count": 1,
+      "pages": [
+        "catalog/lists/episodes/topic/kunskap/0.json"
       ]
     },
     "episodes/channel/sjoomradet": {
@@ -165,22 +165,16 @@
         "catalog/lists/episodes/channel/vald/0.json"
       ]
     },
-    "episodes/topic/skjutningar-och-dödligt-våld": {
-      "count": 1,
-      "pages": [
-        "catalog/lists/episodes/topic/skjutningar-och-dödligt-våld/0.json"
-      ]
-    },
     "episodes/topic/internationellt-våld": {
       "count": 2,
       "pages": [
         "catalog/lists/episodes/topic/internationellt-våld/0.json"
       ]
     },
-    "episodes/topic/hormuz-och-mellanöstern": {
+    "episodes/topic/skjutningar-och-dödligt-våld": {
       "count": 1,
       "pages": [
-        "catalog/lists/episodes/topic/hormuz-och-mellanöstern/0.json"
+        "catalog/lists/episodes/topic/skjutningar-och-dödligt-våld/0.json"
       ]
     },
     "episodes/topic/svarta-havet-och-ukraina": {
@@ -195,22 +189,28 @@
         "catalog/lists/episodes/topic/skuggflottan-och-sanktioner/0.json"
       ]
     },
+    "episodes/topic/hormuz-och-mellanöstern": {
+      "count": 1,
+      "pages": [
+        "catalog/lists/episodes/topic/hormuz-och-mellanöstern/0.json"
+      ]
+    },
     "episodes/topic/juridik-integritet-och-informationssäkerhet": {
       "count": 1,
       "pages": [
         "catalog/lists/episodes/topic/juridik-integritet-och-informationssäkerhet/0.json"
       ]
     },
-    "episodes/topic/informationsförsörjning-och-dataplattformar": {
-      "count": 1,
-      "pages": [
-        "catalog/lists/episodes/topic/informationsförsörjning-och-dataplattformar/0.json"
-      ]
-    },
     "episodes/topic/digital-utveckling-i-rättsväsende-och-offentlig-sektor": {
       "count": 1,
       "pages": [
         "catalog/lists/episodes/topic/digital-utveckling-i-rättsväsende-och-offentlig-sektor/0.json"
+      ]
+    },
+    "episodes/topic/informationsförsörjning-och-dataplattformar": {
+      "count": 1,
+      "pages": [
+        "catalog/lists/episodes/topic/informationsförsörjning-och-dataplattformar/0.json"
       ]
     },
     "episodes/topic/penningtvätt-och-brottsvinster": {
@@ -225,28 +225,10 @@
         "catalog/lists/episodes/topic/maritim-säkerhet/0.json"
       ]
     },
-    "episodes/topic/penningtvätt-och-offshore-strukturer": {
-      "count": 1,
-      "pages": [
-        "catalog/lists/episodes/topic/penningtvätt-och-offshore-strukturer/0.json"
-      ]
-    },
-    "episodes/topic/bolagsupplägg-och-civilrättsliga-processer": {
-      "count": 1,
-      "pages": [
-        "catalog/lists/episodes/topic/bolagsupplägg-och-civilrättsliga-processer/0.json"
-      ]
-    },
     "episodes/topic/korruption-och-civila-sanktioner": {
       "count": 1,
       "pages": [
         "catalog/lists/episodes/topic/korruption-och-civila-sanktioner/0.json"
-      ]
-    },
-    "episodes/topic/cyberbrottslighet-och-återtagande": {
-      "count": 1,
-      "pages": [
-        "catalog/lists/episodes/topic/cyberbrottslighet-och-återtagande/0.json"
       ]
     },
     "episodes/topic/människosmuggling-och-brottsvinster": {
@@ -255,10 +237,22 @@
         "catalog/lists/episodes/topic/människosmuggling-och-brottsvinster/0.json"
       ]
     },
-    "episodes/topic/skola-och-våld": {
+    "episodes/topic/bolagsupplägg-och-civilrättsliga-processer": {
       "count": 1,
       "pages": [
-        "catalog/lists/episodes/topic/skola-och-våld/0.json"
+        "catalog/lists/episodes/topic/bolagsupplägg-och-civilrättsliga-processer/0.json"
+      ]
+    },
+    "episodes/topic/penningtvätt-och-offshore-strukturer": {
+      "count": 1,
+      "pages": [
+        "catalog/lists/episodes/topic/penningtvätt-och-offshore-strukturer/0.json"
+      ]
+    },
+    "episodes/topic/cyberbrottslighet-och-återtagande": {
+      "count": 1,
+      "pages": [
+        "catalog/lists/episodes/topic/cyberbrottslighet-och-återtagande/0.json"
       ]
     },
     "episodes/topic/rättsvsende": {
@@ -267,10 +261,10 @@
         "catalog/lists/episodes/topic/rättsvsende/0.json"
       ]
     },
-    "episodes/topic/cybersäkerhet": {
-      "count": 2,
+    "episodes/topic/skola-och-våld": {
+      "count": 1,
       "pages": [
-        "catalog/lists/episodes/topic/cybersäkerhet/0.json"
+        "catalog/lists/episodes/topic/skola-och-våld/0.json"
       ]
     },
     "episodes/topic/informationssäkerhet": {
@@ -279,28 +273,34 @@
         "catalog/lists/episodes/topic/informationssäkerhet/0.json"
       ]
     },
+    "episodes/topic/cybersäkerhet": {
+      "count": 2,
+      "pages": [
+        "catalog/lists/episodes/topic/cybersäkerhet/0.json"
+      ]
+    },
     "episodes/channel/mediesvepet": {
       "count": 6,
       "pages": [
         "catalog/lists/episodes/channel/mediesvepet/0.json"
       ]
     },
-    "episodes/topic/sexualbrott": {
+    "episodes/topic/internationella-brottsaktörer": {
       "count": 1,
       "pages": [
-        "catalog/lists/episodes/topic/sexualbrott/0.json"
+        "catalog/lists/episodes/topic/internationella-brottsaktörer/0.json"
+      ]
+    },
+    "episodes/topic/kriminell-ekonomi": {
+      "count": 5,
+      "pages": [
+        "catalog/lists/episodes/topic/kriminell-ekonomi/0.json"
       ]
     },
     "episodes/topic/i-fokus": {
       "count": 2,
       "pages": [
         "catalog/lists/episodes/topic/i-fokus/0.json"
-      ]
-    },
-    "episodes/topic/internationella-brottsaktörer": {
-      "count": 1,
-      "pages": [
-        "catalog/lists/episodes/topic/internationella-brottsaktörer/0.json"
       ]
     },
     "episodes/topic/grova-våldet": {
@@ -315,10 +315,16 @@
         "catalog/lists/episodes/topic/ordning-och-säkerhet/0.json"
       ]
     },
-    "episodes/topic/kriminell-ekonomi": {
-      "count": 5,
+    "episodes/topic/sexualbrott": {
+      "count": 1,
       "pages": [
-        "catalog/lists/episodes/topic/kriminell-ekonomi/0.json"
+        "catalog/lists/episodes/topic/sexualbrott/0.json"
+      ]
+    },
+    "episodes/topic/organiserad-brottslighet": {
+      "count": 2,
+      "pages": [
+        "catalog/lists/episodes/topic/organiserad-brottslighet/0.json"
       ]
     },
     "episodes/topic/skolmiljö-och-våld": {
@@ -333,28 +339,10 @@
         "catalog/lists/episodes/topic/gängkonflikter/0.json"
       ]
     },
-    "episodes/topic/organiserad-brottslighet": {
-      "count": 2,
-      "pages": [
-        "catalog/lists/episodes/topic/organiserad-brottslighet/0.json"
-      ]
-    },
     "episodes/topic/dataskydd": {
       "count": 6,
       "pages": [
         "catalog/lists/episodes/topic/dataskydd/0.json"
-      ]
-    },
-    "episodes/topic/digital-säkerhet": {
-      "count": 1,
-      "pages": [
-        "catalog/lists/episodes/topic/digital-säkerhet/0.json"
-      ]
-    },
-    "episodes/topic/rättsligt": {
-      "count": 3,
-      "pages": [
-        "catalog/lists/episodes/topic/rättsligt/0.json"
       ]
     },
     "episodes/topic/barn-och-rekrytering": {
@@ -375,6 +363,18 @@
         "catalog/lists/episodes/topic/händer-idag/0.json"
       ]
     },
+    "episodes/topic/rättsligt": {
+      "count": 3,
+      "pages": [
+        "catalog/lists/episodes/topic/rättsligt/0.json"
+      ]
+    },
+    "episodes/topic/digital-säkerhet": {
+      "count": 1,
+      "pages": [
+        "catalog/lists/episodes/topic/digital-säkerhet/0.json"
+      ]
+    },
     "episodes/topic/åtal-och-grovt-våld": {
       "count": 1,
       "pages": [
@@ -387,22 +387,16 @@
         "catalog/lists/episodes/topic/rättsprocess/0.json"
       ]
     },
-    "episodes/topic/marin-beredskap": {
-      "count": 1,
-      "pages": [
-        "catalog/lists/episodes/topic/marin-beredskap/0.json"
-      ]
-    },
     "episodes/topic/sjöfart-och-försörjning": {
       "count": 1,
       "pages": [
         "catalog/lists/episodes/topic/sjöfart-och-försörjning/0.json"
       ]
     },
-    "episodes/topic/fördjupning": {
-      "count": 19,
+    "episodes/topic/marin-beredskap": {
+      "count": 1,
       "pages": [
-        "catalog/lists/episodes/topic/fördjupning/0.json"
+        "catalog/lists/episodes/topic/marin-beredskap/0.json"
       ]
     },
     "episodes/topic/specialavsnitt": {
@@ -411,22 +405,28 @@
         "catalog/lists/episodes/topic/specialavsnitt/0.json"
       ]
     },
+    "episodes/topic/fördjupning": {
+      "count": 19,
+      "pages": [
+        "catalog/lists/episodes/topic/fördjupning/0.json"
+      ]
+    },
     "episodes/channel/lagstiftning": {
       "count": 6,
       "pages": [
         "catalog/lists/episodes/channel/lagstiftning/0.json"
       ]
     },
-    "episodes/topic/bedrägeri": {
-      "count": 1,
-      "pages": [
-        "catalog/lists/episodes/topic/bedrägeri/0.json"
-      ]
-    },
     "episodes/topic/internationell-kriminell-ekonomi": {
       "count": 1,
       "pages": [
         "catalog/lists/episodes/topic/internationell-kriminell-ekonomi/0.json"
+      ]
+    },
+    "episodes/topic/bedrägeri": {
+      "count": 1,
+      "pages": [
+        "catalog/lists/episodes/topic/bedrägeri/0.json"
       ]
     },
     "episodes/topic/hotbilder-och-brottslighetens-utveckling": {
@@ -477,16 +477,16 @@
         "catalog/lists/episodes/topic/införande/0.json"
       ]
     },
-    "episodes/topic/brottsbekämpning": {
-      "count": 5,
-      "pages": [
-        "catalog/lists/episodes/topic/brottsbekämpning/0.json"
-      ]
-    },
     "episodes/topic/ai": {
       "count": 5,
       "pages": [
         "catalog/lists/episodes/topic/ai/0.json"
+      ]
+    },
+    "episodes/topic/brottsbekämpning": {
+      "count": 5,
+      "pages": [
+        "catalog/lists/episodes/topic/brottsbekämpning/0.json"
       ]
     },
     "episodes/channel/it_juridik": {
@@ -507,10 +507,10 @@
         "catalog/lists/episodes/channel/verksamhetsutveckling/0.json"
       ]
     },
-    "episodes/topic/förändringsarbete": {
+    "episodes/topic/utvärdering": {
       "count": 5,
       "pages": [
-        "catalog/lists/episodes/topic/förändringsarbete/0.json"
+        "catalog/lists/episodes/topic/utvärdering/0.json"
       ]
     },
     "episodes/topic/verksamhetsutveckling": {
@@ -519,16 +519,22 @@
         "catalog/lists/episodes/topic/verksamhetsutveckling/0.json"
       ]
     },
-    "episodes/topic/utvärdering": {
+    "episodes/topic/förändringsarbete": {
       "count": 5,
       "pages": [
-        "catalog/lists/episodes/topic/utvärdering/0.json"
+        "catalog/lists/episodes/topic/förändringsarbete/0.json"
       ]
     },
     "episodes/topic/datakvalitet": {
       "count": 1,
       "pages": [
         "catalog/lists/episodes/topic/datakvalitet/0.json"
+      ]
+    },
+    "episodes/topic/uppstartsavsnitt": {
+      "count": 8,
+      "pages": [
+        "catalog/lists/episodes/topic/uppstartsavsnitt/0.json"
       ]
     },
     "episodes/topic/informationsförsörjning": {
@@ -543,10 +549,10 @@
         "catalog/lists/episodes/topic/lägesförståelse/0.json"
       ]
     },
-    "episodes/topic/uppstartsavsnitt": {
-      "count": 8,
+    "episodes/topic/våld-som-tjänst": {
+      "count": 1,
       "pages": [
-        "catalog/lists/episodes/topic/uppstartsavsnitt/0.json"
+        "catalog/lists/episodes/topic/våld-som-tjänst/0.json"
       ]
     },
     "episodes/topic/grovt-våld": {
@@ -555,28 +561,22 @@
         "catalog/lists/episodes/topic/grovt-våld/0.json"
       ]
     },
-    "episodes/topic/våld-som-tjänst": {
-      "count": 1,
-      "pages": [
-        "catalog/lists/episodes/topic/våld-som-tjänst/0.json"
-      ]
-    },
     "episodes/topic/digital-rekrytering": {
       "count": 1,
       "pages": [
         "catalog/lists/episodes/topic/digital-rekrytering/0.json"
       ]
     },
-    "episodes/topic/brottsvinster": {
-      "count": 1,
-      "pages": [
-        "catalog/lists/episodes/topic/brottsvinster/0.json"
-      ]
-    },
     "episodes/topic/penningtvätt": {
       "count": 1,
       "pages": [
         "catalog/lists/episodes/topic/penningtvätt/0.json"
+      ]
+    },
+    "episodes/topic/brottsvinster": {
+      "count": 1,
+      "pages": [
+        "catalog/lists/episodes/topic/brottsvinster/0.json"
       ]
     },
     "episodes/topic/östersjön": {
@@ -615,12 +615,6 @@
         "catalog/lists/episodes/topic/mediegranskning/0.json"
       ]
     },
-    "episodes/topic/granskning": {
-      "count": 2,
-      "pages": [
-        "catalog/lists/episodes/topic/granskning/0.json"
-      ]
-    },
     "episodes/topic/polisarbete": {
       "count": 2,
       "pages": [
@@ -633,16 +627,22 @@
         "catalog/lists/episodes/topic/omvärld/0.json"
       ]
     },
-    "episodes/topic/polis-och-arbetsliv": {
-      "count": 1,
+    "episodes/topic/granskning": {
+      "count": 2,
       "pages": [
-        "catalog/lists/episodes/topic/polis-och-arbetsliv/0.json"
+        "catalog/lists/episodes/topic/granskning/0.json"
       ]
     },
     "episodes/topic/brottsutredning": {
       "count": 1,
       "pages": [
         "catalog/lists/episodes/topic/brottsutredning/0.json"
+      ]
+    },
+    "episodes/topic/polis-och-arbetsliv": {
+      "count": 1,
+      "pages": [
+        "catalog/lists/episodes/topic/polis-och-arbetsliv/0.json"
       ]
     },
     "articles/channel/vald_kunskap": {
@@ -688,10 +688,10 @@
         "catalog/lists/articles/channel/vald/0.json"
       ]
     },
-    "articles/topic/attentat": {
-      "count": 1,
+    "articles/topic/internationellt-våld": {
+      "count": 4,
       "pages": [
-        "catalog/lists/articles/topic/attentat/0.json"
+        "catalog/lists/articles/topic/internationellt-våld/0.json"
       ]
     },
     "articles/topic/jordanien": {
@@ -700,10 +700,10 @@
         "catalog/lists/articles/topic/jordanien/0.json"
       ]
     },
-    "articles/topic/internationellt-våld": {
-      "count": 4,
+    "articles/topic/attentat": {
+      "count": 1,
       "pages": [
-        "catalog/lists/articles/topic/internationellt-våld/0.json"
+        "catalog/lists/articles/topic/attentat/0.json"
       ]
     },
     "articles/topic/frankrike": {
@@ -718,12 +718,6 @@
         "catalog/lists/articles/topic/terrorism/0.json"
       ]
     },
-    "articles/topic/mord": {
-      "count": 2,
-      "pages": [
-        "catalog/lists/articles/topic/mord/0.json"
-      ]
-    },
     "articles/topic/stockholm": {
       "count": 1,
       "pages": [
@@ -736,16 +730,16 @@
         "catalog/lists/articles/topic/skjutningar/0.json"
       ]
     },
+    "articles/topic/mord": {
+      "count": 2,
+      "pages": [
+        "catalog/lists/articles/topic/mord/0.json"
+      ]
+    },
     "articles/topic/rumänien": {
       "count": 1,
       "pages": [
         "catalog/lists/articles/topic/rumänien/0.json"
-      ]
-    },
-    "articles/topic/drönarattacker": {
-      "count": 1,
-      "pages": [
-        "catalog/lists/articles/topic/drönarattacker/0.json"
       ]
     },
     "articles/topic/sjöfartssäkerhet": {
@@ -754,16 +748,10 @@
         "catalog/lists/articles/topic/sjöfartssäkerhet/0.json"
       ]
     },
-    "articles/topic/hormuzsundet": {
+    "articles/topic/drönarattacker": {
       "count": 1,
       "pages": [
-        "catalog/lists/articles/topic/hormuzsundet/0.json"
-      ]
-    },
-    "articles/topic/miljörisker": {
-      "count": 1,
-      "pages": [
-        "catalog/lists/articles/topic/miljörisker/0.json"
+        "catalog/lists/articles/topic/drönarattacker/0.json"
       ]
     },
     "articles/topic/oljeutsläpp": {
@@ -778,10 +766,16 @@
         "catalog/lists/articles/topic/tankfartyg/0.json"
       ]
     },
-    "articles/topic/sjöblockad": {
+    "articles/topic/miljörisker": {
       "count": 1,
       "pages": [
-        "catalog/lists/articles/topic/sjöblockad/0.json"
+        "catalog/lists/articles/topic/miljörisker/0.json"
+      ]
+    },
+    "articles/topic/hormuzsundet": {
+      "count": 1,
+      "pages": [
+        "catalog/lists/articles/topic/hormuzsundet/0.json"
       ]
     },
     "articles/topic/iran": {
@@ -794,6 +788,12 @@
       "count": 1,
       "pages": [
         "catalog/lists/articles/topic/sanktioner/0.json"
+      ]
+    },
+    "articles/topic/sjöblockad": {
+      "count": 1,
+      "pages": [
+        "catalog/lists/articles/topic/sjöblockad/0.json"
       ]
     },
     "articles/topic/logistik": {
@@ -838,16 +838,16 @@
         "catalog/lists/articles/topic/penningtvätt/0.json"
       ]
     },
-    "articles/topic/tillgångsinriktad-brottsbekämpning": {
-      "count": 4,
-      "pages": [
-        "catalog/lists/articles/topic/tillgångsinriktad-brottsbekämpning/0.json"
-      ]
-    },
     "articles/topic/internationell-kriminell-ekonomi": {
       "count": 6,
       "pages": [
         "catalog/lists/articles/topic/internationell-kriminell-ekonomi/0.json"
+      ]
+    },
+    "articles/topic/tillgångsinriktad-brottsbekämpning": {
+      "count": 4,
+      "pages": [
+        "catalog/lists/articles/topic/tillgångsinriktad-brottsbekämpning/0.json"
       ]
     },
     "articles/topic/maritim-säkerhet": {
@@ -886,10 +886,10 @@
         "catalog/lists/articles/topic/cybersäkerhet/0.json"
       ]
     },
-    "articles/topic/säkerhetsbrister": {
-      "count": 1,
+    "articles/topic/kryptografi": {
+      "count": 2,
       "pages": [
-        "catalog/lists/articles/topic/säkerhetsbrister/0.json"
+        "catalog/lists/articles/topic/kryptografi/0.json"
       ]
     },
     "articles/topic/certifikatutfärdare": {
@@ -898,10 +898,10 @@
         "catalog/lists/articles/topic/certifikatutfärdare/0.json"
       ]
     },
-    "articles/topic/kryptografi": {
-      "count": 2,
+    "articles/topic/säkerhetsbrister": {
+      "count": 1,
       "pages": [
-        "catalog/lists/articles/topic/kryptografi/0.json"
+        "catalog/lists/articles/topic/säkerhetsbrister/0.json"
       ]
     },
     "articles/channel/mediesvepet": {
@@ -959,10 +959,10 @@
         "catalog/lists/articles/topic/debatt-och-ledare/0.json"
       ]
     },
-    "articles/topic/rättsprocess": {
+    "articles/topic/organiserad-brottslighet": {
       "count": 2,
       "pages": [
-        "catalog/lists/articles/topic/rättsprocess/0.json"
+        "catalog/lists/articles/topic/organiserad-brottslighet/0.json"
       ]
     },
     "articles/topic/våldsbrott": {
@@ -971,10 +971,10 @@
         "catalog/lists/articles/topic/våldsbrott/0.json"
       ]
     },
-    "articles/topic/organiserad-brottslighet": {
+    "articles/topic/rättsprocess": {
       "count": 2,
       "pages": [
-        "catalog/lists/articles/topic/organiserad-brottslighet/0.json"
+        "catalog/lists/articles/topic/rättsprocess/0.json"
       ]
     },
     "articles/topic/gangkonflikter": {
@@ -989,6 +989,12 @@
         "catalog/lists/articles/topic/rekrytering/0.json"
       ]
     },
+    "articles/topic/skolmiljö": {
+      "count": 1,
+      "pages": [
+        "catalog/lists/articles/topic/skolmiljö/0.json"
+      ]
+    },
     "articles/topic/arbetsmiljö": {
       "count": 1,
       "pages": [
@@ -1001,22 +1007,16 @@
         "catalog/lists/articles/topic/våld/0.json"
       ]
     },
-    "articles/topic/skolmiljö": {
+    "articles/topic/sårbarheter": {
       "count": 1,
       "pages": [
-        "catalog/lists/articles/topic/skolmiljö/0.json"
+        "catalog/lists/articles/topic/sårbarheter/0.json"
       ]
     },
     "articles/topic/ransomware": {
       "count": 1,
       "pages": [
         "catalog/lists/articles/topic/ransomware/0.json"
-      ]
-    },
-    "articles/topic/sårbarheter": {
-      "count": 1,
-      "pages": [
-        "catalog/lists/articles/topic/sårbarheter/0.json"
       ]
     },
     "articles/topic/dataskydd": {

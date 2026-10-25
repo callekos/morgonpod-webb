@@ -170,3 +170,7 @@ button,a,summary{-webkit-tap-highlight-color:transparent}button:active,.morning-
 .channel-group .knowledge-card:hover>.cover,.channel-group .knowledge-card:focus-visible>.cover{transform:none}
 @media(max-width:380px){.header>.brand{font-size:16px}.header .subscribe-button{font-size:14px;padding-inline:12px}}
 @media(min-width:381px) and (max-width:649px){.header>.brand{font-size:21px}}
+
+/* Dated editorial changes are separate from the original publication. */
+.article-changes{margin:28px 0;padding:20px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}.editorial-note{margin-top:18px}.editorial-note h3{line-height:1.6}.editorial-note time{display:block;font-weight:400;color:var(--muted)}.editorial-note a{text-decoration:underline;overflow-wrap:anywhere}.article-history{border-top:1px solid var(--line);margin-top:20px;padding-top:16px}.article-history summary{cursor:pointer;min-height:44px}.article-history section{margin-top:16px}
+
