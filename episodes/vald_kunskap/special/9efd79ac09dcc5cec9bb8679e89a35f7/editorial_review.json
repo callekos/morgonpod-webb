@@ -1,0 +1,48 @@
+{
+  "approved": true,
+  "reviewer": "ChatGPT Work, separate editorial self-review",
+  "source_ids": [
+    "S1",
+    "S2"
+  ],
+  "summary": "Våldstjänsten skiljs från våld som verktyg i annan brottslighet. Avsnittet granskar samband med utpressning, indrivning, resurser och brottsvinster utan att anta en universell tjänstemarknad.",
+  "claims": [
+    {
+      "claim": "Våld för kontroll och möjliggörande; beställda tjänster vid indrivning, utpressning och konflikter; vapentillgång möjliggör.",
+      "source_ids": [
+        "S1"
+      ],
+      "status": "verified",
+      "locator": "EU-SOCTA2025 printed pages31-32"
+    },
+    {
+      "claim": "Brottsvinster kan tvättas och återinvesteras.",
+      "source_ids": [
+        "S1"
+      ],
+      "status": "verified",
+      "locator": "printed page14"
+    },
+    {
+      "claim": "Barns involvering kan omfatta narkotika, våld, utpressning och bedrägerier.",
+      "source_ids": [
+        "S2"
+      ],
+      "status": "verified",
+      "locator": "Direkt involvering i grova brott"
+    }
+  ],
+  "analysis_marked": [
+    "Uppdragsrelation, ekonomiskt syfte och möjliggörande samband skiljs analytiskt åt",
+    "Utpressning förklaras allmänt och uttryckligen inte som full juridisk definition"
+  ],
+  "limits": [
+    "Inga priser, leverantörer, kontaktvägar eller brottsmetoder",
+    "Inga generella tjänstepaket eller specifika finansieringspåståenden",
+    "Brås studie används inte som tjänstemarknadsinventering"
+  ],
+  "repetition_review": "Marknadsdefinitionerna återkommer kort för att möjliggöra nya gränsdragningar; fokus nu på relationen mellan våld och annan verksamhet.",
+  "independent_human_review": false,
+  "package_sha256": "213d5b7c3cefc0903b573c164f85a6870a0664700a5756aaf8536b0ac82f7c71",
+  "reviewed_at": "2026-10-25T10:49:22.363313+00:00"
+}

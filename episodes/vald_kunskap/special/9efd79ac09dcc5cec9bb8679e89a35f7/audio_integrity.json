@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "complete": true,
+  "script_sha256": "e0698db3e451a28809f4eaec5379145cdc720330cac558518d323ba7f2c003f6",
+  "spoken_sha256": "b15bd4e9146378848b56ae137743a83358fb952f085b1492e9dd4842119d1415",
+  "audio_sha256": "a2e36e589a723c528bef7c3b0f32be58b8f92341fa8c252f252819a96f235ad6",
+  "segments": [
+    {
+      "text_sha256": "1a38c5c698446021503c55d573bbde739acd23af1fc1df09754cc31c75deffc6",
+      "duration_seconds": 105.888,
+      "audio_sha256": "8b0b5a3262b4bac58471863785e849f92f15e724181cf55be76d5600c07a59ce"
+    },
+    {
+      "text_sha256": "d5c3c87bf4af75d16ffe6b497ff6987beecb007e4461d1dc9d5bf599cce5f19c",
+      "duration_seconds": 114.144,
+      "audio_sha256": "e2e5df865030cb72c0f6a3723bf7a25011eb146b2f3dbc32718bb92ef92f577b"
+    },
+    {
+      "text_sha256": "3127a82d192db915c1c46bf0647ff302bc325838e0a9a5709d25ad51f0e85dda",
+      "duration_seconds": 83.328,
+      "audio_sha256": "928fecd1ebbbce066e8a65b96bad5c085fc3e45d2cba11f795ed82ffe34a435b"
+    }
+  ]
+}
