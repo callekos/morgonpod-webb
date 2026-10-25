@@ -1,0 +1,50 @@
+{
+  "approved": true,
+  "reviewer": "ChatGPT Work, separate editorial self-review",
+  "source_ids": [
+    "S2",
+    "S4",
+    "S5"
+  ],
+  "summary": "Barns handlingsutrymme kan förändras från lockelser och nära relationer till lojalitetskrav, hot och kontroll. Svenska nätverksstudier och Europols distansrekrytering hålls isär.",
+  "claims": [
+    {
+      "claim": "Metod, groomingliknande uppvaktning, äldre/yngre relationer, kontroll och direkt involvering i grova brott.",
+      "source_ids": [
+        "S2"
+      ],
+      "status": "verified",
+      "locator": "Om rapporten; Äldre uppvaktar yngre; Direkt involvering; Nätverken bygger på hierarkiska åldersskikt"
+    },
+    {
+      "claim": "Distansrekrytering, sårbarhet, pengar/status/gemenskap och unga utan tidigare koppling.",
+      "source_ids": [
+        "S4",
+        "S5"
+      ],
+      "status": "verified",
+      "locator": "Recruitment, manipulation, exploitation; Background"
+    },
+    {
+      "claim": "Tidsfönster för utträde och behov av beredskap.",
+      "source_ids": [
+        "S2"
+      ],
+      "status": "verified",
+      "locator": "Minska barns utsatthet"
+    }
+  ],
+  "analysis_marked": [
+    "Barnets exploatering och skadan för brottsoffer behöver uppmärksammas samtidigt",
+    "Frånvaro av en äldre är inte i sig bevis på upphört hot"
+  ],
+  "limits": [
+    "Ingen prevalens, diagnostik eller universell rekryteringstrappa",
+    "2023studien om nätverk används inte som kartläggning av alla digitala våldsuppdrag",
+    "Inga juridiska individbedömningar eller operativa instruktioner"
+  ],
+  "repetition_review": "Detta avsnitt fördjupar förändrat handlingsutrymme över tid; rollkartan och plattformstekniken återberättas inte.",
+  "independent_human_review": false,
+  "package_sha256": "87ee14f5809bad9a29cb8b2097f9ab5e650f68bdfcae5f42c91703b9fc650ca2",
+  "reviewed_at": "2026-10-25T10:44:51.542737+00:00"
+}
