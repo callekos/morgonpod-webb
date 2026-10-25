@@ -40,11 +40,11 @@
     {
       "category": "Hamnsäkerhet",
       "title": "Port of Galveston tilldelas federala anslag för utökat hamnskydd",
-      "summary": "Galveston Wharves i Texas tilldelas federala anslag om drygt 1,1 miljoner dollar från FEMA samt egna hamnmedel för att uppgradera säkerhetssystemen. Medlen ska finansiera utökad videoövervakning vid kryssnings- och lastterminaler, cybersäkerhetsunderhåll, smarta låssystem samt mobila fordonsbarriärer. Åtgärderna vidtas för att säkerställa efterlevnaden av federala maritima säkerhetskrav vid den 840 hektar stora hamnen.",
+      "summary": "Galveston Wharves i Texas tilldelas federala anslag om drygt 1,1 miljoner dollar från FEMA samt egna hamnmedel för att uppgradera säkerhetssystemen. Medlen ska finansiera utökad videoövervakning vid kryssnings- och lastterminaler, cybersäkerhetsunderhåll, smarta låssystem samt mobila fordonsbarriärer. Åtgärderna vidtas för att säkerställa efterlevnaden av federala maritima säkerhetskrav vid hamnen på 840 acres (cirka 340 hektar).",
       "context": "Satsningen illustrerar hur amerikanska hamnar kontinuerligt investerar i fysisk och digital säkerhet för att skydda kritisk infrastruktur mot skiftande hot.",
       "url": "https://maritime-executive.com/article/port-of-galveston-strengthening-security-with-1-18m-in-federal-grants",
       "publisher": "The Maritime Executive",
-      "body": "Enligt The Maritime Executive genomför Galveston Wharves omfattande uppgraderingar av hamnens säkerhetssystem med hjälp av federala bidrag och egna medel på totalt 1 180 524 dollar. Den amerikanska krismyndigheten FEMA har beviljat fyra separata anslag inom ramen för Port Security Grant Program. Projekten inkluderar utökad kamerabevakning kring tillfartsvägar för kryssnings- och lastterminaler, löpande underhåll av cybersäkerhet och övervakningssystem, samt ersättning av mekaniska lås med ett digitalt system för nyckelhantering. Dessutom köps ett mobilt system med avvisningsbarriärer in för att snabbt kunna spärra av platser vid tillfälligt behov av fordonsskydd runt kritisk infrastruktur och publika samlingsplatser.",
+      "body": "Enligt The Maritime Executive genomför Galveston Wharves omfattande uppgraderingar av hamnens säkerhetssystem med hjälp av federala bidrag på totalt 1 180 524 dollar samt ytterligare 393 510 dollar från hamnen. Den amerikanska krismyndigheten FEMA har beviljat fyra separata anslag inom ramen för Port Security Grant Program. Projekten inkluderar utökad kamerabevakning kring tillfartsvägar för kryssnings- och lastterminaler, löpande underhåll av cybersäkerhet och övervakningssystem, samt ersättning av mekaniska lås med ett digitalt system för nyckelhantering. Dessutom köps ett mobilt system med avvisningsbarriärer in för att snabbt kunna spärra av platser vid tillfälligt behov av fordonsskydd runt kritisk infrastruktur och publika samlingsplatser.",
       "assessment": "Investeringarna speglar en bredare trend där hamnanläggningar stärker både digital och fysisk motståndskraft mot potentiella störningar eller säkerhetsincidenter.",
       "sources": [
         {
@@ -52,7 +52,30 @@
           "title": "The Maritime Executive"
         }
       ],
-      "open_questions": []
+      "open_questions": [],
+      "editorial_notes": [
+        {
+          "change_id": "sjo_20261025_galveston_area",
+          "kind": "correction",
+          "at": "2026-10-25T23:32:03.199154+00:00",
+          "text": "Rättelse 26 oktober 2026: Arealen rättas från 840 hektar till 840 acres (cirka 340 hektar), enligt originalkällan. Ljudet har inte ändrats.",
+          "source_url": "https://maritime-executive.com/article/port-of-galveston-strengthening-security-with-1-18m-in-federal-grants",
+          "review_ref": "artifact:sjo_20261025_12585367147",
+          "change_sha256": "d6d9fa3c4e1da4fad387ef2a765a4b4fc91a8427e7212488c919016a19777738",
+          "audio_status": "original_not_regenerated"
+        },
+        {
+          "change_id": "sjo_20261025_galveston_funding",
+          "kind": "correction",
+          "at": "2026-10-25T23:32:03.199154+00:00",
+          "text": "Rättelse 26 oktober 2026: 1 180 524 dollar är federalbidrag. Hamnens egen del är ytterligare 393 510 dollar, enligt originalkällans fyra delposter. Ljudet har inte ändrats.",
+          "source_url": "https://maritime-executive.com/article/port-of-galveston-strengthening-security-with-1-18m-in-federal-grants",
+          "review_ref": "artifact:sjo_20261025_12585367147",
+          "change_sha256": "4b057ba64642326965c6d78339403b982f401b1454403661762c7c43bbf827e1",
+          "audio_status": "original_not_regenerated"
+        }
+      ],
+      "updated_at": "2026-10-25T23:32:03.199154+00:00"
     }
   ],
   "description": "I dagens söndagsavsnitt av Sjöområdet uppmärksammar vi det fartygshaveri i Svarta havet som har väckt starka internationella reaktioner, USA:s modernisering av robotjagare med avancerade radar- och elektroniska krigföringssystem, samt nya federala säkerhetsmedel för hamnanläggningar i Texas.",
