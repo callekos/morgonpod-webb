@@ -56,7 +56,25 @@ test('existing Telegram invitation exposes the matching join handoff',async({req
 });
 test('published home and directory retain distinct descriptive card formats',require('./cards-check.cjs').cardsCheck);
 test('published withdrawal retains source files, intro and all specials',async({page})=>{
- const manifest=await(await page.request.get('catalog/manifest.json')).json();const id='WORK_LIBRARY_2026_10:lagstiftning:replacement_ordinary:2';expect(manifest.withdrawn[id]).toBeTruthy();expect(Object.keys(manifest.superseded)).toHaveLength(5);expect(manifest.collections['episodes/topic/specialavsnitt'].count).toBe(15);expect(manifest.collections['episodes/channel/lagstiftning'].count).toBe(6);
+ const manifest=await(await page.request.get('catalog/manifest.json')).json();const id='WORK_LIBRARY_2026_10:lagstiftning:replacement_ordinary:2';expect(manifest.withdrawn[id]).toBeTruthy();expect(Object.keys(manifest.superseded)).toHaveLength(5);expect(manifest.collections['episodes/channel/lagstiftning'].count).toBe(6);
+ const archive=await(await page.request.get('episodes.json')).json();
+ expect(archive.episodes.some(e=>e.id===id)).toBe(true);
+ // Preserve the original identities, while allowing new approved specials.
+ const originalSpecials=['kek','lagstiftning','sjoomradet'].flatMap(channel=>Array.from({length:5},(_,i)=>'WORK_SPECIALS_2026_10_21:'+channel+'_'+(i+1)));
+ const collection=manifest.collections['episodes/topic/specialavsnitt'];
+ const chunks=await Promise.all(collection.pages.map(async path=>(await page.request.get(path)).json()));
+ const specials=chunks.flatMap(chunk=>chunk.items),specialIds=specials.map(e=>e.id);
+ expect(collection.count).toBe(specials.length);expect(new Set(specialIds).size).toBe(specialIds.length);
+ for(const key of originalSpecials)expect(specialIds).toContain(key);
+ const expected=archive.episodes.filter(e=>(e.tags||[]).some(t=>t.toLowerCase()==='specialavsnitt')).map(e=>e.id).filter(key=>!manifest.superseded[key]&&!manifest.withdrawn[key]);
+ expect([...specialIds].sort()).toEqual(expected.sort());
+ for(const e of specials){expect(manifest.superseded[e.id]).toBeFalsy();expect(manifest.withdrawn[e.id]).toBeFalsy();expect(['withdrawn','superseded']).not.toContain(e.catalog_status);}
+ await page.goto('amne.html?tag=specialavsnitt');let loaded=0;
+ for(const [index,chunk] of chunks.entries()){
+  loaded+=chunk.items.length;await expect(page.locator('#episodes .episode')).toHaveCount(loaded);
+  if(index+1<chunks.length)await page.locator('#episodes > button.more').click();
+ }
+ expect((await page.locator('#episodes .episode').evaluateAll(nodes=>nodes.map(n=>n.dataset.id))).sort()).toEqual([...specialIds].sort());
  await page.goto('avsnitt.html?id='+encodeURIComponent(id));await expect(page.locator('h1')).toHaveText('Avsnittet är avpublicerat');await page.goto('artikel.html?id=work-lagstiftning_ordinary-article-1');await expect(page.locator('h1')).toHaveText('Artikeln är avpublicerad');
  await page.goto('kanal.html?id=lagstiftning');await expect(page.locator('.episode')).toHaveCount(6);await expect(page.locator('.episode').filter({hasText:'Veckoöversikt'})).toHaveCount(0);
 });
