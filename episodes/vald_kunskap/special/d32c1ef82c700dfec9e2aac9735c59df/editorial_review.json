@@ -1,0 +1,51 @@
+{
+  "approved": true,
+  "reviewer": "ChatGPT Work, separate editorial self-review",
+  "source_ids": [
+    "S1",
+    "S4",
+    "S5"
+  ],
+  "summary": "Digital förmedling analyseras som räckvidd, relation, efterfrågeförmedling och samordning. Konton, kontakter och genomförda våldsdåd hålls isär.",
+  "claims": [
+    {
+      "claim": "Sociala medier, meddelandeappar, förskönande livsstilsbilder, memer och spelifiering används för rekrytering.",
+      "source_ids": [
+        "S4",
+        "S5"
+      ],
+      "status": "verified",
+      "locator": "Recruitment, manipulation, exploitation; Background"
+    },
+    {
+      "claim": "Distansrekrytering och digital förmedling/samordning av tjänster.",
+      "source_ids": [
+        "S1"
+      ],
+      "status": "verified",
+      "locator": "EU-SOCTA2025 printed pages18,32"
+    },
+    {
+      "claim": "Grimm har samarbete med teknikföretag som mål.",
+      "source_ids": [
+        "S4",
+        "S5"
+      ],
+      "status": "verified",
+      "locator": "Objectives"
+    }
+  ],
+  "analysis_marked": [
+    "Fyra digitala funktioner är seriens analytiska sortering, inte en universell stegmodell",
+    "Kontoantal och borttagningar ger inte i sig antal personer, brott eller trygghetseffekt"
+  ],
+  "limits": [
+    "Inga kodord, kontaktvägar eller operativa detaljer",
+    "Ingen rangordning av plattformar eller obelagd algoritmisk kausalitet",
+    "Kryptering framställs inte som brottsbevis"
+  ],
+  "repetition_review": "Fokus på plattformars skilda funktioner och vad observationer kan mäta; upprepar inte hela rekryteringsförloppet från4.",
+  "independent_human_review": false,
+  "package_sha256": "9304dfbab8cb78f04396aa31b25b271a8ff706080ec2800e158549e57dc92f3a",
+  "reviewed_at": "2026-10-25T10:47:55.475011+00:00"
+}
