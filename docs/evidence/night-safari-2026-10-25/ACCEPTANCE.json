@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "issue": 16,
+  "date": "2026-10-25",
+  "platform": "physical Mac Safari",
+  "scope": "existing public episode05 playback and page transitions",
+  "episode_id": "VALD-KUNSKAP-01:05",
+  "audio_sha256": "ba5894bb4c20d3cbd25ccca5725cc5226d45dc01f23decf9e0f71763419ad73f",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Open public today page",
+      "file": "01-start.png",
+      "sha256": "fcafa5f68e68118394496c4b231b3c233af9e97c6aec2b2607c8fc758bed0dae"
+    },
+    {
+      "step": 2,
+      "action": "Play existing episode05 from latest episodes",
+      "observed_position": "0:22 / 5:20",
+      "file": "02-playing.png",
+      "sha256": "5d1570a03d95b5267f0d11949a464f9055fe35f92106e175528a6cddff5527bd"
+    },
+    {
+      "step": 3,
+      "action": "Navigate to associated article during playback",
+      "observed_position": "1:20 / 5:20",
+      "file": "03-article-playing.png",
+      "sha256": "9727d46b36d6e05fa3459aa65f38e22a819202257c8ebfa1c0a751905c8382f9"
+    },
+    {
+      "step": 4,
+      "action": "Navigate via article link to episode page during playback",
+      "observed_position": "1:55 / 5:20",
+      "file": "04-episode-playing.png",
+      "sha256": "8d37c444df9b2546b32268ef998e39529cc23ca8831993085422dc54eb4c6191"
+    }
+  ],
+  "background": {
+    "started_at_utc": "2026-10-25T21:59:51.429Z",
+    "action": "Hide Safari using its standard Hide shortcut; task tab muted",
+    "next_observation_at_utc": "2026-10-25T22:04:00Z approximately",
+    "result": "blocked_by_locked_Mac",
+    "conclusion": "Later playback and automatic episode transition not established. No unlock, OS/auth/settings change or workaround attempted."
+  },
+  "verified": [
+    "Existing public episode05 starts",
+    "Playback time progresses across today/article/episode navigation",
+    "Global player and episode player display same position and pause state at step4",
+    "Saved screenshot files visually inspected"
+  ],
+  "not_verified": [
+    "long background playback",
+    "automatic queue advance after episode end",
+    "physical iPhone Safari",
+    "VoiceOver",
+    "audible human full listening",
+    "playback behavior during Mac lock"
+  ],
+  "findings": [],
+  "remaining": "Resume after normal manual unlock; inspect actual queue/title/position before any claim. Pause and close only task-created Safari tab when UI available. Preserve original Start Page tab."
+}
