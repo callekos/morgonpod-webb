@@ -17,5 +17,7 @@ test('article shows dated correction and later update with original text and sou
  await page.getByText('Tidigare artikelversioner',{exact:true}).click();
  await expect(page.locator('.article-history')).toContainText('Den tidigare formuleringen före rättelsen.');
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
+ await page.evaluate(()=>{document.activeElement?.blur();window.scrollTo(0,0);});
+ await expect.poll(()=>page.evaluate(()=>window.scrollY)).toBe(0);
  await page.screenshot({path:'docs/evidence/article-notes-'+info.project.name+'.png',fullPage:true});
 });
