@@ -31,6 +31,15 @@ test('same publication time uses editorial channel order and keeps intro first o
 test('explicit withdrawal keeps predecessor retired, source records and all specials',()=>{
  const manifest=JSON.parse(fs.readFileSync('catalog/manifest.json')),id='WORK_LIBRARY_2026_10:lagstiftning:replacement_ordinary:2',archive=JSON.parse(fs.readFileSync('episodes.json'));
  assert.equal(Object.keys(policy.withdrawn).length,1);assert.deepEqual(manifest.withdrawn,policy.withdrawn);assert.equal(manifest.superseded['lagstiftning:2026-10-20:daily'],id);
- assert.ok(archive.episodes.some(e=>e.id===id));assert.equal(manifest.collections['episodes/topic/specialavsnitt'].count,15);assert.equal(manifest.collections['episodes/channel/lagstiftning'].count,6);
+ assert.ok(archive.episodes.some(e=>e.id===id));assert.equal(manifest.collections['episodes/channel/lagstiftning'].count,6);
+ // Preserve the original 15 identities while allowing later special releases.
+ const originalSpecials=['kek','lagstiftning','sjoomradet'].flatMap(channel=>Array.from({length:5},(_,i)=>'WORK_SPECIALS_2026_10_21:'+channel+'_'+(i+1)));
+ const collection=manifest.collections['episodes/topic/specialavsnitt'];
+ const specials=collection.pages.flatMap(p=>JSON.parse(fs.readFileSync(p)).items),specialIds=specials.map(e=>e.id);
+ assert.equal(collection.count,specials.length);assert.equal(new Set(specialIds).size,specialIds.length);
+ for(const key of [...originalSpecials,...['02','03','04','05'].map(n=>'VALD-KUNSKAP-01:'+n)])assert.ok(specialIds.includes(key),'Missing preserved special '+key);
+ const expected=archive.episodes.filter(e=>(e.tags||[]).some(t=>t.toLowerCase()==='specialavsnitt')).map(e=>e.id).filter(key=>!manifest.superseded[key]&&!manifest.withdrawn[key]);
+ assert.deepEqual([...specialIds].sort(),expected.sort());
+ for(const e of specials){assert.ok(!manifest.superseded[e.id]&&!manifest.withdrawn[e.id]);assert.ok(!['withdrawn','superseded'].includes(e.catalog_status));}
  for(const [kind,key] of [['episodes',id],['articles','work-lagstiftning_ordinary-article-1']]){const h=require('node:crypto').createHash('sha256').update(key).digest('hex').slice(0,24);assert.equal(JSON.parse(fs.readFileSync('catalog/'+kind+'/'+h+'.json')).catalog_status,'withdrawn');}
 });
