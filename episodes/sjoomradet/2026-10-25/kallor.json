@@ -1,0 +1,38 @@
+[
+  {
+    "source": "SVT Nyheter",
+    "title": "Nytt fartygshaveri och dödsoffer i Svarta havet efter misstänkt attack",
+    "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=5330866d3838bec4bd1465011518e4e5",
+    "evidence": {
+      "date": "2026-10-23T12:36:52+02:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-25T03:16:32.218994+00:00",
+      "page_sha256": "54917ddaed18ac27ba96c1a44c1ad635fa6b7c474ac3e71dce2ac77479d412d7",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Naval News",
+    "title": "Första amerikanska jagaren inleder fas två av moderniseringsprogram",
+    "url": "https://www.navalnews.com/naval-news/2026/10/first-u-s-navy-destroyer-enters-phase-two-of-ddg-mod-2-0-modernization/",
+    "evidence": {
+      "date": "2026-10-24T11:59:17+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-25T03:16:31.003767+00:00",
+      "page_sha256": "6c9371eee19e10e255be683f72a7bf7b321e7292c50756d5697f44be7c84489b",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "The Maritime Executive",
+    "title": "Port of Galveston tilldelas federala anslag för utökat hamnskydd",
+    "url": "https://maritime-executive.com/article/port-of-galveston-strengthening-security-with-1-18m-in-federal-grants",
+    "evidence": {
+      "date": "2026-10-24T19:15:05+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-25T03:16:31.003533+00:00",
+      "page_sha256": "828cbc87564c3b424442eea8637504a5baf5e93d6713d6af7d2058477160197a",
+      "retrieval_limit": null
+    }
+  }
+]

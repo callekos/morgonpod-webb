@@ -1,0 +1,407 @@
+{
+  "channel": "sjoomradet",
+  "date": "2026-10-25",
+  "sources": [
+    {
+      "id": 6,
+      "title": "Port of Galveston Strengthening Security with $1.18M in Federal Grants",
+      "url": "https://maritime-executive.com/article/port-of-galveston-strengthening-security-with-1-18m-in-federal-grants",
+      "summary": "The Galveston Wharves will strengthen security systems around the port with federal grants totaling $1,180,524 and port funds. The Federal Emergency M...",
+      "date": "2026-10-24T19:15:05+00:00",
+      "publisher": "The Maritime Executive",
+      "discovery_identity": {
+        "url": "https://maritime-executive.com/article/port-of-galveston-strengthening-security-with-1-18m-in-federal-grants",
+        "title": "Port of Galveston Strengthening Security with $1.18M in Federal Grants",
+        "summary": "The Galveston Wharves will strengthen security systems around the port with federal grants totaling $1,180,524 and port funds. The Federal Emergency M...",
+        "date": "2026-10-24T19:15:05+00:00",
+        "publisher": "The Maritime Executive"
+      },
+      "discovery_version_key": "cb22fe2744a7c6163d5f3b2affaceb9e06212569018f64c8544a21ac49338814",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-25T03:16:31.003533+00:00",
+      "page_sha256": "828cbc87564c3b424442eea8637504a5baf5e93d6713d6af7d2058477160197a",
+      "resolved_url": "https://maritime-executive.com/corporate/port-of-galveston-strengthening-security-with-1-18m-in-federal-grants",
+      "extraction_method": "title_matched_article",
+      "text": "Port of Galveston Strengthening Security with $1.18M in Federal Grants By The Maritime Executive 2026-10-24 15:15:05 [By Galveston Wharves] The Galveston Wharves will strengthen security systems around the port with federal grants totaling $1,180,524 and port funds. The Federal Emergency Management Administration (FEMA) has awarded the port four grants to expand video surveillance, maintain security systems, install smart padlocks and purchase a mobile vehicle barrier system. “As the Port of Galveston grows, we continue to enhance our security systems to ensure that port facilities, tenants and guests are protected,” said Rodger Rees, Galveston Wharves port director and CEO. “We greatly appreciate support from FEMA and our federal partners.” Grants awarded through FEMA’s Fiscal Year 2026 Port Security Grant Program will fund the following: • Video Surveillance Expansion – A $525,000 project (federal share $393,750/port share $131,250) to add video surveillance to cruise terminal and cargo area access roads • Security Systems Maintenance and Sustainment – A $802,100 project (federal share $601,575/port share $200,525) to continue cybersecurity updates and maintenance to the port’s security system • Physical Access Device Replacement, Tracking, and Accountability Program (Smart Padlocks) – A $88,925 project (federal share $66,693/port share $22,232) to replace mechanical locks with smart locks integrated with a digital key management system to enhance accountability through digital tracking, controlled key issuance and audit trails • Port-Wide Mobile Anti-Ram Barrier System – A $158,009 project (federal share $118,506/port share $39,503) to provide a mobile system designed for rapid deployment to protect critical infrastructure, public gathering areas, and other locations where temporary vehicle access restrictions are needed The port’s Security Department ensures that the port complies with all federal maritime security requirements for cruise, cargo and other maritime activities at the 840-acre port. The department also oversees facility security, cybersecurity, safety, personnel clearances and much more. The products and services herein described in this press release are not endorsed by The Maritime Executive.",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain."
+    },
+    {
+      "id": 1,
+      "title": "First U.S. Navy Destroyer Enters Phase Two of DDG MOD 2.0 Modernization",
+      "url": "https://www.navalnews.com/naval-news/2026/10/first-u-s-navy-destroyer-enters-phase-two-of-ddg-mod-2-0-modernization/",
+      "summary": "USS Pinckney becomes the first U.S. Navy destroyer to enter Phase Two of the DDG MOD 2.0 program, adding advanced SPY-6 radars to counter growing global threats. The post First U.S. Navy Destroyer Enters Phase Two of DDG MOD 2.0 Modernization appeared first on Naval News .",
+      "date": "2026-10-24T11:59:17+00:00",
+      "publisher": "Naval News",
+      "discovery_identity": {
+        "url": "https://www.navalnews.com/naval-news/2026/10/first-u-s-navy-destroyer-enters-phase-two-of-ddg-mod-2-0-modernization/",
+        "title": "First U.S. Navy Destroyer Enters Phase Two of DDG MOD 2.0 Modernization",
+        "summary": "USS Pinckney becomes the first U.S. Navy destroyer to enter Phase Two of the DDG MOD 2.0 program, adding advanced SPY-6 radars to counter growing global threats. The post First U.S. Navy Destroyer Enters Phase Two of DDG MOD 2.0 Modernization appeared first on Naval News .",
+        "date": "2026-10-24T11:59:17+00:00",
+        "publisher": "Naval News"
+      },
+      "discovery_version_key": "6d990303b3f753e930a78f2de2c37c78d44ccc78d0a778aff485fecefe20dd38",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-25T03:16:31.003767+00:00",
+      "page_published_at": "2026-10-24T11:59:17+00:00",
+      "page_modified_at": "2026-10-24T11:59:19+00:00",
+      "page_sha256": "6c9371eee19e10e255be683f72a7bf7b321e7292c50756d5697f44be7c84489b",
+      "resolved_url": "https://www.navalnews.com/naval-news/2026/10/first-u-s-navy-destroyer-enters-phase-two-of-ddg-mod-2-0-modernization/",
+      "extraction_method": "primary_body_container",
+      "text": "USS Pinckney becomes the first U.S. Navy destroyer to enter Phase Two of the DDG MOD 2.0 program, adding advanced SPY-6 radars to counter growing global threats. San Diego-based USS Pinckney (DDG 91) began its second phase of DDG MOD 2.0 at a General Dynamics NASSCO drydock following its eight-and-a-half month deployment to the Middle East and Pacific, setting up the first of a series of ships slated to receive Raytheon’s AN/SPY-6(V)4 radars and associated equipment. During its deployment Pinckney proved a number of advanced warfare capabilities, according to the U.S. Navy. The work, part of a $149.6 million contract awarded to General Dynamics, is expected to wrap up by September 2028. “ The collective effort by all stakeholders has finally brought us to the point of execution. Upon Depot Modernization Period completion, USS Pinckney will rejoin the Fleet equipped with the most comprehensive multi-spectral integrated sensor suite designed to maintain maritime superiority for decades to come ,” said Capt. Tim Moore, program manager, DDG MOD 2.0 in a media release . DDG MOD 2.0 is one of the U.S. Navy’s major modernization efforts for Arleigh Burke-class guided missile destroyers, equipping a series of four ships with the distinct-looking SLQ-32(V)7 Surface Electronic Warfare Improvement Program (SEWIP) Block III in phase one, prior to a later refit with the new radars. The ships are also being upgraded with Lockheed Martin’s Aegis Baseline 10, a core component of the radar upgrade that will enable simultaneous air and ballistic missile defense. USS Pinckney (DDG 91), USS Chung-Hoon (DDG 93), USS James E. Williams (DDG 95), and USS Halsey (DDG 97) have all already completed major milestones or Depot Modernization Periods under the program. USS Chung-Hoon (DDG-93) departs Naval Base San Diego for sea trials on April 20 after completing its Depot Modernization Period as part of the DDG Modernization 2.0 program, which focuses on vital mid-life capability enhancements. (Courtesy Photo) These four ships are serving as a trial for future MOD 2.0 installations that will eventually combine both upgrades into a single shipyard availability, starting with USS Sterett (DDG 104), according to Moore. The shift to a single modernization period is intended to reduce the amount of time destroyers spend out of service for major upgrades, allowing the Navy to install both the electronic warfare suite and new radar during the same shipyard availability rather than requiring ships to return for a second round of work. The upgrades come as the Navy faces growing demands on its surface fleet, particularly in the Indo-Pacific and Middle East, where destroyers have increasingly been tasked with defending carrier strike groups, commercial shipping and other naval assets against increasingly sophisticated missile and drone threats. Recent combat operations in the Middle East have severely tested these defenses against unique anti-ship weapons, including one instance where a drone came within a mile of striking a deployed ship off the coast of Israel .",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain."
+    },
+    {
+      "id": 71,
+      "title": "Nytt fartygshaveri i Svarta havet: ”Eskalering” – Senaste nytt om kriget i Ukraina - SVT Nyheter",
+      "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=5330866d3838bec4bd1465011518e4e5",
+      "summary": "Nytt fartygshaveri i Svarta havet: ”Eskalering” – Senaste nytt om kriget i Ukraina SVT Nyheter",
+      "date": "2026-10-23T12:36:52+02:00",
+      "publisher": "SVT Nyheter",
+      "discovery_identity": {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSEVodE5DM0RmTUhxM0d2R0VKRG9hanlmdWR0S2pzNS1mSEJVSThVYTdCeTNWUEZlLU1iMG02SDJISmp3eG5nUTAxd2NhRjQtVTNJUFBtTTYtRjFtdmZZV3BQVFkta29nQ2V1alJEQVhNMFBadUx2QnZwTkQxZmpsVXBVSzdZandmTGEzLVc5WDRFUUhVWXE2ZkhudEZiZU1GZUpEbWJ4N2tjWEFHVDQyVDN3?oc=5",
+        "title": "Nytt fartygshaveri i Svarta havet: ”Eskalering” – Senaste nytt om kriget i Ukraina - SVT Nyheter",
+        "summary": "Nytt fartygshaveri i Svarta havet: ”Eskalering” – Senaste nytt om kriget i Ukraina SVT Nyheter",
+        "date": "2026-10-23T10:36:52+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      "discovery_version_key": "d743b1cf24a4021607499eb8e6e1180efba6ba3d1b765c751a3c9cae5a00b089",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-25T03:16:32.218994+00:00",
+      "discovery_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSEVodE5DM0RmTUhxM0d2R0VKRG9hanlmdWR0S2pzNS1mSEJVSThVYTdCeTNWUEZlLU1iMG02SDJISmp3eG5nUTAxd2NhRjQtVTNJUFBtTTYtRjFtdmZZV3BQVFkta29nQ2V1alJEQVhNMFBadUx2QnZwTkQxZmpsVXBVSzdZandmTGEzLVc5WDRFUUhVWXE2ZkhudEZiZU1GZUpEbWJ4N2tjWEFHVDQyVDN3?oc=5",
+      "page_published_at": "2026-10-23T12:36:52+02:00",
+      "discovery_date": "2026-10-23T10:36:52+00:00",
+      "date_precision": "timestamp",
+      "resolved_url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=5330866d3838bec4bd1465011518e4e5",
+      "text": "Johan Juhlin SVT reporter 23 okt 12:36 Nytt fartygshaveri i Svarta havet: ”Eskalering” En person har dött och flera saknas sedan ett fartyg i Svarta havet skickat ut nödsignaler efter att ha blivit attackerat på internationellt vatten utanför natolandet Rumäniens kust. President Nicusor Dan lägger skulden på Ryssland. – Det här är helt klart en del av den eskalering som Ryssland genomför inom ramen för kriget i Ukraina. De senaste veckorna har flera fartyg utsatts för drönarattacker i eller nära rumänskt och bulgariskt vatten, vilket fått Nato att skicka förstärkning till området. Även EU:s utrikeschef Kaja Kallas har anklagat Ryssland för att ligga bakom.",
+      "page_sha256": "54917ddaed18ac27ba96c1a44c1ad635fa6b7c474ac3e71dce2ac77479d412d7",
+      "extraction_method": "rendered_visible_primary_article",
+      "evidence_limit": "Visible rendered primary-page text; factual review remains mandatory."
+    },
+    {
+      "id": 73,
+      "title": "Nytt fartygshaveri i Svarta havet: ”Eskalering” - Nyheter24",
+      "url": "https://nyheter24.se/nyheter/utrikes/1524500-nytt-fartyg-i-sjonod-i-svarta-havet",
+      "summary": "Nytt fartygshaveri i Svarta havet: ”Eskalering” Nyheter24",
+      "date": "2026-10-23T09:25:59+00:00",
+      "publisher": "Nyheter24",
+      "discovery_identity": {
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNclpNTVNxSjRTS216eUZjcFQ5cEhWRmJQczI0OGk5cXRJQjZNMlkydTh1YnJtOHUyY0d5Z2pIMV9SaEVWSVZRRkdoSHQ1by1USnJrRFYycURPVTI4QzdVOUV2RWlXbVE3NHhPZHVwcEtobWdmdDREaTgtRmFuS3NfeTVpOU9WOGs?oc=5",
+        "title": "Nytt fartygshaveri i Svarta havet: ”Eskalering” - Nyheter24",
+        "summary": "Nytt fartygshaveri i Svarta havet: ”Eskalering” Nyheter24",
+        "date": "2026-10-23T09:25:00+00:00",
+        "publisher": "Nyheter24"
+      },
+      "discovery_version_key": "f4fe39cf33a156cb0a802cbc9cc3aee7e72a39219efdc57698f586018e0ec608",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-25T03:16:32.286895+00:00",
+      "discovery_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNclpNTVNxSjRTS216eUZjcFQ5cEhWRmJQczI0OGk5cXRJQjZNMlkydTh1YnJtOHUyY0d5Z2pIMV9SaEVWSVZRRkdoSHQ1by1USnJrRFYycURPVTI4QzdVOUV2RWlXbVE3NHhPZHVwcEtobWdmdDREaTgtRmFuS3NfeTVpOU9WOGs?oc=5",
+      "page_published_at": "2026-10-23T09:25:59+00:00",
+      "page_modified_at": "2026-10-23T13:54:06+02:00",
+      "discovery_date": "2026-10-23T09:25:00+00:00",
+      "date_precision": "timestamp",
+      "resolved_url": "https://nyheter24.se/nyheter/utrikes/1524500-nytt-fartyg-i-sjonod-i-svarta-havet",
+      "text": "Nytt fartygshaveri i Svarta havet: ”Eskalering” Annons Hem / Nyheter / Utrikes / Kriget i Ukraina Nytt fartygshaveri i Svarta havet: ”Eskalering” Publicerad: 23 okt. 2026, kl. 11:25 Uppdaterad: 23 okt. 2026, kl. 13:54 Rumäniens president Nicusor Dan anklagar Ryssland. Bild från Bukarest i september. Foto: Andreea Alexandru/AP/TT En person har dött och flera saknas sedan ett fartyg i Svarta havet skickat ut nödsignaler. TT Nyhetsbyrån , Redaktör Ämne : Kriget i Ukraina Nio personer har räddats, en har hittats död och tre saknas, enligt Rumäniens sjöfartsmyndighet. President Nicusor Dan lägger skulden på Ryssland. — Det här är helt klart en del av den eskalering som Ryssland genomför inom ramen för kriget i Ukraina, säger han till reportrar. Även EU-kommissionens ordförande Ursula von der Leyen reagerar på ”ännu en rysk eskalering”. ”Ett civilt fartyg med ukrainsk och azerbajdzjansk besättning har träffats utanför Rumäniens kust. De här hänsynslösa attackerna riktas mot oskyldiga liv och kränker öppet internationell lag”, skriver hon på X. De senaste veckorna har flera fartyg utsatts för förmodat ryska drönarattacker i eller nära rumänskt och bulgariskt vatten, vilket fått Nato att skicka förstärkning till området. Tyck till i kommentarerna, klicka här! Senaste nytt Senaste nytt Annons Annons Annons",
+      "page_sha256": "b750d03537d4efbb902937c11fe7f2e1f13e290038b89bd11d9187a60f373602",
+      "extraction_method": "rendered_visible_primary_article",
+      "evidence_limit": "Visible rendered primary-page text; factual review remains mandatory."
+    }
+  ],
+  "collection_evidence": {
+    "state": "ready",
+    "failed_discovery_urls": [],
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "subscription_exclusions": [],
+    "channel": "sjoomradet",
+    "discovery": {
+      "channel": "sjoomradet",
+      "date": "2026-10-25",
+      "feeds": [
+        {
+          "url": "https://www.navalnews.com/feed/",
+          "entries": 10,
+          "accepted": 5,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://maritime-executive.com/articles.rss",
+          "entries": 68,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "atom10",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/rss.xml",
+          "entries": 100,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.europol.europa.eu/rss.xml",
+          "entries": 10,
+          "accepted": 10,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "entries": 31,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22Black%20Sea%22%20ships%20attacks%20Ukraine%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22Hormuz%22%20maritime%20security%20United%20States%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22Baltic%20Sea%22%20sabotage%20cables%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22shadow%20fleet%22%20sanctions%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22Red%20Sea%22%20shipping%20attacks%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22South%20China%20Sea%22%20maritime%20confrontation%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%C3%96stersj%C3%B6n%20skuggflottan%20sanktioner%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 1,
+          "accepted": 1,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Svarta%20havet%20Ukraina%20fartyg%20attacker%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 3,
+          "accepted": 3,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Hormuz%20USA%20sj%C3%B6fart%20s%C3%A4kerhet%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=undervattenskablar%20sabotage%20%C3%96stersj%C3%B6n%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Anato.int%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aconsilium.europa.eu%20shadow%20fleet%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aukrinform.net%20Black%20Sea%20attacks%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20Hormuz%20shipping%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Ayle.fi%20%C3%96stersj%C3%B6n%20sabotage%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Akustbevakningen.se%20skuggflotta%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Amaritime-executive.com%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Anato.int%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Amod.gov.ua%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Akustbevakningen.se%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Araja.fi%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Atraficom.fi%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Apuolustusvoimat.fi%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Atranspordiamet.ee%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        }
+      ],
+      "web_candidates": 0,
+      "original_fallback": null,
+      "candidate_count": 73,
+      "scope": "discovery_only_not_factual_approval"
+    },
+    "checked_at": "2026-10-25T03:16:40.127389+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  }
+}

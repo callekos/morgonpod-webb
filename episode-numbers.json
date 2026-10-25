@@ -28,7 +28,8 @@
     "sjoomradet:2026-10-24": 5,
     "vald:2026-10-24": 5,
     "kek:2026-10-25": 6,
-    "ibat:2026-10-25": 6
+    "ibat:2026-10-25": 6,
+    "sjoomradet:2026-10-25": 6
   },
   "identities": {
     "WORK_LIBRARY_2026_10:ibat:replacement_ordinary:2": "ibat:2026-10-20",
@@ -62,7 +63,8 @@
     "sjoomradet:2026-10-24:daily": "sjoomradet:2026-10-24",
     "vald:2026-10-24:daily": "vald:2026-10-24",
     "kek:2026-10-25:daily": "kek:2026-10-25",
-    "ibat:2026-10-25:daily": "ibat:2026-10-25"
+    "ibat:2026-10-25:daily": "ibat:2026-10-25",
+    "sjoomradet:2026-10-25:daily": "sjoomradet:2026-10-25"
   },
   "corrections": {
     "MED-NUM-01": {

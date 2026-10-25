@@ -1,0 +1,112 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "Inget behov av kortning då tillräckligt och relevant underlag föreligger för ett standardavsnitt.",
+  "source_coverage": [
+    {
+      "claim": "Ett fartyg attackerades på internationellt vatten i Svarta havet utanför Rumäniens kust, vilket resulterade i att en person dödats och flera saknas.",
+      "source_url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=5330866d3838bec4bd1465011518e4e5"
+    },
+    {
+      "claim": "Nio personer räddades, en hittades död och tre saknas efter fartygshändelsen i Svarta havet.",
+      "source_url": "https://nyheter24.se/nyheter/utrikes/1524500-nytt-fartyg-i-sjonod-i-svarta-havet"
+    },
+    {
+      "claim": "USA:s flotta har låtit robotjagaren USS Pinckney bli den första att inleda fas två av DDG MOD 2.0-moderniseringen i San Diego.",
+      "source_url": "https://www.navalnews.com/naval-news/2026/10/first-u-s-navy-destroyer-enters-phase-two-of-ddg-mod-2-0-modernization/"
+    },
+    {
+      "claim": "Port of Galveston tilldelas federala anslag om drygt 1,1 miljoner dollar från FEMA för att stärka hamnskyddet.",
+      "source_url": "https://maritime-executive.com/article/port-of-galveston-strengthening-security-with-1-18m-in-federal-grants"
+    }
+  ],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=5330866d3838bec4bd1465011518e4e5",
+      "covered_facts": [
+        "Fartyg attackerat i Svarta havet",
+        "En dödad och flera saknade",
+        "Rumäniens president och EU-företrädare kritiserar Ryssland för eskalering"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://nyheter24.se/nyheter/utrikes/1524500-nytt-fartyg-i-sjonod-i-svarta-havet",
+      "covered_facts": [
+        "Nio personer räddade, en död, tre saknade",
+        "Ursula von der Leyen kommenterar attacken"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.navalnews.com/naval-news/2026/10/first-u-s-navy-destroyer-enters-phase-two-of-ddg-mod-2-0-modernization/",
+      "covered_facts": [
+        "USS Pinckney i torrdocka i San Diego",
+        "Fas två av DDG MOD 2.0 med SPY-6-radar",
+        "Kontrakt värt 149,6 miljoner dollar"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://maritime-executive.com/article/port-of-galveston-strengthening-security-with-1-18m-in-federal-grants",
+      "covered_facts": [
+        "Galveston Wharves tilldelas federala anslag om drygt 1,1 miljoner dollar",
+        "FEMA-stöd för kamerabevakning, cybersäkerhet, smarta lås och fordonsbarriärer"
+      ],
+      "missing_facts": []
+    }
+  ],
+  "selection_decisions": [
+    {
+      "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=5330866d3838bec4bd1465011518e4e5",
+      "selected": true,
+      "reason": "Rapporterar om en central säkerhetsincident i Svarta havet med dödsoffer.",
+      "event_key": "black-sea-ship-attack-october-2026",
+      "source_quote": "En person har dött och flera saknas sedan ett fartyg i Svarta havet skickat ut nödsignaler efter att ha blivit attackerat på internationellt vatten utanför natolandet Rumäniens kust.",
+      "security_evidence": "En person har dött och flera saknas sedan ett fartyg i Svarta havet skickat ut nödsignaler efter att ha blivit attackerat på internationellt vatten utanför natolandet Rumäniens kust."
+    },
+    {
+      "url": "https://nyheter24.se/nyheter/utrikes/1524500-nytt-fartyg-i-sjonod-i-svarta-havet",
+      "selected": false,
+      "reason": "Samma faktiska händelse som SVT-rapporten; undviker dubbletter.",
+      "event_key": "black-sea-ship-attack-october-2026",
+      "source_quote": "Nio personer har räddats, en har hittats död och tre saknas, enligt Rumäniens sjöfartsmyndighet.",
+      "security_evidence": "Nio personer har räddats, en har hittats död och tre saknas, enligt Rumäniens sjöfartsmyndighet."
+    },
+    {
+      "url": "https://www.navalnews.com/naval-news/2026/10/first-u-s-navy-destroyer-enters-phase-two-of-ddg-mod-2-0-modernization/",
+      "selected": true,
+      "reason": "Relevant uppgradering av militär maritim förmåga mot robot- och drönarhot.",
+      "event_key": "uss-pinckney-ddg-mod-2-phase-two",
+      "source_quote": "USS Pinckney becomes the first U.S. Navy destroyer to enter Phase Two of the DDG MOD 2.0 program, adding advanced SPY-6 radars to counter growing global threats.",
+      "security_evidence": "USS Pinckney becomes the first U.S. Navy destroyer to enter Phase Two of the DDG MOD 2.0 program, adding advanced SPY-6 radars to counter growing global threats."
+    },
+    {
+      "url": "https://maritime-executive.com/article/port-of-galveston-strengthening-security-with-1-18m-in-federal-grants",
+      "selected": true,
+      "reason": "Konkreta säkerhetsinvesteringar för hamnskydd och kritisk infrastruktur.",
+      "event_key": "galveston-port-security-grants-2026",
+      "source_quote": "The Galveston Wharves will strengthen security systems around the port with federal grants totaling $1,180,524 and port funds.",
+      "security_evidence": "The Galveston Wharves will strengthen security systems around the port with federal grants totaling $1,180,524 and port funds."
+    }
+  ],
+  "format_decision": {
+    "outcome": "standard",
+    "reason": "Tre fullgoda och verifierade nyheter inom bevakningsområdet har samlats in och bearbetats."
+  },
+  "access_exclusions_reviewed": true,
+  "maritime_policy": "maritime-security-2026-10-22",
+  "maritime_sources_sha256": "f9c22ea6d2119730d3456694d41b0271292ee7ddd255c79f7bdab2f4f841fe8d",
+  "maritime_news_sha256": "4caaca371e29ad69c563a3de8321ec8708a9d7b7320172a75ca2ab1bb4d56914",
+  "reviewed_script_sha256": "cf163d8c3022d34a301129ba89ba58689c87986948c7744ffb74cced12230e61",
+  "relevant_event_count": 3,
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "4f5c3ead3a7000d7c2e578e7587303fa9d9638b7aa7d6f0e2e3de8cab71cb40c",
+    "news_sha256": "4be3804136806a961ecc8529097ec2ada14d85455a31e972913252681bccb38a",
+    "script_sha256": "cf163d8c3022d34a301129ba89ba58689c87986948c7744ffb74cced12230e61",
+    "collection_sha256": "5809c078cb801c3593cd8135a23c4ac3d92b9491c55c67473e7a0527b8d7525d"
+  }
+}
