@@ -1,6 +1,6 @@
 const {test,expect}=require('@playwright/test');test.use({serviceWorkers:'block'});
 test('new knowledge channel has its own artwork, article and playable introduction',async({page},info)=>{
- await page.goto('/kanaler.html');const card=page.locator('.channel-card[href="kanal.html?id=vald_kunskap"]');await expect(card).toBeVisible();
+ await page.goto('kanaler.html');const card=page.locator('.channel-card[href="kanal.html?id=vald_kunskap"]');await expect(card).toBeVisible();
  await expect(card.locator('img')).toHaveAttribute('src',/assets\/channels\/vald_kunskap/);
  await page.screenshot({path:'docs/evidence/'+info.project.name+'-vald-knowledge-directory.png',fullPage:true});
  await card.click();await expect(page.locator('.channel-hero h1')).toHaveText('Våld');await expect(page.locator('.channel-type')).toHaveText('Kunskapskanal');
@@ -8,7 +8,7 @@ test('new knowledge channel has its own artwork, article and playable introducti
  await expect(page.locator('[data-id="VALD-KUNSKAP-01:01"]')).toBeVisible();
  expect(await page.locator('.channel-hero img').evaluate(i=>i.complete&&i.naturalWidth>0)).toBe(true);
  await page.screenshot({path:'docs/evidence/'+info.project.name+'-vald-knowledge-channel.png',fullPage:true});
- await page.goto('/avsnitt.html?id=VALD-KUNSKAP-01%3A01');await expect(page.locator('.full-player h2')).toHaveText('Avsnitt 1: Välkommen till Våld');
+ await page.goto('avsnitt.html?id=VALD-KUNSKAP-01%3A01');await expect(page.locator('.full-player h2')).toHaveText('Avsnitt 1: Välkommen till Våld');
  await expect(page.locator('.episode-info .article-card')).toHaveCount(1);await page.locator('#big-play').click();
  await expect(page.locator('#audio')).toHaveAttribute('src',/vald_kunskap\/special\/.+\.mp3/);
  await expect.poll(()=>page.locator('#audio').evaluate(a=>a.currentTime)).toBeGreaterThan(0);
