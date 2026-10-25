@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "complete": true,
+  "script_sha256": "80b102f7eca7c626e9ed4f7f8a218dd953f8e345109e0a174d6f264e96ad7cd3",
+  "spoken_sha256": "80b102f7eca7c626e9ed4f7f8a218dd953f8e345109e0a174d6f264e96ad7cd3",
+  "audio_sha256": "d598cbd4caf7cfbe3c449b1502314144226226c3366333a63345258df055b9be",
+  "segments": [
+    {
+      "text_sha256": "4f1da00814c8f4e2ab977fe71ecc1ee3e2e1444c3f93fbc07fb9cd31e05a5e3f",
+      "duration_seconds": 30.096,
+      "audio_sha256": "9dd221c5aba4b3816e970d8167bd32479080a28ce3f3e0fddc0abbd35ca8048c"
+    }
+  ]
+}

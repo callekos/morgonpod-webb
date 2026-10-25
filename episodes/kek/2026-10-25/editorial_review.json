@@ -1,0 +1,22 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "Dagens verifierade underlag inom området är begränsat, så avsnittet blir kortare.",
+  "source_coverage": [],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [],
+  "selection_decisions": [],
+  "format_decision": {
+    "outcome": "no_news",
+    "reason": "Inga nya verifierade källor eller händelser har inkommit för det aktuella datumet."
+  },
+  "access_exclusions_reviewed": true,
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "news_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "script_sha256": "80b102f7eca7c626e9ed4f7f8a218dd953f8e345109e0a174d6f264e96ad7cd3",
+    "collection_sha256": "620a09abbecedfc6706725e73040715184c7e9af34b7a64936884f1deb37c7d4"
+  }
+}

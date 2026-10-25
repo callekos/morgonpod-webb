@@ -1,0 +1,858 @@
+{
+  "channel": "kek",
+  "date": "2026-10-25",
+  "schema": 2,
+  "corroboration_method": "distinct_hosts_not_proof_of_independence",
+  "received": 1,
+  "unique_urls": 1,
+  "identified_events": 1,
+  "selected_articles": 0,
+  "selected_events": 0,
+  "unique_domains": 0,
+  "max_items": 40,
+  "gemini_calls": 0,
+  "decisions": [
+    {
+      "event_id": "fcaaefe27a64cd38",
+      "selected": false,
+      "reason": "already_reported_without_independent_update",
+      "score": 42,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 14,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "occrp.org"
+      ],
+      "articles": [
+        {
+          "title": "US Court Orders Lebanese Ex-Minister to Pay $35M in Torture and Fraud Case",
+          "url": "https://www.occrp.org/en/news/us-court-orders-lebanese-ex-minister-to-pay-35m-in-torture-and-fraud-case"
+        }
+      ]
+    }
+  ],
+  "rejected": [],
+  "identified_events_are_estimates": true,
+  "review_source_count": 0,
+  "channel_scope": {
+    "input_count": 53,
+    "accepted_count": 2,
+    "rejected": [
+      {
+        "url": "https://www.occrp.org/en/news/many-in-serbias-youth-movement-fear-a-rigged-election-on-sunday",
+        "reason": "outside_channel_scope",
+        "title": "Many in Serbia’s Youth Movement Fear a Rigged Election on Sunday",
+        "summary": "Serbia’s student-led opposition enters Sunday’s parliamentary election locked in a dead heat with Aleksandar Vučić—even as voters brace for ballot manipulation.",
+        "date": "2026-10-23T14:48:00+00:00",
+        "publisher": "OCCRP"
+      },
+      {
+        "url": "https://www.occrp.org/en/news/sanctioned-investor-in-cambodian-scam-compound-owns-california-mansion",
+        "reason": "outside_channel_scope",
+        "title": "Sanctioned Investor in Cambodian Scam Compound Owns California Mansion",
+        "summary": "Brendon Luo was sanctioned by the U.S. Treasury in June. He still owns a mansion in California worth an estimated $5 million.",
+        "date": "2026-10-23T09:40:00+00:00",
+        "publisher": "OCCRP"
+      },
+      {
+        "url": "https://www.occrp.org/en/feature/cambodia-cracked-down-on-banks-allegedly-linked-to-cyber-scams-the-imf-says-the-problem-persists",
+        "reason": "outside_channel_scope",
+        "title": "Cambodia Cracked Down on Banks Allegedly Linked to Cyber-Scams. The IMF Says the Problem Persists.",
+        "summary": "",
+        "date": "2026-10-23T07:40:00+00:00",
+        "publisher": "OCCRP"
+      },
+      {
+        "url": "https://www.svt.se/sport/ishockey/skelleftea-tystade-umea-rivstartade-mot-bjorkloven",
+        "reason": "outside_channel_scope",
+        "title": "Skellefteå tystade Umeå – rivstartade mot Björklöven",
+        "summary": "Det blev ingen spänning i rivalmötet mellan Björklöven och Skellefteå. Arvid Lundberg inledde målskyttet redan efter 25 sekunder – sedan öste Skellefteå på och vann med hela 8–1. – Overkligt kändes det, säger Lundberg till SVT Sport.",
+        "date": "2026-10-24T15:28:56+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/jamtland/tog-med-jaktgevar-in-i-vallokal-i-krokom-atalas",
+        "reason": "outside_channel_scope",
+        "title": "Tog med jaktgevär in i vallokal i Krokom – åtalas",
+        "summary": "När jägaren skulle rösta tog hen med sig sitt jaktgevär in i vallokalen i Krokoms kommun. Nu åtalas jägaren för överträdelse av vapenlagen.",
+        "date": "2026-10-24T15:04:58+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/fotboll/small-for-sirius-foll-mot-aik-efter-kritiserat-straffmal",
+        "reason": "outside_channel_scope",
+        "title": "Smäll för Sirius – föll mot AIK efter kritiserat straffmål",
+        "summary": "Tung smäll för Sirius i guldjakten. AIK besegrade serieledaren med 2–1 i Uppsala efter ett omdiskuterat straffmål. – Vi ska inte förlora den här matchen, säger Isak Bjerkebo till SVT Sport.",
+        "date": "2026-10-24T14:54:11+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/fotboll/derbymardrom-for-djurgarden-sjalvmal-och-rott-kort-skitdaligt",
+        "reason": "outside_channel_scope",
+        "title": "Derbymardröm för Djurgården – självmål och rött kort: ”Skitdåligt”",
+        "summary": "Mardrömsdag på jobbet för Djurgårdens Emma Holmqvist, 20. Först nickade hon in bollen i eget mål – sedan fick hon syna det röda kortet när Hammarby segrade. – Vi har lite otur, säger Djurgårdens lagkapten Sessy Åsland till SVT Sport.",
+        "date": "2026-10-24T14:50:44+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/dalarna/20-ariga-charlize-har-avlidit-drabbades-av-blodcancer",
+        "reason": "outside_channel_scope",
+        "title": "20-åriga Charlize har avlidit – drabbades av blodcancer",
+        "summary": "Charlize Tibom från Avesta har avlidit, 20 år gammal, efter att ha drabbats av blodcancer. Efter att sjukhusvården nyligen avslutades bodde hon tillsammans med sina nära och kära för att ta vara på den sista tiden i livet. Mindre än en vecka innan hon somnade in gifte hon sig med sin pojkvän Oscar.",
+        "date": "2026-10-24T13:51:59+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/utrikes/kan-mannen-utan-karisma-besegra-netanyahu",
+        "reason": "outside_channel_scope",
+        "title": "Kan ”mannen utan karisma” besegra Netanyahu?",
+        "summary": "Inför valet i Israel på tisdag leder oppositionens Gadi Eisenkot. Valet ses av många som en folkomröstning om Benjamin Netanyahu.",
+        "date": "2026-10-24T13:26:13+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/inrikes/varning-for-livsfara-nar-stormen-boelo-nar-storbritannien",
+        "reason": "outside_channel_scope",
+        "title": "Stormen Boelo drar in över Sverige – påverkar tågtrafiken",
+        "summary": "Storbritanniens nationella vädertjänst, Met Office har utfärdat nya varningar för stormen Boelo i Skottland, Nordirland och norra England. På söndagen väntas stormen dra in över Sverige. SMHI har utfärdat varningar för kombination av regn och vind i flera delar av landet.",
+        "date": "2026-10-24T12:30:50+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/alpint/regerande-mastaren-julia-scheib-kraschade-direkt-i-premiaren",
+        "reason": "outside_channel_scope",
+        "title": "Regerande mästaren Julia Scheib kraschade direkt i premiären",
+        "summary": "Tung säsongsstart för stora hemmahoppet. Regerande storslalommästaren Julia Scheib kraschade ut i första åket på hemmaplan. – Det blir en katapulteffekt, säger Viaplays expertkommentator Emil Johansson.",
+        "date": "2026-10-24T12:29:02+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/vast/efter-branden-i-fristad-kommunen-kraftsamlar-infor-hostlovet",
+        "reason": "outside_channel_scope",
+        "title": "Efter branden i Fristad: Kommunen kraftsamlar inför höstlovet",
+        "summary": "Borås stad och Svenska kyrkan erbjuder krisstöd i Fristad efter branden som bröt ut på fredagen, där sju ungdomar under 15 år skadades. Nu kraftsamlar kommunen inför det stundande höstlovet. – Det är många som är berörda, säger Anna Wikman, rektor i Fristad.",
+        "date": "2026-10-24T12:04:14+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/basket/nina-baresso-siktar-pa-aterkomst-till-sbl-som-51-aring",
+        "reason": "outside_channel_scope",
+        "title": "Nina Baresso siktar på återkomst till SBL – som 51-åring",
+        "summary": "En av Sveriges största basketprofiler håller fortsatt igång – med ett högt uppsatt mål. Nina Baresso, 51, glänser för Huddinge i Basketettan och siktar på att få göra en sista säsong i högstaligan SBL. – Men jag vet att vägen dit är ganska lång så jag är väldigt realistisk, säger hon till SVT Sport.",
+        "date": "2026-10-24T10:25:24+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/vasterbotten/se-casinobluffen-tva-man-fran-skelleftea-doms-for-spelfusk",
+        "reason": "outside_channel_scope",
+        "title": "Se casinobluffen: Två män från Skellefteå döms för spelfusk",
+        "summary": "Två män i 20-årsåldern från Skellefteå samarbetade och manipulerade blackjack på ett nätcasino. Tillsammans lurade de till sig 31 000 kronor. Nu döms de för spelfusk. – Mig veterligen har vi inte tidigare haft liknande fall kopplade till onlinecasino i svensk domstol, säger Jan Sonnevi, på spelbolaget ATG.",
+        "date": "2026-10-24T10:25:01+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/fotboll/har-gor-preston-fearon-mal-fran-egen-planhalva-tva-ganger-om",
+        "reason": "outside_channel_scope",
+        "title": "Här gör Preston Fearon mål från egen planhalva – två gånger om",
+        "summary": "Att göra mål från egen planhalva brukar kunna ta sig upp på listor över snygga mål. Gör man det två gånger på en kvart har man odiskutabelt säkrat sin plats där. – Åh herregud, han gör det igen, utbrister kommentatorn.",
+        "date": "2026-10-24T09:39:46+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/handboll/kristin-thorleifsdottir-berattar-om-konstanta-smartorna-inget-roligt-liv-att-leva",
+        "reason": "outside_channel_scope",
+        "title": "Kristin Thorleifsdóttir berättar om konstanta smärtorna: ”Inget roligt liv att leva”",
+        "summary": "Kristin Thorleifsdóttir har opererat knät. Nu berättar 28-åringen för första gången om kampen mot smärtorna de senaste åren. – I perioder tog jag smärtstillande varje dag, säger Thorleifsdóttir till SVT Sport.",
+        "date": "2026-10-24T08:02:31+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/ishockey/svts-expert-stalldes-en-mot-en-mot-connor-mcdavid-helt-sjukt",
+        "reason": "outside_channel_scope",
+        "title": "SVT:s expert ställdes en mot en mot Connor McDavid: ”Helt sjukt”",
+        "summary": "SVT:s expert John Klingberg har ställts mot Connor McDavid många gånger – men ett tillfälle sticker ut. När han tvingades möta honom en mot en efter en träning. – Han är en utomjording, alltså, säger Klingberg.",
+        "date": "2026-10-24T07:57:42+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/fotboll/hemliga-brevet-kraven-pa-fifa-i-infantino-harvan",
+        "reason": "outside_channel_scope",
+        "title": "”Hemliga” brevet: Kraven på Fifa i Infantino-härvan",
+        "summary": "I ett åtta sidor långt brev kräver Uefa svar från Fifa om allt från påstått maktmissbruk, till Donald Trumps inflytande och för långa halvtidspauser i VM. Brevet innehåller 42 punkter – här är några av dem.",
+        "date": "2026-10-24T06:36:09+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/utrikes/nordkoreas-ledare-kim-jong-un-besoker-kina",
+        "reason": "outside_channel_scope",
+        "title": "Nordkoreas ledare Kim Jong-un besöker Kina",
+        "summary": "Kim Jong-un har anlänt till Dandong i Kina via den nyöppnade Yalubron som binder samman länderna. Han togs emot av Kinas premiärminister Li Qiang, enligt den sydkoreanska nyhetsbyrån Yonhap.",
+        "date": "2026-10-24T06:22:18+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/ishockey/mytomspunna-derbyt-i-vasterbotten-alla-spelarna-fightades",
+        "reason": "outside_channel_scope",
+        "title": "Mytomspunna derbyt i Västerbotten: ”Alla spelarna fightades”",
+        "summary": "För första gången på 19 år ska Björklöven och Skellefteå återigen mötas i en tävlingsmatch. Slaget om Västerbotten har alltid frambringat starka känslor hos såväl spelare som fans. Derbyt 7 november 1980 har blivit mytomspunnet och kallades i lokalmedia för ”tidernas slagsmål” – ett stort slagsmål bröt ut redan på uppvärmningen.",
+        "date": "2026-10-24T05:48:13+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/utrikes/tsunamivarning-efter-skalv-utanfor-vanuatu",
+        "reason": "outside_channel_scope",
+        "title": "Tsunamivarning lyft efter skalv utanför Vanuatu",
+        "summary": "En tsunamivarning utlystes efter ett jordskalv med magnituden 6,9 utanför Vanuatu, men har nu lyfts.",
+        "date": "2026-10-24T04:08:19+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/27-arrests-and-248-potential-victims-identified-in-action-week-against-labour-exploitation",
+        "reason": "outside_channel_scope",
+        "title": "27 arrests and 248 potential victims identified in action week against labour exploitation",
+        "summary": "Europol, the European Labour Authority (ELA), and 34 participating countries today announced the results of an action week targeting human trafficking for labour exploitation. The operation, part of an EMPACT action led by Sweden, brought together police, border guards, labour and social security inspectorates, and tax authorities to crack down on ",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/5th-empact-hackathon-leads-to-detection-of-51-potential-victims",
+        "reason": "outside_channel_scope",
+        "title": "5th EMPACT Hackathon leads to the detection of 51 potential victims",
+        "summary": "An international operation involving 40 experts and investigators from 20 countries has identified 51 potential victims of human trafficking, as well as five suspects. Held in Amsterdam from 23 to 25 September 2026, the fifth EMPACT Hackathon against the digital aspects of human trafficking brought together police officers, labour authorities and s",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/keeping-pace-e-evidence-new-report-examines-europes-digital-forensic-capabilities",
+        "reason": "outside_channel_scope",
+        "title": "Keeping pace with e-evidence: New report examines Europe’s digital forensic capabilities",
+        "summary": "Coordinated by the European Commission in cooperation with Europol, the analysis draws on stakeholder consultations, dedicated meetings, surveys and contributions from experts at Europol’s European Cybercrime Centre.The findings point to common challenges: investigative tools, resources and expertise are struggling to keep pace with the forms and v",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/european-and-ecuadorian-cooperation-leads-to-20-arrests-in-major-hit-against-drug-trafficking",
+        "reason": "outside_channel_scope",
+        "title": "European and Ecuadorian cooperation leads to 20 arrests in major hit against drug trafficking",
+        "summary": "The operation, codenamed Operation CANTABRIA, underscores the success of strong cooperation between European and Ecuadorian law enforcement agencies, proving that joint efforts are key to tackling transnational criminal networks.Magnus BrunnerEU Commissioner for Internal Affairs and Migration“International cooperation is our greatest strength again",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/almost-50-arrested-police-target-western-balkan-network-linked-to-killings",
+        "reason": "outside_channel_scope",
+        "title": "Almost 50 arrested as police target Western Balkan network linked to killings",
+        "summary": "Nearly 50 suspects have been arrested in an international operation targeting a drug trafficking network with Western Balkan members, linked to killings, kidnappings and grenade attacks across Europe.",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/europol-urges-early-action-to-protect-cryptocurrencies-and-sensitive-data-quantum-threats",
+        "reason": "outside_channel_scope",
+        "title": "Europol urges early action to protect cryptocurrencies and sensitive data from quantum threats",
+        "summary": "The timing of these capabilities remains uncertain. However, this should not be the main concern. Adapting systems and coordinating security upgrades will take time. Therefore, regardless of the nature of the threats that may emerge, crypto-agility should be pursued proactively to ensure that systems can withstand and overcome future threats while ",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/ordering-violence-abroad-five-suspects-arrested-in-spain-morocco-and-france",
+        "reason": "outside_channel_scope",
+        "title": "Ordering violence from abroad: five suspects arrested in Spain, Morocco, and France",
+        "summary": "Five suspects linked to the organisation and recruitment of serious violence have been arrested in Spain, Morocco, and France, in the latest results of the Operational Taskforce (OTF) GRIMM, coordinated by Europol. The arrests in August and September target the upper levels of violence-as-a-service: those suspected of ordering attacks, finding perp",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/teenager-suspected-of-leading-killsec-ransomware-group-law-enforcement-seizes-servers-and-leak-site",
+        "reason": "outside_channel_scope",
+        "title": "Teenager suspected of leading KillSec ransomware group as law enforcement seizes servers and leak site",
+        "summary": "On 30 September 2026, law enforcement took control of KillSec’s leak site, securing at least 110 terabytes of data against further unauthorised access. The cybercrime group used the site to threaten organisations with the publication of stolen files unless they paid a ransom.",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/cannabis-smuggling-north-america-and-thailand-europe-europol-highlights-growing-threat",
+        "reason": "outside_channel_scope",
+        "title": "Cannabis smuggling from North America and Thailand into Europe: Europol highlights growing threat",
+        "summary": "Cannabis smuggling from North America and Thailand in Europe has seen a sharp rise, driven by oversupply in legal markets and the adaptability of organised crime groups. A dedicated Europol Operational Taskforce (OTF) has been established to dismantle the criminal networks behind this evolving threat.",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/eu-law-enforcement-chiefs-gather-to-discuss-new-challenges-in-eu-security",
+        "reason": "outside_channel_scope",
+        "title": "EU law enforcement chiefs gather to discuss new challenges in EU security",
+        "summary": "The Convention was opened by Jürgen Ebner, Europol’s Acting Executive Director, and Justin Kelly, Commissioner of the Irish An Garda Síochána.Jürgen EbnerEuropol Acting Executive DirectorOrganised crime itself has become digital by default. Technology is not just an enabler of criminal activity - it is increasingly driving it. We need strong nation",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+        "summary": "Officials have so far managed to avoid a repeat of last weekend's rioting and looting as hundreds of thousands took part in demonstrations.",
+        "date": "2026-10-24T21:09:27+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Ukraine says Starlink connection 'now stable' after network limits",
+        "summary": "The slowed Starlink connections had affected the Ukraine's military and drone operations for a week.",
+        "date": "2026-10-24T12:12:40+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Palestinian families displaced as Israeli forces demolish Hebron homes",
+        "summary": "The crackdown follows the killing of two Israeli soldiers by two Palestinian gunmen on Friday - and comes just days ahead of Israel's election.",
+        "date": "2026-10-24T23:02:06+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat",
+        "summary": "Some 200 emergency personnel were deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany.",
+        "date": "2026-10-24T15:21:44+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/crgj9ndwvj9jo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Father who killed Oregon school gunman describes anguish over children he couldn't save",
+        "summary": "Kaylub Giamanco has been hailed as a hero for killing a teenager who fatally shot three children and a teacher.",
+        "date": "2026-10-23T22:47:07+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cm86z5n0yvy6o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "British woman dies after trying to rescue sons swept away at sea in the Bahamas",
+        "summary": "Nathan Gregory says the loss of childhood sweetheart Leanne \"is unimaginable for our family\".",
+        "date": "2026-10-24T17:11:56+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cm1dwzvn6227o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Vanessa Trump says she is cancer-free six months after revealing diagnosis",
+        "summary": "The ex-wife of Donald Trump Jr, with whom she shares five children, announced in May that she had been diagnosed with breast cancer.",
+        "date": "2026-10-24T19:12:51+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cv0ld9571511o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Three released without charge after fatal arson attack in Ireland",
+        "summary": "Three people - two women and one man - have been released, and one person remains in custody, gardaí say.",
+        "date": "2026-10-24T09:38:28+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c6x2355448eyo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Woman, 65, becomes second patient to die of Ebola in Kenya",
+        "summary": "She was a close family member of the first victim, a man who had travelled from the Democratic Republic of Congo.",
+        "date": "2026-10-24T09:46:53+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c670pr1ryxyno?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Australian MP's condition improves after alleged car attack",
+        "summary": "The independent MP is now in a serious but stable condition, according to the Melbourne hospital.",
+        "date": "2026-10-24T01:55:15+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cm1dwz311476o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Student movement takes Serbia's Vučić to the wire in neck-and-neck election",
+        "summary": "The Student List has emerged from almost two years of anti-corruption protests to form the biggest challenge to Vučić's rule.",
+        "date": "2026-10-23T23:08:23+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
+        "summary": "From 30 October, tariffs will be eased on some products, including certain machinery, and placed on others, such as carpets.",
+        "date": "2026-10-24T00:36:47+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c317kxyknwp2o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Two rescued after Nairobi building collapse with five still missing",
+        "summary": "Police have launched a manhunt for the building's owner and contractor after the multi-storey building collapsed while still under construction.",
+        "date": "2026-10-24T17:25:46+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c678pv4krx37o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Trump administration sues to block certification of upcoming Alaska election",
+        "summary": "The justice department has filed a lawsuit arguing that the inclusion of two candidates named Dan Sullivan could confuse voters.",
+        "date": "2026-10-23T18:49:14+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/ck20rery78lro?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Minneapolis withdrawal was 'surrender', Trump's ex-border patrol chief tells BBC",
+        "summary": "Greg Bovino was the public face of the controversial immigration enforcement operation in the city earlier this year.",
+        "date": "2026-10-24T05:31:01+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
+        "summary": "Ukraine and Russia confirm the truce in Russian-occupied Oleshky, where residents have had to eat garden weeds to survive.",
+        "date": "2026-10-24T07:17:44+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
+        "summary": "Thirty-four people are also injured in the attack in southern Karak governorate, and a manhunt is now under way.",
+        "date": "2026-10-23T19:46:30+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c64g1eplpvddo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Argentina drops investigation into President Milei over crypto fraud",
+        "summary": "Javier Milei had denied acting fraudulently when a cryptocurrency nosedived after he deleted a social media post about it.",
+        "date": "2026-10-23T20:59:39+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/utrikes/hundratals-skadade-i-taiwan-efter-tyfon",
+        "reason": "outside_channel_scope",
+        "title": "Hundratals skadade i Taiwan efter tyfon",
+        "summary": "500 personer har skadats i Taiwan sedan tyfonen Champi dragit fram, enligt Reuters. En person omkom efter att ha svepts bort av vågor.",
+        "date": "2026-10-24T04:07:34+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/inrikes/google-fallde-enorma-mangder-trad-for-finskt-datacenter-utan-tillstand",
+        "reason": "outside_channel_scope",
+        "title": "Google fällde enorma mängder träd för finskt datacenter – utan tillstånd",
+        "summary": "Myndigheter i Finland har stoppat Google från att bygga två datacenter. Detta efter att techjätten fällt hundratusentals träd – olagligt. – Det är förstås en allvarlig sak, säger Finlands klimatminister Sari Multala.",
+        "date": "2026-10-24T04:02:46+00:00",
+        "publisher": "SVT Nyheter"
+      }
+    ],
+    "discussion_signals": [],
+    "confirmed_discovery_exclusions": [
+      {
+        "discovery_identity": {
+          "url": "https://www.occrp.org/en/news/cyprus-parliament-reviews-reports-on-abramovich-linked-asset-transfers",
+          "title": "Cyprus Parliament Reviews Reports on Abramovich-Linked Asset Transfers",
+          "summary": "Cypriot officials faced questioning from parliamentarians following an investigation by OCCRP and partners, which found that corporate services firms backdated documents to help companies tied to Russian billionaire Roman Abramovich transfer billions offshore.",
+          "date": "2026-10-23T15:51:00+00:00",
+          "publisher": "OCCRP"
+        },
+        "discovery_version_key": "7440c6159027a74d56a9276c3bfde0a2ae28d30d1677819aa5d8a90dd9ac0ca9",
+        "reason": "exact_discovery_version_already_delivered",
+        "confirmed_publication": {
+          "date": "2026-10-24",
+          "audio_sha256": "c239982af99f7d85a0e001a20d6d6aef76f3282a3fc1b25d86e278e48ae9f525",
+          "message_id": 47,
+          "url": "https://www.occrp.org/en/news/cyprus-parliament-reviews-reports-on-abramovich-linked-asset-transfers"
+        }
+      }
+    ],
+    "verified_date_exclusions": [],
+    "resolved_duplicate_aliases": [],
+    "fallback_scope": {
+      "input_count": 20,
+      "accepted_count": 0,
+      "rejected": [
+        {
+          "url": "https://www.svt.se/sport/ishockey/skelleftea-tystade-umea-rivstartade-mot-bjorkloven",
+          "reason": "outside_channel_scope",
+          "title": "Skellefteå tystade Umeå – rivstartade mot Björklöven",
+          "summary": "Det blev ingen spänning i rivalmötet mellan Björklöven och Skellefteå. Arvid Lundberg inledde målskyttet redan efter 25 sekunder – sedan öste Skellefteå på och vann med hela 8–1. – Overkligt kändes det, säger Lundberg till SVT Sport.",
+          "date": "2026-10-24T15:28:56+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/jamtland/tog-med-jaktgevar-in-i-vallokal-i-krokom-atalas",
+          "reason": "outside_channel_scope",
+          "title": "Tog med jaktgevär in i vallokal i Krokom – åtalas",
+          "summary": "När jägaren skulle rösta tog hen med sig sitt jaktgevär in i vallokalen i Krokoms kommun. Nu åtalas jägaren för överträdelse av vapenlagen.",
+          "date": "2026-10-24T15:04:58+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/sport/fotboll/small-for-sirius-foll-mot-aik-efter-kritiserat-straffmal",
+          "reason": "outside_channel_scope",
+          "title": "Smäll för Sirius – föll mot AIK efter kritiserat straffmål",
+          "summary": "Tung smäll för Sirius i guldjakten. AIK besegrade serieledaren med 2–1 i Uppsala efter ett omdiskuterat straffmål. – Vi ska inte förlora den här matchen, säger Isak Bjerkebo till SVT Sport.",
+          "date": "2026-10-24T14:54:11+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/sport/fotboll/derbymardrom-for-djurgarden-sjalvmal-och-rott-kort-skitdaligt",
+          "reason": "outside_channel_scope",
+          "title": "Derbymardröm för Djurgården – självmål och rött kort: ”Skitdåligt”",
+          "summary": "Mardrömsdag på jobbet för Djurgårdens Emma Holmqvist, 20. Först nickade hon in bollen i eget mål – sedan fick hon syna det röda kortet när Hammarby segrade. – Vi har lite otur, säger Djurgårdens lagkapten Sessy Åsland till SVT Sport.",
+          "date": "2026-10-24T14:50:44+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/dalarna/20-ariga-charlize-har-avlidit-drabbades-av-blodcancer",
+          "reason": "outside_channel_scope",
+          "title": "20-åriga Charlize har avlidit – drabbades av blodcancer",
+          "summary": "Charlize Tibom från Avesta har avlidit, 20 år gammal, efter att ha drabbats av blodcancer. Efter att sjukhusvården nyligen avslutades bodde hon tillsammans med sina nära och kära för att ta vara på den sista tiden i livet. Mindre än en vecka innan hon somnade in gifte hon sig med sin pojkvän Oscar.",
+          "date": "2026-10-24T13:51:59+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/utrikes/kan-mannen-utan-karisma-besegra-netanyahu",
+          "reason": "outside_channel_scope",
+          "title": "Kan ”mannen utan karisma” besegra Netanyahu?",
+          "summary": "Inför valet i Israel på tisdag leder oppositionens Gadi Eisenkot. Valet ses av många som en folkomröstning om Benjamin Netanyahu.",
+          "date": "2026-10-24T13:26:13+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/inrikes/varning-for-livsfara-nar-stormen-boelo-nar-storbritannien",
+          "reason": "outside_channel_scope",
+          "title": "Stormen Boelo drar in över Sverige – påverkar tågtrafiken",
+          "summary": "Storbritanniens nationella vädertjänst, Met Office har utfärdat nya varningar för stormen Boelo i Skottland, Nordirland och norra England. På söndagen väntas stormen dra in över Sverige. SMHI har utfärdat varningar för kombination av regn och vind i flera delar av landet.",
+          "date": "2026-10-24T12:30:50+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/sport/alpint/regerande-mastaren-julia-scheib-kraschade-direkt-i-premiaren",
+          "reason": "outside_channel_scope",
+          "title": "Regerande mästaren Julia Scheib kraschade direkt i premiären",
+          "summary": "Tung säsongsstart för stora hemmahoppet. Regerande storslalommästaren Julia Scheib kraschade ut i första åket på hemmaplan. – Det blir en katapulteffekt, säger Viaplays expertkommentator Emil Johansson.",
+          "date": "2026-10-24T12:29:02+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/vast/efter-branden-i-fristad-kommunen-kraftsamlar-infor-hostlovet",
+          "reason": "outside_channel_scope",
+          "title": "Efter branden i Fristad: Kommunen kraftsamlar inför höstlovet",
+          "summary": "Borås stad och Svenska kyrkan erbjuder krisstöd i Fristad efter branden som bröt ut på fredagen, där sju ungdomar under 15 år skadades. Nu kraftsamlar kommunen inför det stundande höstlovet. – Det är många som är berörda, säger Anna Wikman, rektor i Fristad.",
+          "date": "2026-10-24T12:04:14+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/sport/basket/nina-baresso-siktar-pa-aterkomst-till-sbl-som-51-aring",
+          "reason": "outside_channel_scope",
+          "title": "Nina Baresso siktar på återkomst till SBL – som 51-åring",
+          "summary": "En av Sveriges största basketprofiler håller fortsatt igång – med ett högt uppsatt mål. Nina Baresso, 51, glänser för Huddinge i Basketettan och siktar på att få göra en sista säsong i högstaligan SBL. – Men jag vet att vägen dit är ganska lång så jag är väldigt realistisk, säger hon till SVT Sport.",
+          "date": "2026-10-24T10:25:24+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/vasterbotten/se-casinobluffen-tva-man-fran-skelleftea-doms-for-spelfusk",
+          "reason": "outside_channel_scope",
+          "title": "Se casinobluffen: Två män från Skellefteå döms för spelfusk",
+          "summary": "Två män i 20-årsåldern från Skellefteå samarbetade och manipulerade blackjack på ett nätcasino. Tillsammans lurade de till sig 31 000 kronor. Nu döms de för spelfusk. – Mig veterligen har vi inte tidigare haft liknande fall kopplade till onlinecasino i svensk domstol, säger Jan Sonnevi, på spelbolaget ATG.",
+          "date": "2026-10-24T10:25:01+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/sport/fotboll/har-gor-preston-fearon-mal-fran-egen-planhalva-tva-ganger-om",
+          "reason": "outside_channel_scope",
+          "title": "Här gör Preston Fearon mål från egen planhalva – två gånger om",
+          "summary": "Att göra mål från egen planhalva brukar kunna ta sig upp på listor över snygga mål. Gör man det två gånger på en kvart har man odiskutabelt säkrat sin plats där. – Åh herregud, han gör det igen, utbrister kommentatorn.",
+          "date": "2026-10-24T09:39:46+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/sport/handboll/kristin-thorleifsdottir-berattar-om-konstanta-smartorna-inget-roligt-liv-att-leva",
+          "reason": "outside_channel_scope",
+          "title": "Kristin Thorleifsdóttir berättar om konstanta smärtorna: ”Inget roligt liv att leva”",
+          "summary": "Kristin Thorleifsdóttir har opererat knät. Nu berättar 28-åringen för första gången om kampen mot smärtorna de senaste åren. – I perioder tog jag smärtstillande varje dag, säger Thorleifsdóttir till SVT Sport.",
+          "date": "2026-10-24T08:02:31+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/sport/ishockey/svts-expert-stalldes-en-mot-en-mot-connor-mcdavid-helt-sjukt",
+          "reason": "outside_channel_scope",
+          "title": "SVT:s expert ställdes en mot en mot Connor McDavid: ”Helt sjukt”",
+          "summary": "SVT:s expert John Klingberg har ställts mot Connor McDavid många gånger – men ett tillfälle sticker ut. När han tvingades möta honom en mot en efter en träning. – Han är en utomjording, alltså, säger Klingberg.",
+          "date": "2026-10-24T07:57:42+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/sport/fotboll/hemliga-brevet-kraven-pa-fifa-i-infantino-harvan",
+          "reason": "outside_channel_scope",
+          "title": "”Hemliga” brevet: Kraven på Fifa i Infantino-härvan",
+          "summary": "I ett åtta sidor långt brev kräver Uefa svar från Fifa om allt från påstått maktmissbruk, till Donald Trumps inflytande och för långa halvtidspauser i VM. Brevet innehåller 42 punkter – här är några av dem.",
+          "date": "2026-10-24T06:36:09+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/utrikes/nordkoreas-ledare-kim-jong-un-besoker-kina",
+          "reason": "outside_channel_scope",
+          "title": "Nordkoreas ledare Kim Jong-un besöker Kina",
+          "summary": "Kim Jong-un har anlänt till Dandong i Kina via den nyöppnade Yalubron som binder samman länderna. Han togs emot av Kinas premiärminister Li Qiang, enligt den sydkoreanska nyhetsbyrån Yonhap.",
+          "date": "2026-10-24T06:22:18+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/sport/ishockey/mytomspunna-derbyt-i-vasterbotten-alla-spelarna-fightades",
+          "reason": "outside_channel_scope",
+          "title": "Mytomspunna derbyt i Västerbotten: ”Alla spelarna fightades”",
+          "summary": "För första gången på 19 år ska Björklöven och Skellefteå återigen mötas i en tävlingsmatch. Slaget om Västerbotten har alltid frambringat starka känslor hos såväl spelare som fans. Derbyt 7 november 1980 har blivit mytomspunnet och kallades i lokalmedia för ”tidernas slagsmål” – ett stort slagsmål bröt ut redan på uppvärmningen.",
+          "date": "2026-10-24T05:48:13+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/utrikes/tsunamivarning-efter-skalv-utanfor-vanuatu",
+          "reason": "outside_channel_scope",
+          "title": "Tsunamivarning lyft efter skalv utanför Vanuatu",
+          "summary": "En tsunamivarning utlystes efter ett jordskalv med magnituden 6,9 utanför Vanuatu, men har nu lyfts.",
+          "date": "2026-10-24T04:08:19+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/utrikes/hundratals-skadade-i-taiwan-efter-tyfon",
+          "reason": "outside_channel_scope",
+          "title": "Hundratals skadade i Taiwan efter tyfon",
+          "summary": "500 personer har skadats i Taiwan sedan tyfonen Champi dragit fram, enligt Reuters. En person omkom efter att ha svepts bort av vågor.",
+          "date": "2026-10-24T04:07:34+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/inrikes/google-fallde-enorma-mangder-trad-for-finskt-datacenter-utan-tillstand",
+          "reason": "outside_channel_scope",
+          "title": "Google fällde enorma mängder träd för finskt datacenter – utan tillstånd",
+          "summary": "Myndigheter i Finland har stoppat Google från att bygga två datacenter. Detta efter att techjätten fällt hundratusentals träd – olagligt. – Det är förstås en allvarlig sak, säger Finlands klimatminister Sari Multala.",
+          "date": "2026-10-24T04:02:46+00:00",
+          "publisher": "SVT Nyheter"
+        }
+      ]
+    }
+  },
+  "collection_evidence": {
+    "state": "ready",
+    "failed_discovery_urls": [],
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "subscription_exclusions": [],
+    "channel": "kek",
+    "discovery": {
+      "channel": "kek",
+      "date": "2026-10-25",
+      "feeds": [
+        {
+          "url": "https://www.occrp.org/en/feed",
+          "entries": 60,
+          "accepted": 5,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.occrp.org/en/investigations/feed",
+          "entries": 10,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/rss.xml",
+          "entries": 100,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.europol.europa.eu/rss.xml",
+          "entries": 10,
+          "accepted": 10,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "entries": 31,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=kriminell%20ekonomi%20penningtv%C3%A4tt%20brottsvinster%20Sverige%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=v%C3%A4lf%C3%A4rdsbrott%20ekonomisk%20brottslighet%20organiserad%20brottslighet%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Europol%20money%20laundering%20asset%20recovery%20criminal%20finance%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=economic%20crime%20organized%20crime%20financial%20investigations%20Europe%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aekobrottsmyndigheten.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Apolisen.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Afi.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Askatteverket.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Abra.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Asvt.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Asverigesradio.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Adi.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        }
+      ],
+      "web_candidates": 0,
+      "original_fallback": {
+        "sources_checked": 6,
+        "candidates": 20,
+        "excluded": 32,
+        "sources": [
+          {
+            "domain": "ekobrottsmyndigheten.se",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "polisen.se",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "fi.se",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "skatteverket.se",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "bra.se",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "svt.se",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200,
+            "error": null
+          }
+        ]
+      },
+      "candidate_count": 53,
+      "scope": "discovery_only_not_factual_approval"
+    },
+    "checked_at": "2026-10-25T02:16:33.958531+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  }
+}
