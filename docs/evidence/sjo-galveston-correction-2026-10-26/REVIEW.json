@@ -1,0 +1,29 @@
+{
+  "article_id": "article-1cc72ea09c86da0e501bb417",
+  "episode_id": "sjoomradet:2026-10-25:daily",
+  "base_revision": "d2f5c44de233bfeebe073f601ede533d4421f446",
+  "reservation_comment": 6404909966,
+  "higher_priority_blocker_recheck_comment": 6404876376,
+  "source_artifact": 12585367147,
+  "source_run": 40157530798,
+  "source_page_sha256": "828cbc87564c3b424442eea8637504a5baf5e93d6713d6af7d2058477160197a",
+  "source_reused_and_read_in_full": true,
+  "facts": {
+    "area_acres": 840,
+    "area_hectares_approx": 340,
+    "federal_usd": 1180524,
+    "port_usd": 393510,
+    "combined_usd": 1574034
+  },
+  "factual_correction_not_later_news": true,
+  "correction_note_local_date": "2026-10-26",
+  "manuscript_contains_neither_error_formulation": true,
+  "original_audio_sha256": "7c34f83d24cbf7fe258a052ba06b65cc3a1b71e39e0d8d3d8fc8e4cf88e2f03b",
+  "audio_modified_or_regenerated": false,
+  "telegram_sent": false,
+  "original_publication_time_preserved": true,
+  "history_and_dated_notes_preserved": true,
+  "other78episode_entries_and153article_records_preserved": true,
+  "new_runtime_execution_authority_claimed": false,
+  "publication_performed": false
+}
