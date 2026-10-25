@@ -1,0 +1,16 @@
+{
+  "kind": "historical",
+  "duration_seconds": 313.776,
+  "target_minutes": [
+    5,
+    10
+  ],
+  "duration_status": "within_target",
+  "channel": "vald_kunskap",
+  "date": "2026-10-25",
+  "audio_sha256": "275a363114a50214cdcfa688fbcdbab4cf2264808072b8199ace3fd05796bed5",
+  "audio_bytes": 2319645,
+  "decoded": true,
+  "checked_at": "2026-10-25T12:04:51.102705+00:00",
+  "editorial_approval": "not_established_by_audio_check"
+}

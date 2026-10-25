@@ -1,0 +1,22 @@
+{
+  "approved": true,
+  "audio_sha256": "275a363114a50214cdcfa688fbcdbab4cf2264808072b8199ace3fd05796bed5",
+  "manuscript_sha256": "e1d5dadf48e375e05372ab6aabf660483b4e423969ee1a78cd58035fee4f11e2",
+  "method": "Work review of full actual-audio ASR transcript, segment integrity and full decoding",
+  "human_listening": false,
+  "word_alignment_ratio": 0.9661971830985916,
+  "duration_seconds": 313.776,
+  "sections_complete": true,
+  "repeated_rundown_absent": true,
+  "ending_complete": true,
+  "key_facts_checked": [
+    "EU SOCTA2025",
+    "Brå2023 broader networks not violence price survey",
+    "demand vs supply drivers",
+    "digital reach not proven causal size effect",
+    "no invented market birth date or prevalence"
+  ],
+  "limitations": [
+    "ASR has phonetic errors in proper names and occasional words; it is auxiliary evidence. No independent human listening claimed."
+  ]
+}

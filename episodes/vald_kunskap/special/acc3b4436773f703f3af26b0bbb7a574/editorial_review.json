@@ -1,0 +1,49 @@
+{
+  "approved": true,
+  "reviewer": "ChatGPT Work, separate editorial self-review",
+  "source_ids": [
+    "S1",
+    "S2"
+  ],
+  "summary": "Efterfrågan på kontroll, betalning och konfliktvåld möter rekrytering och förmedling. Avsnittet skiljer belagda funktioner och möjligheter från kausala hypoteser om marknadens framväxt.",
+  "claims": [
+    {
+      "claim": "Maktutövning, indrivning, konflikter och koppling till narkotikamarknader.",
+      "source_ids": [
+        "S1"
+      ],
+      "status": "verified",
+      "locator": "EU-SOCTA2025 printed pages30-32"
+    },
+    {
+      "claim": "Planering/beställning kan skiljas från utförande och kommunikation ger större räckvidd.",
+      "source_ids": [
+        "S1"
+      ],
+      "status": "verified",
+      "locator": "printed pages30,32"
+    },
+    {
+      "claim": "Inkomster/status hos äldre och beroenden/hinder för utträde i bredare ungdomsnätverk.",
+      "source_ids": [
+        "S2"
+      ],
+      "status": "verified",
+      "locator": "summary on recruitment, network structures and exits"
+    }
+  ],
+  "analysis_marked": [
+    "Olaglig verksamhets avsaknad av vanlig laglig tvistlösning uttryckligen presenterad som analys",
+    "Tillgång/efterfrågan är förklaringsram, inte uppmätt marknadsstorlek"
+  ],
+  "limits": [
+    "Inget födelseår eller pris på våldsmarknaden anges",
+    "Ingen kausal storlekseffekt tillskrivs teknik",
+    "Nätverksstudien används inte som prisstudie",
+    "Inga påhittade scener eller operativa instruktioner"
+  ],
+  "repetition_review": "Avsnitt2 analyserar drivkrafter. Roller, barns rekryteringsförlopp, plattformsmekanik och myndighetsinsatser sparas till senare fördjupningar.",
+  "independent_human_review": false,
+  "package_sha256": "c6760b6f29f5aead4dbb209e552f2b987ead80d265173c445b2c8e2122ac1b57",
+  "reviewed_at": "2026-10-25T10:36:08.338902+00:00"
+}
