@@ -1,0 +1,170 @@
+{
+  "base_revision": "0e84ba6bba5c8841f1f0103e6cfcae451fd57227",
+  "adapter_revision": "836888cfb7d7c3cf18f9d27376bbaaa50414da01",
+  "plans": [
+    {
+      "change": {
+        "schema_version": "producer-article-note.v1",
+        "change_id": "sjo_20261025_galveston_area",
+        "article_id": "article-1cc72ea09c86da0e501bb417",
+        "episode_id": "sjoomradet:2026-10-25:daily",
+        "expected_revision": 1,
+        "expected_record_sha256": "4331823f8982e5ff624bf18899b8a861fb53845ab4378ecb3ac98c96477b6512",
+        "kind": "correction",
+        "note": "Rättelse 25 oktober 2026: Arealen rättas från 840 hektar till 840 acres (cirka 340 hektar), enligt originalkällan. Ljudet har inte ändrats.",
+        "source_url": "https://maritime-executive.com/article/port-of-galveston-strengthening-security-with-1-18m-in-federal-grants",
+        "field": "summary",
+        "old": "Galveston Wharves i Texas tilldelas federala anslag om drygt 1,1 miljoner dollar från FEMA samt egna hamnmedel för att uppgradera säkerhetssystemen. Medlen ska finansiera utökad videoövervakning vid kryssnings- och lastterminaler, cybersäkerhetsunderhåll, smarta låssystem samt mobila fordonsbarriärer. Åtgärderna vidtas för att säkerställa efterlevnaden av federala maritima säkerhetskrav vid den 840 hektar stora hamnen.",
+        "new": "Galveston Wharves i Texas tilldelas federala anslag om drygt 1,1 miljoner dollar från FEMA samt egna hamnmedel för att uppgradera säkerhetssystemen. Medlen ska finansiera utökad videoövervakning vid kryssnings- och lastterminaler, cybersäkerhetsunderhåll, smarta låssystem samt mobila fordonsbarriärer. Åtgärderna vidtas för att säkerställa efterlevnaden av federala maritima säkerhetskrav vid hamnen på 840 acres (cirka 340 hektar)."
+      },
+      "evidence": {
+        "review_ref": "artifact:sjo_20261025_12585367147",
+        "change_sha256": "369a47f46007f66fc1c76d252f4c04f127c8dc7ebb5cd3bca7a2d933b21fd66f",
+        "conclusion": "confirmed_original_error",
+        "source_url": "https://maritime-executive.com/article/port-of-galveston-strengthening-security-with-1-18m-in-federal-grants",
+        "page_sha256": "828cbc87564c3b424442eea8637504a5baf5e93d6713d6af7d2058477160197a",
+        "available_at": "2026-10-25T03:16:31.003533+00:00"
+      },
+      "manifest": {
+        "schema_version": "producer-publication-plan.v1",
+        "binding": {
+          "schema_version": "producer-publication-binding.v1",
+          "role": "producer",
+          "cycle_id": "producer_2026W43",
+          "repository": "callekos/morgonpod-webb",
+          "base_revision": "0e84ba6bba5c8841f1f0103e6cfcae451fd57227",
+          "channel": "sjoomradet",
+          "episode_id": "sjoomradet:2026-10-25:daily",
+          "article_id": "article-1cc72ea09c86da0e501bb417",
+          "paths": [
+            "story_index.json",
+            "episodes/sjoomradet/2026-10-25/brief.json",
+            "catalog/articles/e1afa92226cd1c3bfa171d6b.json"
+          ]
+        },
+        "change_sha256": "369a47f46007f66fc1c76d252f4c04f127c8dc7ebb5cd3bca7a2d933b21fd66f",
+        "review_ref": "artifact:sjo_20261025_12585367147",
+        "operation": "source_proven_factual_correction",
+        "files": [
+          {
+            "path": "catalog/articles/e1afa92226cd1c3bfa171d6b.json",
+            "kind": "catalog",
+            "before_sha256": "af7db81c5c24d85e37d36c36d320545ba927f2d96aa847edf49dfd02a6007872",
+            "after_sha256": "e26cc9dd23369981ca4ceb5c45dc90579d11f9a61ddea233caa92be86295ee3a"
+          },
+          {
+            "path": "episodes/sjoomradet/2026-10-25/brief.json",
+            "kind": "brief",
+            "before_sha256": "5d9c81b3a2ce6c53b94caee692df8642fba5708526b97aa03154c33f7268fbc8",
+            "after_sha256": "9efe5a36914d452426de3803291e128cca532be9ccd97eb2d92671ddb8815a93"
+          },
+          {
+            "path": "story_index.json",
+            "kind": "index",
+            "before_sha256": "e2f7d7e0490fff5603c73fff562e1a7922bcff1628580343f1b00186806eb1c9",
+            "after_sha256": "d6b3131e5fb54fd4182078bc08f868ab2d943608a523d82adaf5ba02bf9a3adc"
+          }
+        ],
+        "outcome": "planned_not_executed",
+        "new_changes": 1,
+        "execution_authorized": false,
+        "publication_performed": false
+      }
+    },
+    {
+      "change": {
+        "schema_version": "producer-article-note.v1",
+        "change_id": "sjo_20261025_galveston_funding",
+        "article_id": "article-1cc72ea09c86da0e501bb417",
+        "episode_id": "sjoomradet:2026-10-25:daily",
+        "expected_revision": 2,
+        "expected_record_sha256": "fb002bcf9eb6af8e0a6419565a50ad85bdf2b9569bd70eed870398178a26f7e7",
+        "kind": "correction",
+        "note": "Rättelse 25 oktober 2026: 1 180 524 dollar är federalbidrag. Hamnens egen del är ytterligare 393 510 dollar, enligt originalkällans fyra delposter. Ljudet har inte ändrats.",
+        "source_url": "https://maritime-executive.com/article/port-of-galveston-strengthening-security-with-1-18m-in-federal-grants",
+        "field": "body",
+        "old": "Enligt The Maritime Executive genomför Galveston Wharves omfattande uppgraderingar av hamnens säkerhetssystem med hjälp av federala bidrag och egna medel på totalt 1 180 524 dollar. Den amerikanska krismyndigheten FEMA har beviljat fyra separata anslag inom ramen för Port Security Grant Program. Projekten inkluderar utökad kamerabevakning kring tillfartsvägar för kryssnings- och lastterminaler, löpande underhåll av cybersäkerhet och övervakningssystem, samt ersättning av mekaniska lås med ett digitalt system för nyckelhantering. Dessutom köps ett mobilt system med avvisningsbarriärer in för att snabbt kunna spärra av platser vid tillfälligt behov av fordonsskydd runt kritisk infrastruktur och publika samlingsplatser.",
+        "new": "Enligt The Maritime Executive genomför Galveston Wharves omfattande uppgraderingar av hamnens säkerhetssystem med hjälp av federala bidrag på totalt 1 180 524 dollar samt ytterligare 393 510 dollar från hamnen. Den amerikanska krismyndigheten FEMA har beviljat fyra separata anslag inom ramen för Port Security Grant Program. Projekten inkluderar utökad kamerabevakning kring tillfartsvägar för kryssnings- och lastterminaler, löpande underhåll av cybersäkerhet och övervakningssystem, samt ersättning av mekaniska lås med ett digitalt system för nyckelhantering. Dessutom köps ett mobilt system med avvisningsbarriärer in för att snabbt kunna spärra av platser vid tillfälligt behov av fordonsskydd runt kritisk infrastruktur och publika samlingsplatser."
+      },
+      "evidence": {
+        "review_ref": "artifact:sjo_20261025_12585367147",
+        "change_sha256": "7aaef69248a5e0b6b19392993409d88ab3df26f56555024a169da8ddcf4cd956",
+        "conclusion": "confirmed_original_error",
+        "source_url": "https://maritime-executive.com/article/port-of-galveston-strengthening-security-with-1-18m-in-federal-grants",
+        "page_sha256": "828cbc87564c3b424442eea8637504a5baf5e93d6713d6af7d2058477160197a",
+        "available_at": "2026-10-25T03:16:31.003533+00:00"
+      },
+      "manifest": {
+        "schema_version": "producer-publication-plan.v1",
+        "binding": {
+          "schema_version": "producer-publication-binding.v1",
+          "role": "producer",
+          "cycle_id": "producer_2026W43",
+          "repository": "callekos/morgonpod-webb",
+          "base_revision": "0e84ba6bba5c8841f1f0103e6cfcae451fd57227",
+          "channel": "sjoomradet",
+          "episode_id": "sjoomradet:2026-10-25:daily",
+          "article_id": "article-1cc72ea09c86da0e501bb417",
+          "paths": [
+            "story_index.json",
+            "episodes/sjoomradet/2026-10-25/brief.json",
+            "catalog/articles/e1afa92226cd1c3bfa171d6b.json"
+          ]
+        },
+        "change_sha256": "7aaef69248a5e0b6b19392993409d88ab3df26f56555024a169da8ddcf4cd956",
+        "review_ref": "artifact:sjo_20261025_12585367147",
+        "operation": "source_proven_factual_correction",
+        "files": [
+          {
+            "path": "catalog/articles/e1afa92226cd1c3bfa171d6b.json",
+            "kind": "catalog",
+            "before_sha256": "e26cc9dd23369981ca4ceb5c45dc90579d11f9a61ddea233caa92be86295ee3a",
+            "after_sha256": "afe405207de1daac37dd22fc845b20aa35bf68aa53270eba16d0ac8921650400"
+          },
+          {
+            "path": "episodes/sjoomradet/2026-10-25/brief.json",
+            "kind": "brief",
+            "before_sha256": "9efe5a36914d452426de3803291e128cca532be9ccd97eb2d92671ddb8815a93",
+            "after_sha256": "a660722d185a278c374a32a8bb0ea4b719ba6bb2698aa5f5e866ce1f61ee2b97"
+          },
+          {
+            "path": "story_index.json",
+            "kind": "index",
+            "before_sha256": "d6b3131e5fb54fd4182078bc08f868ab2d943608a523d82adaf5ba02bf9a3adc",
+            "after_sha256": "5b76a6fa7cc06ee10d90840915e6d96a5e56a1ba90962383c209ddb3ca9d88f4"
+          }
+        ],
+        "outcome": "planned_not_executed",
+        "new_changes": 1,
+        "execution_authorized": false,
+        "publication_performed": false
+      }
+    }
+  ],
+  "final_revision": 3,
+  "manuscript_binding": {
+    "schema": 1,
+    "complete": true,
+    "script_sha256": "cf163d8c3022d34a301129ba89ba58689c87986948c7744ffb74cced12230e61",
+    "spoken_sha256": "cf163d8c3022d34a301129ba89ba58689c87986948c7744ffb74cced12230e61",
+    "audio_sha256": "7c34f83d24cbf7fe258a052ba06b65cc3a1b71e39e0d8d3d8fc8e4cf88e2f03b",
+    "segments": [
+      {
+        "text_sha256": "9ba2a2de5f36cd6b88caed398ac8dc9d01ccd39a67c41f54c9a45748e898b04f",
+        "duration_seconds": 103.248,
+        "audio_sha256": "7bf5381a42ba9f2f6841de6fbdc74111de848672fddc74e1ef9dad4d1e7ee138"
+      },
+      {
+        "text_sha256": "b032794aa98e5310ba90c09aa1c5bc39cb38e526a6e07d4828650775d12ed7c2",
+        "duration_seconds": 33.888,
+        "audio_sha256": "054c09713d223a2e8c0c25405cf74501a2c1252515dca934d7c7419708925eab"
+      }
+    ]
+  },
+  "limitations": [
+    "No new ASR or full human listening",
+    "No unlocked Mac UI acceptance"
+  ],
+  "publication_performed": false,
+  "planned_at": "2026-10-25T22:11:29.474924+00:00"
+}
