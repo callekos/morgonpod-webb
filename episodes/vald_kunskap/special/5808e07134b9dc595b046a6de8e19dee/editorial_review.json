@@ -1,0 +1,51 @@
+{
+  "approved": true,
+  "reviewer": "ChatGPT Work, separate editorial self-review",
+  "source_ids": [
+    "S1",
+    "S5",
+    "S6"
+  ],
+  "summary": "Beställning, brottsplats, utredning och gripande kan ligga i olika länder. Ett daterat offentligt fall visar samordningsbehov utan att misstankar omvandlas till domar.",
+  "claims": [
+    {
+      "claim": "Separata platser för beställning, planering och utförande; beställare ofta utomlands i Europols modell.",
+      "source_ids": [
+        "S1",
+        "S5"
+      ],
+      "status": "verified",
+      "locator": "EU-SOCTA2025 printed page32; Background"
+    },
+    {
+      "claim": "Fem gripanden i Spanien/Marocko/Frankrike; Paris29sept2026 tillsammans med svensk polis; misstankar och internationellt efterlysta.",
+      "source_ids": [
+        "S6"
+      ],
+      "status": "verified",
+      "locator": "Paris arrest targets suspected recruiter; individual dated arrest entries"
+    },
+    {
+      "claim": "Grimm samordnar analys och gemensamma utredningar; nationella myndigheter gör de redovisade gripandena.",
+      "source_ids": [
+        "S5",
+        "S6"
+      ],
+      "status": "verified",
+      "locator": "Objectives; full case narrative"
+    }
+  ],
+  "analysis_marked": [
+    "Fem gripanden ger inte marknadens storlek eller andel internationella uppdrag",
+    "Avstånd och flera kontaktpunkter är analytisk tolkning"
+  ],
+  "limits": [
+    "Alla individuella anklagelser behåller misstankestatus",
+    "Inga namn eller kringgåendedetaljer",
+    "Ingen obelagd rättslig utgång, prevalens eller förhindrade dåd"
+  ],
+  "repetition_review": "Daterat gränsöverskridande fall och skilda geografiska betydelser, utan återberättat rekryteringsförlopp.",
+  "independent_human_review": false,
+  "package_sha256": "dc8a1d461abd6e25d83928bdd61f11a92346b1fa7869f5d6f5bda8342b6ac3bf",
+  "reviewed_at": "2026-10-25T10:48:29.291144+00:00"
+}

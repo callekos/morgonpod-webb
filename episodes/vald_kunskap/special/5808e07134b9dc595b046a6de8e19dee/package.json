@@ -1,0 +1,22 @@
+{
+  "package_id": "VALD-KUNSKAP-01:06",
+  "channel": "vald_kunskap",
+  "production_identity": "VALD-KUNSKAP-01",
+  "origin": "work_knowledge",
+  "edition_type": "special",
+  "is_intro": false,
+  "episode_order": 6,
+  "target_minutes": [
+    4,
+    8
+  ],
+  "gemini_text_calls": 0,
+  "published": false,
+  "telegram_delivered": false,
+  "files": {
+    "manus.txt": "cec22c24cfc7e22873713c961a3951a18630bf1c1b2ea49c2b7b5add915720c5",
+    "brief.json": "3a0e227a9ae5870d2a1f490c2d4ab27c9978acdc0e28eb72014dfbf54dc2d53a",
+    "kallor.json": "ca9056ee4ee237de466f6039647cde135db322b7e31c97c8e71cb919ef8e804d",
+    "editorial_review.json": "858a22f2c4f8cef3b5dea81e3925e696af5810a2f8cf433084147e57659abb70"
+  }
+}
