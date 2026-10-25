@@ -1,20 +1,23 @@
 const {test,expect}=require('@playwright/test');test.use({serviceWorkers:'block'});
-test('new knowledge channel has its own artwork, article and playable introduction',async({page},info)=>{
+const episode=Number(process.env.VALD_KNOWLEDGE_EPISODE||1);if(!Number.isInteger(episode)||episode<1||episode>8)throw Error('Invalid episode');
+const eid='VALD-KUNSKAP-01:'+String(episode).padStart(2,'0');
+const titles=['Välkommen till Våld','Våld som handelsvara: marknadens framväxt och drivkrafter','Människorna bakom uppdraget: beställare, förmedlare, rekryterare och utförare','Barn och unga som rekryteras till våldsuppdrag','Digitala plattformars betydelse för förmedlingen','Gränsöverskridande beställningar och nätverk','Våldsuppdrag, utpressning och andra kriminella tjänster','Hur myndigheter upptäcker, förebygger och bryter kedjorna'];
+test('knowledge channel has its own artwork, article and playable selected episode',async({page},info)=>{
  await page.goto('kanaler.html');const card=page.locator('.channel-card[href="kanal.html?id=vald_kunskap"]');await expect(card).toBeVisible();
  await expect(card.locator('img')).toHaveAttribute('src',/assets\/channels\/vald_kunskap/);
- await page.screenshot({path:'docs/evidence/'+info.project.name+'-vald-knowledge-directory.png',fullPage:true});
+ await page.screenshot({path:'docs/evidence/'+info.project.name+'-vald-knowledge-'+String(episode).padStart(2,'0')+'-directory.png',fullPage:true});
  await card.click();await expect(page.locator('.channel-hero h1')).toHaveText('Våld');await expect(page.locator('.channel-type')).toHaveText('Kunskapskanal');
  await expect(page.locator('.channel-hero img')).toHaveAttribute('src',/assets\/channels\/vald_kunskap/);
- await expect(page.locator('[data-id="VALD-KUNSKAP-01:01"]')).toBeVisible();
+ await expect(page.locator('[data-id="'+eid+'"]')).toBeVisible();
  expect(await page.locator('.channel-hero img').evaluate(i=>i.complete&&i.naturalWidth>0)).toBe(true);
- await page.screenshot({path:'docs/evidence/'+info.project.name+'-vald-knowledge-channel.png',fullPage:true});
- await page.goto('avsnitt.html?id=VALD-KUNSKAP-01%3A01');await expect(page.locator('.full-player h2')).toHaveText('Avsnitt 1: Välkommen till Våld');
+ await page.screenshot({path:'docs/evidence/'+info.project.name+'-vald-knowledge-'+String(episode).padStart(2,'0')+'-channel.png',fullPage:true});
+ await page.goto('avsnitt.html?id='+encodeURIComponent(eid));await expect(page.locator('.full-player h2')).toHaveText('Avsnitt '+episode+': '+titles[episode-1]);
  await expect(page.locator('.episode-info .article-card')).toHaveCount(1);await page.locator('#big-play').click();
  await expect(page.locator('#audio')).toHaveAttribute('src',/vald_kunskap\/special\/.+\.mp3/);
  await expect.poll(()=>page.locator('#audio').evaluate(a=>a.currentTime)).toBeGreaterThan(0);
- expect(await page.locator('#audio').evaluate(a=>a.duration)).toBeGreaterThan(280);
+ expect(await page.locator('#audio').evaluate(a=>a.duration)).toBeGreaterThan(episode===1?280:240);
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
- await page.screenshot({path:'docs/evidence/'+info.project.name+'-vald-knowledge-playing.png',fullPage:true});
+ await page.screenshot({path:'docs/evidence/'+info.project.name+'-vald-knowledge-'+String(episode).padStart(2,'0')+'-playing.png',fullPage:true});
  await page.locator('.episode-info .article-card').click();await expect(page.locator('.reading-cover')).toHaveAttribute('src',/assets\/channels\/vald_kunskap/);
- await page.screenshot({path:'docs/evidence/'+info.project.name+'-vald-knowledge-article.png',fullPage:true});
+ await page.screenshot({path:'docs/evidence/'+info.project.name+'-vald-knowledge-'+String(episode).padStart(2,'0')+'-article.png',fullPage:true});
 });

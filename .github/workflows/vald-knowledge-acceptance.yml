@@ -1,0 +1,43 @@
+name: VALD-KUNSKAP-01 publicerad avsnittsacceptans
+on:
+  push:
+    branches: [work/vald-kunskap-20261025]
+    paths: [docs/VALD-KUNSKAP-01/browser-request.json]
+permissions:
+  contents: read
+concurrency:
+  group: vald-knowledge-acceptance
+  cancel-in-progress: false
+jobs:
+  published-episode:
+    if: >-
+      startsWith(github.event.head_commit.message, 'vald-knowledge: verify')
+    runs-on: ubuntu-24.04
+    container: mcr.microsoft.com/playwright:v1.56.1-noble
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - id: request
+        run: |
+          node - <<'JS' >> "$GITHUB_OUTPUT"
+          const fs=require('node:fs');const r=JSON.parse(fs.readFileSync('docs/VALD-KUNSKAP-01/browser-request.json','utf8'));
+          if(r.task_id!=='VALD-KUNSKAP-01'||!Number.isInteger(r.episode)||r.episode<1||r.episode>8)throw Error('Invalid task request');
+          console.log('episode='+r.episode);
+          JS
+      - run: npm install --ignore-scripts
+      - run: node -e "if(require('@playwright/test/package.json').version!=='1.56.1')throw Error('Playwright image/package mismatch')"
+      - run: npx playwright test tests/browser/vald-knowledge.spec.cjs
+        env:
+          MORGONPOD_TEST_URL: https://callekos.github.io/morgonpod-webb/
+          VALD_KNOWLEDGE_EPISODE: ${{ steps.request.outputs.episode }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: vald-knowledge-live-evidence
+          retention-days: 7
+          path: |
+            playwright-report/
+            docs/evidence/*-vald-knowledge-*.png
