@@ -1,0 +1,22 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "Dagens verifierade underlag inom bevakningsområdet är begränsat, vilket gör att avsnittet hålls kort för att enbart redovisa tillgängliga faktaunderlag utan utfyllnad.",
+  "source_coverage": [],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [],
+  "selection_decisions": [],
+  "format_decision": {
+    "outcome": "no_news",
+    "reason": "Inga nya verifierade källposter med faktisk substans fanns tillgängliga för datumet 2026-10-25."
+  },
+  "access_exclusions_reviewed": true,
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "news_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "script_sha256": "d1d2cd524864289d1f8ef29184bc75b84fc54f3be5b694d0a313eb83cad2da84",
+    "collection_sha256": "f78cf485f513ce6715c73978cb7b493caa1a0f0364d09f3591e90ee9b2952bd3"
+  }
+}

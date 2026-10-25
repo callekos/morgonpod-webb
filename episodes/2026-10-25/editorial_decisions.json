@@ -1,0 +1,1080 @@
+{
+  "channel": "ibat",
+  "date": "2026-10-25",
+  "schema": 2,
+  "corroboration_method": "distinct_hosts_not_proof_of_independence",
+  "received": 1,
+  "unique_urls": 1,
+  "identified_events": 1,
+  "selected_articles": 0,
+  "selected_events": 0,
+  "unique_domains": 0,
+  "max_items": 40,
+  "gemini_calls": 0,
+  "decisions": [
+    {
+      "event_id": "1e47d47870ddd4c4",
+      "selected": false,
+      "reason": "already_reported_without_independent_update",
+      "score": 45,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 14,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "digg.se"
+      ],
+      "articles": [
+        {
+          "title": "Nytt utkast till certifieringssystem för den digitala identitetsplånboken - Digg – Myndigheten för digital förvaltning",
+          "url": "https://www.digg.se/om-oss/nyheter/digital-identitet/nyheter/2026-10-23-nytt-utkast-till-certifieringssystem-for-den-digitala-identitetsplanboken"
+        }
+      ]
+    }
+  ],
+  "rejected": [],
+  "identified_events_are_estimates": true,
+  "review_source_count": 0,
+  "channel_scope": {
+    "input_count": 92,
+    "accepted_count": 3,
+    "rejected": [
+      {
+        "url": "https://www.theregister.com/security/2026/10/24/autonomous-attack-agent-in-skynet-mode-hijacks-other-models-to-carry-out-its-evil-deeds/5305215",
+        "reason": "outside_channel_scope",
+        "title": "Autonomous attack agent in 'Skynet mode' hijacks other models to carry out its evil deeds",
+        "summary": "Designed to carry out 100,000 steps without human approval",
+        "date": "2026-10-24T13:02:00+00:00",
+        "publisher": "www.theregister.com - Articles"
+      },
+      {
+        "url": "https://www.theregister.com/security/2026/10/23/theres-a-third-php2shell-bug-but-it-wont-get-an-emergency-fix/5305208",
+        "reason": "outside_channel_scope",
+        "title": "There's a third PHP2Shell bug, but it won't get an emergency fix",
+        "summary": "Bad things (and software bugs?) come in threes",
+        "date": "2026-10-23T20:04:40+00:00",
+        "publisher": "www.theregister.com - Articles"
+      },
+      {
+        "url": "https://www.theregister.com/ai-and-ml/2026/10/23/red-team-report-found-openai-utterly-failed-to-monitor-its-agents-during-hugging-face-attack/5305200",
+        "reason": "missing_information_supply_context",
+        "title": "Red-team report found OpenAI utterly failed to monitor its agents during Hugging Face attack",
+        "summary": "Monitoring was only partial and was easily bypassed",
+        "date": "2026-10-23T19:14:57+00:00",
+        "publisher": "www.theregister.com - Articles"
+      },
+      {
+        "url": "https://www.theregister.com/columnists/2026/10/23/torvalds-ai-is-fine-for-competent-devs-but-spare-us-the-drive-by-patches/5304357",
+        "reason": "missing_information_supply_context",
+        "title": "Torvalds: AI is fine for competent devs, but spare us the 'drive-by' patches",
+        "summary": "Kernel maintainers stop asking who used AI, as long as the code is good",
+        "date": "2026-10-23T11:31:00+00:00",
+        "publisher": "www.theregister.com - Articles"
+      },
+      {
+        "url": "https://www.theregister.com/networks/2026/10/23/uk-threatens-subsea-cable-saboteurs-with-14-years-behind-bars/5304794",
+        "reason": "outside_channel_scope",
+        "title": "UK threatens subsea cable saboteurs with 14 years behind bars",
+        "summary": "Whitehall wants tougher penalties and new powers over telecoms operators as Russian activity raises alarm",
+        "date": "2026-10-23T09:29:00+00:00",
+        "publisher": "www.theregister.com - Articles"
+      },
+      {
+        "url": "https://www.theregister.com/security/2026/10/22/php2shell-exploit-bypasses-protections-designed-to-stop-remote-code-execution/5304883",
+        "reason": "outside_channel_scope",
+        "title": "PHP2Shell exploit bypasses protections designed to stop remote code execution",
+        "summary": "“Adversaries are clearly spending time (and tokens) on this bug,” researcher says.",
+        "date": "2026-10-22T20:37:52+00:00",
+        "publisher": "www.theregister.com - Articles"
+      },
+      {
+        "url": "https://www.svt.se/sport/ishockey/skelleftea-tystade-umea-rivstartade-mot-bjorkloven",
+        "reason": "outside_channel_scope",
+        "title": "Skellefteå tystade Umeå – rivstartade mot Björklöven",
+        "summary": "Det blev ingen spänning i rivalmötet mellan Björklöven och Skellefteå. Arvid Lundberg inledde målskyttet redan efter 25 sekunder – sedan öste Skellefteå på och vann med hela 8–1. – Overkligt kändes det, säger Lundberg till SVT Sport.",
+        "date": "2026-10-24T15:28:56+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/jamtland/tog-med-jaktgevar-in-i-vallokal-i-krokom-atalas",
+        "reason": "outside_channel_scope",
+        "title": "Tog med jaktgevär in i vallokal i Krokom – åtalas",
+        "summary": "När jägaren skulle rösta tog hen med sig sitt jaktgevär in i vallokalen i Krokoms kommun. Nu åtalas jägaren för överträdelse av vapenlagen.",
+        "date": "2026-10-24T15:04:58+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/fotboll/small-for-sirius-foll-mot-aik-efter-kritiserat-straffmal",
+        "reason": "outside_channel_scope",
+        "title": "Smäll för Sirius – föll mot AIK efter kritiserat straffmål",
+        "summary": "Tung smäll för Sirius i guldjakten. AIK besegrade serieledaren med 2–1 i Uppsala efter ett omdiskuterat straffmål. – Vi ska inte förlora den här matchen, säger Isak Bjerkebo till SVT Sport.",
+        "date": "2026-10-24T14:54:11+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/fotboll/derbymardrom-for-djurgarden-sjalvmal-och-rott-kort-skitdaligt",
+        "reason": "outside_channel_scope",
+        "title": "Derbymardröm för Djurgården – självmål och rött kort: ”Skitdåligt”",
+        "summary": "Mardrömsdag på jobbet för Djurgårdens Emma Holmqvist, 20. Först nickade hon in bollen i eget mål – sedan fick hon syna det röda kortet när Hammarby segrade. – Vi har lite otur, säger Djurgårdens lagkapten Sessy Åsland till SVT Sport.",
+        "date": "2026-10-24T14:50:44+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/dalarna/20-ariga-charlize-har-avlidit-drabbades-av-blodcancer",
+        "reason": "outside_channel_scope",
+        "title": "20-åriga Charlize har avlidit – drabbades av blodcancer",
+        "summary": "Charlize Tibom från Avesta har avlidit, 20 år gammal, efter att ha drabbats av blodcancer. Efter att sjukhusvården nyligen avslutades bodde hon tillsammans med sina nära och kära för att ta vara på den sista tiden i livet. Mindre än en vecka innan hon somnade in gifte hon sig med sin pojkvän Oscar.",
+        "date": "2026-10-24T13:51:59+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/utrikes/kan-mannen-utan-karisma-besegra-netanyahu",
+        "reason": "outside_channel_scope",
+        "title": "Kan ”mannen utan karisma” besegra Netanyahu?",
+        "summary": "Inför valet i Israel på tisdag leder oppositionens Gadi Eisenkot. Valet ses av många som en folkomröstning om Benjamin Netanyahu.",
+        "date": "2026-10-24T13:26:13+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/inrikes/varning-for-livsfara-nar-stormen-boelo-nar-storbritannien",
+        "reason": "outside_channel_scope",
+        "title": "Stormen Boelo drar in över Sverige – påverkar tågtrafiken",
+        "summary": "Storbritanniens nationella vädertjänst, Met Office har utfärdat nya varningar för stormen Boelo i Skottland, Nordirland och norra England. På söndagen väntas stormen dra in över Sverige. SMHI har utfärdat varningar för kombination av regn och vind i flera delar av landet.",
+        "date": "2026-10-24T12:30:50+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/alpint/regerande-mastaren-julia-scheib-kraschade-direkt-i-premiaren",
+        "reason": "outside_channel_scope",
+        "title": "Regerande mästaren Julia Scheib kraschade direkt i premiären",
+        "summary": "Tung säsongsstart för stora hemmahoppet. Regerande storslalommästaren Julia Scheib kraschade ut i första åket på hemmaplan. – Det blir en katapulteffekt, säger Viaplays expertkommentator Emil Johansson.",
+        "date": "2026-10-24T12:29:02+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/vast/efter-branden-i-fristad-kommunen-kraftsamlar-infor-hostlovet",
+        "reason": "outside_channel_scope",
+        "title": "Efter branden i Fristad: Kommunen kraftsamlar inför höstlovet",
+        "summary": "Borås stad och Svenska kyrkan erbjuder krisstöd i Fristad efter branden som bröt ut på fredagen, där sju ungdomar under 15 år skadades. Nu kraftsamlar kommunen inför det stundande höstlovet. – Det är många som är berörda, säger Anna Wikman, rektor i Fristad.",
+        "date": "2026-10-24T12:04:14+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/basket/nina-baresso-siktar-pa-aterkomst-till-sbl-som-51-aring",
+        "reason": "outside_channel_scope",
+        "title": "Nina Baresso siktar på återkomst till SBL – som 51-åring",
+        "summary": "En av Sveriges största basketprofiler håller fortsatt igång – med ett högt uppsatt mål. Nina Baresso, 51, glänser för Huddinge i Basketettan och siktar på att få göra en sista säsong i högstaligan SBL. – Men jag vet att vägen dit är ganska lång så jag är väldigt realistisk, säger hon till SVT Sport.",
+        "date": "2026-10-24T10:25:24+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/vasterbotten/se-casinobluffen-tva-man-fran-skelleftea-doms-for-spelfusk",
+        "reason": "outside_channel_scope",
+        "title": "Se casinobluffen: Två män från Skellefteå döms för spelfusk",
+        "summary": "Två män i 20-årsåldern från Skellefteå samarbetade och manipulerade blackjack på ett nätcasino. Tillsammans lurade de till sig 31 000 kronor. Nu döms de för spelfusk. – Mig veterligen har vi inte tidigare haft liknande fall kopplade till onlinecasino i svensk domstol, säger Jan Sonnevi, på spelbolaget ATG.",
+        "date": "2026-10-24T10:25:01+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/fotboll/har-gor-preston-fearon-mal-fran-egen-planhalva-tva-ganger-om",
+        "reason": "outside_channel_scope",
+        "title": "Här gör Preston Fearon mål från egen planhalva – två gånger om",
+        "summary": "Att göra mål från egen planhalva brukar kunna ta sig upp på listor över snygga mål. Gör man det två gånger på en kvart har man odiskutabelt säkrat sin plats där. – Åh herregud, han gör det igen, utbrister kommentatorn.",
+        "date": "2026-10-24T09:39:46+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/handboll/kristin-thorleifsdottir-berattar-om-konstanta-smartorna-inget-roligt-liv-att-leva",
+        "reason": "outside_channel_scope",
+        "title": "Kristin Thorleifsdóttir berättar om konstanta smärtorna: ”Inget roligt liv att leva”",
+        "summary": "Kristin Thorleifsdóttir har opererat knät. Nu berättar 28-åringen för första gången om kampen mot smärtorna de senaste åren. – I perioder tog jag smärtstillande varje dag, säger Thorleifsdóttir till SVT Sport.",
+        "date": "2026-10-24T08:02:31+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/ishockey/svts-expert-stalldes-en-mot-en-mot-connor-mcdavid-helt-sjukt",
+        "reason": "outside_channel_scope",
+        "title": "SVT:s expert ställdes en mot en mot Connor McDavid: ”Helt sjukt”",
+        "summary": "SVT:s expert John Klingberg har ställts mot Connor McDavid många gånger – men ett tillfälle sticker ut. När han tvingades möta honom en mot en efter en träning. – Han är en utomjording, alltså, säger Klingberg.",
+        "date": "2026-10-24T07:57:42+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/fotboll/hemliga-brevet-kraven-pa-fifa-i-infantino-harvan",
+        "reason": "outside_channel_scope",
+        "title": "”Hemliga” brevet: Kraven på Fifa i Infantino-härvan",
+        "summary": "I ett åtta sidor långt brev kräver Uefa svar från Fifa om allt från påstått maktmissbruk, till Donald Trumps inflytande och för långa halvtidspauser i VM. Brevet innehåller 42 punkter – här är några av dem.",
+        "date": "2026-10-24T06:36:09+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/utrikes/nordkoreas-ledare-kim-jong-un-besoker-kina",
+        "reason": "outside_channel_scope",
+        "title": "Nordkoreas ledare Kim Jong-un besöker Kina",
+        "summary": "Kim Jong-un har anlänt till Dandong i Kina via den nyöppnade Yalubron som binder samman länderna. Han togs emot av Kinas premiärminister Li Qiang, enligt den sydkoreanska nyhetsbyrån Yonhap.",
+        "date": "2026-10-24T06:22:18+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/ishockey/mytomspunna-derbyt-i-vasterbotten-alla-spelarna-fightades",
+        "reason": "outside_channel_scope",
+        "title": "Mytomspunna derbyt i Västerbotten: ”Alla spelarna fightades”",
+        "summary": "För första gången på 19 år ska Björklöven och Skellefteå återigen mötas i en tävlingsmatch. Slaget om Västerbotten har alltid frambringat starka känslor hos såväl spelare som fans. Derbyt 7 november 1980 har blivit mytomspunnet och kallades i lokalmedia för ”tidernas slagsmål” – ett stort slagsmål bröt ut redan på uppvärmningen.",
+        "date": "2026-10-24T05:48:13+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/utrikes/tsunamivarning-efter-skalv-utanfor-vanuatu",
+        "reason": "outside_channel_scope",
+        "title": "Tsunamivarning lyft efter skalv utanför Vanuatu",
+        "summary": "En tsunamivarning utlystes efter ett jordskalv med magnituden 6,9 utanför Vanuatu, men har nu lyfts.",
+        "date": "2026-10-24T04:08:19+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.regeringen.se/pressmeddelanden/2026/10/sverige-vard-for-nordiskt-ministermote-om-migration/",
+        "reason": "outside_channel_scope",
+        "title": "Sverige värd för nordiskt ministermöte om migration",
+        "summary": "Återvändande, brottsutvisningar och stöd till Ukraina stod i fokus när de nordiska ministrarna med ansvar för migrationsfrågor möttes i Stockholm den 22–23 oktober.",
+        "date": "2026-10-23T15:08:07+00:00",
+        "publisher": "RSS - Regeringen.se"
+      },
+      {
+        "url": "https://www.regeringen.se/faktapromemoria/2026/10/202627fpm2/",
+        "reason": "outside_channel_scope",
+        "title": "Förordning om inrättande av en åtgärdsram för att stärka unionens innovationsekosystem",
+        "summary": "Faktapromemoria gällande Förordning om inrättande av en åtgärdsram för att stärka unionens innovationsekosystem.",
+        "date": "2026-10-23T14:43:08+00:00",
+        "publisher": "RSS - Regeringen.se"
+      },
+      {
+        "url": "https://www.regeringen.se/faktapromemoria/2026/10/202627fpm8/",
+        "reason": "outside_channel_scope",
+        "title": "EU:s initiativ för kompetensportabilitet vad gäller ändringar i yrkeskvalifikationsdirektivet samt förslaget om nytt direktiv om erkännande av tredjelandsmedborgares kvalifikationer",
+        "summary": "Faktapromemoria gällande förslag till Europaparlamentets och rådets direktiv om ändringar i yrkeskvalifikationsdirektivet, samt om erkännande av tredjelandsmedborgares kvalifikationer.",
+        "date": "2026-10-23T14:35:28+00:00",
+        "publisher": "RSS - Regeringen.se"
+      },
+      {
+        "url": "https://www.regeringen.se/faktapromemoria/2026/10/202627fpm3/",
+        "reason": "outside_channel_scope",
+        "title": "Förordning om offentliga kontrakt och koncessioner (rättsakten om offentlig upphandling)",
+        "summary": "Faktapromemoria gällande Europeiska kommissionens förslag om förordning om offentliga kontrakt och koncessioner (rättsakten om offentlig upphandling), COM(2026) 590.",
+        "date": "2026-10-23T13:26:49+00:00",
+        "publisher": "RSS - Regeringen.se"
+      },
+      {
+        "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2026/10/dir.-2026123",
+        "reason": "outside_channel_scope",
+        "title": "Tilläggsdirektiv till Utredningen om en åldersgräns på sociala medier",
+        "summary": "Regeringen förlänger utredningstiden för Utredningen om en åldersgräns på sociala medier.",
+        "date": "2026-10-23T12:00:13+00:00",
+        "publisher": "RSS - Regeringen.se"
+      },
+      {
+        "url": "https://www.regeringen.se/remisser/2026/10/remiss-av-delbetankandet-preventiva-vistelseforbud/",
+        "reason": "outside_channel_scope",
+        "title": "Remiss av delbetänkandet Preventiva vistelseförbud",
+        "summary": "Här kan du ta del av svaren från dem som har ombetts att svara på remissen av delbetänkandet Preventiva vistelseförbud (SOU 2026:62). Övriga yttranden finns tillgängliga i departementet.",
+        "date": "2026-10-23T11:54:26+00:00",
+        "publisher": "RSS - Regeringen.se"
+      },
+      {
+        "url": "https://www.regeringen.se/pressmeddelanden/2026/10/statssekreterare-daniel-westlen-deltar-i-cop17-om-biologisk-mangfald/",
+        "reason": "outside_channel_scope",
+        "title": "Statssekreterare Daniel Westlén deltar i COP17 om biologisk mångfald",
+        "summary": "Sverige prioriterar arbetet med FN-konventionen om biologisk mångfald och deltar i förhandlingarna vid COP 17 i Jerevan, Armenien, med en stor delegation. Statssekreterare Daniel Westlén deltar i mötets högnivådel den 27–28 oktober.",
+        "date": "2026-10-23T11:05:30+00:00",
+        "publisher": "RSS - Regeringen.se"
+      },
+      {
+        "url": "https://www.regeringen.se/regeringsuppdrag/2026/10/uppdrag-att-starka-arbetet-mot-mangdbrott/",
+        "reason": "outside_channel_scope",
+        "title": "Uppdrag att stärka arbetet mot mängdbrott",
+        "summary": "Regeringen ger Polismyndigheten och Åklagarmyndigheten i uppdrag att stärka arbetet med att förebygga, utreda och lagföra mängdbrott.",
+        "date": "2026-10-23T08:47:57+00:00",
+        "publisher": "RSS - Regeringen.se"
+      },
+      {
+        "url": "https://www.regeringen.se/faktapromemoria/2026/10/202627fpm10/",
+        "reason": "outside_channel_scope",
+        "title": "EU KIDS ACT",
+        "summary": "Faktapromemoria gällande Europeiska kommissionens förslag om förordning om digitala miljöer som är ansvarsfulla och kan ställas till svars (EU Kids Act), COM(2026) 681.",
+        "date": "2026-10-23T08:43:49+00:00",
+        "publisher": "RSS - Regeringen.se"
+      },
+      {
+        "url": "https://www.regeringen.se/pressmeddelanden/2026/10/utrikesminister-maria-malmer-stenergard-besoker-ungern/",
+        "reason": "outside_channel_scope",
+        "title": "Utrikesminister Maria Malmer Stenergard besöker Ungern",
+        "summary": "Utrikesminister Maria Malmer Stenergard besöker Budapest den 23 oktober. Hon representerar Sverige vid högtidlighållandet av Ungernrevoltens 70-årsminne. I samband med besöket träffar Malmer Stenergard Ungerns utrikesminister Anita Orbán.",
+        "date": "2026-10-23T04:00:24+00:00",
+        "publisher": "RSS - Regeringen.se"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/27-arrests-and-248-potential-victims-identified-in-action-week-against-labour-exploitation",
+        "reason": "outside_channel_scope",
+        "title": "27 arrests and 248 potential victims identified in action week against labour exploitation",
+        "summary": "Europol, the European Labour Authority (ELA), and 34 participating countries today announced the results of an action week targeting human trafficking for labour exploitation. The operation, part of an EMPACT action led by Sweden, brought together police, border guards, labour and social security inspectorates, and tax authorities to crack down on ",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/5th-empact-hackathon-leads-to-detection-of-51-potential-victims",
+        "reason": "outside_channel_scope",
+        "title": "5th EMPACT Hackathon leads to the detection of 51 potential victims",
+        "summary": "An international operation involving 40 experts and investigators from 20 countries has identified 51 potential victims of human trafficking, as well as five suspects. Held in Amsterdam from 23 to 25 September 2026, the fifth EMPACT Hackathon against the digital aspects of human trafficking brought together police officers, labour authorities and s",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/european-and-ecuadorian-cooperation-leads-to-20-arrests-in-major-hit-against-drug-trafficking",
+        "reason": "outside_channel_scope",
+        "title": "European and Ecuadorian cooperation leads to 20 arrests in major hit against drug trafficking",
+        "summary": "The operation, codenamed Operation CANTABRIA, underscores the success of strong cooperation between European and Ecuadorian law enforcement agencies, proving that joint efforts are key to tackling transnational criminal networks.Magnus BrunnerEU Commissioner for Internal Affairs and Migration“International cooperation is our greatest strength again",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/almost-50-arrested-police-target-western-balkan-network-linked-to-killings",
+        "reason": "outside_channel_scope",
+        "title": "Almost 50 arrested as police target Western Balkan network linked to killings",
+        "summary": "Nearly 50 suspects have been arrested in an international operation targeting a drug trafficking network with Western Balkan members, linked to killings, kidnappings and grenade attacks across Europe.",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/europol-urges-early-action-to-protect-cryptocurrencies-and-sensitive-data-quantum-threats",
+        "reason": "outside_channel_scope",
+        "title": "Europol urges early action to protect cryptocurrencies and sensitive data from quantum threats",
+        "summary": "The timing of these capabilities remains uncertain. However, this should not be the main concern. Adapting systems and coordinating security upgrades will take time. Therefore, regardless of the nature of the threats that may emerge, crypto-agility should be pursued proactively to ensure that systems can withstand and overcome future threats while ",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/ordering-violence-abroad-five-suspects-arrested-in-spain-morocco-and-france",
+        "reason": "outside_channel_scope",
+        "title": "Ordering violence from abroad: five suspects arrested in Spain, Morocco, and France",
+        "summary": "Five suspects linked to the organisation and recruitment of serious violence have been arrested in Spain, Morocco, and France, in the latest results of the Operational Taskforce (OTF) GRIMM, coordinated by Europol. The arrests in August and September target the upper levels of violence-as-a-service: those suspected of ordering attacks, finding perp",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/cannabis-smuggling-north-america-and-thailand-europe-europol-highlights-growing-threat",
+        "reason": "outside_channel_scope",
+        "title": "Cannabis smuggling from North America and Thailand into Europe: Europol highlights growing threat",
+        "summary": "Cannabis smuggling from North America and Thailand in Europe has seen a sharp rise, driven by oversupply in legal markets and the adaptability of organised crime groups. A dedicated Europol Operational Taskforce (OTF) has been established to dismantle the criminal networks behind this evolving threat.",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/eu-law-enforcement-chiefs-gather-to-discuss-new-challenges-in-eu-security",
+        "reason": "outside_channel_scope",
+        "title": "EU law enforcement chiefs gather to discuss new challenges in EU security",
+        "summary": "The Convention was opened by Jürgen Ebner, Europol’s Acting Executive Director, and Justin Kelly, Commissioner of the Irish An Garda Síochána.Jürgen EbnerEuropol Acting Executive DirectorOrganised crime itself has become digital by default. Technology is not just an enabler of criminal activity - it is increasingly driving it. We need strong nation",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+        "summary": "Officials have so far managed to avoid a repeat of last weekend's rioting and looting as hundreds of thousands took part in demonstrations.",
+        "date": "2026-10-24T21:09:27+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Ukraine says Starlink connection 'now stable' after network limits",
+        "summary": "The slowed Starlink connections had affected the Ukraine's military and drone operations for a week.",
+        "date": "2026-10-24T12:12:40+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Palestinian families displaced as Israeli forces demolish Hebron homes",
+        "summary": "The crackdown follows the killing of two Israeli soldiers by two Palestinian gunmen on Friday - and comes just days ahead of Israel's election.",
+        "date": "2026-10-24T23:02:06+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat",
+        "summary": "Some 200 emergency personnel were deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany.",
+        "date": "2026-10-24T15:21:44+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/crgj9ndwvj9jo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Father who killed Oregon school gunman describes anguish over children he couldn't save",
+        "summary": "Kaylub Giamanco has been hailed as a hero for killing a teenager who fatally shot three children and a teacher.",
+        "date": "2026-10-23T22:47:07+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cm86z5n0yvy6o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "British woman dies after trying to rescue sons swept away at sea in the Bahamas",
+        "summary": "Nathan Gregory says the loss of childhood sweetheart Leanne \"is unimaginable for our family\".",
+        "date": "2026-10-24T17:11:56+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cm1dwzvn6227o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Vanessa Trump says she is cancer-free six months after revealing diagnosis",
+        "summary": "The ex-wife of Donald Trump Jr, with whom she shares five children, announced in May that she had been diagnosed with breast cancer.",
+        "date": "2026-10-24T19:12:51+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cv0ld9571511o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Three released without charge after fatal arson attack in Ireland",
+        "summary": "Three people - two women and one man - have been released, and one person remains in custody, gardaí say.",
+        "date": "2026-10-24T09:38:28+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c6x2355448eyo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Woman, 65, becomes second patient to die of Ebola in Kenya",
+        "summary": "She was a close family member of the first victim, a man who had travelled from the Democratic Republic of Congo.",
+        "date": "2026-10-24T09:46:53+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c670pr1ryxyno?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Australian MP's condition improves after alleged car attack",
+        "summary": "The independent MP is now in a serious but stable condition, according to the Melbourne hospital.",
+        "date": "2026-10-24T01:55:15+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cm1dwz311476o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Student movement takes Serbia's Vučić to the wire in neck-and-neck election",
+        "summary": "The Student List has emerged from almost two years of anti-corruption protests to form the biggest challenge to Vučić's rule.",
+        "date": "2026-10-23T23:08:23+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
+        "summary": "From 30 October, tariffs will be eased on some products, including certain machinery, and placed on others, such as carpets.",
+        "date": "2026-10-24T00:36:47+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c317kxyknwp2o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Two rescued after Nairobi building collapse with five still missing",
+        "summary": "Police have launched a manhunt for the building's owner and contractor after the multi-storey building collapsed while still under construction.",
+        "date": "2026-10-24T17:25:46+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c678pv4krx37o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Trump administration sues to block certification of upcoming Alaska election",
+        "summary": "The justice department has filed a lawsuit arguing that the inclusion of two candidates named Dan Sullivan could confuse voters.",
+        "date": "2026-10-23T18:49:14+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/ck20rery78lro?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Minneapolis withdrawal was 'surrender', Trump's ex-border patrol chief tells BBC",
+        "summary": "Greg Bovino was the public face of the controversial immigration enforcement operation in the city earlier this year.",
+        "date": "2026-10-24T05:31:01+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
+        "summary": "Ukraine and Russia confirm the truce in Russian-occupied Oleshky, where residents have had to eat garden weeds to survive.",
+        "date": "2026-10-24T07:17:44+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
+        "summary": "Thirty-four people are also injured in the attack in southern Karak governorate, and a manhunt is now under way.",
+        "date": "2026-10-23T19:46:30+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c64g1eplpvddo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Argentina drops investigation into President Milei over crypto fraud",
+        "summary": "Javier Milei had denied acting fraudulently when a cryptocurrency nosedived after he deleted a social media post about it.",
+        "date": "2026-10-23T20:59:39+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://arstechnica.com/science/2026/10/a-1000-mile-cloud-on-mars-may-reveal-physics-never-seen-in-nature/",
+        "reason": "outside_channel_scope",
+        "title": "A 1,000-mile cloud on Mars may reveal physics never seen in nature",
+        "summary": "A new model suggests Mars may host ice-forming physics never directly observed before.",
+        "date": "2026-10-24T11:50:28+00:00",
+        "publisher": "Ars Technica - All content"
+      },
+      {
+        "url": "https://arstechnica.com/science/2026/10/ice-sheet-expansion-may-have-started-2000-years-go-but-we-canceled-that/",
+        "reason": "outside_channel_scope",
+        "title": "Ice sheet expansion may have started 2,000 years ago, but we canceled that",
+        "summary": "The tiny remains of the Laurentide Ice Sheet began getting somewhat less tiny.",
+        "date": "2026-10-24T11:00:09+00:00",
+        "publisher": "Ars Technica - All content"
+      },
+      {
+        "url": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
+        "reason": "outside_channel_scope",
+        "title": "NASA updates lander plans for Moon landings, finally solves long-festering Orion issue",
+        "summary": "\"We have the mandate, we have the resources, and the support from our stakeholders.\"",
+        "date": "2026-10-23T22:48:25+00:00",
+        "publisher": "Ars Technica - All content"
+      },
+      {
+        "url": "https://arstechnica.com/tech-policy/2026/10/pentagon-memo-on-prediction-markets-says-insider-bets-put-troops-lives-at-risk/",
+        "reason": "outside_channel_scope",
+        "title": "Hegseth warns prediction market bets warp military judgment, endanger troops",
+        "summary": "Pentagon memo: Insider trading gives US enemies key intel on military operations.",
+        "date": "2026-10-23T20:28:43+00:00",
+        "publisher": "Ars Technica - All content"
+      },
+      {
+        "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+        "reason": "missing_information_supply_context",
+        "title": "Updated Google privacy policy says your Gmail might be used for advertising",
+        "summary": "Turning on Personal Intelligence gives the company more data for ad targeting.",
+        "date": "2026-10-23T20:19:55+00:00",
+        "publisher": "Ars Technica - All content"
+      },
+      {
+        "url": "https://arstechnica.com/space/2026/10/senior-commander-says-space-force-needs-new-spaceport-by-2030/",
+        "reason": "outside_channel_scope",
+        "title": "Inside the Pentagon, the pressure is on to find a home for a new spaceport",
+        "summary": "Space Force considering options: public-private, federal installation, state land.",
+        "date": "2026-10-23T19:33:58+00:00",
+        "publisher": "Ars Technica - All content"
+      },
+      {
+        "url": "https://arstechnica.com/gadgets/2026/10/spotify-ramps-up-policy-enforcement-on-family-plans/",
+        "reason": "outside_channel_scope",
+        "title": "Spotify ramps up policy enforcement on family plans",
+        "summary": "If you share Spotify sub with family, you may need to scan QR code to prove it.",
+        "date": "2026-10-23T19:20:27+00:00",
+        "publisher": "Ars Technica - All content"
+      },
+      {
+        "url": "https://arstechnica.com/science/2026/10/crows-can-evaluate-visual-info-twice-as-fast-as-mammals/",
+        "reason": "outside_channel_scope",
+        "title": "Crows can evaluate visual info twice as fast as mammals",
+        "summary": "Birds' compact nervous system seems to help them handle tasks very quickly.",
+        "date": "2026-10-23T17:32:58+00:00",
+        "publisher": "Ars Technica - All content"
+      },
+      {
+        "url": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
+        "reason": "outside_channel_scope",
+        "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
+        "summary": "Company says foreign-made robotic vehicles are crucial to US chip production.",
+        "date": "2026-10-23T17:18:31+00:00",
+        "publisher": "Ars Technica - All content"
+      },
+      {
+        "url": "https://arstechnica.com/health/2026/10/rfk-jr-s-vaccine-injury-clinic-could-damage-nih-hospital-board-warns/",
+        "reason": "outside_channel_scope",
+        "title": "RFK Jr.’s vaccine injury clinic could damage NIH hospital, board warns",
+        "summary": "\"Trust is slow to build and quick to lose,\" board chair Jack Leslie said.",
+        "date": "2026-10-23T16:58:39+00:00",
+        "publisher": "Ars Technica - All content"
+      },
+      {
+        "url": "https://arstechnica.com/tech-policy/2026/10/knicks-sent-employees-fake-offer-of-championship-rings-in-phishing-test-report/",
+        "reason": "outside_channel_scope",
+        "title": "Knicks sent employees fake offer of championship rings in phishing test: Report",
+        "summary": "Corporate phishing tests are common, but this one was especially cruel.",
+        "date": "2026-10-23T16:51:59+00:00",
+        "publisher": "Ars Technica - All content"
+      },
+      {
+        "url": "https://arstechnica.com/gaming/2026/10/everybody-panic-a-valve-developer-said-hlx-in-public/",
+        "reason": "outside_channel_scope",
+        "title": "Everybody panic: A Valve developer said \"HLX\" in public",
+        "summary": "Sound designer lets Half Life-related codename slip at a conference.",
+        "date": "2026-10-23T16:35:00+00:00",
+        "publisher": "Ars Technica - All content"
+      },
+      {
+        "url": "https://arstechnica.com/tech-policy/2026/10/safety-concerns-cloud-americas-flagship-nuclear-restart/",
+        "reason": "outside_channel_scope",
+        "title": "The reactor meant to showcase nuclear’s comeback keeps hitting problems",
+        "summary": "A contractor fell into a reactor cavity and a bundle of fuel rods almost fell over.",
+        "date": "2026-10-23T13:43:21+00:00",
+        "publisher": "Ars Technica - All content"
+      },
+      {
+        "url": "https://arstechnica.com/gadgets/2026/10/ukraine-learns-to-fight-without-starlink-as-musk-plays-politics-with-satellites/",
+        "reason": "outside_channel_scope",
+        "title": "Ukraine learns to fight without Starlink as Musk plays politics with satellites",
+        "summary": "Ukraine has changed drone and war-fighting tech to reduce reliance on Starlink.",
+        "date": "2026-10-23T11:30:22+00:00",
+        "publisher": "Ars Technica - All content"
+      },
+      {
+        "url": "https://arstechnica.com/culture/2026/10/review-crystal-lake-suffers-a-bit-from-its-obsession-with-pam-voorhees/",
+        "reason": "outside_channel_scope",
+        "title": "Review: Crystal Lake suffers a bit from its obsession with Pam Voorhees",
+        "summary": "Friday the 13th prequel series based on Jason’s mom drags at first, then hits a vein.",
+        "date": "2026-10-23T11:15:03+00:00",
+        "publisher": "Ars Technica - All content"
+      },
+      {
+        "url": "https://arstechnica.com/space/2026/10/rocket-report-spacex-says-no-thanks-to-military-launches-spanish-rocket-nearly-ready/",
+        "reason": "outside_channel_scope",
+        "title": "Rocket Report: SpaceX says no thanks to military launches; Spanish rocket nearly ready",
+        "summary": "\"We believe Canada should be able to reach orbit on its own terms.\"",
+        "date": "2026-10-23T11:00:57+00:00",
+        "publisher": "Ars Technica - All content"
+      },
+      {
+        "url": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/",
+        "reason": "outside_channel_scope",
+        "title": "Switch 2 security takes a hit as hackers unlock homebrew access",
+        "summary": "\"Userland\" exploit relies on integer overflow found in \"SmileBasic\" interpreter.",
+        "date": "2026-10-22T22:25:33+00:00",
+        "publisher": "Ars Technica - All content"
+      },
+      {
+        "url": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/",
+        "reason": "outside_channel_scope",
+        "title": "Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%",
+        "summary": "Markers released top-line results today after previously reporting the trial succeeded.",
+        "date": "2026-10-22T22:12:19+00:00",
+        "publisher": "Ars Technica - All content"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB4MU45QWt2d0RsUjlYejd2MndPVGxkQ2VTTzY4cFVYRElRckM3djZUajBqZDNSQjdnQzRkRTNXb0Y5VlpHNzcwQ3RCQml1aTVXVERaSjBFaU1BZVV6cHkzaGVUdmswcjJScUhTbGF1aEt0RldJdVlR?oc=5",
+        "reason": "outside_channel_scope",
+        "title": "Vd:n om Alex Karps köp: ”Väckte en del uppmärksamhet” - EFN",
+        "summary": "Vd:n om Alex Karps köp: ”Väckte en del uppmärksamhet” EFN",
+        "date": "2026-10-23T19:53:25+00:00",
+        "publisher": "EFN"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVUhSSEJTdFZHTHZTWXp3NEhWcVRtZlpGZHZ1anZhNW0yNkYxb0RmMURaV2hrSmxWaHE4U2ptYU9DTkt4LURnSGw5NE5idEQ5Z3F5Vk1aNVZCSjZ4WUFMVkVzQXhzVGNlWENkX3hUdVdGcmJoZHBnLWxueTBDVHhnYUJQNDFmcENvMVE?oc=5",
+        "reason": "missing_information_supply_context",
+        "title": "NATO använder militär AI; USA, Tyskland och Frankrike förblir försiktiga. - Vietnam.vn",
+        "summary": "NATO använder militär AI; USA, Tyskland och Frankrike förblir försiktiga. Vietnam.vn",
+        "date": "2026-10-24T06:56:06+00:00",
+        "publisher": "Vietnam.vn"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTDg3MTRvSmtLUmhSaGhYOWliM2dxQWdDbkE3UVBoM0Jka1hlNHpPaHBabVlKZ1d6TkVjcmVYVDNaZ0plTjl5TzdWeHg4dW9FUXVTUGYwUzZ2YUdlMnNUZnBoWmJ6R0pVcW1kR044Q0pBelA5c09SSllfSWxqQUJMUTNFUHdZYkNmU3IzbHo3U3hKR2syTm54UQ?oc=5",
+        "reason": "market_speculation_without_information_supply_context",
+        "title": "Palantir får elitpartner och utökar AI-marknadsföringen: Kan PLTR återfå uppåtgående momentum? - Traders Union",
+        "summary": "Palantir får elitpartner och utökar AI-marknadsföringen: Kan PLTR återfå uppåtgående momentum? Traders Union",
+        "date": "2026-10-23T14:48:39+00:00",
+        "publisher": "Traders Union"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNd2J6Zm5aZm1TVFBrZVhyb2s0WmgteHVkajJFWEpFR0h5V1hlTHRCaXEyZlRVSDV2a3RPY1RjbmMxby1TbkFpcE1ESi1wN2lwdlNPenVSSEFSdUlBTW5GcHZyejNQSnZ0MHdXU0EzVVNIRHFOektzN3B2N1ZVZzZ3S3N6dXVVTW54YXBfcDFxeTFHQQ?oc=5",
+        "reason": "missing_information_supply_context",
+        "title": "Man på Gotland misstänks för AI-barnpornografibrott - Sveriges Radio",
+        "summary": "Man på Gotland misstänks för AI-barnpornografibrott Sveriges Radio",
+        "date": "2026-10-23T06:11:56+00:00",
+        "publisher": "Sveriges Radio"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSUluQWlrN2UyREc2bC1ndlRwbDBqcjF2U1VCb3B1N05GU0JSNFpfNmNSM0lub2NfRkRDUjdBWmxNbktuN2V6NUtGTmNFWHU1QkU4Q2U1ci1ENW1QZktDMDlrVFNJQ2VCS0ltR25seW81S2YxbHFFWGY3MUU4ekFDZzN4SDBMYTFIM0s0WHk3ZFo4dkN1Z2diN0FpbjJvbnc5XzZwenZyTnl2OFJZaFp0eUdKQUVKZw?oc=5",
+        "reason": "outside_channel_scope",
+        "title": "Dong Thap provinsiella partikommitté är en pionjär när det gäller att tillämpa IPv6 i sitt system för onlinevideokonferenser. - Vietnam.vn",
+        "summary": "Dong Thap provinsiella partikommitté är en pionjär när det gäller att tillämpa IPv6 i sitt system för onlinevideokonferenser. Vietnam.vn",
+        "date": "2026-10-24T03:33:17+00:00",
+        "publisher": "Vietnam.vn"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQampwQTJVVUtvUm92WEdwWGNZV2ZpaTJ4OFhLamI0NHpfNk1VVmRXZHhMNDlXS2RWUVdQMV9oa1pNRTVfNjRoeVlBR2ZzYUxFUDE0SUZDUDdYY2NHdHFfNG1qS1g4YnotXzlkWW5PZzRqSjZhUHl1R1FXOFRXdHg4TE1SYWRsZ1VLWUxmb2FXQU1UajRhWVJiVi1xblQ?oc=5",
+        "reason": "outside_channel_scope",
+        "title": "Lyckad totalförsvarsövning i Västerbotten - polisen.se",
+        "summary": "Lyckad totalförsvarsövning i Västerbotten polisen.se",
+        "date": "2026-10-23T07:40:54+00:00",
+        "publisher": "polisen.se"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdU92RmpJaDlkV2hTaHQ3OEdKai03SDhrV0p4ZFlzTHd2N0FkSEd2Um9iN1E5T0pxdEFhVnNlVWQ3VzJZNDB5NHBGZFR6bUJXWFhXMmNXYjdGeW05Y3RhLTRyUUdQVV95emtPQ0pNQTBQblc4ejQ4UzhjVmc2Wl8xTFh3N1Jwbm9TTVNIYVBmRnN6VDZxQzIwZmotQTE0Ukk?oc=5",
+        "reason": "outside_channel_scope",
+        "title": "Penetrationstestare inom embedded-system - polisen.se",
+        "summary": "Penetrationstestare inom embedded-system polisen.se",
+        "date": "2026-10-23T03:43:22+00:00",
+        "publisher": "polisen.se"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbFlOaV8wTlQ0NEJJNl9ZWXBWMUk5bUlVcEJRWDZPbnBCUXMwSXk2ZzU1YVpZQXYtUFNFbXA5SHZSbnNwanlEX0dXbHhVdEVrM3pwYlVWZi1ISXo4Mjdqd3RvdGd1NVVUd3NJMVZtM0Z0a2tFVFhJNGV1cktieklQTFhUOEZ0Tk0?oc=5",
+        "reason": "outside_channel_scope",
+        "title": "Arbetsmiljöspecialist - polisen.se",
+        "summary": "Arbetsmiljöspecialist polisen.se",
+        "date": "2026-10-23T19:42:58+00:00",
+        "publisher": "polisen.se"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYzRkeHRGNWxjUGYtWlJjOEttanBVTkJXeDJBODEtU3kyWkZVenlXTWdGS1BRaDJjWFlVZW5Jd25FdzZoLVdJTGoza1dTLVAzaVpFQ1dYYVpMYlU2a2JUYzBkeE5mVlZHenhsdEx3MTJTVUwzaXhxaGQzWF91YUJTanpROUg3QlBBdFpKWV9uS2psV2NFTnc?oc=5",
+        "reason": "outside_channel_scope",
+        "title": "Gruppchefer till Rättsavdelningen - polisen.se",
+        "summary": "Gruppchefer till Rättsavdelningen polisen.se",
+        "date": "2026-10-23T19:42:58+00:00",
+        "publisher": "polisen.se"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOU25qeE9UTTZoSnNyTWx6aGtseXdGeFl3T0RWRGoxQ3hocUgwaUd3TlNOU2M2VmZ1S21XUHNyY3Q4cS1UaDloRmYxVVlOT3VhTmdvSE16S1JSekhQSTlYYjBpWVlHRkc4eXNSeU95cnlMNFQwbkFOa0JHcTdIWmxxVVdBODZKR3gzWUVfeXFmQTZHbHlWbzFvMlJESnlJTncyT09mREt4QnMtdw?oc=5",
+        "reason": "outside_channel_scope",
+        "title": "Gruppchef till Kamerateknikgrupp i Örebro - polisen.se",
+        "summary": "Gruppchef till Kamerateknikgrupp i Örebro polisen.se",
+        "date": "2026-10-23T14:13:06+00:00",
+        "publisher": "polisen.se"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBmX3BTXzl3M3drQllWV2hEMU9Rb192UlkzSDlieEpaVTNqT0NSOThXRXFXV0NPTWNmNGNmQXJnTlRrWVlYMk5vOTBwbWpZTmlMRVZIMmIwcDB0TXlsd25ZMjZHdVdOMExsTkJHWnE4MzA4Zw?oc=5",
+        "reason": "outside_channel_scope",
+        "title": "EUROPEISKA KOMMISSIONEN REFERENSNUMMER: DG(SANTE)/2016-6239-RS I denna interimistiska rapport redovisas de huvudsakliga resultat - European Commission",
+        "summary": "EUROPEISKA KOMMISSIONEN REFERENSNUMMER: DG(SANTE)/2016-6239-RS I denna interimistiska rapport redovisas de huvudsakliga resultat European Commission",
+        "date": "2026-10-24T08:11:55+00:00",
+        "publisher": "European Commission"
+      }
+    ],
+    "discussion_signals": [],
+    "confirmed_discovery_exclusions": [],
+    "verified_date_exclusions": [
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/keeping-pace-e-evidence-new-report-examines-europes-digital-forensic-capabilities",
+        "reason": "verified_publication_before_window",
+        "date": "2026-10-16T09:16:56+00:00",
+        "date_precision": "timestamp",
+        "publication_evidence": {
+          "page_published_at": "2026-10-16T09:16:56+00:00",
+          "page_sha256": "f4cbc6ba9f529207deaec4eef16f0f29542dacbca0bc6dfc6700d76a263e40c5",
+          "extraction_method": "europol_public_article_payload",
+          "retrieved_at": "2026-10-25T02:16:41.934525+00:00"
+        }
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/teenager-suspected-of-leading-killsec-ransomware-group-law-enforcement-seizes-servers-and-leak-site",
+        "reason": "verified_publication_before_window",
+        "date": "2026-10-01T13:00:29+00:00",
+        "date_precision": "timestamp",
+        "publication_evidence": {
+          "page_published_at": "2026-10-01T13:00:29+00:00",
+          "page_sha256": "5ea96ef51b68086b2e3306386011204871b3e18bef1e4bcf5d16fc989a7047b2",
+          "extraction_method": "europol_public_article_payload",
+          "retrieved_at": "2026-10-25T02:16:41.934776+00:00"
+        }
+      }
+    ],
+    "resolved_duplicate_aliases": [],
+    "fallback_scope": {
+      "input_count": 0,
+      "accepted_count": 0,
+      "rejected": []
+    }
+  },
+  "collection_evidence": {
+    "state": "ready",
+    "failed_discovery_urls": [],
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "subscription_exclusions": [],
+    "channel": "ibat",
+    "discovery": {
+      "channel": "ibat",
+      "date": "2026-10-25",
+      "feeds": [
+        {
+          "url": "https://www.theregister.com/security/headlines.atom",
+          "entries": 50,
+          "accepted": 6,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/rss.xml",
+          "entries": 100,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&categories=1334&filterByType=FilterablePageBase&rootPage=0",
+          "entries": 99,
+          "accepted": 10,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.europol.europa.eu/rss.xml",
+          "entries": 10,
+          "accepted": 10,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "entries": 31,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://feeds.arstechnica.com/arstechnica/index",
+          "entries": 20,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Palantir%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 3,
+          "accepted": 3,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22open%20source%20intelligence%22%20OR%20OSINT%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22law%20enforcement%22%20%28AI%20OR%20%22data%20platform%22%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Polismyndigheten%20%28digitalisering%20OR%20informationsf%C3%B6rs%C3%B6rjning%20OR%20AI%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 1,
+          "accepted": 1,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%28Europol%20OR%20Interpol%29%20%28AI%20OR%20analytics%20OR%20%22information%20sharing%22%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%28myndighet%20OR%20myndigheter%29%20%28datadelning%20OR%20informationsdelning%20OR%20interoperabilitet%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 1,
+          "accepted": 1,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%28%22AI%20agents%22%20OR%20RAG%20OR%20%22knowledge%20graph%22%29%20%28%22public%20sector%22%20OR%20government%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22AI%20Act%22%20%28policing%20OR%20%22data%20protection%22%20OR%20%22law%20enforcement%22%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22digital%20forensics%22%20OR%20%22intelligence%20analysis%22%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=totalf%C3%B6rsvar%20%28myndighetssamverkan%20OR%20informationsdelning%20OR%20teknik%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 1,
+          "accepted": 1,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%28AI%20OR%20OSINT%20OR%20%22graph%20analytics%22%29%20%22public%20safety%22%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Apolisen.se%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 4,
+          "accepted": 4,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aeuropol.europa.eu%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aec.europa.eu%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 2,
+          "accepted": 1,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aimy.se%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Adigg.se%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 2,
+          "accepted": 1,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Abra.se%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Anist.gov%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aedpb.europa.eu%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        }
+      ],
+      "web_candidates": 0,
+      "original_fallback": {
+        "sources_checked": 6,
+        "candidates": 0,
+        "excluded": 17,
+        "sources": [
+          {
+            "domain": "polisen.se",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "europol.europa.eu",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "ec.europa.eu",
+            "status": "REACHABLE_NO_CURRENT",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "imy.se",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "digg.se",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "bra.se",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          }
+        ]
+      },
+      "candidate_count": 92,
+      "scope": "discovery_only_not_factual_approval"
+    },
+    "checked_at": "2026-10-25T02:16:50.954021+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  }
+}
