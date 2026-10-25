@@ -1,0 +1,57 @@
+{
+  "approved": true,
+  "reviewer": "ChatGPT Work, separate editorial self-review",
+  "source_ids": [
+    "S2",
+    "S3",
+    "S5"
+  ],
+  "summary": "Upptäckt, samordning och förebyggande arbete granskas genom skillnaden mellan mål, genomförda åtgärder, gripanden och långsiktig effekt. Osäkerheter och utvärderingsbehov redovisas.",
+  "claims": [
+    {
+      "claim": "Grimmstart april2025; analys, informationsdelning, samordning, kartläggning och teknikföretagssamarbete.",
+      "source_ids": [
+        "S5"
+      ],
+      "status": "verified",
+      "locator": "Duration; Objectives"
+    },
+    {
+      "claim": "Första årets280gripna, över14000konton och över1417identifierade individer.",
+      "source_ids": [
+        "S5"
+      ],
+      "status": "verified",
+      "locator": "Key figures from the first year"
+    },
+    {
+      "claim": "Polisens redovisning29april2026 bekräftar första årets280gripanden och kontoarbete.",
+      "source_ids": [
+        "S3"
+      ],
+      "status": "verified",
+      "locator": "full publication"
+    },
+    {
+      "claim": "Brå lyfter nätverkskapacitet, barns utsatthet, utvärdering, målgruppsanpassning, informationsdelning och tidsfönster.",
+      "source_ids": [
+        "S2"
+      ],
+      "status": "verified",
+      "locator": "Brås bedömning; Minska barns utsatthet"
+    }
+  ],
+  "analysis_marked": [
+    "Åtgärd skiljs från effekt och identifierade från dömda",
+    "Tre nivåer för att bryta kedjan och exempel på uppföljningsfrågor är uttryckligen seriens analys"
+  ],
+  "limits": [
+    "Ingen långsiktig effekt eller antal förhindrade dåd uppfinns",
+    "Brås2023förslag ommärks inte till dagens lag eller verifierad metod",
+    "Inga brotts-/kringgåendedetaljer eller individbedömningar"
+  ],
+  "repetition_review": "Syntes fokuserar på acceptans, mätning och effekt; bara kort återkoppling till seriens teman.",
+  "independent_human_review": false,
+  "package_sha256": "ed9dae422bb942614e948c97c4440514bb5cad73311f7f9b09196a15db7be994",
+  "reviewed_at": "2026-10-25T10:50:15.456335+00:00"
+}
