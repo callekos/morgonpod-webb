@@ -61,6 +61,12 @@
           "small": "assets/channels/mediesvepet-small.webp?v=1",
           "square": "assets/channels/mediesvepet-square.webp?v=1",
           "focal": "48% 50%"
+        },
+        "vald_kunskap": {
+          "wide": "assets/channels/vald_kunskap.webp?v=1",
+          "small": "assets/channels/vald_kunskap-small.webp?v=1",
+          "square": "assets/channels/vald_kunskap-square.webp?v=1",
+          "focal": "50% 65%"
         }
       }
     },
@@ -409,6 +415,12 @@
           "small": "assets/design-lab/06-film/mediesvepet-small.webp?v=1",
           "square": "assets/design-lab/06-film/mediesvepet-square.webp?v=1",
           "focal": "50% 52%"
+        },
+        "vald_kunskap": {
+          "wide": "assets/channels/vald_kunskap.webp?v=1",
+          "small": "assets/channels/vald_kunskap-small.webp?v=1",
+          "square": "assets/channels/vald_kunskap-square.webp?v=1",
+          "focal": "50% 65%"
         }
       }
     },
@@ -1213,4 +1225,3 @@
   ],
   "planned": []
 };if(typeof module==='object'&&module.exports)module.exports=data;else root.ChannelArtManifest=data;})(typeof window!=='undefined'?window:this);
-

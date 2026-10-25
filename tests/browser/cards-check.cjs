@@ -9,7 +9,7 @@ exports.cardsCheck=async({page},info)=>{
  };
  for(const width of [320,393,768,1450]){
   await page.setViewportSize({width,height:1000});await page.goto('idag.html');await expect(page.locator('[data-group=monitoring] .channel-card')).toHaveCount(4);await expect(page.locator('[data-group=monitoring] .knowledge-card')).toHaveCount(0);
-  expect(await page.locator('[data-group=monitoring] .home-channels').evaluate(n=>getComputedStyle(n).gridTemplateColumns.split(' ').length)).toBe(2);
+  await expect.poll(()=>page.locator('[data-group=monitoring] .home-channels').evaluate(n=>getComputedStyle(n).gridTemplateColumns.split(' ').length)).toBe(2);
   await checkList(page.locator('[data-group=knowledge]'));await page.locator('#nav').getByRole('link',{name:'Kanaler',exact:true}).click();for(const type of ['monitoring','knowledge'])await checkList(page.locator('[data-group='+type+']'),manifest.channels.filter(c=>c.channel_type===type).length);
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);if(width===320||width===1450)await page.screenshot({path:'docs/evidence/'+info.project.name+'-cards-39-'+width+'.png',fullPage:true});
  }

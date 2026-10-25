@@ -6,6 +6,7 @@ test('navigation, expandable episodes, bounded requests and persistent player',a
  await expect(page.getByRole('heading',{name:'Lyssna',exact:true})).toBeVisible();
  await page.locator('summary').first().click();await expect(page.getByRole('heading',{name:'Om avsnittet'})).toBeVisible();
  await page.getByRole('button',{name:'Spela avsnittet'}).click();await expect(page.locator('#player')).toBeVisible();
+ await expect(page.locator('#audio')).toHaveAttribute('src',/\.mp3(?:\?.*)?$/);
  const src=await page.locator('#audio').getAttribute('src');
  await page.getByRole('link',{name:'Artiklar',exact:true}).click();await expect(page.getByRole('heading',{name:'Artiklar',exact:true})).toBeVisible();
  await expect(page.locator('#audio')).toHaveAttribute('src',src);
@@ -60,6 +61,7 @@ test('player can minimize and restore without stopping audio',async({page})=>{
  await page.locator('summary').first().click();
  await page.getByRole('button',{name:'Spela avsnittet'}).click();
  await expect(page.locator('#player')).toBeVisible();
+ await expect(page.locator('#audio')).toHaveAttribute('src',/\.mp3(?:\?.*)?$/);
  const source=await page.locator('#audio').getAttribute('src');
  // Mobile deliberately starts compact. Expand first, then test both transitions.
  const expand=page.getByRole('button',{name:'Visa hela spelaren',exact:true});
