@@ -1,0 +1,49 @@
+{
+  "approved": true,
+  "reviewer": "ChatGPT Work, separate editorial self-review pass",
+  "independent_human_review": false,
+  "package_sha256": "09b802db4e6eec13f79193c3244dee9e1b46d9701275a4aad248e6fb967066e4",
+  "reviewed_at": "2026-10-25T06:26:03.200718+00:00",
+  "claims": [
+    {
+      "claim": "Brottslighet som tjänst är en bredare modell; våldstjänster behandlas som en delmängd i kanalen.",
+      "source_ids": [
+        "S1"
+      ],
+      "status": "verified",
+      "locator": "printed pages18,30-32; subset wording is explicit editorial scope"
+    },
+    {
+      "claim": "Beställare och utförare kan vara åtskilda; digital förmedling och risk för utomstående.",
+      "source_ids": [
+        "S1"
+      ],
+      "status": "verified",
+      "locator": "printed page32"
+    },
+    {
+      "claim": "Brå beskriver relationer, hot och skulder, inte en populationsskattning av köpta våldsuppdrag.",
+      "source_ids": [
+        "S2"
+      ],
+      "status": "verified",
+      "locator": "summary, network structure and methods"
+    },
+    {
+      "claim": "Grimm startade april2025, 280 gripanden första året enligt redovisning april2026.",
+      "source_ids": [
+        "S3"
+      ],
+      "status": "verified",
+      "locator": "lead and OTF Grimm i siffror"
+    }
+  ],
+  "limits": [
+    "No invented scenes or named suspects",
+    "No instructions for committing crimes",
+    "No market size inferred from arrests",
+    "No claim of independent audio review yet",
+    "641 words, target approximately five minutes according to explicit owner order; legacy20-40minute intro contract is not changed"
+  ],
+  "repetition_review": "No repeated factual rundown. Final list previews approved topics without treating them as established findings."
+}

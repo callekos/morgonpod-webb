@@ -1,0 +1,27 @@
+{
+  "approved": true,
+  "audio_sha256": "fdf3c732d4ed1de57c194f7bd4c13e446004e6200d9aa6ccc5a45e89e4bf8829",
+  "manuscript_sha256": "ef644d66fcf7fe67675f0db27f925bf48dde9d6095373c4dada4af39e38b94f8",
+  "method": "Work editorial review of full actual-audio ASR transcript plus segment integrity and full decoding",
+  "human_listening": false,
+  "asr_model": "faster-whisper-small-cpu-int8-sv",
+  "word_alignment_ratio": 0.9687,
+  "duration_seconds": 289.416,
+  "sections_complete": true,
+  "repeated_rundown_absent": true,
+  "ending_complete": true,
+  "key_facts_checked": [
+    "SOCTA2025",
+    "Brå2023",
+    "Grimm april2025",
+    "reported280 arrests april2026, not convictions or total market size",
+    "seven follow-up topics"
+  ],
+  "limitations": [
+    "ASR renders some proper names and English terms imperfectly; transcript is auxiliary evidence, not a replacement script. No independent human listening claimed."
+  ],
+  "target_minutes": [
+    4,
+    6
+  ]
+}
