@@ -31,7 +31,7 @@ test('published groups, film default, shared filters and approved episode titles
  for(const type of ['monitoring','knowledge']){
   const expected=manifest.channels.filter(c=>c.channel_type===type);const group=page.locator('.home-channel-groups [data-group='+type+']');
   await expect(group.locator('.channel-card')).toHaveCount(Math.min(expected.length,4));await expect(group.locator('.group-all')).toHaveCount(expected.length>4?1:0);
-  expect(await group.locator('img').evaluateAll(nodes=>nodes.every(n=>n.getAttribute('src').includes('/06-film/')&&!n.getAttribute('src').includes('-master')))).toBe(true);
+  expect(await group.locator('.channel-card').evaluateAll(cards=>cards.every(card=>{const id=new URL(card.href).searchParams.get('id');const src=card.querySelector('img').getAttribute('src')||'';return id==='vald_kunskap'?src.includes('assets/channels/vald_kunskap.webp'):src.includes('/06-film/')&&!src.includes('-master');}))).toBe(true);
  }
  await page.goto('kanaler.html?group=knowledge');await expect(page.locator('.channel-card')).toHaveCount(manifest.channels.filter(c=>c.channel_type==='knowledge').length);await expect(page.locator('.channel-group')).toHaveCount(1);await page.reload();await expect(page.locator('[data-group=knowledge]')).toBeVisible();
  await page.getByRole('link',{name:'Bevakningskanaler',exact:true}).click();await expect(page).toHaveURL(/group=monitoring/);await page.goBack();await expect(page).toHaveURL(/group=knowledge/);
