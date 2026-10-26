@@ -1,0 +1,809 @@
+{
+  "channel": "kek",
+  "date": "2026-10-26",
+  "schema": 2,
+  "corroboration_method": "distinct_hosts_not_proof_of_independence",
+  "received": 0,
+  "unique_urls": 0,
+  "identified_events": 0,
+  "selected_articles": 0,
+  "selected_events": 0,
+  "unique_domains": 0,
+  "max_items": 40,
+  "gemini_calls": 0,
+  "decisions": [],
+  "rejected": [],
+  "identified_events_are_estimates": true,
+  "review_source_count": 0,
+  "channel_scope": {
+    "input_count": 50,
+    "accepted_count": 0,
+    "rejected": [
+      {
+        "url": "https://www.occrp.org/en/news/sri-lanka-records-zero-prosecutions-amid-online-scam-surge",
+        "reason": "outside_channel_scope",
+        "title": "Sri Lanka Records Zero Prosecutions Amid Online Scam Surge",
+        "summary": "As criminal syndicates flee crackdowns in Southeast Asia, Sri Lankan police have detained over 1,000 foreign fraud suspects this year—yet an outdated legal code has left authorities unable to secure a single conviction.",
+        "date": "2026-10-25T03:30:00+00:00",
+        "publisher": "OCCRP"
+      },
+      {
+        "url": "https://www.occrp.org/en/news/chinese-scam-boss-murdered-in-sri-lanka-had-multiple-identities",
+        "reason": "outside_channel_scope",
+        "title": "Chinese Scam Boss Murdered in Sri Lanka Had Multiple Identities",
+        "summary": "An investigation into the abduction and murder of a Chinese cyber scam boss uncovers his shadow identities and how he was operating across borders without consequence.",
+        "date": "2026-10-25T03:30:00+00:00",
+        "publisher": "OCCRP"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/utrikes/lula-omvald-i-brasiliens-presidentval",
+        "reason": "outside_channel_scope",
+        "title": "Lula omvald i Brasiliens presidentval",
+        "summary": "Brasiliens president Lula da Silva vinner presidentvalets andra omgång och han blir därmed omvald.",
+        "date": "2026-10-26T00:39:39+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/tyngdlyftning/joen-vikingsson-sjoblom-efter-rysslandsbeskedet-inte-forvanad",
+        "reason": "outside_channel_scope",
+        "title": "Joen Vikingsson Sjöblom efter Rysslandsbeskedet: ”Inte förvånad”",
+        "summary": "Joen Vikingsson Sjöblom, 23, drömmer om OS. För att nå dit kan han behöva åka till Ryssland – som tilldelats VM i tyngdlyftning 2030. – Det är tyvärr ett pris man måste betala, säger tyngdlyftaren till SVT Sport.",
+        "date": "2026-10-25T18:18:30+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/gymnastik/david-rumbutis-skrev-svensk-gymnastikhistoria-under-vm",
+        "reason": "outside_channel_scope",
+        "title": "David Rumbutis skrev svensk gymnastikhistoria under VM",
+        "summary": "David Rumbutis har skrivit in sig i den svenska gymnastikhistorien. Under VM i Rotterdam nådde 26-åringen grenfinal i barr – som den förste svenske gymnasten någonsin inom manlig artistisk gymnastik. – Stort grattis till honom, utbrister kommentatorerna när svensken inledde sin serie.",
+        "date": "2026-10-25T16:01:28+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/utrikes/arvet-efter-franska-revolutionen-lever",
+        "reason": "outside_channel_scope",
+        "title": "”Arvet efter franska revolutionen lever”",
+        "summary": "Är det något man har med sig från franska revolutionen i Frankrike är det att folket kan störta ett helt system. Fransmännen vet detta och det vet även den franska staten.",
+        "date": "2026-10-25T15:53:49+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/fotboll/fina-gesten-ger-bort-straffen-till-svenska-lagkamraten",
+        "reason": "outside_channel_scope",
+        "title": "Fina gesten – Cornelia Kapocs ger bort straffen till Beata Olsson",
+        "summary": "Alla trodde Cornelia Kapocs skulle ta chansen att ge Liverpool ledningen på straff. Men gav osjälviskt över straffen till svenska lagkamraten Beata Olsson – som sköt sitt andra mål för säsongen.",
+        "date": "2026-10-25T14:45:36+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/volleyboll/isabelle-haaks-drominsats-hyllas-efter-supercuptiteln-prinsessa",
+        "reason": "outside_channel_scope",
+        "title": "Isabelle Haaks dröminsats – hyllas efter supercuptiteln: ”Prinsessa”",
+        "summary": "Isabelle Haak, 27, kunde inte ha önskat sig en bättre start på säsongen. Den svenska volleybollstjärnan briljerade när hennes Conegliano vann den italienska supercupen. – Väldigt skönt, säger Haak till SVT Sport.",
+        "date": "2026-10-25T13:59:08+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/uppsala/misstankt-grovt-brott-i-uppsala-52gsu6",
+        "reason": "outside_channel_scope",
+        "title": "Uppgifter: Misstänkt könsstympning i Uppsala – en anhållen",
+        "summary": "Anledningen till den stora polisinsatsen i Uppsala tidigare i dag var misstanke om könsstympning, enligt uppgifter till SVT. Polisen ska också ha haft span på den aktuella adressen sedan en tid tillbaka. En person har anhållits misstänkt på sannolika skäl för grov misshandel.",
+        "date": "2026-10-25T11:23:12+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/utrikes/terrormisstankt-39-aring-ska-genomga-psykiatrisk-observation",
+        "reason": "outside_channel_scope",
+        "title": "Terrormisstänkt 39-åring ska genomgå ”psykiatrisk observation”",
+        "summary": "Häktningen av den man som misstänks för fredagens skjutning i franska staden Trappes har hävts efter en psykiatrisk undersökning. 39-åringen ska nu genomgå fortsatt observation innan franska myndigheter kan besluta om nästa steg i processen, rapporterar Le Monde.",
+        "date": "2026-10-25T10:43:46+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/fotboll/emil-forsberg-malskytt-mot-messis-inter-miami",
+        "reason": "outside_channel_scope",
+        "title": "Emil Forsberg målskytt mot Messis Inter Miami",
+        "summary": "När Inter Miami spelar brukar Lionel Messi ofta få rubrikerna. Men den här gången hölls han poänglös när Emil Forsberg blev målskytt i New Yorks 2–0-seger.",
+        "date": "2026-10-25T08:40:11+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/ishockey/lukas-wernblom-bet-motstandare-akte-pa-matchstraff",
+        "reason": "outside_channel_scope",
+        "title": "Lukas Wernblom bet motståndare – får lång avstängning",
+        "summary": "Det har blossat upp en smärre skandal i finsk hockey – med en svensk i centrum. TPS-spelaren Lukas Wernblom fick matchstraff när han under lördagen bet sin motståndare. – Det gjorde väldigt ont, säger offret Peetro Seppälä till Iltalehti. Svensken stängs nu av i sex matcher.",
+        "date": "2026-10-25T08:20:15+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/langdskidor/efter-skidmarkenas-bojkott-ryska-akarna-koper-skidor-i-butik",
+        "reason": "outside_channel_scope",
+        "title": "Efter skidmärkenas bojkott – ryska åkarna köper skidor i butik",
+        "summary": "Ett dussin ryska längdskidåkare kommer till start i årets världscup – utan specialtillverkade skidor. Efter invasionen av Ukraina bröt flera skidmärken sina avtal med ryska landslagsåkare, vilket nu kan få sportsliga konsekvenser. – För att tävla internationellt behöver vi få tillbaka den relation som fanns tidigare, säger tränaren Jegor Sorin.",
+        "date": "2026-10-25T07:12:32+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/ishockey/har-far-sidney-crosby-en-small-i-ansiktet-av-domaren",
+        "reason": "outside_channel_scope",
+        "title": "Här får Sidney Crosby en smäll i ansiktet – av domaren",
+        "summary": "Hockeyspelare åker på smällar titt som tätt. Men att det skulle kunna komma från någon av domarna är bra mycket mer sällsynt – vilket överrumplade superstjärnan Sidney Crosby i nattens match mot Nashville. – Kära nån, utbrister kommentatorn.",
+        "date": "2026-10-25T06:44:15+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/inrikes/nu-drar-stormen-in-over-sverige-flera-gula-varningar",
+        "reason": "outside_channel_scope",
+        "title": "Nu drar stormen in över Sverige – flera gula varningar",
+        "summary": "Stormen Boelo drar in över Sverige på söndagen. Regn och hårda vindbyar på över 20 meter per sekund väntas på flera håll i landet. Flera gula varningar har utfärdats av SMHI.",
+        "date": "2026-10-25T05:47:20+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/kultur/filmredaktoren-tipsar-klimat-nazister-monster-och-svensk-kidnappnings-komedi",
+        "reason": "outside_channel_scope",
+        "title": "Filmredaktören tipsar: klimat-nazister, monster och svensk kidnappnings-komedi",
+        "summary": "Vad ska man se på bio när man läslovsläst klart för dagen? Kulturnyheternas filmredaktör tipsar om fem aktuella filmer.",
+        "date": "2026-10-25T05:43:33+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/varmland/strovomrade-i-kil-forandras-upp-till-120-bostader-planeras",
+        "reason": "outside_channel_scope",
+        "title": "Strövområde i Kil förändras – upp till 120 bostäder planeras",
+        "summary": "Ett natur- och strövområde i Kil görs om för bostäder. Norra Kilslund kan rymma upp till 120 hem, med första byggstart hösten 2027.",
+        "date": "2026-10-25T04:30:04+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/sodertalje/sodertalje-forst-i-lanet-med-startklara-polisdronare-pa-taket",
+        "reason": "outside_channel_scope",
+        "title": "Södertälje först i länet med startklara polisdrönare på taket",
+        "summary": "Två drönare är nu utplacerade på polishusets tak i Södertälje. De styrs av en pilot som sitter på Kungsholmen och kan vara i luften på tio sekunder. – Det gör oss mycket snabbare, säger Tommy Dimitrakis, biträdande insatsledare på Södertäljepolisen.",
+        "date": "2026-10-25T04:30:04+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/sormland/sylvia-96-fikar-med-volontarer-for-att-bryta-ensamheten-blir-isolerad-hemma",
+        "reason": "outside_channel_scope",
+        "title": "Sylvia, 96, fikar med volontärer för att bryta ensamheten: ”Blir isolerad hemma”",
+        "summary": "Kaffe och skratt som ekar över generationsgränserna, det står på schemat när volontärerna från plattformen Äldrekontakt fikar med de äldre i Eskilstuna. Målet med träffarna är att minska ensamheten bland äldre. – Jag tycket det är helt fantastiskt att så många människor ställer upp, säger Sylvia Johansson, 96 år.",
+        "date": "2026-10-25T04:30:04+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/vasterbotten/kladkaoset-pa-nus-inte-lost-se-bergen-av-smutstvatt",
+        "reason": "outside_channel_scope",
+        "title": "Klädkaoset på NUS inte löst – se bergen av smutstvätt",
+        "summary": "Klädproblemen på Norrlands universitetssjukhus i Umeå är efter månader fortfarande inte lösta. I omklädningsrummen ligger stora berg av smutsiga personalkläder. Totalt saknas över 130 000 textiler – som inte lämnats in för tvätt.",
+        "date": "2026-10-25T04:30:04+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/27-arrests-and-248-potential-victims-identified-in-action-week-against-labour-exploitation",
+        "reason": "outside_channel_scope",
+        "title": "27 arrests and 248 potential victims identified in action week against labour exploitation",
+        "summary": "Europol, the European Labour Authority (ELA), and 34 participating countries today announced the results of an action week targeting human trafficking for labour exploitation. The operation, part of an EMPACT action led by Sweden, brought together police, border guards, labour and social security inspectorates, and tax authorities to crack down on ",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/5th-empact-hackathon-leads-to-detection-of-51-potential-victims",
+        "reason": "outside_channel_scope",
+        "title": "5th EMPACT Hackathon leads to the detection of 51 potential victims",
+        "summary": "An international operation involving 40 experts and investigators from 20 countries has identified 51 potential victims of human trafficking, as well as five suspects. Held in Amsterdam from 23 to 25 September 2026, the fifth EMPACT Hackathon against the digital aspects of human trafficking brought together police officers, labour authorities and s",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/keeping-pace-e-evidence-new-report-examines-europes-digital-forensic-capabilities",
+        "reason": "outside_channel_scope",
+        "title": "Keeping pace with e-evidence: New report examines Europe’s digital forensic capabilities",
+        "summary": "Coordinated by the European Commission in cooperation with Europol, the analysis draws on stakeholder consultations, dedicated meetings, surveys and contributions from experts at Europol’s European Cybercrime Centre.The findings point to common challenges: investigative tools, resources and expertise are struggling to keep pace with the forms and v",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/european-and-ecuadorian-cooperation-leads-to-20-arrests-in-major-hit-against-drug-trafficking",
+        "reason": "outside_channel_scope",
+        "title": "European and Ecuadorian cooperation leads to 20 arrests in major hit against drug trafficking",
+        "summary": "The operation, codenamed Operation CANTABRIA, underscores the success of strong cooperation between European and Ecuadorian law enforcement agencies, proving that joint efforts are key to tackling transnational criminal networks.Magnus BrunnerEU Commissioner for Internal Affairs and Migration“International cooperation is our greatest strength again",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/almost-50-arrested-police-target-western-balkan-network-linked-to-killings",
+        "reason": "outside_channel_scope",
+        "title": "Almost 50 arrested as police target Western Balkan network linked to killings",
+        "summary": "Nearly 50 suspects have been arrested in an international operation targeting a drug trafficking network with Western Balkan members, linked to killings, kidnappings and grenade attacks across Europe.",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/europol-urges-early-action-to-protect-cryptocurrencies-and-sensitive-data-quantum-threats",
+        "reason": "outside_channel_scope",
+        "title": "Europol urges early action to protect cryptocurrencies and sensitive data from quantum threats",
+        "summary": "The timing of these capabilities remains uncertain. However, this should not be the main concern. Adapting systems and coordinating security upgrades will take time. Therefore, regardless of the nature of the threats that may emerge, crypto-agility should be pursued proactively to ensure that systems can withstand and overcome future threats while ",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/ordering-violence-abroad-five-suspects-arrested-in-spain-morocco-and-france",
+        "reason": "outside_channel_scope",
+        "title": "Ordering violence from abroad: five suspects arrested in Spain, Morocco, and France",
+        "summary": "Five suspects linked to the organisation and recruitment of serious violence have been arrested in Spain, Morocco, and France, in the latest results of the Operational Taskforce (OTF) GRIMM, coordinated by Europol. The arrests in August and September target the upper levels of violence-as-a-service: those suspected of ordering attacks, finding perp",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/teenager-suspected-of-leading-killsec-ransomware-group-law-enforcement-seizes-servers-and-leak-site",
+        "reason": "outside_channel_scope",
+        "title": "Teenager suspected of leading KillSec ransomware group as law enforcement seizes servers and leak site",
+        "summary": "On 30 September 2026, law enforcement took control of KillSec’s leak site, securing at least 110 terabytes of data against further unauthorised access. The cybercrime group used the site to threaten organisations with the publication of stolen files unless they paid a ransom.",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/cannabis-smuggling-north-america-and-thailand-europe-europol-highlights-growing-threat",
+        "reason": "outside_channel_scope",
+        "title": "Cannabis smuggling from North America and Thailand into Europe: Europol highlights growing threat",
+        "summary": "Cannabis smuggling from North America and Thailand in Europe has seen a sharp rise, driven by oversupply in legal markets and the adaptability of organised crime groups. A dedicated Europol Operational Taskforce (OTF) has been established to dismantle the criminal networks behind this evolving threat.",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/eu-law-enforcement-chiefs-gather-to-discuss-new-challenges-in-eu-security",
+        "reason": "outside_channel_scope",
+        "title": "EU law enforcement chiefs gather to discuss new challenges in EU security",
+        "summary": "The Convention was opened by Jürgen Ebner, Europol’s Acting Executive Director, and Justin Kelly, Commissioner of the Irish An Garda Síochána.Jürgen EbnerEuropol Acting Executive DirectorOrganised crime itself has become digital by default. Technology is not just an enabler of criminal activity - it is increasingly driving it. We need strong nation",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Elation across Serbia after veteran ruler Vučić concedes to student-led protest movement",
+        "summary": "The populist right-wing leader of 12 years says it is \"clear\" his party has lost the vote billed as a referendum on the country's future.",
+        "date": "2026-10-26T01:07:05+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/ckpdgy6pl7xlo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Deeply divided Israel braces for pivotal election",
+        "summary": "After three years of regional war, this is a battle Israel always knew was coming, writes Lucy Williamson.",
+        "date": "2026-10-25T22:11:13+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Venezuelan opposition leader María Machado returns after months in exile",
+        "summary": "Machado had left the country just a month before the US government seized Venezuelan President Nicolás Maduro.",
+        "date": "2026-10-25T23:33:14+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
+        "summary": "The tech billionaire accuses Ukraine of violating its terms of service by using the network for military activity.",
+        "date": "2026-10-25T09:00:00+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
+        "summary": "He will be observed to evaluate whether his \"psychiatric health is compatible with pursuing his interrogation\", authorities said.",
+        "date": "2026-10-25T15:32:51+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Israel to close West Bank crossings on election day as crackdown escalates",
+        "summary": "The Israeli Defense Forces announces restrictions on the movement of Palestinian workers in the run-up to Tuesday's election.",
+        "date": "2026-10-25T05:15:52+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c6x2w0ngejneo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Gabon says access to social media restored after eight-month ban",
+        "summary": "The authorities had justified the ban by saying online content was fuelling conflict, while the opposition had condemned it as an abuse of power.",
+        "date": "2026-10-25T14:39:47+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c8ly097zw1xwo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "El Salvador president says bodies found in Haiti are not those of hostages",
+        "summary": "Nayib Bukele says bodies delivered to soldiers are \"not our men\" amid search for Salvadorans abducted last week.",
+        "date": "2026-10-25T10:55:33+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cq1kdlm1ze7do?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Death toll in Nigeria village raided by gunmen rises to 48, police say",
+        "summary": "Unidentified gunmen on motorcycles swooped on a remote village on Friday, looting shops and setting houses ablaze.",
+        "date": "2026-10-25T19:14:27+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Obama attacks Trump as he campaigns for Democrats ahead of midterm elections",
+        "summary": "Obama said the election was \"the last best chance to at least rein in some of the foolishness of this administration\".",
+        "date": "2026-10-25T02:27:15+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "More than 1,300 arrested as clashes follow another day of mass protests across France",
+        "summary": "Hundreds of thousands took part in demonstrations in France, with protests also taking place in other European countries.",
+        "date": "2026-10-25T10:38:15+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cm1dwzvn6227o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Vanessa Trump says she is cancer-free six months after revealing diagnosis",
+        "summary": "The ex-wife of Donald Trump Jr, with whom she shares five children, announced in May that she had been diagnosed with breast cancer.",
+        "date": "2026-10-24T19:12:51+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat",
+        "summary": "Some 200 emergency personnel were deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany.",
+        "date": "2026-10-24T15:21:44+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c6x2355448eyo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Woman, 65, becomes second patient to die of Ebola in Kenya",
+        "summary": "She was a close family member of the first victim, a man who had travelled from the Democratic Republic of Congo.",
+        "date": "2026-10-24T09:46:53+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c670pr1ryxyno?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Australian MP's condition improves after alleged car attack",
+        "summary": "The independent MP is now in a serious but stable condition, according to the Melbourne hospital.",
+        "date": "2026-10-24T01:55:15+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cx62y9j1zyjvo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "From Russian cages to Irish sanctuary: The five-year rescue journey of Bu and Tyapa",
+        "summary": "For Bu and Tyapa, the five-year journey from Russia to the Irish countryside was anything but straightforward.",
+        "date": "2026-10-24T23:02:51+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cv0ld9571511o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Three released without charge after fatal arson attack in Ireland",
+        "summary": "Three people - two women and one man - have been released, and one person remains in custody, gardaí say.",
+        "date": "2026-10-24T09:38:28+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/crgj9ndwvj9jo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_channel_scope",
+        "title": "Father who killed Oregon school gunman describes anguish over children he couldn't save",
+        "summary": "Kaylub Giamanco has been hailed as a hero for killing a teenager who fatally shot three children and a teacher.",
+        "date": "2026-10-23T22:47:07+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/smaland/sa-rorde-sig-bussen-fore-olyckan-minut-for-minut",
+        "reason": "outside_channel_scope",
+        "title": "Så rörde sig bussen före dödsolyckan i Växjö – minut för minut",
+        "summary": "Inom loppet av 20 sekunder körde olycksbussen utanför Växjö ut mot diket, upp på en vall och voltade – sen tar det helt stopp. En ung man omkom och flera skadades svårt.",
+        "date": "2026-10-25T04:30:04+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/ishockey/skelleftea-tystade-umea-rivstartade-mot-bjorkloven",
+        "reason": "outside_channel_scope",
+        "title": "Skellefteå tystade Umeå – rivstartade mot Björklöven",
+        "summary": "Det blev ingen spänning i rivalmötet mellan Björklöven och Skellefteå. Arvid Lundberg inledde målskyttet redan efter 25 sekunder – sedan öste Skellefteå på och vann med hela 8–1. – Overkligt kändes det, säger Lundberg till SVT Sport.",
+        "date": "2026-10-24T15:28:56+00:00",
+        "publisher": "SVT Nyheter"
+      }
+    ],
+    "discussion_signals": [],
+    "confirmed_discovery_exclusions": [],
+    "verified_date_exclusions": [],
+    "resolved_duplicate_aliases": [],
+    "fallback_scope": {
+      "input_count": 20,
+      "accepted_count": 0,
+      "rejected": [
+        {
+          "url": "https://www.svt.se/nyheter/utrikes/lula-omvald-i-brasiliens-presidentval",
+          "reason": "outside_channel_scope",
+          "title": "Lula omvald i Brasiliens presidentval",
+          "summary": "Brasiliens president Lula da Silva vinner presidentvalets andra omgång och han blir därmed omvald.",
+          "date": "2026-10-26T00:39:39+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/sport/tyngdlyftning/joen-vikingsson-sjoblom-efter-rysslandsbeskedet-inte-forvanad",
+          "reason": "outside_channel_scope",
+          "title": "Joen Vikingsson Sjöblom efter Rysslandsbeskedet: ”Inte förvånad”",
+          "summary": "Joen Vikingsson Sjöblom, 23, drömmer om OS. För att nå dit kan han behöva åka till Ryssland – som tilldelats VM i tyngdlyftning 2030. – Det är tyvärr ett pris man måste betala, säger tyngdlyftaren till SVT Sport.",
+          "date": "2026-10-25T18:18:30+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/sport/gymnastik/david-rumbutis-skrev-svensk-gymnastikhistoria-under-vm",
+          "reason": "outside_channel_scope",
+          "title": "David Rumbutis skrev svensk gymnastikhistoria under VM",
+          "summary": "David Rumbutis har skrivit in sig i den svenska gymnastikhistorien. Under VM i Rotterdam nådde 26-åringen grenfinal i barr – som den förste svenske gymnasten någonsin inom manlig artistisk gymnastik. – Stort grattis till honom, utbrister kommentatorerna när svensken inledde sin serie.",
+          "date": "2026-10-25T16:01:28+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/utrikes/arvet-efter-franska-revolutionen-lever",
+          "reason": "outside_channel_scope",
+          "title": "”Arvet efter franska revolutionen lever”",
+          "summary": "Är det något man har med sig från franska revolutionen i Frankrike är det att folket kan störta ett helt system. Fransmännen vet detta och det vet även den franska staten.",
+          "date": "2026-10-25T15:53:49+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/sport/fotboll/fina-gesten-ger-bort-straffen-till-svenska-lagkamraten",
+          "reason": "outside_channel_scope",
+          "title": "Fina gesten – Cornelia Kapocs ger bort straffen till Beata Olsson",
+          "summary": "Alla trodde Cornelia Kapocs skulle ta chansen att ge Liverpool ledningen på straff. Men gav osjälviskt över straffen till svenska lagkamraten Beata Olsson – som sköt sitt andra mål för säsongen.",
+          "date": "2026-10-25T14:45:36+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/sport/volleyboll/isabelle-haaks-drominsats-hyllas-efter-supercuptiteln-prinsessa",
+          "reason": "outside_channel_scope",
+          "title": "Isabelle Haaks dröminsats – hyllas efter supercuptiteln: ”Prinsessa”",
+          "summary": "Isabelle Haak, 27, kunde inte ha önskat sig en bättre start på säsongen. Den svenska volleybollstjärnan briljerade när hennes Conegliano vann den italienska supercupen. – Väldigt skönt, säger Haak till SVT Sport.",
+          "date": "2026-10-25T13:59:08+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/uppsala/misstankt-grovt-brott-i-uppsala-52gsu6",
+          "reason": "outside_channel_scope",
+          "title": "Uppgifter: Misstänkt könsstympning i Uppsala – en anhållen",
+          "summary": "Anledningen till den stora polisinsatsen i Uppsala tidigare i dag var misstanke om könsstympning, enligt uppgifter till SVT. Polisen ska också ha haft span på den aktuella adressen sedan en tid tillbaka. En person har anhållits misstänkt på sannolika skäl för grov misshandel.",
+          "date": "2026-10-25T11:23:12+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/utrikes/terrormisstankt-39-aring-ska-genomga-psykiatrisk-observation",
+          "reason": "outside_channel_scope",
+          "title": "Terrormisstänkt 39-åring ska genomgå ”psykiatrisk observation”",
+          "summary": "Häktningen av den man som misstänks för fredagens skjutning i franska staden Trappes har hävts efter en psykiatrisk undersökning. 39-åringen ska nu genomgå fortsatt observation innan franska myndigheter kan besluta om nästa steg i processen, rapporterar Le Monde.",
+          "date": "2026-10-25T10:43:46+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/sport/fotboll/emil-forsberg-malskytt-mot-messis-inter-miami",
+          "reason": "outside_channel_scope",
+          "title": "Emil Forsberg målskytt mot Messis Inter Miami",
+          "summary": "När Inter Miami spelar brukar Lionel Messi ofta få rubrikerna. Men den här gången hölls han poänglös när Emil Forsberg blev målskytt i New Yorks 2–0-seger.",
+          "date": "2026-10-25T08:40:11+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/sport/ishockey/lukas-wernblom-bet-motstandare-akte-pa-matchstraff",
+          "reason": "outside_channel_scope",
+          "title": "Lukas Wernblom bet motståndare – får lång avstängning",
+          "summary": "Det har blossat upp en smärre skandal i finsk hockey – med en svensk i centrum. TPS-spelaren Lukas Wernblom fick matchstraff när han under lördagen bet sin motståndare. – Det gjorde väldigt ont, säger offret Peetro Seppälä till Iltalehti. Svensken stängs nu av i sex matcher.",
+          "date": "2026-10-25T08:20:15+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/sport/langdskidor/efter-skidmarkenas-bojkott-ryska-akarna-koper-skidor-i-butik",
+          "reason": "outside_channel_scope",
+          "title": "Efter skidmärkenas bojkott – ryska åkarna köper skidor i butik",
+          "summary": "Ett dussin ryska längdskidåkare kommer till start i årets världscup – utan specialtillverkade skidor. Efter invasionen av Ukraina bröt flera skidmärken sina avtal med ryska landslagsåkare, vilket nu kan få sportsliga konsekvenser. – För att tävla internationellt behöver vi få tillbaka den relation som fanns tidigare, säger tränaren Jegor Sorin.",
+          "date": "2026-10-25T07:12:32+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/sport/ishockey/har-far-sidney-crosby-en-small-i-ansiktet-av-domaren",
+          "reason": "outside_channel_scope",
+          "title": "Här får Sidney Crosby en smäll i ansiktet – av domaren",
+          "summary": "Hockeyspelare åker på smällar titt som tätt. Men att det skulle kunna komma från någon av domarna är bra mycket mer sällsynt – vilket överrumplade superstjärnan Sidney Crosby i nattens match mot Nashville. – Kära nån, utbrister kommentatorn.",
+          "date": "2026-10-25T06:44:15+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/inrikes/nu-drar-stormen-in-over-sverige-flera-gula-varningar",
+          "reason": "outside_channel_scope",
+          "title": "Nu drar stormen in över Sverige – flera gula varningar",
+          "summary": "Stormen Boelo drar in över Sverige på söndagen. Regn och hårda vindbyar på över 20 meter per sekund väntas på flera håll i landet. Flera gula varningar har utfärdats av SMHI.",
+          "date": "2026-10-25T05:47:20+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/kultur/filmredaktoren-tipsar-klimat-nazister-monster-och-svensk-kidnappnings-komedi",
+          "reason": "outside_channel_scope",
+          "title": "Filmredaktören tipsar: klimat-nazister, monster och svensk kidnappnings-komedi",
+          "summary": "Vad ska man se på bio när man läslovsläst klart för dagen? Kulturnyheternas filmredaktör tipsar om fem aktuella filmer.",
+          "date": "2026-10-25T05:43:33+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/varmland/strovomrade-i-kil-forandras-upp-till-120-bostader-planeras",
+          "reason": "outside_channel_scope",
+          "title": "Strövområde i Kil förändras – upp till 120 bostäder planeras",
+          "summary": "Ett natur- och strövområde i Kil görs om för bostäder. Norra Kilslund kan rymma upp till 120 hem, med första byggstart hösten 2027.",
+          "date": "2026-10-25T04:30:04+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/sodertalje/sodertalje-forst-i-lanet-med-startklara-polisdronare-pa-taket",
+          "reason": "outside_channel_scope",
+          "title": "Södertälje först i länet med startklara polisdrönare på taket",
+          "summary": "Två drönare är nu utplacerade på polishusets tak i Södertälje. De styrs av en pilot som sitter på Kungsholmen och kan vara i luften på tio sekunder. – Det gör oss mycket snabbare, säger Tommy Dimitrakis, biträdande insatsledare på Södertäljepolisen.",
+          "date": "2026-10-25T04:30:04+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/sormland/sylvia-96-fikar-med-volontarer-for-att-bryta-ensamheten-blir-isolerad-hemma",
+          "reason": "outside_channel_scope",
+          "title": "Sylvia, 96, fikar med volontärer för att bryta ensamheten: ”Blir isolerad hemma”",
+          "summary": "Kaffe och skratt som ekar över generationsgränserna, det står på schemat när volontärerna från plattformen Äldrekontakt fikar med de äldre i Eskilstuna. Målet med träffarna är att minska ensamheten bland äldre. – Jag tycket det är helt fantastiskt att så många människor ställer upp, säger Sylvia Johansson, 96 år.",
+          "date": "2026-10-25T04:30:04+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/vasterbotten/kladkaoset-pa-nus-inte-lost-se-bergen-av-smutstvatt",
+          "reason": "outside_channel_scope",
+          "title": "Klädkaoset på NUS inte löst – se bergen av smutstvätt",
+          "summary": "Klädproblemen på Norrlands universitetssjukhus i Umeå är efter månader fortfarande inte lösta. I omklädningsrummen ligger stora berg av smutsiga personalkläder. Totalt saknas över 130 000 textiler – som inte lämnats in för tvätt.",
+          "date": "2026-10-25T04:30:04+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/smaland/sa-rorde-sig-bussen-fore-olyckan-minut-for-minut",
+          "reason": "outside_channel_scope",
+          "title": "Så rörde sig bussen före dödsolyckan i Växjö – minut för minut",
+          "summary": "Inom loppet av 20 sekunder körde olycksbussen utanför Växjö ut mot diket, upp på en vall och voltade – sen tar det helt stopp. En ung man omkom och flera skadades svårt.",
+          "date": "2026-10-25T04:30:04+00:00",
+          "publisher": "SVT Nyheter"
+        },
+        {
+          "url": "https://www.svt.se/sport/ishockey/skelleftea-tystade-umea-rivstartade-mot-bjorkloven",
+          "reason": "outside_channel_scope",
+          "title": "Skellefteå tystade Umeå – rivstartade mot Björklöven",
+          "summary": "Det blev ingen spänning i rivalmötet mellan Björklöven och Skellefteå. Arvid Lundberg inledde målskyttet redan efter 25 sekunder – sedan öste Skellefteå på och vann med hela 8–1. – Overkligt kändes det, säger Lundberg till SVT Sport.",
+          "date": "2026-10-24T15:28:56+00:00",
+          "publisher": "SVT Nyheter"
+        }
+      ]
+    }
+  },
+  "collection_evidence": {
+    "state": "ready",
+    "failed_discovery_urls": [],
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "subscription_exclusions": [],
+    "channel": "kek",
+    "discovery": {
+      "channel": "kek",
+      "date": "2026-10-26",
+      "feeds": [
+        {
+          "url": "https://www.occrp.org/en/feed",
+          "entries": 60,
+          "accepted": 2,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.occrp.org/en/investigations/feed",
+          "entries": 10,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/rss.xml",
+          "entries": 100,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.europol.europa.eu/rss.xml",
+          "entries": 10,
+          "accepted": 10,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "entries": 32,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=kriminell%20ekonomi%20penningtv%C3%A4tt%20brottsvinster%20Sverige%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=v%C3%A4lf%C3%A4rdsbrott%20ekonomisk%20brottslighet%20organiserad%20brottslighet%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Europol%20money%20laundering%20asset%20recovery%20criminal%20finance%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=economic%20crime%20organized%20crime%20financial%20investigations%20Europe%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aekobrottsmyndigheten.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Apolisen.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Afi.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Askatteverket.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Asvt.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Asverigesradio.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Adi.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aft.com%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        }
+      ],
+      "web_candidates": 0,
+      "original_fallback": {
+        "sources_checked": 6,
+        "candidates": 20,
+        "excluded": 50,
+        "sources": [
+          {
+            "domain": "ekobrottsmyndigheten.se",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "polisen.se",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "fi.se",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "skatteverket.se",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "svt.se",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "sverigesradio.se",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          }
+        ]
+      },
+      "candidate_count": 50,
+      "scope": "discovery_only_not_factual_approval"
+    },
+    "checked_at": "2026-10-26T02:16:43.362879+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  }
+}

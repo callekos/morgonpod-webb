@@ -1,0 +1,22 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "Inget nytt verifierat källunderlag fanns tillgängligt för datumet, vilket motiverar ett kortare avsnitt i enlighet med redaktionell policy.",
+  "source_coverage": [],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [],
+  "selection_decisions": [],
+  "format_decision": {
+    "outcome": "no_news",
+    "reason": "Inga nya verifierade källposter fanns tillgängliga för dagsaktuell rapportering den 2026-10-26."
+  },
+  "access_exclusions_reviewed": true,
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "news_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "script_sha256": "ac5c7ff1e19f5c637dec1a3e67d5da1cb823a592233216335bbd7b872d767a5c",
+    "collection_sha256": "07ee7c45864c730745c1660b692e53c43c82b863fa581f6c9e6463028addaca5"
+  }
+}

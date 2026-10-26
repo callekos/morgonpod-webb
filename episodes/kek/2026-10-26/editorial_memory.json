@@ -1,0 +1,382 @@
+{
+  "channel": "kek",
+  "date": "2026-10-26",
+  "history": [
+    {
+      "id": "cyprus-abramovich-asset-transfers-2026",
+      "date": "2026-10-24",
+      "channel": "kek",
+      "title": "Cypriotiskt parlament granskar Abramovitj-kopplade tillgångsöverföringar",
+      "summary": "Det kypriotiska parlamentet har hållit utfrågningar med flera centrala myndigheter med anledning av avslöjanden om hur företagstjänster hjälpt bolag knutna till Roman Abramovich att flytta miljarder offshore. Det rapporterar OCCRP i en artikel publicerad den 23 oktober 2026. Granskningen visar att dokument bakdaterats för att undvika skatter och offentlig insyn.",
+      "assessment": "Det är en källbelagd bedömning från kypriotiska justitiedepartementet att de publicerade uppgifterna ska utredas vidare för eventuella brottsrekvisit, vilket visar på en ökad politisk och institutionell press på tillsynsmyndigheter.",
+      "open_questions": [
+        "Vilka konkreta brottsrubriceringar kommer de kypriotiska brottsbekämpande myndigheterna att inleda förundersökningar kring?",
+        "Hur kommer revisionsbolaget Deloitte att hantera de svårigheter med datahämtning som nämns i granskningen?",
+        "Vilka ytterligare jurisdiktioner än Brittiska Jungfruöarna kan komma att granskas i samband med transaktionerna?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "kek:2026-10-24:daily",
+      "source_url": "https://www.occrp.org/en/news/cyprus-parliament-reviews-reports-on-abramovich-linked-asset-transfers",
+      "topics": [
+        "penningtvätt",
+        "tillgångsinriktad-brottsbekämpning",
+        "internationell-kriminell-ekonomi"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "article-bae11eb9145140e298f3fb38",
+      "date": "2026-10-23",
+      "channel": "kek",
+      "title": "Interpol uppger 1 462 gripna i afrikansk cyberbrottsinsats",
+      "summary": "Interpol har lett en omfattande insats i Afrika som resulterat i över 1 400 gripanden och återtagande av 105 miljoner dollar.",
+      "assessment": "Visar effektiviteten i storskaliga internationella samordningsinsatser mot digital ekonomisk brottslighet.",
+      "open_questions": [
+        "Hur kan återbetalningen till de identifierade offren säkerställas i praktiken?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "kek:2026-10-23:daily",
+      "source_url": "https://www.occrp.org/en/news/interpol-cybercrime-crackdown-nets-1400-arrests-and-105m",
+      "topics": [
+        "internationell-kriminell-ekonomi",
+        "tillgångsinriktad-brottsbekämpning"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "article-a580649e4d4aa3f946665e9e",
+      "date": "2026-10-23",
+      "channel": "kek",
+      "title": "Surrogatbyråns amerikanska bolag förlorar civilmål i Florida",
+      "summary": "World Center of Baby döms i USA efter att ha uteblivit från rättegång angående bedrägeri och avtalsbrott.",
+      "assessment": "Ett tydligt exempel på hur oseriösa aktörer kan utnyttja svaga bolagsstrukturer för ekonomisk vinning.",
+      "open_questions": [
+        "Finns det tillgångar kvar i bolaget för att täcka skadestånden till de drabbade paren?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "kek:2026-10-23:daily",
+      "source_url": "https://www.occrp.org/en/news/collapsed-surrogacy-agency-loses-us-civil-case-after-court-no-show",
+      "topics": [
+        "välfärdsbrott-och-bolagsupplägg",
+        "tillgångsinriktad-brottsbekämpning"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "article-4e80494400b1040738caf0d6",
+      "date": "2026-10-23",
+      "channel": "kek",
+      "title": "Cypriotisk utredning om Abramovichs ekonomi efter mediegranskning",
+      "summary": "Cypriotisk polis utreder Roman Abramovichs finansiella förehavanden efter avslöjanden om manipulerade dokument.",
+      "assessment": "Centralt fall för att förstå hur professionella aktörer och rådgivare dras in i den dolda kriminella ekonomin.",
+      "open_questions": [
+        "Vilka rättsliga konsekvenser kan utredningen leda till för inblandade rådgivare?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "kek:2026-10-23:daily",
+      "source_url": "https://www.bbc.co.uk/news/articles/c875p1yy90ryo?at_medium=RSS&at_campaign=rss",
+      "topics": [
+        "penningtvätt-och-brottsvinster",
+        "internationell-kriminell-ekonomi"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "article-2ecfdf12f70214bf956e72c3",
+      "date": "2026-10-23",
+      "channel": "kek",
+      "title": "Civil tredskodom om 35 miljoner dollar i libanesiskt arvsmål",
+      "summary": "Amerikansk domstol dömer libanesisk ex-minister och tre andra att betala 35 miljoner dollar i ett bedrägeri- och tortyrmål.",
+      "assessment": "Illustrerar hur internationella rättsprocesser används mot politiskt exponerade personer anklagade för maktmissbruk.",
+      "open_questions": [
+        "Kommer domen att kunna verkställas mot de dömda personernas tillgångar internationellt?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "kek:2026-10-23:daily",
+      "source_url": "https://www.occrp.org/en/news/us-court-orders-lebanese-ex-minister-to-pay-35m-in-torture-and-fraud-case",
+      "topics": [
+        "internationell-kriminell-ekonomi",
+        "tillgångsinriktad-brottsbekämpning"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "article-26a381d198e2f39508a21195",
+      "date": "2026-10-23",
+      "channel": "kek",
+      "title": "Smugglare uppskattas ha tjänat upp till 509 miljoner dollar på Europaresor",
+      "summary": "UNODC uppskattar att smugglare drog in upp till 509 miljoner dollar på havskryssningar till Europa under 2025.",
+      "assessment": "Ger värdefull inblick i de enorma summor som cirkulerar inom illegal människosmuggling.",
+      "open_questions": [
+        "Hur effektivt kan internationella myndigheter strypa dessa specifika penningflöden?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "kek:2026-10-23:daily",
+      "source_url": "https://www.occrp.org/en/news/smugglers-collected-up-to-509m-on-europe-routes-in-2025",
+      "topics": [
+        "penningtvätt-och-brottsvinster",
+        "internationell-kriminell-ekonomi"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "article-db72eba63e4758db9d3f386c",
+      "date": "2026-10-22",
+      "channel": "kek",
+      "title": "Gambia tar emot pengar från såld Jammeh-fastighet",
+      "summary": "Den andra rapporten handlar om återföring av beslagtagna tillgångar.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "kek:2026-10-22:daily",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmn8wx75l2n8o?at_medium=RSS&at_campaign=rss",
+      "topics": [
+        "kriminell-ekonomi"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "article-5a4e85fc055ef2ecf113e62a",
+      "date": "2026-10-22",
+      "channel": "kek",
+      "title": "Gripande i Pakistan i amerikanskt portobedrägeri",
+      "summary": "Först till ett misstänkt bedrägeri med amerikanskt porto.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "kek:2026-10-22:daily",
+      "source_url": "https://www.bbc.co.uk/news/articles/ckdd8m1z1z3yo?at_medium=RSS&at_campaign=rss",
+      "topics": [
+        "kriminell-ekonomi"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "article-9a0558291bf0ff3a659f39a1",
+      "date": "2026-10-21",
+      "channel": "kek",
+      "title": "Polisen varnar för misstänkta telefonbedrägerier i Stockholms län",
+      "summary": "Flera personer har enligt Polisen Stockholms län kontaktats av personer som utger sig för att komma från polisen, vilket bedöms som bedrägeriförsök.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "kek:2026-10-21:daily",
+      "source_url": "https://polisen.se/aktuellt/handelser/2026/oktober/21/21-oktober-11.35-bedrageri-stockholms-lan/",
+      "topics": [
+        "bedrägeri"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "article-8939f8ecc56e7ed2fa31275a",
+      "date": "2026-10-21",
+      "channel": "kek",
+      "title": "Ponzi-ledare död enligt OCCRP",
+      "summary": "OCCRP rapporterar att ledaren för ett omfattande Ponzi-upplägg i Papua Nya Guinea har avlidit och begravts.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "kek:2026-10-21:daily",
+      "source_url": "https://www.occrp.org/en/news/south-pacific-ponzi-scam-king-noah-musingku-dies",
+      "topics": [
+        "internationell-kriminell-ekonomi"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "WORK_SPECIALS_2026_10_21:article:kek_5",
+      "date": "2026-10-21",
+      "channel": "kek",
+      "title": "Följ värdet: ekonomisk analys och tillgångsinriktad brottsbekämpning",
+      "summary": "Hur ekonomiska frågor kan följa en utredning från början. Flöden, ägande, alternativa hypoteser och rättsliga åtgärder kopplas till en sammanhängande och granskningsbar arbetsmodell.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "WORK_SPECIALS_2026_10_21:kek_5",
+      "source_url": "https://www.aklagare.se/globalassets/dokument/rattsliga-vagledningar/rav-202407-brottsvinster-och-oforklarade-tillgangar.pdf",
+      "topics": [
+        "kek"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "WORK_SPECIALS_2026_10_21:article:kek_4",
+      "date": "2026-10-21",
+      "channel": "kek",
+      "title": "Självständigt förverkande: beviskravet, egendomen och rättssäkerheten",
+      "summary": "Vad 36 kap. 5 § brottsbalken innebär och hur förfarandet skiljer sig från prövning av skuld. Legitima förklaringar, ägande, tredje man och skillnaden mellan tillfälliga åtgärder och slutligt förverkande.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "WORK_SPECIALS_2026_10_21:kek_4",
+      "source_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsbalk-1962700_sfs-1962-700/",
+      "topics": [
+        "kek"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "WORK_SPECIALS_2026_10_21:article:kek_3",
+      "date": "2026-10-21",
+      "channel": "kek",
+      "title": "Penningtvättsbrott: rekvisit, insikt och den ekonomiska beviskedjan",
+      "summary": "En svensk grundgenomgång av penningtvättsbrott, penningtvättsförseelse och näringspenningtvätt. Ett fiktivt kontofall visar varför flöde, ursprung och personligt ansvar måste utredas var för sig.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "WORK_SPECIALS_2026_10_21:kek_3",
+      "source_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2014307-om-straff-for-penningtvattsbrott_sfs-2014-307/",
+      "topics": [
+        "kek"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "WORK_SPECIALS_2026_10_21:article:kek_2",
+      "date": "2026-10-21",
+      "channel": "kek",
+      "title": "Hawala: legitim värdeöverföring, kriminellt missbruk och svåra bevisfrågor",
+      "summary": "Hur förtroende och avräkning kan flytta värde utan en motsvarande enskild banköverföring. Legitima behov skiljs från brottsligt missbruk och utredningen riktas mot handlingar och belägg.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "WORK_SPECIALS_2026_10_21:kek_2",
+      "source_url": "https://www.fatf-gafi.org/en/publications/Methodsandtrends/Role-hawalas-in-ml-tf.html",
+      "topics": [
+        "kek"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "WORK_SPECIALS_2026_10_21:article:kek_1",
+      "date": "2026-10-21",
+      "channel": "kek",
+      "title": "Kryptotillgångar i den kriminella ekonomin: flöden, identitet och bevisning",
+      "summary": "Hur digitala tillgångar kan användas både legitimt och brottsligt. Grundmekanismer, analysens begränsningar och skillnaden mellan en transaktion på en blockkedja och bevisning mot en person.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "WORK_SPECIALS_2026_10_21:kek_1",
+      "source_url": "https://www.fatf-gafi.org/en/publications/Methodsandtrends/quick-guide-on-assessing-ML-risks-of-VA-and-VASPs.html",
+      "topics": [
+        "kek"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "work-kek_ordinary-article-1",
+      "date": "2026-10-20",
+      "channel": "kek",
+      "title": "Tisdag V.43: bolagets funktion i kriminell ekonomi",
+      "summary": "Ett bolag kan vara relevant för att förstå avtal, betalningsflöden, kontroll och tjänster i ett misstänkt upplägg. Dagens fördjupning ställer frågor om ekonomiska funktioner och vilket underlag som stöder analysen.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "WORK_LIBRARY_2026_10:kek:replacement_ordinary:2",
+      "source_url": "https://www.ekobrottsmyndigheten.se/om-oss/press/aktuellt/nyheter/lagesbild-2025-fran-enskilda-brott-till-organiserade-systemhot/",
+      "topics": [
+        "kek"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "work-kek_intro-article-1",
+      "date": "2026-10-20",
+      "channel": "kek",
+      "title": "Kriminell ekonomi: följ pengarnas funktion i brottsligheten",
+      "summary": "Kriminell ekonomi behandlas i kanalen som ekonomiska drivkrafter, funktioner och resurser i brottslighet. Begreppet ersätter inte prövning av en viss gärning. Introduktionen följer intäkter, bolag, penningtvätt, utnyttjade personer, tillgångar och motåtgärder.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "WORK_LIBRARY_2026_10:kek:intro:1",
+      "source_url": "https://www.ekobrottsmyndigheten.se/om-oss/press/aktuellt/nyheter/lagesbild-2025-fran-enskilda-brott-till-organiserade-systemhot/",
+      "topics": [
+        "kriminell-ekonomi"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "news-killsec-takedown",
+      "date": "2026-10-20",
+      "channel": "kek",
+      "title": "Europol slår till mot utpressningsgruppen Killsec",
+      "summary": "Rättsvårdande myndigheter har tagit kontroll över utpressningsgruppen Killsecs läcksajt och servrar, rapporterar Europol. Vid insatsen säkrades minst 110 terabyte data mot obehörig åtkomst. Gruppen har använt plattformen för att hota organisationer med publicering av stulna filer om inte lösensummor betalas, och en tonåring misstänks för att ha lett nätverket.",
+      "assessment": "Europols uppgifter visar att beslaget avbryter gruppens omedelbara förmåga att pressa offer på pengar, men det är en bedömning att infrastrukturen kan återskapas under andra varumärken om inte de finansiella tillgångarna spåras och säkras fullt ut.",
+      "open_questions": [
+        "Vilka betalningssystem och kryptovalutor användes för att ta emot lösensummorna från Killsecs offer?",
+        "I vilken omfattning kan den beslagtagna datamängden på 110 terabyte leda till identifiering av finansiella medhjälpare?",
+        "Hur påverkar insatsen andra aktörer inom samma ekosystem för utpressningsprogramvara?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "kek:2026-10-20:daily",
+      "source_url": "https://www.europol.europa.eu/media-press/newsroom/news/teenager-suspected-of-leading-killsec-ransomware-group-law-enforcement-seizes-servers-and-leak-site",
+      "topics": [
+        "internationell-kriminell-ekonomi",
+        "penningtvätt-och-brottsvinster"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "news-kalmar-gold-heist",
+      "date": "2026-10-20",
+      "channel": "kek",
+      "title": "Tonåring häktad efter rån mot guldhandlare i Kalmar",
+      "summary": "En 19-årig man har häktats på sannolika skäl misstänkt för grovt rån mot ett företag som handlar med guld i Kalmar, rapporterar SVT Nyheter. Vid rånet den 15 oktober 2026 tillgrep maskerade gärningspersoner smycken och guld till ett sexsiffrigt belopp under hot med ett pistolliknande föremål. Ytterligare en rånare jagas fortfarande av utredarna medan en tidigare anhållen person har försatts på fri fot.",
+      "assessment": "Åklagarens uppgift om ett sexsiffrigt belopp bekräftar att tillgreppet varit ekonomiskt betydande, och utredarnas fokus på att spåra den andra gärningspersonen är avgörande för att förhindra att godset omsätts via etablerade hälarkanaler.",
+      "open_questions": [
+        "Vilka kanaler och uppköpare misstänks ha förberetts för att ta emot det tillgripna guldet?",
+        "Har det stulna godset kunnat spåras innan det smälts ner eller förts ut ur regionen?",
+        "Fanns det kopplingar mellan gärningspersonerna och bredare nätverk specialiserade på ädelmetallhandel?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "kek:2026-10-20:daily",
+      "source_url": "https://www.svt.se/nyheter/lokalt/smaland/tonaring-haktad-for-ran-i-kalmar-en-jagas-fortfarande",
+      "topics": [
+        "tillgångsinriktad-brottsbekämpning",
+        "penningtvätt-och-brottsvinster"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "news-france-looting-vinted",
+      "date": "2026-10-20",
+      "channel": "kek",
+      "title": "Plundrat gods omsätts på digitala marknadsplatser efter upplopp i Frankrike",
+      "summary": "Efter omfattande upplopp och plundring i flera franska städer uppskattas de materiella skadorna till hundratals miljoner euro på över tvåtusen butiker, rapporterar BBC News. Två ministrar uppger att plundrat gods har lagts ut till försäljning på digitala handelsplattformar som Vinted. Plattformen har vidtagit åtgärder för att identifiera och ta bort annonser kopplade till plundringen.",
+      "assessment": "Handelskamrarnas bedömning att skadorna uppgår till hundratals miljoner euro understryker de systemiska ekonomiska konsekvenserna av samordnad plundring, samtidigt som regeringens planer på skadeståndslagar kan skapa nya rättsliga verktyg för tillgångsåtertagande.",
+      "open_questions": [
+        "Vilka tekniska spärrar kan implementeras på andrahandsplattformar för att i realtid flagga varor från plundrade lager?",
+        "Hur effektivt kommer den franska regeringens föreslagna lagstiftning att kunna driva in ersättning från enskilda gärningspersoner?",
+        "I vilken utsträckning rör sig det plundrade godset över landsgränser via internationella frakttjänster?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "kek:2026-10-20:daily",
+      "source_url": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss",
+      "topics": [
+        "penningtvätt-och-brottsvinster",
+        "tillgångsinriktad-brottsbekämpning"
+      ],
+      "relevance": 0
+    }
+  ]
+}
