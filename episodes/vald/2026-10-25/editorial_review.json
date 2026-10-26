@@ -1,0 +1,108 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "",
+  "source_coverage": [
+    {
+      "claim": "En tonårsflicka har häktats, på sannolika skäl misstänkt för medhjälp till mordet i Älvsjö.",
+      "source_url": "https://www.svt.se/nyheter/lokalt/stockholm/tonarsflicka-begars-haktad-efter-mordet-i-alvsjo"
+    },
+    {
+      "claim": "I Bagarmossen fortsätter utredningen efter att en man i 25-årsåldern sköts till döds, och det finns uppgifter om att det kan vara en felskjutning.",
+      "source_url": "https://www.expressen.se/nyheter/krim/uppgifter-mordet-i-bagarmossen-kan-vara-en-felskjutning/"
+    },
+    {
+      "claim": "Kriminologen Manne Gerell bedömer att risken för fler skjutningar är kraftigt förhöjd efter en dödsskjutning.",
+      "source_url": "https://www.svt.se/nyheter/inrikes/experten-om-skjutningarna-indikation-pa-att-en-konflikt-blossat-upp"
+    },
+    {
+      "claim": "Den misstänkte 39-årige mannen efter skjutningarna utanför Paris har placerats under psykiatrisk observation.",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/stockholm/tonarsflicka-begars-haktad-efter-mordet-i-alvsjo",
+      "covered_facts": [
+        "Tonårsflicka häktad misstänkt för medhjälp till mord i Älvsjö",
+        "Åklagaren Lukas Tigerstrand uppger kollusionsfara",
+        "Flickan nekar till brott"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.expressen.se/nyheter/krim/uppgifter-mordet-i-bagarmossen-kan-vara-en-felskjutning/",
+      "covered_facts": [
+        "Mannen i 25-årsåldern sköts till döds i Bagarmossen",
+        "Uppgifter om möjlig felskjutning och att han var ostraffad",
+        "Polisen bekräftar inte teorin och omfattande övervakningsmaterial granskas"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/experten-om-skjutningarna-indikation-pa-att-en-konflikt-blossat-upp",
+      "covered_facts": [
+        "Manne Gerells bedömning om förhöjd risk för fler skjutningar",
+        "Inga tecken på koppling mellan dåden i nuläget",
+        "Polisens uppmaning till lugn"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&at_campaign=rss",
+      "covered_facts": [
+        "39-årig misstänkt placerad under psykiatrisk observation",
+        "En dödad och fem skadade i Trappes och La Verrière",
+        "Emmanuel Macrons uttalning om rasistiskt terrordåd"
+      ],
+      "missing_facts": []
+    }
+  ],
+  "selection_decisions": [
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/stockholm/tonarsflicka-begars-haktad-efter-mordet-i-alvsjo",
+      "selected": true,
+      "reason": "Vald huvudartikel för händelsen i Älvsjö.",
+      "event_key": "alvsjo_haktning_25",
+      "source_quote": "En tonårsflicka häktas misstänkt för inblandning i mordet på en kvinna i 25-årsåldern Älvsjö, uppger åklagaren för SVT Nyheter."
+    },
+    {
+      "url": "https://www.expressen.se/nyheter/krim/uppgifter-mordet-i-bagarmossen-kan-vara-en-felskjutning/",
+      "selected": true,
+      "reason": "Vald huvudartikel för händelsen i Bagarmossen.",
+      "event_key": "bagarmossen_update_24",
+      "source_quote": "En man i 25-årsåldern sköts till döds i Bagarmossen i södra Stockholm på fredagseftermiddagen."
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/experten-om-skjutningarna-indikation-pa-att-en-konflikt-blossat-upp",
+      "selected": false,
+      "reason": "Faktiskt läst stödkälla till Bagarmossen-artikeln. Innehållet täcks fullt ut i genomgången.",
+      "event_key": "bagarmossen_update_24",
+      "source_quote": "På mindre än en vecka har två personer dödats i skottlossningar i södra Stockholm."
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&at_campaign=rss",
+      "selected": true,
+      "reason": "Vald huvudartikel för händelsen utanför Paris.",
+      "event_key": "paris_observation_25",
+      "source_quote": "A man suspected of a deadly gun attack near Paris has left custody and been placed under psychiatric observation, French anti-terrorism officials have said."
+    }
+  ],
+  "format_decision": {
+    "outcome": "standard",
+    "reason": "Tre väl avvägda artiklar med gott källstöd och relevant djup för en standardutgåva."
+  },
+  "access_exclusions_reviewed": true,
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "e5a30c0367eb52d6825e7b91a2d3318b86a34d311b9c7319ee5239e4c28197ec",
+    "news_sha256": "6b025b338a879570cfce21f97ba7afc0b4dd59859249f621a88010e20daccea8",
+    "script_sha256": "6daf31888af766eece71d82d08854ed154ca0dff3ce82d6878ef39b9af23eb6f",
+    "collection_sha256": "6b7f126435f73be700efb0bbeff62f942d0f24e58c817803fb64562a47a9fe15"
+  },
+  "reviewed_candidate_sha256": "5d9ee8234976050d3fb8e44105fa5d52c61c7b731457baa8d9707b0202eeffdf",
+  "reviewed_script_sha256": "6daf31888af766eece71d82d08854ed154ca0dff3ce82d6878ef39b9af23eb6f",
+  "work_package_sha256": "0851f47bf30fe5af68400cf1ac0132a917e2d0f91fe949b404e3ce71e64bb412"
+}

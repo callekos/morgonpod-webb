@@ -1,0 +1,38 @@
+[
+  {
+    "source": "SVT Nyheter",
+    "title": "Tonårsflicka häktad misstänkt för medhjälp efter mordet i Älvsjö",
+    "url": "https://www.svt.se/nyheter/lokalt/stockholm/tonarsflicka-begars-haktad-efter-mordet-i-alvsjo",
+    "evidence": {
+      "date": "2026-10-25T11:33:51+01:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-25T21:31:39.244497+00:00",
+      "page_sha256": "3fbb561c0a1b78af54e84c5a4ebda312790b3e138f0567c065ed714c5cf555a9",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Expressen",
+    "title": "Uppgifter om möjlig felskjutning i Bagarmossen – polisen bekräftar inte teorin",
+    "url": "https://www.expressen.se/nyheter/krim/uppgifter-mordet-i-bagarmossen-kan-vara-en-felskjutning/",
+    "evidence": {
+      "date": "2026-10-24T10:53:07.531000+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-25T21:35:09.885740+00:00",
+      "page_sha256": "d03e670b6787cd6290e99e47f2237725223e8e0ca907a1909e873bdc7a6078e8",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "BBC News",
+    "title": "Misstänkt efter skjutningarna utanför Paris under psykiatrisk observation",
+    "url": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&at_campaign=rss",
+    "evidence": {
+      "date": "2026-10-25T15:32:51+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-25T21:25:04.095136+00:00",
+      "page_sha256": "435a889ff174adaa15705031e2cf7413cee456e1aadf0bb5161c0b745052a063",
+      "retrieval_limit": null
+    }
+  }
+]

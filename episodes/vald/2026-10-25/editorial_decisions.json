@@ -1,0 +1,440 @@
+{
+  "channel": "vald",
+  "date": "2026-10-25",
+  "schema": 2,
+  "corroboration_method": "distinct_hosts_not_proof_of_independence",
+  "received": 4,
+  "unique_urls": 4,
+  "identified_events": 4,
+  "selected_articles": 4,
+  "selected_events": 4,
+  "unique_domains": 3,
+  "max_items": 40,
+  "gemini_calls": 0,
+  "decisions": [
+    {
+      "event_id": "984e75f7e42091e3",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Tonårsflicka häktas efter mordet i Älvsjö",
+          "url": "https://www.svt.se/nyheter/lokalt/stockholm/tonarsflicka-begars-haktad-efter-mordet-i-alvsjo"
+        }
+      ]
+    },
+    {
+      "event_id": "9ca5eab19e199dd6",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 42,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 14,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Experten om skjutningarna: Indikation på att en konflikt blossat upp",
+          "url": "https://www.svt.se/nyheter/inrikes/experten-om-skjutningarna-indikation-pa-att-en-konflikt-blossat-upp"
+        }
+      ]
+    },
+    {
+      "event_id": "d53225b9b2800d44",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 36,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "bbc.co.uk"
+      ],
+      "articles": [
+        {
+          "title": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
+          "url": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "event_id": "0dea64aff5ef6a1d",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 30,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 14,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "expressen.se"
+      ],
+      "articles": [
+        {
+          "title": "Uppgifter: Mordet i Bagarmossen kan vara en felskjutning",
+          "url": "https://www.expressen.se/nyheter/krim/uppgifter-mordet-i-bagarmossen-kan-vara-en-felskjutning/"
+        }
+      ]
+    }
+  ],
+  "rejected": [],
+  "identified_events_are_estimates": true,
+  "review_source_count": 4,
+  "channel_scope": {
+    "input_count": 4,
+    "accepted_count": 4,
+    "rejected": [],
+    "discussion_signals": []
+  },
+  "collection_evidence": {
+    "state": "ready",
+    "failed_discovery_urls": [],
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "subscription_exclusions": [],
+    "channel": "vald",
+    "discovery": {
+      "channel": "vald",
+      "date": "2026-10-25",
+      "feeds": [
+        {
+          "url": "https://www.svt.se/nyheter/rss.xml",
+          "entries": 100,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.europol.europa.eu/rss.xml",
+          "entries": 10,
+          "accepted": 10,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "entries": 31,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Sverige%20%28skjutning%20OR%20spr%C3%A4ngning%20OR%20g%C3%A4ngv%C3%A5ld%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 33,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22organized%20crime%22%20%28violence%20OR%20shootings%20OR%20bombings%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Europol%20%28violence%20OR%20gangs%20OR%20%22contract%20killing%22%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22crime%20as%20a%20service%22%20OR%20%22violence%20as%20a%20service%22%20OR%20%22best%C3%A4llda%20mord%22%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 1,
+          "accepted": 1,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aeurojust.europa.eu%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Ainterpol.int%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aeuda.europa.eu%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Abbc.com%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Atheguardian.com%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Apolisen.se%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Abra.se%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        }
+      ],
+      "web_candidates": 0,
+      "original_fallback": {
+        "sources_checked": 6,
+        "candidates": 20,
+        "excluded": 20,
+        "sources": [
+          {
+            "domain": "eurojust.europa.eu",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "interpol.int",
+            "status": "BLOCKED",
+            "http_status": 403,
+            "error": null
+          },
+          {
+            "domain": "euda.europa.eu",
+            "status": "BLOCKED",
+            "http_status": 403,
+            "error": null
+          },
+          {
+            "domain": "reuters.com",
+            "status": "BLOCKED",
+            "http_status": 401,
+            "error": null
+          },
+          {
+            "domain": "bbc.com",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "theguardian.com",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200,
+            "error": null
+          }
+        ]
+      },
+      "candidate_count": 85,
+      "scope": "discovery_only_not_factual_approval"
+    },
+    "checked_at": "2026-10-26T06:48:45.118346+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  },
+  "work_import": {
+    "package_sha256": "0851f47bf30fe5af68400cf1ac0132a917e2d0f91fe949b404e3ce71e64bb412",
+    "candidate_sha256": "5d9ee8234976050d3fb8e44105fa5d52c61c7b731457baa8d9707b0202eeffdf",
+    "provenance": {
+      "source": "saved25Octreadbytes; bounded retrospective selection authorized by work coordinator26Oct",
+      "source_file_sha256": "51aa3dc56564be815ef75873cfc71cd01714dc5aac98558abbe770fe9ecc7724",
+      "review_prepared_at": "2026-10-26T05:54:37.087516+00:00",
+      "source_retrieval_times_preserved": true,
+      "snapshot_at_omitted_reason": "Historical saved sources; current_publication evaluated against real execution time, no fictitious fresh snapshot",
+      "scope": "ONLY Alvsjo, Bagarmossen, Paris; not complete monitoring coverage",
+      "previous_manuscript_sha256": "edc5b78c8d8ae0c00f2c1367bf92361621cff80e4e3ccde8578dc81a7c42fa35",
+      "changes": "Two explicit Expressen attributions; category/context completed from existing article prose. Normal independent review remains mandatory.",
+      "local_fact_comparison": {
+        "checked_at": "2026-10-26T06:08:43.198010+00:00",
+        "edition_date": "2026-10-25",
+        "editorial_approved": false,
+        "independent_review": "normal pipeline review still required; local cached source-to-claim comparison completed",
+        "claims": [
+          {
+            "story": "Älvsjö",
+            "supported": "Flickan häktad på sannolika skäl för medhjälp; nekar; åklagarens kollusionsfara; två tidigare mordmisstänkta pojkar och ytterligare pojke medhjälp enligt huvudtexten.",
+            "avoided": "Contradictory related-card totals, guilt, invented recruiter/mastermind roles."
+          },
+          {
+            "story": "Bagarmossen",
+            "supported": "Expressen: man25 död fredag, inga gripna enligt artikeln, omfattande video/vittnen; Aftonbladetuppgifter om förväxling återges sekundärt och obekräftat. Gerell separat attribuerad riskanalys; inga tecken på fastställd koppling mellan dåden enligt SVT.",
+            "avoided": "Cedar/TextTV unknown unique claims; asserting a proven motive or present26Oct arrest status."
+          },
+          {
+            "story": "Paris",
+            "supported": "BBC:39-åring lämnade polisförvar för observation; PNATbedömning av förhörsförmåga; en26-åring död, fem skadade inkl12-åring; Macroncitat återges som hans beskrivning.",
+            "avoided": "Proven guilt, invented diagnosis, equating observation with verdict."
+          }
+        ],
+        "source_bindings": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-10-25T15:32:51+00:00",
+            "retrieved_at": "2026-10-25T21:25:04.095136+00:00",
+            "page_sha256": "435a889ff174adaa15705031e2cf7413cee456e1aadf0bb5161c0b745052a063",
+            "text_sha256": "fdd78a0c084f01c38c66d05cc9d297a6f0ae06b1fb06da035fb0e230baa55906"
+          },
+          {
+            "url": "https://www.svt.se/nyheter/lokalt/stockholm/tonarsflicka-begars-haktad-efter-mordet-i-alvsjo",
+            "date": "2026-10-25T11:33:51+01:00",
+            "retrieved_at": "2026-10-25T21:31:39.244497+00:00",
+            "page_sha256": "3fbb561c0a1b78af54e84c5a4ebda312790b3e138f0567c065ed714c5cf555a9",
+            "text_sha256": "c95a5c8e39d6d98fea3fc8d56bda956ade3b3c32d1e170b2a281656bccd9d86d"
+          },
+          {
+            "url": "https://www.svt.se/nyheter/inrikes/experten-om-skjutningarna-indikation-pa-att-en-konflikt-blossat-upp",
+            "date": "2026-10-24T21:58:48+02:00",
+            "retrieved_at": "2026-10-25T21:31:39.381904+00:00",
+            "page_sha256": "d4cc4789beb40ef7ee69de2587ada4ea1d63474058c2a876d1f0a72057a32d9b",
+            "text_sha256": "1ed17c1d433e2540b2c551445d470621f441e19a6f372b333d1d0c7ec75d1f92"
+          },
+          {
+            "url": "https://www.expressen.se/nyheter/krim/uppgifter-mordet-i-bagarmossen-kan-vara-en-felskjutning/",
+            "date": "2026-10-24T10:53:07.531000+00:00",
+            "retrieved_at": "2026-10-25T21:35:09.885740+00:00",
+            "page_sha256": "d03e670b6787cd6290e99e47f2237725223e8e0ca907a1909e873bdc7a6078e8",
+            "text_sha256": "9b7fc3b643e306bbe57b0cc4f1a28904d4efd062aebf48ee78f8b3a87fdb724a"
+          }
+        ],
+        "not_selected_read_sources": [
+          {
+            "url": "https://www.svt.se/nyheter/utrikes/terrormisstankt-39-aring-ska-genomga-psykiatrisk-observation",
+            "date": "2026-10-25T10:43:46+00:00",
+            "record_sha256": "e78c1cda8001b5957115626489408f94726c4a24e3bc3aeea7129a5068760027",
+            "reason": "Outside explicitly bounded three-event retrospective edition; not a worldwide relevance or absence finding."
+          },
+          {
+            "url": "https://www.sverigesradio.se/artikel/kriminella-gang-rekryterar-unga-for-bedragerier-sprider-sig-norrut",
+            "date": "2026-10-24T03:57:00+00:00",
+            "record_sha256": "3844c9496dc7fee00792f3830f9c5b43269cde6bfb6ef73c54315648271755c9",
+            "reason": "Outside explicitly bounded three-event retrospective edition; not a worldwide relevance or absence finding."
+          },
+          {
+            "url": "https://nyheter24.se/nyheter/inrikes/1524639-en-person-skjuten-i-sodra-stockholm",
+            "date": "2026-10-23T15:00:42+00:00",
+            "record_sha256": "36741367243e312bedf9e4f626f74ec20085c0eb2536d9e28078041ee0e02d91",
+            "reason": "Outside explicitly bounded three-event retrospective edition; not a worldwide relevance or absence finding."
+          },
+          {
+            "url": "https://kvartal.se/nyheter/artiklar/polisen-varnar-gang-rekryterar-unga-for-att-lura-aldre/cG9zdDoyMzcxNTY",
+            "date": "2026-10-24T07:06:33+02:00",
+            "record_sha256": "8a2fc4923b045d8f9661d1b2f54a1f55afd058f00729bffb6ab34b56d0dd9f21",
+            "reason": "Outside explicitly bounded three-event retrospective edition; not a worldwide relevance or absence finding."
+          },
+          {
+            "url": "https://www.sverigesradio.se/artikel/minst-sju-doda-i-skjutning-i-sodra-jordanien",
+            "date": "2026-10-23T13:02:00+00:00",
+            "record_sha256": "7d31e7637c09da6b5e8705bc29e474784a00b25a4cd3cadd337a3220092c70df",
+            "reason": "Outside explicitly bounded three-event retrospective edition; not a worldwide relevance or absence finding."
+          }
+        ],
+        "not_selected_unresolved_observations": [
+          {
+            "url": "https://www.nt.se/nyheter/norrkoping/artikel/tva-unga-man-atalas-for-skjutning-i-eneby/r23g1wxl",
+            "topic": "Eneby attempted-murder prosecution",
+            "actual_observation": "NewsArticle/primary URL/datePublished24Oct03:00+02:00, own article body marked paid; only partial text. Not read or accepted; no new subscription exception.",
+            "searches": "Three bounded query batches including exact title/URL and official aklagare.se/domstol.se; no suitable original found. Not proof of absence."
+          },
+          {
+            "type": "aggregator_aliases",
+            "ids": [
+              55,
+              61
+            ],
+            "status": "ExpressenParis exact original unresolved; TextTV direct article discovered with same Bagarmossen event, full primary provenance not yet bound. Other publisher originals for those events read; no implied reading of aliases."
+          },
+          {
+            "type": "challenge_mirrors",
+            "ids": [
+              62,
+              64
+            ],
+            "status": "Cedar CAPTCHA not solved. SVT expert article and Bagarmossen originals read; mirror fulltext remains unknown."
+          }
+        ],
+        "unresolved_disposition": "Each preserved unresolved observation is not used in this bounded edition. Unknown bodies remain unread. No assertion that they contain no unique facts. Observation-local IDs stay bound to original qualified-file hash and are never global identities.",
+        "qualified_file_sha256": "51aa3dc56564be815ef75873cfc71cd01714dc5aac98558abbe770fe9ecc7724",
+        "workflow_execution_caveat": "Direct load_package passes but POD_DATE switches main ordinary-completeness branch off. Before actual execution, preserve ordinary completeness/review for the imported dated work request; publication must retain true26Oct transaction time and25edition date. Do not use historical route as a quality bypass."
+      },
+      "publication_identity": "Ordinary daily25Oct from brief metadata, actual produced/published times26Oct; historical source import does not imply historical kind or forged publication.",
+      "selection_topology": "Three lead articles plus one actually read Gerell support source. Candidate metadata only; all factual prose unchanged; independent review mandatory."
+    },
+    "editorial_approved": false,
+    "phase": "manuscript_draft"
+  }
+}
