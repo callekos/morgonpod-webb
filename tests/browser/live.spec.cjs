@@ -49,10 +49,11 @@ test('published groups, film default, shared filters and approved episode titles
 
 test('published subscription is reachable while scrolling and preserves real audio',require('./subscription-check.cjs').subscriptionCheck);
 
-test('existing Telegram invitation exposes the matching join handoff',async({request},info)=>{
- test.skip(info.project.name!=='desktop','One independent HTTP check of the shared invitation is sufficient');
- const response=await request.get('https://t.me/+jlPUjsmjlE03NDFk');expect(response.ok()).toBe(true);
- const html=await response.text();expect(html).toMatch(/<title>Telegram:/);expect(html).toContain('class="tgme_action_button"');expect(html).not.toMatch(/invite link (has expired|is invalid)/i);expect(html).toMatch(/tg:\/\/join\?invite=jlPUjsmjlE03NDFk/);
+test('published subscription uses the owner-provided Telegram invitation',async({page})=>{
+ await page.goto('prenumerera.html');
+ await expect(page.getByRole('link',{name:'Öppna Morgonpodden i Telegram'})).toHaveAttribute('href','https://t.me/+jIPUjsmjlE03NDFk');
+ await page.goto('mer.html');
+ await expect(page.getByRole('link',{name:'Morgonpodden på Telegram'})).toHaveAttribute('href','https://t.me/+jIPUjsmjlE03NDFk');
 });
 test('published home and directory retain distinct descriptive card formats',require('./cards-check.cjs').cardsCheck);
 test('published withdrawal retains source files, intro and all specials',async({page})=>{
