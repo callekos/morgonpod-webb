@@ -1,0 +1,269 @@
+{
+  "channel": "ibat",
+  "date": "2026-10-26",
+  "history": [
+    {
+      "id": "article-b780b6e9e8c37865eb87182e",
+      "date": "2026-10-24",
+      "channel": "ibat",
+      "title": "IMY yttrar sig över förslaget till ett statligt identitetskort",
+      "summary": "Integritetsskyddsmyndigheten (IMY) avstyrker lagring av biometriska ansiktsbilder i ett nytt pass- och identitetskortsregister baserat på det nuvarande underlaget.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "ibat:2026-10-24:daily",
+      "source_url": "https://www.imy.se/remissvar/ett-statligt-identitetskort/",
+      "topics": [
+        "juridik-integritet-och-informationssäkerhet"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "article-9a6f6b9ad79ee17dd7f87b0d",
+      "date": "2026-10-24",
+      "channel": "ibat",
+      "title": "Palantir avvisar uppgifter om kill switch i Natos AI-system",
+      "summary": "Teknikföretaget Palantir uppger att det saknas en fjärravstängningsfunktion i Natos AI-system Maven Smart System, men europeiskt beroende av amerikansk försvarsteknik diskuteras vidare.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "ibat:2026-10-24:daily",
+      "source_url": "https://hurbra.se/palantir-nato-maven-kill-switch-2026/",
+      "topics": [
+        "informationsförsörjning-och-dataplattformar"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "article-3e40e5068d442779e8bd54df",
+      "date": "2026-10-24",
+      "channel": "ibat",
+      "title": "Digg släpper nytt utkast till certifieringssystem för digital identitetsplånbok",
+      "summary": "Myndigheten för digital förvaltning (Digg) har tagit fram ett uppdaterat utkast till ett enhetligt certifieringssystem för europeiska digitala identitetsplånböcker inom NOBID-samarbetet.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "ibat:2026-10-24:daily",
+      "source_url": "https://www.digg.se/om-oss/nyheter/digital-identitet/nyheter/2026-10-23-nytt-utkast-till-certifieringssystem-for-den-digitala-identitetsplanboken",
+      "topics": [
+        "digital-utveckling-i-rättsväsende-och-offentlig-sektor"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "article-f42062c8a3b78b752b38e07e",
+      "date": "2026-10-23",
+      "channel": "ibat",
+      "title": "Certifikatutfärdare försvarar extremt svaga privata nycklar",
+      "summary": "Indiska certifikatutfärdaren eMudhra kritiseras för att ha använt mycket svaga privata nycklar vid signering av digitala certifikat.",
+      "assessment": "Bristen på kognitiv kontroll vid nyckelgenerering understryker sårbarheter i hårdvarubaserade säkerhetsmoduler.",
+      "open_questions": [
+        "Vilka exakta kunder har drabbats?",
+        "Hur kunde en felaktighet i KGC passera oidentifierad?"
+      ],
+      "event_links": [
+        {
+          "event_id": "emudhra_weak_keys",
+          "status": "possible"
+        }
+      ],
+      "previous_reporting": [],
+      "episode_id": "ibat:2026-10-23:daily",
+      "source_url": "https://www.theregister.com/security/2026/10/22/certification-authority-emudhra-defends-its-laughably-weak-private-keys/5304647",
+      "topics": [
+        "kryptografi",
+        "certifikatutfärdare",
+        "säkerhetsbrister"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "article-ed5e63b87df6bef19707f87d",
+      "date": "2026-10-23",
+      "channel": "ibat",
+      "title": "Global säkerhetskris efter kritiska sårbarheter i PHP",
+      "summary": "Organisationer och företag runt om i världen tvingas uppdatera sina system efter att kritiska sårbarheter upptäckts i programmeringsspråket PHP.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "ibat:2026-10-23:daily",
+      "source_url": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss",
+      "topics": [
+        "cybersäkerhet"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "welsh_ico_reprimand_2026",
+      "date": "2026-10-22",
+      "channel": "ibat",
+      "title": "Glömt testkonto och svagt lösenord bakom walesiskt dataintrång",
+      "summary": "Slutligen till Wales. The Register rapporterar att den brittiska dataskyddsmyndigheten ICO har gett Ogi Networks och Data Cymru reprimander efter en ransomwareattack den första november 2024. Rapporteringen om myndighetens åtgärd är aktuell; själva intrånget skedde tidigare. Myndigheten valde reprimander, inte böter.",
+      "assessment": "Källans granskning visar att grundläggande hygienfaktorer som lösenordshygien och avveckling av inaktuella testkonton fortsatt försummas, vilket ger obehöriga en öppen dörr till känsliga system.",
+      "open_questions": [
+        "Vilka rutiner har införts för att säkerställa att tillfälliga testkonton rensas bort efter avslutat projekt?",
+        "Hur följer berörda myndigheter upp att leverantörer upprätthåller säkerhetskrav över tid?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "ibat:2026-10-22:daily",
+      "source_url": "https://www.theregister.com/cyber-crime/2026/10/20/password1-and-a-forgotten-test-account-land-welsh-outfits-in-hot-water/5304139",
+      "topics": [
+        "dataskydd",
+        "lösenordssäkerhet",
+        "offentlig-sektor"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "palo_alto_panos_attacks_2026",
+      "date": "2026-10-22",
+      "channel": "ibat",
+      "title": "Palo Alto Networks brandväggar under attack av flera ransomwaregrupper sedan juni",
+      "summary": "Nästa nyhet gäller Palo Alto Networks brandväggsoperativsystem PAN-OS. Enligt The Register utreder säkerhetsenheten Unit 42 attacker sedan början av juni där bland andra ransomwaregrupperna Qilin och Inc utnyttjar en sårbarhet för att kringgå autentisering i GlobalProtect-portaler och gateways. Leverantören publicerade en rättning den 13 maj.",
+      "assessment": "Bedömningen från Unit 42 i källmaterialet är att angriparnas metoder har utvecklats till att direkt angripa virtualiseringsskiktet för att undvika upptäckt av klientskydd, vilket kräver noggrann hotjakt och uppdaterade skyddsrutiner.",
+      "open_questions": [
+        "Hur stor andel av de sårbara organisationerna har hunnit patcha sina system innan utnyttjande skedde?",
+        "Vilka specifika indikationer på kompromettering bör prioriteras vid intern granskning av nätverksloggar?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "ibat:2026-10-22:daily",
+      "source_url": "https://www.theregister.com/cyber-crime/2026/10/20/palo-altos-firewall-os-has-been-under-attack-from-multiple-ransomware-groups-since-june/5304226",
+      "topics": [
+        "cybersäkerhet",
+        "ransomware",
+        "sårbarheter"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "emudhra_keys_compromised_2026",
+      "date": "2026-10-22",
+      "channel": "ibat",
+      "title": "Indisk certifikatutfärdare komprometterad efter extrema svagheter i privata nycklar",
+      "summary": "Först till digitala certifikat. The Register rapporterar den 20 oktober att privata nycklar kopplade till åtta mellanliggande certifikat från den indiska utfärdaren eMudhra har komprometterats. Uppgiften bygger på Mozillas redogörelse. Företaget uppger att det har utfärdat över 60 miljoner digitala certifikat, men det är inte ett belagt antal genomförda angrepp.",
+      "assessment": "Enligt bedömning från kryptografiska experter i källmaterialet utgör detta en kritisk systemisk risk för digital tillit eftersom komprometterade certifikat kan användas för avancerad nätfiske och trafikavlyssning i stor skala.",
+      "open_questions": [
+        "Hur många svenska eller europeiska organisationer förlitar sig fortfarande på certifikat utställda av den berörda utfärdaren?",
+        "Vilka ytterligare kontrollmekanismer kan införas för att förhindra att uppenbart svaga privata nycklar godkänns i publika PKI-strukturer?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "ibat:2026-10-22:daily",
+      "source_url": "https://www.theregister.com/security/2026/10/20/indian-certification-authority-emudhras-private-keys-compromised-one-of-them-was-the-number-4/5304312",
+      "topics": [
+        "cybersäkerhet",
+        "kryptografi",
+        "certifikatutfärdare"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "article-35c1034db8d97ceb86890861",
+      "date": "2026-10-21",
+      "channel": "ibat",
+      "title": "AI har potential att sänka trösklar för infrastrukturangrepp",
+      "summary": "The Register rapporterar om säkerhetsbedömningar kring hur artificifikell intelligens kan snabba upp informationsinhämtning och planering mot industriella system och kritisk infrastruktur.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "ibat:2026-10-21:daily",
+      "source_url": "https://www.theregister.com/security/2026/10/21/ai-has-potential-to-turn-script-kiddies-into-sophisticated-infrastructure-attackers/5304297",
+      "topics": [
+        "hotbilder-och-brottslighetens-utveckling"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "work-ibat_ordinary-article-1",
+      "date": "2026-10-20",
+      "channel": "ibat",
+      "title": "Tisdag V.43: källor, kvalitet och lägesförståelse",
+      "summary": "Informationsförsörjning behöver bära mer än själva uppgiften. Dagens fördjupning handlar om ursprung, tid, betydelse, kvalitet och ansvar när information används för analys och lägesförståelse.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "WORK_LIBRARY_2026_10:ibat:replacement_ordinary:2",
+      "source_url": "https://www.digg.se/kunskap-och-stod/oppna-och-delade-data/vagledning-for-att-tillgangliggora-information",
+      "topics": [
+        "ibat"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "work-ibat_intro-article-1",
+      "date": "2026-10-20",
+      "channel": "ibat",
+      "title": "IBAT: från uppgift till lägesförståelse",
+      "summary": "Informationsförsörjning är kanalens namn på förmågan att få ett begripligt och användbart underlag till en bestämd uppgift under rätt villkor. Introduktionen följer kedjan från behov och källa till analysprodukt och återkoppling.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "WORK_LIBRARY_2026_10:ibat:intro:1",
+      "source_url": "https://www.digg.se/kunskap-och-stod/oppna-och-delade-data/vagledning-for-att-tillgangliggora-information",
+      "topics": [
+        "informationsförsörjning"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "article-6db0cbbf16496410042118d3",
+      "date": "2026-10-20",
+      "channel": "ibat",
+      "title": "Tidigare OpenAI-ingenjör häktad misstänkt för spioneri",
+      "summary": "FBI och amerikanska åklagare uppger att en f.d. OpenAI-ingenjör har häktats misstänkt för att ha planterat dolda inspelningsenheter i ett säkerhetsklassat konferensrum.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "ibat:2026-10-20:daily",
+      "source_url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+      "topics": [
+        "ai-för-informationsanalys"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "article-5b80419b72f2c97f228b5cd7",
+      "date": "2026-10-20",
+      "channel": "ibat",
+      "title": "Omfattande dataläckage vid myndighet i Florida efter slarv med inloggningsuppgifter",
+      "summary": "Floridas motortrafikmyndighet har börjat meddela drabbade efter ett dataintrång som orsakats av att inloggningsuppgifter förvarats osäkert.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "ibat:2026-10-20:daily",
+      "source_url": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/",
+      "topics": [
+        "juridik-integritet-och-informationssäkerhet"
+      ],
+      "relevance": 0
+    },
+    {
+      "id": "article-2cdb1da704e7dd41a25af1e6",
+      "date": "2026-10-20",
+      "channel": "ibat",
+      "title": "Ukrainska rådgivare larmar om bristande underrättelsevarningar",
+      "summary": "Zelenskys rådgivare uppger till BBC News att Ukraina drabbas av dödsfall på grund av uteblivna amerikanska robotvarningar, medan Vita huset förnekar förändringar i underrättelsebytet.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "ibat:2026-10-20:daily",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss",
+      "topics": [
+        "hotbilder-och-brottslighetens-utveckling"
+      ],
+      "relevance": 0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "Dagens verifierade underlag inom bevakningsområdena är begränsat, varför avsnittet har anpassats i längd i enlighet med redaktionell policy.",
+  "source_coverage": [],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [],
+  "selection_decisions": [],
+  "format_decision": {
+    "outcome": "no_news",
+    "reason": "Inga nya relevanta och verifierade källor som uppfyller kriterierna har påträffats för dagens datum."
+  },
+  "access_exclusions_reviewed": true,
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "news_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "script_sha256": "f9401779126b6de6005b938a30fcff289c0eace25f3ff702535b2ef816175489",
+    "collection_sha256": "9d68504c3b00b0f92c9ddfca8d11c8fe4559888f066b917f498c7569196c0af0"
+  }
+}
