@@ -1,0 +1,431 @@
+{
+  "channel": "sjoomradet",
+  "date": "2026-10-26",
+  "sources": [
+    {
+      "id": 14,
+      "title": "Kpler and Airbus Link Up with New Ship Surveillance System",
+      "url": "https://maritime-executive.com/article/kpler-and-airbus-link-up-with-new-ship-surveillance-system",
+      "summary": "For many months now the industry has been aware of how merchant vessels are transiting the Strait of Hormuz ‘dark’, usually but not always avoiding de...",
+      "date": "2026-10-25T16:59:02+00:00",
+      "publisher": "The Maritime Executive",
+      "discovery_identity": {
+        "url": "https://maritime-executive.com/article/kpler-and-airbus-link-up-with-new-ship-surveillance-system",
+        "title": "Kpler and Airbus Link Up with New Ship Surveillance System",
+        "summary": "For many months now the industry has been aware of how merchant vessels are transiting the Strait of Hormuz ‘dark’, usually but not always avoiding de...",
+        "date": "2026-10-25T16:59:02+00:00",
+        "publisher": "The Maritime Executive"
+      },
+      "discovery_version_key": "fdd70df721c2142809b5dd55836ef61201e149c82b834bda8f8f2c0b3b513585",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-26T03:16:35.203219+00:00",
+      "page_sha256": "f40774fde0aeec228bdd3718e8a1b9a496f38833b2d2ff4bf691a8a1a3f1848d",
+      "resolved_url": "https://maritime-executive.com/editorials/kpler-and-airbus-link-up-with-new-ship-surveillance-system",
+      "extraction_method": "title_matched_article",
+      "text": "Kpler and Airbus Link Up with New Ship Surveillance System Covert vessel traffic heading to and from the Strait of Hormuz (Copernicus / Sentinel-2) By The Maritime Executive 2026-10-25 12:59:02 For many months now the industry has been aware of how merchant vessels are transiting the Strait of Hormuz ‘dark’, usually but not always avoiding detection and attack by Iran’s Islamic Revolutionary Guard Corps (IRGC). Publicity given to the procedures and methods employed risk further compromising the safety of merchant mariners, who are already facing risk enough from the IRGC. Estimates are that about 25 sailors have been killed by IRGC strikes on their vessels in the Strait since the war began on February 28. Five seafarers have been killed in the last 30 days in over 30 incidents, the toll paid for the steady flow of ships making the transit in both directions along the southern Omani Coastal route, notwithstanding an intensification of IRGC attacks over the period. Ships are marshalled, protected and given course advice before navigating the Strait, but an essential part of the procedure is the guidance given to masters on how best to maintain operational security. Vessels from state-owned shipping companies making the transits will have some advantages. But all will try to hide their identity, flag, course and laden status. This has a knock-on effect, because commodity brokers and O&G traders do not necessarily get to know the volumes which are being shipped, and their ability to fix bid and offer prices is impacted accordingly. The Omani naval control authorities also suffer, because with Channel 16 hailing disabled they too do not necessarily know what ships are making passage through the Strait. Filling the information void are maritime security and intelligence companies, who do not necessarily have access to the full picture, and whose reports are based on sometimes incomplete knowledge and unreliable, GNSS-disrupted AIS signaling. But in the absence of something better, this reporting is often taken as the best maritime intelligence picture available by both the trading community and media covering the situation. Stay on Top of the Daily Maritime News The maritime news that matters most Get the latest maritime news delivered to your inbox daily. Subscribe Free To resolve this dilemma, the trading intelligence company Kpler announced on October 20 that it is teaming up with the satellite provider Airbus to develop a reliable system for tracking movements, with the Strait of Hormuz being the area where it will deliver the earliest and greatest dividend. With active systems such as AIS compromising the location of targets which the IRGC might wish to engage, a passive system using satellite imagery can detect and identify individual ship movements, particularly when analysts can use artificial intelligence-aided tools to speed the identification and tracking process. The complete picture which such a system can generate and keep up to date has considerable commercial value to traders, so Airbus and Kpler are not likely to make the correlated product a free handout – indeed, like most intelligence products, the fewer people who have access to the finished product, the more valuable it is likely to be. Nevertheless, national maritime security centers will be knocking on the door to get real-time access. Kpler acknowledges that the International Maritime Organization mandates the use of AIS systems, and the universal adoption of AIS has produced huge benefits for maritime safety. But with actors such as the IRGC intent on ignoring UNCLOS and attacking innocent merchant shipping, a revision of the protocols on how ships identify themselves while moving on the high seas may now be necessary – unless of course the IRGC and its proxies give up sometime soon attacking merchant shipping and start respecting UNCLOS. The opinions expressed herein are the author's and not necessarily those of The Maritime Executive.",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain."
+    },
+    {
+      "id": 9,
+      "title": "In Singapore, Improper Drone Use Can Mean Fines or Prison for Seafarers",
+      "url": "https://maritime-executive.com/article/in-singapore-improper-drone-use-can-mean-fines-or-prison-for-seafarers",
+      "summary": "The Port of Singapore has been at the forefront of harbor drone services since at least 2018, when it welcomed the first trials of a cargo-drone comme...",
+      "date": "2026-10-26T00:21:00+00:00",
+      "publisher": "The Maritime Executive",
+      "discovery_identity": {
+        "url": "https://maritime-executive.com/article/in-singapore-improper-drone-use-can-mean-fines-or-prison-for-seafarers",
+        "title": "In Singapore, Improper Drone Use Can Mean Fines or Prison for Seafarers",
+        "summary": "The Port of Singapore has been at the forefront of harbor drone services since at least 2018, when it welcomed the first trials of a cargo-drone comme...",
+        "date": "2026-10-26T00:21:00+00:00",
+        "publisher": "The Maritime Executive"
+      },
+      "discovery_version_key": "2c92a94b1c2fd517d7819568bce3b388d36457289073c9fb093f744172e520ea",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-26T03:16:35.203819+00:00",
+      "page_sha256": "8a4abe365d0fb38a75c8f3ba9e1592c3e481da42eab029e33d19e3f0ed324ea7",
+      "resolved_url": "https://maritime-executive.com/article/in-singapore-improper-drone-use-can-mean-fines-or-prison-for-seafarers",
+      "extraction_method": "title_matched_article",
+      "text": "In Singapore, Improper Drone Use Can Mean Fines or Prison for Seafarers An authorized cargo drone over Singapore's harbor (file image) By The Maritime Executive 2026-10-25 20:21:00 The Port of Singapore has been at the forefront of harbor drone services since at least 2018, when it welcomed the first trials of a cargo-drone commercial delivery system for ships at anchor. While a friendly environment for R&D and commerce, it is also a leader in drone security regulation - a prudent step given the real-world risk of UAV-based sabotage or espionage. Seafarers who decide to launch a personal drone in Singapore's harbor - especially if they're close to Changi Airport - are at risk of hefty fines, and potentially a jail term for egregious offenses. The Civil Aviation Authority of Singapore (CAAS) has strict rules for UAV use over land and water. Flights are not allowed over crowds, near roads, or near first-responders. Flights above 200 feet are prohibited, as are drone movements within five kilometers of an airport (without prior permission and a permit). The maximum penalty is a fine of up to US$39,000 or up to two years in prison. The five-kilometer exclusion zone around Changi Airport happens to cover multiple anchorage areas at the eastern end of Singapore's waterfront. Several seafarers have unwittingly found themselves on the wrong side of this regulation, according to a circular distributed to shipping interests by CAAS and the MPA last week. According to CAAS, two seafarers were caught operating recreational drones in the wrong areas over the summer. In June, a crewmember aboard a local bunker tanker decided to operate a drone at a height of about 140 feet, some three kilometers away from the airport at Eastern Petroleum Bravo Anchorage. The 46-year-old mariner lacked a permit, and was fined about US$4,000 - instead of a 10-day prison term. In July, a crewmember on a foreign-flagged tanker was caught running a recreational drone at an altitude of 240 feet - well above the statutory limit - in the Eastern Petroleum Charlie Anchorage, less than two kilometers from Changi Airport. The individual received a fine of US$2,300. Stay on Top of the Daily Maritime News The maritime news that matters most Get the latest maritime news delivered to your inbox daily. Subscribe Free On shore, tourists and members of the public get caught in drone-use violations at a rate of about 300 reported cases per year, according to the Straits Times . A small number of these cases are prosecuted, but for those that are, the court process can take weeks and real-world fines can be as high as US$10,000 or more. While Singapore's general-use rules are strict, MPA remains highly supportive of drone technology for commercial purposes. It operates designated \"testbed\" safe anchorages for shipboard drone R&D, which have been used by some of the biggest names in maritime services to trial new technology in a real-world setting. The MPA also has set up a formal launchpad and preparation area for UAV testing, complete with covered space for setup and operations - one of the world's only port-sponsored drone R&D zones.",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain."
+    },
+    {
+      "id": 13,
+      "title": "Closing the Sea: Lessons from Ancient Mediterranean Blockades",
+      "url": "https://maritime-executive.com/article/closing-the-sea-lessons-from-ancient-mediterranean-blockades",
+      "summary": "Nearly a century ago, Rear Admiral William A. Moffett, U.S.N., wrote in the foreword to Arthur M. Shepard’s seminal work, Sea Power in Ancient History...",
+      "date": "2026-10-25T19:18:30+00:00",
+      "publisher": "The Maritime Executive",
+      "discovery_identity": {
+        "url": "https://maritime-executive.com/article/closing-the-sea-lessons-from-ancient-mediterranean-blockades",
+        "title": "Closing the Sea: Lessons from Ancient Mediterranean Blockades",
+        "summary": "Nearly a century ago, Rear Admiral William A. Moffett, U.S.N., wrote in the foreword to Arthur M. Shepard’s seminal work, Sea Power in Ancient History...",
+        "date": "2026-10-25T19:18:30+00:00",
+        "publisher": "The Maritime Executive"
+      },
+      "discovery_version_key": "299a5571a24a09b8a6e40acd393e01e057ca8fab2ad1183ff9080f2a11af91f6",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-26T03:16:35.204164+00:00",
+      "page_sha256": "8a5a05c19834fa1b709d2f6b81c7280bbe53fb5b4336ccf8c392c2ef68c27c63",
+      "resolved_url": "https://maritime-executive.com/editorials/closing-the-sea-lessons-from-ancient-mediterranean-blockades",
+      "extraction_method": "title_matched_article",
+      "text": "Closing the Sea: Lessons from Ancient Mediterranean Blockades Naval battle at the harbor of Syracuse, illustration circa 1890 (artist unknown / public domain) By CIMSEC 2026-10-25 15:18:30 [By Dr. Stephen DeCasien] Nearly a century ago, Rear Admiral William A. Moffett, U.S.N., wrote in the foreword to Arthur M. Shepard’s seminal work, Sea Power in Ancient History, that “Readers of this work cannot but be impressed by the similarity between the problems of sea power in ancient times and problems of sea power which are engaging the attention of maritime nations today.” Practitioners of naval power have long looked to the past for warnings, lessons, and insights that might inform the challenges of the present and future. This post follows in that tradition by considering what antiquity might offer for understanding one of the most enduring applications of naval power, the blockade. The British naval theorist Julian Corbett distinguished between commercial blockade, intended to restrict an enemy’s maritime trade, and naval blockade, directed against an enemy’s fleet. The latter could itself serve different purposes, either keeping an enemy fleet confined to port or watching it closely while encouraging it to put to sea, where it could be brought to battle. Although Corbett developed these categories from the experience of more recent naval warfare, their basic purposes would have been readily recognizable in antiquity. Ancient fleets likewise sought to restrict maritime commerce and supplies, contain hostile naval forces, or compel an adversary’s fleet to come out and fight. The relevance of these forms of blockade is hardly confined to the past. At the time of writing, the United States is enforcing a blockade against Iran, restricting maritime traffic to and from Iranian ports as part of the ongoing conflict. At the same time, across the Indo-Pacific, the possibility of a Chinese blockade of Taiwan remains a central concern in discussions of a potential cross-Strait conflict. Chinese military planning considers blockade operations as one means of isolating and coercing Taiwan, alongside the considerably more demanding possibility of an amphibious invasion. Despite enormous differences in political circumstances, technologies, and scale, these situations underscore a common problem. Establishing control of the sea is one thing, but maintaining that control long enough to achieve a political or military objective is another. There are, of course, many examples of naval blockade in the ancient Mediterranean, but four cases highlight particularly well the different challenges such operations presented: Samos in 440–439 BCE, Syracuse in 413 BCE, Rhodes in 305–304 BCE, and Roman operations around Lilybaeum and Drepana in 250–249 BCE. Each exposes a different problem associated with blockade, including maintaining forces on station, preserving or contesting command of the sea, restricting or sustaining access to supplies, and protecting the forces involved. Samos, 440–439 BCE: The Challenge of Maintaining a Blockade The Athenian campaign against Samos in 440–439 BCE provides a clear example of both the effectiveness and fragility of naval blockade. After an earlier Athenian intervention on the island, a group of Samian exiles returned, overthrew the Athenian-backed government, and revolted. Athens responded by sending sixty ships under the command of Pericles and other generals. After defeating a Samian fleet of seventy vessels near Tragia and receiving additional ships from Athens, Chios, and Lesbos, the Athenians landed troops and surrounded Samos with three walls while simultaneously blockading the city “from the sea at the same time” (?κ θαλ?σσης ?μα). The blockade quickly revealed a problem that remains fundamental to such operations, as forces maintaining a blockade may also be required to respond to threats elsewhere. Reports reached Pericles that a Phoenician fleet was approaching to assist the Samians. He therefore took sixty ships from the force stationed around Samos and sailed toward Caunus and Caria to meet the anticipated threat. His departure weakened the blockade at precisely the moment the defenders needed. The Samians exploited the opportunity. They attacked the inadequately protected Athenian naval station, destroyed the guard ships, and defeated the vessels sent against them. For fourteen days they “controlled the sea in their area” (τ?ς θαλ?σσης τ?ς καθ? ?αυτο?ς ?κρ?τησαν) and, as Thucydides puts it, “brought in and carried out whatever they wished” (?σεκομ?σαντο κα? ?ξεκομ?σαντο ? ?βο?λοντο). When Pericles returned, however, the Athenians reestablished the blockade by land and sea. Further reinforcements arrived from Athens, Chios, and Lesbos, and after a nine-month siege the Samians surrendered, demolished their walls, surrendered their fleet and hostages, and agreed to repay the costs of the war. For fourteen days, the diversion of part of the Athenian fleet was enough to reopen Samian access to the sea, demonstrating the importance of persistence in maintaining a blockade. For those under blockade, even a temporary weakening of the forces on station could provide an opportunity to restore maritime access. Syracuse, 413 BCE: The Reversal of a Blockade When the Athenians arrived at Syracuse in 415 BCE, seeking to conquer the city and extend their power into Sicily, their overwhelming superiority at sea was one of the expedition’s greatest advantages. Over the course of the campaign, however, they gradually lost that advantage and ultimately found themselves trapped in the Great Harbor. By 414 BCE, the campaign had developed into an effort to isolate Syracuse by land and sea. The Athenians occupied Plemmyrium at the entrance to the Great Harbor, using it to protect their ships and store equipment, while their army attempted to complete a wall of circumvallation around the city. Thucydides emphasizes how far the Athenian works had progressed by the time Spartan support for Syracuse arrived under the command of Gylippus. Much of the wall toward the Great Harbor was already complete, while materials had been prepared to extend the line toward the opposite coast. Gylippus’ intervention changed the strategic situation. Syracusan counter-walls prevented completion of the Athenian circumvallation, while the capture of Plemmyrium deprived the expedition of its principal position at the mouth of the Great Harbor and cost it substantial stores and naval equipment. The Syracusans also refused to remain blockaded within the Great Harbor, continuing to contest Athenian control of its waters. In 413 BCE, they modified their triremes for its confined waters, strengthening and shortening their prows for direct, head-on, prow-to-prow attacks (?ντιπρ?ροις), rather than the maneuvering attacks (?κ περ?πλου) for which the more lightly constructed Athenian prows were designed. After defeating the Athenians at sea, the Syracusans closed the mouth of the Great Harbor with merchant vessels, warships, and other crafts moored across the entrance. The fleet that had arrived with overwhelming maritime superiority now had to fight its way out of the harbor it had once helped control. In the final naval battle, the Athenians attempted to break the Syracusan blockade, attacking the barrier across the harbor entrance, but the Syracusan and allied fleet prevented their escape. The surviving Athenians abandoned their ships and attempted to retreat overland, ending in the destruction of the expedition. Syracuse demonstrates that a blockade depends on continued control of the surrounding maritime space. As Athenian control weakened through setbacks ashore, the loss of key positions, Syracusan tactical adaptation, and defeat at sea, the Athenians went from attempting to cut off Syracuse to being trapped themselves. For a force under blockade, contesting control rather than simply accepting isolation can fundamentally alter the strategic situation. Rhodes, 305–304 BCE: The Limits of a Blockade Few commanders in antiquity possessed a reputation for naval siege warfare comparable to Demetrius Poliorcetes, yet his enormous effort against Rhodes in 305–304 BCE failed to isolate the city completely. Maritime commerce was fundamental to Rhodian wealth and strategic power. Diodorus Siculus describes Rhodes as possessing considerable naval strength (?σχ?ουσα ναυτικα?ς δυν?μεσι) and notes its particularly close economic relationship with Ptolemy I of Egypt. When Antigonus and Demetrius attempted to force Rhodes away from its relationship with Ptolemy, separating the city from outside support became a central part of the campaign. Demetrius arrived with a formidable fleet. He attacked the Rhodian harbor defenses from the sea, deployed ship-mounted artillery and siege machinery, and later shifted much of his effort ashore. Yet his fleet could not make the waters around Rhodes impermeable. Rhodian warships continued to operate, and outside powers repeatedly sent assistance. Ptolemy, Cassander, and Lysimachus supplied the city, with Diodorus describing major shipments of grain and other provisions. Their importance was reflected in the honors Rhodes later granted its benefactors. Every successful entry weakened the coercive purpose of Demetrius’ effort to isolate the city. So long as Rhodes retained sufficient maritime access to receive supplies and outside assistance, time did not necessarily favor the attacker. After roughly a year of fighting, Demetrius accepted a settlement. Rhodes preserved its autonomy and its relationship with Ptolemy, while agreeing to support Antigonus except in conflicts against Ptolemy. Rhodes illustrates the difficulty of maintaining a fully effective blockade. A blockade does not need to stop all traffic to exert pressure, nor does every successful passage render it ineffective. Its effectiveness ultimately depends on whether enough traffic is restricted to achieve its strategic purpose, while even limited access may be sufficient for the defender to sustain resistance. Lilybaeum and Drepana, 250–249 BCE: The Costs of Maintaining a Blockade By 250 BCE, during the First Punic War, Roman successes in Sicily had narrowed the Carthaginian position to a handful of strongholds in the west, but the effort to blockade Lilybaeum exposed the Roman fleet to risks that would ultimately threaten the operation itself. Polybius notes that the Romans believed its capture would open the way for attacks against North Africa, while Carthage resolved to hold it at virtually any cost. The Romans therefore invested Lilybaeum by land and sea. The harbor proved exceptionally difficult to blockade effectively. Carthage exploited local knowledge, favorable winds, and skilled seamanship to penetrate the Roman blockade. A force under Hannibal, son of Hamilcar, carried approximately 10,000 troops and supplies into Lilybaeum despite the Roman presence. Hannibal “the Rhodian” later repeatedly sailed between Carthaginian territory and Lilybaeum, running the Roman blockade until the Romans captured a sufficiently fast Carthaginian vessel to intercept him. These episodes demonstrated the difficulty of transforming naval superiority into complete control of a contested area. The blockade also imposed costs on the Romans. Combat, siege operations, and disease depleted the fleet’s manpower, requiring 10,000 replacement sailors. In 249 BCE, the Roman consul Publius Claudius Pulcher used the reconstituted fleet to strike the nearby Carthaginian naval base at Drepana, apparently hoping to surprise the Carthaginian commander Adherbal and eliminate the threat to Roman blockade operations around Lilybaeum. Instead, Adherbal brought his ships into open water. The Romans, caught close to the coast with less maneuverable ships and inexperienced replacement crews, suffered a devastating defeat. Polybius reports that ninety-three Roman vessels were captured while Claudius escaped with about thirty. Carthaginian forces subsequently returned to the vicinity of Lilybaeum and attacked Roman ships there. Lilybaeum and Drepana reveal the sustained costs of blockade. Maintaining pressure exposes the forces involved to attrition, crew exhaustion, enemy action, and competing operational demands. As these pressures accumulate, they can create opportunities for the opposing force to challenge the blockade and reshape the balance at sea. Ancient Blockades and the Problem of Sea Power Ancient and modern blockades operate with radically different technologies. Samos, Syracuse, Rhodes, and Lilybaeum offer no tactical prescriptions for fleets operating with submarines, aircraft, missiles, satellites, or unmanned systems. Their relevance lies instead in the strategic problems they expose. Taken together, the four cases suggest that blockade should be understood as a continuing contest rather than a condition established simply by achieving maritime superiority. Samos demonstrates the demands of persistence, as even the temporary removal of part of the blockading force created an opportunity to reopen access to the sea. Syracuse shows how control can be reversed, as the Athenians went from attempting to isolate the city to being trapped within the Great Harbor themselves. Rhodes demonstrates that a blockade need not be broken completely to fail; sufficient access may allow a defender to continue resisting. Lilybaeum and Drepana show how the accumulating costs and vulnerabilities of maintaining a blockade can create opportunities for it to be challenged. These cases raise several enduring strategic questions about blockades. How difficult is a blockade to impose, sustain, resist, or break? How much force does it require, and for how long? How complete must it be to achieve its political or military objectives? How much traffic can continue to pass through before its effectiveness is undermined? What outside powers might intervene or provide support? And what forces, bases, or geographic features might st",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain."
+    },
+    {
+      "id": 74,
+      "title": "Europa överväger att placera ut styrkor i Svarta havet. - Vietnam.vn",
+      "url": "https://www.vietnam.vn/sv/chau-au-can-nhac-trien-khai-luc-luong-tren-bien-den",
+      "summary": "Europa överväger att placera ut styrkor i Svarta havet. Vietnam.vn",
+      "date": "2026-10-24T23:26:07+00:00",
+      "publisher": "Vietnam.vn",
+      "discovery_identity": {
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeUVoMFg5aXN3a1ZLbDdKbDVnaGlnbkdrdGdoZGNoODVDNmpsQ3FnZGEyaUV2a2dmVUhncHQ0WU1ZMU5oOU82Nk85Qm5jSHlSMnJlcGhjU2tHZkNZYUxPcGhDOThwWFNQemRESk5DbXZ4WXFtVzVLaTRxV3VvbU4wRlpyOA?oc=5",
+        "title": "Europa överväger att placera ut styrkor i Svarta havet. - Vietnam.vn",
+        "summary": "Europa överväger att placera ut styrkor i Svarta havet. Vietnam.vn",
+        "date": "2026-10-25T01:27:12+00:00",
+        "publisher": "Vietnam.vn"
+      },
+      "discovery_version_key": "dc43bdba689c92214759204e5b8f662fd48c0cf16ba1304b243303d32ce1c22a",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-26T03:16:35.338392+00:00",
+      "discovery_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeUVoMFg5aXN3a1ZLbDdKbDVnaGlnbkdrdGdoZGNoODVDNmpsQ3FnZGEyaUV2a2dmVUhncHQ0WU1ZMU5oOU82Nk85Qm5jSHlSMnJlcGhjU2tHZkNZYUxPcGhDOThwWFNQemRESk5DbXZ4WXFtVzVLaTRxV3VvbU4wRlpyOA?oc=5",
+      "page_published_at": "2026-10-24T23:26:07+00:00",
+      "page_modified_at": "2026-10-24T23:32:30+00:00",
+      "discovery_date": "2026-10-25T01:27:12+00:00",
+      "date_precision": "timestamp",
+      "resolved_url": "https://www.vietnam.vn/sv/chau-au-can-nhac-trien-khai-luc-luong-tren-bien-den",
+      "text": "Europa överväger att placera ut styrkor i Svarta havet. Europa överväger att placera ut styrkor i Svarta havet. GD&TĐ - Svarta havet riskerar att öka spänningarna ytterligare då Europeiska unionen överväger att utplacera militära styrkor i vattnen som gränsar till Ryssland. Báo Giáo dục và Thời đại • 24/10/2026 Följ Vietnam.vn på G o o g l e Lägg till Vietnam.vn på G o o g l e 0 Ryska medier uttryckte nyligen oro över att ledamöter av Europaparlamentet har uttalat att EU och dess medlemsstater bör överväga att utplacera marina kapaciteter i Svarta havet, efter de senaste dödliga attackerna. Enligt en artikel på Topcor.ru har Europaparlamentet börjat diskutera möjligheten att inleda en \" militär operation\" i Svarta havet. Detta är dock fortfarande en idé som väckts av vissa europeiska parlamentariker, och det har inte kommit något officiellt uttalande från Europaparlamentet. \" Europaparlamentet fördömer starkt de senaste attackerna som orsakat dödsoffer utanför Bulgariens och Rumäniens kuster, liksom de upprepade kränkningarna av rumänskt luftrum\", uppgav den europeiska lagstiftande församlingens webbplats. Europeiska lagstiftare skyllde också Ryssland för attacker mot civila fartyg och de eskalerande spänningarna i västra Svarta havet. Du kanske också gillar Det är anmärkningsvärt att de parlamentsledamöter som föreslog idén klargjorde att mobiliseringen av marina resurser i Svarta havet är Europeiska unionens ansvar, inte Nordatlantiska fördragsorganisationens (Nato). Enligt NATO-fördraget opererar alliansens marinstyrkor endast i Medelhavet, inte i Svarta havet. Detta exkluderar territorialvattnen för medlemsstater som Bulgarien, Rumänien och Turkiet. Tidigare diskuterade även europeiska medier aktivt de ryska väpnade styrkornas användning av drönare för att införa åtminstone en partiell sjöblockad av den ukrainska kusten. Samtidigt har Ukraina också inlett en serie attacker i Svarta havet med hjälp av ytfartyg och obemannade flygfarkoster. Du kanske också gillar Efter att Ukraina inlett en serie militära eskaleringar riktade mot ryskt territorium, svarade Ryssland genom att rikta in sig på Ukrainas energiinfrastruktur, transporter, logistikdepåer, särskilt hamnar i Svarta havet, och ukrainska flottans stridstillgångar. Därför tror militära experter att Ryssland kan överväga starkare vedergällningsåtgärder om europeiska länder faktiskt placerar ut sjöstyrkor i Svarta havet – en åtgärd som Kreml anklagar för att syfta till att begränsa Ryssland och stödja Ukraina. Enligt Topcor.ru Källa: Báo Giáo dục và Thời đại Originalartikel Kopiera https://giaoducthoidai.vn/chau-au-can-nhac-trien-khai-luc-luong-tren-bien-den-post797237.html Följ Vietnam.vn på G o o g l e Lägg till Vietnam.vn på G o o g l e 0 Tagg : Europa sätter in trupper. EU sätter in trupper i Svarta havet. marinattack #RysslandNATOKonflikt Svartahavsflottan Ryska flottan Kommentar ( 0 ) Mest populära Nyaste Lämna en kommentar för att dela dina känslor! Trender efter kategori Från kompletterande hälsovårdstjänster till samhällsbaserade äldreomsorgsmodeller. Đài truyền hình Việt Nam 40 phút trước Indien och EU fortsätter frihandelsprocessen mitt i globala geopolitiska förändringar. VietnamPlus một giờ trước Vietnamesiska kaffeproducenter söker möjligheter från kanadensiska franchisekedjor. VietnamPlus một giờ trước Irans dolda \"vapen\" under havet i en konflikt med USA. VietNamNet một giờ trước Ryssland och Slovakien återupptar samarbetet mellan regeringar efter ett femårigt uppehåll. VietnamPlus một giờ trước Iran vidhåller sin ståndpunkt trots hotet om förnyade amerikanska militära insatser. Báo Hải Phòng một giờ trước Se mer",
+      "page_sha256": "36fec73fca53395765cf197f35e602aa2766e800af5111e237079fcf0e7ec11c",
+      "extraction_method": "rendered_visible_primary_article",
+      "evidence_limit": "Visible rendered primary-page text; factual review remains mandatory."
+    },
+    {
+      "id": 76,
+      "title": "Efter ukrainska attacker mot dess kommandocentral svarade Ryssland med att attackera lastfartyg i Svarta havet. - Vietnam.vn",
+      "url": "https://www.vietnam.vn/sv/bi-ukraine-tan-cong-so-chi-huy-nga-tung-don-dap-tra-vao-tau-hang-tren-bien-den",
+      "summary": "Efter ukrainska attacker mot dess kommandocentral svarade Ryssland med att attackera lastfartyg i Svarta havet. Vietnam.vn",
+      "date": "2026-10-25T12:23:03+00:00",
+      "publisher": "Vietnam.vn",
+      "discovery_identity": {
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbWsxQTlyN1BpVTUzeEVuUXpIUXNJN1VEZ3ctcUx5NzNGUlRBUzVUSk5xSkR3Vk9VRS1xU21lZkdSSEdSZUh0eUpVeUhEa0ctTzgtaG9GNkNqeXYyeGlaYW5laURIOG1zQzh4NkpYZU5ndHltVGdpMFlCYXpBek9RWXRnb2N0RFVHTUVMRkUyX0FQamtBWjJkSVdsRUVQOGd4UDhONWxtaw?oc=5",
+        "title": "Efter ukrainska attacker mot dess kommandocentral svarade Ryssland med att attackera lastfartyg i Svarta havet. - Vietnam.vn",
+        "summary": "Efter ukrainska attacker mot dess kommandocentral svarade Ryssland med att attackera lastfartyg i Svarta havet. Vietnam.vn",
+        "date": "2026-10-24T07:00:00+00:00",
+        "publisher": "Vietnam.vn"
+      },
+      "discovery_version_key": "7e1a8e7af6342756d02d60200cf0ce404cc5b33f1bd0cde6d65a3b3b1ea2628c",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-26T03:16:36.149126+00:00",
+      "discovery_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbWsxQTlyN1BpVTUzeEVuUXpIUXNJN1VEZ3ctcUx5NzNGUlRBUzVUSk5xSkR3Vk9VRS1xU21lZkdSSEdSZUh0eUpVeUhEa0ctTzgtaG9GNkNqeXYyeGlaYW5laURIOG1zQzh4NkpYZU5ndHltVGdpMFlCYXpBek9RWXRnb2N0RFVHTUVMRkUyX0FQamtBWjJkSVdsRUVQOGd4UDhONWxtaw?oc=5",
+      "page_published_at": "2026-10-25T12:23:03+00:00",
+      "page_modified_at": "2026-10-25T12:49:54+00:00",
+      "discovery_date": "2026-10-24T07:00:00+00:00",
+      "date_precision": "timestamp",
+      "resolved_url": "https://www.vietnam.vn/sv/bi-ukraine-tan-cong-so-chi-huy-nga-tung-don-dap-tra-vao-tau-hang-tren-bien-den",
+      "text": "Efter ukrainska attacker mot dess kommandocentral svarade Ryssland med att attackera lastfartyg i Svarta havet. Efter ukrainska attacker mot dess kommandocentral svarade Ryssland med att attackera lastfartyg i Svarta havet. TPO - Den 24 oktober och tidigt på morgonen den 25 oktober attackerade ukrainska styrkor flera radarstationer i Rysslands Belgorodprovins, samt ryska militära kommandocentraler i provinserna Zaporizjzja och Kherson. Báo Tiền Phong • 25/10/2026 Följ Vietnam.vn på G o o g l e Lägg till Vietnam.vn på G o o g l e 0 (Foto: Tass) Den ukrainska väpnade styrkans generalstab uppgav att målen var ryska radarstationer nära bosättningarna Gostisjtjevo och Kurgannoje i Belgorodprovinsen (Ryssland). Dessutom attackerade ukrainska styrkor en rysk kommandopost nära Tarasivka i provinsen Zaporizjzja, samt en kommando- och observationspost nära staden Hola Prystan i provinsen Kherson. Ukrainska styrkor attackerade ryska truppkoncentrationer nära Mykolaivka och Novoukraiinka i Donetsk-provinsen, samt i Berdjansk, Okhrimivka och Tarasivka i Zaporizjzja-provinsen. Du kanske också gillar I Belgorod, beläget nära den ryska gränsen till Ukraina, orsakade den ukrainska attacken betydande skador, enligt Belgorods guvernör Alexander Shuvayev. Totalt 30 byggnader skadades, tillsammans med 35 bilar, 8 köpcentra och 3 sociala välfärdsinrättningar. Även den 25 oktober meddelade det ryska försvarsministeriet att dess drönare hade attackerat ett lastfartyg på väg till hamnen i Tjornomorsk i Svarta havet. Den ryska militären anklagade fartyget för att ha använts för att leverera varor till den ukrainska armén. Ryska styrkor attackerade även ett logistikcenter, ett distributionscenter och en depå i den ukrainska staden Charkiv. Enligt det ryska försvarsministeriet användes dessa anläggningar för att lagra och distribuera varor med dubbla användningsområden för den ukrainska militären. Rysslands och Ukrainas attacker mot varandras territorium fortsätter, trots positiva tecken från förhandlingarna. Du kanske också gillar Den 23 oktober bekräftade president Volodymyr Zelenskyj att delegationer från Ukraina, Ryssland och USA hade kommit överens om att hålla ett möte på teknisk nivå under första hälften av november i Abu Dhabi (Förenade Arabemiraten). Zelenskyj uttryckte också hopp om att möten mellan honom och Rysslands president Vladimir Putin och USA:s president Donald Trump skulle äga rum efteråt. I ett uttalande till reportrar den 24 oktober sa USA:s president Trump att Washington avser att samarbeta i affärer med både Kiev och Moskva efter att kriget mellan Ryssland och Ukraina är slut. Detaljer om detta samarbete har dock ännu inte avslöjats. Hans fru, Melania, var också närvarande och pratade med reportrar. När en reporter frågade om de planerade att besöka Ukraina svarade Melania: \"Vi får se.\" Källa: Báo Tiền Phong Originalartikel Kopiera https://tienphong.vn/bi-ukraine-tan-cong-so-chi-huy-nga-tung-don-dap-tra-vao-tau-hang-tren-bien-den-post1888482.tpo Följ Vietnam.vn på G o o g l e Lägg till Vietnam.vn på G o o g l e 0 Tagg : #Fredsförhandlingar mellan Ryssland och Ukraina. Ryssland-Ukraina-konflikten Ukraina Ukrainas president Volodymyr Zelenskyj Ryssland Kommentar ( 0 ) Mest populära Nyaste Lämna en kommentar för att dela dina känslor! Trender efter kategori Ryssland inleder förberedelserna för ett trilateralt toppmöte med USA och Kina. Báo Quốc Tế för 2 timmar sedan Brasiliens president Lula da Silva omvald Báo An Giang för 2 timmar sedan President Lula da Silva gjorde en spektakulär comeback och vann omval som Brasiliens president. Báo Quốc Tế för 2 timmar sedan Houthirebellerna fortsätter att avfyra missiler mot flygplatser och oljeanläggningar i Saudiarabien. Báo Giáo dục và Thời đại för 2 timmar sedan Kinesiska och ryska spaningsflygplan närmade sig upprepade gånger Japan under amerikansk-japanska militärövningar. Báo Tiền Phong för 2 timmar sedan Den brasilianska presidenten valdes för en fjärde mandatperiod. Báo Dân trí för 2 timmar sedan Se mer",
+      "page_sha256": "a4e01149bebabe0dd43424bcadfed7c8ca64dce5affa9e50791df568d7e25575",
+      "extraction_method": "rendered_visible_primary_article",
+      "evidence_limit": "Visible rendered primary-page text; factual review remains mandatory."
+    }
+  ],
+  "collection_evidence": {
+    "state": "ready",
+    "failed_discovery_urls": [],
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "subscription_exclusions": [],
+    "channel": "sjoomradet",
+    "discovery": {
+      "channel": "sjoomradet",
+      "date": "2026-10-26",
+      "feeds": [
+        {
+          "url": "https://www.navalnews.com/feed/",
+          "entries": 10,
+          "accepted": 5,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://maritime-executive.com/articles.rss",
+          "entries": 57,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "atom10",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/rss.xml",
+          "entries": 100,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.europol.europa.eu/rss.xml",
+          "entries": 10,
+          "accepted": 10,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "entries": 32,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22Black%20Sea%22%20ships%20attacks%20Ukraine%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22Hormuz%22%20maritime%20security%20United%20States%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22Baltic%20Sea%22%20sabotage%20cables%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22shadow%20fleet%22%20sanctions%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22Red%20Sea%22%20shipping%20attacks%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22South%20China%20Sea%22%20maritime%20confrontation%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%C3%96stersj%C3%B6n%20skuggflottan%20sanktioner%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 1,
+          "accepted": 1,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Svarta%20havet%20Ukraina%20fartyg%20attacker%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 7,
+          "accepted": 7,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Hormuz%20USA%20sj%C3%B6fart%20s%C3%A4kerhet%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=undervattenskablar%20sabotage%20%C3%96stersj%C3%B6n%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Anato.int%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aconsilium.europa.eu%20shadow%20fleet%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aukrinform.net%20Black%20Sea%20attacks%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20Hormuz%20shipping%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Ayle.fi%20%C3%96stersj%C3%B6n%20sabotage%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Akustbevakningen.se%20skuggflotta%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Amaritime-executive.com%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Anato.int%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Amod.gov.ua%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Akustbevakningen.se%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Atraficom.fi%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Apuolustusvoimat.fi%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Atranspordiamet.ee%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Amil.ee%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        }
+      ],
+      "web_candidates": 0,
+      "original_fallback": null,
+      "candidate_count": 77,
+      "scope": "discovery_only_not_factual_approval"
+    },
+    "checked_at": "2026-10-26T03:16:41.585558+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  }
+}

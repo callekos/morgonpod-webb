@@ -1,0 +1,120 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "Innehållet täcker fullt ut de tre valda nyhetshändelserna inom utsatt tidsram utan utfyllnad.",
+  "source_coverage": [
+    {
+      "claim": "Handelsfartyg har tvingats passera Hormuzsundet mörka utan aktiva AIS-signaler på grund av hot från iranska styrkor.",
+      "source_url": "https://maritime-executive.com/article/kpler-and-airbus-link-up-with-new-ship-surveillance-system"
+    },
+    {
+      "claim": "Kpler och Airbus har inlett ett samarbete för passiv satellitövervakning och AI-analys för fartygsspårning.",
+      "source_url": "https://maritime-executive.com/article/kpler-and-airbus-link-up-with-new-ship-surveillance-system"
+    },
+    {
+      "claim": "Singapores luftfartsmyndighet upprätthåller strikta drönarregler och två sjömän har bötfällts för oauktoriserad flygning nära Changi-flygplatsen.",
+      "source_url": "https://maritime-executive.com/article/in-singapore-improper-drone-use-can-mean-fines-or-prison-for-seafarers"
+    },
+    {
+      "claim": "Europaparlamentet diskuterar möjligheten att utplacera marina kapaciteter i Svarta havet efter attacker mot civila fartyg.",
+      "source_url": "https://www.vietnam.vn/sv/chau-au-can-nhac-trien-khai-luc-luong-tren-bien-den"
+    }
+  ],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://maritime-executive.com/article/kpler-and-airbus-link-up-with-new-ship-surveillance-system",
+      "covered_facts": [
+        "Fartyg går mörka i Hormuzsundet för att undvika iranska attacker",
+        "Kpler och Airbus samarbetar kring passiv satellitövervakning och AI"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://maritime-executive.com/article/in-singapore-improper-drone-use-can-mean-fines-or-prison-for-seafarers",
+      "covered_facts": [
+        "Strikta drönarregler i Singapore nära Changi-flygplatsen",
+        "Två sjömän har bötfällts för otillåtna drönarflygningar"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://maritime-executive.com/article/closing-the-sea-lessons-from-ancient-mediterranean-blockades",
+      "covered_facts": [],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.vietnam.vn/sv/chau-au-can-nhac-trien-khai-luc-luong-tren-bien-den",
+      "covered_facts": [
+        "Europa diskuterar marina styrkor i Svarta havet",
+        "Ryska mothugg mot ukrainska hamnar efter attacker"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.vietnam.vn/sv/bi-ukraine-tan-cong-so-chi-huy-nga-tung-don-dap-tra-vao-tau-hang-tren-bien-den",
+      "covered_facts": [],
+      "missing_facts": []
+    }
+  ],
+  "selection_decisions": [
+    {
+      "url": "https://maritime-executive.com/article/kpler-and-airbus-link-up-with-new-ship-surveillance-system",
+      "selected": true,
+      "reason": "Central nyhet om ny teknik för fartygsövervakning i Hormuzsundet.",
+      "event_key": "hormuz-surveillance-tech",
+      "source_quote": "To resolve this dilemma, the trading intelligence company Kpler announced on October 20 that it is teaming up with the satellite provider Airbus to develop a reliable system for tracking movements",
+      "security_evidence": "For many months now the industry has been aware of how merchant vessels are transiting the Strait of Hormuz ‘dark’, usually but not always avoiding detection and attack by Iran’s Islamic Revolutionary Guard Corps (IRGC)."
+    },
+    {
+      "url": "https://maritime-executive.com/article/in-singapore-improper-drone-use-can-mean-fines-or-prison-for-seafarers",
+      "selected": true,
+      "reason": "Relevant händelse om säkerhetsregler och drönaranvändning för sjömän i hamn.",
+      "event_key": "singapore-drone-regulations",
+      "source_quote": "Seafarers who decide to launch a personal drone in Singapore's harbor - especially if they're close to Changi Airport - are at risk of hefty fines",
+      "security_evidence": "a prudent step given the real-world risk of UAV-based sabotage or espionage."
+    },
+    {
+      "url": "https://maritime-executive.com/article/closing-the-sea-lessons-from-ancient-mediterranean-blockades",
+      "selected": false,
+      "reason": "Historisk essä utan direkt koppling till dagsaktuell operativ säkerhetsutveckling.",
+      "event_key": "historical-blockades",
+      "source_quote": "",
+      "security_evidence": ""
+    },
+    {
+      "url": "https://www.vietnam.vn/sv/chau-au-can-nhac-trien-khai-luc-luong-tren-bien-den",
+      "selected": true,
+      "reason": "Källbelagd uppgift om att EU överväger marina styrkor i Svarta havet.",
+      "event_key": "black-sea-naval-forces",
+      "source_quote": "Europa överväger att placera ut styrkor i Svarta havet. GD&TĐ - Svarta havet riskerar att öka spänningarna ytterligare då Europeiska unionen överväger att utplacera militära styrkor i vattnen som gränsar till Ryssland.",
+      "security_evidence": "Svarta havet riskerar att öka spänningarna ytterligare då Europeiska unionen överväger att utplacera militära styrkor i vattnen som gränsar till Ryssland."
+    },
+    {
+      "url": "https://www.vietnam.vn/sv/bi-ukraine-tan-cong-so-chi-huy-nga-tung-don-dap-tra-vao-tau-hang-tren-bien-den",
+      "selected": false,
+      "reason": "Händelsen täcks redan tillräckligt av den andra artikeln från samma källa kring Svarta havet.",
+      "event_key": "black-sea-reciprocal-attacks",
+      "source_quote": "",
+      "security_evidence": ""
+    }
+  ],
+  "format_decision": {
+    "outcome": "standard",
+    "reason": "Tre fullgoda källbelagda nyheter har valts ut som täcker centrala områden inom den maritima säkerheten."
+  },
+  "access_exclusions_reviewed": true,
+  "maritime_policy": "maritime-security-2026-10-22",
+  "maritime_sources_sha256": "f24b808e388acbb3565a5ec625a8d404b06d111c955cc5da371381f9d1e6bf98",
+  "maritime_news_sha256": "7cbb9cb8aae49211f307d6646333d6c7337ec49c0352dce3fd92025c58a5c601",
+  "reviewed_script_sha256": "79b3954f0bf7e3fb429456e559f280f07760a19801732791f056ecd808e3057d",
+  "relevant_event_count": 3,
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "7ef1f4dd514433bdf096ffdcc319430e2bf2679dbad9f93154135ff90cac283d",
+    "news_sha256": "c3b76b1b0069658b25ad2cab95c6ef6a94e6e58a890fbb528e7174f247101fc7",
+    "script_sha256": "79b3954f0bf7e3fb429456e559f280f07760a19801732791f056ecd808e3057d",
+    "collection_sha256": "70819f903043a2c259011fd2ed3c62aa8ab7daddf7ea613e6668a1b65d4860e6"
+  }
+}

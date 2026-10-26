@@ -1,0 +1,65 @@
+{
+  "title": "Sjöområdets lägesbriefing den 26 oktober 2026",
+  "intro": "Idag granskar vi nya övervakningssamarbeten kring Hormuzsundet, skärpta drönarregler för sjömän i Singapore samt den pågående utvecklingen av attacker mot sjöfarten i Svarta havet.",
+  "outlook": "Den fortsatta utvecklingen visar på ökade säkerhetsrisker i både Svarta havet och Hormuzsundet, där både tekniska spaningssystem och politiska förslag om militära närvaroåtgärder diskuteras.",
+  "news": [
+    {
+      "category": "maritim-säkerhet",
+      "title": "Kpler och Airbus inleder samarbete för fartygsövervakning i Hormuzsundet",
+      "summary": "The Maritime Executive rapporterar att handelsfartyg som trafikerar Hormuzsundet ofta tvingas navigera utan aktiva AIS-signaler för att undvika hot från Irans revolutionsgarde. För att möta den informationsbrist som uppstår för handels- och underrättelsemarknaden har Kpler inlett ett samarbete med satellitleverantören Airbus. Systemet bygger på passiv satellitövervakning och AI-stödd analys för att spåra fartygsrörelser utan att avslöja deras position för hotaktörer.",
+      "context": "Utvecklingen belyser hur traditionella AIS-system försvagas av säkerhetsrisker i konfliktdrabbade sund, vilket driver fram nya tekniska lösningar för sjöfartsövervakning.",
+      "url": "https://maritime-executive.com/article/kpler-and-airbus-link-up-with-new-ship-surveillance-system",
+      "publisher": "The Maritime Executive",
+      "body": "Enligt en artikel publicerad av The Maritime Executive har sjöfarten i Hormuzsundet präglats av att fartyg tvingas gå mörka utan aktiva positionssystem för att skydda sig mot iranska attacker. Detta skapar betydande informationsluckor för handelsaktörer och maritima övervakningsmyndigheter. För att lösa detta tillkännagav Kpler ett samarbete med satellitleverantören Airbus. Samarbetet syftar till att nyttja passiva satellitbilder och artificiell intelligens för att spåra enskilda fartyg och ge en mer tillförlitlig lägesbild utan att kompromissa med fartygens operativa säkerhet.",
+      "sources": [
+        {
+          "url": "https://maritime-executive.com/article/kpler-and-airbus-link-up-with-new-ship-surveillance-system",
+          "title": "The Maritime Executive"
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "category": "hamnsäkerhet",
+      "title": "Skärpta drönarregler för sjömän i Singapores hamn",
+      "summary": "The Maritime Executive rapporterar att landets civila luftfartsmyndighet upprätthåller strikta regler för drönaranvändning i hamnområdet. Två sjömän har bötfällts för att ha flugit personliga drönare utan tillstånd inom restriktionszonerna nära Changi-flygplatsen. Samtidigt stöder hamnmyndigheten MPA kommersiell drönarutveckling genom särskilda testbäddar.",
+      "context": "Händelserna understryker de juridiska riskerna för besättningsmedlemmar som hanterar obemannade farkoster i hårt reglerade och säkerhetskänsliga hamnmiljöer.",
+      "url": "https://maritime-executive.com/article/in-singapore-improper-drone-use-can-mean-fines-or-prison-for-seafarers",
+      "publisher": "The Maritime Executive",
+      "body": "The Maritime Executive rapporterar att landets luftfartsmyndighet upprätthåller rigorösa restriktioner mot obehörig drönaranvändning i hamnen och dess omgivningar. Två utländska sjömän har lagförts och dömts till böter efter att ha flugit drönare på otillåten höjd inom femkilometerszonen runt Changi Airport. Myndigheterna betonar att otillåten flygning kan leda till både höga böter och fängelse. Samtidigt upprätthåller hamnmyndigheten MPA särskilda testmiljöer för godkänd kommersiell drönarutveckling inom sjöfarten.",
+      "sources": [
+        {
+          "url": "https://maritime-executive.com/article/in-singapore-improper-drone-use-can-mean-fines-or-prison-for-seafarers",
+          "title": "The Maritime Executive"
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "category": "svarta-havet",
+      "title": "Europa diskuterar marina styrkor i Svarta havet efter attacker mot handelsfartyg",
+      "summary": "Vietnam.vn återger en artikel som uppger att Europaparlamentet diskuterar möjligheten att utplacera marina kapaciteter i Svarta havet. Diskussionerna kommer efter nyligen inträffade dödliga attacker mot lastfartyg nära Bulgariens och Rumäniens kuster. Samtidigt fortsätter Ryssland och Ukraina sina ömsesidiga militära angrepp mot transportinfrastruktur och kommandocentraler.",
+      "context": "Initiativet belyser en eventuell skärpning av det europeiska engagemanget i Svarta havet för att skydda civil sjöfart mot militära eskaleringar.",
+      "url": "https://www.vietnam.vn/sv/chau-au-can-nhac-trien-khai-luc-luong-tren-bien-den",
+      "publisher": "Vietnam.vn",
+      "body": "Enligt en artikel publicerad av Vietnam.vn överväger EU att utplacera marina styrkor i Svarta havet mot bakgrund av den ökade hotbilden och de senaste attackerna mot civila fartyg nära Rumänien och Bulgarien. Parlamentariker har diskuterat idén om en marin insats, även om inget officiellt beslut har fattats av EU-organen. Samtidigt rapporteras att Ryssland har intensifierat sina mothugg mot ukrainska hamnar och logistikdepåer efter ukrainska attacker mot ryska kommandocentraler och radarstationer.",
+      "sources": [
+        {
+          "url": "https://www.vietnam.vn/sv/chau-au-can-nhac-trien-khai-luc-luong-tren-bien-den",
+          "title": "Vietnam.vn"
+        }
+      ],
+      "open_questions": []
+    }
+  ],
+  "description": "Idag granskar vi nya övervakningssamarbeten kring Hormuzsundet, skärpta drönarregler för sjömän i Singapore samt den pågående utvecklingen av attacker mot sjöfarten i Svarta havet.",
+  "tags": [
+    "maritim-säkerhet",
+    "hamnsäkerhet",
+    "svarta-havet"
+  ],
+  "text_format": "editorial_articles",
+  "editorial_date": "2026-10-26",
+  "channel": "sjoomradet",
+  "editorial_outcome": "standard"
+}
