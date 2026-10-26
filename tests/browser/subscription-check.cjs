@@ -5,7 +5,7 @@ exports.subscriptionCheck=async({page},info)=>{
  await page.evaluate(()=>scrollTo(0,document.body.scrollHeight));await expect(button).toBeInViewport();
  const box=await button.boundingBox();expect(box.height).toBeGreaterThanOrEqual(44);expect(box.y).toBeGreaterThanOrEqual(0);
  await button.click();await expect(page).toHaveURL(/prenumerera.html$/);await expect(page.locator('h1')).toHaveText('Prenumerera på Morgonpodden');
- const telegram=page.getByRole('link',{name:'Öppna Morgonpodden i Telegram'});await expect(telegram).toHaveAttribute('href','https://t.me/+jlPUjsmjlE03NDFk');await expect(telegram).toHaveAttribute('target','_blank');
+ const telegram=page.getByRole('link',{name:'Öppna Morgonpodden i Telegram'});await expect(telegram).toHaveAttribute('href','https://t.me/+jIPUjsmjlE03NDFk');await expect(telegram).toHaveAttribute('target','_blank');
  await page.reload();await expect(page.locator('h1')).toHaveText('Prenumerera på Morgonpodden');
  await page.locator('#nav').getByRole('link',{name:'Kanaler',exact:true}).click();await page.locator('.channel-card').first().click();
  await page.locator('summary').first().click();await page.getByRole('link',{name:/Öppna stor spelare/}).click();await page.locator('#big-play').click();

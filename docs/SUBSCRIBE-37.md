@@ -6,7 +6,7 @@ Utgångspunkt: main 6d83c6d978e7b4f752c4a58b769f878fc1ab810a efter dagens fyra l
 
 Alla HTML-skal har en tydlig Prenumerera-länk med minst 44 px höjd i befintligt klistrat sidhuvud. Sidhuvudet finns också på den stora spelarens mobilsida. Det tar plats i dokumentflödet, kan radbrytas och tar hänsyn till safe areas.
 
-Länken öppnar prenumerera.html med befintlig SPA-navigering. Samma audio-element, kö och ljudposition används vidare. Texten förklarar Telegram och öppnar den redan publicerade gemensamma inbjudningslänken https://t.me/+jlPUjsmjlE03NDFk i ny flik eller Telegramappen. Inventering av app.js visar denna gemensamma länk under Mer och inga separata kanalprenumerationer, RSS-, mejl- eller webbpushflöden. Inga nya integrationer har skapats.
+Länken öppnar prenumerera.html med befintlig SPA-navigering. Samma audio-element, kö och ljudposition används vidare. Texten förklarar Telegram och öppnar den gemensamma inbjudningslänken i den här revisionen https://t.me/+jIPUjsmjlE03NDFk i ny flik eller Telegramappen. Inventering av app.js visar denna gemensamma länk under Mer och inga separata kanalprenumerationer, RSS-, mejl- eller webbpushflöden. Inga nya integrationer har skapats.
 
 ## Verifiering och publicering
 
