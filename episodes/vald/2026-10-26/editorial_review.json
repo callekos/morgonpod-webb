@@ -1,0 +1,147 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "",
+  "source_coverage": [
+    {
+      "claim": "Kriminella nätverk rekryterar unga mellan 15 och 25 år via sociala medier för bedrägerier mot äldre, vilket sprider sig till norra Sverige.",
+      "source_url": "https://hurbra.se/gang-rekryterar-unga-bedragerier-2026/"
+    },
+    {
+      "claim": "Intensiv jakt på skytten efter mordet på en man i 25-årsåldern i Bagarmossen på fredagseftermiddagen.",
+      "source_url": "https://www.dn.se/sverige/jakt-pa-skytten-efter-mordet-i-bagarmossen/"
+    },
+    {
+      "claim": "Tonårsflicka häktad på sannolika skäl misstänkt för medhjälp till mord efter skjutningen i Älvsjö den 16 oktober.",
+      "source_url": "https://www.svt.se/nyheter/lokalt/stockholm/tonarsflicka-begars-haktad-efter-mordet-i-alvsjo"
+    },
+    {
+      "claim": "39-årig man misstänkt för skjutning i Trappes har fått häktningen hävd för psykiatrisk observation.",
+      "source_url": "https://www.svt.se/nyheter/utrikes/terrormisstankt-39-aring-ska-genomga-psykiatrisk-observation"
+    },
+    {
+      "claim": "39-årige man som misstänks för skjutning i Trappes har lämnat häktet för psykiatrisk observation.",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "claim": "Essä i The Guardian analyserar hur säkerhetsåtgärder under Nayib Bukele i El Salvador inspirerar högerpolitiska aktörer internationellt.",
+      "source_url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/25/trump-bukele-el-salvador-police-state"
+    }
+  ],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://hurbra.se/gang-rekryterar-unga-bedragerier-2026/",
+      "covered_facts": [
+        "Rekrytering av unga mellan 15 och 25 år via sociala medier för bedrägerier",
+        "Verksamheten sprider sig till norra Sverige",
+        "Omkring 530 anmälningar i september",
+        "Noa har identifierat 72 unga intresserade av digitala brottsuppdrag"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.dn.se/sverige/jakt-pa-skytten-efter-mordet-i-bagarmossen/",
+      "covered_facts": [
+        "Man i 25-årsåldern skjuten till döds i bil i Bagarmossen",
+        "Polisen söker efter skytten",
+        "Uppgifter om felskjutning undersöks men kommenteras inte av polisen"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/stockholm/tonarsflicka-begars-haktad-efter-mordet-i-alvsjo",
+      "covered_facts": [
+        "Tonårsflicka häktad misstänkt för medhjälp till mord i Älvsjö",
+        "Nekar till brott",
+        "Dödsskjutning den 16 oktober vid idrottsanläggning"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.svt.se/nyheter/utrikes/terrormisstankt-39-aring-ska-genomga-psykiatrisk-observation",
+      "covered_facts": [
+        "39-årig man misstänkt för skjutning i Trappes",
+        "Häktningen hävd för psykiatrisk observation",
+        "En dödad och fem skadade",
+        "Utreds som misstänkt terrordåd"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/25/trump-bukele-el-salvador-police-state",
+      "covered_facts": [
+        "Nayib Bukeles säkerhetsåtgärder och undantagstillstånd i El Salvador",
+        "Inspirerat högerpolitiska aktörer internationellt"
+      ],
+      "missing_facts": []
+    }
+  ],
+  "selection_decisions": [
+    {
+      "url": "https://hurbra.se/gang-rekryterar-unga-bedragerier-2026/",
+      "selected": true,
+      "reason": "Viktig information om gängens rekrytering av unga till bedrägerier.",
+      "event_key": "gang_rekrytering_bedragerier",
+      "source_quote": "Kriminella nätverk rekryterar unga mellan 15 och 25 år via sociala medier för att genomföra bedrägerier mot äldre."
+    },
+    {
+      "url": "https://www.dn.se/sverige/jakt-pa-skytten-efter-mordet-i-bagarmossen/",
+      "selected": true,
+      "reason": "Relevant svensk nyhet om dödsskjutningen i Bagarmossen och polisens arbete.",
+      "event_key": "mord_bagarmossen",
+      "source_quote": "Det var strax före klockan 17 på fredagseftermiddagen som polisen larmades om en skottlossning i ett bostadsområde i Bagarmossen."
+    },
+    {
+      "url": "https://www.expressen.se/nyheter/krim/uppgifter-mordet-i-bagarmossen-kan-vara-en-felskjutning/",
+      "selected": false,
+      "reason": "Stödkälla som är fullt täckt i DN-artikeln med tillhörande attribution.",
+      "event_key": "mord_bagarmossen",
+      "source_quote": "En man i 25-årsåldern sköts till döds i Bagarmossen i södra Stockholm på fredagseftermiddagen."
+    },
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/stockholm/tonarsflicka-begars-haktad-efter-mordet-i-alvsjo",
+      "selected": true,
+      "reason": "Viktig uppdatering kring det dödliga våldet och häktningen efter mordet i Älvsjö.",
+      "event_key": "mord_alvsjo_haktning",
+      "source_quote": "En tonårsflicka häktas misstänkt för inblandning i mordet på en kvinna i 25-årsåldern Älvsjö, uppger åklagaren för SVT Nyheter."
+    },
+    {
+      "url": "https://www.svt.se/nyheter/utrikes/terrormisstankt-39-aring-ska-genomga-psykiatrisk-observation",
+      "selected": true,
+      "reason": "Central internationell nyhet om terrormisstänkt skytt som ställs under psykiatrisk observation.",
+      "event_key": "terrordad_frankrike",
+      "source_quote": "Häktningen av den man som misstänks för fredagens skjutning i franska staden Trappes har hävts efter en psykiatrisk undersökning."
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&at_campaign=rss",
+      "selected": false,
+      "reason": "Stödkälla vars uppgifter är fullt täckta i SVT-artikeln om händelsen i Frankrike.",
+      "event_key": "terrordad_frankrike",
+      "source_quote": "A man suspected of a deadly gun attack near Paris has left custody and been placed under psychiatric observation, French anti-terrorism officials have said."
+    },
+    {
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/25/trump-bukele-el-salvador-police-state",
+      "selected": true,
+      "reason": "Relevant internationell analys om statliga säkerhetsstrategier mot gängkriminalitet.",
+      "event_key": "el_salvador_bukele_analys",
+      "source_quote": "To understand where Trump is trying to take the US, we should look to the authoritarian playbook of his favorite ally: El Salvador’s Nayib Bukele"
+    }
+  ],
+  "format_decision": {
+    "outcome": "standard",
+    "reason": "Tillgängligt material har granskats och bedömts hålla god standard för en fullständig lägesbild."
+  },
+  "access_exclusions_reviewed": true,
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "ec8fb8951c9eb23ea7525328ee8e6f3a864918cef70ef1b818326942b1b52054",
+    "news_sha256": "a439ce132f191a167a2d466f54ba4ec70036ebd8154ffc2a7aff609c9b92bcca",
+    "script_sha256": "73ad74bd88c8764f7d9e2e141b879540540ffe33951b58596cc991380d1bd7a4",
+    "collection_sha256": "307266a97e4935bc6664d1b22af8195449a9f9155f2cd8d45531646196427428"
+  },
+  "reviewed_candidate_sha256": "3cca27bf506e608ec3cb61c01310877b940ba93e903f0e26b9a652c968714e95",
+  "reviewed_script_sha256": "73ad74bd88c8764f7d9e2e141b879540540ffe33951b58596cc991380d1bd7a4",
+  "work_package_sha256": "70358eecd315722dca71db0e8a2ac5ed61348a69b380de481ce0076ddeb3131c"
+}

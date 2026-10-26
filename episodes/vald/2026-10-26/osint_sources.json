@@ -1,0 +1,400 @@
+{
+  "channel": "vald",
+  "date": "2026-10-26",
+  "sources": [
+    {
+      "id": 12,
+      "title": "Terrormisstänkt 39-åring ska genomgå ”psykiatrisk observation”",
+      "url": "https://www.svt.se/nyheter/utrikes/terrormisstankt-39-aring-ska-genomga-psykiatrisk-observation",
+      "summary": "Häktningen av den man som misstänks för fredagens skjutning i franska staden Trappes har hävts efter en psykiatrisk undersökning. 39-åringen ska nu genomgå fortsatt observation innan franska myndigheter kan besluta om nästa steg i processen, rapporterar Le Monde.",
+      "date": "2026-10-25T10:43:46+00:00",
+      "publisher": "SVT Nyheter",
+      "discovery_identity": {
+        "url": "https://www.svt.se/nyheter/utrikes/terrormisstankt-39-aring-ska-genomga-psykiatrisk-observation",
+        "title": "Terrormisstänkt 39-åring ska genomgå ”psykiatrisk observation”",
+        "summary": "Häktningen av den man som misstänks för fredagens skjutning i franska staden Trappes har hävts efter en psykiatrisk undersökning. 39-åringen ska nu genomgå fortsatt observation innan franska myndigheter kan besluta om nästa steg i processen, rapporterar Le Monde.",
+        "date": "2026-10-25T10:43:46+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      "discovery_version_key": "a2242701013459f90ca7a5ee3560fb62f6bc8967c85ccf69a7d189ace3df6109",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-26T05:16:30.139315+00:00",
+      "page_published_at": "2026-10-25T11:43:46+01:00",
+      "page_modified_at": "2026-10-25T13:33:48+01:00",
+      "page_sha256": "e990917f694837afe4023378bcef57ae10b3afcf5f76757eaeb0df7da6981545",
+      "resolved_url": "https://www.svt.se/nyheter/utrikes/terrormisstankt-39-aring-ska-genomga-psykiatrisk-observation",
+      "extraction_method": "title_matched_article",
+      "text": "Macron träffade polis och räddningstjänst efter skjutningen där en 26-årig man dödades. Foto: HANNAH MCKAY / POOL Terrormisstänkt 39-åring ska genomgå ”psykiatrisk observation” Uppdaterad igår 13:33 Publicerad igår 11:43 Häktningen av den man som misstänks för fredagens skjutning i franska staden Trappes har hävts efter en psykiatrisk undersökning. 39-åringen ska nu genomgå fortsatt observation innan franska myndigheter kan besluta om nästa steg i processen, rapporterar Le Monde . Den 39-årige mannen misstänks ha skjutit flera personer i städerna La Verrière och Trappes utanför Paris under fredagen. En 26-årig man dödades av skotten. Ytterligare fem personer skadades, varav en tolvårig flicka. Fallet utreds som ett misstänkt terrordåd. Motivet är inte klarlagt, men på fredagskvällen kallade president Emmanuel Macron händelsen för ett ”rasistiskt terrorbrott”. Häktningen hävd Enligt uppgifter från Frankrikes nationella åklagarmyndighet för terrorbekämpning, PNAT, till Le Monde, så genomgick mannen en psykiatrisk undersökning på lördagskvällen. På söndag morgon ska häktningen ha hävts för att fortsätta observera 39-åringen, vilket kan pågå i upp till 48 timmar. – Det syftar till att bedöma huruvida individens psykiatriska tillstånd är förenligt med att förhöret fortsätter, säger PNAT enligt tidningen. Frankrike Relaterat Skjutning utanför Paris: ”Rasistiskt terrordåd” 23 oktober 2026 Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "text_sha256": "53b381f672488f332076dd6e93259e6db107bcfdfd0095ed64073c1605b769d7"
+    },
+    {
+      "title": "How to build a police state | William Wheeler",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/25/trump-bukele-el-salvador-police-state",
+      "date": "2026-10-25T13:00:03+00:00",
+      "summary": "To understand where Trump is trying to take the US, we should look to the authoritarian playbook of his favorite ally: El Salvador’s Nayib Bukele One afternoon last year, Donald Trump welcomed “a friend” to the White House – El Salvador’s Nayib Bukele, the world’s most popular authoritarian. “I knew him as a very young man,” the US president said before the cameras. “He’s done a fantastic job. Mr President, it’s an honor to have you.” Since March 2022, when gangs in El Salvador murdered 87 peopl",
+      "publisher": "The Guardian",
+      "source_type": "registered_original_rss",
+      "signal_only": false,
+      "id": 59,
+      "discovery_identity": {
+        "url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/25/trump-bukele-el-salvador-police-state",
+        "title": "How to build a police state | William Wheeler",
+        "summary": "To understand where Trump is trying to take the US, we should look to the authoritarian playbook of his favorite ally: El Salvador’s Nayib Bukele One afternoon last year, Donald Trump welcomed “a friend” to the White House – El Salvador’s Nayib Bukele, the world’s most popular authoritarian. “I knew him as a very young man,” the US president said before the cameras. “He’s done a fantastic job. Mr President, it’s an honor to have you.” Since March 2022, when gangs in El Salvador murdered 87 peopl",
+        "date": "2026-10-25T13:00:03+00:00",
+        "publisher": "The Guardian"
+      },
+      "discovery_version_key": "b735d2f163e3c96fcf98995ef9760ee42e96849f05c2348e20f1b6c41bef74f1",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-26T05:16:30.139599+00:00",
+      "page_modified_at": "2026-10-25T13:00:03+00:00",
+      "page_published_at": "2026-10-25T13:00:03+00:00",
+      "page_sha256": "6f711ec4016d8aedbb48d9f27f7932b6ed38fc4f398efd0a1648d30b19c4588d",
+      "resolved_url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/25/trump-bukele-el-salvador-police-state",
+      "extraction_method": "title_matched_article",
+      "text": "‘What happened in El Salvador, set alongside Trump’s recent moves, shows why we need to start paying attention now.’ Illustration: Guardian Design / Getty Images View image in fullscreen ‘What happened in El Salvador, set alongside Trump’s recent moves, shows why we need to start paying attention now.’ Illustration: Guardian Design / Getty Images The featured essay US politics How to build a police state To understand where Trump is trying to take the US, we should look to the authoritarian playbook of his favorite ally: El Salvador’s Nayib Bukele William Wheeler Sun 25 Oct 2026 09.00 EDT Share One afternoon last year, Donald Trump welcomed “a friend” to the White House – El Salvador’s Nayib Bukele, the world’s most popular authoritarian. “I knew him as a very young man,” the US president said before the cameras. “He’s done a fantastic job. Mr President, it’s an honor to have you.” Since March 2022, when gangs in El Salvador murdered 87 people over a weekend, Bukele has maintained a state of emergency in which key civil liberties are suspended and 2% of the adult population has been jailed – about 100,000 people, at least half of whom are probably not gang members, say local rights groups. The narrative of “the Bukele miracle” – that he swiftly dismantled fearsome gangs and restored order – has made him an icon across Latin America, where a new host of rightwing leaders have sought to replicate his heavy-handed tactics. And in the US, Bukele’s overnight success as a strongman has made him a hero of the American right. “We know that you have a crime problem and a terrorism problem that you need help with,” Bukele said to Trump in their Oval Office meeting in April 2025. “And we actually turned the murder capital of the world into the safest country in the western hemisphere. Sometimes they say that we imprisoned thousands. I like to say that we actually liberated millions.” “Who gave him that line?” Trump asked his assembled advisers. “Do you think I can use that?” Bukele didn’t declare a dictatorship on day one. He built toward it incrementally, each step framed in the language of anti-corruption, public safety or efficiency. Before the coup came the “training exercise”: the population became inured to the sight of troops in the streets, as military and police rehearsed tactics for laying siege to communities across the country, deploying brutal methods of detention and incarceration. Then, suddenly, the “emergency” arrived: due process was gone, replaced by a new legal regime in which a host of domestic opponents could disappear into the gulags as “terrorists”. In the process, Bukele swept past constitutional term limits to unchecked, seemingly limitless power. In the months after their meeting, Trump launched federal crackdowns on Democratic-leaning cities using tactics eerily reminiscent of those Bukele pioneered to build his police state – a central feature of what commentators have called a “ rolling coup ”. Masked agents in unmarked vans, kidnapping people into an opaque and growing detention network, reminded congressman Jim McGovern of stories from families he had met in El Salvador, he told the Guardian. “We’ve seen this movie before,” he said. View image in fullscreen Donald Trump meets with Nayib Bukele in the Oval Office of the White House in Washington DC on 14 April 2025. Photograph: Brendan Smialowski/AFP/Getty Images While Trump’s own authoritarian playbook has often been compared to those of leaders in places such as Turkey and Hungary – where institutions were captured slowly, over decades – the place we should really be looking to understand where the US might be headed is the country of Trump’s favorite foreign ally. And to understand how far along we are in that playbook, Trump’s policies must be viewed sequentially: their underlying coherence only emerges when you zoom out. After four years reporting on the police state El Salvador has become, and on Trump’s ties to Bukele, I believe Trump may be trying to take the United States down the same path. Although his crime and immigration crackdowns on US cities don’t attract the headlines they once did, Trump has refused to rule out declaring a “national emergency” as the midterm elections approach, with all of the ominous implications inherent in the threat. What happened in El Salvador, set alongside Trump’s recent moves, shows why we need to start paying attention now. A population too frightened to dissent Bukele’s chameleon-like trajectory shows how a police state can be assembled piece by piece, in plain sight. A rich playboy and college dropout, Bukele had previously run his family’s PR firm before entering politics at age 30. His flair for marketing and hyperslick command of social media would propel him from small-town mayor to the presidency. Bukele broke with his leftist party in 2017 and ran for president as a reformer – a blank screen on which a country fed up with corruption and violence could project its hopes. In 2019, he was elected the youngest leader in Latin America and immediately began to ingratiate himself to Trump. From Bukele’s first days in office, he promoted himself as a crimefighter, announcing a plan to take the fight to the country’s notorious gangs (“terrorists” under Salvadoran law). He deployed cops and soldiers to gang neighborhoods, normalizing their presence, while beginning Doge-style layoffs to purge the old guard, replacing the leaders of institutions with loyalists. Long before the March 2022 gang rampage that would justify it, he was building the foundations of his future police state. The pandemic provided an unforeseen opportunity to scale up the experiment. In March 2020, Bukele asked El Salvador’s congress to authorize a state of emergency, which he then used to implement a draconian quarantine. Security forces encircled entire cities, detaining about 16,000 people in a matter of months and funneling them into “containment centers” that functioned as de facto jails. Three times, the supreme court issued rulings to end the practice, which Bukele publicly defied. View image in fullscreen Heavily armed police guard the streets in downtown San Salvador, El Salvador, on 27 March 2022. Photograph: Salvador Melendez/AP Cops and soldiers detained people for trivial violations to meet exacting quotas, using excessive force and beatings, incarcerating people in degrading conditions without access to adequate food, water and medical treatment. But it was just the beginning. Security forces were conducting simultaneous sieges across the country and practicing tactics out of use since the country’s 1979-92 civil war. According to two former Salvadoran security officials familiar with the operation, the Covid-era detentions were a training exercise for a much larger scale of mass repression still ahead. The quarantine was used to conduct “territorial control tests”, as one put it, to gauge how the general population would respond to repression – and its capacity for resistance. It was, in the words of the second source, “a laboratory of instilling fear”. Another harbinger of what was to come was Bukele’s wishlist for a massive arsenal of surveillance technology. When the opposition-controlled legislature refused to sign off on a $109m loan request to buy the gear, in February 2020, he summoned thousands of supporters to surround Congress then stormed inside with armed troops, threatening to disband it. After his party won a legislative supermajority in spring 2021 elections, Bukele quickly purged sources of opposition, firing the attorney general (who had been investigating Bukele’s inner circle for corruption) and the constitutional chamber judges (who had opposed his pandemic crackdown), and replacing them with allies. Critics denounced a “self-coup”. The new supermajority dismissed all judges over 60 years old while the reshuffled court unconstitutionally appointed 168 new judges – and then began amending the constitution and gerrymandering the country. Help in that decisive electoral victory, however, had come from a surprising source: Bukele’s government had cut a secret deal with the leaders of the very gangs he claimed to be fighting. In exchange for money and power, they had agreed to reduce homicides and turn out voters for Bukele’s party in the midterms, according to US prosecutors and journalistic investigations (Bukele has denied this). Between July 2021 and February 2022, the government secretly released several prominent gang leaders. Such pacts tend to produce more bloodshed, since they give gangs an incentive to escalate violence. Indeed, what came next offered the perfect pretext for a crackdown. In March 2022, gangs killed 87 people, mostly civilians. In the middle of the killing spree, lawmakers met to approve the first of over a dozen decrees that would overhaul the country’s security architecture and civil rights laws, making it easier to arrest broad swathes of the population and hold them in legal limbo: anyone accused of “association” with a gang member in effect became a “terrorist”. The new state of emergency was initially authorized for one month. More than four years later, it’s still in effect. View image in fullscreen A police officer checks the documents of a man during a preventive patrol in search of gang members in Soyapango, El Salvador, on 16 August 2022. Photograph: Salvador Melendez/AP Bukele’s crackdown has claimed union leaders, students, activists and journalists. A leaked police report shows that about 43,000 gang members are still at large. Zaira Navas, a former police inspector general now with the human rights organization Cristosal, believes gang members make up less than 30% of those captured, she told the Guardian, and that this was part of a deliberate “policy of terror” targeting poor neighborhoods and strongholds of opposition as the “internal enemy.” The cumulative effect: a population too frightened to dissent. Reports of torture in police custody have been extensively documented , including waterboarding, electric-shock and strangulation . Mass trials accelerated sharply this year in El Salvador, and the fate of hundreds of defendants at a time now often rests on one or two anonymous cooperating witnesses who have struck deals with prosecutors . According to Navas, authorities found some of these witnesses by coercing imprisoned gang members. Prosecutors hand them lists of names to memorize, she said, whether or not they know the people on them. Violence has indeed fallen in what’s now the world’s most incarcerated country (although the actual murder rate may be closer to twice what the official figures purport). Accordingly, Bukele remains popular in many quarters. Nonetheless, it is hard to draw the line between genuine approval and self-censorship: a majority of respondents tell pollsters they approve of the state of exception; a majority also says they are being more careful about what they say about it ( with 48% believing they could end up in jail for criticizing the president or government). A hero’s welcome Throughout Trump’s exile from power, Bukele stayed close to Maga, spending more than $1.5m to lobby Maga figures such as Donald Trump Jr., senator Ted Cruz, then senator Marco Rubio , senator Mike Lee, representative Lauren Boebert, and former representative Matt Gaetz, according to Mother Jones . In time, Bukele emerged as a Maga luminary himself – the poster boy for strongman solutions. “President Nayib Bukele saved El Salvador,” Tucker Carlson posted after one of several interviews with Bukele. “He may have the blueprint for saving the world.” I read the full 900-page Project 2025 manifesto – here’s why it matters Read more Bukele’s blueprint happens to mirror a different one: the sequential architecture for consolidating power outlined in the Heritage Foundation’s Project 2025 report, which would become Trump 2.0’s policy roadmap. We can’t know that the report took inspiration from El Salvador. But the Heritage Foundation lavished praise on Bukele as early as 2019, and Project 2025 was drafted over the first year of his state of emergency. Much of what Project 2025 proposes is what Bukele had by then accomplished: turning tens of thousands of civil service positions into political appointments; increasing the president’s control over the levers of justice; deploying the military domestically; crippling unions; targeting media. In February 2024, Bukele won an election marred by irregularities. Weeks later, he was given a hero’s welcome as a keynote speaker at the Conservative Political Action Conference outside Washington DC, where he echoed Trump’s rhetoric about carnage in Democrat-run cities and called on the next US president to follow his example and do “whatever it takes” to defeat “dark forces” already taking over the country. At the June 2024 inauguration for Bukele’s new term, the surprise came from the White House: the Biden administration, concerned that a wave of migrants from Central America could wreck his campaign, sent a rare high-level delegation to attend – to critics , a crushing echo of Washington’s cold war support for Central American strongmen. View image in fullscreen Bukele during the Conservative Political Action Conference (CPAC) in National Harbor, Maryland, on 22 February 2024. Photograph: Bloomberg/Getty Images Bukele rolled out the red carpet – not for Joe Biden’s representatives, who were snubbed, but for Maga VIP’s. Sharing the red carpet were Tucker Carlson and six members of US Congress, including Gaetz, who called Bukele “an inspiration to the western world”, and soon founded the El Salvador caucus in US Congress to “vindicate the choices President Bukele has made” and import his “good ideas”. In the years since, Bukele has continued to rewrite the rules of the game. In February 2025, he cut public funding to political parties, leaving the opposition in disarray. In July 2025, his legislature in effect moved up elections and aboli",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "text_sha256": "5c905b0d507812cd73828a4eadc1d412a40da6f16969dfd0d468988f9be21edf"
+    },
+    {
+      "id": 33,
+      "title": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
+      "url": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&at_campaign=rss",
+      "summary": "He will be observed to evaluate whether his \"psychiatric health is compatible with pursuing his interrogation\", authorities said.",
+      "date": "2026-10-25T15:32:51+00:00",
+      "publisher": "BBC News",
+      "discovery_identity": {
+        "url": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&at_campaign=rss",
+        "title": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
+        "summary": "He will be observed to evaluate whether his \"psychiatric health is compatible with pursuing his interrogation\", authorities said.",
+        "date": "2026-10-25T15:32:51+00:00",
+        "publisher": "BBC News"
+      },
+      "discovery_version_key": "f13b8a2c2e0972f59cb29104a46cd65d88c17b4d4396f9ffee0429dfa0a0600d",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-26T05:16:30.139989+00:00",
+      "page_sha256": "97a380b9fdb4169a3b35a600c2c4f694d8357ecd4cd0536326c4a42b42fae29b",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&at_campaign=rss",
+      "extraction_method": "title_matched_article",
+      "text": "Image source, Getty Images By Aleks Phillips Published 25 October 2026 A man suspected of a deadly gun attack near Paris has left custody and been placed under psychiatric observation, French anti-terrorism officials have said. One person was killed and five others injured on Friday when an attacker opened fire from his car - first in Trappes, and then in nearby La VerriÃ¨re - appearing to target people of migrant origin. The suspect, named in French media as 39-year-old Kevin T, will be observed to evaluate whether his \"psychiatric health is compatible with pursuing his interrogation\", the National Anti-Terrorist Prosecutor's Office (PNAT) said. President Emmanuel Macron called it a \"racist terrorist attack\", adding that people had been targeted over their skin colour or religion. It marked a \"turning point in the life of our Republic and our nation\", the French president said. Figure caption, Watch: Emergency services at the scene of the shooting on Friday PNAT said the move to place the suspect under psychiatric evaluation followed guidance from a psychiatric expert. The evaluation will determine whether the suspect should remain in police custody and is \"likely to last 48 hours\", PNAT added. PNAT said the suspect was also found to have cannabis and cocaine in his bloodstream. French newspaper Le Monde , external and news agency AFP report that a Bible, a Quran and a copy of Adolf Hitler's Mein Kampf were found at the suspect's home, citing a source close to the investigation. The lawyer for Pengo Bossio Wangi, the one person killed during the attack, told French media the move to place the suspect under observation was \"very rare\". He alleged that it was being used to portray the suspect as criminally irresponsible rather than having acted deliberately. Wangi, a 26-year-old French-Congolese martial artist, was named as the one fatality on Saturday. The mixed martial arts club where he trained paid tribute to him, saying: \"On the mats as off them, he was one of those who lead by example: present, respectful, always ready to lift others up. \"His smile, his energy and his generosity will remain etched in our walls and in our hearts.\" Three of those injured in the attack were taken to hospital in a serious condition - including a 12-year-old girl who remains in a critical condition. The mayor of La VerriÃ¨re, Nicolas Dainville, told French radio network France Info on Sunday that he had spoken to the girl's mother over the phone and confirmed she was \"doing better\". Another injured resident was recovering while a third remained in a critical condition, he said. The suspect had been known to police prior to the attack but not to France's intelligence services, local media report. PNAT previously said he had four previous convictions that had been \"automatically expunged\". He is thought to have used an old semi-automatic weapon during the attack, firing in bursts from his car window. Related topics Europe France Paris More on this story Deadly shooting near Paris is a 'racist terrorist attack', Macron says Published 2 days ago",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "text_sha256": "461e896e88f9fe7596c87aa27807fb68f17025c1e4d92bd929e3495d9be58127"
+    },
+    {
+      "id": 47,
+      "title": "Jakt på skytten efter mordet i Bagarmossen - Dagens Nyheter",
+      "url": "https://www.dn.se/sverige/jakt-pa-skytten-efter-mordet-i-bagarmossen/",
+      "summary": "Jakt på skytten efter mordet i Bagarmossen Dagens Nyheter",
+      "date": "2026-10-24T13:31:42.919000+02:00",
+      "publisher": "Dagens Nyheter",
+      "discovery_identity": {
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1fV1BiYW50MkZ6enpIa0FFR19uN2w0YkVPMWJPc3NnanYzVFU4c2tTY1d5QWRkdW1UUzh2T3hvQUFudExXTW1mVkpUeVFYNjhLVTRZQ3JGM3JoNTQzWUNzODRtOWFkbkhWeFpGNGlpLVJaQUE2dzE3ZA?oc=5",
+        "title": "Jakt på skytten efter mordet i Bagarmossen - Dagens Nyheter",
+        "summary": "Jakt på skytten efter mordet i Bagarmossen Dagens Nyheter",
+        "date": "2026-10-24T11:31:42+00:00",
+        "publisher": "Dagens Nyheter"
+      },
+      "discovery_version_key": "694b3a02018ad6711607ff57fc517db1f4d88823ac9187ee4202c172116525b6",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-26T05:16:36.870476+00:00",
+      "discovery_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1fV1BiYW50MkZ6enpIa0FFR19uN2w0YkVPMWJPc3NnanYzVFU4c2tTY1d5QWRkdW1UUzh2T3hvQUFudExXTW1mVkpUeVFYNjhLVTRZQ3JGM3JoNTQzWUNzODRtOWFkbkhWeFpGNGlpLVJaQUE2dzE3ZA?oc=5",
+      "page_published_at": "2026-10-24T13:31:42.919000+02:00",
+      "discovery_date": "2026-10-24T11:31:42+00:00",
+      "date_precision": "timestamp",
+      "resolved_url": "https://www.dn.se/sverige/jakt-pa-skytten-efter-mordet-i-bagarmossen/",
+      "text": "Det var strax före klockan 17 på fredagseftermiddagen som polisen larmades om en skottlossning i ett bostadsområde i Bagarmossen. En man i 25-årsåldern hade blivit skjuten i en bil. Han dog av sina skador. På lördagen fortsätter utredningsarbetet. – Utredarna jobbar för fullt. Vi har även områdespoliser på plats i Bagarmossen för att tala med allmänheten, dels om deras oro, dels för att se om någon kan lämna ytterligare upplysningar eller iakttagelser som man kan ha gjort under gårdagen, säger Ola Österling, presstalesperson på Stockholmspolisen. Fortfarande har ingen gripits. Polisen letar efter skytten, men utesluter inte heller att det kan finnas fler medgärningsmän. Enligt uppgifter till DN var det en felskjutning, något även andra medier har uppgifter om. Det vill polisen däremot inte kommentera. – Vi har hållit på med en offensiv informationsinhämtning, men vad vi har fått fram i den är ingenting vi kommer att offentliggöra. Det skulle vara kontraproduktivt i utredningen, säger Ola Österling och fortsätter: – Det pågår en jakt efter gärningsmannen och inom den ingår naturligtvis att vi ska kartlägga målsägaren för att se i vilket sammanhang det här kan ha inträffat. Men vi kommer inte att offentliggöra eller bekräfta olika teorier som uppstår. Avspärrningarna som upprättades vid flera bostadshus hävdes efter att den tekniska undersökningen hade slutförts. Polisen har säkrat ett antal spår. De har skickats till Nationellt forensiskt centrum i Linköping för analys. När DN var på plats i Bagarmossen under fredagskvällen beskrev flera boende hur de hade sett eller hört delar av händelsen. Några såg den skjutne mannen. – Personen satt i bilen och blev sedan hämtad med ambulans. Det var hål i bilrutan, sade en kvinna. Polisen undersöker om det finns en koppling till mordet i Älvsjö , men ser i nuläget inga tydliga tecken på att dödsskjutningarna har med varandra att göra, enligt uppgifter till DN. Läs mer: Man skjuten till döds vid bil i södra Stockholm",
+      "page_sha256": "4b03abf2c738e4213dd5c52c995813fddc92bbe8fa0d72fe7bedf5619af894a3",
+      "extraction_method": "rendered_visible_primary_article",
+      "evidence_limit": "Visible rendered primary-page text; factual review remains mandatory.",
+      "text_sha256": "7849fff7a770740900ed8e3b1b4821a90d2e18704c2cd7709ecd09f1e0a7dabb"
+    },
+    {
+      "id": 53,
+      "title": "Uppgifter: Kan ha varit felskjutning - Expressen",
+      "url": "https://www.expressen.se/nyheter/krim/uppgifter-mordet-i-bagarmossen-kan-vara-en-felskjutning/",
+      "summary": "Uppgifter: Kan ha varit felskjutning Expressen",
+      "date": "2026-10-24T10:53:07.531000+00:00",
+      "publisher": "Expressen",
+      "discovery_identity": {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZ21kLVowckZDNDdtc2ZOMTFQUU9tY2I2aEFiM045ZzNKZkg0WWRiNFBRRFB3NWdSclRORHVFUXdsTDdZV19oTDJFeGtjT0F5aTA3R1JPcXNQQzNrcDc3TXBadzRlSG9wWUZrZmJPYkMyODliZDdUOU93NnI5QkVpcjdkdkFYUWROQ1Z1ekRhLXVncWtmNW9ZcFBB?oc=5",
+        "title": "Uppgifter: Kan ha varit felskjutning - Expressen",
+        "summary": "Uppgifter: Kan ha varit felskjutning Expressen",
+        "date": "2026-10-24T13:10:22+00:00",
+        "publisher": "Expressen"
+      },
+      "discovery_version_key": "85331714da5fb0c8044bac687f8ebb9dd6372a7f7c97a67ac1361d45cd8c8bd4",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-26T05:16:39.103283+00:00",
+      "discovery_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZ21kLVowckZDNDdtc2ZOMTFQUU9tY2I2aEFiM045ZzNKZkg0WWRiNFBRRFB3NWdSclRORHVFUXdsTDdZV19oTDJFeGtjT0F5aTA3R1JPcXNQQzNrcDc3TXBadzRlSG9wWUZrZmJPYkMyODliZDdUOU93NnI5QkVpcjdkdkFYUWROQ1Z1ekRhLXVncWtmNW9ZcFBB?oc=5",
+      "page_published_at": "2026-10-24T10:53:07.531000+00:00",
+      "page_modified_at": "2026-10-24T13:10:22.742000+00:00",
+      "discovery_date": "2026-10-24T13:10:22+00:00",
+      "date_precision": "timestamp",
+      "resolved_url": "https://www.expressen.se/nyheter/krim/uppgifter-mordet-i-bagarmossen-kan-vara-en-felskjutning/",
+      "text": "Nyheter / Krim / Bagarmossen En man i 25-årsåldern sköts till döds i Bagarmossen i södra Stockholm på fredagseftermiddagen. Enligt uppgifter till Aftonbladet var mannen ostraffad och saknade kopplingar till gängkriminalitet. – Vi har fått en tydlig bild av händelseförloppet, säger Ola Österling, presstalesperson på polisen.. Senaste nyhetsklippen från Expressen. Eskil Simonsen Lyssna på artikel Uppgifter: Mordet i Bagarmossen kan vara en felskjutning 1.0x 0.5x 1.0x 1.2x 1.5x 1.8x 2.0x 00:00 00:00 00:00 Ljuduppspelningen är AI-genererad. Felaktigheter kan förekomma. Anmäl fel Dela artikel Kopiera länk Länk kopierad Annons Polisen har omfattande övervakningsmaterial att gå igenom efter händelsen. Foto: Janne Åkesson / Swepix Öppna bild i helskärm Mannen befann sig i en bil när han sköts, enligt uppgifter till Aftonbladet. En stor polisinsats pågick under fredagskvällen, men ingen misstänkt har gripits. Enligt uppgifter till Aftonbladet tror polisen inte att mannen var den egentliga måltavlan. Han ska inte ha haft några kända kopplingar till gängkriminalitet, och polisen har enligt tidningens uppgifter svårt att se något motiv till att han skulle ha skjutits. En av teorierna är att mannen misstagits för någon annan med kopplingar till gängmiljön. Det var på fredagskvällen som en man i 25-årsåldern sköts till döds i södra Stockholm. Foto: Janne Åkesson / Swepix Öppna bild i helskärm Polisen vill inte bekräfta uppgifterna om att mannen skulle ha förväxlats med någon annan. – Vi vet ju vem offret är. Kartläggningen påbörjades omedelbart i går eftermiddag. Men vad vi har fått fram där kommer vi inte att offentliggöra nu, säger Ola Österling, presstalesperson hos polisen, till Aftonbladet. Går igenom övervakningsmaterial Skjutningen ägde rum under sen eftermiddag, när många människor var i rörelse på väg hem från jobbet eller skolan. Polisen har flera vittnesuppgifter att utgå från och undersöker även övervakningsmaterial från området för att få en tydligare bild av vad som hände. – Vi går igenom materialet nu, som är omfattande, säger Ola Österling. Kan du säga någonting om det finns ett motiv? – Vad vi har fått fram är ingenting vi kommer offentliggöra. Polisen utesluter inte att det kan röra sig om flera gärningsmän. Annons Bild 1 av 2 Polisen har omfattande övervakningsmaterial att gå igenom efter händelsen. Foto: Janne Åkesson / Swepix Det var på fredagskvällen som en man i 25-årsåldern sköts till döds i södra Stockholm. Foto: Janne Åkesson / Swepix",
+      "page_sha256": "619c6f0b6f25cbf693ca5c68c25523e6dc6ad99f52a1529fa66374aea853da0b",
+      "extraction_method": "rendered_visible_primary_article",
+      "evidence_limit": "Visible rendered primary-page text; factual review remains mandatory.",
+      "text_sha256": "9b7fc3b643e306bbe57b0cc4f1a28904d4efd062aebf48ee78f8b3a87fdb724a"
+    },
+    {
+      "id": 57,
+      "title": "Gängen rekryterar unga till bedrägerier mot äldre – sprids norrut - HurBra.se",
+      "url": "https://hurbra.se/gang-rekryterar-unga-bedragerier-2026/",
+      "summary": "Gängen rekryterar unga till bedrägerier mot äldre – sprids norrut HurBra.se",
+      "date": "2026-10-24T05:21:13+00:00",
+      "publisher": "HurBra.se",
+      "discovery_identity": {
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBsVzFmUXlWRkZvdXM2S010VXdORHNEMm85RUt2dlN4SUdWVUlCUnhPZkZ5dFBreTF4QkQ4U2ZqR294dWxPcjNLQnZaWDJSdUhIcDRSdk1zYTVFaXlFQnFTMFU1VThrWFU?oc=5",
+        "title": "Gängen rekryterar unga till bedrägerier mot äldre – sprids norrut - HurBra.se",
+        "summary": "Gängen rekryterar unga till bedrägerier mot äldre – sprids norrut HurBra.se",
+        "date": "2026-10-24T05:21:13+00:00",
+        "publisher": "HurBra.se"
+      },
+      "discovery_version_key": "e98611057a7dd75a50f1dfad6edd8d01c1e24e6d4c129fde9a2dd1dc60617a04",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-26T05:16:39.227007+00:00",
+      "discovery_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBsVzFmUXlWRkZvdXM2S010VXdORHNEMm85RUt2dlN4SUdWVUlCUnhPZkZ5dFBreTF4QkQ4U2ZqR294dWxPcjNLQnZaWDJSdUhIcDRSdk1zYTVFaXlFQnFTMFU1VThrWFU?oc=5",
+      "page_published_at": "2026-10-24T05:21:13+00:00",
+      "discovery_date": "2026-10-24T05:21:13+00:00",
+      "date_precision": "timestamp",
+      "resolved_url": "https://hurbra.se/gang-rekryterar-unga-bedragerier-2026/",
+      "text": "Hem Nyheter Gängen rekryterar unga till bedrägerier mot äldre – sprids norrut Gängen rekryterar unga till bedrägerier mot äldre – sprids norrut Nyheter Publicerad 24 oktober 2026 Av Hanna Hellman Kriminella nätverk rekryterar unga mellan 15 och 25 år via sociala medier för att genomföra bedrägerier mot äldre. Nu ser polisen att rekryteringen sprider sig till norra Sverige. I september registrerades omkring 530 anmälningar nationellt, enligt polisuppgifter till P4 Gävleborg. Bedrägerierna börjar ofta med ett telefonsamtal. En äldre person kontaktas av någon som utger sig för att representera exempelvis en bank eller ett företag. Därefter kan en annan person skickas hem till den äldre för att hämta pengar, smycken eller andra värdesaker. De som utför hembesöken kan själva vara unga personer som rekryterats av kriminella nätverk. Enligt P4 Gävleborg beskriver polisen hur rekryteringen nu har fått större geografisk spridning och nått norra Sverige. Äldre kvinnor som bor ensamma hör till de särskilt utsatta grupperna. Gängen värvar unga på sociala medier Rekryteringen sker bland annat genom kontakter och erbjudanden på sociala medier. Unga personer kan lockas med pengar för uppdrag som till en början framstår som enkla. Det kan handla om att transportera något, hämta värdesaker hos en person eller låta andra använda ett bankkonto. Bakom uppdragen kan det finnas organiserade kriminella nätverk som använder ungdomarna för att genomföra delar av brottsligheten. Den som hämtar smycken eller pengar behöver alltså inte vara samma person som ringt det ursprungliga bedrägerisamtalet. Rekryteringen är inte heller begränsad till ungdomar som redan är etablerade i kriminella miljöer. Polisen har återkommande varnat för hur digitala kontakter kan användas för att locka unga in i brottslighet. Hurbra har tidigare beskrivit hur gäng rekryterar unga genom digitala medier och hur uppdragen kan leda till fortsatt kriminalitet. Så blir ett telefonsamtal ett hembesök En metod som polisen särskilt varnar för är så kallade fysiska telefonbedrägerier. Bedragaren försöker först skapa oro hos den äldre. Det kan exempelvis handla om en påstådd obetald faktura, ett misstänkt köp eller att bankkontot skulle vara utsatt för fara. Sedan kommer nästa steg: någon behöver besöka bostaden för att hämta bankkort, kontanter, guld eller smycken. Personen som kommer till dörren kan påstå att värdesakerna ska tas om hand för att skyddas. I själva verket lämnas de över till bedragarna. Under oktober har flera sådana händelser uppmärksammats i Mellansverige. Den 13 oktober varnade polisen för omkring 15 anmälda bedrägerier och försök under två dagar i Uppsala, Västmanland och Gävleborg. Flera äldre kvinnor hade kontaktats om påhittade hyrbilsärenden och uppmanats att lämna ifrån sig värdesaker. Tidigare samma månad greps fyra personer efter ett bedrägeri mot en äldre kvinna , där guld hade hämtats från hennes bostad. Händelserna visar hur telefonsamtal kan användas för att få tillträde till äldre människors hem. Däremot är det inte klarlagt att samtliga dessa fall har koppling till just den rekrytering som P4 Gävleborg rapporterar om. Polisen har identifierat 72 unga Att kriminella nätverk söker personer för olika uppdrag på nätet framgår också av en annan aktuell polisinsats. Den 21 oktober rapporterade Dagens Nyheter att Polisens nationella operativa avdelning, Noa, hade identifierat 72 barn och unga som visat intresse för brottsuppdrag som annonserats digitalt. Uppdragen kunde bland annat handla om att köpa kontantkort eller låna ut bankkonton. Informationen lämnades vidare till polisregionerna för att ungdomarna och deras föräldrar skulle kunna kontaktas. Det innebär inte att de 72 personerna är misstänkta för bedrägerierna mot äldre. Uppgifterna visar däremot att rekrytering på nätet omfattar flera slags uppdrag och att polisen försöker nå ungdomar innan de dras längre in i kriminalitet. Varningssignaler för äldre och anhöriga Bedrägerierna bygger ofta på att den utsatta personen ska agera snabbt, innan det finns tid att kontrollera uppgifterna. Några varningssignaler är särskilt viktiga att känna igen: Någon ringer oväntat och påstår att ett bankkonto, ett köp eller en faktura måste hanteras omedelbart. Den som ringer ber personen använda BankID eller lämna ut koder. Någon erbjuder sig att komma hem och hämta bankkort, kontanter, guld eller smycken. Uppringaren försöker hindra personen från att kontakta anhöriga eller banken själv. Polisens råd är att lägga på luren vid misstänkta samtal. Banker och myndigheter skickar inte hem personer för att samla in värdesaker på det sätt som bedragarna beskriver. För föräldrar finns andra signaler att uppmärksamma. Okända pengar, hemliga kontakter på nätet, oförklarliga resor eller erbjudanden om snabba uppdrag kan vara skäl att ställa frågor. Sådana tecken betyder inte automatiskt att en ungdom är inblandad i brott, men kan motivera ett samtal. På polisens informationssida om gängrekrytering finns ytterligare råd till föräldrar och unga. Den som misstänker ett pågående bedrägeri ska ringa 112. För andra polisanmälningar och tips används 114 14. Rekryteringen sprider sig – men omfattningen är oklar Att rekryteringen nu uppmärksammas längre norrut innebär inte att bedrägerier mot äldre är ett nytt problem där. Polisen har tidigare varnat för liknande brott även i Norrbotten och Västerbotten. Det nya i P4 Gävleborgs rapportering är uppgifterna om hur nätverkens rekrytering av unga sprider sig geografiskt. De omkring 530 anmälningar som rapporterades under september visar samtidigt att polisen hanterar ett omfattande bedrägeriproblem. Den exakta avgränsningen av anmälningssiffran har dock inte redovisats, och den säger inte hur många ungdomar som rekryterats. För polisen innebär utvecklingen två parallella uppgifter: att skydda äldre från att bli lurade och att förhindra att fler unga används för att genomföra brotten. Tags Bedrägerier mot äldre Gängkriminalitet Gängrekrytering norra Sverige Polisen Sociala medier Senaste artiklar Sport Sporthelgen 24–25 oktober 2026: Real vann El Clásico och Antonelli tog F1-segern Real Madrid besegrade Barcelona efter ett sent avgörande av Kylian Mbappé, samtidigt som Kimi... 25 oktober 2026 Sport Real Madrid vann El Clásico – Mbappé avgjorde med två mål Real Madrid vann säsongens första El Clásico med 2–1 borta mot Barcelona. Kylian Mbappé... 25 oktober 2026 Sport Mbappé slår till i 87:e minuten – Real Madrid leder med 2–1 Kylian Mbappé har slagit till igen i El Clásico. I den 87:e minuten gav... 25 oktober 2026 Sport Antonelli vann USA:s GP – men VM-titeln får vänta Kimi Antonelli vann USA:s Grand Prix i Austin efter en överlägsen insats från pole... 25 oktober 2026 liknande artiklar Sport Sporthelgen 24–25 oktober 2026: Real vann El Clásico och Antonelli tog F1-segern Real Madrid besegrade Barcelona efter ett sent avgörande av Kylian Mbappé, samtidigt som Kimi... 25 oktober 2026 Sport Real Madrid vann El Clásico – Mbappé avgjorde med två mål Real Madrid vann säsongens första El Clásico med 2–1 borta mot Barcelona. Kylian Mbappé... 25 oktober 2026 Sport Mbappé slår till i 87:e minuten – Real Madrid leder med 2–1 Kylian Mbappé har slagit till igen i El Clásico. I den 87:e minuten gav... 25 oktober 2026",
+      "page_sha256": "342d14b6f5bcc16d238555b504c96372c1b63dee0e04b9279b4928ffa5350fd6",
+      "extraction_method": "rendered_visible_primary_article",
+      "evidence_limit": "Visible rendered primary-page text; factual review remains mandatory.",
+      "text_sha256": "3cd467d3752508d2cf1be050ea2363a241947d79cc6b3c9b9b6b4debd8788f58"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/stockholm/tonarsflicka-begars-haktad-efter-mordet-i-alvsjo",
+      "title": "Tonårsflicka häktas efter mordet i Älvsjö",
+      "publisher": "SVT Nyheter",
+      "date": "2026-10-25T11:33:51+01:00",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-26T05:29:36.512239+00:00",
+      "page_published_at": "2026-10-25T11:33:51+01:00",
+      "page_modified_at": "2026-10-25T18:04:09+01:00",
+      "discovery_date": "unknown",
+      "date_precision": "timestamp",
+      "page_sha256": "ade1ee2c8c45ab38a7a321c8e88e168b36727f9fdbcdf78793ca0a0acb5adbed",
+      "resolved_url": "https://www.svt.se/nyheter/lokalt/stockholm/tonarsflicka-begars-haktad-efter-mordet-i-alvsjo",
+      "extraction_method": "title_matched_article",
+      "text": "Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd Hör åklagaren berätta om häktningen av tonårsflickan. Foto: SVT Tonårsflicka häktas efter mordet i Älvsjö Uppdaterad igår 18:04 Publicerad igår 11:33 En tonårsflicka häktas misstänkt för inblandning i mordet på en kvinna i 25-årsåldern Älvsjö, uppger åklagaren för SVT Nyheter. Hon nekar till brott. Hon är på sannolika skäl misstänkt för medhjälp till mord. – Brottsmisstanken var medhjälp till mord, vilket är en väldigt allvarlig brottsmisstanke. Min uppfattning var att kollusionsfaran var väldigt hög. Det finns en stor risk för att utredningen skulle kunna påverkas negativt, säger åklagare Lukas Tigerstrand. Kvinna död efter skjutning i Älvsjö Experten om skjutningarna: ”Indikation på att en konflikt blossat upp” ”Vi ska dansa till minne av henne” Häktningsförhandlingen skedde i Stockholms tingsrätt på söndag eftermiddag. Det var fredagen den 16 oktober som en kvinna i 25-årsåldern sköts till döds. Vid skjutningen i idrottsanläggningen spelades både en innebandy- och en fotbollsmatch i närheten, med många människor på plats. Sedan tidigare sitter två tonårspojkar häktade misstänkta för mord på kvinnan. Ytterligare en pojke är häktad misstänkt för bland annat medhjälp till mordet. Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd Se mer om mordet som skakat om lokalsamhället i södra Stockholm. Foto: Fredrik Sandberg/TT Kvinna död efter skjutning i Älvsjö Älvsjö Relaterat 47 sek Experten om skjutningarna: ”Indikation på att en konflikt blossat upp” 24 oktober 2026 40 sek Efter mordet i Älvsjö: Fem tonåringar misstänkta 22 oktober 2026 2 min ”Vi ska dansa till minne av henne” 22 oktober 2026 Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar. Kvinna död efter skjutning i Älvsjö 47 sek Experten: ”Indikation på att en konflikt blossat upp” Kraftigt förhöjd risk för fler skjutningar • I nuläget inga tecken på koppling mellan dåden 2 min ”Vi ska dansa till minne av henne” SVT har besökt fritidsgården där mördade kvinnan anordnade tjejkvällar varje vecka 40 sek 14-årig flicka misstänkt för medhjälp efter mordet i Älvsjö Fyra tonårspojkar häktade Mer i ämnet",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain.",
+      "id": 60,
+      "discovered_from_topic_index": "https://www.svt.se/nyheter/om/kvinna-dod-efter-skjutning-i-alvsjo",
+      "identity_note": "Separately discovered canonical article; never claimed identical to generic Google topic alias49",
+      "text_sha256": "464213b4c445801df6e57143c0a65cfef3036fe4f309d330a4925487814d5917"
+    }
+  ],
+  "collection_evidence": {
+    "state": "ready",
+    "failed_discovery_urls": [],
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "subscription_exclusions": [],
+    "channel": "vald",
+    "discovery": {
+      "channel": "vald",
+      "date": "2026-10-26",
+      "feeds": [
+        {
+          "url": "https://www.svt.se/nyheter/rss.xml",
+          "entries": 100,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.europol.europa.eu/rss.xml",
+          "entries": 10,
+          "accepted": 10,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "entries": 32,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Sverige%20%28skjutning%20OR%20spr%C3%A4ngning%20OR%20g%C3%A4ngv%C3%A5ld%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 12,
+          "accepted": 12,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22organized%20crime%22%20%28violence%20OR%20shootings%20OR%20bombings%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Europol%20%28violence%20OR%20gangs%20OR%20%22contract%20killing%22%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22crime%20as%20a%20service%22%20OR%20%22violence%20as%20a%20service%22%20OR%20%22best%C3%A4llda%20mord%22%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Ainterpol.int%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aeuda.europa.eu%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Abbc.com%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Atheguardian.com%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Apolisen.se%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Abra.se%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aeuropol.europa.eu%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        }
+      ],
+      "web_candidates": 0,
+      "original_fallback": {
+        "sources_checked": 6,
+        "candidates": 20,
+        "excluded": 10,
+        "sources": [
+          {
+            "domain": "interpol.int",
+            "status": "BLOCKED",
+            "http_status": 403,
+            "error": null
+          },
+          {
+            "domain": "euda.europa.eu",
+            "status": "BLOCKED",
+            "http_status": 403,
+            "error": null
+          },
+          {
+            "domain": "reuters.com",
+            "status": "BLOCKED",
+            "http_status": 401,
+            "error": null
+          },
+          {
+            "domain": "bbc.com",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "theguardian.com",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "polisen.se",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          }
+        ]
+      },
+      "candidate_count": 78,
+      "scope": "discovery_only_not_factual_approval"
+    },
+    "checked_at": "2026-10-26T05:54:37.087516+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  }
+}

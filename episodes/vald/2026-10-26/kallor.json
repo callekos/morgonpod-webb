@@ -1,0 +1,62 @@
+[
+  {
+    "source": "HurBra.se",
+    "title": "Gängen rekryterar unga till bedrägerier mot äldre – sprids norrut",
+    "url": "https://hurbra.se/gang-rekryterar-unga-bedragerier-2026/",
+    "evidence": {
+      "date": "2026-10-24T05:21:13+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-26T05:16:39.227007+00:00",
+      "page_sha256": "342d14b6f5bcc16d238555b504c96372c1b63dee0e04b9279b4928ffa5350fd6",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Dagens Nyheter",
+    "title": "Jakt på skytten efter mordet i Bagarmossen",
+    "url": "https://www.dn.se/sverige/jakt-pa-skytten-efter-mordet-i-bagarmossen/",
+    "evidence": {
+      "date": "2026-10-24T13:31:42.919000+02:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-26T05:16:36.870476+00:00",
+      "page_sha256": "4b03abf2c738e4213dd5c52c995813fddc92bbe8fa0d72fe7bedf5619af894a3",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "SVT Nyheter",
+    "title": "Tonårsflicka häktas efter mordet i Älvsjö",
+    "url": "https://www.svt.se/nyheter/lokalt/stockholm/tonarsflicka-begars-haktad-efter-mordet-i-alvsjo",
+    "evidence": {
+      "date": "2026-10-25T11:33:51+01:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-26T05:29:36.512239+00:00",
+      "page_sha256": "ade1ee2c8c45ab38a7a321c8e88e168b36727f9fdbcdf78793ca0a0acb5adbed",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "SVT Nyheter",
+    "title": "Terrormisstänkt 39-åring ska genomgå psykiatrisk observation i Frankrike",
+    "url": "https://www.svt.se/nyheter/utrikes/terrormisstankt-39-aring-ska-genomga-psykiatrisk-observation",
+    "evidence": {
+      "date": "2026-10-25T10:43:46+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-26T05:16:30.139315+00:00",
+      "page_sha256": "e990917f694837afe4023378bcef57ae10b3afcf5f76757eaeb0df7da6981545",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "The Guardian",
+    "title": "How to build a police state | William Wheeler",
+    "url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/25/trump-bukele-el-salvador-police-state",
+    "evidence": {
+      "date": "2026-10-25T13:00:03+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-26T05:16:30.139599+00:00",
+      "page_sha256": "6f711ec4016d8aedbb48d9f27f7932b6ed38fc4f398efd0a1648d30b19c4588d",
+      "retrieval_limit": null
+    }
+  }
+]

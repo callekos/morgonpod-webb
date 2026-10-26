@@ -1,0 +1,97 @@
+{
+  "title": "Våld - Lägesbild och analys för kriminella aktörer och våldsutveckling",
+  "intro": "Välkommen till Våld. Idag går vi igenom läget för grovt våld, gängkriminalitet och de senaste händelserna nationellt och internationellt.",
+  "outlook": "Bevakningen fortsätter att följa hur kriminella nätverk anpassar sina metoder samt myndigheternas åtgärder mot våldsutvecklingen.",
+  "news": [
+    {
+      "category": "Organiserad brottslighet",
+      "title": "Gängen rekryterar unga till bedrägerier mot äldre – sprids norrut",
+      "summary": "Kriminella nätverk rekryterar unga mellan 15 och 25 år via sociala medier för bedrägerier mot äldre, och enligt HurBra ser Polisen nu att verksamheten sprider sig till norra Sverige.",
+      "context": "Utvecklingen visar hur nätverk utnyttjar digitala plattformar för att rekrytera unga till brottsuppdrag, vilket ökar risken för att fler dras in i den grövre brottsligheten.",
+      "url": "https://hurbra.se/gang-rekryterar-unga-bedragerier-2026/",
+      "publisher": "HurBra.se",
+      "body": "Kriminella nätverk rekryterar unga mellan 15 och 25 år via sociala medier för att genomföra bedrägerier mot äldre, och polisen ser nu att denna rekrytering sprider sig till norra Sverige, rapporterar HurBra med hänvisning till uppgifter från P4 Gävleborg. HurBra återger uppgiften att omkring 530 anmälningar registrerades nationellt i september; siffran anger inte antalet rekryterade unga. Bedrägerierna inleds ofta med att en äldre person kontaktas via telefon av någon som utger sig för att representera en bank eller ett företag, varefter en ung person skickas hem till bostaden för att hämta pengar, smycken eller andra värdesaker. Enligt HurBra sker rekryteringen genom kontakter och erbjudanden på sociala medier där unga lockas med pengar för till synes enkla uppdrag. Vidare uppger HurBra att Dagens Nyheter har rapporterat om en separat insats där Polisens nationella operativa avdelning, Noa, har identifierat 72 barn och unga som visat intresse för brottsuppdrag som annonserats digitalt, vilket understryker bredden i den digitala nyrekryteringen till kriminella miljöer.",
+      "sources": [
+        {
+          "url": "https://hurbra.se/gang-rekryterar-unga-bedragerier-2026/",
+          "title": "HurBra.se"
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "category": "Skjutningar och dödligt våld",
+      "title": "Jakt på skytten efter mordet i Bagarmossen",
+      "summary": "Polisen söker efter en eller flera gärningsmän efter att en man i 25-årsåldern skjutits till döds i en bil i Bagarmossen på fredagseftermiddagen, rapporterar Dagens Nyheter.",
+      "context": "Händelsen följs noga för att utreda motiv och eventuella kopplingar till andra våldsdåd i Stockholmsområdet.",
+      "url": "https://www.dn.se/sverige/jakt-pa-skytten-efter-mordet-i-bagarmossen/",
+      "publisher": "Dagens Nyheter",
+      "body": "En man i 25-årsåldern sköts till döds i en bil i ett bostadsområde i Bagarmossen på fredagseftermiddagen, rapporterar Dagens Nyheter. Ingen har ännu gripits och Polisen söker efter skytten, samtidigt som man enligt Dagens Nyheter inte utesluter att det kan finnas flera medgärningsmän. Enligt uppgifter till Dagens Nyheter och Expressen undersöks bland annat om händelsen kan vara en felskjutning där offret kan ha förväxlats med någon annan, men Polisen vill inte kommentera uppgifterna eller offentliggöra några teorier kring motivet. Enligt Dagens Nyheter uppger Polisen att en omfattande informationsinhämtning pågår och att man undersöker om det finns någon koppling till mordet i Älvsjö, även om man i nuläget inte ser några tydliga tecken på att dödsskjutningarna hänger ihop.",
+      "sources": [
+        {
+          "url": "https://www.dn.se/sverige/jakt-pa-skytten-efter-mordet-i-bagarmossen/",
+          "title": "Dagens Nyheter"
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "category": "Skjutningar och dödligt våld",
+      "title": "Tonårsflicka häktas efter mordet i Älvsjö",
+      "summary": "En tonårsflicka har häktats på sannolika skäl misstänkt för medhjälp till mord efter att en kvinna i 25-årsåldern sköts till döds i Älvsjö den 16 oktober.",
+      "context": "Häktningen utgör ett led i utredningen kring en uppmärksammad dödsskjutning som skakat det lokala samhället i södra Stockholm.",
+      "url": "https://www.svt.se/nyheter/lokalt/stockholm/tonarsflicka-begars-haktad-efter-mordet-i-alvsjo",
+      "publisher": "SVT Nyheter",
+      "body": "En tonårsflicka har häktats misstänkt för inblandning i mordet på en kvinna i 25-årsåldern i Älvsjö, rapporterar SVT Nyheter. Flickan, som nekar till brott, är på sannolika skäl misstänkt för medhjälp till mord. Enligt åklagare Lukas Tigerstrand bedömdes kollusionsfaran som mycket hög. Dödsskjutningen ägde rum fredagen den 16 oktober vid en idrottsanläggning där flera matcher spelades. Sedan tidigare sitter flera tonårspojkar häktade misstänkta för mord eller medhjälp till mord i samma utredning, rapporterar SVT Nyheter.",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/stockholm/tonarsflicka-begars-haktad-efter-mordet-i-alvsjo",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "category": "Internationell våldsutveckling",
+      "title": "Terrormisstänkt 39-åring ska genomgå psykiatrisk observation i Frankrike",
+      "summary": "Häktningen av den man som misstänks för en dödlig skjutning i franska Trappes har hävts för att han ska genomgå en psykiatrisk observation.",
+      "context": "Fallet utreds som ett misstänkt terrordåd och väcker frågor kring gärningsmannens tillstånd och bakomliggande motiv i en internationell kontext.",
+      "url": "https://www.svt.se/nyheter/utrikes/terrormisstankt-39-aring-ska-genomga-psykiatrisk-observation",
+      "publisher": "SVT Nyheter",
+      "body": "Häktningen av den 39-årige man som misstänks för fredagens skjutning i den franska staden Trappes har hävts efter en psykiatrisk undersökning, rapporterar SVT Nyheter och BBC News. Mannen misstänks ha skjutit flera personer i städerna La Verrière och Trappes utanför Paris, där en 26-årig man dödades och ytterligare fem personer skadades, däribland en tolvårig flicka. Händelsen utreds av Frankrikes nationella åklagarmyndighet för terrorbekämpning, PNAT, som ett misstänkt terrordåd. President Emmanuel Macron har betecknat det som ett rasistiskt terrorbrott. 39-åringen ska nu genomgå upp till 48 timmars fortsatt psykiatrisk observation för att bedöma om hans tillstånd medger att förhören kan fortsätta.",
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/utrikes/terrormisstankt-39-aring-ska-genomga-psykiatrisk-observation",
+          "title": "SVT Nyheter"
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "category": "Internationell våldsutveckling",
+      "title": "How to build a police state | William Wheeler",
+      "summary": "En essä i The Guardian analyserar hur de hårda säkerhetsåtgärderna och polismetoderna under El Salvadors president Nayib Bukele har blivit en modell för högerpolitiska aktörer internationellt.",
+      "context": "Granskningen belyser hur statliga insatser mot gängkriminalitet och undantagstillstånd kan påverka civila friheter och demokratiska institutioner.",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/25/trump-bukele-el-salvador-police-state",
+      "publisher": "The Guardian",
+      "body": "I en essä publicerad av The Guardian analyseras hur El Salvadors president Nayib Bukele har genomfört omfattande säkerhetsåtgärder mot landets gäng med stöd av ett utvidgat undantagstillstånd som varit i kraft sedan mars 2022. Enligt artikeln har Bukeles metoder, som innefattar massgripanden och insatser av militär i bostadsområden, framställts som en framgång för att sänka mordtalen men har samtidigt kritiserats av människorättsorganisationer för att drabba oskyldiga och urholka grundläggande fri- och rättigheter. Texten sätter in utvecklingen i El Salvador i ett bredare internationellt perspektiv och diskuterar hur liknande auktoritära grepp och säkerhetsstrategier inspirerar politiska aktörer i andra länder.",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/25/trump-bukele-el-salvador-police-state",
+          "title": "The Guardian"
+        }
+      ],
+      "open_questions": []
+    }
+  ],
+  "description": "Välkommen till Våld. Idag går vi igenom läget för grovt våld, gängkriminalitet och de senaste händelserna nationellt och internationellt.",
+  "tags": [
+    "Organiserad brottslighet",
+    "Skjutningar och dödligt våld",
+    "Internationell våldsutveckling"
+  ],
+  "text_format": "editorial_articles",
+  "editorial_date": "2026-10-26",
+  "channel": "vald",
+  "editorial_outcome": "standard"
+}
