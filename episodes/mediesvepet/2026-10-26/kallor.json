@@ -1,0 +1,178 @@
+[
+  {
+    "source": "Ägarens I fokus",
+    "title": "I fokus 1",
+    "url": null,
+    "owner_input_id": "F01",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "Ägarens I fokus",
+    "title": "I fokus 2",
+    "url": null,
+    "owner_input_id": "F02",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "Expressen",
+    "title": "Expressen: Flera barn skadade i garagebrand i Fristad",
+    "url": null,
+    "owner_input_id": "H01",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "SVT",
+    "title": "SVT: Uppgifter: Misstänkt könsstympning i Uppsala- en anhållen",
+    "url": null,
+    "owner_input_id": "H02",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "SVT",
+    "title": "SVT: En man död efter skjutning i södra Stockholm",
+    "url": null,
+    "owner_input_id": "V01",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "SVT",
+    "title": "SVT: Experten om skjutningarna: ”Indikation på att en konflikt blossat upp”",
+    "url": null,
+    "owner_input_id": "V02",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "SR",
+    "title": "SR: Larmet: Fler barn än väntat kopplas till grova gängbrott",
+    "url": null,
+    "owner_input_id": "V03",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "SVT",
+    "title": "SVT: Efterlyst man utlämnad från Förenade Arabemiraten",
+    "url": null,
+    "owner_input_id": "V04",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "SR",
+    "title": "SR: Kriminella gäng rekryterar unga för bedrägerier- sprider sig norrut",
+    "url": null,
+    "owner_input_id": "V05",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "DN",
+    "title": "DN: Professor: Gängen blir smartare- ställer nya krav på polisutbildningen",
+    "url": null,
+    "owner_input_id": "V06",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "SVT",
+    "title": "SVT: Granskning: Så trappar Ryssland upp våldsamma hybridattackerna",
+    "url": null,
+    "owner_input_id": "O01",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "SR",
+    "title": "SR: 19 personer åtalas i en omfattande bedrägerihärva",
+    "url": null,
+    "owner_input_id": "K01",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "SR",
+    "title": "SR: Insats på industriområde i Vaggeryd- misstänkt grovt miljöbrott",
+    "url": null,
+    "owner_input_id": "M01",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "Aftonbladet",
+    "title": "Aftonbladet: Årets polishund har räddat liv",
+    "url": null,
+    "owner_input_id": "X01",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "SR",
+    "title": "SR: Polisen brände aldrig kända verken – hittades i en kartong: ”Omskakad”",
+    "url": null,
+    "owner_input_id": "X02",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "Ägarens agenda",
+    "title": "Händer idag",
+    "url": null,
+    "owner_input_id": "T01",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  }
+]
