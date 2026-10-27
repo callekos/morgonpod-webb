@@ -1,0 +1,254 @@
+{
+  "channel": "vald",
+  "date": "2026-10-27",
+  "history": [
+    {
+      "id": "article-f5681d417b8600e29356abc4",
+      "date": "2026-10-26",
+      "channel": "vald",
+      "title": "Jakt på skytten efter mordet i Bagarmossen",
+      "summary": "Polisen söker efter en eller flera gärningsmän efter att en man i 25-årsåldern skjutits till döds i en bil i Bagarmossen på fredagseftermiddagen, rapporterar Dagens Nyheter.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-26:daily",
+      "source_url": "https://www.dn.se/sverige/jakt-pa-skytten-efter-mordet-i-bagarmossen/",
+      "topics": [
+        "skjutningar-och-dödligt-våld"
+      ],
+      "relevance": 5
+    },
+    {
+      "id": "article-69b96289d147d56ad9de42cf",
+      "date": "2026-10-22",
+      "channel": "vald",
+      "title": "Gängtoppen Ildar ”Scar” Galiyev åtalas för en rad våldsbrott",
+      "summary": "SVT Nyheter rapporterar den tjugoförsta oktober att 26-årige Ildar Galiyev, känd som Scar, åtalas för över 20 allvarliga brott. Bland åtalspunkterna finns mordet vid Mälarhöjdens IP och anstiftan till det dödliga bombdådet i Fullerö hage år tjugohundratjugotre. Åklagaren betecknar ärendet som gigantiskt med en mängd allvarliga brottsmisstankar.",
+      "assessment": "Åtalet markerar en milstolpe i lagföringen av individer som misstänks ha styrt strukturellt våld i bakgrunden.",
+      "open_questions": [
+        "Hur kommer bevisbördan att värderas i rättegången gällande anstiftan till de omfattande sprängningarna och morden?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-22:daily",
+      "source_url": "https://www.svt.se/nyheter/inrikes/gangtoppen-ildar-scar-galiyev-atalas-for-en-rad-valdsbrott",
+      "topics": [
+        "organiserad-brottslighet",
+        "rättsprocess",
+        "våldsbrott"
+      ],
+      "relevance": 5
+    },
+    {
+      "id": "article-88a4b0365da17cc142f0cf61",
+      "date": "2026-10-20",
+      "channel": "vald",
+      "title": "Italy plans tougher security measures after violent protests",
+      "summary": "Italienska myndigheter planerar nya akuta säkerhetsåtgärder efter att protester mot stigande levnadskostnader urartade i våldsamma sammandrabbningar i bland annat Milano. Över 250 personer har frihetsberövats, och regeringen överväger hårdare tag mot bland annat minderåriga i kriminella gäng och begränsningar av gruppsammankomster.",
+      "assessment": "Händelserna i Italien speglar en bredare europeisk trend där sociala oroligheter lätt kan utnyttjas av våldsamma element för att skapa ordningsstörningar och skadegörelse.",
+      "open_questions": [
+        "Kommer de föreslagna lagändringarna att få avsedd effekt på att dämpa framtida upplopp?",
+        "Hur sprids mobiliseringen via digitala plattformar i denna typ av oroligheter?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-20:daily",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6j9kwxxmxydo?at_medium=RSS&at_campaign=rss",
+      "topics": [
+        "protester",
+        "italien",
+        "säkerhet"
+      ],
+      "relevance": 5
+    },
+    {
+      "id": "article-22dc46d64ed352d0f3c86a87",
+      "date": "2026-10-25",
+      "channel": "vald",
+      "title": "Tonårsflicka häktad misstänkt för medhjälp efter mordet i Älvsjö",
+      "summary": "I Älvsjö har en tonårsflicka häktats, på sannolika skäl misstänkt för medhjälp till mord. Det uppger åklagaren för SVT Nyheter. Flickan nekar till brott. Häktningsförhandlingen hölls i Stockholms tingsrätt på söndagseftermiddagen. Åklagaren Lukas Tigerstrand säger att det finns stor risk att utredningen skulle kunna påverkas negativt. Det är den risken, tillsammans med brottsmisstanken, som han lyfter när han förklarar sin begäran.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-25:daily",
+      "source_url": "https://www.svt.se/nyheter/lokalt/stockholm/tonarsflicka-begars-haktad-efter-mordet-i-alvsjo",
+      "topics": [
+        "sverige"
+      ],
+      "relevance": 4
+    },
+    {
+      "id": "svt-bagarmossen-20261023",
+      "date": "2026-10-24",
+      "channel": "vald",
+      "title": "En man död efter skjutning i södra Stockholm",
+      "summary": "En man i 25-årsåldern avled efter en skjutning i Bagarmossen under fredagseftermiddagen den 23 oktober 2026. SVT Nyheter rapporterar att polisen inlett en förundersökning om mord och att ingen ännu har gripits. Flera vittnen har hörts på platsen och tekniker har undersökt brottsplatsen.",
+      "assessment": "Händelsen visar på ett fortsatt högt våldstryck med dödlig utgång i publika bostadsmiljöer.",
+      "open_questions": [
+        "Finns det direkta kopplingar till kriminella nätverk i Stockholmsområdet?",
+        "Vilka motiv ligger bakom beskjutningen i anslutning till fordonet?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-24:daily",
+      "source_url": "https://www.svt.se/nyheter/lokalt/stockholm/larm-om-skottlossning-i-sodra-stockholm-kzidi4",
+      "topics": [
+        "skjutningar",
+        "mord",
+        "stockholm"
+      ],
+      "relevance": 3
+    },
+    {
+      "id": "article-b366e478bf2709f873a7257c",
+      "date": "2026-10-22",
+      "channel": "vald",
+      "title": "Uppgifter: Polisen utreder Foxtrot-inblandning i mordet i Älvsjö",
+      "summary": "SVT Nyheter uppger den tjugoförsta oktober att polisen undersöker nätverket Foxtrots inblandning i mordet på en kvinna i Älvsjö. Två minderåriga pojkar sitter häktade misstänkta för dådet, som enligt källor rör hämnd riktad mot en anhörig till offret.",
+      "assessment": "Uppgifterna indikerar att nätverksrelaterade konflikter fortsätter att driva aktörer till att använda mycket unga utförare i planerade våldshandlingar.",
+      "open_questions": [
+        "Vilka direkta kopplingar finns mellan de häktade pojkarna och ledarskiktet inom det utpekade nätverket?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-22:daily",
+      "source_url": "https://www.svt.se/nyheter/inrikes/uppgifter-polisen-utreder-foxtrot-inblandning-i-mordet-i-alvsjo",
+      "topics": [
+        "gangkonflikter",
+        "mord",
+        "rekrytering"
+      ],
+      "relevance": 3
+    },
+    {
+      "id": "article-74ba73ce90fe4d4fe5c165b3",
+      "date": "2026-10-21",
+      "channel": "vald",
+      "title": "Omfattande förhandling planeras till november",
+      "summary": "Södertörns tingsrätt har samma dag publicerat information om en omfattande huvudförhandling om bland annat mord och anstiftan till mord. Förhandlingen planeras börja den tredje november i en särskild säkerhetssal på Bergsgatan på Kungsholmen i Stockholm. Den beräknas pågå i knappt femtio dagar och avslutas i slutet av mars nästa år. Domstolen understryker att huvudförhandlingsplanen är preliminär och att sekretessprövning av handlingar pågår.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-21:daily",
+      "source_url": "https://www.domstol.se/nyheter/2026/10/atal-vackt-angaende-mord-anstiftan-till-mord-m-m/",
+      "topics": [
+        "rättsprocess"
+      ],
+      "relevance": 3
+    },
+    {
+      "id": "article-3357a080137753be77a375dc",
+      "date": "2026-10-26",
+      "channel": "vald",
+      "title": "Terrormisstänkt 39-åring ska genomgå psykiatrisk observation i Frankrike",
+      "summary": "Häktningen av den man som misstänks för en dödlig skjutning i franska Trappes har hävts för att han ska genomgå en psykiatrisk observation.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-26:daily",
+      "source_url": "https://www.svt.se/nyheter/utrikes/terrormisstankt-39-aring-ska-genomga-psykiatrisk-observation",
+      "topics": [
+        "internationell-våldsutveckling"
+      ],
+      "relevance": 2
+    },
+    {
+      "id": "article-e95f8c84e5926a4a3d14c360",
+      "date": "2026-10-25",
+      "channel": "vald",
+      "title": "Misstänkt efter skjutningarna utanför Paris under psykiatrisk observation",
+      "summary": "Utanför Paris har den 39-årige man som misstänks för fredagens skjutningar lämnat polisförvar och placerats under psykiatrisk observation. Det rapporterar BBC med hänvisning till Frankrikes nationella antiterroråklagare. Bedömningen ska gälla om hans psykiatriska tillstånd är förenligt med fortsatta förhör och kan pågå i 48 timmar.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-25:daily",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&at_campaign=rss",
+      "topics": [
+        "omvärlden"
+      ],
+      "relevance": 2
+    },
+    {
+      "id": "article-657287496236cfbc7299d1a2",
+      "date": "2026-10-25",
+      "channel": "vald",
+      "title": "Uppgifter om möjlig felskjutning i Bagarmossen – polisen bekräftar inte teorin",
+      "summary": "I Bagarmossen fortsätter utredningen efter att en man i 25-årsåldern sköts till döds på fredagen. Expressen återger uppgifter till Aftonbladet om att mannen kan ha misstagits för någon annan. Enligt dessa uppgifter var han ostraffad och saknade kända kopplingar till gängkriminalitet. Enligt Expressen vill polisen inte bekräfta teorin om en förväxling. Den ska därför återges som en möjlig förklaring i medieuppgifter, inte som ett fastställt händelseförlopp.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-25:daily",
+      "source_url": "https://www.expressen.se/nyheter/krim/uppgifter-mordet-i-bagarmossen-kan-vara-en-felskjutning/",
+      "topics": [
+        "sverige"
+      ],
+      "relevance": 2
+    },
+    {
+      "id": "article-b38b6d6fc4bc796ec5d0587f",
+      "date": "2026-10-22",
+      "channel": "vald",
+      "title": "Barn slåss med pennor och saxar – lärare i Vaggeryd sjukskrivna",
+      "summary": "SVT Nyheter rapporterar den tjugoförsta oktober att ett helt arbetslag på en skola i Vaggeryds kommun har sjukskrivit sig i protest. Bakgrunden är att lågstadieelever använt vässade pennor och saxar som vapen i skolan.",
+      "assessment": "Situationen visar hur ordningsproblem och våldsinslag kryper ned i åldrarna och skapar svåra arbetsmiljökonflikter för skolpersonalen.",
+      "open_questions": [
+        "Vilka långsiktiga stödinsatser kommer kommunen att sätta in för att säkra tryggheten på skolan?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-22:daily",
+      "source_url": "https://www.svt.se/nyheter/lokalt/jonkoping/barn-slass-med-pennor-och-saxar-larare-i-vaggeryd-sjukskrivna-i-protest",
+      "topics": [
+        "skolmiljö",
+        "våld",
+        "arbetsmiljö"
+      ],
+      "relevance": 2
+    },
+    {
+      "id": "article-2f5d1e8681a64b43c0354c9e",
+      "date": "2026-10-21",
+      "channel": "vald",
+      "title": "Åtal om rekrytering till grova våldsbrott",
+      "summary": "En annan aktuell rättsprocess beskrivs i Åklagarmyndighetens pressmeddelande den tjugoförsta oktober. En tjugosexårig man som överlämnades från Grekland till Sverige i februari åtalas vid Södertörns tingsrätt. Myndigheten beskriver misstänkt inblandning i grova våldsbrott i Stockholmsområdet, Linköping och Uppsala under tjugohundratjugotre och tjugohundratjugofyra. En separat åtalspunkt gäller ett grovt vapenbrott i Stockholm år tjugohundratjugoett. Dagens publicering betyder därmed inte att brotten ska ha begåtts i dag.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-21:daily",
+      "source_url": "https://www.aklagare.se/for-media/pressmeddelanden/2026/oktober/man-atalas-for-tre-mord-och-flera-andra-fall-av-grov-brottslighet/",
+      "topics": [
+        "åtal-och-grovt-våld"
+      ],
+      "relevance": 2
+    },
+    {
+      "id": "article-6dc84f2823552b4a664e6831",
+      "date": "2026-10-20",
+      "channel": "vald",
+      "title": "Stort vapentillslag – hittade 31 vapen hos man i Vimmerby",
+      "summary": "En man i 35-årsåldern utan vapenlicens i Vimmerby kommun har åtalats sedan polisen hittat 31 fungerande vapen, inklusive en kulspruta, samt över 11 500 patroner i hans hem och en lagerlokal. Det rör sig enligt åklagaren om ett av de större vapenbeslagen som gjorts i Sverige. Mannen åtalas för synnerligen grovt vapenbrott samt brott mot lagen om brandfarliga och explosiva varor, men nekar till brott.",
+      "assessment": "Ett beslag av denna storleksordning indikerar en betydande risk för att stora vapenmängder kan cirkulera utanför samhällets kontroll, vilket understryker vikten av tidiga underrättelser kring okontrollerade tillgångar.",
+      "open_questions": [
+        "Hur har mannen anskaffat den stora mängden vapen och ammunition utan att det upptäckts tidigare?",
+        "Finns det några verifierade kopplingar till organiserad brottslighet eller extremistmiljöer?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-20:daily",
+      "source_url": "https://www.svt.se/nyheter/lokalt/smaland/stort-vapentillslag-hittade-31-vapen-hos-man",
+      "topics": [
+        "vapenbrott",
+        "brottslighet",
+        "sverige"
+      ],
+      "relevance": 2
+    }
+  ]
+}

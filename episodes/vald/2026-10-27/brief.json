@@ -1,0 +1,132 @@
+{
+  "title": "Våld – Lägesbild och omvärldsbevakning den 27 oktober 2026",
+  "intro": "Välkommen till Våld. I dagens avsnitt uppdaterar vi läget kring uppskjutna åtal i Rönninge, polisens arbete mot våldseskalering i Stockholmsregionen, en misslyckad sprängning i Taberg samt de franska regeringens eftergifter efter de senaste veckornas studentprotester.",
+  "outlook": "Under den kommande perioden blir det centralt att följa om de skärpta säkerhetsåtgärderna och den ökade närvaron i Stockholmsområdet dämpar risken för nya våldsspiraler, samt hur de planerade lagändringarna och åtgärderna i Frankrike implementeras i praktiken.",
+  "news": [
+    {
+      "category": "Rättsprocess",
+      "title": "Åtalet efter mordet i Rönninge skjuts upp till den 24 november",
+      "summary": "Åtalet mot den 26-årige man som sitter häktad misstänkt för mordet på 25-åriga My i Rönninge skjuts upp till den 24 november 2026. Det rapporterar SVT Nyheter i en artikel publicerad den 27 oktober. Senior åklagare Markus Hankkio uppger att slutdelgivning av förundersökningen pågår och att det omfattande materialet nu sammanställs.",
+      "context": "Utredningen har tidigare dragit ut på tiden på grund av väntan på forensisk bevisning från Nationellt forensiskt centrum, NFC. Förseningen belyser de komplexa och utdragna processerna kring att säkra och sammanställa digital och teknisk bevisning i omfattande gröna våldsbrottsfall.",
+      "url": "https://www.svt.se/nyheter/lokalt/sodertalje/nytt-besked-om-atal-efter-mordet-i-ronninge-utredningen-i-slutfasen",
+      "publisher": "SVT Nyheter",
+      "body": "Åtalet mot den 26-årige man som misstänks för mordet på 25-åriga My i Rönninge skjuts upp igen, vilket SVT Nyheter rapporterar den 27 oktober 2026. Åklagaren har begärt förlängd åtalstid till den 24 november. Enligt senior åklagare Markus Hankkio pågår slutdelgivning av förundersökningen och ärendet är i sin slutfasen. Den misstänkte har suttit häktad sedan december förra året och beviljades tidigare förlängd häktning trots att den vanliga tidsgränsen på nio månader passerats. Mannen har erkänt grovt gravfridsbrott och grovt barnpornografibrott men nekar till mordanklagelsen.",
+      "id": "svt-ronninge-atal-20261027",
+      "assessment": "Den upprepade förlängningen visar på svårigheterna med att färdigställa komplexa förundersökningar med omfattande teknisk bevisning.",
+      "previous_reporting": [],
+      "open_questions": [
+        "Hur kommer tingsrätten att värdera den samlade tekniska bevisningen under den kommande huvudförhandlingen?"
+      ],
+      "topics": [
+        "rättsprocess",
+        "mord",
+        "sverige"
+      ],
+      "event_links": [],
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/sodertalje/nytt-besked-om-atal-efter-mordet-i-ronninge-utredningen-i-slutfasen",
+          "title": "SVT Nyheter"
+        }
+      ]
+    },
+    {
+      "category": "Organiserad brottslighet",
+      "title": "Polisen arbetar för att förhindra våldseskalering efter dödsskjutningar",
+      "summary": "Dagens Nyheter rapporterar den 26 oktober 2026 att polisen i södra Stockholm intensifierar sitt arbete för att undvika en våldseskalering efter de senaste veckornas dödsskjutningar i Älvsjö och Bagarmossen. Lokalpolisområdeschef Kristoffer Olofsson uppger att risken för att grovt våld föder ytterligare våld ständigt vägs in i insatserna. Kriminologiprofessor Sven Granath noterar att händelser som felskjutningar kan öka paranoia och leda till hämndspiraler i kriminella miljöer.",
+      "context": "Situationen illustrerar hur tätt föregående dödliga våldsdåd i offentlig miljö skapar påtaglig oro i lokalsamhället och ställer krav på förhöjd polisiär närvaro och underrättelsekedjor.",
+      "url": "https://www.dn.se/sverige/polisen-efter-morden-vi-arbetar-for-att-undvika-valdseskalering/",
+      "publisher": "Dagens Nyheter",
+      "body": "Efter dödsskjutningarna i Älvsjö och Bagarmossen under oktober 2026 arbetar polisen intensivt för att undvika en bredare våldseskalering, rapporterar Dagens Nyheter den 26 oktober. Enligt lokalpolisområdeschefen Kristoffer Olofsson har polisen en höjd lokal närvaro och har fattat beslut om drönarbevakning i bland annat Älvsjö och Solberga. Kriminologen Sven Granath framhåller att skjutvapenvåld kan trigga en rädsla och paranoia inom kriminella nätverk, vilket i sin tur höjer risken för nya motangrepp.",
+      "id": "dn-valdseskalering-20261026",
+      "assessment": "Flera snabba våldsdåd i samma polisområde indikerar en förhöjd risk för hämndaktioner och kognitiv stress inom drabbade nätverk.",
+      "previous_reporting": [
+        "article-f5681d417b8600e29356abc4",
+        "svt-bagarmossen-20261023"
+      ],
+      "open_questions": [
+        "Vilka långsiktiga förebyggande åtgärder kommer att prioriteras för att bryta våldsspiralen i de berörda stadsdelarna?"
+      ],
+      "topics": [
+        "skjutningar",
+        "stockholm",
+        "gangkonflikter"
+      ],
+      "event_links": [],
+      "sources": [
+        {
+          "url": "https://www.dn.se/sverige/polisen-efter-morden-vi-arbetar-for-att-undvika-valdseskalering/",
+          "title": "Dagens Nyheter"
+        }
+      ]
+    },
+    {
+      "category": "Sprängningar",
+      "title": "Planerad sprängning gick snett i Taberg – skador på fastighet",
+      "summary": "En mindre planerad sprängning i ett industriområde i Taberg söder om Jönköping gick snett under måndagseftermiddagen den 26 oktober 2026, vilket SVT Nyheter och Brottsplatskartan rapporterar. Stenar slungades över hundra meter och orsakade skador på fasader samt vattenläckor på en intilliggande fastighet. Ingen person kom till skada vid händelsen.",
+      "context": "Händelsen understryker vikten av strikta säkerhetsrutiner och tillsyn vid industriella sprängarbeten i närheten av bebyggelse.",
+      "url": "https://www.svt.se/nyheter/lokalt/jonkoping/misstankt-explosion-i-taberg",
+      "publisher": "SVT Nyheter",
+      "body": "Ett företag utanför Taberg drabbades av skador på fastigheten efter en misslyckad sprängning den 26 oktober 2026, uppger SVT Nyheter och Brottsplatskartan. Enligt uppgifter som SVT Nyheter hämtar från polisens presstalesperson Mats Pettersson rör det sig om en planerad mindre sprängning vars säkerhetsavstånd eller genomförande misslyckades, vilket resulterade i att stenar flög in i området och skadade bilar samt en intilliggande byggnad. SVT Nyheter och Brottsplatskartan uppger att Polisen har upprättat en anmälan om framkallande av fara för annan för att utreda om gällande säkerhetsrutiner har följts, och att ingen har delgetts misstanke om brott.",
+      "id": "svt-taberg-explosion-20261026",
+      "assessment": "Händelsen bedöms som en olycka i samband med entreprenadarbete snarare än en avsiktlig brottmålsrelaterad sprängning, men kräver utredning av ansvar.",
+      "previous_reporting": [],
+      "open_questions": [
+        "Vilka säkerhetsbrister låg bakom att sprängstenar kunde färdas över hundra meter från arbetsplatsen?"
+      ],
+      "topics": [
+        "sprängningar",
+        "jonköping",
+        "olyckor"
+      ],
+      "event_links": [],
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/jonkoping/misstankt-explosion-i-taberg",
+          "title": "SVT Nyheter"
+        }
+      ]
+    },
+    {
+      "category": "Internationell våldsutveckling",
+      "title": "Franska regeringen möter studentkrav efter veckor av protester",
+      "summary": "Efter flera veckors våldsamma protester och omfattande kravaller i Frankrike går regeringen till mötes med nya eftergifter, rapporterar SVT Nyheter den 26 oktober 2026. Ett nytt antagningssystem för universitet och högskolor ska utvecklas för att ersätta det kritiserade Parcoursup-systemet senast 2028, och klasstorlekar i gymnasiet begränsas till 28 elever.",
+      "context": "Händelsen visar hur socialt missnöje och studentprotester i Europa riskerar att utnyttjas av våldsamma aktörer, vilket tvingar fram politiska och institutionella eftergifter.",
+      "url": "https://www.svt.se/nyheter/utrikes/regeringens-svar-efter-protesterna-i-frankrike-inga-tomma-loften",
+      "publisher": "SVT Nyheter",
+      "body": "Våldsamma protester har skakat Frankrike i flera veckor med över 1 300 gripna enbart i Paris, vilket SVT Nyheter rapporterar om den 26 oktober 2026. Efter ett möte mellan premiärminister Sébastien Lecornu och studentorganisationer presenterade regeringen åtgärder som innefattar en ny universitetsplattform, tak för klasstorlekar och ökade resurser till skolrenoveringar. Utbildningsminister Edouard Geffray uppger att besluten inte är tomma löften och att planerade nedskärningar avstyrts till förmån för nya lärartjänster.",
+      "id": "svt-frankrike-protester-20261026",
+      "assessment": "Regeringens snabba respons speglar en ambition att avidentifiera och avveckla grunden för de omfattande ordningsstörningarna.",
+      "previous_reporting": [
+        "article-88a4b0365da17cc142f0cf61",
+        "article-3357a080137753be77a375dc"
+      ],
+      "open_questions": [
+        "Kommer de beslutade utbildningsreformerna att vara tillräckliga för att dämpa framtida oroligheter?"
+      ],
+      "topics": [
+        "protester",
+        "frankrike",
+        "säkerhet"
+      ],
+      "event_links": [],
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/utrikes/regeringens-svar-efter-protesterna-i-frankrike-inga-tomma-loften",
+          "title": "SVT Nyheter"
+        }
+      ]
+    }
+  ],
+  "description": "Välkommen till Våld. I dagens avsnitt uppdaterar vi läget kring uppskjutna åtal i Rönninge, polisens arbete mot våldseskalering i Stockholmsregionen, en misslyckad sprängning i Taberg samt de franska regeringens eftergifter efter de senaste veckornas studentprotester.",
+  "tags": [
+    "Rättsprocess",
+    "Organiserad brottslighet",
+    "Sprängningar",
+    "Internationell våldsutveckling"
+  ],
+  "text_format": "editorial_articles",
+  "editorial_date": "2026-10-27",
+  "channel": "vald",
+  "editorial_outcome": "standard"
+}

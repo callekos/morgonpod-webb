@@ -1,0 +1,369 @@
+{
+  "channel": "vald",
+  "date": "2026-10-27",
+  "schema": 2,
+  "corroboration_method": "distinct_hosts_not_proof_of_independence",
+  "received": 5,
+  "unique_urls": 5,
+  "identified_events": 5,
+  "selected_articles": 5,
+  "selected_events": 5,
+  "unique_domains": 3,
+  "max_items": 40,
+  "gemini_calls": 0,
+  "decisions": [
+    {
+      "event_id": "f59fc61477b03822",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 51,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "”En jävla smäll” – sprängning vid företag i Taberg gick fel - SVT Nyheter",
+          "url": "https://www.svt.se/nyheter/lokalt/jonkoping/misstankt-explosion-i-taberg"
+        }
+      ]
+    },
+    {
+      "event_id": "e623d234c50a8a84",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Nytt besked om åtal efter mordet i Rönninge: Utredningen i slutfasen",
+          "url": "https://www.svt.se/nyheter/lokalt/sodertalje/nytt-besked-om-atal-efter-mordet-i-ronninge-utredningen-i-slutfasen"
+        }
+      ]
+    },
+    {
+      "event_id": "65f3150890098700",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "svt.se"
+      ],
+      "articles": [
+        {
+          "title": "Regeringens svar efter protesterna i Frankrike: ”Inga tomma löften”",
+          "url": "https://www.svt.se/nyheter/utrikes/regeringens-svar-efter-protesterna-i-frankrike-inga-tomma-loften"
+        }
+      ]
+    },
+    {
+      "event_id": "2d17fa4dafbfc1c9",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 39,
+      "score_components": {
+        "relevance": 3,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "brottsplatskartan.se"
+      ],
+      "articles": [
+        {
+          "title": "Planerad sprängning gick snett i Taberg, Jönköping - Brottsplatskartan",
+          "url": "https://brottsplatskartan.se/jonkopings-lan/explosion-jonkoping-512335"
+        }
+      ]
+    },
+    {
+      "event_id": "8578c3aaecfb6dc5",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 36,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "dn.se"
+      ],
+      "articles": [
+        {
+          "title": "Polisen efter morden: ”Vi arbetar för att undvika våldseskalering” - Dagens Nyheter",
+          "url": "https://www.dn.se/sverige/polisen-efter-morden-vi-arbetar-for-att-undvika-valdseskalering/"
+        }
+      ]
+    }
+  ],
+  "rejected": [],
+  "identified_events_are_estimates": true,
+  "review_source_count": 5,
+  "channel_scope": {
+    "input_count": 5,
+    "accepted_count": 5,
+    "rejected": [],
+    "discussion_signals": [],
+    "verified_date_exclusions": [],
+    "resolved_duplicate_aliases": []
+  },
+  "collection_evidence": {
+    "state": "ready",
+    "failed_discovery_urls": [],
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "subscription_exclusions": [],
+    "channel": "vald",
+    "discovery": {
+      "channel": "vald",
+      "date": "2026-10-27",
+      "feeds": [
+        {
+          "url": "https://www.svt.se/nyheter/rss.xml",
+          "entries": 100,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.europol.europa.eu/rss.xml",
+          "entries": 10,
+          "accepted": 10,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "entries": 27,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Sverige%20%28skjutning%20OR%20spr%C3%A4ngning%20OR%20g%C3%A4ngv%C3%A5ld%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 15,
+          "accepted": 15,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22organized%20crime%22%20%28violence%20OR%20shootings%20OR%20bombings%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Europol%20%28violence%20OR%20gangs%20OR%20%22contract%20killing%22%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22crime%20as%20a%20service%22%20OR%20%22violence%20as%20a%20service%22%20OR%20%22best%C3%A4llda%20mord%22%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aeuda.europa.eu%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Abbc.com%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Atheguardian.com%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Apolisen.se%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Abra.se%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aeuropol.europa.eu%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aaklagare.se%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        }
+      ],
+      "web_candidates": 0,
+      "original_fallback": {
+        "sources_checked": 6,
+        "candidates": 20,
+        "excluded": 12,
+        "sources": [
+          {
+            "domain": "euda.europa.eu",
+            "status": "BLOCKED",
+            "http_status": 403,
+            "error": null
+          },
+          {
+            "domain": "reuters.com",
+            "status": "BLOCKED",
+            "http_status": 401,
+            "error": null
+          },
+          {
+            "domain": "bbc.com",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "theguardian.com",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "polisen.se",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "bra.se",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          }
+        ]
+      },
+      "candidate_count": 81,
+      "scope": "discovery_only_not_factual_approval",
+      "verified_old_exclusions": [
+        {
+          "url": "https://www.tv4.se/korthet/d0808e48bb5294b53c28/5oJOfyWJWQAj4sJlRylKt0",
+          "published_at": "2026-10-23T18:35:56Z",
+          "page_sha256": "f4685971dda4e467756588fece8956cf144ae06d962efcfbc6f2613df3673208",
+          "evidence": "same-ID original video structured metadata, not read transcript"
+        },
+        {
+          "url": "https://www.mitti.se/nyheter/en-man-dod-efter-skjutning-i-bagarmossen-6.3.393222.1226ba03ca",
+          "published_at": "2026-10-23T19:53:29+01:00",
+          "page_sha256": "4875ab0e2e3c52f12b4007abd336c790ab8f051188dc160661b32bfdf77d3ce8",
+          "evidence": "original article datePublished; later dateModified is not publication"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/stockholm/larm-om-skottlossning-i-sodra-stockholm-kzidi4",
+          "published_at": "2026-10-23T17:00:37+02:00",
+          "page_sha256": "48c79c6a7d909dc9fa701b20999245087966b2a38b42636c2db2a20c76fddcd6",
+          "evidence": "original article publication metadata"
+        }
+      ]
+    },
+    "checked_at": "2026-10-27T09:12:19.102467+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  },
+  "work_import": {
+    "package_sha256": "644d2cb5931fb23f7b864579229aa4842450eaba7d73a6b3f8ca85492039f7d6",
+    "candidate_sha256": "763391529a46a95d9a3215d617f828b3b805785f34872a438296d2324c230df3",
+    "provenance": {
+      "issue": 121,
+      "source": "Run 40479884647 repaired draft, artifact 12722302189",
+      "raw_repaired_sha256": "bb00d25a1cbdcb79f65880921919753c7a9e7af7c5fe64eb963ba17f4f89ba9d",
+      "raw_path": "runtime/editorial_recovery/packages/vald-2026-10-27-candidate-repaired-raw.json",
+      "correction": "Only duplicate introductory rundown replaced with neutral introduction; all subsequent manuscript and articles retained.",
+      "prior_attempts_preserved": true,
+      "new_model_review_required": true
+    },
+    "editorial_approved": false,
+    "phase": "manuscript_draft"
+  }
+}

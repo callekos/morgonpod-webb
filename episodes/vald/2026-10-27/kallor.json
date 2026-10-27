@@ -1,0 +1,50 @@
+[
+  {
+    "source": "SVT Nyheter",
+    "title": "Åtalet efter mordet i Rönninge skjuts upp till den 24 november",
+    "url": "https://www.svt.se/nyheter/lokalt/sodertalje/nytt-besked-om-atal-efter-mordet-i-ronninge-utredningen-i-slutfasen",
+    "evidence": {
+      "date": "2026-10-27T07:31:44+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-27T08:52:04.833715+00:00",
+      "page_sha256": "109934c6b709df728ca737d8df91fb1893d51a38b2fe10ae75540c03133dd4ea",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Dagens Nyheter",
+    "title": "Polisen arbetar för att förhindra våldseskalering efter dödsskjutningar",
+    "url": "https://www.dn.se/sverige/polisen-efter-morden-vi-arbetar-for-att-undvika-valdseskalering/",
+    "evidence": {
+      "date": "2026-10-26T21:26:59.583000+01:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-27T09:00:29.107954+00:00",
+      "page_sha256": "df710c69b0b8ab62e59e9b1dc73c36403093012b54602d72ed713d8d20487b34",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "SVT Nyheter",
+    "title": "Planerad sprängning gick snett i Taberg – skador på fastighet",
+    "url": "https://www.svt.se/nyheter/lokalt/jonkoping/misstankt-explosion-i-taberg",
+    "evidence": {
+      "date": "2026-10-26T14:31:13+01:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-27T08:56:16.454019+00:00",
+      "page_sha256": "5a12f84c5500cf784b4da29a3c99e2ca4355311487992410a8d963a43dc95338",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "SVT Nyheter",
+    "title": "Franska regeringen möter studentkrav efter veckor av protester",
+    "url": "https://www.svt.se/nyheter/utrikes/regeringens-svar-efter-protesterna-i-frankrike-inga-tomma-loften",
+    "evidence": {
+      "date": "2026-10-26T19:55:44+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-27T08:52:04.833778+00:00",
+      "page_sha256": "cc2a5ddd217e129255e4d2740263ba71453a908e064fa4511519f9d86df042d8",
+      "retrieval_limit": null
+    }
+  }
+]

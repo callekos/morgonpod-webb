@@ -1,0 +1,119 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "",
+  "source_coverage": [
+    {
+      "claim": "Åtalet mot den misstänkte för mordet i Rönninge skjuts upp till den 24 november och slutdelgivning pågår.",
+      "source_url": "https://www.svt.se/nyheter/lokalt/sodertalje/nytt-besked-om-atal-efter-mordet-i-ronninge-utredningen-i-slutfasen"
+    },
+    {
+      "claim": "Polisen arbetar för att förhindra våldseskalering i Stockholmsregionen efter skjutningar i Älvsjö och Bagarmossen, och drönarbevakning kan bli aktuell.",
+      "source_url": "https://www.dn.se/sverige/polisen-efter-morden-vi-arbetar-for-att-undvika-valdseskalering/"
+    },
+    {
+      "claim": "En planerad sprängning vid ett industriområde i Taberg gick snett och stenar orsakade skador på en intilliggande fastighet.",
+      "source_url": "https://www.svt.se/nyheter/lokalt/jonkoping/misstankt-explosion-i-taberg"
+    },
+    {
+      "claim": "Den franska regeringen möter studentkrav efter veckor av protester med ett nytt antagningssystem till 2028 och begränsade klasstorlekar.",
+      "source_url": "https://www.svt.se/nyheter/utrikes/regeringens-svar-efter-protesterna-i-frankrike-inga-tomma-loften"
+    }
+  ],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/sodertalje/nytt-besked-om-atal-efter-mordet-i-ronninge-utredningen-i-slutfasen",
+      "covered_facts": [
+        "Åtalet skjuts upp till 24 november",
+        "Slutdelgivning pågår",
+        "Mannen har suttit häktad sedan december"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.dn.se/sverige/polisen-efter-morden-vi-arbetar-for-att-undvika-valdseskalering/",
+      "covered_facts": [
+        "Polisens arbete efter skjutningar i Älvsjö och Bagarmossen",
+        "Risk för våldseskalering",
+        "Drönarbevakning kan bli aktuell"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/jonkoping/misstankt-explosion-i-taberg",
+      "covered_facts": [
+        "Misslyckad sprängning i Taberg",
+        "Stenar flög och skadade fasad",
+        "Polisanmälan om framkallande av fara för annan"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://brottsplatskartan.se/jonkopings-lan/explosion-jonkoping-512335",
+      "covered_facts": [],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.svt.se/nyheter/utrikes/regeringens-svar-efter-protesterna-i-frankrike-inga-tomma-loften",
+      "covered_facts": [
+        "Protester och kravaller i Frankrike",
+        "Regeringens eftergifter med nytt antagningssystem och klasstorlekar"
+      ],
+      "missing_facts": []
+    }
+  ],
+  "selection_decisions": [
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/sodertalje/nytt-besked-om-atal-efter-mordet-i-ronninge-utredningen-i-slutfasen",
+      "selected": true,
+      "reason": "Viktig verifierad uppföljning av ett uppmärksammat mordärende.",
+      "event_key": "ronninge-atal",
+      "source_quote": "Åtalet mot den 26-årige man som misstänks för mordet på My i Rönninge skjuts upp igen."
+    },
+    {
+      "url": "https://www.dn.se/sverige/polisen-efter-morden-vi-arbetar-for-att-undvika-valdseskalering/",
+      "selected": true,
+      "reason": "Central polisbedömning av våldseskalering i Stockholmsregionen.",
+      "event_key": "stockholm-valdseskalering",
+      "source_quote": "När grova våldsdåd sker tätt inpå varandra finns det dock risk för eskalering"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/jonkoping/misstankt-explosion-i-taberg",
+      "selected": true,
+      "reason": "Verifierad sprängolycka med materiella skador.",
+      "event_key": "taberg-sprangolycka",
+      "source_quote": "Ett företag utanför Taberg söder om Jönköping fick fastigheten skadad efter en misslyckad sprängning"
+    },
+    {
+      "url": "https://brottsplatskartan.se/jonkopings-lan/explosion-jonkoping-512335",
+      "selected": false,
+      "reason": "Täckts av SVT-artikeln om samma händelse.",
+      "event_key": "taberg-sprangolycka-dublett",
+      "source_quote": "En planerad sprängning i ett industriområde i Taberg söder om Jönköping har gått snett."
+    },
+    {
+      "url": "https://www.svt.se/nyheter/utrikes/regeringens-svar-efter-protesterna-i-frankrike-inga-tomma-loften",
+      "selected": true,
+      "reason": "Relevanta politiska svar på omfattande ordningsstörningar.",
+      "event_key": "frankrike-protester-svar",
+      "source_quote": "Våldsamma protester har skakat Frankrike i flera veckor. Nu går regeringen studenternas krav till mötes."
+    }
+  ],
+  "format_decision": {
+    "outcome": "standard",
+    "reason": "Fyra relevanta, källbelagda nyheter har granskats och sammanställts fullt ut."
+  },
+  "access_exclusions_reviewed": true,
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "786578280df789abe355c948ea65a605774450f7420cbcddd6e4c37ffc7ef6cf",
+    "news_sha256": "3c706aa5290d6af7955eee9fd0fa11364c48f286dad790a332182aff5f80b9f7",
+    "script_sha256": "65b250f215cb010ebbd59da023ec4dbbb0d6c9b97af4da17f2b24774dc09a526",
+    "collection_sha256": "2a4b2538831682bde4c78b96da5c9b57da1baf806da35d4448d14eb53ee77826"
+  },
+  "reviewed_candidate_sha256": "763391529a46a95d9a3215d617f828b3b805785f34872a438296d2324c230df3",
+  "reviewed_script_sha256": "65b250f215cb010ebbd59da023ec4dbbb0d6c9b97af4da17f2b24774dc09a526",
+  "work_package_sha256": "644d2cb5931fb23f7b864579229aa4842450eaba7d73a6b3f8ca85492039f7d6"
+}
