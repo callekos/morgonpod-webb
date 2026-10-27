@@ -1,0 +1,65 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "",
+  "source_coverage": [
+    {
+      "claim": "Sri Lanka har gripit över tusen personer misstänkta för cyberbedrägerier men saknar fällande domar på grund av föråldrad lagstiftning från 2007.",
+      "source_url": "https://www.occrp.org/en/news/sri-lanka-records-zero-prosecutions-amid-online-scam-surge"
+    },
+    {
+      "claim": "En omfattande polisinsats ägde rum vid Drottningholms slott efter att en person boende på området lurats på värdesaker.",
+      "source_url": "https://www.svt.se/nyheter/lokalt/stockholm/stor-polisinsats-efter-bedrageri-vid-drottningholms-slott"
+    }
+  ],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://www.occrp.org/en/news/sri-lanka-records-zero-prosecutions-amid-online-scam-surge",
+      "covered_facts": [
+        "Över 1000 gripanden i Sri Lanka",
+        "Inga fällande domar ännu",
+        "Data- och it-brottslagen från 2007 kräver direkta målsägandeklagomål"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/stockholm/stor-polisinsats-efter-bedrageri-vid-drottningholms-slott",
+      "covered_facts": [
+        "Polisinsats vid Drottningholms slott",
+        "Person i slottsflygel lurad på värdesaker",
+        "Förundersökning om grovt bedrägeri upprättad"
+      ],
+      "missing_facts": []
+    }
+  ],
+  "selection_decisions": [
+    {
+      "url": "https://www.occrp.org/en/news/sri-lanka-records-zero-prosecutions-amid-online-scam-surge",
+      "selected": true,
+      "reason": "Välkällad artikel om internationell kriminell ekonomi och bedrägerisyndikat.",
+      "event_key": "sri-lanka-cyber-scam-surge",
+      "source_quote": "Authorities in Sri Lanka have failed to successfully prosecute a single transnational cyber scam case"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/stockholm/stor-polisinsats-efter-bedrageri-vid-drottningholms-slott",
+      "selected": true,
+      "reason": "Relevanta uppgifter om grovt bedrägeri och pågående polisinsats i Sverige med tydligt källstöd.",
+      "event_key": "drottningholm-slotts-bedrageri",
+      "source_quote": "En polisinsats pågår vid Drottningholms slott efter att en person som bor på slottsområdet utsatts för bedrägeri."
+    }
+  ],
+  "format_decision": {
+    "outcome": "standard",
+    "reason": "Insamlingen har fungerat och två relevanta, källbelagda nyheter har granskats och behandlats i enlighet med redaktionsprofilen."
+  },
+  "access_exclusions_reviewed": true,
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "f03e8c8d687774655bf8f2cc35e9bb22f3f008224beccc6a5a1c04e5f19deec4",
+    "news_sha256": "3c6f307ab4b715ba5d99938786fe7853f3681ae055c094ddb643f6bd2b2a3bc1",
+    "script_sha256": "8a6cabbd03cf8f020273c0fa7097d70da5bb4909ccb9c0ce81fbaa30690190a7",
+    "collection_sha256": "8642f0bf9c2ce97ff31f6882ef3635062c45b16f0b95c8a0a049f155545cfb48"
+  }
+}

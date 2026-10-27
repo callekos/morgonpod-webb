@@ -1,0 +1,73 @@
+{
+  "title": "Internationella bedrägerisystem och polisinsats vid Drottningholms slott",
+  "intro": "Välkommen till Kriminell ekonomi. I dag uppmärksammar vi hur Sri Lanka kämpar med att få till stånd fällande domar mot internationella cyberbedragare trots över tusen gripanden, samt SVT Nyheters rapportering om en omfattande polisinsats efter ett bedrägeri vid Drottningholms slott.",
+  "outlook": "Framåtblickande pekar utvecklingen mot ett ökat behov av internationellt juridiskt samarbete för att möta gränsöverskridande cyberbedrägerier, samtidigt som svenska myndigheter och allmänheten fortsatt behöver uppmärksamma sofistikerade telefonbedrägerier.",
+  "news": [
+    {
+      "category": "Internationell kriminell ekonomi",
+      "title": "Sri Lanka saknar fällande domar trots tusentals gripanden av nätbedragare",
+      "summary": "Enligt OCCRP har polisen i Sri Lanka under året gripit över ett tusen misstänkta medlemmar från asiatiska bedrägerisyndikat som flytt till landet. Trots de omfattande tillslagen har landet inte lyckats säkra en enda fällande dom på grund av inaktuell lagstiftning. Experter varnar för att landet därmed riskerar att utvecklas till ett centralt nav för storskalig cyberbrottslighet.",
+      "context": "Utvecklingen visar hur kriminella nätverk dynamiskt flyttar sin verksamhet till nya regioner när trycket ökar i Sydostasien, vilket understryker behovet av uppdaterade rättsliga verktyg mot gränsöverskridande ekonomisk brottslighet.",
+      "url": "https://www.occrp.org/en/news/sri-lanka-records-zero-prosecutions-amid-online-scam-surge",
+      "publisher": "OCCRP",
+      "body": "Myndigheter i Sri Lanka har inte lyckats med en enda framgångsrik åtgärd för att fälla misstänkta i transnationella it-bedrägerifall, vilket polisen uppger i uppgifter som publicerats av OCCRP den 25 oktober 2026. Detta sker trots att över tusen personer som misstänks tillhöra asiatiska bedrägerisyndikat har gripits under året. Rapporter från Global Initiative Against Transnational Organized Crime (GI-TOC) visar att landet löper allvarlig risk att bli ett nav för industriella cyberbedrägerier när kriminella flyr hårdare tillslag i länder som Kambodja och Myanmar. Enligt polisen i Sri Lanka har poliser genomfört räder mot 27 misstänkta baser och gripit 1 093 personer mellan januari och september, en kraftig ökning från tidigare år. Trots detta har inga fällande domar säkrats eftersom landets it-brottslag från 2007 enbart tillåter att fall öppnas baserat på klagomål från direkta offer, vilka i stor utsträckning befinner sig utomlands. Istället har de flesta misstänkta utvisats på grund av visumbrott. Bedrägerinätverken dras till landet på grund av viseringslättnader och ekonomiska satsningar som Colombo Port City, vilket skapar legala gråzoner som kriminella aktörer kan utnyttja.",
+      "assessment": "Enligt bedömare från GI-TOC finns en betydande risk att den illegala verksamheten växer sig så stark att den kan hota statliga strukturer om inte lagstiftningen skärps i tid.",
+      "open_questions": [
+        "Hur planerar Sri Lankas regeringen att uppdatera landets it-brottslag från 2007 för att underlätta åtal?",
+        "Vilka konkreta åtgärder vidtas för att granska de stora flödena av krypterade enheter som beslagtas vid räderna?",
+        "På vilket sätt påverkas de ekonomiska särzonerna i landet av utländska investerare inom den digitala sektorn?"
+      ],
+      "topics": [
+        "cyberbedrägerier",
+        "penningtvätt",
+        "internationell brottslighet"
+      ],
+      "event_links": [],
+      "sources": [
+        {
+          "url": "https://www.occrp.org/en/news/sri-lanka-records-zero-prosecutions-amid-online-scam-surge",
+          "title": "OCCRP"
+        }
+      ]
+    },
+    {
+      "category": "Bedrägeri och tillgångsinriktad brottsbekämpning",
+      "title": "Stor polisinsats vid Drottningholms slott efter omfattande bedrägeri",
+      "summary": "Enligt SVT Nyheter pågår en omfattande polisinsats vid Drottningholms slott efter att en person som bor på slottsområdet utsatts för ett grovt bedrägeri. Gärningspersoner har kommit över värdesaker till ett värde av tiotusentals kronor genom att utge sig för att företräda bank, försäkringsbolag och polis.",
+      "context": "Händelsen illustrerar hur bedragare använder avancerade kontaktmetoder med flera koordinerade steg för att lura till sig värdeföremål direkt ur målsägandens bostad, vilket kräver operativ uppmärksamhet från brottsbekämpande myndigheter.",
+      "url": "https://www.svt.se/nyheter/lokalt/stockholm/stor-polisinsats-efter-bedrageri-vid-drottningholms-slott",
+      "publisher": "SVT Nyheter",
+      "body": "En polisinsats inleddes under måndagskvällen den 26 oktober 2026 vid Drottningholms slott efter att en person som bor i en av flyglarna på slottsområdet utsatts för ett bedrägeri, vilket SVT Nyheter rapporterar om. Larmet inkom klockan 21:01 och enligt presstalesperson Mats Eriksson vid polisen, som citeras av SVT Nyheter, rör det sig om en person med tidigare eller nuvarande anställning på slottet som blivit av med guld och smycken. Uppskattningsvis rör det sig om värdesaker till ett värde mellan 50 000 och 100 000 kronor. Enligt SVT Nyheter inleddes bedrägeriet med falska sms från ett transportföretag, följt av samtal där gärningspersoner utgav sig för att komma från bank-id, banken och polisen. Därefter uppgavs att bostaden riskerade inbrott, vilket användes som förevändning för att hämta värdesakerna, kompletterat med falska sms från någon som utgav sig för att vara en släktning. Enligt SVT Nyheter har polisen upprättat en förundersökning om grovt bedrägeri och granskar kameraövervakning i området, men ännu har ingen gripits.",
+      "assessment": "Enligt Polisen har gärningspersonerna använt ett komplext upplägg med social manipulation som kombinerar digitala meddelanden och uppringningar för att helt bryta ned den brottsutsattas motståndskraft.",
+      "previous_reporting": [
+        "article-9a0558291bf0ff3a659f39a1"
+      ],
+      "open_questions": [
+        "Hur har gärningspersonerna kommit över den brottsutsattes personliga kontaktuppgifter och detaljer om bostaden?",
+        "Finns det kopplingar mellan detta sofistikerade tillvägagångssätt och andra liknande bedrägerivågor i Stockholmsregionen?",
+        "Vilka ytterligare tekniska spår går att säkra från de digitala meddelanden som skickades före besöket?"
+      ],
+      "topics": [
+        "bedrägeri",
+        "polisarbete",
+        "stockholm"
+      ],
+      "event_links": [],
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/stockholm/stor-polisinsats-efter-bedrageri-vid-drottningholms-slott",
+          "title": "SVT Nyheter"
+        }
+      ]
+    }
+  ],
+  "description": "Välkommen till Kriminell ekonomi. I dag uppmärksammar vi hur Sri Lanka kämpar med att få till stånd fällande domar mot internationella cyberbedragare trots över tusen gripanden, samt SVT Nyheters rapportering om en omfattande polisinsats efter ett bedrägeri vid Drottningholms slott.",
+  "tags": [
+    "Internationell kriminell ekonomi",
+    "Bedrägeri och tillgångsinriktad brottsbekämpning"
+  ],
+  "text_format": "editorial_articles",
+  "editorial_date": "2026-10-27",
+  "channel": "kek",
+  "editorial_outcome": "standard"
+}

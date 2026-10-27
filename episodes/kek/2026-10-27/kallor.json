@@ -1,0 +1,26 @@
+[
+  {
+    "source": "OCCRP",
+    "title": "Sri Lanka saknar fällande domar trots tusentals gripanden av nätbedragare",
+    "url": "https://www.occrp.org/en/news/sri-lanka-records-zero-prosecutions-amid-online-scam-surge",
+    "evidence": {
+      "date": "2026-10-25T03:30:00+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-27T04:16:35.675762+00:00",
+      "page_sha256": "38cca3c1abb6f05129aeb7a6c3f6730ec8e177be9b3c2c845afe030104083398",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "SVT Nyheter",
+    "title": "Stor polisinsats vid Drottningholms slott efter omfattande bedrägeri",
+    "url": "https://www.svt.se/nyheter/lokalt/stockholm/stor-polisinsats-efter-bedrageri-vid-drottningholms-slott",
+    "evidence": {
+      "date": "2026-10-26T22:53:21+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-27T04:16:35.675980+00:00",
+      "page_sha256": "38ec74d1672d1a86077b2c221845590d94ce1e110145f0efbc8bb7f236dfc373",
+      "retrieval_limit": null
+    }
+  }
+]

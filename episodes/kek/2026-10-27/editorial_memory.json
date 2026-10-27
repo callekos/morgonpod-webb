@@ -1,0 +1,23 @@
+{
+  "channel": "kek",
+  "date": "2026-10-27",
+  "history": [
+    {
+      "id": "article-9a0558291bf0ff3a659f39a1",
+      "date": "2026-10-21",
+      "channel": "kek",
+      "title": "Polisen varnar för misstänkta telefonbedrägerier i Stockholms län",
+      "summary": "Flera personer har enligt Polisen Stockholms län kontaktats av personer som utger sig för att komma från polisen, vilket bedöms som bedrägeriförsök.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "kek:2026-10-21:daily",
+      "source_url": "https://polisen.se/aktuellt/handelser/2026/oktober/21/21-oktober-11.35-bedrageri-stockholms-lan/",
+      "topics": [
+        "bedrägeri"
+      ],
+      "relevance": 2
+    }
+  ]
+}
