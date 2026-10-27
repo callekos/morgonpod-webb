@@ -1,0 +1,38 @@
+[
+  {
+    "source": "The Maritime Executive",
+    "title": "Sanktionerad tanker med rysk diesel har passerat brittiska vatten",
+    "url": "https://maritime-executive.com/article/sanctioned-tanker-bound-for-us-passes-through-uk-waters",
+    "evidence": {
+      "date": "2026-10-26T15:34:20+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-27T02:16:38.096577+00:00",
+      "page_sha256": "4ea98572ddda6dd8af9d28be1864f6ae317ceb6a2bc5e1a3b0fee4ca8618b115",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Naval News",
+    "title": "Sverige väljer obemannade farkoster för uthållig lägesbild i Östersjön",
+    "url": "https://www.navalnews.com/naval-news/2026/10/sweden-selects-saildrone-for-year-long-mda-mission-in-the-baltic-sea/",
+    "evidence": {
+      "date": "2026-10-26T11:50:42+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-27T02:16:38.096908+00:00",
+      "page_sha256": "9a18e1bf25fdcea76f060675941ebe6fabeea6b753301180896347fcb7f502b7",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Naval News",
+    "title": "AUKUS-samarbetet pekar ut USS Colorado som första ubåt för SRF-West",
+    "url": "https://www.navalnews.com/naval-news/2026/10/aukus-uss-colorado-announced-as-first-submarine-for-srf-west/",
+    "evidence": {
+      "date": "2026-10-26T22:11:06+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-27T02:16:38.097382+00:00",
+      "page_sha256": "8e88dc0bd47a0625d83620bded4c59e21c26f789b2a558a3a99eea27a4b21048",
+      "retrieval_limit": null
+    }
+  }
+]

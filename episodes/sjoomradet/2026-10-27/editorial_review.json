@@ -1,0 +1,109 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "Innehållet täcker fullt ut tre väsentliga och aktuella maritima säkerhetsnyheter från Östersjön, Storbritannien och Stilla havet utan utfyllnad.",
+  "source_coverage": [
+    {
+      "claim": "Den sanktionerade tankern Leruo har lämnat Primorsk med diesel och passerat brittiska vatten på väg mot USA.",
+      "source_url": "https://maritime-executive.com/article/sanctioned-tanker-bound-for-us-passes-through-uk-waters"
+    },
+    {
+      "claim": "Sverige har upphandlat en ettårig tjänst med obemannade Saildrone-farkoster för maritim övervakning i Östersjön.",
+      "source_url": "https://www.navalnews.com/naval-news/2026/10/sweden-selects-saildrone-for-year-long-mda-mission-in-the-baltic-sea/"
+    },
+    {
+      "claim": "USS Colorado har utsetts till den första Virginia-klassbåten för SRF-West i Australien inom AUKUS-samarbetet.",
+      "source_url": "https://www.navalnews.com/naval-news/2026/10/aukus-uss-colorado-announced-as-first-submarine-for-srf-west/"
+    }
+  ],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://maritime-executive.com/article/sanctioned-tanker-bound-for-us-passes-through-uk-waters",
+      "covered_facts": [
+        "Tankern Leruo lastad med diesel vid Primorsk",
+        "Passerat brittiska vatten på väg mot USA",
+        "Sanktionspolitiska spänningar mellan USA och Europa"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.navalnews.com/naval-news/2026/10/sweden-selects-saildrone-for-year-long-mda-mission-in-the-baltic-sea/",
+      "covered_facts": [
+        "Avtal mellan Försvarsmakten och Saildrone",
+        "Fyra obemannade Voyager-farkoster i 360 dagar",
+        "Första nationella upphandlingen under NORDEFCO"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.navalnews.com/naval-news/2026/10/aukus-uss-colorado-announced-as-first-submarine-for-srf-west/",
+      "covered_facts": [
+        "USS Colorado tilldelas SRF-West vid HMAS Stirling",
+        "Start i slutet av 2027",
+        "Del av AUKUS Pillar I"
+      ],
+      "missing_facts": []
+    }
+  ],
+  "selection_decisions": [
+    {
+      "url": "https://maritime-executive.com/article/sanctioned-tanker-bound-for-us-passes-through-uk-waters",
+      "selected": true,
+      "reason": "Viktig säkerhets- och sanktionskoppling kring ryska oljetransporter.",
+      "event_key": "russian-diesel-tanker-uk-waters",
+      "source_quote": "Russia has used the lifting of U.S. sanctions on the purchase of diesel to resume exports both to the United States but also other countries",
+      "security_evidence": "Sanctioned tanker loaded with Russian diesel believed to be heading to the U.S."
+    },
+    {
+      "url": "https://www.navalnews.com/naval-news/2026/10/sweden-selects-saildrone-for-year-long-mda-mission-in-the-baltic-sea/",
+      "selected": true,
+      "reason": "Svensk militär upphandling av obemannad maritim övervakning i Östersjön.",
+      "event_key": "sweden-saildrone-baltic-sea",
+      "source_quote": "Saildrone announced a year-long mission with the Swedish Armed Forces to deliver persistent Maritime Domain Awareness",
+      "security_evidence": "deliver persistent Maritime Domain Awareness (MDA) across Sweden’s territorial waters and exclusive economic zone in the Baltic Sea"
+    },
+    {
+      "url": "https://www.navalnews.com/naval-news/2026/10/aukus-uss-colorado-announced-as-first-submarine-for-srf-west/",
+      "selected": true,
+      "reason": "Central internationell marinutveckling inom AUKUS-samarbetet.",
+      "event_key": "aukus-srf-west-uss-colorado",
+      "source_quote": "designation of the USS Colorado (SSN 788) as the first U.S. Navy Virginia-class fast-attack submarine assigned to Submarine Rotational Force-West",
+      "security_evidence": "designation of the USS Colorado (SSN 788) as the first U.S. Navy Virginia-class fast-attack submarine assigned to Submarine Rotational Force-West"
+    },
+    {
+      "url": "https://www.navalnews.com/naval-news/2026/10/us-navy-hypersonic-facility-nws-yorktown/",
+      "selected": false,
+      "reason": "Infrastruktur och vapenlagringsprojekt som inte utgör en akut operativ händelse i närområdet.",
+      "event_key": "us-navy-hypersonic-facility",
+      "source_quote": "New Naval Facilities Engineering System Command documents reveal U.S. Navy plans for a hypersonic missile storage facility",
+      "security_evidence": "New Naval Facilities Engineering System Command (NAVFAC) documents reveal U.S. Navy plans for a hypersonic missile storage facility at NWS Yorktown"
+    },
+    {
+      "url": "https://www.vietnam.vn/sv/nguoi-dan-bulgaria-di-bo-phieu-bau-tong-thong-trong-boi-canh-bien-den-day-song",
+      "selected": false,
+      "reason": "Innehållet rör ett allmänt presidentval där maritima händelser endast nämns översiktligt som bakgrund.",
+      "event_key": "bulgaria-presidential-election",
+      "source_quote": "Den 25 oktober gick bulgarerna till valurnorna för att välja en ny president",
+      "security_evidence": "drönarattacker riktade mot kommersiella fartyg utanför Bulgariens Svartahavskust"
+    }
+  ],
+  "format_decision": {
+    "outcome": "standard",
+    "reason": "Tillräckligt med relevanta och källbelagda nyheter har samlats in för att producera en fullgod dagsbrief."
+  },
+  "access_exclusions_reviewed": true,
+  "maritime_policy": "maritime-security-2026-10-22",
+  "maritime_sources_sha256": "fcc82f3a152ec2aa10048bdff4e1d91cd010485bf1d96da71e1245509ee40cee",
+  "maritime_news_sha256": "ed86d512c3b11cfb219a05668e0443e2054c5a246d952c850f1381eb604e5b75",
+  "reviewed_script_sha256": "bd4b45b325f73b60c9357afdebffe0ee586165159706281b1748b9f6c02c5fc8",
+  "relevant_event_count": 3,
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "bb3e213af1902cdcd27ea918ed70a963b687bbeae8addea9b8f270fa2f2969c4",
+    "news_sha256": "33119c9692875ec1ba81a37919822007cfb41e71ca04503844b1d2ccbc25faed",
+    "script_sha256": "bd4b45b325f73b60c9357afdebffe0ee586165159706281b1748b9f6c02c5fc8",
+    "collection_sha256": "933fc234d6a345a70a2e793814a966e0fde76be32a09188e86ed1ef36f5f079b"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "channel": "sjoomradet",
+  "date": "2026-10-27",
+  "history": [
+    {
+      "id": "article-3e5df9b084f8806060e9d3da",
+      "date": "2026-10-25",
+      "channel": "sjoomradet",
+      "title": "Nytt fartygshaveri och dödsoffer i Svarta havet efter misstänkt attack",
+      "summary": "Ett civilt fartyg attackerades på internationellt vatten utanför Rumäniens kust och sände ut nödsignaler. En besättningsmedlem har bekräftats omkommen, tre saknas och nio har räddats av sjöfartsmyndigheterna. Rumäniens president och EU-företrädare anklagar Ryssland för händelsen och betecknar den som en allvarlig eskalering.",
+      "assessment": "Händelsen markerar en fortsatt hög hotbild mot den civila sjöfarten i Svarta havet med risk för följdverkningar på regional stabilitet.",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "sjoomradet:2026-10-25:daily",
+      "source_url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=5330866d3838bec4bd1465011518e4e5",
+      "topics": [
+        "svarta-havet"
+      ],
+      "relevance": 4
+    },
+    {
+      "id": "article-6edef520d76c53d62fa4710d",
+      "date": "2026-10-26",
+      "channel": "sjoomradet",
+      "title": "Europa diskuterar marina styrkor i Svarta havet efter attacker mot handelsfartyg",
+      "summary": "Vietnam.vn återger en artikel som uppger att Europaparlamentet diskuterar möjligheten att utplacera marina kapaciteter i Svarta havet. Diskussionerna kommer efter nyligen inträffade dödliga attacker mot lastfartyg nära Bulgariens och Rumäniens kuster. Samtidigt fortsätter Ryssland och Ukraina sina ömsesidiga militära angrepp mot transportinfrastruktur och kommandocentraler.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "sjoomradet:2026-10-26:daily",
+      "source_url": "https://www.vietnam.vn/sv/chau-au-can-nhac-trien-khai-luc-luong-tren-bien-den",
+      "topics": [
+        "svarta-havet"
+      ],
+      "relevance": 3
+    },
+    {
+      "id": "article-aeeda98bcb5669f3e66b13e6",
+      "date": "2026-10-23",
+      "channel": "sjoomradet",
+      "title": "Drönarangrepp mot handelsfartyg utanför Rumänien",
+      "summary": "Vi börjar i Svarta havet. Enligt Politico uppgav Rumäniens president Nicușor Dan på fredagen att en drönare träffat ett handelsfartyg omkring tretton sjömil från kusten, strax utanför landets territorialvatten. Minst en besättningsmedlem hade dött och tre saknades vid rapporteringen. Nio sjömän hade räddats. Fartyget Khoryv, med Komorernas flagg, fick enligt landets inrikesdepartement omfattande skador, kapsejsade och sjönk delvis. Besättningen bestod enligt EU-kommissionens ordförande av ukrainare och azerbajdzjaner.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "sjoomradet:2026-10-23:daily",
+      "source_url": "https://www.politico.eu/article/drone-hits-another-ship-in-black-sea-near-romania-killing-at-least-one-sailor/",
+      "topics": [
+        "maritim-säkerhet"
+      ],
+      "relevance": 3
+    },
+    {
+      "id": "article-36d38719f39492c562876402",
+      "date": "2026-10-23",
+      "channel": "sjoomradet",
+      "title": "Turkiet och Bulgarien diskuterar fri sjöfart",
+      "summary": "Vietnam.vn återger samtidigt ett vietnamesiskt referat av samtal mellan Turkiets och Bulgariens ledare den tjugoförsta oktober. Enligt referatet diskuterades bilaterala initiativ och samordning med Rumänien för fri sjöfart i Svarta havet. Turkiet uppges hålla kontakt med både Ryssland och Ukraina. Texten beskriver också ett förslag om ett tillfälligt uppehåll i attacker mot handelsfartyg. Det rapporterade gäller diplomati och planer. Ansvar för samtliga fartygsattacker är inte oberoende fastställt i underlaget.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "sjoomradet:2026-10-23:daily",
+      "source_url": "https://www.vietnam.vn/sv/tho-nhi-ky-bulgaria-tang-cuong-phoi-hop-bao-dam-an-toan-hang-hai-o-bien-den",
+      "topics": [
+        "maritim-säkerhet"
+      ],
+      "relevance": 3
+    },
+    {
+      "id": "article-1b658c69572d689892d8c36f",
+      "date": "2026-10-24",
+      "channel": "sjoomradet",
+      "title": "Rumänien anklagar Ryssland efter dödlig drönarattack mot lastfartyg i Svarta havet",
+      "summary": "Det Comoros-flaggade lastfartyget Khoryv attackerades den 23 oktober 2026 i Svarta havet nära den rumänska kusten och kapsejsade efter en misstänkt drönarattack. En besättningsman bekräftades omkommen, tre saknas och nio har räddats. Rumänska företrädare och EU riktar skarp kritik mot Ryssland för händelsen.",
+      "assessment": "Attacker mot handelsfartyg nära EU-medlemsstaternas territorialvatten i Svarta havet riskerar att eskalera den maritima osäkerheten och öka kraven på direkta militära motåtgärder från NATO och EU.",
+      "open_questions": [
+        "Vilka specifika motåtgärder kommer NATO att vidta för att skydda sjöfarten i Svarta havet?",
+        "Hur kommer de ökade riskerna att påverka försörjningslinjerna via Donau och Sulinakanalen?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "sjoomradet:2026-10-24:daily",
+      "source_url": "https://maritime-executive.com/article/romania-blames-russia-for-ship-attack-leaving-1-dead-and-3-missing",
+      "topics": [
+        "svarta-havet",
+        "drönarattacker",
+        "sjöfartssäkerhet",
+        "rumänien"
+      ],
+      "relevance": 2
+    },
+    {
+      "id": "article-5091a997be6925c091b2c30f",
+      "date": "2026-10-23",
+      "channel": "sjoomradet",
+      "title": "Rapport om skuggflottans AIS-signaler och flaggbyten",
+      "summary": "Vi går vidare till skuggflottan. InformNapalm återger en Financial Times-granskning om minst tolv sanktionerade tankfartyg med falska eller manipulerade positionsuppgifter i Svarta havet. Sex uppges ha rapporterat två positioner samtidigt. Ett exempel är tankern Pirop, som i augusti signalerade positioner omkring åttahundra kilometer från varandra. Det är uppgifter återgivna av InformNapalm; de länkade originalen hos Financial Times har inte lästs separat i detta underlag. Vem som organiserat förfarandet och motiven för varje fartyg är inte klarlagt.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "sjoomradet:2026-10-23:daily",
+      "source_url": "https://informnapalm.org/sv/rysslands-skuggflotta/",
+      "topics": [
+        "maritim-säkerhet"
+      ],
+      "relevance": 2
+    },
+    {
+      "id": "article-467d4bff3e1d073492dff6c2",
+      "date": "2026-10-22",
+      "channel": "sjoomradet",
+      "title": "Nato förstärker övervakning i Svarta havet enligt rapport",
+      "summary": "Vi börjar i Svarta havet.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "sjoomradet:2026-10-22:daily",
+      "source_url": "https://maritime-executive.com/article/nato-to-support-increased-black-sea-surveillance",
+      "topics": [
+        "maritim-säkerhet"
+      ],
+      "relevance": 2
+    },
+    {
+      "id": "article-bf88f86c61fc58ed06ed44f5",
+      "date": "2026-10-21",
+      "channel": "sjoomradet",
+      "title": "Amerikansk fartygspassage möter kinesisk protest",
+      "summary": "I Sydkinesiska havet rapporterar The Maritime Executive om det amerikanska örlogsfartyget Charleston nära Sabina Shoal. Revet ligger enligt artikeln inom Filippinernas ekonomiska zon men omfattas också av Kinas överlappande anspråk. Kinas militär protesterade mot passagen och uppgav att enheter hade skickats för att följa det amerikanska fartyget.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "sjoomradet:2026-10-21:daily",
+      "source_url": "https://maritime-executive.com/article/littoral-combat-ship-transits-past-a-contested-reef-angering-china",
+      "topics": [
+        "maritim-säkerhet"
+      ],
+      "relevance": 2
+    }
+  ]
+}

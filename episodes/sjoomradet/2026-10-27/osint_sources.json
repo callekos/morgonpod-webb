@@ -1,0 +1,433 @@
+{
+  "channel": "sjoomradet",
+  "date": "2026-10-27",
+  "sources": [
+    {
+      "id": 19,
+      "title": "Sanctioned Tanker Bound for US Passes Through UK Waters",
+      "url": "https://maritime-executive.com/article/sanctioned-tanker-bound-for-us-passes-through-uk-waters",
+      "summary": "Russia has used the lifting of U.S. sanctions on the purchase of diesel to resume exports both to the United States but also other countries, in what...",
+      "date": "2026-10-26T15:34:20+00:00",
+      "publisher": "The Maritime Executive",
+      "discovery_identity": {
+        "url": "https://maritime-executive.com/article/sanctioned-tanker-bound-for-us-passes-through-uk-waters",
+        "title": "Sanctioned Tanker Bound for US Passes Through UK Waters",
+        "summary": "Russia has used the lifting of U.S. sanctions on the purchase of diesel to resume exports both to the United States but also other countries, in what...",
+        "date": "2026-10-26T15:34:20+00:00",
+        "publisher": "The Maritime Executive"
+      },
+      "discovery_version_key": "8e076cf8343f3dccd36eb7f3cc2ec0d3a20c41ba461f93672617970943a75e6d",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-27T02:16:38.096577+00:00",
+      "page_published_at": "2026-10-26T11:34:20-04:00",
+      "page_sha256": "4ea98572ddda6dd8af9d28be1864f6ae317ceb6a2bc5e1a3b0fee4ca8618b115",
+      "resolved_url": "https://maritime-executive.com/article/sanctioned-tanker-bound-for-us-passes-through-uk-waters",
+      "extraction_method": "title_matched_article",
+      "text": "Sanctioned Tanker Bound for US Passes Through UK Waters Sanctioned tanker loaded with Russian diesel believed to be heading to the U.S. (Ruud Coster photo courtesy of Vessel Finder) By The Maritime Executive 2026-10-26 11:34:20 Russia has used the lifting of U.S. sanctions on the purchase of diesel to resume exports both to the United States but also other countries, in what President Vladimir Putin will regard as a diplomatic victory and a weakening of solidarity in support for Ukraine. Not only will the Russians earn revenue from the diesel sales to fund their war effort, but they will also drive a wedge between the United States on the one hand, and the UK and the EU on the other, because both the UK and EU have declared that their sanctions will remain in place. The identity and destinations of ships involved in the resumption of Russian diesel exports are not absolutely clear, depending as it does on announcements from the Russian government and changing AIS signals being broadcast from the ships potentially involved. But the divisions that the resumption of exports has created are well-illustrated by the course of Sierra Leone-flagged oil products tanker Leruo (IMO 9385831), which remains on both UK and EU sanctions lists. This vessel, loaded with about 40,000 tons of diesel oil at Primorsk on October 16, is indicating on AIS that it is heading for the Atlantic coast “for orders,” but is expected to dock in New York on about November 7. Its exact course through waters around the Shetland Islands is not yet clear, but if not through territorial waters, then the ship is likely to have passed through the UK’s Exclusive Economic Zone – and has done so without being intercepted, despite its flag of convenience and UK/EU sanctioned status. There may have been an intent to intercept the ship, but simply a lack of any available Royal Navy frigates to undertake the operation. Track of the sanctioned diesel tanker Leruo as she approaches Shetland Island waters on October 24 ( VesselFinder ) Two other product tankers, but both unsanctioned, have also recently loaded at Primorsk. The Maltese-flagged tanker Agioi Fanendes (IMO 9798375) was on October 26 passing through the Skagerrak, also with about 40,000 tons of diesel on board, declaring it is operating “For Orders.” It had earlier indicated it was bound for New York, due to arrive November 7, but now with its actual destination undeclared. It could also be heading for the Atlantic seaboard, although industry sources suggest that Morocco may also be resuming imports of Russian diesel. The Palau-flagged product tanker Dolunay (IMO 9327463) completed loading on October 16, and is signaling its arrival at Alanya in Turkey on November 1. The Turkish government has indicated that it is about to resume imports of Russian diesel, on the back of the Trump deal, and has already begun to reduce production of diesel from its own domestic refineries so as to exploit the price differential on cheaper Russian imports. Russian exploitation of the Trump-Putin deal to pry open the sanctions regime has been clearly indicated by the Russian Deputy Prime Minister Alexander Novak, who has said that Russian exports could reach 3.5 million tons per ?month (875,000 bpd) by the end of the year, well above the 1.8 million tons of diesel covered by the initial Trump-Putin deal. Stay on Top of the Daily Maritime News The maritime news that matters most Get the latest maritime news delivered to your inbox daily. Subscribe Free Top photo of Leruo in 2024 by Ruud Coster (Courtesy of Vessel Finder )",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain."
+    },
+    {
+      "id": 6,
+      "title": "Sweden Selects Saildrone for Year-long MDA Mission in the Baltic Sea",
+      "url": "https://www.navalnews.com/naval-news/2026/10/sweden-selects-saildrone-for-year-long-mda-mission-in-the-baltic-sea/",
+      "summary": "Saildrone announced a year-long mission with the Swedish Armed Forces to deliver persistent Maritime Domain Awareness (MDA) across Sweden’s territorial waters and exclusive economic zone in the Baltic Sea. Saildrone press release Under the agreement, Saildrone will deploy and operate four Voyager unmanned surface vehicles (USVs) for 360 days each, ",
+      "date": "2026-10-26T11:50:42+00:00",
+      "publisher": "Naval News",
+      "discovery_identity": {
+        "url": "https://www.navalnews.com/naval-news/2026/10/sweden-selects-saildrone-for-year-long-mda-mission-in-the-baltic-sea/",
+        "title": "Sweden Selects Saildrone for Year-long MDA Mission in the Baltic Sea",
+        "summary": "Saildrone announced a year-long mission with the Swedish Armed Forces to deliver persistent Maritime Domain Awareness (MDA) across Sweden’s territorial waters and exclusive economic zone in the Baltic Sea. Saildrone press release Under the agreement, Saildrone will deploy and operate four Voyager unmanned surface vehicles (USVs) for 360 days each, ",
+        "date": "2026-10-26T11:50:42+00:00",
+        "publisher": "Naval News"
+      },
+      "discovery_version_key": "700f91f88dd22dce38a66c58ac03250009175bbfc2269ae56165fa54dd7ab780",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-27T02:16:38.096908+00:00",
+      "page_published_at": "2026-10-26T11:50:42+00:00",
+      "page_modified_at": "2026-10-26T11:50:44+00:00",
+      "page_sha256": "9a18e1bf25fdcea76f060675941ebe6fabeea6b753301180896347fcb7f502b7",
+      "resolved_url": "https://www.navalnews.com/naval-news/2026/10/sweden-selects-saildrone-for-year-long-mda-mission-in-the-baltic-sea/",
+      "extraction_method": "primary_body_container",
+      "text": "Saildrone announced a year-long mission with the Swedish Armed Forces to deliver persistent Maritime Domain Awareness (MDA) across Sweden’s territorial waters and exclusive economic zone in the Baltic Sea. Saildrone press release Under the agreement, Saildrone will deploy and operate four Voyager unmanned surface vehicles (USVs) for 360 days each, representing 1,440 contracted vehicle-days of continuous maritime security operations. This deployment marks the first national deployment of Saildrone USVs under the Nordic Defence Cooperation (NORDEFCO) framework that enables participating Nordic nations to rapidly procure Saildrone maritime domain awareness services. Additional national deployments under the framework will follow. The 12-month commitment highlights a decisive shift toward long-term operational capabilities, with the Swedish Armed Forces securing a full year of persistent maritime domain awareness to safeguard critical waters from the outset. “This is fundamentally not about four unmanned vessels, but about access to sustained intelligence collection at sea. In other words, we are purchasing a persistent maritime surveillance service, and Saildrone provides the vessels that supply the Navy with data,” said Johan Wahren, project manager at Sweden’s Defence Materiel Administration (FMV) in a FMV press release . Saildrone picture NORDEFCO is a cooperative organization that unites Denmark, Finland, Iceland, Norway, Sweden, and other Northern European countries to streamline defense cooperation and field proven regional security solutions. The Saildrone Voyager fleet will continuously patrol Sweden’s territorial waters in the Baltic Sea, delivering real-time maritime intelligence directly to the Swedish Armed Forces. Operating as a managed service, Saildrone maintains, deploys, and tasks the USVs, enabling Sweden to maintain persistent maritime domain awareness without deploying additional crewed ships. “This mission reflects Sweden’s commitment to securing the Baltic Sea and highlights Saildrone’s growing operational presence across Northern Europe,” said Robert Kleist, Saildrone’s European managing director. “Sweden is investing in year-round maritime awareness as an operational capability. The NORDEFCO framework gives Nordic nations a common mechanism for accessing that capability while allowing each country to define and operate its own mission.” Saildrone delivers persistent maritime domain awareness for navies and law enforcement operating in the world’s harshest maritime environments. The company has supported defense and security missions in places ranging from the Baltic Sea and the High North to the Southern Ocean and the Middle East. Saildrone recently registered four Saildrone Voyager USVs in Denmark to operate under the Danish national flag. The registration establishes a clear flag-state framework for Saildrone USVs operating internationally and supports the company operating alongside various European nations. Saildrone Europe will flag additional Saildrone USVs in the coming weeks. – End –",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain."
+    },
+    {
+      "id": 1,
+      "title": "AUKUS: USS Colorado Announced as First Submarine for SRF – West",
+      "url": "https://www.navalnews.com/naval-news/2026/10/aukus-uss-colorado-announced-as-first-submarine-for-srf-west/",
+      "summary": "U.S. Secretary of War Pete Hegseth, Australian Deputy Prime Minister and Minister for Defence Richard Marles, and UK Secretary of State for Defence Wes Streeting are pleased to announce the designation of the USS Colorado (SSN 788) as the first U.S. Navy Virginia-class fast-attack submarine assigned to Submarine Rotational Force-West (SRF-West) beg",
+      "date": "2026-10-26T22:11:06+00:00",
+      "publisher": "Naval News",
+      "discovery_identity": {
+        "url": "https://www.navalnews.com/naval-news/2026/10/aukus-uss-colorado-announced-as-first-submarine-for-srf-west/",
+        "title": "AUKUS: USS Colorado Announced as First Submarine for SRF – West",
+        "summary": "U.S. Secretary of War Pete Hegseth, Australian Deputy Prime Minister and Minister for Defence Richard Marles, and UK Secretary of State for Defence Wes Streeting are pleased to announce the designation of the USS Colorado (SSN 788) as the first U.S. Navy Virginia-class fast-attack submarine assigned to Submarine Rotational Force-West (SRF-West) beg",
+        "date": "2026-10-26T22:11:06+00:00",
+        "publisher": "Naval News"
+      },
+      "discovery_version_key": "ad9cb21246644da87574dde89c89c9117e005474735eeb126c1e63e3029430ff",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-27T02:16:38.097382+00:00",
+      "page_published_at": "2026-10-26T22:11:06+00:00",
+      "page_modified_at": "2026-10-26T22:11:09+00:00",
+      "page_sha256": "8e88dc0bd47a0625d83620bded4c59e21c26f789b2a558a3a99eea27a4b21048",
+      "resolved_url": "https://www.navalnews.com/naval-news/2026/10/aukus-uss-colorado-announced-as-first-submarine-for-srf-west/",
+      "extraction_method": "primary_body_container",
+      "text": "U.S. Secretary of War Pete Hegseth, Australian Deputy Prime Minister and Minister for Defence Richard Marles, and UK Secretary of State for Defence Wes Streeting are pleased to announce the designation of the USS Colorado (SSN 788) as the first U.S. Navy Virginia-class fast-attack submarine assigned to Submarine Rotational Force-West (SRF-West) beginning in late 2027. U.S. Department of War press release This announcement comes ahead of the upcoming United States Submarine Maintenance Period, which begins later this week and will further demonstrate Australia’s growing ability to sustain U.S. and UK nuclear-powered fast-attack submarines. SRF-West is projected to host up to four U.S. fast-attack submarines and one UK fast-attack submarine on a rotational basis at HMAS Stirling, a Royal Australian Navy base in Western Australia. SRF-West will accelerate Australia’s readiness to own, operate, maintain, and regulate a sovereign, conventionally armed, nuclear-powered submarine capability, as well as support submarine deployments by expanding maintenance options and sustainment infrastructure in the region for AUKUS partners. SRF-West, established at Australia’s invitation and as mutually determined, will operate in accordance with relevant international agreements between and among the United States, Australia, and the UK, including the United States – Australia Force Posture Agreement. AUKUS activities associated with SRF-West will be conducted consistent with the AUKUS partners’ respective international obligations, including those under the Treaty on the Non-Proliferation of Nuclear Weapons, and Australia’s obligations under the South Pacific Nuclear Free Zone Treaty (Treaty of Rarotonga). As President Trump has stated, and Prime Minister Albanese and Prime Minister Burnham have reaffirmed, AUKUS is moving “full steam ahead.” The selection of USS Colorado (SSN 788) as the first submarine assigned to SRF-West in 2027 marks a significant milestone for AUKUS Pillar I and is a decisive step in strengthening collective deterrence in the Pacific. – End –",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain."
+    },
+    {
+      "id": 5,
+      "title": "U.S. Navy to Build Hypersonic Weapon Facility at NWS Yorktown for Zumwalt and Virginia Classes",
+      "url": "https://www.navalnews.com/naval-news/2026/10/us-navy-hypersonic-facility-nws-yorktown/",
+      "summary": "New NAVFAC documents reveal U.S. Navy plans for a hypersonic missile storage facility at NWS Yorktown to support CPS-equipped Zumwalt and Virginia classes. The post U.S. Navy to Build Hypersonic Weapon Facility at NWS Yorktown for Zumwalt and Virginia Classes appeared first on Naval News .",
+      "date": "2026-10-26T12:47:52+00:00",
+      "publisher": "Naval News",
+      "discovery_identity": {
+        "url": "https://www.navalnews.com/naval-news/2026/10/us-navy-hypersonic-facility-nws-yorktown/",
+        "title": "U.S. Navy to Build Hypersonic Weapon Facility at NWS Yorktown for Zumwalt and Virginia Classes",
+        "summary": "New NAVFAC documents reveal U.S. Navy plans for a hypersonic missile storage facility at NWS Yorktown to support CPS-equipped Zumwalt and Virginia classes. The post U.S. Navy to Build Hypersonic Weapon Facility at NWS Yorktown for Zumwalt and Virginia Classes appeared first on Naval News .",
+        "date": "2026-10-26T12:47:52+00:00",
+        "publisher": "Naval News"
+      },
+      "discovery_version_key": "64a92becd5a3833fa55940c396ad46f251e094e9d47f7760867915fb07d33579",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-27T02:16:38.097855+00:00",
+      "page_published_at": "2026-10-26T12:47:52+00:00",
+      "page_modified_at": "2026-10-26T12:47:53+00:00",
+      "page_sha256": "62fae27c576e55a7521bcaed746363a251336be4b084953ac9dd2f3ec3dba878",
+      "resolved_url": "https://www.navalnews.com/naval-news/2026/10/us-navy-hypersonic-facility-nws-yorktown/",
+      "extraction_method": "primary_body_container",
+      "text": "New Naval Facilities Engineering System Command (NAVFAC) documents reveal U.S. Navy plans for a hypersonic missile storage facility at NWS Yorktown to support CPS-equipped Zumwalt and Virginia classes. NAVFAC Mid-Atlantic has published its requirements for the construction of a new facility at Naval Weapons Station Yorktown, just north of Newport News Shipbuilding and the main Naval Station Norfolk base complex. Once completed, the facility will service Conventional Prompt Strike (CPS) weapons used aboard DDG-1000 Zumwalt -class destroyers and Block V and VI Virginia -class submarines. The facility seeks to accommodate the CPS’s larger size and diameter compared to current weapons in U.S. Navy service, representing a dedicated complex on the grounds of Naval Weapons Station Yorktown to handle operational, maintenance, and storage needs. The selection of Yorktown demonstrates the Navy’s need to support CPS-carrying vessels in the Atlantic, partially owing to the eventual stationing of Virginia Payload Module (VPM) equipped submarines at Norfolk, but also alluding to a Zumwalt -class destroyer potentially transitioning its home port to the East Coast. The posted contract stipulates the facility will contain one “Containerized Large Weapons Storage (CLWS) two-bay earth-covered magazine,” alongside two mechanical buildings to sustain climate control and electricity to the main storage area, and one emergency generator facility. Each bay contains one 25-ton bridge crane (two total) designed to move along an overhead rail, likely to transport CPS rounds and sub-components about the facility prior to loading or shipping. The requirements also stress the need for reinforcement and protection. Storage and support buildings forming part of the overall facility will feature “reinforced concrete mat foundations, walls, floors, roof, and entrance and loading aprons. It will include ordnance bonding, grounding and lightning protection systems, and earth covering.” The contract explicitly states the need for magazine protection, likely in the form of a concrete roof and partial burial with earth. CPS Aboard the Zumwalts USS Zumwalt’s front AGS lifted from the bow of the ship at Ingalls Shipbuilding during CPS conversion work, May 7, 2024. Credit: Official Facebook page of USS Zumwalt. For the Zumwalt class, the fielding of CPS can only happen after each of the three vessels completes an overhaul period, where components related to the gun emplacements are stripped out and replaced by CPS housings known as the Advanced Payload Module. Efforts to convert the Zumwalts to hypersonic missile carriers came after a string of missteps for the program, which ultimately led to construction halting at three vessels instead of the intended 32, effectively rendering the now-removed Advanced Gun Systems (AGS) obsolete. Delays and rising costs have plagued ongoing conversion efforts. A Government Accountability Office report published in July 2026 found that costs for DDG-1000 modernization efforts have risen by $200 million to approximately $2 billion. Construction and refitting periods have been complicated by the need for unplanned work and specialized equipment aboard the vessels. Ultimately, as a result of these delays, the first Zumwalt back in service will complete a CPS firing in 2027, nearly two years after the initially stated date. USS Zumwalt (DDG-1000) will experience a 10-month delay in returning to service, pushing the expected return date to later in 2026. Following the lead ship, USS Lyndon B. Johnson (DDG-1002) will be the second vessel to complete her overhaul (referred to as the Mission Systems Activation period) in Q4 of FY 2028, following a 12-to-15-month delay. Finally, USS Michael Monsoor (DDG-1001) will begin conversion work early in 2027 and will not return to service until Q3 of FY 2029. CPS Aboard the Virginias The first Virginia Payload Module (VPM) destined for the future USS Arizona. The VPM can be identified through the distinctive “hump” towards the front of the compartment. General Dynamics Electric Boat image. Only Block V and VI Virginia -class submarines will utilize CPS rounds through the installation of the Virginia Payload Module, which adds four additional Vertical Launch System canisters toward the middle of the submarine. Each of the four canisters can contain either seven Tomahawk-sized munitions or three CPS rounds, allowing for 12 CPS rounds total to be carried aboard each VPM-equipped submarine. Due to the extra missile capacity, the U.S. Navy has re-designated VPM equipped submarines as Nuclear Powered Cruise Missile carrying submarines (SSGNs). The U.S. Navy currently views installation and conversion efforts aboard the Zumwalts as risk mitigation for future endeavors to mount CPS aboard Virginia -class submarines, as both mounting systems share a large amount of commonality. If successful, the Virginias will avoid the same kind of delays currently impeding the Zumwalts , and the technology related to the CPS weapon system itself will likely mature by the time the first Block V Virginia enters service. Construction work remains ongoing as the Navy prepares to induct the first of nine VPM-equipped Block Vs in 2028 (the first Block V, USS Oklahoma (SSN-802), will not feature the VPM), with the commissioning of the future USS Arizona (SSN-803) expected in 2029. Naval News recently reported on photos posted depicting the first VPM during transit to General Dynamics Electric Boat’s main facility in Groton, Connecticut prior to final assembly. In total, 19 VPM equipped submarines, split along 9 Block Vs and 10 Block VIs, will enter service.",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain."
+    },
+    {
+      "id": 80,
+      "title": "Bulgarerna röstade till president mitt i spänningarna kring Svarta havet. - Vietnam.vn",
+      "url": "https://www.vietnam.vn/sv/nguoi-dan-bulgaria-di-bo-phieu-bau-tong-thong-trong-boi-canh-bien-den-day-song",
+      "summary": "Bulgarerna röstade till president mitt i spänningarna kring Svarta havet. Vietnam.vn",
+      "date": "2026-10-25T08:27:00+00:00",
+      "publisher": "Vietnam.vn",
+      "discovery_identity": {
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMTJ4dVNrSUVIZGNDT1Q0ZHJTTHdBYlpQRzZZc1FVSFA5T3Ftc3pZSkN4MHFabVdOWDdGdEUwcEdid0ppMGdzalJiay1jcnVTdW9OQWF1OWEyZnBsUUtZRnJPaXlPWllvRGlKMEh1VmI1Q0ZDT1hzYXF5Z0hocUxXSEJ6dDJwLU9udzFRRXFDUGdkcm9ZYmV0dXh1VXFlcnV2OUpnT015RQ?oc=5",
+        "title": "Bulgarerna röstade till president mitt i spänningarna kring Svarta havet. - Vietnam.vn",
+        "summary": "Bulgarerna röstade till president mitt i spänningarna kring Svarta havet. Vietnam.vn",
+        "date": "2026-10-25T23:18:12+00:00",
+        "publisher": "Vietnam.vn"
+      },
+      "discovery_version_key": "73fee6dc15b1dedc38658cb42d74aa058b2b24adaacc4245a12d3a002b943b3c",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-27T02:16:38.202792+00:00",
+      "discovery_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMTJ4dVNrSUVIZGNDT1Q0ZHJTTHdBYlpQRzZZc1FVSFA5T3Ftc3pZSkN4MHFabVdOWDdGdEUwcEdid0ppMGdzalJiay1jcnVTdW9OQWF1OWEyZnBsUUtZRnJPaXlPWllvRGlKMEh1VmI1Q0ZDT1hzYXF5Z0hocUxXSEJ6dDJwLU9udzFRRXFDUGdkcm9ZYmV0dXh1VXFlcnV2OUpnT015RQ?oc=5",
+      "page_published_at": "2026-10-25T08:27:00+00:00",
+      "page_modified_at": "2026-10-25T09:05:03+00:00",
+      "discovery_date": "2026-10-25T23:18:12+00:00",
+      "date_precision": "timestamp",
+      "resolved_url": "https://www.vietnam.vn/sv/nguoi-dan-bulgaria-di-bo-phieu-bau-tong-thong-trong-boi-canh-bien-den-day-song",
+      "text": "Bulgarerna röstade till president mitt i spänningarna kring Svarta havet. Bulgarerna röstade till president mitt i spänningarna kring Svarta havet. Båda de ledande kandidaterna i det bulgariska presidentvalet fördömde attackerna i Svarta havet, men de hade olika åsikter om Ryssland-Ukraina-konflikten som helhet. Người Đưa Tin • 25/10/2026 Följ Vietnam.vn på G o o g l e Lägg till Vietnam.vn på G o o g l e 0 Den 25 oktober gick bulgarerna till valurnorna för att välja en ny president, med nästan 6,6 miljoner röstberättigade medborgare som deltog, mitt i den eskalerande Ryssland- Ukraina -konflikten som sprider sig till vattnen utanför Svartahavskusten i denna sydösteuropeiska nation. Opinionsundersökningar inför omröstningen visade att tillförordnade president Iliana Iotova (61 år) och den tidigare interimspremiärministern Andrey Gyurov (50 år) ledde bland de 27 kandidaterna. Även om presidentskapet till stor del är ceremoniellt, blev omröstningen den 25 oktober särskilt viktig efter en serie drönarattacker riktade mot kommersiella fartyg utanför Bulgariens Svartahavskust, vilka dödade omkring 20 internationella sjömän. Dessa attacker möttes av internationellt fördömande och väckte oro över den växande omfattningen av Ukrainakonflikten, vilket fick den bulgariska regeringen att söka stöd från allierade för att förbättra den maritima säkerheten. Bulgarerna kommer att rösta för att välja en ny president för landet den 25 oktober 2026, med nästan 6,6 miljoner röstberättigade medborgare. Foto: Anadolu Båda de ledande presidentkandidaterna fördömde attackerna, men de hade olika åsikter om konflikten som helhet. Gyurov, som tjänstgjorde som interimspremiärminister i år, åtnjuter stöd från reformistiska och västvänliga partier och har länge uttryckt sitt stöd för Ukraina. Under sin tid som premiärminister undertecknade han ett säkerhetssamarbetsavtal med Kiev. \"Jag vill att Bulgarien ska ha sin egen röst i Europa. Som en pålitlig NATO-allierad måste Bulgarien skydda sina intressen genom noggranna förberedelser, stark diplomati och en tydlig hållning\", sa Gyurov vid ett valmöte nära valet. Du kanske också gillar Fru Iotova, tidigare vicepresident, tillträdde som tillförordnad president i januari efter att Rumen Radev avgick för att kandidera i parlamentsvalet – en valkampanj han vann och som ledde till att han blev Bulgariens premiärminister. Iliana Iotova blir Bulgariens tillförordnade president i januari 2026 efter att Rumen Radev avgår för att delta i parlamentsvalet. Foto: BNR News Herr Radev stöder Iotova, och båda har krävt ett slut på Ryssland-Ukraina-konflikten med diplomatiska medel. Om hon vinner blir Iotova den första kvinnliga presidenten som väljs i Bulgarien. ”Mina motståndare menar att ett utmattningskrig är nödvändigt”, sa Iotova vid ett kampanjmöte den 22 oktober. ”Sanningen är att vi alla är mest utmattade.” Bulgariens tillförordnade premiärminister Andrey Gyurov deltar i en presskonferens i Kiev, Ukraina, den 30 mars 2026. Foto: Balkan Insight Utöver spänningarna i Svartahavsregionen har stigande energikostnader och inflation också blivit centrala frågor i valkampanjen, särskilt för landsbygdsbefolkningen som kämpar med de stigande levnadskostnaderna. Du kanske också gillar Enligt opinionsundersökningar från Alpha Research har Iotova för närvarande 41 % av rösterna, medan Gyurov har 28 %. Om ingen kandidat vinner majoritet kommer en omvalomgång att hållas den 1 november. Den 25 oktober kunde totalt 6 590 000 väljare rösta på 9 373 vallokaler över hela landet. Av dessa var 2 249 vallokaler utrustade med två röstmaskiner vardera, vilket innebär att det totala antalet röstmaskiner som finns utplacerade i Bulgarien uppgår till 11 622. Dessutom har 613 vallokaler upprättats utomlands, inklusive 242 som erbjuder maskinröstning. Vallokalerna öppnade klockan 07:00 (lokal tid) och förväntas stänga klockan 20:00 samma dag. Röstningen kan förlängas med ytterligare en timme om det fortfarande finns väljare som väntar på att utöva sin rösträtt. Minh Duc (enligt BGNES, Internazionale) Källa: Người Đưa Tin Originalartikel Kopiera https://www.nguoiduatin.vn/nguoi-dan-bulgaria-di-bo-phieu-bau-tong-thong-trong-boi-canh-bien-den-day-song-204261025150307485.htm Följ Vietnam.vn på G o o g l e Lägg till Vietnam.vn på G o o g l e 0 Tagg : Svarta havet Bulgarien Kommentar ( 0 ) Mest populära Nyaste Lämna en kommentar för att dela dina känslor! Trender efter kategori Den märkligaste kapningen i historien på ett Turkish Airlines-flyg. Báo Tin Tức một giờ trước Marina blir en tillgång värd en miljard dollar. ZNews 2 giờ trước Äldre kvinnliga dykare bevarar Jejuöns marina arv. Đài truyền hình Việt Nam 6 giờ trước",
+      "page_sha256": "8cbd55582617978ca4cf26b701cf082101f0f8f3b4b951f87bfdf35a4839a033",
+      "extraction_method": "rendered_visible_primary_article",
+      "evidence_limit": "Visible rendered primary-page text; factual review remains mandatory."
+    }
+  ],
+  "collection_evidence": {
+    "state": "ready",
+    "failed_discovery_urls": [],
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "subscription_exclusions": [],
+    "channel": "sjoomradet",
+    "discovery": {
+      "channel": "sjoomradet",
+      "date": "2026-10-27",
+      "feeds": [
+        {
+          "url": "https://www.navalnews.com/feed/",
+          "entries": 10,
+          "accepted": 10,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://maritime-executive.com/articles.rss",
+          "entries": 68,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "atom10",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/rss.xml",
+          "entries": 100,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.europol.europa.eu/rss.xml",
+          "entries": 10,
+          "accepted": 10,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "entries": 30,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22Black%20Sea%22%20ships%20attacks%20Ukraine%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22Hormuz%22%20maritime%20security%20United%20States%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22Baltic%20Sea%22%20sabotage%20cables%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22shadow%20fleet%22%20sanctions%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22Red%20Sea%22%20shipping%20attacks%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22South%20China%20Sea%22%20maritime%20confrontation%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%C3%96stersj%C3%B6n%20skuggflottan%20sanktioner%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Svarta%20havet%20Ukraina%20fartyg%20attacker%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 6,
+          "accepted": 6,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Hormuz%20USA%20sj%C3%B6fart%20s%C3%A4kerhet%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=undervattenskablar%20sabotage%20%C3%96stersj%C3%B6n%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Anato.int%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aconsilium.europa.eu%20shadow%20fleet%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aukrinform.net%20Black%20Sea%20attacks%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20Hormuz%20shipping%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Ayle.fi%20%C3%96stersj%C3%B6n%20sabotage%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Akustbevakningen.se%20skuggflotta%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Amaritime-executive.com%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Anato.int%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Amod.gov.ua%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Akustbevakningen.se%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Apuolustusvoimat.fi%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Atranspordiamet.ee%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Amil.ee%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Amod.gov.lv%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        }
+      ],
+      "web_candidates": 0,
+      "original_fallback": null,
+      "candidate_count": 80,
+      "scope": "discovery_only_not_factual_approval"
+    },
+    "checked_at": "2026-10-27T02:16:42.894792+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  }
+}

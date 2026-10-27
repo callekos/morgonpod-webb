@@ -1,0 +1,1070 @@
+{
+  "schema": 2,
+  "corroboration_method": "distinct_hosts_not_proof_of_independence",
+  "received": 5,
+  "unique_urls": 5,
+  "identified_events": 5,
+  "selected_articles": 5,
+  "selected_events": 5,
+  "unique_domains": 3,
+  "max_items": 40,
+  "gemini_calls": 0,
+  "decisions": [
+    {
+      "event_id": "85d2f981456e9484",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 57,
+      "score_components": {
+        "relevance": 9,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "maritime-executive.com"
+      ],
+      "articles": [
+        {
+          "title": "Sanctioned Tanker Bound for US Passes Through UK Waters",
+          "url": "https://maritime-executive.com/article/sanctioned-tanker-bound-for-us-passes-through-uk-waters"
+        }
+      ]
+    },
+    {
+      "event_id": "eab157ac53818bfa",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 57,
+      "score_components": {
+        "relevance": 9,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "navalnews.com"
+      ],
+      "articles": [
+        {
+          "title": "Sweden Selects Saildrone for Year-long MDA Mission in the Baltic Sea",
+          "url": "https://www.navalnews.com/naval-news/2026/10/sweden-selects-saildrone-for-year-long-mda-mission-in-the-baltic-sea/"
+        }
+      ]
+    },
+    {
+      "event_id": "aa4b878093be5321",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "navalnews.com"
+      ],
+      "articles": [
+        {
+          "title": "AUKUS: USS Colorado Announced as First Submarine for SRF – West",
+          "url": "https://www.navalnews.com/naval-news/2026/10/aukus-uss-colorado-announced-as-first-submarine-for-srf-west/"
+        }
+      ]
+    },
+    {
+      "event_id": "39f9990e56b0f9fd",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 48,
+      "score_components": {
+        "relevance": 0,
+        "freshness": 20,
+        "credibility": 20,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "navalnews.com"
+      ],
+      "articles": [
+        {
+          "title": "U.S. Navy to Build Hypersonic Weapon Facility at NWS Yorktown for Zumwalt and Virginia Classes",
+          "url": "https://www.navalnews.com/naval-news/2026/10/us-navy-hypersonic-facility-nws-yorktown/"
+        }
+      ]
+    },
+    {
+      "event_id": "cb64f0fa55b82403",
+      "selected": true,
+      "reason": "highest_ranked_representative",
+      "score": 36,
+      "score_components": {
+        "relevance": 6,
+        "freshness": 14,
+        "credibility": 8,
+        "corroboration": 0,
+        "readable_evidence": 8
+      },
+      "source_domains": [
+        "vietnam.vn"
+      ],
+      "articles": [
+        {
+          "title": "Bulgarerna röstade till president mitt i spänningarna kring Svarta havet. - Vietnam.vn",
+          "url": "https://www.vietnam.vn/sv/nguoi-dan-bulgaria-di-bo-phieu-bau-tong-thong-trong-boi-canh-bien-den-day-song"
+        }
+      ]
+    }
+  ],
+  "rejected": [],
+  "identified_events_are_estimates": true,
+  "review_source_count": 5,
+  "channel_scope": {
+    "input_count": 80,
+    "accepted_count": 5,
+    "rejected": [
+      {
+        "url": "https://www.navalnews.com/naval-news/2026/10/op-ed-us-navy-distributed-manufacturing/",
+        "reason": "missing_maritime_security_context",
+        "title": "Op-Ed: The US Navy CAN Fix the Fleet with Distributed Manufacturing",
+        "summary": "The U.S. Navy can solve its shipbuilding crisis by embracing distributed manufacturing and modular design, argues Fairbanks Morse Defense CEO George Whittier. The post Op-Ed: The US Navy CAN Fix the Fleet with Distributed Manufacturing appeared first on Naval News .",
+        "date": "2026-10-26T20:50:59+00:00",
+        "publisher": "Naval News"
+      },
+      {
+        "url": "https://www.navalnews.com/naval-news/2026/10/exail-unveils-marins-m1-compact-ins-for-smaller-naval-platforms-and-uxvs/",
+        "reason": "routine_vessel_news_without_concrete_security_development",
+        "title": "Exail Unveils Marins M1 Compact INS for Smaller Naval Platforms and UXVs",
+        "summary": "Exail introduces the Marins M1 compact INS, providing resilient FOG navigation for USVs, UUVs, and tactical craft operating in GNSS-denied environments. Exail press release Saint-Germain-en-Laye, France, October 26, 2026 – Exail unveils Marins M1, a compact inertial navigation system (INS) designed to bring very high-performance, resilient navigati",
+        "date": "2026-10-26T20:08:04+00:00",
+        "publisher": "Naval News"
+      },
+      {
+        "url": "https://www.navalnews.com/naval-news/2026/10/israel-to-supply-cyprus-with-an-offshore-patrol-vessel-equipped-with-advanced-naval-systems/",
+        "reason": "missing_maritime_security_context",
+        "title": "Israel to Supply Cyprus with an Offshore Patrol Vessel Equipped with Advanced Naval Systems",
+        "summary": "On October 26, 2026, the Israeli Ministry of Defense (IMOD) and the Ministry of Defence of the Republic of Cyprus signed an agreement for the acquisition of a new Offshore Patrol Vessel (OPV). Israeli MoD press release The ceremony was held in Cyprus. The deal was led by the IMOD’s International Defense Cooperation Directorate (SIBAT) ... The post ",
+        "date": "2026-10-26T16:56:46+00:00",
+        "publisher": "Naval News"
+      },
+      {
+        "url": "https://www.navalnews.com/naval-news/2026/10/france-smokers-kamikaze-usv/",
+        "reason": "routine_vessel_news_without_concrete_security_development",
+        "title": "From Concept to Sea Trials in Six Months: France Fast-Tracks SMOKERS Kamikaze USV",
+        "summary": "The French Defense Procurement Agency (DGA) has rapidly developed the low-cost SMOKERS kamikaze USV, moving from concept to sea trials in just six months. The post From Concept to Sea Trials in Six Months: France Fast-Tracks SMOKERS Kamikaze USV appeared first on Naval News .",
+        "date": "2026-10-26T09:27:39+00:00",
+        "publisher": "Naval News"
+      },
+      {
+        "url": "https://www.navalnews.com/naval-news/2026/10/aksungur-ucav-drops-aselbuoy-sonobuoys-for-the-first-time/",
+        "reason": "missing_maritime_security_context",
+        "title": "Aksungur UCAV drops aselBUOY sonobuoys for the first time",
+        "summary": "Turkish Aerospace’s Aksungur unmanned aerial vehicle released three ASELSAN aselBUOY 100P passive sonobuoys into the Mediterranean during the Turkish Navy’s TURNAs-26 unmanned systems exercise. The UCAV took off from Ankara and transited to the exercise area off Antalya (around 400 km) under satellite control, powered by the indigenous TEI-PD170 en",
+        "date": "2026-10-26T06:57:28+00:00",
+        "publisher": "Naval News"
+      },
+      {
+        "url": "https://www.navalnews.com/naval-news/2026/10/navantia-launches-seventh-avante-corvette-for-saudi-arabia/",
+        "reason": "routine_vessel_news_without_concrete_security_development",
+        "title": "Navantia launches seventh Avante corvette for Saudi Arabia",
+        "summary": "On October 25, 2026, Navantia launched the seventh corvette built for the Royal Saudi Naval Forces at its shipyards in the Bay of Cádiz. The ship, to be named Neom, is the second in the batch contracted in 2025, following the five units built between 2019 and 2024. Navantia press release The ceremony was presided ... The post Navantia launches seve",
+        "date": "2026-10-25T20:18:05+00:00",
+        "publisher": "Naval News"
+      },
+      {
+        "url": "https://www.navalnews.com/features/2026/10/coast-guard-icebreakers-finland-model/",
+        "reason": "missing_maritime_security_context",
+        "title": "Coast Guard Icebreakers and the Finland Model: A Blueprint for the U.S. Navy?",
+        "summary": "Naval News visits Helsinki Shipyard to examine how the \"Finland model\" is driving icebreaker production, and questions if this strategy could solve the U.S. Navy's surface combatant crisis. The post Coast Guard Icebreakers and the Finland Model: A Blueprint for the U.S. Navy? appeared first on Naval News .",
+        "date": "2026-10-25T09:28:34+00:00",
+        "publisher": "Naval News"
+      },
+      {
+        "url": "https://maritime-executive.com/article/dp-world-joins-efforts-to-develop-trade-through-canada-s-port-of-churchill",
+        "reason": "missing_maritime_security_context",
+        "title": "DP World Joins Efforts to Develop Trade Through Canada’s Port of Churchill",
+        "summary": "DP World has entered into a new partnership with the operators of Canada’s northern Port of Churchill, along with CentrePort Canada, which operates Ca...",
+        "date": "2026-10-26T23:57:09+00:00",
+        "publisher": "The Maritime Executive"
+      },
+      {
+        "url": "https://maritime-executive.com/article/chouest-reaches-deal-to-buy-canadian-offshore-firm-horizon-maritime",
+        "reason": "missing_maritime_security_context",
+        "title": "Chouest Reaches Deal to Buy Canadian Offshore Firm Horizon Maritime",
+        "summary": "The Louisiana-based offshore services company Chouest Group has reached a deal to buy Canadian operator Horizon Maritime, provider of OSV services to ...",
+        "date": "2026-10-26T23:02:16+00:00",
+        "publisher": "The Maritime Executive"
+      },
+      {
+        "url": "https://maritime-executive.com/article/injured-master-and-officer-evacuated-during-north-sea-storm",
+        "reason": "missing_maritime_security_context",
+        "title": "Injured Master and Officer Evacuated During North Sea Storm",
+        "summary": "The Dutch and German rescue agencies are reporting they responded to a Mayday call from a heavy-lift vessel operating in the North Sea during last wee...",
+        "date": "2026-10-26T22:40:14+00:00",
+        "publisher": "The Maritime Executive"
+      },
+      {
+        "url": "https://maritime-executive.com/article/stena-acquires-color-line-joining-two-of-europe-s-largest-ferry-companies",
+        "reason": "outside_maritime_security_scope",
+        "title": "Stena Acquires Color Line, Joining Two of Europe’s Largest Ferry Companies",
+        "summary": "Stena, which is already one of the largest ferry operators in Europe, is moving to expand its presence in Scandinavia with the acquisition of Norway’s...",
+        "date": "2026-10-26T21:52:05+00:00",
+        "publisher": "The Maritime Executive"
+      },
+      {
+        "url": "https://maritime-executive.com/article/indonesia-busts-mongolian-flagged-tanker-for-ketamine-smuggling",
+        "reason": "missing_maritime_security_context",
+        "title": "Indonesia Busts Mongolian-Flagged Tanker for Ketamine Smuggling",
+        "summary": "Authorities in Indonesia have discovered an abundant quantity of ketamine aboard a tanker in the Strait of Malacca, prompting an investigation into it...",
+        "date": "2026-10-26T21:23:05+00:00",
+        "publisher": "The Maritime Executive"
+      },
+      {
+        "url": "https://maritime-executive.com/article/port-fees-for-chinese-built-ships-and-shipping-to-be-delayed-by-ustr",
+        "reason": "missing_maritime_security_context",
+        "title": "Port Fees for Chinese-Built Ships and Shipping to be Delayed by USTR",
+        "summary": "With just two weeks left until the one-year suspension of U.S.-imposed fees on Chinese-built ships and ships operated by Chinese companies is due to e...",
+        "date": "2026-10-26T20:46:25+00:00",
+        "publisher": "The Maritime Executive"
+      },
+      {
+        "url": "https://maritime-executive.com/article/fire-reported-on-tanker-off-the-coast-of-iraq",
+        "reason": "missing_maritime_security_context",
+        "title": "Fire Reported on Tanker off the Coast of Iraq",
+        "summary": "UK Maritime Trade Operations (UKMTO) has reported a fire aboard a vessel in the Iraqi exclusive economic zone of the Arabian Gulf, the latest incident...",
+        "date": "2026-10-26T20:05:07+00:00",
+        "publisher": "The Maritime Executive"
+      },
+      {
+        "url": "https://maritime-executive.com/article/seven-panicked-crew-jump-from-listing-cargo-ship-off-lebanon",
+        "reason": "missing_maritime_security_context",
+        "title": "Seven Panicked Crew Jump From Listing Cargo Ship Off Lebanon",
+        "summary": "A chaotic situation aboard a cargo ship off the coast of Lebanon led to seven crewmembers jumping into the ocean and requiring a rescue overnight. Leb...",
+        "date": "2026-10-26T19:18:00+00:00",
+        "publisher": "The Maritime Executive"
+      },
+      {
+        "url": "https://maritime-executive.com/article/carnival-corp-emphasizes-strategy-of-fleet-optimization-over-newbuilds",
+        "reason": "routine_vessel_news_without_concrete_security_development",
+        "title": "Carnival Corp. Emphasizes Strategy of Fleet Optimization Over Newbuilds",
+        "summary": "Carnival Corporation’s recent decision to move cruise ships between brands and reposition ships from certain markets is a demonstration of a strategy...",
+        "date": "2026-10-26T15:14:02+00:00",
+        "publisher": "The Maritime Executive"
+      },
+      {
+        "url": "https://maritime-executive.com/article/cruise-ship-damaged-as-it-hits-containership-departing-bremerhaven",
+        "reason": "missing_maritime_security_context",
+        "title": "Cruise Ship Damaged as It Hits Containership Departing Bremerhaven",
+        "summary": "The German cruise ship Mein Schiff 3 and one of MSC’s large containerships sustained significant damage as the cruise ship was attempting to depart Br...",
+        "date": "2026-10-26T14:59:18+00:00",
+        "publisher": "The Maritime Executive"
+      },
+      {
+        "url": "https://maritime-executive.com/article/nclh-continues-to-dispose-of-oceania-cruise-ships",
+        "reason": "missing_maritime_security_context",
+        "title": "NCLH Continues to Dispose of Oceania Cruise Ships",
+        "summary": "As part of an ongoing fleet modernization for the cruise lines of Norwegian Cruise Line Holdings, and specifically Oceania Cruises, the line announced...",
+        "date": "2026-10-26T14:51:23+00:00",
+        "publisher": "The Maritime Executive"
+      },
+      {
+        "url": "https://maritime-executive.com/article/amenity-laden-suites-add-appeal-for-families-and-multigenerational-travel",
+        "reason": "missing_maritime_security_context",
+        "title": "Amenity-Laden Suites Add Appeal for Families and Multigenerational Travel",
+        "summary": "Suites were once equated with luxury on cruise ships, offering larger spaces and prime locations, but now they are getting amenities as part of the \"e...",
+        "date": "2026-10-26T14:08:02+00:00",
+        "publisher": "The Maritime Executive"
+      },
+      {
+        "url": "https://maritime-executive.com/article/refit-adds-mini-whale-tail-to-increase-versatility-of-20-year-old-ship",
+        "reason": "missing_maritime_security_context",
+        "title": "Refit Adds Mini “Whale Tail” to Increase Versatility of 20-Year-Old Ship",
+        "summary": "The recent refit of the Carnival Freedom cruise ship provided an interesting example of the convergence of branding and operational considerations, al...",
+        "date": "2026-10-26T14:07:21+00:00",
+        "publisher": "The Maritime Executive"
+      },
+      {
+        "url": "https://maritime-executive.com/article/converting-psvs-for-expedition-cruising-creates-compelling-business-model",
+        "reason": "outside_maritime_security_scope",
+        "title": "Converting PSVs for Expedition Cruising Creates Compelling Business Model",
+        "summary": "Architect and yacht designer Stefano Pastrovich has developed a novel concept that he believes can create a compelling business model and entry for bo...",
+        "date": "2026-10-26T13:44:45+00:00",
+        "publisher": "The Maritime Executive"
+      },
+      {
+        "url": "https://maritime-executive.com/article/scenic-is-poised-to-expand-its-discovery-yachts-to-warm-weather-cruising",
+        "reason": "outside_maritime_security_scope",
+        "title": "Scenic is Poised to Expand Its Discovery Yachts to Warm-Weather Cruising",
+        "summary": "Scenic Group, which got its start 40 years ago offering escorted land tours, is moving to expand its unique brand of all-inclusive luxury cruising to...",
+        "date": "2026-10-26T13:43:45+00:00",
+        "publisher": "The Maritime Executive"
+      },
+      {
+        "url": "https://maritime-executive.com/article/port-of-tampa-bay-proceeding-with-new-terminal-to-meet-growth-demands",
+        "reason": "missing_maritime_security_context",
+        "title": "Port of Tampa Bay Proceeding with New Terminal to Meet Growth Demands",
+        "summary": "As the global cruising population continues to grow, Port Tampa Bay has carved out its niche in the cruise world as Florida’s only Gulf Coast cruise h...",
+        "date": "2026-10-26T13:12:43+00:00",
+        "publisher": "The Maritime Executive"
+      },
+      {
+        "url": "https://maritime-executive.com/article/port-of-san-diego-highlights-its-advantages-for-cruises",
+        "reason": "missing_maritime_security_context",
+        "title": "Port of San Diego Highlights Its Advantages for Cruises",
+        "summary": "A city of convenience. A destination of multiple attractions. An attractive venue for a postcard shot. That’s how San Diego, California, distinguishes...",
+        "date": "2026-10-26T13:12:04+00:00",
+        "publisher": "The Maritime Executive"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/stockholm/stor-polisinsats-efter-bedrageri-vid-drottningholms-slott",
+        "reason": "outside_maritime_security_scope",
+        "title": "Stor polisinsats efter bedrägeri vid Drottningholms slott",
+        "summary": "En polisinsats pågår vid Drottningholms slott efter att en person som bor på slottsområdet utsatts för bedrägeri. Enligt polisen ska gärningspersonen fått med sig värdesaker för tiotusentals kronor.",
+        "date": "2026-10-26T22:53:21+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/utrikes/rubio-om-venezuela-maste-byta-ut-sin-valinfrastruktur",
+        "reason": "outside_maritime_security_scope",
+        "title": "Rubio om Venezuela: Måste byta ut sin valinfrastruktur",
+        "summary": "USA:s utrikesminister Marco Rubio säger att Venezuela behöver byta ut sin valinfrastruktur innan ett val kan hållas, rapporterar Reuters. Uttalandet sker dagen efter att oppositionsledaren Maria Corina Machado återvänt till landet efter nästa ett år i exil.",
+        "date": "2026-10-26T21:06:13+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/utrikes/sa-lyckades-studentlistan-ta-makten-i-serbien",
+        "reason": "outside_maritime_security_scope",
+        "title": "Så lyckades Studentlistan ta makten i Serbien",
+        "summary": "Partiet SNS förlorade valet i Serbien efter över ett decennium vid makten. Segrare i parlamentsvalet blev Studentlistan. Men hur kunde ett parti fött ur en proteströrelse, och utan tydlig ledning, vinna valet?",
+        "date": "2026-10-26T20:30:22+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/utrikes/regeringens-svar-efter-protesterna-i-frankrike-inga-tomma-loften",
+        "reason": "outside_maritime_security_scope",
+        "title": "Regeringens svar efter protesterna i Frankrike: ”Inga tomma löften”",
+        "summary": "Våldsamma protester har skakat Frankrike i flera veckor. Nu går regeringen studenternas krav till mötes. Bland annat ska nu ett helt nytt antagningssystem tas fram och klasstorlekar begränsas.",
+        "date": "2026-10-26T19:55:44+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/sormland/har-lyfter-forsta-chartern-mot-kanarieoarna-fran-skavsta",
+        "reason": "outside_maritime_security_scope",
+        "title": "Här lyfter första chartern mot Kanarieöarna från Skavsta",
+        "summary": "Ballonger, röda mattan och prominenta gäster. På måndagen premiärflögs det till Gran Canaria från Nyköping. – Skavsta är en viktig hubb för länet, säger landshövding Robert Andrén.",
+        "date": "2026-10-26T18:25:36+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/utrikes/vem-ar-gadi-eisenkot",
+        "reason": "outside_maritime_security_scope",
+        "title": "Vem är Gadi Eisenkot?",
+        "summary": "Gadi Eisenkot är soldaten som blev Israels överbefälshavare. Nu har han pensionerat sig från militären – och utmanar Benjamin Netanyahu om premiärministerposten.",
+        "date": "2026-10-26T17:51:11+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/utrikes/vem-ar-benjamin-netanyahu",
+        "reason": "outside_maritime_security_scope",
+        "title": "Vem är Benjamin Netanyahu?",
+        "summary": "Han är den person i Israels historia som suttit längst på premiärministerposten – totalt 19 år. Och Benjamin Netanyahu är en kontroversiell politiker.",
+        "date": "2026-10-26T17:50:26+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/utrikes/israels-val-2026-ett-av-landets-viktigaste-val-nagonsin",
+        "reason": "outside_maritime_security_scope",
+        "title": "Israels val 2026: ”Ett av landets viktigaste val någonsin”",
+        "summary": "Unga i Tel Aviv och västra Jerusalem rusar fram till SVT:s kamera och skanderar ”Bara Bibi” och ”Heja Ben-Gvir”. Enligt opinionsmätningar i Israel lutar sig de yngre mer mot höger och just de unga rösterna kan komma att avgöra i vad som verkar bli en väldigt jämn kamp mellan de politiska blocken.",
+        "date": "2026-10-26T17:48:52+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/skane/person-pakord-av-buss-i-lund-9z7o01",
+        "reason": "outside_maritime_security_scope",
+        "title": "Kvinna i 80-årsåldern död – blev påkörd av buss i Lund",
+        "summary": "En kvinna i 80-årsåldern har omkommit, efter att hon blivit påkörd av en buss i centrala Lund på måndagskvällen. Polisen ska nu utreda olyckan.",
+        "date": "2026-10-26T17:28:28+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/utrikes/lyftkran-riskerar-att-kollapsa-i-centrala-oslo",
+        "reason": "outside_maritime_security_scope",
+        "title": "Lyftkran riskerade att kollapsa i centrala Oslo",
+        "summary": "Vid lunchtid började en omkring 30 meter hög lyftkran luta i närheten av Oslo centralstation. På grund av rasrisken evakuerades hundratals personer. Krantoppen kunde demonteras på måndagskvällen – efter flera timmars arbete.",
+        "date": "2026-10-26T16:33:33+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/utrikes/microsoft-vill-kopa-ut-60-000-anstallda",
+        "reason": "outside_maritime_security_scope",
+        "title": "Microsoft vill köpa ut 60 000 anställda",
+        "summary": "Teknikjätten Microsoft har erbjudit 60 000 anställda frivilliga uppsägningsavtal. Det motsvarar en dryg fjärdedel av hela personalstyrkan.",
+        "date": "2026-10-26T16:11:51+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/inrikes/fortfarande-hemligt-vilka-s-vill-regera-med-fel-lage",
+        "reason": "outside_maritime_security_scope",
+        "title": "Fortfarande hemligt vilka S vill regera med: ”Fel läge”",
+        "summary": "C-ledaren Elisabeth Thand Ringqvist vill att S berättar vilka partier de vill bilda regering med. Men S-toppen Anders Ygeman tycker inte att partiet behöver svara. – Det här är fel läge att dra upp nya röda linjer och skriva nya önskelistor, säger han.",
+        "date": "2026-10-26T15:25:04+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/vastmanland/konstnaren-andreas-tander-en-eld-i-vasteras-som-han-aldrig-vill-ska-slockna",
+        "reason": "outside_maritime_security_scope",
+        "title": "Konstnären Andreas tänder en eld i Västerås – som han aldrig vill ska slockna",
+        "summary": "En eld har tänds på Triangeln bakom Västerås konstmuseum. Nu ska den brinna i ett dygn med konstnären Andreas Pettersson som eldvakt vid den önskade samlingspunkten. – Elden är en otrolig symbol, säger Andreas Pettersson, med hopp om att få folk att slå sig ner vid elden.",
+        "date": "2026-10-26T15:05:31+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/jamtland/aresjon-testas-pa-miljogifter-ingar-i-rikstackande-projekt",
+        "reason": "outside_maritime_security_scope",
+        "title": "Åresjön testas på miljögifter – ingår i rikstäckande projekt",
+        "summary": "I ett stort projekt ska nu miljögifter i 500 svenska sjöar kartläggas. Först ut är bland annat Åresjön. – Vi vet redan att Åresjön är kraftigt sedimenterad men vi vet inte så mycket om miljögifterna. Så det är det vi ska testa här, säger Malin Sahlin på Naturskyddsföreningen.",
+        "date": "2026-10-26T14:34:28+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/jonkoping/misstankt-explosion-i-taberg",
+        "reason": "outside_maritime_security_scope",
+        "title": "”En jävla smäll” – sprängning vid företag i Taberg gick fel",
+        "summary": "Ett företag utanför Taberg söder om Jönköping fick fastigheten skadad efter en misslyckad sprängning på måndagseftermiddagen. – Det tycks vara en planerad mindre sprängning som har gått fel, säger polisens presstalesperson Mats Pettersson.",
+        "date": "2026-10-26T13:31:13+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/vast/kvinna-doms-for-ofredande-efter-krankande-kommentar-om-blerta-hoti-singh-s",
+        "reason": "outside_maritime_security_scope",
+        "title": "Kvinna döms för ofredande efter kränkande kommentar om Blerta Hoti Singh (S)",
+        "summary": "En kvinna från Malmö skrev kränkande kommentarer till Göteborgs kommunalråd Blerta Hoti Singh (S), som bland annat handlade om politikerns dotter. Nu har kvinnan dömts till dagsböter.",
+        "date": "2026-10-26T13:18:07+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/sport/langdskidor/anton-grahn-finns-nagra-riktiga-skrackexempel",
+        "reason": "outside_maritime_security_scope",
+        "title": "Anton Grahn: ”Finns några riktiga skräckexempel”",
+        "summary": "Anton Grahn slog igenom rejält ifjol med dubbla pallplatser i världscupen. Men vägen dit har kantats av en hel del ilska, berättar 21-åringen. – Det finns några riktiga skräckexempel, säger han till SVT Sport.",
+        "date": "2026-10-26T13:02:53+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.svt.se/nyheter/lokalt/jonkoping/haktad-for-skjutningen-i-hovslatt-misstanks-for-ytterligare-tva-mordforsok",
+        "reason": "outside_maritime_security_scope",
+        "title": "Misstänkte för skjutningen i Hovslätt häktad för ytterligare två mordförsök",
+        "summary": "Mannen som tidigare varit häktad misstänkt för att ha försökt döda sin ex-flickväns nya sambo i Hovslätt misstänks nu för ytterligare två fall av försök till mord – mot kvinnan och ett barn. Under måndagen omhäktades han och är nu misstänkt för försök till mord i tre fall.",
+        "date": "2026-10-26T12:48:06+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/27-arrests-and-248-potential-victims-identified-in-action-week-against-labour-exploitation",
+        "reason": "outside_maritime_security_scope",
+        "title": "27 arrests and 248 potential victims identified in action week against labour exploitation",
+        "summary": "Europol, the European Labour Authority (ELA), and 34 participating countries today announced the results of an action week targeting human trafficking for labour exploitation. The operation, part of an EMPACT action led by Sweden, brought together police, border guards, labour and social security inspectorates, and tax authorities to crack down on ",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/5th-empact-hackathon-leads-to-detection-of-51-potential-victims",
+        "reason": "outside_maritime_security_scope",
+        "title": "5th EMPACT Hackathon leads to the detection of 51 potential victims",
+        "summary": "An international operation involving 40 experts and investigators from 20 countries has identified 51 potential victims of human trafficking, as well as five suspects. Held in Amsterdam from 23 to 25 September 2026, the fifth EMPACT Hackathon against the digital aspects of human trafficking brought together police officers, labour authorities and s",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/keeping-pace-e-evidence-new-report-examines-europes-digital-forensic-capabilities",
+        "reason": "outside_maritime_security_scope",
+        "title": "Keeping pace with e-evidence: New report examines Europe’s digital forensic capabilities",
+        "summary": "Coordinated by the European Commission in cooperation with Europol, the analysis draws on stakeholder consultations, dedicated meetings, surveys and contributions from experts at Europol’s European Cybercrime Centre.The findings point to common challenges: investigative tools, resources and expertise are struggling to keep pace with the forms and v",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/european-and-ecuadorian-cooperation-leads-to-20-arrests-in-major-hit-against-drug-trafficking",
+        "reason": "outside_maritime_security_scope",
+        "title": "European and Ecuadorian cooperation leads to 20 arrests in major hit against drug trafficking",
+        "summary": "The operation, codenamed Operation CANTABRIA, underscores the success of strong cooperation between European and Ecuadorian law enforcement agencies, proving that joint efforts are key to tackling transnational criminal networks.Magnus BrunnerEU Commissioner for Internal Affairs and Migration“International cooperation is our greatest strength again",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/almost-50-arrested-police-target-western-balkan-network-linked-to-killings",
+        "reason": "outside_maritime_security_scope",
+        "title": "Almost 50 arrested as police target Western Balkan network linked to killings",
+        "summary": "Nearly 50 suspects have been arrested in an international operation targeting a drug trafficking network with Western Balkan members, linked to killings, kidnappings and grenade attacks across Europe.",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/europol-urges-early-action-to-protect-cryptocurrencies-and-sensitive-data-quantum-threats",
+        "reason": "outside_maritime_security_scope",
+        "title": "Europol urges early action to protect cryptocurrencies and sensitive data from quantum threats",
+        "summary": "The timing of these capabilities remains uncertain. However, this should not be the main concern. Adapting systems and coordinating security upgrades will take time. Therefore, regardless of the nature of the threats that may emerge, crypto-agility should be pursued proactively to ensure that systems can withstand and overcome future threats while ",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/ordering-violence-abroad-five-suspects-arrested-in-spain-morocco-and-france",
+        "reason": "outside_maritime_security_scope",
+        "title": "Ordering violence from abroad: five suspects arrested in Spain, Morocco, and France",
+        "summary": "Five suspects linked to the organisation and recruitment of serious violence have been arrested in Spain, Morocco, and France, in the latest results of the Operational Taskforce (OTF) GRIMM, coordinated by Europol. The arrests in August and September target the upper levels of violence-as-a-service: those suspected of ordering attacks, finding perp",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/teenager-suspected-of-leading-killsec-ransomware-group-law-enforcement-seizes-servers-and-leak-site",
+        "reason": "outside_maritime_security_scope",
+        "title": "Teenager suspected of leading KillSec ransomware group as law enforcement seizes servers and leak site",
+        "summary": "On 30 September 2026, law enforcement took control of KillSec’s leak site, securing at least 110 terabytes of data against further unauthorised access. The cybercrime group used the site to threaten organisations with the publication of stolen files unless they paid a ransom.",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/cannabis-smuggling-north-america-and-thailand-europe-europol-highlights-growing-threat",
+        "reason": "outside_maritime_security_scope",
+        "title": "Cannabis smuggling from North America and Thailand into Europe: Europol highlights growing threat",
+        "summary": "Cannabis smuggling from North America and Thailand in Europe has seen a sharp rise, driven by oversupply in legal markets and the adaptability of organised crime groups. A dedicated Europol Operational Taskforce (OTF) has been established to dismantle the criminal networks behind this evolving threat.",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/eu-law-enforcement-chiefs-gather-to-discuss-new-challenges-in-eu-security",
+        "reason": "outside_maritime_security_scope",
+        "title": "EU law enforcement chiefs gather to discuss new challenges in EU security",
+        "summary": "The Convention was opened by Jürgen Ebner, Europol’s Acting Executive Director, and Justin Kelly, Commissioner of the Irish An Garda Síochána.Jürgen EbnerEuropol Acting Executive DirectorOrganised crime itself has become digital by default. Technology is not just an enabler of criminal activity - it is increasingly driving it. We need strong nation",
+        "date": "unknown",
+        "publisher": "News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_maritime_security_scope",
+        "title": "Lula wins fourth term in dramatic Brazil election comeback",
+        "summary": "The left-wing incumbent president had lost the first round to right-wing challenger Flávio Bolsonaro.",
+        "date": "2026-10-26T21:02:47+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/ckly0xqjnlwvo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_maritime_security_scope",
+        "title": "Ex-FBI chief James Comey faces federal charges for third time",
+        "summary": "Comey's lawyers say the case stems from alleged disclosure of classified information to the New York Times in 2016.",
+        "date": "2026-10-27T02:01:27+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c8vgx3pvdeq1o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_maritime_security_scope",
+        "title": "Opposition leader María Machado returns from exile to a Venezuela reshaped by Trump",
+        "summary": "Machado returns with Trump's blessing, even if Washington is happy with Venezuela's existing leader - at least for the time being.",
+        "date": "2026-10-27T00:31:11+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_maritime_security_scope",
+        "title": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
+        "summary": "The populist right-wing leader of 12 years says it is \"clear\" his party has lost the vote billed as a referendum on the country's future.",
+        "date": "2026-10-26T14:34:52+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/ck78px6glw3lo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_maritime_security_scope",
+        "title": "Trump administration illegally fired James Comey's daughter, judge rules",
+        "summary": "Maurene Comey believes she was let go from her job as a federal prosecutor because her father is the former FBI director.",
+        "date": "2026-10-26T19:27:21+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_maritime_security_scope",
+        "title": "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
+        "summary": "The company will be the first true artificial intelligence company to go public as tech firms continue to invest heavily in AI.",
+        "date": "2026-10-26T16:27:17+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cw8rz1d286v3o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_maritime_security_scope",
+        "title": "Catholic bishops apologise for 'exploited' Trump meeting",
+        "summary": "Two bishops in images that show them praying with Trump have said they believed the meeting was private.",
+        "date": "2026-10-26T15:46:31+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cjr4y5rq46p2o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_maritime_security_scope",
+        "title": "Pope's South American trip to go ahead as planned after lung cancer surgery",
+        "summary": "The Pope underwent surgery in to remove a tumour on the lower part of his right lung and is gradually resuming his duties.",
+        "date": "2026-10-26T18:46:19+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c3vgxjex1z9wo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_maritime_security_scope",
+        "title": "US Marine indicted for murder and robbery of woman in Japan",
+        "summary": "Prosecutors have indicted Devin Jacob Ballard for a killing that has caused outrage in Japan, local media reports.",
+        "date": "2026-10-26T14:13:18+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cmy4xwp22xyqo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_maritime_security_scope",
+        "title": "'Maxxing' selected as Dictionary.com word of the year",
+        "summary": "\"Whatever we're doing, we want to push it further,\" said an expert on why Americans are embracing the term, which is short for maximising.",
+        "date": "2026-10-26T21:31:53+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cm4g14n1e5wko?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_maritime_security_scope",
+        "title": "Algeria to send troops to Niger in first foreign deployment since 1973",
+        "summary": "The troops are expected to protect energy facilities in northern Niger, near the Libyan border.",
+        "date": "2026-10-26T17:00:09+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/crx2dyd24188o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_maritime_security_scope",
+        "title": "Nurse killed in attack while responding to Ebola alert in DR Congo",
+        "summary": "Local youths reportedly accused the health workers of contaminating water sources and spreading Ebola.",
+        "date": "2026-10-26T14:27:32+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cm4g175dgdx2o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_maritime_security_scope",
+        "title": "More than 60 Christians killed in Ethiopia 'massacre', church official says",
+        "summary": "One resident, whose 75-year-old father was killed, described it as an ambush, saying they were surrounded.",
+        "date": "2026-10-26T16:31:09+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cq3dje4g4d5jo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_maritime_security_scope",
+        "title": "Chris Brown given suspended eight-month prison sentence over nightclub attack",
+        "summary": "The R&B star previously pleaded guilty to affray, after attacking a music producer with a glass bottle.",
+        "date": "2026-10-26T14:16:09+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/ckpdg8vnv171o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_maritime_security_scope",
+        "title": "Police arrest teenager after shooting that injured 12, including children, in Florida",
+        "summary": "The incident happened on Saturday night, close to an American football stadium where a game had just been played.",
+        "date": "2026-10-26T15:45:30+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cvwy7wz9x12go?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_maritime_security_scope",
+        "title": "Australian murderer loses bid to eat Vegemite in prison",
+        "summary": "Andre McKechnie, who murdered a property developer, argued it was his right to enjoy Australian culture.",
+        "date": "2026-10-26T04:05:28+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cwzd6q630vjeo?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_maritime_security_scope",
+        "title": "Eric Bauza, voice of Bugs Bunny and Daffy Duck, dies aged 46",
+        "summary": "Bauza had voiced a number of characters in this summer's animated hit Coyote vs. Acme.",
+        "date": "2026-10-26T06:16:15+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/ckvg7w919x09o?at_medium=RSS&at_campaign=rss",
+        "reason": "outside_maritime_security_scope",
+        "title": "Part of Antarctica named after former BBC science correspondent",
+        "summary": "A stretch of water in the west of the continent is now called the Amos Channel after the ex-BBC journalist.",
+        "date": "2026-10-26T14:54:40+00:00",
+        "publisher": "BBC News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUWRqdTFhUE1KMHluS3pSN05IYVFZLVIxX0lPcmlZeHlRNmZKVkItU1pGTVAybjZKMUJGYnY3eVltT1Z4emRuR1FVNERsMVVjM1R5Z0dOSXYtQkdqNVdhZnBDY0FkLTRCTlJhM1FkVy1QV3BrTmx6SW9xcW96RV9YbExBWGQ0a2JENFNJYmhYNXU2eTRlRHhWd3FXYWVSNGozMjg2aDM1U3IyWUpNbzM2bzFn?oc=5",
+        "reason": "outside_maritime_security_scope",
+        "title": "Flera skadade i attacker mot Ukraina – Senaste nytt om kriget i Ukraina - SVT Nyheter",
+        "summary": "Flera skadade i attacker mot Ukraina – Senaste nytt om kriget i Ukraina SVT Nyheter",
+        "date": "2026-10-26T07:33:32+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBpclBoVDhLRkI4YUVZazNTMUhwLWZpR21tRzc3OTFlTXd6X19sU0ZTQmVPLXdXQkpLeFdMdEtyaGt6V0pxWmo2VTNqNl9qdnRvdk5abXAzVWhtV0IwOFJEU2RfazVNZnYzUjZIdm9oSnFyRFZOZFJvQ3oyZw?oc=5",
+        "reason": "outside_maritime_security_scope",
+        "title": "Kriget skuggar när Bulgarien väljer president - Svenska Epoch Times",
+        "summary": "Kriget skuggar när Bulgarien väljer president Svenska Epoch Times",
+        "date": "2026-10-25T09:59:55+00:00",
+        "publisher": "Svenska Epoch Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPb0JqT2tmRnAtUkFSRlFrbFNYbDR3RmRvS2o4X2VkU0NJeWlHSm0xZGdCSEtuMjEtNUNfNm5iZy00bGVIOHVPY0hwblhsMjg2QWVPV3ZESzg0ckV6RUVNVXRGYTZHam9OR3NXMVRaNFIzLWZ6TlJ3aE52VUF5S3lDamZYWjZpUnVrV0FSU2s4WGwtdw?oc=5",
+        "reason": "outside_maritime_security_scope",
+        "title": "Ryssland attackerar ukrainskt militärt logistiknätverk i Charkiv. - Vietnam.vn",
+        "summary": "Ryssland attackerar ukrainskt militärt logistiknätverk i Charkiv. Vietnam.vn",
+        "date": "2026-10-26T04:58:49+00:00",
+        "publisher": "Vietnam.vn"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNU09FUDVtR2lDN21TY0w3bEpwWkdMTmk5eTlFNGFRb0VRMno2bW1RUUdCQ0tJR3FwUlZRT3pJNTFNUDh1RUF2NVFmQWIxa3JPLWpWeHZHcFhhNXJ0WV93UFJhZUtfR0Y0Rm9JSGZ0V3g4dkZ5ek8xeUJrOFBGSzRUMlR4cnVvYWZ3TEJvUVJwc1Jqalg1ZXJQZXJKb0dkQWxsTWVUdDFXSFE?oc=5",
+        "reason": "outside_maritime_security_scope",
+        "title": "Jotova ser ut att ta första omgången i Bulgarien - TV4 Nyheterna",
+        "summary": "Jotova ser ut att ta första omgången i Bulgarien TV4 Nyheterna",
+        "date": "2026-10-25T09:32:31+00:00",
+        "publisher": "TV4 Nyheterna"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQ2U2RmxaRVlMaWtVVFVMTTdrMkNaekpUVF9peDZITVppb1gzOS16R05IVVVEWmktZi1SM1BwT0hMNXB5WkdfdkpaUlJicnhUbE1xOWJpYVlHTTB1TmMxU0VYdU4xMmdTM0pxSVhOeWluTVpBSnBOdHJ3YUctcklpOVZrN2d5NlpKQko5UWNkMnc2NVVPaXlz?oc=5",
+        "reason": "outside_maritime_security_scope",
+        "title": "Hårda strider mellan Ryssland och Ukraina har lämnat dussintals döda och skadade. - Vietnam.vn",
+        "summary": "Hårda strider mellan Ryssland och Ukraina har lämnat dussintals döda och skadade. Vietnam.vn",
+        "date": "2026-10-25T20:05:50+00:00",
+        "publisher": "Vietnam.vn"
+      }
+    ],
+    "discussion_signals": [],
+    "confirmed_discovery_exclusions": [],
+    "verified_date_exclusions": [],
+    "resolved_duplicate_aliases": []
+  },
+  "collection_evidence": {
+    "state": "ready",
+    "failed_discovery_urls": [],
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "subscription_exclusions": [],
+    "channel": "sjoomradet",
+    "discovery": {
+      "channel": "sjoomradet",
+      "date": "2026-10-27",
+      "feeds": [
+        {
+          "url": "https://www.navalnews.com/feed/",
+          "entries": 10,
+          "accepted": 10,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://maritime-executive.com/articles.rss",
+          "entries": 68,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "atom10",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/rss.xml",
+          "entries": 100,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.europol.europa.eu/rss.xml",
+          "entries": 10,
+          "accepted": 10,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "entries": 30,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22Black%20Sea%22%20ships%20attacks%20Ukraine%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22Hormuz%22%20maritime%20security%20United%20States%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22Baltic%20Sea%22%20sabotage%20cables%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22shadow%20fleet%22%20sanctions%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22Red%20Sea%22%20shipping%20attacks%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22South%20China%20Sea%22%20maritime%20confrontation%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%C3%96stersj%C3%B6n%20skuggflottan%20sanktioner%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Svarta%20havet%20Ukraina%20fartyg%20attacker%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 6,
+          "accepted": 6,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Hormuz%20USA%20sj%C3%B6fart%20s%C3%A4kerhet%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=undervattenskablar%20sabotage%20%C3%96stersj%C3%B6n%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Anato.int%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aconsilium.europa.eu%20shadow%20fleet%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aukrinform.net%20Black%20Sea%20attacks%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20Hormuz%20shipping%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Ayle.fi%20%C3%96stersj%C3%B6n%20sabotage%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Akustbevakningen.se%20skuggflotta%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Amaritime-executive.com%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Anato.int%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Amod.gov.ua%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Akustbevakningen.se%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Apuolustusvoimat.fi%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Atranspordiamet.ee%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Amil.ee%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Amod.gov.lv%20maritime%20security%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        }
+      ],
+      "web_candidates": 0,
+      "original_fallback": null,
+      "candidate_count": 80,
+      "scope": "discovery_only_not_factual_approval"
+    },
+    "checked_at": "2026-10-27T02:16:42.894792+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  },
+  "final_selection": [
+    {
+      "url": "https://maritime-executive.com/article/sanctioned-tanker-bound-for-us-passes-through-uk-waters",
+      "selected": true,
+      "reason": "Viktig säkerhets- och sanktionskoppling kring ryska oljetransporter.",
+      "event_key": "russian-diesel-tanker-uk-waters",
+      "source_quote": "Russia has used the lifting of U.S. sanctions on the purchase of diesel to resume exports both to the United States but also other countries",
+      "security_evidence": "Sanctioned tanker loaded with Russian diesel believed to be heading to the U.S."
+    },
+    {
+      "url": "https://www.navalnews.com/naval-news/2026/10/sweden-selects-saildrone-for-year-long-mda-mission-in-the-baltic-sea/",
+      "selected": true,
+      "reason": "Svensk militär upphandling av obemannad maritim övervakning i Östersjön.",
+      "event_key": "sweden-saildrone-baltic-sea",
+      "source_quote": "Saildrone announced a year-long mission with the Swedish Armed Forces to deliver persistent Maritime Domain Awareness",
+      "security_evidence": "deliver persistent Maritime Domain Awareness (MDA) across Sweden’s territorial waters and exclusive economic zone in the Baltic Sea"
+    },
+    {
+      "url": "https://www.navalnews.com/naval-news/2026/10/aukus-uss-colorado-announced-as-first-submarine-for-srf-west/",
+      "selected": true,
+      "reason": "Central internationell marinutveckling inom AUKUS-samarbetet.",
+      "event_key": "aukus-srf-west-uss-colorado",
+      "source_quote": "designation of the USS Colorado (SSN 788) as the first U.S. Navy Virginia-class fast-attack submarine assigned to Submarine Rotational Force-West",
+      "security_evidence": "designation of the USS Colorado (SSN 788) as the first U.S. Navy Virginia-class fast-attack submarine assigned to Submarine Rotational Force-West"
+    },
+    {
+      "url": "https://www.navalnews.com/naval-news/2026/10/us-navy-hypersonic-facility-nws-yorktown/",
+      "selected": false,
+      "reason": "Infrastruktur och vapenlagringsprojekt som inte utgör en akut operativ händelse i närområdet.",
+      "event_key": "us-navy-hypersonic-facility",
+      "source_quote": "New Naval Facilities Engineering System Command documents reveal U.S. Navy plans for a hypersonic missile storage facility",
+      "security_evidence": "New Naval Facilities Engineering System Command (NAVFAC) documents reveal U.S. Navy plans for a hypersonic missile storage facility at NWS Yorktown"
+    },
+    {
+      "url": "https://www.vietnam.vn/sv/nguoi-dan-bulgaria-di-bo-phieu-bau-tong-thong-trong-boi-canh-bien-den-day-song",
+      "selected": false,
+      "reason": "Innehållet rör ett allmänt presidentval där maritima händelser endast nämns översiktligt som bakgrund.",
+      "event_key": "bulgaria-presidential-election",
+      "source_quote": "Den 25 oktober gick bulgarerna till valurnorna för att välja en ny president",
+      "security_evidence": "drönarattacker riktade mot kommersiella fartyg utanför Bulgariens Svartahavskust"
+    }
+  ],
+  "relevant_event_count": 3
+}
