@@ -1,0 +1,41 @@
+{
+  "title": "IBATs morgonPOD – 27 oktober 2026",
+  "intro": "Välkommen till IBATs morgonPOD. I dag uppmärksammar vi den omfattande sårbarhetsvågen i PHP som berör en stor del av internet, samt reaktioner på sårbarheterna.",
+  "outlook": "Framåtblickande pekar erfarenheterna mot att sårbarheter i äldre och eftersatta system kan bli långvariga utmaningar för it-säkerheten, där uppdatering och proaktiv övervakning förblir avgörande.",
+  "news": [
+    {
+      "category": "Informationsförsörjning och dataplattformar",
+      "title": "PHP2Shell-sårbarheterna hotar upp till sjuttio procent av webben",
+      "summary": "Enligt en artikel publicerad på The Register måndagen den 26 oktober 2026 har nya minnessäkerhetssårbarheter i PHP-kärnan uppdagats. Sårbarheterna, som kallas PHP2Shell, påverkar versioner från de senaste tio åren och uppskattas beröra runt 70 procent av internets webbplatser. Nödpatchar har släppts av PHP Foundation för att möta riskerna med exekvering av fjärrkod.",
+      "context": "Händelsen visar hur djupt rotade sårbarheter i grundläggande infrastruktur kan påverka samhällsviktiga digitala ekosystem. Det belyser behovet av robust informationsförsörjning och kontroll över vilka programvaruversioner som används i verksamhetskritiska system.",
+      "url": "https://www.theregister.com/security/2026/10/26/we-shouldnt-be-surprised-about-the-phpocalypse-as-the-internet-is-built-on-sticks-and-glue/5305186",
+      "publisher": "www.theregister.com - Articles",
+      "body": "Enligt en artikel publicerad på The Register måndagen den 26 oktober 2026 har två relaterade minnessäkerhetssårbarheter i PHP-kärnan uppmärksammats. Sårbarheterna, som gemensamt kallas PHP2Shell, berör samtliga versioner som släppts under det senaste decenniet, med start från version 5.4. Bedömningen från källan är att omkring 70 procent av webbplatserna på internet kör denna kod. Sårbarheterna upptäcktes ursprungligen i augusti av en oberoende forskare, vilket följdes av en koordinerad utlämningsprocess. Efter läckor under helgen och måndagen publicerade PHP Foundation en akutförvarning och släppte nödpatchar för att ge utvecklare möjlighet att täppa till luckorna. Amazon Web Services rapporterade senare att utnyttjandeförsök hade observerats dagar innan patcharna släpptes, även om inga verifierade framgångsrika attacker har bekräftats. Äldre legacy-system som inte kan uppdateras direkt bedöms utgöra en särskild risk på lång sikt.",
+      "assessment": "Sårbarheten utgör en betydande systemisk risk för organisationer som förlitar sig på äldre webbinfrastruktur, då legacy-system kan förbli oskyddade.",
+      "previous_reporting": [],
+      "open_questions": [
+        "Hur många svenska offentliga och privata system kör berörda osäkrade versioner av PHP?",
+        "Vilka konkreta indikatorer på utnyttjandeförsök bör svenska it-säkerhetsfunktioner prioritera att övervaka?"
+      ],
+      "topics": [
+        "Informationsförsörjning och dataplattformar",
+        "Juridik, integritet och informationssäkerhet"
+      ],
+      "event_links": [],
+      "sources": [
+        {
+          "url": "https://www.theregister.com/security/2026/10/26/we-shouldnt-be-surprised-about-the-phpocalypse-as-the-internet-is-built-on-sticks-and-glue/5305186",
+          "title": "www.theregister.com - Articles"
+        }
+      ]
+    }
+  ],
+  "description": "Välkommen till IBATs morgonPOD. I dag uppmärksammar vi den omfattande sårbarhetsvågen i PHP som berör en stor del av internet, samt reaktioner på sårbarheterna.",
+  "tags": [
+    "Informationsförsörjning och dataplattformar"
+  ],
+  "text_format": "editorial_articles",
+  "editorial_date": "2026-10-27",
+  "channel": "ibat",
+  "editorial_outcome": "standard"
+}

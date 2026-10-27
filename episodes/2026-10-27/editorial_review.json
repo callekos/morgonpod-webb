@@ -1,0 +1,53 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "",
+  "source_coverage": [
+    {
+      "claim": "Två relaterade minnessäkerhetssårbarheter i PHP-kärnan, benämnda PHP2Shell, har uppmärksammats och påverkar versioner från de senaste tio åren (från version 5.4).",
+      "source_url": "https://www.theregister.com/security/2026/10/26/we-shouldnt-be-surprised-about-the-phpocalypse-as-the-internet-is-built-on-sticks-and-glue/5305186"
+    },
+    {
+      "claim": "Bedömningen är att omkring 70 procent av alla webbplatser på internet kör denna sårbara kod.",
+      "source_url": "https://www.theregister.com/security/2026/10/26/we-shouldnt-be-surprised-about-the-phpocalypse-as-the-internet-is-built-on-sticks-and-glue/5305186"
+    },
+    {
+      "claim": "PHP Foundation publicerade en akutförvarning och släppte nödpatchar, och Amazon Web Services har observerat utnyttjandeförsök dagar innan patcharna släpptes utan bekräftade framgångsrika attacker.",
+      "source_url": "https://www.theregister.com/security/2026/10/26/we-shouldnt-be-surprised-about-the-phpocalypse-as-the-internet-is-built-on-sticks-and-glue/5305186"
+    }
+  ],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://www.theregister.com/security/2026/10/26/we-shouldnt-be-surprised-about-the-phpocalypse-as-the-internet-is-built-on-sticks-and-glue/5305186",
+      "covered_facts": [
+        "PHP2Shell sårbarheterna berör versioner från det senaste decenniet (från version 5.4).",
+        "Omkring 70 procent av webbplatserna på internet bedöms påverkas.",
+        "PHP Foundation släppte nödpatchar efter en utlämningsprocess och AWS har observerat utnyttjandeförsök innan patcharna släpptes utan bekräftade framgångsrika attacker."
+      ],
+      "missing_facts": []
+    }
+  ],
+  "selection_decisions": [
+    {
+      "url": "https://www.theregister.com/security/2026/10/26/we-shouldnt-be-surprised-about-the-phpocalypse-as-the-internet-is-built-on-sticks-and-glue/5305186",
+      "selected": true,
+      "reason": "Viktig sårbarhetsnyhet med stor potentiell påverkan på digital infrastruktur och informationssäkerhet.",
+      "event_key": "php2shell_vulnerability",
+      "source_quote": "Collectively they're called PHP2Shell, and they affect every version that's been released in the last decade affected by one or both of these, going back to about version 5.4."
+    }
+  ],
+  "format_decision": {
+    "outcome": "standard",
+    "reason": "Det finns en högst relevant och källbelagd nyhet om PHP2Shell-sårbarheterna som uppfyller redaktionens kriterier."
+  },
+  "access_exclusions_reviewed": true,
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "01cf95486fbaad8c6c24ec51f0af182fa75b6e05442ad7393f28b582a8605863",
+    "news_sha256": "9b719db68adecc91895cf4caff81216fe4ccf6aa956e6d1a115d2671ac0b3653",
+    "script_sha256": "661b8bf30702851854733099ec3875c39bd0ac45ea5dcbaf75e4bd4888ce9400",
+    "collection_sha256": "ee26543519e28c19a0e59e1132ec8d6cd7f6fb1c2628ce7b3cd73a56230bc15a"
+  }
+}

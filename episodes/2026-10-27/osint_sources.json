@@ -1,0 +1,320 @@
+{
+  "channel": "ibat",
+  "date": "2026-10-27",
+  "sources": [
+    {
+      "id": 8,
+      "title": "We shouldn't be surprised about the PHPocalypse, as the internet is built on sticks and glue",
+      "url": "https://www.theregister.com/security/2026/10/26/we-shouldnt-be-surprised-about-the-phpocalypse-as-the-internet-is-built-on-sticks-and-glue/5305186",
+      "summary": "What better way to celebrate Cybersecurity Awareness Month than warning that three-quarters of the web is about to be set on fire?",
+      "date": "2026-10-26T13:14:00+00:00",
+      "publisher": "www.theregister.com - Articles",
+      "discovery_identity": {
+        "url": "https://www.theregister.com/security/2026/10/26/we-shouldnt-be-surprised-about-the-phpocalypse-as-the-internet-is-built-on-sticks-and-glue/5305186",
+        "title": "We shouldn't be surprised about the PHPocalypse, as the internet is built on sticks and glue",
+        "summary": "What better way to celebrate Cybersecurity Awareness Month than warning that three-quarters of the web is about to be set on fire?",
+        "date": "2026-10-26T13:14:00+00:00",
+        "publisher": "www.theregister.com - Articles"
+      },
+      "discovery_version_key": "5b47cb3ef677273e03cec93fac59338ef9c1ceb7dc5cafd8a8584addf6ba3f68",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-27T03:39:42.879378+00:00",
+      "page_published_at": "2026-10-26T13:14:00+00:00",
+      "page_modified_at": "2026-10-26T11:20:59+00:00",
+      "page_sha256": "f01dd0ade96d0e33f9cc44d18271a898ac5f806cb8b0dbbacb06b5ddfcc6cd77",
+      "resolved_url": "https://www.theregister.com/security/2026/10/26/we-shouldnt-be-surprised-about-the-phpocalypse-as-the-internet-is-built-on-sticks-and-glue/5305186",
+      "extraction_method": "title_matched_article",
+      "text": "security We shouldn't be surprised about the PHPocalypse, as the internet is built on sticks and glue KETTLE What better way to celebrate Cybersecurity Awareness Month than warning that three-quarters of the web is about to be set on fire? Brandon Vigliarolo Brandon Vigliarolo GOVERNMENT AND IT NEWS REPORTER Published mon 26 Oct 2026 // 13:14 UTC Make us preferred on Google READ MORE Humanity can't afford not to spend $800B on AI, Anthropic insists now OpenAI rolls out budget-priced mid-tier GPT-6.1 Terra 31 minutes ago Alibaba's Qwen AI caught trying to contact server in China 2 hours ago LiteLLM supply chain attack started with an exposed master key 3 hours ago Reddit's r/opensource bans AI slop, and quite a few humans for good measure 6 hours ago We've spent the past several decades using duct tape, string, and chewing gum to chain the world's computers together into this thing we call the internet, so there's really no good reason to be surprised that most of it is full of software containing vulnerabilities that are practically just as old. You can listen to the latest episode of The Kettle right here on this page, as well as on Spotify , Apple Music, or YouTube . Those platforms also let you subscribe to Kettle, so you are always notified when the latest episode goes live. The world is still reeling from the PHP2Shell revelations that hit the news cycle this week, and on The Kettle there's no better topic for host Brandon Vigliarolo , cybersecurity editor Jessica Lyons , and FOSS reporter Liam Proven to tease apart. REG AD Join us to discuss what exactly is going on, how AI was key to finding another issue no human likely ever would have discovered on their own, and why exposing more bad code in the backbone of the world's computers might be just what we need to rethink the whole thing for the better. REG AD A lightly edited transcript follows: Brandon (00:01) Hi everyone, and welcome to the latest episode of The Register 's Kettle podcast. I'm your host, Reg reporter Brandon Vigliarolo. And hey, there's only one thing we could focus on for this week's episode, given all the hubbub around it, and that's the PHP apocalypse. It turns out most of the internet is running software that could allow remote code execution on host systems via a pair, or as of today apparently three, vulnerabilities that have come to collectively be known as PHP2Shell . So that's not great. With me to talk about this is our security editor Jessica Lyons and open source reporter Liam Proven, who has a few things to say about PHP itself and why it's probably not surprising we're finding ourselves in this mess. Thanks to you both for coming on. Liam Proven (00:43) Absolute pleasure. Jessica Lyons (00:43) Nice to be here. Brandon (00:44) REG AD So Jess, let's start with the basics. What is this? How big of a problem is it? And where do we stand on getting things fixed? Jessica Lyons (00:51) Great. The short answer is it's a very big problem. So we have these two related memory safety vulnerabilities, and they are in the PHP core. Collectively they're called PHP2Shell, and they affect every version that's been released in the last decade affected by one or both of these, going back to about version 5.4. So the general consensus is this is about 70 percent of all of the websites on the internet are running this code. So it basically affects everyone at this point. What happened here is that this dates actually back to August. An independent researcher first spotted this, and then we can talk a little bit more later about who found more of the exploits and what the (PHP) Foundation did with that. But so he found this vulnerability. There was a coordinated disclosure process with the PHP Foundation, and then that broke a little bit starting over the weekend, and then onto Monday, there were some leaks. There was a video posted that purported to show this exploit. And so we get this emergency warning from the PHP Foundation late Monday saying, \"Hey, we are going to be releasing these emergency patches, so everybody get ready so you can implement them as soon as possible. It's very serious.\" So by Wednesday, they did release these, and there's this mass attempt to patch before any of the attackers get a hold of this and are able to attack websites with it. And one of the issues too is that some websites are running really, really old versions and so they aren't able to patch. So they're just sitting there, these legacy servers are still vulnerable. Brandon (02:52) So there's no direct update path for those old versions, right? It's basically shut this down and reinstall it kind of thing. Jessica Lyons (02:59) Exactly. So basically they're both these memory corruption vulnerabilities and by exploiting them, an attacker can kind of shape the memory that PHP trusts. And then they can use that to hijack what happens next. And that can mean remote code execution. They can take over the websites, they can steal data. And so people are visiting these websites they trust and they don't realize that the underlying code is stealing their data or delivering malware to their computer. And again, this is potentially 70 percent of the internet. So it's a big deal. REG AD Brandon (03:36) Quite a few sites were offline. I know even some big services. I stopped playing because I had a baby, but I used to play Final Fantasy XIV pretty religiously. And I know that the entire login server was offline a couple days ago Jessica Lyons (03:50) Right. Brandon (03:50) They were like, \"You've got to fix this. Sorry, no one can play the game. If you're not logged in right now, you're not getting logged in for the foreseeable future.\" It's just insane how much of the internet was affected by this. Now It's under exploit, is that correct? But maybe not successfully exploited yet? Jessica Lyons (04:11) Right. So after the patches were released on Wednesday, later Wednesday, AWS came out and said , \"We've seen exploitation attempts at least four days before the patches were released.\" So that kind of caused another frenzy that, \"My God, it's under attack, the whole internet is on fire.\" There haven't been any successful attacks to date. There's been a ton of attempts. There's a lot of POCs; some work, some don't. But as of Friday, according to the Foundation and according to all of the security experts that I've spoken to, we haven't seen any evidence of successful exploitation. I don't think that means we're in the clear. I think it just means it's taking a while for people – and honestly AIs – to develop successful attacks, but that's where we are right now. Brandon (05:06) Because it's a complicated attack chain, correct? Jessica Lyons (05:10) Right. Yes. Brandon (05:11) So basically, right. This is not working yet, but especially with some of these older websites that are running older versions of PHP that are going to have to take a more thorough approach to getting this fixed and possibly going down for some time, this could be one of those problems that remains serious for a while. And let's not forget, 70 percent of the websites on the internet, that's almost three-quarters of the entire internet. I don't know how many hundreds of thousands or millions of sites that is, but some of those are probably never going to get patched. Jessica Lyons (05:41) Right. Exactly. Brandon (05:43) Just the way it goes. Right. This is going to be the sort of thing that we end up hearing about months or years from now. Jessica Lyons (05:49) I would say years. Brandon (05:53) I'm sure there'll be some bank somewhere that eventually ends up getting – we'll hear about some breach disclosure letter from the state of Maine in four or five years. Jessica Lyons (06:02) And local governments, federal and state governments, I think these are the ones that we're going to be hearing about quite a while from now. Brandon (06:09) Because that's one of the things I was thinking about even for me in my tiny little town in northern Michigan. I wonder if my township or the county is going to be all over it to update their PHP server. Does their IT guy, who probably is a retired dude who lives in the area, even know this is a problem? It really is one of those things that is a big deal, but if you're not kind of following the news on this, it could probably go completely unnoticed. And for many websites, I'm sure it will. Jessica Lyons (06:37) Right. Exactly. Brandon (06:37) So, it's pretty crazy. Liam, you're working on a story, I think, as we are recording this, about some of the history of PHP and how it really probably wasn't very well designed or intended to become so ubiquitous on the internet. What's going on there? Liam Proven (06:53) I've seen one angle on this, which is people saying, \"This is 1990s code and it has 1990s problems,\" which is one way to look at it. But I'm a 1980s internet guy; that's when I started exploring it. My primary email address is older than the web, and it still works. My gods, it gets a lot of spam, but it still works. I've watched the rise and rise of PHP since the first releases. Now, I have no personal interest in web development. I can program, but I don't because I'm really bad at it and nobody needs to have my code inflicted upon them. The guy that wrote PHP in the first place, Rasmus Lerdorf, is my age. I've never met him; I'm sure he's a nice guy. But he said in a very early interview about it, \"I really don't like programming. I built this tool to program less so that I could just reuse code.\" And that was about 1993. He built a little tool that allowed him to put macros in HTML for his own website, and it's just grown. In a later interview, he said something along the lines of, \"I don't know anything about writing programming languages. I'm just improvising this as I go and people seem to like it.\" It originally stood for \"Personal Home Page,\" I think, and later was given a recursive acronym of \"PHP: Hypertext Preprocessor.\" This is a programming language that you mix in with the HTML of a website. It predates the modern model of building websites where a database contains the text and a content management system of some kind assembles on the fly the pages that each person sees. This is an older model where you're running programs that are part of the markup language, which was not a good idea, but that was how he did it. There was a lovely blog post. I've got an old friend who's an extremely skilled and talented programmer who has built a career on PHP, and he said to me, \"Look, those criticisms that you've mentioned are of the really early versions and it's changed now.\" And if he hears this, he's going to be cross with me. But my favorite summary was from a blog called Eev.ee way back when that called PHP \" a fractal of bad design .\" Whatever level you look at it, it was done badly. If you look at the whole plan of \"let's just intermingle program code in with the markup language,\" not a good idea. If you look at the details of how it was implemented, not a good idea. If you look down at low-level details of how the functions return values, not a good idea: inconsistent syntax, inconsistent functions, functions that do really weird things, by default no stack traces, not great error reporting. Now, I'm sure a lot of this has been papered over now, but really there is one reason PHP is still around and still so big: Zuck. Facebook was built in PHP. And Facebook makes lots and lots of money and it's been throwing money at making PHP faster and more reliable and more scalable for decades. Brandon (11:03) Have they been big contributors to it? Liam (11:06) Yeah. They even built a compiler for it, which I suspect is still in use. Now, how much of Facebook today is in PHP? I don't know, possibly none, but for a long time basically the world's biggest and busiest public-facing website that wasn't owned by Google – only because Google have failed to ever make a successful social network – was built on PHP. And it's big, it's complicated. Like Linux itself, nobody fully understands how the whole thing works anymore and hasn't probably for decades. And now people have got bots that they can throw against it and ask them to analyze it. I think this is probably just the first, and I think there's going to be many more. A friend of mine who's a senior developer had a look at the patch, and he's not a C guy, but he said – I'm quoting from comments on Mastodon – that the patch to the current version is 13,000 lines of C. That's a doozy of a patch. Brandon (12:17) That's huge. Liam Proven (12:20) A bunch of people have been working like crazy for quite some time. Some people who've looked at this say it looks handwritten to me. Others have said, \"No, I think this is bot-generated.\" I think the truth is probably a bit of both: some from one, some from the other. Brandon (12:32) Bit of both. I mean, you can't pump out thirteen thousand lines that quickly and have it tested. God, I hope they tested it. Liam Proven (12:41) Right. But that's just for the current version, and this hole affects every published version. So if they do manage to fix this one, how long till the next one comes along? Because I think there's going to be – Brandon (12:56) Especially with the speed at which vulnerabilities are being discovered now. I feel like every time I turn around, I've written one Patch Tuesday article in the past few months, and that one broke the previous two records. And I think since then every month has included more patches, and a lot of those are probably – Jessica Lyons (13:14) October at this point is the record : over a thousand for Microsoft alone. So, yep. Brandon (13:21) That's insane. Like you said, it is a fractal of bad design all the way down, and is going to probably have more vulnerabilities discovered. Jessica Lyons (13:32) Right. Brandon (13:32) Seventy percent of all websites on the internet are using this. What can we do? Are we stuck? Liam Proven (13:35) Well, there's a reas",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain."
+    }
+  ],
+  "collection_evidence": {
+    "state": "ready",
+    "failed_discovery_urls": [],
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "subscription_exclusions": [],
+    "channel": "ibat",
+    "discovery": {
+      "channel": "ibat",
+      "date": "2026-10-27",
+      "feeds": [
+        {
+          "url": "https://www.theregister.com/security/headlines.atom",
+          "entries": 50,
+          "accepted": 12,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/rss.xml",
+          "entries": 100,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&categories=1334&filterByType=FilterablePageBase&rootPage=0",
+          "entries": 99,
+          "accepted": 4,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.europol.europa.eu/rss.xml",
+          "entries": 10,
+          "accepted": 10,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "entries": 30,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://feeds.arstechnica.com/arstechnica/index",
+          "entries": 20,
+          "accepted": 12,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Palantir%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 2,
+          "accepted": 2,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22open%20source%20intelligence%22%20OR%20OSINT%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22law%20enforcement%22%20%28AI%20OR%20%22data%20platform%22%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Polismyndigheten%20%28digitalisering%20OR%20informationsf%C3%B6rs%C3%B6rjning%20OR%20AI%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%28Europol%20OR%20Interpol%29%20%28AI%20OR%20analytics%20OR%20%22information%20sharing%22%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 1,
+          "accepted": 1,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%28myndighet%20OR%20myndigheter%29%20%28datadelning%20OR%20informationsdelning%20OR%20interoperabilitet%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 2,
+          "accepted": 2,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%28%22AI%20agents%22%20OR%20RAG%20OR%20%22knowledge%20graph%22%29%20%28%22public%20sector%22%20OR%20government%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22AI%20Act%22%20%28policing%20OR%20%22data%20protection%22%20OR%20%22law%20enforcement%22%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22digital%20forensics%22%20OR%20%22intelligence%20analysis%22%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=totalf%C3%B6rsvar%20%28myndighetssamverkan%20OR%20informationsdelning%20OR%20teknik%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 2,
+          "accepted": 2,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%28AI%20OR%20OSINT%20OR%20%22graph%20analytics%22%29%20%22public%20safety%22%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aec.europa.eu%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aimy.se%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 4,
+          "accepted": 3,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Adigg.se%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 1,
+          "accepted": 1,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Abra.se%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Anist.gov%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aedpb.europa.eu%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aenisa.europa.eu%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Adigital-strategy.ec.europa.eu%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        }
+      ],
+      "web_candidates": 0,
+      "original_fallback": {
+        "sources_checked": 6,
+        "candidates": 0,
+        "excluded": 14,
+        "sources": [
+          {
+            "domain": "ec.europa.eu",
+            "status": "REACHABLE_NO_CURRENT",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "imy.se",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "digg.se",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "bra.se",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "nist.gov",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "edpb.europa.eu",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          }
+        ]
+      },
+      "candidate_count": 85,
+      "scope": "discovery_only_not_factual_approval"
+    },
+    "checked_at": "2026-10-27T03:39:48.300348+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  }
+}

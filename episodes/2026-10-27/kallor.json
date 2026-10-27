@@ -1,0 +1,14 @@
+[
+  {
+    "source": "www.theregister.com - Articles",
+    "title": "PHP2Shell-sårbarheterna hotar upp till sjuttio procent av webben",
+    "url": "https://www.theregister.com/security/2026/10/26/we-shouldnt-be-surprised-about-the-phpocalypse-as-the-internet-is-built-on-sticks-and-glue/5305186",
+    "evidence": {
+      "date": "2026-10-26T13:14:00+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-27T03:39:42.879378+00:00",
+      "page_sha256": "f01dd0ade96d0e33f9cc44d18271a898ac5f806cb8b0dbbacb06b5ddfcc6cd77",
+      "retrieval_limit": null
+    }
+  }
+]
