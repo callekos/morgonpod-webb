@@ -1,0 +1,200 @@
+[
+  {
+    "source": "Inskickad nyhetsöversikt",
+    "title": "I fokus",
+    "url": null,
+    "owner_input_id": "F01",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "Expressen",
+    "title": "Grova våldet, Expressen",
+    "url": null,
+    "owner_input_id": "V01",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "SR",
+    "title": "Grova våldet, SR",
+    "url": null,
+    "owner_input_id": "V02",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "DN",
+    "title": "Grova våldet, DN",
+    "url": null,
+    "owner_input_id": "V03",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "SR",
+    "title": "Grova våldet, SR",
+    "url": null,
+    "owner_input_id": "V04",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "DN",
+    "title": "Särskilt utsatta brottsoffer, DN",
+    "url": null,
+    "owner_input_id": "B01",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "SR",
+    "title": "Särskilt utsatta brottsoffer, SR",
+    "url": null,
+    "owner_input_id": "B02",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "SR",
+    "title": "Särskilt utsatta brottsoffer, SR",
+    "url": null,
+    "owner_input_id": "B03",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "SR",
+    "title": "Kriminell ekonomi, SR",
+    "url": null,
+    "owner_input_id": "K01",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "GP",
+    "title": "Idrott, GP",
+    "url": null,
+    "owner_input_id": "I01",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "TV4",
+    "title": "Övrigt, TV4",
+    "url": null,
+    "owner_input_id": "O01",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "TV4",
+    "title": "Övrigt, TV4",
+    "url": null,
+    "owner_input_id": "O02",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "SvD",
+    "title": "Övrigt, SvD",
+    "url": null,
+    "owner_input_id": "O03",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "SVT",
+    "title": "Övrigt, SVT",
+    "url": null,
+    "owner_input_id": "O04",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "SVT",
+    "title": "Kriminalvården, SVT",
+    "url": null,
+    "owner_input_id": "KV01",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "Sydsvenskan",
+    "title": "Ledare och debatt, Sydsvenskan",
+    "url": null,
+    "owner_input_id": "L01",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "Inskickad nyhetsöversikt",
+    "title": "Händer idag",
+    "url": null,
+    "owner_input_id": "T01",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  },
+  {
+    "source": "Inskickad nyhetsöversikt",
+    "title": "Händer idag",
+    "url": null,
+    "owner_input_id": "T02",
+    "evidence": {
+      "evidence_level": "owner_supplied_summary",
+      "original_article_read": false,
+      "note": "Tillhandahållen sammanfattning, inte självständigt verifierad originalartikel. Artikel-URL saknas i inskickat underlag; ingen artikellänk har lagts till."
+    }
+  }
+]
