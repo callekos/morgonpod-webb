@@ -1,0 +1,67 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "",
+  "source_coverage": [
+    {
+      "claim": "Tvillingbröder från Ghana och en amerikansk kvinna har erkänt att de ingått i ett internationellt kriminellt nätverk som lurat äldre i USA och Europa på sammanlagt 9 miljoner dollar genom romansbedrägerier.",
+      "source_url": "https://www.bbc.co.uk/news/articles/cwz0vg2j442lo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "claim": "En amerikansk federal domstol har dömt en affärsman och grundare av ett utlåningsföretag till 15 års fängelse för ett ponzibedrägeri på över 76 miljoner dollar.",
+      "source_url": "https://www.occrp.org/en/news/us-court-sentences-lender-to-15-years-over-76m-ponzi-scheme"
+    }
+  ],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://www.bbc.co.uk/news/articles/cwz0vg2j442lo?at_medium=RSS&at_campaign=rss",
+      "covered_facts": [
+        "Tvillingbröderna Jamal och Kamal Abubakari samt Amanda Joy Opoku-Boachie har erkänt medverkan i nätverket.",
+        "Gruppen riktade in sig på äldre i USA och Europa via romansbedrägerier på nätet mellan juli 2024 och april 2026.",
+        "Det totala beloppet uppgick till 9 miljoner dollar.",
+        "De har gått med på att förverka beslagtagna lyxklockor och smycken."
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.occrp.org/en/news/us-court-sentences-lender-to-15-years-over-76m-ponzi-scheme",
+      "covered_facts": [
+        "Edwin Brant Frost IV dömdes till 15 års fängelse av en amerikansk federal domstol.",
+        "Företaget First Liberty Building and Loan drev ett ponzibedrägeri som omfattade över 76 miljoner dollar från över 300 investerare mellan 2021 och juli 2025.",
+        "Medel från nya investerare användes för att betala tidigare sparare samtidigt som miljoner slussades till privat konsumtion.",
+        "Han dömdes att betala full återbetalning."
+      ],
+      "missing_facts": []
+    }
+  ],
+  "selection_decisions": [
+    {
+      "url": "https://www.bbc.co.uk/news/articles/cwz0vg2j442lo?at_medium=RSS&at_campaign=rss",
+      "selected": true,
+      "reason": "Relevanta uppgifter om internationella bedrägerier och penningtvättsrelaterade tillgångar.",
+      "event_key": "ghana_romance_scam",
+      "source_quote": "Twin brothers from Ghana and an American woman have pleaded guilty to being part of an international criminal network that defrauded people on dating sites and social media."
+    },
+    {
+      "url": "https://www.occrp.org/en/news/us-court-sentences-lender-to-15-years-over-76m-ponzi-scheme",
+      "selected": true,
+      "reason": "Viktig dom om storskaligt finansiellt bedrägeri och strukturer för kapitalförskingring.",
+      "event_key": "us_ponzi_scheme",
+      "source_quote": "A U.S. federal court has sentenced a businessman to 15 years in prison for his role in running a Ponzi scheme that defrauded hundreds of investors out of millions of dollars."
+    }
+  ],
+  "format_decision": {
+    "outcome": "standard",
+    "reason": "Insamlingen har fungerat och två relevanta källor med god täckning av kriminell ekonomi har behandlats fullt ut."
+  },
+  "access_exclusions_reviewed": true,
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "f4c09ebefe0164b3ab6d2b6df6965e5ee5312b48083b149ccecf50d8200e034b",
+    "news_sha256": "31d51f29c5c1fe61869ab0ceacbe4dabbe9f8211ae56b8e88d71edd03f9a95de",
+    "script_sha256": "033f3feb9e4b76ff8b1bf3861675b132acbd9b54f09945da5695fe9108ac4613",
+    "collection_sha256": "7b527a56bc5fd2757080b160f3b6c6b1bcdb06f037109d985fbefee96f374a33"
+  }
+}

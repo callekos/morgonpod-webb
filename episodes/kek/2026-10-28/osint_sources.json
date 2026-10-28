@@ -1,0 +1,271 @@
+{
+  "channel": "kek",
+  "date": "2026-10-28",
+  "sources": [
+    {
+      "id": 42,
+      "title": "Ghanaian twin brothers and US woman plead guilty to $9m romance scam",
+      "url": "https://www.bbc.co.uk/news/articles/cwz0vg2j442lo?at_medium=RSS&at_campaign=rss",
+      "summary": "The group targeted elderly people across US and Europe, luring them into romantic relationship before persuading them to transfer large sums of money.",
+      "date": "2026-10-27T18:43:41+00:00",
+      "publisher": "BBC News",
+      "discovery_identity": {
+        "url": "https://www.bbc.co.uk/news/articles/cwz0vg2j442lo?at_medium=RSS&at_campaign=rss",
+        "title": "Ghanaian twin brothers and US woman plead guilty to $9m romance scam",
+        "summary": "The group targeted elderly people across US and Europe, luring them into romantic relationship before persuading them to transfer large sums of money.",
+        "date": "2026-10-27T18:43:41+00:00",
+        "publisher": "BBC News"
+      },
+      "discovery_version_key": "8e34b578266c82aab452cf52c69f112e4eb3080f947595fcbb8f92a203c97cde",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-28T02:16:48.830483+00:00",
+      "page_sha256": "25e7426280eaa94c3648242d5eb2aab2ddbac6b17591adc7c7bf09f88b9692f2",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/cwz0vg2j442lo?at_medium=RSS&at_campaign=rss",
+      "extraction_method": "title_matched_article",
+      "text": "Image source, TikTok/@arrangmentlancaster By Gabriela Pomeroy Â and Â Thomas Naadi ,Â BBC Africa ,Â Reporting from Accra Published 27 October 2026 Twin brothers from Ghana and an American woman have pleaded guilty to being part of an international criminal network that defrauded people on dating sites and social media. The group targeted elderly people in the US and Europe, using fake identities to lure their victims into believing they were in a romantic relationship, before persuading them to transfer large sums of money into bank accounts in Ghana. The 22-year-old twins, Jamal and Kamal Abubakari, and 53-year-old Amanda Joy Opoku-Boachie from Hawaii face up to 20 years in jail and will be sentenced next year. Between July 2024 - April 2026, the victims collectively lost $9m (Â£6.7m). While many of them were from Ohio - where the charges were brought - other victims were located in 24 other US states, as well as Germany and Austria. As part of the plea, the Abubakaris and Opoku-Boachie agreed to forfeit pieces of jewellery which investigators seized during their arrest, including luxury watches, rings, chains and earrings. Image source, US Attorney's Office, Northern District of Ohio Image caption, Jewellery was confiscated from the gang after they were arrested The three accused go by several names: Jamal Abubakari, also known as Jamal Abubakar and Arrangement Kamal Abubakari, also known as Kamal Abubakar and Lancaster Joy Opoku-Boachie, also known as Amanda Joy Glum and Amanda Joy Kessei Bierman In recent months, US authorities have stepped up their crackdown on criminal networks operating in the US and West Africa which seek to defraud elderly Americans. Earlier this month, FBI Director Kash Patel said it had made hundreds of arrests after dismantling a scam centre in Ghana. In June, a Ghanaian social media influencer known as Abu Trica, whose real name is Frederick Kumi, was extradited to the US to face trial for allegedly running a romance scam that defrauded elderly Americans of more than $8m (Â£5.9m). He targeted victims through social media and online dating platforms, and is accused of requesting money or valuables under false pretences such as urgent medical needs. The case against Kumi is being prosecuted under the US Elder Abuse Prevention and Prosecution law. He denies all the charges against him. You may also be interested in: Ghanaian influencer extradited to US over $8m scam targeting elderly Americans Published 10 July The ultra-violent cult that became a global mafia Published 13 December 2021 The fake sex chats fuelled by an elaborate scam Published 22 September 2022 Dead in 6 hours: How Nigerian sextortion scammers targeted my son Published 9 June 2024 Mass arrests in global crackdown on West African cyber-crime networks Published 25 August Go to BBCAfrica.com , external for more news from the African continent. Follow us on Twitter @BBCAfrica , external , on Facebook at BBC Africa , external or on Instagram at bbcafrica , external Related topics Ghana United States Africa BBC Africa podcasts Focus on Africa This Is Africa",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain."
+    },
+    {
+      "id": 2,
+      "title": "U.S. Court Sentences Lender to 15 Years over $76M Ponzi Scheme",
+      "url": "https://www.occrp.org/en/news/us-court-sentences-lender-to-15-years-over-76m-ponzi-scheme",
+      "summary": "",
+      "date": "2026-10-27T13:10:00+00:00",
+      "publisher": "OCCRP",
+      "discovery_identity": {
+        "url": "https://www.occrp.org/en/news/us-court-sentences-lender-to-15-years-over-76m-ponzi-scheme",
+        "title": "U.S. Court Sentences Lender to 15 Years over $76M Ponzi Scheme",
+        "summary": "",
+        "date": "2026-10-27T13:10:00+00:00",
+        "publisher": "OCCRP"
+      },
+      "discovery_version_key": "00b37b93dd81c3985023ce4b773637a06392021fc13b9d77668f960d4e147fc7",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-28T02:16:48.830591+00:00",
+      "page_sha256": "75d4a7d1ccd135f4197dcffb2f1e215371e8e18d9d4c0d704871e019fbd4f873",
+      "resolved_url": "https://www.occrp.org/en/news/us-court-sentences-lender-to-15-years-over-76m-ponzi-scheme",
+      "extraction_method": "primary_body_container",
+      "text": "A U.S. federal court has sentenced a businessman to 15 years in prison for his role in running a Ponzi scheme that defrauded hundreds of investors out of millions of dollars. According to a statement from the Department of Justice, Edwin Brant Frost IV, the founder of a conservative, Christian lending firm in Georgia, defrauded more than 300 investors out of over $76 million in a massive Ponzi scheme. Frost, who was convicted of wire fraud in May after pleading guilty, will also have to pay back over $76 million in restitution to victims. According to federal prosecutors, Frost's now-defunct company, First Liberty Building and Loan, LLC, ran the Ponzi scheme between at least 2021 and July 2025. Frost scammed investors by claiming he was making high-interest, short-term “bridge loans” to small businesses. Prosecutors stated that after most of the bridge loans defaulted, Frost began using new investor funds to pay interest to existing investors, while secretly diverting at least $5 million for lavish personal purchases and political contributions.",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain."
+    }
+  ],
+  "collection_evidence": {
+    "state": "ready",
+    "failed_discovery_urls": [],
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "subscription_exclusions": [],
+    "channel": "kek",
+    "discovery": {
+      "channel": "kek",
+      "date": "2026-10-28",
+      "feeds": [
+        {
+          "url": "https://www.occrp.org/en/feed",
+          "entries": 60,
+          "accepted": 5,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.occrp.org/en/investigations/feed",
+          "entries": 10,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/rss.xml",
+          "entries": 100,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.europol.europa.eu/rss.xml",
+          "entries": 10,
+          "accepted": 10,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "entries": 27,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=kriminell%20ekonomi%20penningtv%C3%A4tt%20brottsvinster%20Sverige%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=v%C3%A4lf%C3%A4rdsbrott%20ekonomisk%20brottslighet%20organiserad%20brottslighet%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Europol%20money%20laundering%20asset%20recovery%20criminal%20finance%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=economic%20crime%20organized%20crime%20financial%20investigations%20Europe%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aekobrottsmyndigheten.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Apolisen.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Afi.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Askatteverket.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Adi.se%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aft.com%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aeba.europa.eu%20money%20laundering%20financial%20crime%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        }
+      ],
+      "web_candidates": 0,
+      "original_fallback": {
+        "sources_checked": 6,
+        "candidates": 0,
+        "excluded": 31,
+        "sources": [
+          {
+            "domain": "ekobrottsmyndigheten.se",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "polisen.se",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "fi.se",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "skatteverket.se",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "di.se",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "ft.com",
+            "status": "BLOCKED",
+            "http_status": 403,
+            "error": null
+          }
+        ]
+      },
+      "candidate_count": 51,
+      "scope": "discovery_only_not_factual_approval"
+    },
+    "checked_at": "2026-10-28T02:16:52.341399+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "source": "BBC News",
+    "title": "Ghanaian twin brothers and US woman plead guilty to $9m romance scam",
+    "url": "https://www.bbc.co.uk/news/articles/cwz0vg2j442lo?at_medium=RSS&at_campaign=rss",
+    "evidence": {
+      "date": "2026-10-27T18:43:41+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-28T02:16:48.830483+00:00",
+      "page_sha256": "25e7426280eaa94c3648242d5eb2aab2ddbac6b17591adc7c7bf09f88b9692f2",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "OCCRP",
+    "title": "U.S. Court Sentences Lender to 15 Years over $76M Ponzi Scheme",
+    "url": "https://www.occrp.org/en/news/us-court-sentences-lender-to-15-years-over-76m-ponzi-scheme",
+    "evidence": {
+      "date": "2026-10-27T13:10:00+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-28T02:16:48.830591+00:00",
+      "page_sha256": "75d4a7d1ccd135f4197dcffb2f1e215371e8e18d9d4c0d704871e019fbd4f873",
+      "retrieval_limit": null
+    }
+  }
+]
