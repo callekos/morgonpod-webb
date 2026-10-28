@@ -1,0 +1,65 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "",
+  "source_coverage": [
+    {
+      "claim": "Den tidigare brittiske polischefen Steven Richardson har startat ett nytt AI-bolag med namnet 22one som tagit in kapital från bland annat svenska Creandum.",
+      "source_url": "https://www.realtid.se/bors-finans/ex-polisen-startar-hemligt-ai-bolag-med-svenskt-riskkapital/"
+    },
+    {
+      "claim": "University of New Mexico har drabbats av en it-händelse vid sitt hälsovetenskapscentrum som lett till inställda lektioner och att ambulanser tillfälligt dirigerats om.",
+      "source_url": "https://www.theregister.com/cyber-crime/2026/10/27/day-2-of-canceled-classes-at-university-of-new-mexico-after-health-sciences-center-cyberattack/5305690"
+    }
+  ],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://www.realtid.se/bors-finans/ex-polisen-startar-hemligt-ai-bolag-med-svenskt-riskkapital/",
+      "covered_facts": [
+        "Steven Richardson startar AI-bolaget 22one",
+        "Säkrat kapital från svenska Creandum",
+        "Syftar till att effektivisera polisutredningar"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.theregister.com/cyber-crime/2026/10/27/day-2-of-canceled-classes-at-university-of-new-mexico-after-health-sciences-center-cyberattack/5305690",
+      "covered_facts": [
+        "It-händelse vid University of New Mexico",
+        "Hälsovetenskapscentrumet drabbat",
+        "Inställda lektioner och omdirigerade ambulanser"
+      ],
+      "missing_facts": []
+    }
+  ],
+  "selection_decisions": [
+    {
+      "url": "https://www.realtid.se/bors-finans/ex-polisen-startar-hemligt-ai-bolag-med-svenskt-riskkapital/",
+      "selected": true,
+      "reason": "Relevant nyhet om AI och polissatsningar med svenskt riskkapital.",
+      "event_key": "ex-polischef-ai-bolag",
+      "source_quote": "Den tidigare brittiske polischefen Steven Richardson har tagit in kapital från flera framstående riskkapitalbolag för att bygga ett AI-företag riktat till polismyndigheter."
+    },
+    {
+      "url": "https://www.theregister.com/cyber-crime/2026/10/27/day-2-of-canceled-classes-at-university-of-new-mexico-after-health-sciences-center-cyberattack/5305690",
+      "selected": true,
+      "reason": "Relevant it-säkerhetshändelse som påverkar sjukhus och samhällsviktig verksamhet.",
+      "event_key": "unm-cyberattack",
+      "source_quote": "The University of New Mexico is canceling classes across the medicine, nursing, and pharmacy faculties for a second day amid continued efforts to recover from a \"cybersecurity event.\""
+    }
+  ],
+  "format_decision": {
+    "outcome": "standard",
+    "reason": "Tillräckligt med verifierat och relevant källunderlag föreligger för att genomföra en sedvanlig genomgång."
+  },
+  "access_exclusions_reviewed": true,
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "d8924b7b378b2902f03f20720203639eb2d9705e401711fbc1975203627fe7b2",
+    "news_sha256": "dff3c26bdacd2f38873df75d321422eaa99c057e512b6a63edbcbd2828ed7ed6",
+    "script_sha256": "b78d3f7215aaeb921a74ab7f857b485f260f89f7394f06437f00949b548fe384",
+    "collection_sha256": "08cdcf209afeef2b776f98b9c9aefef10b0c400dc7621af139f702bca0eb91b1"
+  }
+}

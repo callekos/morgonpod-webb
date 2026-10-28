@@ -1,0 +1,350 @@
+{
+  "channel": "ibat",
+  "date": "2026-10-28",
+  "sources": [
+    {
+      "id": 2,
+      "title": "Day 2 of canceled classes at University of New Mexico after Health Sciences Center cyberattack",
+      "url": "https://www.theregister.com/cyber-crime/2026/10/27/day-2-of-canceled-classes-at-university-of-new-mexico-after-health-sciences-center-cyberattack/5305690",
+      "summary": "University hospitals once again accepting patients after initial ambulance diversion, but recovery to continue in phases",
+      "date": "2026-10-27T16:15:00+00:00",
+      "publisher": "www.theregister.com - Articles",
+      "discovery_identity": {
+        "url": "https://www.theregister.com/cyber-crime/2026/10/27/day-2-of-canceled-classes-at-university-of-new-mexico-after-health-sciences-center-cyberattack/5305690",
+        "title": "Day 2 of canceled classes at University of New Mexico after Health Sciences Center cyberattack",
+        "summary": "University hospitals once again accepting patients after initial ambulance diversion, but recovery to continue in phases",
+        "date": "2026-10-27T16:15:00+00:00",
+        "publisher": "www.theregister.com - Articles"
+      },
+      "discovery_version_key": "0e0e5b1bff41267c9e29392f043250b9ee65b6e8fbbf2c7ce0b7cab649160d86",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-28T05:16:30.767533+00:00",
+      "page_published_at": "2026-10-27T16:15:00+00:00",
+      "page_modified_at": "2026-10-27T14:11:20+00:00",
+      "page_sha256": "3166df08df70414723104f725474829ee845c318b370cc8e013472454a29db6a",
+      "resolved_url": "https://www.theregister.com/cyber-crime/2026/10/27/day-2-of-canceled-classes-at-university-of-new-mexico-after-health-sciences-center-cyberattack/5305690",
+      "extraction_method": "title_matched_article",
+      "text": "cyber-crime Day 2 of canceled classes at University of New Mexico after Health Sciences Center cyberattack University hospitals once again accepting patients after initial ambulance diversion, but recovery to continue in phases Connor Jones Connor Jones Cybersecurity reporter Published tue 27 Oct 2026 // 16:15 UTC Make us preferred on Google READ MORE AI 'hacker' finds 4 severe bugs in popular industrial control software in under 4 hours 8 hours ago CISA confirms PHP2Shell under attack as researchers clock successful exploits 13 hours ago Microsoft releases out-of-band Windows fixes with certificate updates 15 hours ago Attack on email hosting provider for German far right party AfD exposed 345k accounts 16 hours ago Japanese virtual desktop cloud hacked so hard it asks to be banned 1 day ago The University of New Mexico is canceling classes across the medicine, nursing, and pharmacy faculties for a second day amid continued efforts to recover from a \"cybersecurity event.\" The attack targeted the Health Sciences Center on Monday, the Uni revealed, forcing it to shut down systems, cancel appointments and clinics at UNM Health hospitals, and divert ambulances to healthcare facilities in nearby Albuquerque and Santa Fe. Hospital appointments and clinics return to normal today, although nonessential UNM Health Sciences Center staff are being asked to remain at home. REG AD \"The University of New Mexico Health Sciences Center (HSC), which includes the UNM Health clinical delivery system, experienced a cybersecurity event Monday, Oct. 26, 2026,\" the university said in a statement on Monday evening. REG AD \"HSC information technology security teams immediately took steps to contain the event and protect the network. They also notified state and federal law enforcement and engaged external partners to assist with the investigation. \"Leadership activated an Emergency Operations Center to coordinate the response and provide guidance to HSC employees, students, and UNM Health system frontline providers.\" The university announced the attack at 1430 local time, immediately cancelling all remaining clinics and classes, dismissing everyone other than critical and clinical staff, and urging patients not to attend HSC facilities. It has not commented on the nature of the cyberattack, although that hasn’t stopped researchers from speculating about ransomware’s involvement. Rumors were fuelled by the newly assembled BYOD ransomware group claiming responsibility for the attack on Monday afternoon. It's important to note that just because a purported ransomware group took credit for the attack, it does not mean they actually were responsible, nor does it mean they deployed a ransomware/locker payload as part of the attack. However, the group's take on the digital raid is that it compromised 36,000 machines, \"both [Active Directory] forests,\" two Oracle databases, the personal data belonging to every student and employee, as well as internal emails and data from other systems. As Reg readers know, a cybercriminal's word is never one to be trusted. Yet BYOD's claims about breaching Trump Mobile's customer database appear to have held up It was a bold debut, even for a ransomware crew: BYOD’s first named victim was the US president's smartphone biz , with data allegedly leaked for all 3,615 customers. REG AD A rival group, EndZone, claimed a similar breach a week earlier, and some experts suggested the two could be one and the same. In May, the Trump Mobile was found leaking thousands of people's data via a poorly secured website . The Trump Organization did not respond to our requests for more information in either of these cases. A UNM spokesperson declined to answer our additional questions, directing us back to its public statement. ® healthcare united states of america security cyber-crime Make us preferred on Google",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain."
+    },
+    {
+      "id": 97,
+      "title": "Ex-polisen startar hemligt AI-bolag – med svenskt riskkapital - Realtid",
+      "url": "https://www.realtid.se/bors-finans/ex-polisen-startar-hemligt-ai-bolag-med-svenskt-riskkapital/",
+      "summary": "Ex-polisen startar hemligt AI-bolag – med svenskt riskkapital Realtid",
+      "date": "2026-10-27T13:39:25+01:00",
+      "publisher": "Realtid",
+      "discovery_identity": {
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYW5MdS1TdVpuZ2hLclJ4TklxblY3YllwTGZadWJONnBoaFpZRnUzcWdKa0d5LUdtY1ZBMG5zSFIyOVV2TUEzVEotVHdpMUZrV3EteDlHQWZEcFJueTBsYXhRa2ctUVZlRExGUFFYbFlZOUg0U1l5Y2pkRldHOFRITUloNHR0WjNzdmJBUlpDWHAyd21adS1yREtMUQ?oc=5",
+        "title": "Ex-polisen startar hemligt AI-bolag – med svenskt riskkapital - Realtid",
+        "summary": "Ex-polisen startar hemligt AI-bolag – med svenskt riskkapital Realtid",
+        "date": "2026-10-27T12:39:25+00:00",
+        "publisher": "Realtid"
+      },
+      "discovery_version_key": "c76118e0357dbdff200db4b9bc1fba7cc254744680cfebf440eb7e4353dda77d",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-28T05:16:30.767711+00:00",
+      "discovery_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYW5MdS1TdVpuZ2hLclJ4TklxblY3YllwTGZadWJONnBoaFpZRnUzcWdKa0d5LUdtY1ZBMG5zSFIyOVV2TUEzVEotVHdpMUZrV3EteDlHQWZEcFJueTBsYXhRa2ctUVZlRExGUFFYbFlZOUg0U1l5Y2pkRldHOFRITUloNHR0WjNzdmJBUlpDWHAyd21adS1yREtMUQ?oc=5",
+      "page_published_at": "2026-10-27T13:39:25+01:00",
+      "page_modified_at": "2026-10-27T13:39:27+01:00",
+      "discovery_date": "2026-10-27T12:39:25+00:00",
+      "date_precision": "timestamp",
+      "resolved_url": "https://www.realtid.se/bors-finans/ex-polisen-startar-hemligt-ai-bolag-med-svenskt-riskkapital/",
+      "text": "AI vinner mark i en rad olika sektorer, även i säkerhetsbranschen. Den har en före detta polistopp i Storbritannien tagit fasta på. ANNONS ANNONS Den tidigare brittiske polischefen Steven Richardson har tagit in kapital från flera framstående riskkapitalbolag för att bygga ett AI-företag riktat till polismyndigheter. Hans nystartade bolag 22one värderas till närmare 400 miljoner dollar. Bland investerarna finns de amerikanska riskkapitalbolagen Sequoia, General Catalyst och Lux Capital samt svenska Creandum. Har jobbat på Palantir Det framgår av uppgifter till Financial Times från personer med insyn i verksamheten. 22one är baserat i Storbritannien och befinner sig i ett tidigt skede. Bolaget har ännu ingen offentlig verksamhetspresentation, utan endast en webbplats med ordet ”investigate”. Enligt personer med insyn ska företaget utveckla AI-verktyg som hjälper poliser att arbeta effektivare och påskynda utredningar. Steven Richardson arbetade fram till 2021 som detective chief superintendent vid Merseyside Police i nordvästra England, som bland annat ansvarar för Liverpoolområdet. ANNONS Efter sin tid inom polisen arbetade han på Amazon Web Services, där han ansvarade för polisverksamheten i Storbritannien, och därefter på teknikbolaget Palantir. Läs mer: AI är inte din vän: Anthropic anmälde användare till polisen. Dagens PS ANNONS Vill använda AI mer Richardson var också med och grundade Riven, ett företag som utvecklade verktyg för att maskera känsliga uppgifter i dokument och söka igenom data. Tekniken användes av brittiska polismyndigheter. Riven har sedan dess sålts. Satsningen kommer samtidigt som den brittiska regeringen vill öka användningen av AI inom landets polisväsende. I juni inrättades PoliceAI, en organisation med uppdrag att utveckla, testa och införa tekniken. Regeringen bedömer att tidsbesparingarna kan motsvara kapaciteten hos 3 000 ytterligare poliser, utöver de omkring 145 000 som redan tjänstgör i England och Wales. ANNONS Läs mer: EU blir världens AI-polis: med bara 35 personer på jobbet. Dagens PS Söker egna lösningar Samtidigt växer motståndet mot vissa amerikanska teknikleverantörer. Brittiska myndigheter vill i högre grad använda inhemskt utvecklade lösningar, skriver CityAM . En specialenhet för regionala polisinsatser har avslutat ett pilotprojekt med Palantir, och Londons borgmästare Sadiq Khan stoppade ett föreslaget tvåårigt kontrakt värt 50 miljoner pund mellan bolaget och Metropolitan Police. Användningen av AI inom polisen väcker även frågor om rättssäkerhet. I Derbyshire pågår en brottsutredning efter misstankar om att en polis använt AI-chattbotar för att göra bevismaterial i domstol mer belastande för den tilltalade. 22one och de namngivna investerarna har avböjt att kommentera uppgifterna. Läs mer: Lättnad för Frankrike – räntorna faller efter positivt kreditbesked. Realtid Läs mer från Realtid - vårt nyhetsbrev är kostnadsfritt: Prenumerera",
+      "page_sha256": "112c2a35a59e3d84fbc43d2c964c6041f7048521184c2e18234dd425aa9ec39f",
+      "extraction_method": "rendered_visible_primary_article",
+      "evidence_limit": "Visible rendered primary-page text; factual review remains mandatory."
+    }
+  ],
+  "collection_evidence": {
+    "state": "ready",
+    "failed_discovery_urls": [],
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "subscription_exclusions": [],
+    "channel": "ibat",
+    "discovery": {
+      "channel": "ibat",
+      "date": "2026-10-28",
+      "feeds": [
+        {
+          "url": "https://www.theregister.com/security/headlines.atom",
+          "entries": 50,
+          "accepted": 17,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/rss.xml",
+          "entries": 100,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&categories=1334&filterByType=FilterablePageBase&rootPage=0",
+          "entries": 99,
+          "accepted": 15,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.europol.europa.eu/rss.xml",
+          "entries": 10,
+          "accepted": 10,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "entries": 27,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://feeds.arstechnica.com/arstechnica/index",
+          "entries": 20,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Palantir%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 5,
+          "accepted": 5,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22open%20source%20intelligence%22%20OR%20OSINT%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 3,
+          "accepted": 3,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22law%20enforcement%22%20%28AI%20OR%20%22data%20platform%22%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Polismyndigheten%20%28digitalisering%20OR%20informationsf%C3%B6rs%C3%B6rjning%20OR%20AI%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%28Europol%20OR%20Interpol%29%20%28AI%20OR%20analytics%20OR%20%22information%20sharing%22%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 1,
+          "accepted": 1,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%28myndighet%20OR%20myndigheter%29%20%28datadelning%20OR%20informationsdelning%20OR%20interoperabilitet%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 4,
+          "accepted": 4,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%28%22AI%20agents%22%20OR%20RAG%20OR%20%22knowledge%20graph%22%29%20%28%22public%20sector%22%20OR%20government%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22AI%20Act%22%20%28policing%20OR%20%22data%20protection%22%20OR%20%22law%20enforcement%22%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22digital%20forensics%22%20OR%20%22intelligence%20analysis%22%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 1,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=totalf%C3%B6rsvar%20%28myndighetssamverkan%20OR%20informationsdelning%20OR%20teknik%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 3,
+          "accepted": 3,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%28AI%20OR%20OSINT%20OR%20%22graph%20analytics%22%29%20%22public%20safety%22%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aimy.se%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 4,
+          "accepted": 1,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Adigg.se%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 1,
+          "accepted": 1,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Abra.se%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 1,
+          "accepted": 1,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Anist.gov%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aedpb.europa.eu%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aenisa.europa.eu%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Adigital-strategy.ec.europa.eu%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aop.europa.eu%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        }
+      ],
+      "web_candidates": 0,
+      "original_fallback": {
+        "sources_checked": 6,
+        "candidates": 1,
+        "excluded": 32,
+        "sources": [
+          {
+            "domain": "imy.se",
+            "status": "ACTIVE_NEWS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "digg.se",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "bra.se",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "nist.gov",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "edpb.europa.eu",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          },
+          {
+            "domain": "enisa.europa.eu",
+            "status": "REACHABLE_UNDATED_SIGNALS",
+            "http_status": 200,
+            "error": null
+          }
+        ]
+      },
+      "candidate_count": 115,
+      "scope": "discovery_only_not_factual_approval"
+    },
+    "checked_at": "2026-10-28T05:16:39.570292+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  }
+}

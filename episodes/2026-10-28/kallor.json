@@ -1,0 +1,26 @@
+[
+  {
+    "source": "Realtid",
+    "title": "Ex-polischef startar AI-bolag med svenskt riskkapital",
+    "url": "https://www.realtid.se/bors-finans/ex-polisen-startar-hemligt-ai-bolag-med-svenskt-riskkapital/",
+    "evidence": {
+      "date": "2026-10-27T13:39:25+01:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-28T05:16:30.767711+00:00",
+      "page_sha256": "112c2a35a59e3d84fbc43d2c964c6041f7048521184c2e18234dd425aa9ec39f",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "www.theregister.com - Articles",
+    "title": "It-händelse vid University of New Mexico leder till inställda lektioner",
+    "url": "https://www.theregister.com/cyber-crime/2026/10/27/day-2-of-canceled-classes-at-university-of-new-mexico-after-health-sciences-center-cyberattack/5305690",
+    "evidence": {
+      "date": "2026-10-27T16:15:00+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-28T05:16:30.767533+00:00",
+      "page_sha256": "3166df08df70414723104f725474829ee845c318b370cc8e013472454a29db6a",
+      "retrieval_limit": null
+    }
+  }
+]

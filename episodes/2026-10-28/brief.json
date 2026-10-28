@@ -1,0 +1,70 @@
+{
+  "title": "IBATs morgonPOD – Den 28 oktober 2026",
+  "intro": "Välkommen till IBATs morgonPOD. I dagens avsnitt uppmärksammar vi hur en tidigare brittisk polischef reser svenskt riskkapital för en ny AI-satsning riktad mot polismyndigheter, samt hur ett amerikanskt universitets sjukhus och fakulteter drabbas av en omfattande it-händelse.",
+  "outlook": "Sammanfattningsvis visar dagens händelser på den pågående och snabba integrationen av artificifikell intelligens inom brottsbekämpande verksamhet samt sårbarheterna i samhällskritiska it-miljöer. Vi fortsätter att följa hur säkerhetskrav och teknikval utvecklas framöver.",
+  "news": [
+    {
+      "category": "AI för informationsanalys",
+      "title": "Ex-polischef startar AI-bolag med svenskt riskkapital",
+      "summary": "Den tidigare brittiske polischefen Steven Richardson har startat det nystartade AI-bolaget 22one för att utveckla verktyg till polismyndigheter. Enligt en artikel i Realtid från den 27 oktober 2026 backas bolaget av tunga riskkapitalbolag, däribland svenska Creandum. Satsningen sker i en tid då den brittiska regeringen vill öka användningen av AI inom polisväsendet för att öka tidsbesparingarna.",
+      "context": "Initiativet belyser hur privata teknik- och AI-lösningar i ökad utsträckning söker sig till den offentliga säkerhetssektorn. Det väcker också frågor om framtida teknikval, leverantörsberoenden och rättssäkerhet vid hantering av brottsutredningar.",
+      "url": "https://www.realtid.se/bors-finans/ex-polisen-startar-hemligt-ai-bolag-med-svenskt-riskkapital/",
+      "publisher": "Realtid",
+      "body": "Den tidigare brittiske polischefen Steven Richardson har tagit in kapital från bland annat svenska Creandum för att bygga ett AI-företag riktat till polismyndigheter, enligt uppgifter som tidningen Realtid publicerade den 27 oktober 2026. Det nystartade bolaget 22one värderas till närmare 400 miljoner dollar och uppges utveckla verktyg som ska hjälpa poliser att arbeta effektivare och påskynda utredningar. Steven Richardson har tidigare arbetat vid Merseyside Police samt på teknikbolag som Amazon Web Services och Palantir. Satsningen sammanfaller med att den brittiska regeringen vill öka användningen av artificifikell intelligens inom polisväsendet. Samtidigt väcker användningen av externa teknikleverantörer och AI-system inom brottsbekämpning diskussioner om bland annat rättssäkerhet och inhemska alternativ.",
+      "id": "realtid-22one-ai",
+      "assessment": "Bedömningen är att privata kapitalinvesteringar i polisrelaterad AI ökar i omfattning, vilket ställer högre krav på myndigheters granskning av teknik och leverantörer.",
+      "previous_reporting": [],
+      "open_questions": [
+        "Vilka specifika tekniska funktioner kommer 22one att erbjuda polismyndigheter?",
+        "Hur kommer brittiska myndigheter att upphandla och utvärdera dessa nya AI-verktyg?"
+      ],
+      "topics": [
+        "AI för informationsanalys",
+        "Digital utveckling i rättsväsende och offentlig sektor"
+      ],
+      "event_links": [],
+      "sources": [
+        {
+          "url": "https://www.realtid.se/bors-finans/ex-polisen-startar-hemligt-ai-bolag-med-svenskt-riskkapital/",
+          "title": "Realtid"
+        }
+      ]
+    },
+    {
+      "category": "Hotbilder och brottslighetens utveckling",
+      "title": "It-händelse vid University of New Mexico leder till inställda lektioner",
+      "summary": "University of New Mexico har tvingats ställa in lektioner inom medicin-, omvårdnads- och apoteksfakulteterna för en andra dag efter en it-händelse. Enligt en publicering av The Register den 27 oktober 2026 drabbades universitetets hälsovetenskapscentrum, vilket ursprungligen ledde till att sjukhus tvingades leda om ambulanser. Sjukhusverksamheten har därefter återgått till att ta emot patienter igen.",
+      "context": "Händelsen understryker sårbarheten hos högre lärosäten och tillhörande sjukvårdssystem för störningar i den digitala infrastrukturen. För samhällsaktörer visar detta på vikten av robusta kontinuitetsplaner och snabb krishantering vid omfattande it-störningar.",
+      "url": "https://www.theregister.com/cyber-crime/2026/10/27/day-2-of-canceled-classes-at-university-of-new-mexico-after-health-sciences-center-cyberattack/5305690",
+      "publisher": "www.theregister.com - Articles",
+      "body": "University of New Mexico har ställt in lektioner över flera fakulteter för en andra dag med anledning av en it-händelse som riktades mot universitetets hälsovetenskapscentrum, uppger The Register i en artikel från den 27 oktober 2026. Attacken tvingade institutionen att stänga ner system, ställa in kliniska mottagningar och dirigera om ambulanser till andra vårdinrättningar i närliggande städer. Universitetsledningen aktiverade ett cencentrum för krisledning och kopplade in externa partners samt lagbevakande myndigheter för att hantera situationen. Medan sjukhusverksamheten har återupptagit mottagandet av patienter fortsätter det tekniska återställningsarbetet i faser.",
+      "id": "theregister-unm-cyberattack",
+      "assessment": "Bedömningen är att angrepp mot samhällsviktig infrastruktur och utbildningsinstitutioner snabbt skapar operativa konsekvenser för både vård och högre utbildning.",
+      "previous_reporting": [],
+      "open_questions": [
+        "Vilken typ av angrepp eller skadlig kod låg bakom it-händelsen vid universitetet?",
+        "Vilka långsiktiga säkerhetsåtgärder kommer att vidtas för att skydda lärosätets nätverk?"
+      ],
+      "topics": [
+        "Hotbilder och brottslighetens utveckling",
+        "Juridik, integritet och informationssäkerhet"
+      ],
+      "event_links": [],
+      "sources": [
+        {
+          "url": "https://www.theregister.com/cyber-crime/2026/10/27/day-2-of-canceled-classes-at-university-of-new-mexico-after-health-sciences-center-cyberattack/5305690",
+          "title": "www.theregister.com - Articles"
+        }
+      ]
+    }
+  ],
+  "description": "Välkommen till IBATs morgonPOD. I dagens avsnitt uppmärksammar vi hur en tidigare brittisk polischef reser svenskt riskkapital för en ny AI-satsning riktad mot polismyndigheter, samt hur ett amerikanskt universitets sjukhus och fakulteter drabbas av en omfattande it-händelse.",
+  "tags": [
+    "AI för informationsanalys",
+    "Hotbilder och brottslighetens utveckling"
+  ],
+  "text_format": "editorial_articles",
+  "editorial_date": "2026-10-28",
+  "channel": "ibat",
+  "editorial_outcome": "standard"
+}
