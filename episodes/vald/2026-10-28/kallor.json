@@ -1,0 +1,38 @@
+[
+  {
+    "source": "SVT Nyheter",
+    "title": "Felskjutning utreds efter dödsskjutningen i Bagarmossen",
+    "url": "https://www.svt.se/nyheter/lokalt/stockholm/felskjutning-bland-utredningssparen-efter-mordet-i-bagarmossen",
+    "evidence": {
+      "date": "2026-10-26T17:04:08+01:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-28T03:16:53.240844+00:00",
+      "page_sha256": "11a4486cce98f0163ced589baaeb008077452f0719f4dd6e1266dea53eacfa7d",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "SVT Nyheter",
+    "title": "Person hittad död i Ockelbo – kvinna anhållen misstänkt för mord",
+    "url": "https://www.svt.se/nyheter/lokalt/gavleborg/person-hittad-dod-i-ockelbo",
+    "evidence": {
+      "date": "2026-10-27T11:54:31+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-28T03:16:43.439672+00:00",
+      "page_sha256": "f176ab20c0b8fa6c514498734287d81ed45df545efc2e10141d1877eff31e4a9",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "SVT Nyheter",
+    "title": "Två män häktade efter misstänkt mordbrand mot bilfirma i Uddevalla",
+    "url": "https://www.svt.se/nyheter/lokalt/vast/tva-man-haktade-efter-misstankt-mordbrand-mot-bilfirma-i-uddevalla",
+    "evidence": {
+      "date": "2026-10-27T10:15:30+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-28T03:16:43.439918+00:00",
+      "page_sha256": "a4461897e53ac34ec81eb0114f71cf4dc015259ec15247366b0f21a066df75e8",
+      "retrieval_limit": null
+    }
+  }
+]

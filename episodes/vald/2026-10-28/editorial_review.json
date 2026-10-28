@@ -1,0 +1,97 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "",
+  "source_coverage": [
+    {
+      "claim": "Utredarna undersöker om skjutningen i Bagarmossen kan ha varit en felskjutning.",
+      "source_url": "https://www.svt.se/nyheter/lokalt/stockholm/felskjutning-bland-utredningssparen-efter-mordet-i-bagarmossen"
+    },
+    {
+      "claim": "En person har hittats död i Ockelbo och en förundersökning om mord har inletts.",
+      "source_url": "https://www.svt.se/nyheter/lokalt/gavleborg/person-hittad-dod-i-ockelbo"
+    },
+    {
+      "claim": "Två män har häktats misstänkta för mordbrand mot en bilfirma i Uddevalla.",
+      "source_url": "https://www.svt.se/nyheter/lokalt/vast/tva-man-haktade-efter-misstankt-mordbrand-mot-bilfirma-i-uddevalla"
+    }
+  ],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/stockholm/felskjutning-bland-utredningssparen-efter-mordet-i-bagarmossen",
+      "covered_facts": [
+        "Mannen sköts till döds i Bagarmossen",
+        "Polis och åklagare prövar om det rör sig om en felskjutning",
+        "Ingen är gripen i nuläget"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/gavleborg/person-hittad-dod-i-ockelbo",
+      "covered_facts": [
+        "Man i 70-årsåldern hittad avliden i Ockelbo",
+        "Förundersökning om mord inledd",
+        "Kvinna anhållen på sannolika skäl"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/vast/tva-man-haktade-efter-misstankt-mordbrand-mot-bilfirma-i-uddevalla",
+      "covered_facts": [
+        "Två män i 25- respektive 35-årsåldern häktade",
+        "Misstänkta för mordbrand mot bilfirma i Uddevalla den 14 oktober",
+        "Den yngre mannen dömd tidigare och kopplad till nätverk i Borås"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c6e3xgq11jqlo?at_medium=RSS&at_campaign=rss",
+      "covered_facts": [],
+      "missing_facts": []
+    }
+  ],
+  "selection_decisions": [
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/stockholm/felskjutning-bland-utredningssparen-efter-mordet-i-bagarmossen",
+      "selected": true,
+      "reason": "Viktig uppdatering om dödsskjutning i Stockholm.",
+      "event_key": "bagarmossen-felskjutning",
+      "source_quote": "Utredarna utesluter inte att skjutningen i Bagarmossen, där en man i 25-årsåldern dog, kan ha varit felriktad."
+    },
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/gavleborg/person-hittad-dod-i-ockelbo",
+      "selected": true,
+      "reason": "Nytt misstänkt mord med anhållen person.",
+      "event_key": "ockelbo-mord",
+      "source_quote": "En man i 70-årsåldern har hittats avliden i en bostad i Ockelbo under måndagen."
+    },
+    {
+      "url": "https://www.svt.se/nyheter/lokalt/vast/tva-man-haktade-efter-misstankt-mordbrand-mot-bilfirma-i-uddevalla",
+      "selected": true,
+      "reason": "Häktningar för anlagd brand med koppling till organiserad brottslighet.",
+      "event_key": "uddevalla-mordbrand",
+      "source_quote": "Knappt två veckor efter branden mot en bilfirma i Uddevalla har nu två misstänkta män häktats."
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c6e3xgq11jqlo?at_medium=RSS&at_campaign=rss",
+      "selected": false,
+      "reason": "Internationellt fall som saknar direkt koppling till den prioriterade svenska brottsutvecklingen.",
+      "event_key": "zimbabwe-court",
+      "source_quote": "The former wife of Zimbabwe's vice-president has been freed from remand after seven years"
+    }
+  ],
+  "format_decision": {
+    "outcome": "standard",
+    "reason": "Tre fullgoda och relevanta händelser finns att tillgå."
+  },
+  "access_exclusions_reviewed": true,
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "1c8965c2c8c2ee17d699a88c8178f58c37cf01632f071df27c0791f688958f6c",
+    "news_sha256": "b02c1074971a672466555931b07ac7d4d5fbf37da256ea7f2bfef2f2c938aedf",
+    "script_sha256": "949b38e8af2bd646e3d9ea35e5fb78cc1acd3b068b496195719cb76d9d8ecf51",
+    "collection_sha256": "c602cc1f2284f9f300f0454ff71a30a100ceffa6332b931af1097cd523a678e2"
+  }
+}

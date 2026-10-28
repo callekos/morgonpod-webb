@@ -1,0 +1,348 @@
+{
+  "channel": "vald",
+  "date": "2026-10-28",
+  "history": [
+    {
+      "id": "article-a4172bc25a9fcc3f25dda489",
+      "date": "2026-10-26",
+      "channel": "vald",
+      "title": "Tonårsflicka häktas efter mordet i Älvsjö",
+      "summary": "En tonårsflicka har häktats på sannolika skäl misstänkt för medhjälp till mord efter att en kvinna i 25-årsåldern sköts till döds i Älvsjö den 16 oktober.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-26:daily",
+      "source_url": "https://www.svt.se/nyheter/lokalt/stockholm/tonarsflicka-begars-haktad-efter-mordet-i-alvsjo",
+      "topics": [
+        "skjutningar-och-dödligt-våld"
+      ],
+      "relevance": 8
+    },
+    {
+      "id": "article-22dc46d64ed352d0f3c86a87",
+      "date": "2026-10-25",
+      "channel": "vald",
+      "title": "Tonårsflicka häktad misstänkt för medhjälp efter mordet i Älvsjö",
+      "summary": "I Älvsjö har en tonårsflicka häktats, på sannolika skäl misstänkt för medhjälp till mord. Det uppger åklagaren för SVT Nyheter. Flickan nekar till brott. Häktningsförhandlingen hölls i Stockholms tingsrätt på söndagseftermiddagen. Åklagaren Lukas Tigerstrand säger att det finns stor risk att utredningen skulle kunna påverkas negativt. Det är den risken, tillsammans med brottsmisstanken, som han lyfter när han förklarar sin begäran.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-25:daily",
+      "source_url": "https://www.svt.se/nyheter/lokalt/stockholm/tonarsflicka-begars-haktad-efter-mordet-i-alvsjo",
+      "topics": [
+        "sverige"
+      ],
+      "relevance": 8
+    },
+    {
+      "id": "article-b366e478bf2709f873a7257c",
+      "date": "2026-10-22",
+      "channel": "vald",
+      "title": "Uppgifter: Polisen utreder Foxtrot-inblandning i mordet i Älvsjö",
+      "summary": "SVT Nyheter uppger den tjugoförsta oktober att polisen undersöker nätverket Foxtrots inblandning i mordet på en kvinna i Älvsjö. Två minderåriga pojkar sitter häktade misstänkta för dådet, som enligt källor rör hämnd riktad mot en anhörig till offret.",
+      "assessment": "Uppgifterna indikerar att nätverksrelaterade konflikter fortsätter att driva aktörer till att använda mycket unga utförare i planerade våldshandlingar.",
+      "open_questions": [
+        "Vilka direkta kopplingar finns mellan de häktade pojkarna och ledarskiktet inom det utpekade nätverket?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-22:daily",
+      "source_url": "https://www.svt.se/nyheter/inrikes/uppgifter-polisen-utreder-foxtrot-inblandning-i-mordet-i-alvsjo",
+      "topics": [
+        "gangkonflikter",
+        "mord",
+        "rekrytering"
+      ],
+      "relevance": 7
+    },
+    {
+      "id": "svt-bagarmossen-20261023",
+      "date": "2026-10-24",
+      "channel": "vald",
+      "title": "En man död efter skjutning i södra Stockholm",
+      "summary": "En man i 25-årsåldern avled efter en skjutning i Bagarmossen under fredagseftermiddagen den 23 oktober 2026. SVT Nyheter rapporterar att polisen inlett en förundersökning om mord och att ingen ännu har gripits. Flera vittnen har hörts på platsen och tekniker har undersökt brottsplatsen.",
+      "assessment": "Händelsen visar på ett fortsatt högt våldstryck med dödlig utgång i publika bostadsmiljöer.",
+      "open_questions": [
+        "Finns det direkta kopplingar till kriminella nätverk i Stockholmsområdet?",
+        "Vilka motiv ligger bakom beskjutningen i anslutning till fordonet?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-24:daily",
+      "source_url": "https://www.svt.se/nyheter/lokalt/stockholm/larm-om-skottlossning-i-sodra-stockholm-kzidi4",
+      "topics": [
+        "skjutningar",
+        "mord",
+        "stockholm"
+      ],
+      "relevance": 6
+    },
+    {
+      "id": "article-f5681d417b8600e29356abc4",
+      "date": "2026-10-26",
+      "channel": "vald",
+      "title": "Jakt på skytten efter mordet i Bagarmossen",
+      "summary": "Polisen söker efter en eller flera gärningsmän efter att en man i 25-årsåldern skjutits till döds i en bil i Bagarmossen på fredagseftermiddagen, rapporterar Dagens Nyheter.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-26:daily",
+      "source_url": "https://www.dn.se/sverige/jakt-pa-skytten-efter-mordet-i-bagarmossen/",
+      "topics": [
+        "skjutningar-och-dödligt-våld"
+      ],
+      "relevance": 5
+    },
+    {
+      "id": "article-289075a9942a032f3fdc6b10",
+      "date": "2026-10-21",
+      "channel": "vald",
+      "title": "Utlämnad misstänkt häktad i Sverige",
+      "summary": "SVT rapporterar att den tjugotvåårige Emin Muqa Kulic har utlämnats från Spanien och häktats i Sverige. Enligt SVT ska han ha tillhört ledarskiktet i Dalennätverket. Samma källa återger att Polisen tidigare har beskrivit honom som Mikael Tenezos högra hand. Det handlar om misstankar och myndigheternas beskrivning av hans roll, inte om en dom i de brott som nu räknas upp.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-21:daily",
+      "source_url": "https://www.svt.se/nyheter/inrikes/svensk-gangtopp-ford-till-sverige-och-haktad",
+      "topics": [
+        "organiserad-brottslighet"
+      ],
+      "relevance": 5
+    },
+    {
+      "id": "article-657287496236cfbc7299d1a2",
+      "date": "2026-10-25",
+      "channel": "vald",
+      "title": "Uppgifter om möjlig felskjutning i Bagarmossen – polisen bekräftar inte teorin",
+      "summary": "I Bagarmossen fortsätter utredningen efter att en man i 25-årsåldern sköts till döds på fredagen. Expressen återger uppgifter till Aftonbladet om att mannen kan ha misstagits för någon annan. Enligt dessa uppgifter var han ostraffad och saknade kända kopplingar till gängkriminalitet. Enligt Expressen vill polisen inte bekräfta teorin om en förväxling. Den ska därför återges som en möjlig förklaring i medieuppgifter, inte som ett fastställt händelseförlopp.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-25:daily",
+      "source_url": "https://www.expressen.se/nyheter/krim/uppgifter-mordet-i-bagarmossen-kan-vara-en-felskjutning/",
+      "topics": [
+        "sverige"
+      ],
+      "relevance": 4
+    },
+    {
+      "id": "article-69b96289d147d56ad9de42cf",
+      "date": "2026-10-22",
+      "channel": "vald",
+      "title": "Gängtoppen Ildar ”Scar” Galiyev åtalas för en rad våldsbrott",
+      "summary": "SVT Nyheter rapporterar den tjugoförsta oktober att 26-årige Ildar Galiyev, känd som Scar, åtalas för över 20 allvarliga brott. Bland åtalspunkterna finns mordet vid Mälarhöjdens IP och anstiftan till det dödliga bombdådet i Fullerö hage år tjugohundratjugotre. Åklagaren betecknar ärendet som gigantiskt med en mängd allvarliga brottsmisstankar.",
+      "assessment": "Åtalet markerar en milstolpe i lagföringen av individer som misstänks ha styrt strukturellt våld i bakgrunden.",
+      "open_questions": [
+        "Hur kommer bevisbördan att värderas i rättegången gällande anstiftan till de omfattande sprängningarna och morden?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-22:daily",
+      "source_url": "https://www.svt.se/nyheter/inrikes/gangtoppen-ildar-scar-galiyev-atalas-for-en-rad-valdsbrott",
+      "topics": [
+        "organiserad-brottslighet",
+        "rättsprocess",
+        "våldsbrott"
+      ],
+      "relevance": 4
+    },
+    {
+      "id": "article-6dc84f2823552b4a664e6831",
+      "date": "2026-10-20",
+      "channel": "vald",
+      "title": "Stort vapentillslag – hittade 31 vapen hos man i Vimmerby",
+      "summary": "En man i 35-årsåldern utan vapenlicens i Vimmerby kommun har åtalats sedan polisen hittat 31 fungerande vapen, inklusive en kulspruta, samt över 11 500 patroner i hans hem och en lagerlokal. Det rör sig enligt åklagaren om ett av de större vapenbeslagen som gjorts i Sverige. Mannen åtalas för synnerligen grovt vapenbrott samt brott mot lagen om brandfarliga och explosiva varor, men nekar till brott.",
+      "assessment": "Ett beslag av denna storleksordning indikerar en betydande risk för att stora vapenmängder kan cirkulera utanför samhällets kontroll, vilket understryker vikten av tidiga underrättelser kring okontrollerade tillgångar.",
+      "open_questions": [
+        "Hur har mannen anskaffat den stora mängden vapen och ammunition utan att det upptäckts tidigare?",
+        "Finns det några verifierade kopplingar till organiserad brottslighet eller extremistmiljöer?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-20:daily",
+      "source_url": "https://www.svt.se/nyheter/lokalt/smaland/stort-vapentillslag-hittade-31-vapen-hos-man",
+      "topics": [
+        "vapenbrott",
+        "brottslighet",
+        "sverige"
+      ],
+      "relevance": 4
+    },
+    {
+      "id": "svt-ronninge-atal-20261027",
+      "date": "2026-10-27",
+      "channel": "vald",
+      "title": "Åtalet efter mordet i Rönninge skjuts upp till den 24 november",
+      "summary": "Åtalet mot den 26-årige man som sitter häktad misstänkt för mordet på 25-åriga My i Rönninge skjuts upp till den 24 november 2026. Det rapporterar SVT Nyheter i en artikel publicerad den 27 oktober. Senior åklagare Markus Hankkio uppger att slutdelgivning av förundersökningen pågår och att det omfattande materialet nu sammanställs.",
+      "assessment": "Den upprepade förlängningen visar på svårigheterna med att färdigställa komplexa förundersökningar med omfattande teknisk bevisning.",
+      "open_questions": [
+        "Hur kommer tingsrätten att värdera den samlade tekniska bevisningen under den kommande huvudförhandlingen?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-27:daily",
+      "source_url": "https://www.svt.se/nyheter/lokalt/sodertalje/nytt-besked-om-atal-efter-mordet-i-ronninge-utredningen-i-slutfasen",
+      "topics": [
+        "rättsprocess",
+        "mord",
+        "sverige"
+      ],
+      "relevance": 3
+    },
+    {
+      "id": "dn-valdseskalering-20261026",
+      "date": "2026-10-27",
+      "channel": "vald",
+      "title": "Polisen arbetar för att förhindra våldseskalering efter dödsskjutningar",
+      "summary": "Dagens Nyheter rapporterar den 26 oktober 2026 att polisen i södra Stockholm intensifierar sitt arbete för att undvika en våldseskalering efter de senaste veckornas dödsskjutningar i Älvsjö och Bagarmossen. Lokalpolisområdeschef Kristoffer Olofsson uppger att risken för att grovt våld föder ytterligare våld ständigt vägs in i insatserna. Kriminologiprofessor Sven Granath noterar att händelser som felskjutningar kan öka paranoia och leda till hämndspiraler i kriminella miljöer.",
+      "assessment": "Flera snabba våldsdåd i samma polisområde indikerar en förhöjd risk för hämndaktioner och kognitiv stress inom drabbade nätverk.",
+      "open_questions": [
+        "Vilka långsiktiga förebyggande åtgärder kommer att prioriteras för att bryta våldsspiralen i de berörda stadsdelarna?"
+      ],
+      "event_links": [],
+      "previous_reporting": [
+        "article-f5681d417b8600e29356abc4",
+        "svt-bagarmossen-20261023"
+      ],
+      "episode_id": "vald:2026-10-27:daily",
+      "source_url": "https://www.dn.se/sverige/polisen-efter-morden-vi-arbetar-for-att-undvika-valdseskalering/",
+      "topics": [
+        "skjutningar",
+        "stockholm",
+        "gangkonflikter"
+      ],
+      "relevance": 3
+    },
+    {
+      "id": "article-74ba73ce90fe4d4fe5c165b3",
+      "date": "2026-10-21",
+      "channel": "vald",
+      "title": "Omfattande förhandling planeras till november",
+      "summary": "Södertörns tingsrätt har samma dag publicerat information om en omfattande huvudförhandling om bland annat mord och anstiftan till mord. Förhandlingen planeras börja den tredje november i en särskild säkerhetssal på Bergsgatan på Kungsholmen i Stockholm. Den beräknas pågå i knappt femtio dagar och avslutas i slutet av mars nästa år. Domstolen understryker att huvudförhandlingsplanen är preliminär och att sekretessprövning av handlingar pågår.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-21:daily",
+      "source_url": "https://www.domstol.se/nyheter/2026/10/atal-vackt-angaende-mord-anstiftan-till-mord-m-m/",
+      "topics": [
+        "rättsprocess"
+      ],
+      "relevance": 3
+    },
+    {
+      "id": "svt-taberg-explosion-20261026",
+      "date": "2026-10-27",
+      "channel": "vald",
+      "title": "Planerad sprängning gick snett i Taberg – skador på fastighet",
+      "summary": "En mindre planerad sprängning i ett industriområde i Taberg söder om Jönköping gick snett under måndagseftermiddagen den 26 oktober 2026, vilket SVT Nyheter och Brottsplatskartan rapporterar. Stenar slungades över hundra meter och orsakade skador på fasader samt vattenläckor på en intilliggande fastighet. Ingen person kom till skada vid händelsen.",
+      "assessment": "Händelsen bedöms som en olycka i samband med entreprenadarbete snarare än en avsiktlig brottmålsrelaterad sprängning, men kräver utredning av ansvar.",
+      "open_questions": [
+        "Vilka säkerhetsbrister låg bakom att sprängstenar kunde färdas över hundra meter från arbetsplatsen?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-27:daily",
+      "source_url": "https://www.svt.se/nyheter/lokalt/jonkoping/misstankt-explosion-i-taberg",
+      "topics": [
+        "sprängningar",
+        "jonköping",
+        "olyckor"
+      ],
+      "relevance": 2
+    },
+    {
+      "id": "svt-frankrike-protester-20261026",
+      "date": "2026-10-27",
+      "channel": "vald",
+      "title": "Franska regeringen möter studentkrav efter veckor av protester",
+      "summary": "Efter flera veckors våldsamma protester och omfattande kravaller i Frankrike går regeringen till mötes med nya eftergifter, rapporterar SVT Nyheter den 26 oktober 2026. Ett nytt antagningssystem för universitet och högskolor ska utvecklas för att ersätta det kritiserade Parcoursup-systemet senast 2028, och klasstorlekar i gymnasiet begränsas till 28 elever.",
+      "assessment": "Regeringens snabba respons speglar en ambition att avidentifiera och avveckla grunden för de omfattande ordningsstörningarna.",
+      "open_questions": [
+        "Kommer de beslutade utbildningsreformerna att vara tillräckliga för att dämpa framtida oroligheter?"
+      ],
+      "event_links": [],
+      "previous_reporting": [
+        "article-88a4b0365da17cc142f0cf61",
+        "article-3357a080137753be77a375dc"
+      ],
+      "episode_id": "vald:2026-10-27:daily",
+      "source_url": "https://www.svt.se/nyheter/utrikes/regeringens-svar-efter-protesterna-i-frankrike-inga-tomma-loften",
+      "topics": [
+        "protester",
+        "frankrike",
+        "säkerhet"
+      ],
+      "relevance": 2
+    },
+    {
+      "id": "bbc-paris-shooting-20261023",
+      "date": "2026-10-24",
+      "channel": "vald",
+      "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
+      "summary": "BBC News rapporterar att Frankrikes president Emmanuel Macron har klassat skjutningarna i de parisiska förorterna Trappes och La Verrière den 23 oktober 2026 som en rasistisk terrorattack. En person dödades och fem skadades av en 39-årig gärningsman som greps av polis. Nationella antiterroråklagare leder utredningen om kopplingar till terroristbrott.",
+      "assessment": "Händelsen indikerar ett allvarligt hot från ensamagerande förövare som riktar sig mot etniska eller religiösa grupper i Frankrike.",
+      "open_questions": [
+        "Vilka ideologiska eller nätverksmässiga kontakter hade den misstänkte gärningsmannen?",
+        "Hur kunde attacken utföras utan att säkerhetstjänsten fångat upp individen i förväg?"
+      ],
+      "event_links": [],
+      "previous_reporting": [
+        "article-9842dc586d22539c9c46565a",
+        "article-74346b9849c859dbc6eb8bcf"
+      ],
+      "episode_id": "vald:2026-10-24:daily",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
+      "topics": [
+        "internationellt-våld",
+        "terrorism",
+        "frankrike"
+      ],
+      "relevance": 2
+    },
+    {
+      "id": "article-74346b9849c859dbc6eb8bcf",
+      "date": "2026-10-23",
+      "channel": "vald",
+      "title": "Skjutning utanför Paris – en död",
+      "summary": "En person har dödats och fyra skadats i en serie skjutningar i förorter till Paris. Franska antiterroråklagare utreder händelsen som ett terrorbrott.",
+      "assessment": "",
+      "open_questions": [],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-23:daily",
+      "source_url": "https://www.svt.se/nyheter/utrikes/skjutning-utanfor-paris-en-dod",
+      "topics": [
+        "internationellt-våld"
+      ],
+      "relevance": 2
+    },
+    {
+      "id": "article-88a4b0365da17cc142f0cf61",
+      "date": "2026-10-20",
+      "channel": "vald",
+      "title": "Italy plans tougher security measures after violent protests",
+      "summary": "Italienska myndigheter planerar nya akuta säkerhetsåtgärder efter att protester mot stigande levnadskostnader urartade i våldsamma sammandrabbningar i bland annat Milano. Över 250 personer har frihetsberövats, och regeringen överväger hårdare tag mot bland annat minderåriga i kriminella gäng och begränsningar av gruppsammankomster.",
+      "assessment": "Händelserna i Italien speglar en bredare europeisk trend där sociala oroligheter lätt kan utnyttjas av våldsamma element för att skapa ordningsstörningar och skadegörelse.",
+      "open_questions": [
+        "Kommer de föreslagna lagändringarna att få avsedd effekt på att dämpa framtida upplopp?",
+        "Hur sprids mobiliseringen via digitala plattformar i denna typ av oroligheter?"
+      ],
+      "event_links": [],
+      "previous_reporting": [],
+      "episode_id": "vald:2026-10-20:daily",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6j9kwxxmxydo?at_medium=RSS&at_campaign=rss",
+      "topics": [
+        "protester",
+        "italien",
+        "säkerhet"
+      ],
+      "relevance": 2
+    }
+  ]
+}

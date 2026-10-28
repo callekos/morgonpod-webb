@@ -1,0 +1,99 @@
+{
+  "title": "Våld – Lägesbild och omvärldsbevakning den 28 oktober 2026",
+  "intro": "I dagens avsnitt av Våld granskar vi den senaste utvecklingen kring dödliga skjutningar, misstänkta mordbränder och internationella rättsfall. Vi följer upp utredningen efter skjutningen i Bagarmossen, ett misstänkt mord i Ockelbo och två häktade personer efter branden mot en bilfirma i Uddevalla.",
+  "outlook": "Under de kommande dagarna riktar vi fortsatt fokus mot de pågående förundersökningarna i Stockholmsområdet och Gävleborg samt huruvida polisen kan knyta de häktade personerna till grövre nätverksbrottslighet.",
+  "news": [
+    {
+      "category": "Skjutningar och dödligt våld",
+      "title": "Felskjutning utreds efter dödsskjutningen i Bagarmossen",
+      "summary": "SVT Nyheter rapporterar den 26 oktober 2026 att utredarna i fallet med skjutningen i Bagarmossen undersöker teorin om att offret kan ha drabbats av en felskjutning. En man i 25-årsåldern avled efter att ha blivit skjuten i anslutning till en bil i ett bostadsområde i södra Stockholm på fredagseftermiddagen den 23 oktober 2026. I nuläget har ingen misstänkt person identifierats eller gripits.",
+      "context": "Teorin om en eventuell felskjutning understryker den akuta risken för oskyldiga i miljöer där kriminella konflikter tar sig uttryck genom dödligt våld på offentliga platser.",
+      "url": "https://www.svt.se/nyheter/lokalt/stockholm/felskjutning-bland-utredningssparen-efter-mordet-i-bagarmossen",
+      "publisher": "SVT Nyheter",
+      "body": "SVT Nyheter uppger i en artikel publicerad den 26 oktober 2026 att polisen och åklagaren undersöker flera spår efter att en man i 25-årsåldern sköts till döds i Bagarmossen i södra Stockholm under fredagseftermiddagen den 23 oktober 2026. Bland de hypoteser som utredarna prövar finns att gärningsmannen kan ha haft en annan måltavla. Enligt SVT Nyheter har ingen person gripits i nuläget och arbetet fortsätter med förhör och tekniska analysarbeten.",
+      "assessment": "Faktum är att åklagaren bekräftar teorin som ett av flera spår. Bedömningen är att en eventuell felaktig måltavla ökar komplexiteten i utredningen och förstärker oron för slumpmässigt våld.",
+      "previous_reporting": [
+        "svt-bagarmossen-20261023",
+        "article-f5681d417b8600e29356abc4"
+      ],
+      "open_questions": [
+        "Vem var den tänkta måltavlan om det rör sig om en felskjutning?",
+        "Vilka tekniska spår kan binda gärningsmannen till brottsplatsen?"
+      ],
+      "topics": [
+        "skjutningar",
+        "mord",
+        "stockholm"
+      ],
+      "event_links": [],
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/stockholm/felskjutning-bland-utredningssparen-efter-mordet-i-bagarmossen",
+          "title": "SVT Nyheter"
+        }
+      ]
+    },
+    {
+      "category": "Brott och förundersökningar",
+      "title": "Person hittad död i Ockelbo – kvinna anhållen misstänkt för mord",
+      "summary": "SVT Nyheter rapporterar den 27 oktober 2026 att en man i 70-årsåldern har påträffats avliden i en bostad i Ockelbo under måndagen den 26 oktober 2026. Enligt SVT har en förundersökning om mord inletts av polisen och en kvinna har anhållits på sannolika skäl. Åklagaren uppger att ärendet är i ett inledande skede och att beslut om eventuell häktningsframställan ska fattas senast den 29 oktober 2026.",
+      "context": "Ärendet illustrerar en tidig polisinsats i ett mindre samhälle där sekretess omgärdar de initiala utredningsåtgärderna innan häktningsprövning sker.",
+      "url": "https://www.svt.se/nyheter/lokalt/gavleborg/person-hittad-dod-i-ockelbo",
+      "publisher": "SVT Nyheter",
+      "body": "SVT Nyheter rapporterar den 27 oktober 2026 om en omfattande polisinsats i Ockelbo där en man i 70-årsåldern hittades död i en bostad under måndagen den 26 oktober 2026. Kammaråklagare Malin Thörnvall Hillbom uppger i ett pressmeddelande som citeras av SVT Nyheter att en kvinna är anhållen på sannolika skäl misstänkt för mord. Utredningen bedrivs med förhör och tekniska undersökningar, men ytterligare detaljer hålls hemliga med hänsyn till förundersökningssekretessen fram till dess att åklagaren tar ställning till häktning senast den 29 oktober 2026.",
+      "assessment": "Faktum är att en kvinna är anhållen och att mordutredning pågår. Bedömningen är att fallet följer standardrutinen för gröva våldsbrott i nära relationer eller bostadsmiljöer i tidigt skede.",
+      "previous_reporting": [],
+      "open_questions": [
+        "Vilken relation har den anhållna kvinnan till den avlidne mannen?"
+      ],
+      "topics": [
+        "mord",
+        "ockelbo",
+        "polisinsats"
+      ],
+      "event_links": [],
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/gavleborg/person-hittad-dod-i-ockelbo",
+          "title": "SVT Nyheter"
+        }
+      ]
+    },
+    {
+      "category": "Organiserad brottslighet och bränder",
+      "title": "Två män häktade efter misstänkt mordbrand mot bilfirma i Uddevalla",
+      "summary": "SVT Nyheter rapporterar den 27 oktober 2026 att två män i 25- respektive 35-årsåldern har häktats vid Uddevalla tingsrätt under måndagen den 26 oktober 2026, misstänkta för mordbranden mot en bilfirma i Uddevalla som inträffade onsdagskvällen den 14 oktober 2026. Den yngre mannen är sedan tidigare dömd för bland annat narkotikabrott, penningtvätt och utpressning, och kopplas enligt SVT av polisen till ett kriminellt nätverk i Borås.",
+      "context": "Händelsen sätter ljus på hur anlagda bränder mot bilfirmor kan knytas till regionala kriminella nätverk och tidigare våldssekvenser.",
+      "url": "https://www.svt.se/nyheter/lokalt/vast/tva-man-haktade-efter-misstankt-mordbrand-mot-bilfirma-i-uddevalla",
+      "publisher": "SVT Nyheter",
+      "body": "SVT Nyheter uppger den 27 oktober 2026 att två män hemmahörande i Borås har häktats av Uddevalla tingsrätt under måndagen den 26 oktober 2026 efter den anlagda branden mot en bilhall i Uddevalla den 14 oktober 2026. Båda männen förnekar brott. Enligt SVT Nyheter är den yngre mannen i 25-årsåldern tidigare dömd för grova brott och har i andra utredningar samverkat med personer från ett välkänt kriminellt nätverk i Borås. Polisens lokalpolisområdeschef Martin Öhman uppger att polisen undersöker eventuella samband med tidigare skottlossningar och anlagda bränder i Uddevalla.",
+      "assessment": "Faktum är att männen har häktats och nekar till brott. Bedömningen är att tillslag och häktningar mot individer kopplade till nätverk i andra städer visar på gränsöverskridande brottsliga strukturer.",
+      "previous_reporting": [],
+      "open_questions": [
+        "Finns det direkta bevis som binder de häktade männen till tidigare bränder i Uddevalla?"
+      ],
+      "topics": [
+        "mordbrand",
+        "uddevalla",
+        "organiserad-brottslighet"
+      ],
+      "event_links": [],
+      "sources": [
+        {
+          "url": "https://www.svt.se/nyheter/lokalt/vast/tva-man-haktade-efter-misstankt-mordbrand-mot-bilfirma-i-uddevalla",
+          "title": "SVT Nyheter"
+        }
+      ]
+    }
+  ],
+  "description": "I dagens avsnitt av Våld granskar vi den senaste utvecklingen kring dödliga skjutningar, misstänkta mordbränder och internationella rättsfall. Vi följer upp utredningen efter skjutningen i Bagarmossen, ett misstänkt mord i Ockelbo och två häktade personer efter branden mot en bilfirma i Uddevalla.",
+  "tags": [
+    "Skjutningar och dödligt våld",
+    "Brott och förundersökningar",
+    "Organiserad brottslighet och bränder"
+  ],
+  "text_format": "editorial_articles",
+  "editorial_date": "2026-10-28",
+  "channel": "vald",
+  "editorial_outcome": "standard"
+}

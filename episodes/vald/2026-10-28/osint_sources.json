@@ -1,0 +1,270 @@
+{
+  "channel": "vald",
+  "date": "2026-10-28",
+  "sources": [
+    {
+      "id": 12,
+      "title": "Person hittad död i Ockelbo – polisen utreder mord",
+      "url": "https://www.svt.se/nyheter/lokalt/gavleborg/person-hittad-dod-i-ockelbo",
+      "summary": "En man i 70-årsåldern har hittats avliden i en bostad i Ockelbo under måndagen. En förundersökning gällande mord har inletts och en kvinna är anhållen på sannolika skäl.",
+      "date": "2026-10-27T11:54:31+00:00",
+      "publisher": "SVT Nyheter",
+      "discovery_identity": {
+        "url": "https://www.svt.se/nyheter/lokalt/gavleborg/person-hittad-dod-i-ockelbo",
+        "title": "Person hittad död i Ockelbo – polisen utreder mord",
+        "summary": "En man i 70-årsåldern har hittats avliden i en bostad i Ockelbo under måndagen. En förundersökning gällande mord har inletts och en kvinna är anhållen på sannolika skäl.",
+        "date": "2026-10-27T11:54:31+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      "discovery_version_key": "70d4ed29cb09450abdcc6881a299a4d7a049e4f1ef62dbd9080763c74d7d8759",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-28T03:16:43.439672+00:00",
+      "page_published_at": "2026-10-27T12:54:31+01:00",
+      "page_modified_at": "2026-10-27T15:37:09+01:00",
+      "page_sha256": "f176ab20c0b8fa6c514498734287d81ed45df545efc2e10141d1877eff31e4a9",
+      "resolved_url": "https://www.svt.se/nyheter/lokalt/gavleborg/person-hittad-dod-i-ockelbo",
+      "extraction_method": "title_matched_article",
+      "text": "Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd Polisens tekniker förbereder sig för att gå in i bostaden. Foto: Rikard Berglin / SVT Person hittad död i Ockelbo – polisen utreder mord Uppdaterad igår 15:37 Publicerad igår 12:54 En man i 70-årsåldern har hittats avliden i en bostad i Ockelbo under måndagen. En förundersökning gällande mord har inletts och en kvinna är anhållen på sannolika skäl. Det har varit en stor polisinsats i Ockelbo under måndagen, med flera polispatruller på plats – insatsen har varit fokuserad kring en bostad. Vill inte kommentera – Utredningen är i ett inledande skede och polisen arbetar nu med att utreda vad som hänt genom förhör och tekniska undersökningar, säger kammaråklagare Malin Thörnvall Hillbom i ett pressmeddelande. I övrigt vill åklagaren inte kommentera vad som har inträffat med hänvisning till förundersökningssekretessen. Senast den 29 oktober måste åklagaren ta ställning till om kvinnan ska begäras häktad eller försättas på fri fot. Se SVT-reporterns rapport från bostadsområdet i klippet ovan. Polis Våld Ockelbo Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain."
+    },
+    {
+      "id": 15,
+      "title": "Två män häktade efter misstänkt mordbrand mot bilfirma i Uddevalla",
+      "url": "https://www.svt.se/nyheter/lokalt/vast/tva-man-haktade-efter-misstankt-mordbrand-mot-bilfirma-i-uddevalla",
+      "summary": "Knappt två veckor efter branden mot en bilfirma i Uddevalla har nu två misstänkta män häktats. Männen är i 25- respektive 35-årsåldern, varav den ena sedan tidigare är dömd för brott.",
+      "date": "2026-10-27T10:15:30+00:00",
+      "publisher": "SVT Nyheter",
+      "discovery_identity": {
+        "url": "https://www.svt.se/nyheter/lokalt/vast/tva-man-haktade-efter-misstankt-mordbrand-mot-bilfirma-i-uddevalla",
+        "title": "Två män häktade efter misstänkt mordbrand mot bilfirma i Uddevalla",
+        "summary": "Knappt två veckor efter branden mot en bilfirma i Uddevalla har nu två misstänkta män häktats. Männen är i 25- respektive 35-årsåldern, varav den ena sedan tidigare är dömd för brott.",
+        "date": "2026-10-27T10:15:30+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      "discovery_version_key": "2daeb8423c1d140be4bcafcfde760d7b94feb93bb6cb4f2e0e56557634eebf37",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-28T03:16:43.439918+00:00",
+      "page_published_at": "2026-10-27T11:15:30+01:00",
+      "page_modified_at": "2026-10-27T17:11:59+01:00",
+      "page_sha256": "a4461897e53ac34ec81eb0114f71cf4dc015259ec15247366b0f21a066df75e8",
+      "resolved_url": "https://www.svt.se/nyheter/lokalt/vast/tva-man-haktade-efter-misstankt-mordbrand-mot-bilfirma-i-uddevalla",
+      "extraction_method": "title_matched_article",
+      "text": "Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd Räddningstjänst på plats vid branden på bilfirman i Uddevalla, i mitten av oktober 2026. Foto: Rescue Photo Två män häktade efter misstänkt mordbrand mot bilfirma i Uddevalla Uppdaterad igår 17:11 Publicerad igår 11:15 Knappt två veckor efter branden mot en bilfirma i Uddevalla har nu två misstänkta män häktats. Männen är i 25- respektive 35-årsåldern, varav den ena sedan tidigare är dömd för brott. Branden bröt ut i bilhallen i Uddevalla sent på onsdagskvällen , den 14 oktober. Ingen person skadades, men polisen gick tidigt ut med uppgifterna om att de misstänker att branden var anlagd. Tidningen Bohusläningen uppger att två misstänkta män togs av polis under fredagen, drygt en vecka efter händelsen. Männen är hemmahörande i Borås, och häktades vid Uddevalla tingsrätt under måndagen. De båda förnekar brott. Kopplad till känt kriminellt nätverk i Borås Den yngre, som är i 25-årsåldern, är tidigare dömd. Exempelvis sommaren 2025 då han dömdes för narkotikabrott och penningtvättsbrott. Så sent som i augusti 2026 dömdes han till åtta månaders fängelse för försök till utpressning, detta efter att han hotat att våldta och döda en man och hans familj om inte 150 000 kronor betalades. I utredningen om utpressningen konstaterar polisen att mannen i 25-årsåldern agerade ihop med en person från ett välkänt kriminellt nätverk från Borås. Undersöker kopplingar till tidigare bränder Polisen har sedan tidigare uppgett att de utreder om händelsen den 14 oktober kan kopplas till tidigare skottlossningar och bränder vid bilhallar i Uddevalla. – Vi kikar på det om det kan ha ett samband med tidigare händelser, sade lokalpolisområdeschef Martin Öhman i samband med branden. Under 2022 och 2023 inträffade skottlossningar och anlagda bränder i just Uddevalla. Hösten 2025 skedde ett mordförsök när en man i 30-årsåldern sköts med pistol, men överlevde. I tidigare fall har det funnits kopplingar till organiserad brottslighet. Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd Branden misstänks vara anlagd. Foto: Rescue Photo Mordbrand Uddevalla Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain."
+    },
+    {
+      "id": 34,
+      "title": "Ex-wife of Zimbabwe's vice-president freed after collapse of attempted murder case",
+      "url": "https://www.bbc.co.uk/news/articles/c6e3xgq11jqlo?at_medium=RSS&at_campaign=rss",
+      "summary": "Marry Mubaiwa had been held on remand for seven years after being charged in 2019 for her then husband's attempted murder.",
+      "date": "2026-10-27T21:09:12+00:00",
+      "publisher": "BBC News",
+      "discovery_identity": {
+        "url": "https://www.bbc.co.uk/news/articles/c6e3xgq11jqlo?at_medium=RSS&at_campaign=rss",
+        "title": "Ex-wife of Zimbabwe's vice-president freed after collapse of attempted murder case",
+        "summary": "Marry Mubaiwa had been held on remand for seven years after being charged in 2019 for her then husband's attempted murder.",
+        "date": "2026-10-27T21:09:12+00:00",
+        "publisher": "BBC News"
+      },
+      "discovery_version_key": "115b7696577e28f2fb691f3d851c0e1de2916ebb8a898ed4ecf281f9a05cc231",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-28T03:16:43.440185+00:00",
+      "page_sha256": "5e6d4a55b8f8a955523fae3f618f3e10a42c5c50d3985d7cb2ae38411f0fbf1f",
+      "resolved_url": "https://www.bbc.co.uk/news/articles/c6e3xgq11jqlo?at_medium=RSS&at_campaign=rss",
+      "extraction_method": "title_matched_article",
+      "text": "Image source, Getty Images Image caption, Marry Mubaiwa in an image from 2018 when she was still married to Constantino Chiwenga By Patrick Jackson Published 6 hours ago The former wife of Zimbabwe's vice-president has been freed from remand after seven years while on trial for his attempted murder. Marry Mubaiwa was charged in 2019, after her then husband Gen Constantino Chiwenga accused her of trying to impede his medical treatment in South Africa. Ordering her release, a magistrate said Mubaiwa had suffered mental, physical and financial prejudice during the trial, state-owned daily the Herald said. The ruling was made after the state asked for the trial to be postponed by a month in order to engage witnesses. Her lawyer described the ruling as a victory that had come too late, because her client's rights had been violated by the delay in the trial. Speaking outside court in the capital Harare on Tuesday, the lawyer added that if the state moved for a new trial, they would deal with it when it happened. Mubaiwa was accused of attempting to kill Chiwenga, while he was in hospital in Pretoria. The vice-president then went to China for four months of treatment. Mubaiwa was remanded in custody and denied bail. According to the New Zimbabwe news website, Mubaiwa celebrated her release outside court, and said justice had been achieved and that she was proud of her lawyer. In 2017, Chiwenga played a key role in overthrowing then President Robert Mugabe. Related topics Zimbabwe More on this story Vice-president's wife on attempted murder charge Published 16 December 2019",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain."
+    },
+    {
+      "id": 59,
+      "title": "Felskjutning bland utredningsspåren efter mordet i Bagarmossen - SVT Nyheter",
+      "url": "https://www.svt.se/nyheter/lokalt/stockholm/felskjutning-bland-utredningssparen-efter-mordet-i-bagarmossen",
+      "summary": "Felskjutning bland utredningsspåren efter mordet i Bagarmossen SVT Nyheter",
+      "date": "2026-10-26T17:04:08+01:00",
+      "publisher": "SVT Nyheter",
+      "discovery_identity": {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTVhyeVNRb3d1cDl2bDVGZ0xrdmx6T1hiLW9ndXBoRlZXSGZiNk9Ddm5TNTIzbWFxdG9tTGhOT3RxZG1tUWRLeEFkUWVsTmd3SElZTHphdXZ3QzQ0QVljYWhJY1EyS1J4U0NkRzd5V3kybHp2ZU1QdkVWRDJmemlod05ZZFEtRlVpVW11UVRRLTFodWVhS2pMSDFfSkpDeG9sdFlNVHhveC1Fdw?oc=5",
+        "title": "Felskjutning bland utredningsspåren efter mordet i Bagarmossen - SVT Nyheter",
+        "summary": "Felskjutning bland utredningsspåren efter mordet i Bagarmossen SVT Nyheter",
+        "date": "2026-10-26T16:04:08+00:00",
+        "publisher": "SVT Nyheter"
+      },
+      "discovery_version_key": "861ccbad42215d84db34fb63df29163aac1a2c0bf2bc173426967e58ea82c055",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-28T03:16:53.240844+00:00",
+      "discovery_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTVhyeVNRb3d1cDl2bDVGZ0xrdmx6T1hiLW9ndXBoRlZXSGZiNk9Ddm5TNTIzbWFxdG9tTGhOT3RxZG1tUWRLeEFkUWVsTmd3SElZTHphdXZ3QzQ0QVljYWhJY1EyS1J4U0NkRzd5V3kybHp2ZU1QdkVWRDJmemlod05ZZFEtRlVpVW11UVRRLTFodWVhS2pMSDFfSkpDeG9sdFlNVHhveC1Fdw?oc=5",
+      "page_published_at": "2026-10-26T17:04:08+01:00",
+      "page_modified_at": "2026-10-26T17:06:42+01:00",
+      "discovery_date": "2026-10-26T16:04:08+00:00",
+      "date_precision": "timestamp",
+      "resolved_url": "https://www.svt.se/nyheter/lokalt/stockholm/felskjutning-bland-utredningssparen-efter-mordet-i-bagarmossen",
+      "text": "Det var på fredagseftermiddagen som en man i 25-årsåldern sköts till döds i Bagarmossen i södra Stockholm. Foto: Nicklas Thegerström/TT Felskjutning bland utredningsspåren efter mordet i Bagarmossen Uppdaterad 26 oktober 2026 Publicerad 26 oktober 2026 Utredarna utesluter inte att skjutningen i Bagarmossen, där en man i 25-årsåldern dog, kan ha varit felriktad. – Vi tittar på det också, säger åklagaren Rasmus Öman. I nuläget är ingen gripen. Det var på fredagseftermiddagen som en man i 25-årsåldern sköts i anslutning till en bil i ett bostadsområde i Bagarmossen i södra Stockholm. Senare under fredagskvällen meddelande polisen att mannen dött. – Bland flera teorier finns också att måltavlan var någon annan, men det är för tidigt för att dra några slutsatser, säger åklagaren Rasmus Öman. Ingen är gripen i nuläget. – Vi har inte lyckats identifiera den misstänkta personen, säger Rasmus Öman. ”Jag blir orolig – man vet ju aldrig när det kommer en kula vinande, den har inget namn”, säger Patricia Segage efter skjutningen i Bagarmossen. Foto: Kovan Alshawish/SVT Skjutningar och skottlossningar Mord Bagarmossen Relaterat 22 sek En man död efter skjutning i södra Stockholm 23 oktober 2026 1 min ”Vet aldrig när en kula kommer vinande – den har inget namn” 23 oktober 2026 Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "page_sha256": "11a4486cce98f0163ced589baaeb008077452f0719f4dd6e1266dea53eacfa7d",
+      "extraction_method": "rendered_visible_primary_article",
+      "evidence_limit": "Visible rendered primary-page text; factual review remains mandatory."
+    }
+  ],
+  "collection_evidence": {
+    "state": "ready",
+    "failed_discovery_urls": [],
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "subscription_exclusions": [],
+    "channel": "vald",
+    "discovery": {
+      "channel": "vald",
+      "date": "2026-10-28",
+      "feeds": [
+        {
+          "url": "https://www.svt.se/nyheter/rss.xml",
+          "entries": 100,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.europol.europa.eu/rss.xml",
+          "entries": 10,
+          "accepted": 10,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "entries": 27,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Sverige%20%28skjutning%20OR%20spr%C3%A4ngning%20OR%20g%C3%A4ngv%C3%A5ld%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 15,
+          "accepted": 15,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22organized%20crime%22%20%28violence%20OR%20shootings%20OR%20bombings%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Europol%20%28violence%20OR%20gangs%20OR%20%22contract%20killing%22%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22crime%20as%20a%20service%22%20OR%20%22violence%20as%20a%20service%22%20OR%20%22best%C3%A4llda%20mord%22%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Abbc.com%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Atheguardian.com%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Apolisen.se%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Abra.se%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aeuropol.europa.eu%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aaklagare.se%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aunodc.org%20organized%20crime%20violence%20shootings%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        }
+      ],
+      "web_candidates": 0,
+      "original_fallback": null,
+      "candidate_count": 61,
+      "scope": "discovery_only_not_factual_approval"
+    },
+    "checked_at": "2026-10-28T03:16:58.015110+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  }
+}
