@@ -1,0 +1,38 @@
+[
+  {
+    "source": "The Maritime Executive",
+    "title": "Iran hotar rederiet Sinokor med rättsliga åtgärder i Hormuzsundet",
+    "url": "https://maritime-executive.com/article/iranian-forces-threaten-sinokor-with-legal-action-for-hormuz-violations",
+    "evidence": {
+      "date": "2026-10-27T17:40:27+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-28T03:16:43.083731+00:00",
+      "page_sha256": "1f614165a542bcd49e6c60e47a280d2b6f9549b39e97ae56bbea6bc7a7f1c964",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "The Maritime Executive",
+    "title": "Fransk fregatt sköt ned missil nära belgiskt fartyg i Röda havet",
+    "url": "https://maritime-executive.com/article/french-frigate-downed-red-sea-missile-approaching-belgian-mine-hunter",
+    "evidence": {
+      "date": "2026-10-27T21:54:47+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-28T03:16:43.084670+00:00",
+      "page_sha256": "202ed753bce5886c1517a32150b1adb731347e2e9201ea5794d3273c793f9927",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Vietnam.vn",
+    "title": "Svarta havet förblir världens farligaste sjöfartsrutt med omfattande skador",
+    "url": "https://www.vietnam.vn/sv/bien-den-tro-thanh-tuyen-van-tai-bien-nguy-hiem-nhat-the-gioi",
+    "evidence": {
+      "date": "2026-10-26T04:05:11+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-28T03:16:43.279274+00:00",
+      "page_sha256": "1d58eabedbe32cada094b8f0459610485045e02caaba409c6bb9529c421b8fe4",
+      "retrieval_limit": null
+    }
+  }
+]

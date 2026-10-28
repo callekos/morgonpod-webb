@@ -1,0 +1,108 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "Tillräckligt med verifierade källor för en fullständig och relevant dagsbrief inom de utsatta tidsramarna utan utfyllnad.",
+  "source_coverage": [
+    {
+      "claim": "Irans så kallade Persian Gulf Strait Authority har för första gången pekat ut ett enskilt rederi för rättsliga åtgärder, där det sydkoreanska rederiet Sinokor anklagas för passageöverträdelser.",
+      "source_url": "https://maritime-executive.com/article/iranian-forces-threaten-sinokor-with-legal-action-for-hormuz-violations"
+    },
+    {
+      "claim": "En fransk fregatt sköt ned en missil som närmade sig den belgiska minröjaren Primula i Röda havet.",
+      "source_url": "https://maritime-executive.com/article/french-frigate-downed-red-sea-missile-approaching-belgian-mine-hunter"
+    },
+    {
+      "claim": "Över 570 fartyg har attackerats i Svarta havet i år enligt Ambrey och IMO, vilket lett till ett fyrtiotal dödsfall och kraftigt höjda försäkringspremier.",
+      "source_url": "https://www.vietnam.vn/sv/bien-den-tro-thanh-tuyen-van-tai-bien-nguy-hiem-nhat-the-gioi"
+    }
+  ],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://maritime-executive.com/article/iranian-forces-threaten-sinokor-with-legal-action-for-hormuz-violations",
+      "covered_facts": [
+        "Persian Gulf Strait Authority pekar ut Sinokor",
+        "Hot om rättsliga åtgärder från den 1 november",
+        "U.S. CENTCOM tillbakavisar iranska anspråk på kontroll"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://maritime-executive.com/article/french-frigate-downed-red-sea-missile-approaching-belgian-mine-hunter",
+      "covered_facts": [
+        "Fransk fregatt sköt ned missil nära belgiska minröjaren Primula",
+        "Händelsen skedde i mid-oktober i närheten av Bab el-Mendeb"
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.vietnam.vn/sv/bien-den-tro-thanh-tuyen-van-tai-bien-nguy-hiem-nhat-the-gioi",
+      "covered_facts": [
+        "Över 570 fartyg attackerade i Svarta havet",
+        "Ett fyrtiotal dödsfall bland sjömän",
+        "Kraftigt höjda premier för krigsriskförsäkring"
+      ],
+      "missing_facts": []
+    }
+  ],
+  "selection_decisions": [
+    {
+      "url": "https://maritime-executive.com/article/iranian-forces-threaten-sinokor-with-legal-action-for-hormuz-violations",
+      "selected": true,
+      "reason": "Viktig säkerhetsutveckling i Hormuzsundet med hot om rättsliga åtgärder mot rederi.",
+      "event_key": "hormuz-sinokor-threat",
+      "source_quote": "Iran threatens unspecified \"legal action\" against Sinokor for its \"crossing violations\" of the Strait of Hormuz",
+      "security_evidence": "Iran threatens unspecified \"legal action\" against Sinokor for its \"crossing violations\" of the Strait of Hormuz"
+    },
+    {
+      "url": "https://maritime-executive.com/article/french-frigate-downed-red-sea-missile-approaching-belgian-mine-hunter",
+      "selected": true,
+      "reason": "Relevanta militära incidenter och skydd av sjöfart i Röda havet.",
+      "event_key": "red-sea-missile-downed",
+      "source_quote": "A French frigate, part of the force assigned to patrol the Red Sea region, recently downed a missile that was approaching a Belgian minehunter.",
+      "security_evidence": "A French frigate, part of the force assigned to patrol the Red Sea region, recently downed a missile that was approaching a Belgian minehunter."
+    },
+    {
+      "url": "https://www.vietnam.vn/sv/bien-den-tro-thanh-tuyen-van-tai-bien-nguy-hiem-nhat-the-gioi",
+      "selected": true,
+      "reason": "Omfattande sammanställning av risker, attacker och konsekvenser för sjöfarten i Svarta havet.",
+      "event_key": "black-sea-danger-report",
+      "source_quote": "Enligt sjösäkerhetsföretaget Ambrey och Internationella sjöfartsorganisationen (IMO) har fler än 570 fartyg attackerats i Svarta havet i år",
+      "security_evidence": "Enligt sjösäkerhetsföretaget Ambrey och Internationella sjöfartsorganisationen (IMO) har fler än 570 fartyg attackerats i Svarta havet i år"
+    },
+    {
+      "url": "https://maritime-executive.com/article/amidst-tensions-with-iran-diego-garcia-fills-up-with-support-aircraft",
+      "selected": false,
+      "reason": "Avser basering av flygstöd på Diego Garcia snarare än direkt operativ sjösäkerhetshändelse, väljs bort till förmån för mer direkta maritima händelser.",
+      "event_key": "diego-garcia-aircraft",
+      "source_quote": "At a time of increased risk of renewed high-end conflict with Iran, there appears to be an influx of US support aircraft into the Naval Support Facility airfield on Diego Garcia.",
+      "security_evidence": "At a time of increased risk of renewed high-end conflict with Iran, there appears to be an influx of US support aircraft into the Naval Support Facility airfield on Diego Garcia."
+    },
+    {
+      "url": "https://www.navalnews.com/naval-news/2026/10/lockheed-martin-showcases-1000-km-prsm-inc-4-prototype/",
+      "selected": false,
+      "reason": "Rör en prototypresentation av ett robotsystem och utgör en generell produkt- och programutvecklingsnyhet snarare än en inträffad säkerhetshändelse till sjöss.",
+      "event_key": "lockheed-prsm-prototype",
+      "source_quote": "Lockheed Martin’s Precision Strike Missile (PrSM) Increment 4 prototype will use ramjet technology and an advanced sensor suite to strike moving ships over 1,000 kilometers away.",
+      "security_evidence": "Lockheed Martin’s Precision Strike Missile (PrSM) Increment 4 prototype will use ramjet technology and an advanced sensor suite to strike moving ships over 1,000 kilometers away."
+    }
+  ],
+  "format_decision": {
+    "outcome": "standard",
+    "reason": "Tillräckligt med verifierade källor för en fullständig och relevant dagsbrief inom de utsatta tidsramarna."
+  },
+  "access_exclusions_reviewed": true,
+  "maritime_policy": "maritime-security-2026-10-22",
+  "maritime_sources_sha256": "0600e65c137f0efb4098a5aad975cf0baec1431b8e7d5754af102c64811a221c",
+  "maritime_news_sha256": "276adbe37c8cb8bd4550fcc181866a4f798b4add7bd1e23027f1b00b2ffc52f7",
+  "reviewed_script_sha256": "70c3b726fe2664de172f808b9ceabe10f8a38a72674b710b5d8c054dc0b69403",
+  "relevant_event_count": 3,
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "67d09c4d680dd214944d26973a71f09a883889da2b728a952c9559d7309d0b89",
+    "news_sha256": "1fe69b9caaa12080e1bd369974e3e92517917fe968466127e4bcb76a419ab569",
+    "script_sha256": "70c3b726fe2664de172f808b9ceabe10f8a38a72674b710b5d8c054dc0b69403",
+    "collection_sha256": "1137a31cd3339e37c9e0b30cd82aa03f5f345c27a927041c76399cfe2e4b569b"
+  }
+}
