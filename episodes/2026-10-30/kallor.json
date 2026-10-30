@@ -1,0 +1,38 @@
+[
+  {
+    "source": "www.theregister.com - Articles",
+    "title": "123 Reg drabbat av AI-driven it-attack med misstänkt kinesisk koppling",
+    "url": "https://www.theregister.com/cyber-crime/2026/10/28/123-reg-discloses-ai-cyberattack-on-customer-data-suspects-china-nexus/5305936",
+    "evidence": {
+      "date": "2026-10-28T11:45:00+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-30T02:16:45.259562+00:00",
+      "page_sha256": "e56df43010dd088253f1ed85eb352755e3a5cdfab4d71b0f59945f625bfdfa98",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "www.theregister.com - Articles",
+    "title": "Belgiens skattemyndighet tvingas stänga ner digitala tjänster efter cyberattack",
+    "url": "https://www.theregister.com/security/2026/10/29/belgiums-tax-agency-confirms-cyberattack-pulls-services-offline/5306409",
+    "evidence": {
+      "date": "2026-10-29T14:47:40+00:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-30T02:16:45.261476+00:00",
+      "page_sha256": "fc0f9d65986fef068126cd58b827dd3f2c681012d7a8410ef787f5fc46be8916",
+      "retrieval_limit": null
+    }
+  },
+  {
+    "source": "Dagens.se",
+    "title": "OSINT-kartläggare rapporterar om ukrainskt brohuvud vid floden Zjerebets",
+    "url": "https://www.dagens.se/krig/efter-operation-vivaldi-osint-kartlaggare-ser-tecken-pa-ett-betydande-ukrainskt-brohuvud-vid-viktig-flod",
+    "evidence": {
+      "date": "2026-10-29T15:12:00+01:00",
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-30T02:16:45.876313+00:00",
+      "page_sha256": "a2482bc97f76145ea58bebfb7063268b84dc706ebec5e2029151209b84ebbf8d",
+      "retrieval_limit": null
+    }
+  }
+]

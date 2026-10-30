@@ -1,0 +1,97 @@
+{
+  "title": "IBATs morgonPOD: AI-drivna it-attacker mot 123 Reg, skärpta skatteläget i Belgien och utvecklingen vid Zjerebets",
+  "intro": "Välkommen till IBATs morgonPOD. I dag fokuserar vi på hur domänregistratorn 123 Reg drabbats av en AI-driven it-attack, Belgiens skattemyndighet som tvingats stänga ned digitala tjänster efter ett intrång, samt nya OSINT-uppgifter om läget vid floden Zjerebets i Ukraina.",
+  "outlook": "Avslutningsvis konstaterar vi att hotbilden mot samhällsviktiga digitala system fortsatt kräver vaksamhet kring grundläggande sårbarheter och misstänkta mönster i nätverkstrafiken.",
+  "news": [
+    {
+      "category": "Cybersäkerhet",
+      "title": "123 Reg drabbat av AI-driven it-attack med misstänkt kinesisk koppling",
+      "summary": "Den brittiska domänregistratorn 123 Reg har meddelat att bolaget utsatts för en AI-driven cyberattack som komprometterat kunddata. Enligt The Register den 28 oktober 2026 upptäcktes intrånget den 18 september, och bolagets utredning pekar mot en aktör med kinesisk koppling. Bland annat har AI-exploateringsverktyg och skript påträffats på servrar i regionen.",
+      "context": "Händelsen belyser hur hotaktörer börjar integrera automatiserade verktyg i sina intrångsförsök. Det ställer högre krav på organisationers proaktiva övervakning och krav på tvåstegsverifiering för att skydda användarkonton.",
+      "url": "https://www.theregister.com/cyber-crime/2026/10/28/123-reg-discloses-ai-cyberattack-on-customer-data-suspects-china-nexus/5305936",
+      "publisher": "www.theregister.com - Articles",
+      "body": "Den brittiska domänregistratorn 123 Reg har i slutet av oktober 2026 gått ut med information om att bolaget drabbats av en AI-driven cyberattack. Enligt uppgifter som The Register publicerade den 28 oktober 2026 började kunder få varningsmeddelanden under veckan om att deras kontaktinformation, företagsmomsnummer och relaterade kundrelationsdata kan ha komprometterats i ett intrång som ägde rum den 18 september.\n\nFöretagets undersökning visar att angriparna använde infrastruktur i Kina och Singapore. 123 Reg uppger att man har funnit spår efter AI-cyberattackfärdigheter och exploateringsverktyg som liknar metoder som tidigare observerats i samband med attacker mot bland annat sydkoreanska finansinstitutioner. Bolaget har anmält händelsen till brottsbekämpande myndigheter och dataskyddsmyndigheter i både Storbritannien och EU.\n\nBedömningen från företaget är att aktiviteten primärt har bestått i avläsning av data, men man uppmanar ändå kunder till extra wachsamhet mot potentiella missbruk. Händelsen understryker vikten av att ständigt stärka den interna it-säkerheten och implementera tvåstegsverifiering för att minska skadeverkningarna vid liknande intrång.",
+      "assessment": "Bolagets bedömning att angriparen har en kinesisk koppling grundar sig på observerad infrastruktur samt kvarlämnade skript och verktyg som matchar tidigare kända kampanjer i andra världsdelar.",
+      "previous_reporting": [],
+      "open_questions": [
+        "Vilka specifika sårbarheter utnyttjades i 123 Regs API-miljö för att komma åt kundinformationen?",
+        "Hur ser övriga branschaktörer på spridningen av AI-baserade penetrationstestverktyg som angreppsvektor?"
+      ],
+      "topics": [
+        "cybersäkerhet",
+        "AI-hot",
+        "dataskydd"
+      ],
+      "event_links": [],
+      "sources": [
+        {
+          "url": "https://www.theregister.com/cyber-crime/2026/10/28/123-reg-discloses-ai-cyberattack-on-customer-data-suspects-china-nexus/5305936",
+          "title": "www.theregister.com - Articles"
+        }
+      ]
+    },
+    {
+      "category": "Cybersäkerhet",
+      "title": "Belgiens skattemyndighet tvingas stänga ner digitala tjänster efter cyberattack",
+      "summary": "FOD Financiën i Belgien har dragit flera digitala tjänster offline efter en cyberattack. The Register rapporterar den 29 oktober 2026 att plattformar som MyMinfin tillfälligt stängts ned för tekniska åtgärder. Myndigheten uppger att det saknas indikationer på att data har komprometterats, men tvingas förlänga skattedeklarationsfrister till november.",
+      "context": "Angreppet mot en central skattemyndighet visar sårbarheten i samhällsviktiga publika e-tjänster. När system stängs ned i säkerhetssyfte får det direkta administrativa konsekvenser för både företag och enskilda medborgare.",
+      "url": "https://www.theregister.com/security/2026/10/29/belgiums-tax-agency-confirms-cyberattack-pulls-services-offline/5306409",
+      "publisher": "www.theregister.com - Articles",
+      "body": "Den belgiska finans- och skattemyndigheten FOD Financiën bekräftade på onsdagen den 28 oktober 2026 att organisationen utsatts för en cyberattack. Enligt en artikel i The Register den 29 oktober 2026 ledde händelsen till att flera digitala tjänster, däribland huvudportalen MyMinfin, tillfälligt drogs offline för att säkerställa systemens säkerhet och genomföra tekniska ingrepp.\n\nMyndighetens företrädare har uppgett att attacken kunde hejdas inom några timmar och att den inte tilläts expandera till att omfatta eller överta faktiska applikationer eller känslig data. Potentiellt infekterade element har isolerats. Hittills finns inga indikationer på att ett dataintrång har skett, men detta utreds vidare.\n\nSom en direkt konsekvens av nedstängningen har anmälningsfrister för vissa skattedeklarationer, som ursprungligen löpte ut i slutet av oktober, flyttats fram till den 16 november 2026. Myndigheten arbetar med att återställa de berörda tjänsterna i en kontrollerad och isolerad miljö.",
+      "assessment": "Myndighetens snabba isolering av misstänkta delar bedöms ha begränsat skadeverkningarna, men händelsen belyser utmaningen med att upprätthålla tillgänglighet utan att kompromissa med säkerheten.",
+      "previous_reporting": [],
+      "open_questions": [
+        "Vilken typ av initial ingångspunkt använde angriparen mot skattemyndighetens system?",
+        "Hur påverkas övriga myndighetstjänster på längre sikt av det omfattande isoleringsarbetet?"
+      ],
+      "topics": [
+        "cybersäkerhet",
+        "offentlig sektor",
+        "incidenthantering"
+      ],
+      "event_links": [],
+      "sources": [
+        {
+          "url": "https://www.theregister.com/security/2026/10/29/belgiums-tax-agency-confirms-cyberattack-pulls-services-offline/5306409",
+          "title": "www.theregister.com - Articles"
+        }
+      ]
+    },
+    {
+      "category": "Omvärldsbevakning",
+      "title": "OSINT-kartläggare rapporterar om ukrainskt brohuvud vid floden Zjerebets",
+      "summary": "Oberoende slagfältskartläggare uppger att ukrainska styrkor har tagit sig över floden Zjerebets i norra Donetsk. Dagens.se rapporterar den 29 oktober 2026 att källor som AMK Mapping och Suriyak noterat trupper öster om floden vid tre bosättningar. Kyiv har dock inte bekräftat uppgifterna officiellt.",
+      "context": "Geografiska förändringar vid viktiga flodhinder kan påverka det taktiska läget i norra Donbas. Att följa upp uppgifter från öppna källor kräver försiktighet eftersom militär ledning inte alltid bekräftar sådana rörelser omgående.",
+      "url": "https://www.dagens.se/krig/efter-operation-vivaldi-osint-kartlaggare-ser-tecken-pa-ett-betydande-ukrainskt-brohuvud-vid-viktig-flod",
+      "publisher": "Dagens.se",
+      "body": "Efter att Ukraina i mitten av oktober 2026 förklarat Operation Vivaldi avslutad i norra Donetsk fortsätter kartorna över frontlinjen att röra sig. En artikel i Dagens.se den 29 oktober 2026 lyfter fram att oberoende OSINT-kartläggare som AMK Mapping och Suriyak den 26 och 27 oktober observerat ukrainska soldater på den östra stranden av floden Zjerebets vid bosättningarna Makijivka, Novosadove och Terny.\n\nDetta skulle i så fall markera första gången ukrainska styrkor opererar öster om floden i märkbar styrka sedan Ryssland korsade den 2024. Floden Zjerebets är strategiskt belägen i Kramatorsks rajon, cirka 40 kilometer från de ukrainska försvarsknutpunkterna Slovjansk och Kramatorsk. Suriyak har i sin rapportering beskrivit rörelsen som ett betydande brohuvud.\n\nSamtidigt betonar bedömare, däribland militäranalytikern Clément Molin som citeras i rapporteringen, att uppgifterna ännu inte har bekräftats officiellt av den ukrainska militärledningen. Förband i sektorn uppmanas i stället att fokusera på att befästa uppnådda positioner och inta en defensiv hållning med tanke på de risker som ett flodöverstigande innebär.",
+      "assessment": "Kartläggarnas observationer tyder på lokala framryckningar, men avsaknaden av officiella bekräftelser gör att läget tills vidare bör betraktas som en obekräftad indikation baserad på öppen bildanalys.",
+      "previous_reporting": [],
+      "open_questions": [
+        "Hur stabilt är det eventuella underhållet över flodhinder i sektorn?",
+        "Vilka ytterligare truppförflyttningar kan observeras i området kring Terny den närmaste veckan?"
+      ],
+      "topics": [
+        "OSINT",
+        "konfliktbevakning",
+        "geografisk analys"
+      ],
+      "event_links": [],
+      "sources": [
+        {
+          "url": "https://www.dagens.se/krig/efter-operation-vivaldi-osint-kartlaggare-ser-tecken-pa-ett-betydande-ukrainskt-brohuvud-vid-viktig-flod",
+          "title": "Dagens.se"
+        }
+      ]
+    }
+  ],
+  "description": "Välkommen till IBATs morgonPOD. I dag fokuserar vi på hur domänregistratorn 123 Reg drabbats av en AI-driven it-attack, Belgiens skattemyndighet som tvingats stänga ned digitala tjänster efter ett intrång, samt nya OSINT-uppgifter om läget vid floden Zjerebets i Ukraina.",
+  "tags": [
+    "Cybersäkerhet",
+    "Omvärldsbevakning"
+  ],
+  "text_format": "editorial_articles",
+  "editorial_date": "2026-10-30",
+  "channel": "ibat",
+  "editorial_outcome": "standard"
+}

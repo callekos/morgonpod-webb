@@ -1,0 +1,386 @@
+{
+  "channel": "ibat",
+  "date": "2026-10-30",
+  "sources": [
+    {
+      "id": 10,
+      "title": "123 Reg discloses 'AI cyberattack' on customer data, suspects China nexus",
+      "url": "https://www.theregister.com/cyber-crime/2026/10/28/123-reg-discloses-ai-cyberattack-on-customer-data-suspects-china-nexus/5305936",
+      "summary": "Company chiefs believe the attackers could be the same as those who used ARTEX to breach South Korea’s financial giants",
+      "date": "2026-10-28T11:45:00+00:00",
+      "publisher": "www.theregister.com - Articles",
+      "discovery_identity": {
+        "url": "https://www.theregister.com/cyber-crime/2026/10/28/123-reg-discloses-ai-cyberattack-on-customer-data-suspects-china-nexus/5305936",
+        "title": "123 Reg discloses 'AI cyberattack' on customer data, suspects China nexus",
+        "summary": "Company chiefs believe the attackers could be the same as those who used ARTEX to breach South Korea’s financial giants",
+        "date": "2026-10-28T11:45:00+00:00",
+        "publisher": "www.theregister.com - Articles"
+      },
+      "discovery_version_key": "a1efdada63cbbe1649544c32c01997b672d65966cf1488072a9d7f4b84222c78",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-30T02:16:45.259562+00:00",
+      "page_published_at": "2026-10-28T11:45:00+00:00",
+      "page_modified_at": "2026-10-28T10:03:15+00:00",
+      "page_sha256": "e56df43010dd088253f1ed85eb352755e3a5cdfab4d71b0f59945f625bfdfa98",
+      "resolved_url": "https://www.theregister.com/cyber-crime/2026/10/28/123-reg-discloses-ai-cyberattack-on-customer-data-suspects-china-nexus/5305936",
+      "extraction_method": "title_matched_article",
+      "text": "cyber-crime 123 Reg discloses 'AI cyberattack' on customer data, suspects China nexus Company chiefs believe the attackers could be the same as those who used ARTEX to breach South Korea’s financial giants Connor Jones Connor Jones Cybersecurity reporter Published wed 28 Oct 2026 // 11:45 UTC Make us preferred on Google READ MORE Researchers find bugs in 5 AI developer tools, with OpenAI and Microsoft flaws still unpatched now Suspected Chinese attackers built a custom PHP2Shell exploit and rooted 25 servers 4 hours ago Belgium's tax agency confirms cyberattack, pulls services offline 8 hours ago Shortlist of age checks for the UK's under-16 social media ban is out, 'some' adults will need verifying 10 hours ago Attackers turn GitHub issues into supply chain campaign against 61 public repos in less than an hour 11 hours ago UK domain registrar 123 Reg ( no relation – Ed ) says it was the victim of an “AI-driven cyberattack” that exposed customer data. Customers began receiving their notification emails this week, informing them that their contact information, \"related customer relationship data,\" company VAT numbers, and \"product information from an application programming interface (API)\" were compromised. A company spokesperson elaborated, saying this means that names, phone numbers, countries, language and currency preferences, account creation dates, the products on the account, and marketing preferences were affected. REG AD 123 Reg described the September 18 intrusion as \"the first known AI-driven cyberattack against our company,\" and told The Register that early signs point toward a China-nexus attacker. REG AD \"Our investigation identified IP addresses that we assessed to be the core attacker infrastructure, which were hosted in China and Singapore, indicating a strong Chinese nexus,\" the spokesperson said. \"Our investigation further identified AI cyberattack 'skills' hosted on Chinese infrastructure, including copies of skills open sourced by Anthropic and several other AI exploitation frameworks and scripts.\" They went on to say that many of the artefacts left behind led 123 Reg to suspect that a Chinese state-sponsored group, known for abusing Claude Code in attacks against at least 30 organizations, could be behind the break-in. There is also a suspicion that the same group that hit a number of South Korea’s financial institutions using open-source Chinese AI tool ARTEX, was behind the attack on 123 Reg too. \"The TA's mirror of 'anthropic_skills,' and the account naming conventions found on the Chinese servers are consistent with preparation of this class of AI-augmented operation,\" the spokesperson told us. \"In addition, on October 7, 2026, CrowdStrike published CSA-261162, describing an unknown, likely Chinese-speaking actor that targeted several South Korean financial organizations starting in late September 2026, which is the same period during which we were attacked. \"That actor used ARTEX, an open-source Chinese-developed agentic penetration-testing tool released in July 2026, which was also observed to be used in the attack that targeted us.\" The GoDaddy-owned registrar reported the attack to law enforcement agencies, brought in outside cybersecurity support, and notified the FTC, as well as the data protection authorities in the UK and EU. REG AD The company spokesperson added that it worked with Singapore-based ISPs to shut down the attacker's servers in the region, which helped disrupt the attack, in addition to \"other actions by us and industry partners.\" 123 Reg's email to customers stated the attacker's activity \"was limited to reading\" customer data, although the spokesperson told us \"it's possible they created copies of the information,\" and that this is what prompted the notification. The registrar urged customers to stay alert to the potential misuse of their data, and to treat communications appearing to come from the company with caution. \"If you receive a message or call and aren't sure it's from 123 Reg, go directly to our website and log in,\" the email said. \"We will never contact you to request your password, payment details, or verification codes by email, text, or phone. \"We also strongly recommend turning on two-step verification (2SV), which helps keep your account protected even if someone tricks you into sharing your password. You can find instructions for setting up 2SV in your 123 Reg account. \"We apologize for any inconvenience this may have caused.\" ® cyber-crime security china Make us preferred on Google",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain."
+    },
+    {
+      "id": 3,
+      "title": "Belgium's tax agency confirms cyberattack, pulls services offline",
+      "url": "https://www.theregister.com/security/2026/10/29/belgiums-tax-agency-confirms-cyberattack-pulls-services-offline/5306409",
+      "summary": "Officials confirm this week’s tax deadlines extended to November as a result",
+      "date": "2026-10-29T14:47:40+00:00",
+      "publisher": "www.theregister.com - Articles",
+      "discovery_identity": {
+        "url": "https://www.theregister.com/security/2026/10/29/belgiums-tax-agency-confirms-cyberattack-pulls-services-offline/5306409",
+        "title": "Belgium's tax agency confirms cyberattack, pulls services offline",
+        "summary": "Officials confirm this week’s tax deadlines extended to November as a result",
+        "date": "2026-10-29T14:47:40+00:00",
+        "publisher": "www.theregister.com - Articles"
+      },
+      "discovery_version_key": "52a3f1cab2854ae9e151afd24e740b7b526ad0440cb33c7ff6d5468d09a067d1",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-30T02:16:45.261476+00:00",
+      "page_published_at": "2026-10-29T14:47:40+00:00",
+      "page_sha256": "fc0f9d65986fef068126cd58b827dd3f2c681012d7a8410ef787f5fc46be8916",
+      "resolved_url": "https://www.theregister.com/security/2026/10/29/belgiums-tax-agency-confirms-cyberattack-pulls-services-offline/5306409",
+      "extraction_method": "title_matched_article",
+      "text": "security Belgium's tax agency confirms cyberattack, pulls services offline Officials confirm this week’s tax deadlines extended to November as a result Connor Jones Connor Jones Cybersecurity reporter Published thu 29 Oct 2026 // 14:47 UTC Make us preferred on Google READ MORE Topcoat enables Rust to render server-side web apps 4 hours ago Suspected Chinese attackers built a custom PHP2Shell exploit and rooted 25 servers 4 hours ago Ubuntu 27.04 may bring a preview of the long-awaited Core Desktop 6 hours ago BattMan aims to turbocharge US batteries without robbin' critical minerals 7 hours ago GSA left sensitive Google Drive files open to staff, contractors 7 hours ago Belgium's finance and tax agency has pulled \"several\" digital services offline after a cyberattack on the organization. FOD Financiën confirmed the attack on Wednesday, saying that MyMinfin, the agency's main online tax portal, as well as other online services, are temporarily unavailable while they start the initial investigations. \"This measure helps limit the risks and makes it possible to carry out the necessary technical interventions to ensure the security of our systems,\" it said in a public announcement. REG AD FOD Financiën added that \"this has consequences for tax deadlines in the near future,\" referring to the October 31 extended deadline to submit tax filings for specific types of income, such as sole traders and earnings from foreign companies. REG AD The agency confirmed the deadline will be extended to November 16, by which time MyMinfin, the platform through which such filings would normally be submitted, should be back up and running. The detail offered up in the public statement reflects the early stage of the investigation; not much is known, although there is nothing to suggest data was compromised. \"Data protection is a top priority for the FOD Financiën,\" it said. \"At present, there are no indications that a data breach has occurred or that data has been compromised. This aspect is also being closely investigated and followed up. \"In the meantime, a large part of our other applications remains available with full or partial functionality. We are closely monitoring the situation and doing everything we can to make the affected services available again as soon as possible.\" Spokesperson Francis Adyns told local news outlets that the attack was thwarted within hours, and that it was unable to gain access to applications or data. \"The attack could not be sufficiently expanded within our environment to take over applications or gain access to data,\" he told Nieuwsblad . \"Elements that were potentially infected were isolated. As a result, MyMinfin, Tax-on-web, and Biztax went offline, but the hacking was successfully stopped. \"The various services must be restored in an isolated environment. This requires considerable time to realize, with the necessary caution to rule out new risks.\" ® security Make us preferred on Google",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain."
+    },
+    {
+      "id": 7,
+      "title": "Oracle celebrates end of Cybersecurity Awareness Month with quadruple trouble",
+      "url": "https://www.theregister.com/security/2026/10/28/oracle-celebrates-end-of-cybersecurity-awareness-month-with-quadruple-trouble/5306121",
+      "summary": "Attackers probe another EBS bug, and ShinyHunters' PeopleSoft 0-day turns out to involve three vulns",
+      "date": "2026-10-28T19:56:56+00:00",
+      "publisher": "www.theregister.com - Articles",
+      "discovery_identity": {
+        "url": "https://www.theregister.com/security/2026/10/28/oracle-celebrates-end-of-cybersecurity-awareness-month-with-quadruple-trouble/5306121",
+        "title": "Oracle celebrates end of Cybersecurity Awareness Month with quadruple trouble",
+        "summary": "Attackers probe another EBS bug, and ShinyHunters' PeopleSoft 0-day turns out to involve three vulns",
+        "date": "2026-10-28T19:56:56+00:00",
+        "publisher": "www.theregister.com - Articles"
+      },
+      "discovery_version_key": "a0a3b8bb9ac2d717c3a1d33a89c49bcad7af576ece88b32509a1af5de97f10d4",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-30T02:16:45.563261+00:00",
+      "page_published_at": "2026-10-28T19:56:56+00:00",
+      "page_sha256": "9f90faa10c0a8d89f7d9453c28b43757e6bd3345d0cec965c26d64888fafe728",
+      "resolved_url": "https://www.theregister.com/security/2026/10/28/oracle-celebrates-end-of-cybersecurity-awareness-month-with-quadruple-trouble/5306121",
+      "extraction_method": "title_matched_article",
+      "text": "security Oracle celebrates end of Cybersecurity Awareness Month with quadruple trouble Attackers probe another EBS bug, and ShinyHunters' PeopleSoft 0-day turns out to involve three vulns Jessica Lyons Jessica Lyons Cybersecurity Editor Published wed 28 Oct 2026 // 19:56 UTC Make us preferred on Google READ MORE Oracle wants to bill you for every AI task, not just every seat 10 hours ago Big Red gets cozy with Google to offer TPUs to AI customers 2 days ago Max-severity GitLab bug allows remote code execution over 12 years of releases 7 days ago Cisco make-me-root email bug exploited as a 0-day by unknown crims 15 days ago The AI math isn't mathing as infrastructure spending forecast to outstrip expected revenue 15 days ago Attackers are probing a critical Oracle E-Business Suite vulnerability that can lead to remote code execution (RCE), despite Oracle issuing a patch earlier this month. Meanwhile, new analysis indicates that an Oracle PeopleSoft zero-day exploited by ShinyHunters as early as May involves three distinct vulnerabilities that can be combined to achieve RCE. Patching alone may not remove attackers from already compromised systems, particularly if they've installed web shells. First up: CVE-2026-101767 , a critical, unauthenticated SQL injection bug in Oracle EBS that can lead to RCE. REG AD “Our Oracle E-Business Suite decoys recorded exploratory exploits against CVE-2026-101767, an unauthenticated SQL injection in EBS's Thin Client Framework servlet that chains to remote code execution, this morning, Oct 27,” Defused Cyber said in an X post. REG AD Horizon3 researchers found and disclosed the bug to Oracle, and the vendor patched the issue in its October release. “An attacker can send a crafted request to the vulnerable servlet to execute SQL with the privileges of the APPS database user,” Horizon3 explained at the time. “The attack chain also enables operating system command execution with the privileges of the EBS application account.” This means an unauthorized user can modify application data accessible to APPS, and execute commands. “Depending on the deployment, affected data may include financial, payroll, HR, and procurement records,” the bug hunters said. The Register reached out to Oracle with multiple questions for this story - including whether it has documented any successful exploitation of CVE-2026-101767 - and did not receive an immediate response. Moving on to the PeopleSoft-ShinyHunters fiasco: TrendAI’s Zero Day Initiative (ZDI) found and reported the PeopleSoft issues on June 10, and Oracle issued a patch under one vulnerability identifier: CVE-2026-35273 . In early June, ShinyHunters told The Reg that the group hacked more than 100 organizations via an Oracle PeopleSoft zero-day, CVE-2026-35273. Google’s consulting and incident response biz, Mandiant, later confirmed the data theft and extortion crew exploited CVE-2026-35273 as a zero-day, mostly against schools and the education sector . By late September, however, Mandiant said ShinyHunters massively expanded its targeting , “deploying web shells on dozens of systems globally, spanning higher education, technology, IT services, healthcare, agriculture, transportation, and government.” REG AD According to ZDI bug hunter Bobby Gould, there are actually three distinct vulnerabilities across multiple PeopleSoft components, and each should receive its own CVE identifier rather than being grouped under CVE-2026-35273. Gould, along with TrendAI researchers Minh Giang and Lucas Miller, originally found and reported three distinct bugs to Oracle in June. “We are coordinating with Oracle to assign separate CVEs for each issue,” he said in a Tuesday blog. The first issue is a Server-Side Request Forgery (SSRF) vulnerability in the PeopleSoft Integration Gateway (PSIGW), which gives attackers a foothold in the PeopleSoft application. In June, Oracle introduced a “validateClient” method to allow PeopleSoft system administrators to restrict access to certain functionality. The SSRF bug, however, allows crims to make requests that satisfy the validation requirement to access endpoints vulnerable to RCE, Gould wrote. “While this solution does restrict access, an attacker on any trusted host can still reach PSEMHUB,” he said, referring to PeopleSoft Environment Management Hub (PSEMHUB). “Because Oracle allows localhost by default, the PSIGW SSRF provides exactly that access.” The second bug is an external control of file path vulnerability in PSEMHUB’s ExecuteProcessActivityCommand handler. This message handler is designed to allow remote clients to write log entries to the PeopleSoft server’s filesystem - but it doesn’t properly validate requests, which allows an attacker to write a web shell into a file path and achieve RCE. The third vulnerability, also in PSEMHUB, is a deserialization of untrusted data flaw. An attacker can use a file-write vulnerability to plant a malicious XML file inside a PeopleSoft directory that stores environment configuration data, then wait for PSEMHUB to initialize, such as after a service or system restart. This triggers deserialization of the malicious XML file, potentially allowing the attacker to achieve RCE. “Attackers can combine these vulnerabilities to compromise affected instances of PeopleSoft,” Gould warned.® remote code execution security oracle Make us preferred on Google",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain."
+    },
+    {
+      "id": 8,
+      "title": "Serial ransomware crook gets 70 months behind bars for Nefilim, Hive roles",
+      "url": "https://www.theregister.com/cyber-crime/2026/10/28/serial-ransomware-crook-gets-70-months-behind-bars-for-nefilim-hive-roles/5306050",
+      "summary": "Artem Stryzhak joined both gangs, which targeted businesses and a hospital during the pandemic",
+      "date": "2026-10-28T15:52:17+00:00",
+      "publisher": "www.theregister.com - Articles",
+      "discovery_identity": {
+        "url": "https://www.theregister.com/cyber-crime/2026/10/28/serial-ransomware-crook-gets-70-months-behind-bars-for-nefilim-hive-roles/5306050",
+        "title": "Serial ransomware crook gets 70 months behind bars for Nefilim, Hive roles",
+        "summary": "Artem Stryzhak joined both gangs, which targeted businesses and a hospital during the pandemic",
+        "date": "2026-10-28T15:52:17+00:00",
+        "publisher": "www.theregister.com - Articles"
+      },
+      "discovery_version_key": "8efed4607460dc6925b6ce964acfaf81099091942238551a5448a984b34d8ebf",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-30T02:16:45.702129+00:00",
+      "page_published_at": "2026-10-28T15:52:17+00:00",
+      "page_sha256": "ccdb821eb70de629e7ece4e2281689e537f0136cd8a5f9a7b96b0c9e83364c10",
+      "resolved_url": "https://www.theregister.com/cyber-crime/2026/10/28/serial-ransomware-crook-gets-70-months-behind-bars-for-nefilim-hive-roles/5306050",
+      "extraction_method": "title_matched_article",
+      "text": "cyber-crime Serial ransomware crook gets 70 months behind bars for Nefilim, Hive roles Artem Stryzhak joined both gangs, which targeted businesses and a hospital during the pandemic Connor Jones Connor Jones Cybersecurity reporter Published wed 28 Oct 2026 // 15:52 UTC Make us preferred on Google READ MORE Researchers find bugs in 5 AI developer tools, with OpenAI and Microsoft flaws still unpatched now Suspected Chinese attackers built a custom PHP2Shell exploit and rooted 25 servers 4 hours ago Belgium's tax agency confirms cyberattack, pulls services offline 8 hours ago Shortlist of age checks for the UK's under-16 social media ban is out, 'some' adults will need verifying 10 hours ago Attackers turn GitHub issues into supply chain campaign against 61 public repos in less than an hour 11 hours ago Ukrainian ransomware crook Artem Stryzhak has been sentenced to 70 months in the slammer by a New York federal court for his role as an affiliate of the Nefilim and Hive ransomware gangs. Prosecutors believe the cybercriminal began working with Nefilim in or around June 2021, while living in Barcelona, Spain. The Nefilim ransomware-as-a-service (RaaS) operation was known for targeting wealthy companies, with its operators encouraging affiliates to pursue businesses capable of paying substantial ransom demands. REG AD One of Nefilim's most high-profile attacks was on Australian logistics giant Toll Group in 2020, encrypting its files roughly three months after it suffered a separate Mailto ransomware attack. REG AD Court documents [PDF] state that Stryzhak agreed with alleged Nefilim boss Volodymyr Tymoshchuk , who remains at large, to pay the ransomware crew a 20 percent cut of the ransom proceeds he collected. Tymoshchuk told Stryzhak that his preference was for attacks to target companies based in the US, Canada, and Australia that turn over more than $100 million annually. This guidance was soon tweaked to encourage targeting companies in the same regions with more than $200 million in annual revenue. Prosecutors claim that around the time Stryzhak joined forces with Nefilim, he also signed up to the Hive ransomware operation as \"one of its earliest affiliates,\" and used its platform to attack approximately seven victims. Hive's operators claimed they targeted circa 1,500 victims worldwide between June 2021 and January 2023. According to separate court documents [PDF], Hive's victims included a law firm and an Ohio hospital, which paid approximately $1.7 million in Bitcoin after the gang initially demanded $2 million during the COVID-19 pandemic. Before its infrastructure was seized in an international law enforcement operation in January 2023, Hive was known for attacking healthcare facilities during the COVID-19 pandemic, as well as being one of the ransomware groups that battered Costa Rica in 2022 . Brett Leatherman, assistant director at the FBI’s cyber branch, described Stryzhak as a “prolific cybercriminal” who played a role in groups that were responsible for more than $100 million in victim damages. “Today’s sentence reflects the seriousness of Stryzhak’s crimes and demonstrates the FBI’s global reach and extensive network of international partners,” he said. “Multiple field offices contributed to this investigation, and our work does not end here. We will continue to leverage every tool at our disposal to track down Stryzhak’s co-conspirators and hold them accountable, including Volodymyr Viktorovych Tymoshchuk.” REG AD Stryzhak was arrested by Spanish police in June 2024 before being extradited to the US in April 2025. In announcing Stryzhak's sentencing, the Justice Department took the opportunity to remind the public that rewards totaling up to $11 million are available for qualifying information about alleged Nefilim operator Volodymyr Tymoshchuk and other key ransomware suspects. ® fbi security ransomware cyber-crime Make us preferred on Google",
+      "evidence_limit": "Page text is evidence, not independent verification. Navigation, notices or paywalls may remain."
+    },
+    {
+      "id": 86,
+      "title": "Efter Operation Vivaldi: OSINT-kartläggare ser tecken på ett ”betydande” ukrainskt brohuvud vid viktig flod - Dagens.se",
+      "url": "https://www.dagens.se/krig/efter-operation-vivaldi-osint-kartlaggare-ser-tecken-pa-ett-betydande-ukrainskt-brohuvud-vid-viktig-flod",
+      "summary": "Efter Operation Vivaldi: OSINT-kartläggare ser tecken på ett ”betydande” ukrainskt brohuvud vid viktig flod Dagens.se",
+      "date": "2026-10-29T15:12:00+01:00",
+      "publisher": "Dagens.se",
+      "discovery_identity": {
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdXZTQnZRM2EtYmxBWktaeGxsSU55NGdhcXVoVlhwdExrc2g4eDJaZ2FTVFBsYlpJa1dycFRxbDN5VjRTeVN1Q3kxbmhuN1MwVnpVVmYzeFdTRkdDR2hSYjEwRFNGdFNHeXN5LTJxUHhhVVdDRUlaUzRNM0x6NXprX2otRV9FQ3Bva3lCQ2xKbXJKQjhYZ29pTkliQmJQcnN4SUx6d1luWWNxYUJ5YUM2dEJZNXlZTXM5d2dUem5QYTVMTFU5YmFfYnZUOA?oc=5",
+        "title": "Efter Operation Vivaldi: OSINT-kartläggare ser tecken på ett ”betydande” ukrainskt brohuvud vid viktig flod - Dagens.se",
+        "summary": "Efter Operation Vivaldi: OSINT-kartläggare ser tecken på ett ”betydande” ukrainskt brohuvud vid viktig flod Dagens.se",
+        "date": "2026-10-29T14:13:22+00:00",
+        "publisher": "Dagens.se"
+      },
+      "discovery_version_key": "c569440dcc1022e8a5a6fa8f63d29d225c09a7e883efef6eda8a9d7f69ed57b0",
+      "discovery_version_schema": "source-discovery.v1",
+      "retrieval_attempts": 1,
+      "evidence_level": "retrieved_page_text",
+      "retrieved_at": "2026-10-30T02:16:45.876313+00:00",
+      "discovery_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdXZTQnZRM2EtYmxBWktaeGxsSU55NGdhcXVoVlhwdExrc2g4eDJaZ2FTVFBsYlpJa1dycFRxbDN5VjRTeVN1Q3kxbmhuN1MwVnpVVmYzeFdTRkdDR2hSYjEwRFNGdFNHeXN5LTJxUHhhVVdDRUlaUzRNM0x6NXprX2otRV9FQ3Bva3lCQ2xKbXJKQjhYZ29pTkliQmJQcnN4SUx6d1luWWNxYUJ5YUM2dEJZNXlZTXM5d2dUem5QYTVMTFU5YmFfYnZUOA?oc=5",
+      "page_published_at": "2026-10-29T15:12:00+01:00",
+      "page_modified_at": "2026-10-29T15:12:00+01:00",
+      "discovery_date": "2026-10-29T14:13:22+00:00",
+      "date_precision": "timestamp",
+      "resolved_url": "https://www.dagens.se/krig/efter-operation-vivaldi-osint-kartlaggare-ser-tecken-pa-ett-betydande-ukrainskt-brohuvud-vid-viktig-flod",
+      "text": "Ukraina förklarade Operation Vivaldi i norra Donetsk officiellt avslutad för två veckor sedan. Kartorna fortsätter att röra sig ändå. Just nu läser andra Rysk jetdriven drönare träffar järnvägsstation i Ukraina, minst 13 döda Putins sändebud sår tvivel om fredssamtalsdatum, hänvisar till ’stridssituationen’ Operation Vivaldi, Ukrainas 3:e armékårs fem månader långa kampanj på Lyman-flanken, förklarades avslutad den 14 oktober av dess befälhavare, brigadgeneral Andrij Biletskyj, som sade att ukrainska trupper hade återtagit 101 kvadratkilometer i en sista framstöt och avslutat operationen med 277 kvadratkilometer och 16 bosättningar åter under ukrainsk kontroll, till ett pris av ungefär 8 000 ryska förluster. Nu uppger oberoende slagfältskartläggare att striderna på marken inte har upphört. Den 26 oktober noterade OSINT-bevakarna AMK Mapping och Suriyak ukrainska soldater på den östra stranden av floden Zjerebets vid tre bosättningar: Makijivka, Novosadove och Terny, vilket skulle markera första gången ukrainska styrkor opererat öster om floden i betydande styrka sedan Ryssland korsade den 2024. Suriyak beskrev det som ”ett betydande brohuvud”. En separat daglig frontlinjeöversikt för den 27 oktober placerar ukrainska trupper öster om Zjerebets vid samma tre bosättningar och noterar ytterligare tryck mot Zaritjne och delar av Jampil, och beskriver sektorn som att den ”utökar sina positioner över flera sektorer öster om Zjerebets”. Display content from x.com Klicka för att visa externt innehåll från x , - Du kan alltid aktivera och inaktivera tredjepartsinnehåll. Du godkänner att visa externt innehåll från tredje part. Personuppgifter kan skickas till innehållsleverantören och andra tredjepartstjänster. Open content directly External content Read more about in our Privacy statement Varför floden är viktig Zjerebets rinner söderut genom norra oblastet Donetsk innan den förenar sig med Siverskyj Donets. Terny, i Kramatorsks rajon, ligger på den östra stranden ungefär 40 kilometer från Slovjansk och Kramatorsk, tvillingstäderna som förankrar det ukrainska försvaret i norra Donbas. Det är också den terräng Ryssland använde 2024 för att genomföra sin egen övergång och pressa på mot Slovjansk – en linje som Biletskyj sade att Vivaldi var utformad för att stänga. 3:e armékåren hade, sade han vid operationens avslutande, ”förhindrat fienden från att kringgå tätortsområdet Slovjansk–Kramatorsk från flankerna och inringa det”. Ett ukrainskt brohuvud på den motsatta stranden vänder på den geometrin. Det utsätter också de enheter som korsar floden för de typiska riskerna vid ett vattenhinder: underhåll över ett hinder, drönarmättade dödszoner och en rysk linje som fortfarande löper längs höjderna öster om floden. Ännu inte bekräftat av Kyiv Ukrainas militärledning har inte offentligt tillkännagett någon övergång av Zjerebets, och rapporterna förblir ett resultat av oberoende kartläggare som granskar öppna bildkällor och geolokaliseringar. Militäranalytikern Clément Molin, som citeras i Euromaidan Press ’ rapportering, sade att han trots olika rykten inte har kunnat bekräfta att ukrainarna faktiskt har korsat floden, och menade att enheter i sektorn borde fokusera på att befästa sina framgångar och inta en defensiv ställning snarare än att pressa vidare. Försiktigheten stämmer väl överens med hur 3:e armékåren har beskrivit sin egen metod: långsam, i liten skala och infanteriledd. I en analys av Vivaldi som publicerades samma dag som operationen förklarades avslutad, skrev officerare ur den amerikanska armén att Ukrainas framgångar kom från ”systematisk, geometrisk avskärning och positionellt tryck” snarare än pansarframstötar, där förband avancerade en kilometer i taget bakom drönare och telekrigföring. Kyiv Independents rapportering om operationen beskriver tvåmannagrupper för infiltration, långdistansangrepp mot ryska ammunitions- och bränsledepåer ända upp till 200 kilometer bakom frontlinjen, och ett förlustförhållande som kåren uppskattar till ungefär 1:7 till Ukrainas fördel. Ett storskaligt anfall över en flod hör inte hemma i den taktiken. Vad Kyiv säger utåt President Volodymyr Zelenskyj sade i ett uttalande den 27 oktober att Ukrainas frontlinje var i sitt starkaste skick på länge, och lyfte fram Vivaldi som en av årets tre milstolpsoperationer samt hävdade att ett starkare utländskt luftvärnsstöd skulle ge Kyiv mer tyngd vid ett förhandlingsbord. Hans kommentarer nämnde ingenting om någon övergång av Zjerebets.",
+      "page_sha256": "a2482bc97f76145ea58bebfb7063268b84dc706ebec5e2029151209b84ebbf8d",
+      "extraction_method": "rendered_visible_primary_article",
+      "evidence_limit": "Visible rendered primary-page text; factual review remains mandatory."
+    }
+  ],
+  "collection_evidence": {
+    "state": "ready",
+    "failed_discovery_urls": [],
+    "unread_urls": [],
+    "invalid_date_urls": [],
+    "subscription_exclusions": [],
+    "channel": "ibat",
+    "discovery": {
+      "channel": "ibat",
+      "date": "2026-10-30",
+      "feeds": [
+        {
+          "url": "https://www.theregister.com/security/headlines.atom",
+          "entries": 50,
+          "accepted": 10,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.svt.se/nyheter/rss.xml",
+          "entries": 100,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&categories=1334&filterByType=FilterablePageBase&rootPage=0",
+          "entries": 99,
+          "accepted": 5,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://www.europol.europa.eu/rss.xml",
+          "entries": 10,
+          "accepted": 10,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "entries": 28,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://feeds.arstechnica.com/arstechnica/index",
+          "entries": 20,
+          "accepted": 18,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Palantir%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 6,
+          "accepted": 6,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22open%20source%20intelligence%22%20OR%20OSINT%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 2,
+          "accepted": 2,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22law%20enforcement%22%20%28AI%20OR%20%22data%20platform%22%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Polismyndigheten%20%28digitalisering%20OR%20informationsf%C3%B6rs%C3%B6rjning%20OR%20AI%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%28Europol%20OR%20Interpol%29%20%28AI%20OR%20analytics%20OR%20%22information%20sharing%22%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%28myndighet%20OR%20myndigheter%29%20%28datadelning%20OR%20informationsdelning%20OR%20interoperabilitet%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 4,
+          "accepted": 4,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%28%22AI%20agents%22%20OR%20RAG%20OR%20%22knowledge%20graph%22%29%20%28%22public%20sector%22%20OR%20government%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22AI%20Act%22%20%28policing%20OR%20%22data%20protection%22%20OR%20%22law%20enforcement%22%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22digital%20forensics%22%20OR%20%22intelligence%20analysis%22%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=totalf%C3%B6rsvar%20%28myndighetssamverkan%20OR%20informationsdelning%20OR%20teknik%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 3,
+          "accepted": 3,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%28AI%20OR%20OSINT%20OR%20%22graph%20analytics%22%29%20%22public%20safety%22%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Abra.se%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 1,
+          "accepted": 1,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Anist.gov%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aedpb.europa.eu%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aenisa.europa.eu%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Adigital-strategy.ec.europa.eu%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 2,
+          "accepted": 2,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "entries"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Aop.europa.eu%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Agov.uk%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=site%3Ajustice.gov%20%28AI%20OR%20data%20OR%20analys%20OR%20digitalisering%20OR%20informationsdelning%29%20when%3A2d&hl=sv&gl=SE&ceid=SE:sv",
+          "entries": 0,
+          "accepted": 0,
+          "http_status": 200,
+          "feed_version": "rss20",
+          "parse_error": false,
+          "state": "empty"
+        }
+      ],
+      "web_candidates": 0,
+      "original_fallback": null,
+      "candidate_count": 97,
+      "scope": "discovery_only_not_factual_approval"
+    },
+    "checked_at": "2026-10-30T02:16:51.022069+00:00",
+    "scope": "bounded_monitoring_not_proof_of_worldwide_absence"
+  }
+}

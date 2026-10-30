@@ -1,0 +1,109 @@
+{
+  "approved": true,
+  "issues": [],
+  "short_episode_reason": "",
+  "source_coverage": [
+    {
+      "claim": "123 Reg drabbats av en AI-driven it-attack som komprometterat kunddata",
+      "source_url": "https://www.theregister.com/cyber-crime/2026/10/28/123-reg-discloses-ai-cyberattack-on-customer-data-suspects-china-nexus/5305936"
+    },
+    {
+      "claim": "Belgiens finans- och skattemyndighet har tvingats dra digitala tjänster offline efter en cyberattack",
+      "source_url": "https://www.theregister.com/security/2026/10/29/belgiums-tax-agency-confirms-cyberattack-pulls-services-offline/5306409"
+    },
+    {
+      "claim": "Oberoende OSINT-kartläggare uppger tecken på ett ukrainskt brohuvud vid floden Zjerebets",
+      "source_url": "https://www.dagens.se/krig/efter-operation-vivaldi-osint-kartlaggare-ser-tecken-pa-ett-betydande-ukrainskt-brohuvud-vid-viktig-flod"
+    }
+  ],
+  "collection_complete": true,
+  "coverage_complete": true,
+  "coverage_findings": [
+    {
+      "url": "https://www.theregister.com/cyber-crime/2026/10/28/123-reg-discloses-ai-cyberattack-on-customer-data-suspects-china-nexus/5305936",
+      "covered_facts": [
+        "123 Reg drabbades av en AI-driven it-attack den 18 september.",
+        "Kunddata och kontaktuppgifter komprometterades.",
+        "Utredningen pekar mot en kinesisk koppling samt användning av AI-exploateringsverktyg."
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.theregister.com/security/2026/10/29/belgiums-tax-agency-confirms-cyberattack-pulls-services-offline/5306409",
+      "covered_facts": [
+        "Belgias skattemyndighet FOD Financiën drog digitala tjänster offline.",
+        "MyMinfin och Tax-on-web stängdes tillfälligt ned.",
+        "Skattedeklarationsfrister förlängs till 16 november."
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.dagens.se/krig/efter-operation-vivaldi-osint-kartlaggare-ser-tecken-pa-ett-betydande-ukrainskt-brohuvud-vid-viktig-flod",
+      "covered_facts": [
+        "OSINT-kartläggare som AMK Mapping och Suriyak rapporterar om ukrainskt brohuvud öster om floden Zjerebets.",
+        "Aktivitet noterad vid Makijivka, Novosadove och Terny.",
+        "Ingen officiell bekräftelse från Kiev."
+      ],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.theregister.com/security/2026/10/28/oracle-celebrates-end-of-cybersecurity-awareness-month-with-quadruple-trouble/5306121",
+      "covered_facts": [],
+      "missing_facts": []
+    },
+    {
+      "url": "https://www.theregister.com/cyber-crime/2026/10/28/serial-ransomware-crook-gets-70-months-behind-bars-for-nefilim-hive-roles/5306050",
+      "covered_facts": [],
+      "missing_facts": []
+    }
+  ],
+  "selection_decisions": [
+    {
+      "url": "https://www.theregister.com/cyber-crime/2026/10/28/123-reg-discloses-ai-cyberattack-on-customer-data-suspects-china-nexus/5305936",
+      "selected": true,
+      "reason": "Hög verksamhetsrelevans inom cybersäkerhet och AI-relaterade hotbilder mot molntjänster.",
+      "event_key": "123_reg_ai_attack",
+      "source_quote": "123 Reg described the September 18 intrusion as \"the first known AI-driven cyberattack against our company,\""
+    },
+    {
+      "url": "https://www.theregister.com/security/2026/10/29/belgiums-tax-agency-confirms-cyberattack-pulls-services-offline/5306409",
+      "selected": true,
+      "reason": "Relevant händelse om cyberattack och nedstängning av samhällsviktiga digitala myndighetstjänster i Europa.",
+      "event_key": "belgium_tax_agency_cyberattack",
+      "source_quote": "Belgium's finance and tax agency has pulled \"several\" digital services offline after a cyberattack on the organization."
+    },
+    {
+      "url": "https://www.dagens.se/krig/efter-operation-vivaldi-osint-kartlaggare-ser-tecken-pa-ett-betydande-ukrainskt-brohuvud-vid-viktig-flod",
+      "selected": true,
+      "reason": "Viktig OSINT-analys av frontlinjeutveckling och geografiska förändringar.",
+      "event_key": "vivaldi_osint_bridgehead",
+      "source_quote": "Nu uppger oberoende slagfältskartläggare att striderna på marken inte har upphört."
+    },
+    {
+      "url": "https://www.theregister.com/security/2026/10/28/oracle-celebrates-end-of-cybersecurity-awareness-month-with-quadruple-trouble/5306121",
+      "selected": false,
+      "reason": "Väl värt att känna till tekniskt, men prioriteras lägre än de bredare incidenterna med samhällspåverkan.",
+      "event_key": "oracle_vulns",
+      "source_quote": "Attackers are probing a critical Oracle E-Business Suite vulnerability that can lead to remote code execution"
+    },
+    {
+      "url": "https://www.theregister.com/cyber-crime/2026/10/28/serial-ransomware-crook-gets-70-months-behind-bars-for-nefilim-hive-roles/5306050",
+      "selected": false,
+      "reason": "Rättsfall om historiska ransomware-brott, lägre prioritet för den aktuella dagliga omvärldsbriefen.",
+      "event_key": "ransomware_sentencing",
+      "source_quote": "Ukrainian ransomware crook Artem Stryzhak has been sentenced to 70 months in the slammer"
+    }
+  ],
+  "format_decision": {
+    "outcome": "standard",
+    "reason": "Flera relevanta, källbelagda nyheter inom cybersäkerhet och omvärldsbevakning fanns tillgängliga och har analyserats i enlighet med redaktionsprofilen."
+  },
+  "access_exclusions_reviewed": true,
+  "completeness": {
+    "version": "source-completeness-v1",
+    "sources_sha256": "1fb09006b5847616ba1a53bcbc1558fe685f4d60d8f70fe8cd6ede788362b40d",
+    "news_sha256": "7e28846c69aa426cbf3e77e903c422a760f10e8499b0f440c6828a248150d563",
+    "script_sha256": "3c0c24530de9323eac75ac3e45b662043b10b49a183e433812d7f91efbf6afcf",
+    "collection_sha256": "378b9d4b27ceab614b9411de7d520885a786e39001bbbadb5ef3296a205f299e"
+  }
+}
