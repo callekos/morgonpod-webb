@@ -76,6 +76,13 @@ Före miljörensningen passerade 33 enhetsprov, 64 desktop/Android-browserfall o
 
 Återställd bildrelease passerar 33 enhetsprov och 64 desktop/Android-browserfall inklusive exakt kö och scroll. Ett separat utökat UX-prov vid 320 px och 200 procent textstorlek hittade sidöverströmning och överlappande mobilnavigation. Det är ett kvarvarande produktfel i #16 och rättas efter bildreleasen i egen etapp, inte ett godkänt prov. Lokalt WebKit saknar systembibliotek och blockerades före teststart. Befintlig CI verifierar iPhone/iPad WebKit. Fysisk iPhone Safari, VoiceOver och lång bakgrundsuppspelning är inte testade.
 
-## Exakt nästa steg
+## Historiskt nästa steg från V5-checkpointen
 
 Slutför lokal omverifiering, skapa PR från work/web-v5-final-art, invänta full CI, jämför mot färsk main och integrera. Kontrollera Pages exakta filer, alla 20 serier och liveuppspelning med bevarad kö. Uppdatera denna fil, STYLE-STATUS.md, produktionsplan samt #14 med faktiska PR-, CI- och publiceringskvitton. Därefter följ #16 och UX-auditen. Större layoutändringar och permanent bildstandard kräver ägarbeslut.
+# 8 november 2026 — Mediesvepet arkiveras, ordinarie bevakning behålls
+
+Ägarens nya beslut ersätter äldre kanalantal och Mediesvepets vardagsproduktionsbeskrivning längre ned. Nyproduktion/publicering är permanent pausad; de två väntande utgåvorna får inte köras eller skickas. Äldre avsnitt, exempel, identiteter, ljud och länkar bevaras. Fyra aktiva bevakningskanaler (`ibat`, `vald`, `kek`, `sjoomradet`) och fyra kunskapskanaler behålls. Produktionsscheman ändras inte.
+
+På arbetsgrenen `work/mediesvepet-archive-20261108` är manifesttypen för `mediesvepet` ändrad från `monitoring` till `archive`. Kanalöversikten erbjuder “Arkiv och exempel”; startsidan fortsätter visa de aktiva grupperna, inte arkivserien. Mediesvepets egna kanalvy behåller avsnitt/artiklar och visar arkivstatus i stället för aktiv nyhetsbevakning. Episode-/artikelkatalog, ljud, bilder och historiska referens-/publiceringsdatum är orörda.
+
+Verifiering: `npm test` 48/48 passerar, inklusive fyra aktiva bevakningskanaler och separat arkivklassning. Ingen webbpublicering har körts. Tidigare checkpoint nedan beskriver V7:s historiska verifiering och är inte bevis för den här ändringens deployment.

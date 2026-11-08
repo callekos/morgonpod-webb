@@ -14,9 +14,9 @@ test('new monitoring channel retains its own identity in every saved art style',
  }}
  assert.equal(api.styles.length,21);
 });
-test('media joins monitoring independently of knowledge channels',()=>{
- const groups=Core.channelGroups([{id:'mediesvepet',channel_type:'monitoring',display_order:4},{id:'lagstiftning',channel_type:'knowledge',display_order:4}]);
- assert.deepEqual(groups.map(g=>g.channels.map(c=>c.id)),[['mediesvepet'],['lagstiftning']]);
+test('media stays discoverable in archive without joining active monitoring or knowledge groups',()=>{
+ const groups=Core.channelGroups([{id:'mediesvepet',channel_type:'archive',display_order:4},{id:'lagstiftning',channel_type:'knowledge',display_order:4}]);
+ assert.deepEqual(groups.map(g=>g.channels.map(c=>c.id)),[[],['lagstiftning'],['mediesvepet']]);
 });
 
 test('media displays its reference day while preserving actual production and delivery data',()=>{
