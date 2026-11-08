@@ -37,8 +37,8 @@ test('numbered approved title is identical in archive, detail, saved queue, play
  await page.goto('/utforska.html');await page.getByRole('searchbox').fill(row.content_headline.split(' ')[0]);await page.getByRole('button',{name:'Sök',exact:true}).click();await expect(page.locator('[data-id="'+row.id+'"] .row-title strong')).toHaveText(row.title);
 });
 
-test('Mediesvepet leads monitoring presentation and other channel preferences survive',async({page},info)=>{
- const monitoring=['mediesvepet','ibat','vald','sjoomradet','kek'];
+test('Mediesvepet stays in archive, four-channel monitoring order and preferences survive',async({page},info)=>{
+ const monitoring=['ibat','vald','sjoomradet','kek'];
  const catalog=await(await page.request.get('/catalog/manifest.json')).json();
  const knowledge=catalog.channels.filter(c=>c.channel_type==='knowledge').sort((a,b)=>a.display_order-b.display_order||a.id.localeCompare(b.id)).map(c=>c.id);
  await page.addInitScript(()=>{localStorage.setItem('morgonpod-theme','dark');localStorage.setItem('order-preservation-probe','keep');});
@@ -46,9 +46,10 @@ test('Mediesvepet leads monitoring presentation and other channel preferences su
   await page.setViewportSize({width,height:1000});
   for(const route of ['/kanaler.html','/idag.html']){
    await page.goto(route);const home=route==='/idag.html';
-   await expect(page.locator('[data-group=monitoring] .channel-card')).toHaveCount(home?4:5);
+   await expect(page.locator('[data-group=monitoring] .channel-card')).toHaveCount(4);
    const ids=group=>page.locator('[data-group='+group+'] .channel-card').evaluateAll(nodes=>nodes.map(n=>new URL(n.href).searchParams.get('id')));
-   expect(await ids('monitoring')).toEqual(home?monitoring.slice(0,4):monitoring);
+   expect(await ids('monitoring')).toEqual(monitoring);
+   if(!home){await expect(page.locator('[data-group=archive] .channel-card')).toHaveCount(1);expect(await ids('archive')).toEqual(['mediesvepet']);await page.getByRole('link',{name:'Arkiv och exempel',exact:true}).click();await expect(page).toHaveURL(/group=archive/);await page.locator('[data-group=archive] .channel-card').click();await expect(page.locator('.channel-type')).toHaveText('Arkiv och exempel');await expect(page.getByRole('link',{name:'Aktuella avsnitt'})).toHaveCount(0);await page.goto(route);}
    await page.screenshot({path:'docs/evidence/'+info.project.name+'-media-order-'+(home?'home':'directory')+'-'+width+'.png',fullPage:true});
    expect(await ids('knowledge')).toEqual(home?knowledge.slice(0,4):knowledge);
    expect(await page.evaluate(()=>[localStorage.getItem('morgonpod-theme'),localStorage.getItem('order-preservation-probe')])).toEqual(['dark','keep']);
