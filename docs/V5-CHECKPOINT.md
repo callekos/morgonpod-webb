@@ -86,3 +86,7 @@ Slutför lokal omverifiering, skapa PR från work/web-v5-final-art, invänta ful
 På arbetsgrenen `work/mediesvepet-archive-20261108` är manifesttypen för `mediesvepet` ändrad från `monitoring` till `archive`. Kanalöversikten erbjuder “Arkiv och exempel”; startsidan fortsätter visa de aktiva grupperna, inte arkivserien. Mediesvepets egna kanalvy behåller avsnitt/artiklar och visar arkivstatus i stället för aktiv nyhetsbevakning. Episode-/artikelkatalog, ljud, bilder och historiska referens-/publiceringsdatum är orörda.
 
 Verifiering: `npm test` 48/48 passerar, inklusive fyra aktiva bevakningskanaler och separat arkivklassning. Ingen webbpublicering har körts. Tidigare checkpoint nedan beskriver V7:s historiska verifiering och är inte bevis för den här ändringens deployment.
+
+### 8 november 2026 — Mediesvepet arkivvy, uppföljning
+
+Webbgrenen `work/mediesvepet-archive-20261108` har commit `07eb60647b02b222a07d5523b92e579c127e4147` efter browser-CI-felanalys. Run `42515881903` hade 192 godkända browserfall och 16 fel; felen var gamla förväntningar på Mediesvepet som bevakningskanal samt ett tomt arkivgruppsskal på startsidan. Tomma grupper filtreras nu bort, arkivfilter/kort finns kvar i kanalöversikten, och browserassertionerna räknar de fyra bevakningskanalerna. `npm test` passerar 48/48 och `git diff --check` är ren. Ny full Web acceptance-run `42516961811` går; invänta browser- och unit-resultat före nästa checkpoint. PR #71 är draft/ej integrerad; ingen publicering/deploy har körts.
