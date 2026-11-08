@@ -46,12 +46,12 @@ test('filtered archive queue does not admit unrelated content from a later page'
 });
 
 
-test('five-channel morning includes Mediesvepet once in the playlist',async({page})=>{
+test('four-channel morning excludes archived Mediesvepet from the playlist',async({page})=>{
  await require('./morning-fixture.cjs').morningFixture(page,5,true);
- await page.goto('/idag.html');await expect(page.locator('.morning-strip a')).toHaveCount(5);
- await expect(page.locator('.morning-strip a[href*="mediesvepet"]')).toHaveCount(1);
- await expect(page.locator('#brief-action')).toContainText('5 avsnitt');
+ await page.goto('/idag.html');await expect(page.locator('.morning-strip a')).toHaveCount(4);
+ await expect(page.locator('.morning-strip a[href*="mediesvepet"]')).toHaveCount(0);
+ await expect(page.locator('#brief-action')).toContainText('4 avsnitt');
  await page.getByRole('button',{name:'Spela bevakningen',exact:true}).click();
  await expect.poll(()=>page.locator('#audio').evaluate(a=>a.currentTime)).toBeGreaterThan(0);
- await expect(page.locator('.queue-title')).toHaveCount(4);
+ await expect(page.locator('.queue-title')).toHaveCount(3);
 });

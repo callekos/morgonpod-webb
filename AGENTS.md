@@ -1,5 +1,9 @@
 # AGENTS.md: Morgonpod webb
 
+## Ägarbeslut 8 november 2026 — Mediesvepet visas som arkiv/exempel
+
+Mediesvepets nyproduktion och publicering är permanent pausad. Ändra inte dess tidigare innehåll, exempel, ID:n, filer, länkar eller uppspelning och kör inte de två väntande utgåvorna. Placera kanalen under “Arkiv och exempel”, skild från de fyra aktiva bevakningskanalerna `ibat`, `vald`, `kek` och `sjoomradet`. De fyra ordinarie kanalernas produktion och scheman ska vara oförändrade. Äldre antal nedan är historiska. Webbändringen i sig innebär inte publicering/deployment.
+
 Denna webbplats är publicerings- och läsgränssnittet för Morgonpod. Den delar projektmål och driftkrav med `callekos/nyhetspodden`, som är källan för produktion, modellval, kvotstyrning och research.
 
 ## Varje nytt utvecklingsuppdrag
@@ -10,7 +14,7 @@ Denna webbplats är publicerings- och läsgränssnittet för Morgonpod. Den dela
 
 ## Drift och användarupplevelse
 - Varje framtida beställning av ny kanal inkluderar automatiskt en egen kanalbild i gällande standardstil, registrering i befintligt manifest/resolver, master och responsiva leveranser samt faktisk visuell kontroll mobil och desktop. Bevara egna stilval, fokalpunkt och säker fallback; ingen separat bildbeställning eller rutinmässig godkännandefråga behövs. Produktionsrepots docs/CHANNEL-CREATION-CHECKLIST.md är gemensam checklista.
-- Webbarkivet ska tåla nio kanaler idag (fem bevakningskanaler och fyra kunskapskanaler, där Mediesvepet följer vardagsschema) och växa mot många tusen avsnitt utan att ladda hela arkivet i webbläsaren.
+- Webbarkivet ska tåla fyra aktiva bevakningskanaler, fyra kunskapskanaler och arkiverade serier/exempel; arkivet ska växa mot många tusen avsnitt utan att ladda hela arkivet i webbläsaren.
 - Behåll lättanvänt mobilgränssnitt med Idag, Lyssna, Artiklar och Utforska, tydlig uppspelning, sökbara källor och god tillgänglighet.
 - Artikeltext och källreferenser ska vara spårbara; inga fabricerade nyheter eller uppföljningar.
 - Gör inte blinda uppdateringar som tar bort tidigare publicerade avsnitt, index eller statistik.

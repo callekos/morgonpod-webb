@@ -76,6 +76,19 @@ Före miljörensningen passerade 33 enhetsprov, 64 desktop/Android-browserfall o
 
 Återställd bildrelease passerar 33 enhetsprov och 64 desktop/Android-browserfall inklusive exakt kö och scroll. Ett separat utökat UX-prov vid 320 px och 200 procent textstorlek hittade sidöverströmning och överlappande mobilnavigation. Det är ett kvarvarande produktfel i #16 och rättas efter bildreleasen i egen etapp, inte ett godkänt prov. Lokalt WebKit saknar systembibliotek och blockerades före teststart. Befintlig CI verifierar iPhone/iPad WebKit. Fysisk iPhone Safari, VoiceOver och lång bakgrundsuppspelning är inte testade.
 
-## Exakt nästa steg
+## Historiskt nästa steg från V5-checkpointen
 
 Slutför lokal omverifiering, skapa PR från work/web-v5-final-art, invänta full CI, jämför mot färsk main och integrera. Kontrollera Pages exakta filer, alla 20 serier och liveuppspelning med bevarad kö. Uppdatera denna fil, STYLE-STATUS.md, produktionsplan samt #14 med faktiska PR-, CI- och publiceringskvitton. Därefter följ #16 och UX-auditen. Större layoutändringar och permanent bildstandard kräver ägarbeslut.
+# 8 november 2026 — Mediesvepet arkiveras, ordinarie bevakning behålls
+
+Ägarens nya beslut ersätter äldre kanalantal och Mediesvepets vardagsproduktionsbeskrivning längre ned. Nyproduktion/publicering är permanent pausad; de två väntande utgåvorna får inte köras eller skickas. Äldre avsnitt, exempel, identiteter, ljud och länkar bevaras. Fyra aktiva bevakningskanaler (`ibat`, `vald`, `kek`, `sjoomradet`) och fyra kunskapskanaler behålls. Produktionsscheman ändras inte.
+
+På arbetsgrenen `work/mediesvepet-archive-20261108` är manifesttypen för `mediesvepet` ändrad från `monitoring` till `archive`. Kanalöversikten erbjuder “Arkiv och exempel”; startsidan fortsätter visa de aktiva grupperna, inte arkivserien. Mediesvepets egna kanalvy behåller avsnitt/artiklar och visar arkivstatus i stället för aktiv nyhetsbevakning. Episode-/artikelkatalog, ljud, bilder och historiska referens-/publiceringsdatum är orörda.
+
+Verifiering: `npm test` 48/48 passerar, inklusive fyra aktiva bevakningskanaler och separat arkivklassning. Ingen webbpublicering har körts. Tidigare checkpoint nedan beskriver V7:s historiska verifiering och är inte bevis för den här ändringens deployment.
+
+### 8 november 2026 — Mediesvepet arkivvy, uppföljning
+
+Webbgrenen `work/mediesvepet-archive-20261108` innehåller fixen i `07eb6064` (gruppvy) och checkpoint i `ce4f3f8f`. Första browser-CI `42515881903` hade 192 pass/16 fail, gamla femkanalsförväntningar samt tom grupp. Färsk full run `42517102486` hade 204 pass/4 fail; samtliga fyra var samma kvarvarande korttest som väntade två beskrivande grupper efter tillbaka-navigation, fast katalogen har tre (bevakning, kunskap, arkiv). Assertionen är nu rättad till tre. `npm test` passerar 48/48 och `git diff --check` är ren; ny Web acceptance-CI väntas. Arkivfilter/kort finns kvar i katalogen, startsidan visar aktiva grupper, och browserassertionerna räknar fyra bevakningskanaler. PR #71 är draft/ej integrerad; ingen publicering/deploy har körts.
+
+**Verifierad acceptans:** Web acceptance-run `42517685631` på kodhead `bae509dd3cb38c84dddf6428f6e4d65aab57315d` passerade enhetstester och 208 browserfall; publiceringsjobbet var skipped. De fyra bevakningskanalerna och deras morgenlista verifieras separat från arkivkortet; Mediesvepets katalog, avsnitt och exempel behålls. PR #71 är fortfarande draft/ej integrerad, alltså är detta verifierad branch-acceptans, inte live/deployment-kvitto.
