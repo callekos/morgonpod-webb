@@ -14,7 +14,7 @@ exports.cardsCheck=async({page},info)=>{
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);if(width===320||width===1450)await page.screenshot({path:'docs/evidence/'+info.project.name+'-cards-39-'+width+'.png',fullPage:true});
  }
  await page.setViewportSize({width:320,height:1000});await page.evaluate(()=>document.documentElement.style.fontSize='200%');expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
- await page.locator('[data-group=knowledge] .channel-card').first().focus();await page.keyboard.press('Enter');await expect(page.locator('.channel-hero')).toBeVisible();await page.goBack();await expect(page.locator('.descriptive-channels')).toHaveCount(2);
+ await page.locator('[data-group=knowledge] .channel-card').first().focus();await page.keyboard.press('Enter');await expect(page.locator('.channel-hero')).toBeVisible();await page.goBack();await expect(page.locator('.descriptive-channels')).toHaveCount(3);
  await page.screenshot({path:'docs/evidence/'+info.project.name+'-cards-39.png',fullPage:true});
 };
 
